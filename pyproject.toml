@@ -12,6 +12,7 @@ dependencies = [
     "rich",  # For nice CLI output
     "jinja2",  # New dependency
     "click",  # New dependency
+    "pyarrow",  # New dependency
 ]
 
 [project.optional-dependencies]
