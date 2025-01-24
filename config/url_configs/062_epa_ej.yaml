@@ -1,0 +1,19 @@
+url: https://www.epa.gov/ejscreen
+name: Environmental Justice Screening and Mapping Tool (EJSCREEN)
+expected_update_frequency: yearly
+tags: [environmental, justice, mapping, epa]
+api_config:
+  url: https://ejscreen.epa.gov/mapper/ejscreenRESTSOE/v3/status
+  method: GET
+  params:
+    f: json
+  expected_fields:
+    - currentVersion
+    - serviceDescription
+    - lastDataUpdate
+    - dataLayers[0].name
+    - dataLayers[0].description
+    - dataLayers[0].lastUpdate
+    - dataLayers[0].dataYear
+    - dataLayers[0].source
+  date_field: lastDataUpdate

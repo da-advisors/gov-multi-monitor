@@ -1,0 +1,23 @@
+url: https://www.wrapsnet.org/
+name: Worldwide Refugee Admissions Processing System (WRAPS)
+expected_update_frequency: monthly
+tags: [state-department, refugees, immigration]
+api_config:
+  url: https://www.wrapsnet.org/api/admissions
+  method: GET
+  params:
+    year: 2024
+    limit: 1
+  expected_fields:
+    - meta.total
+    - meta.last_updated
+    - data[0].fiscal_year
+    - data[0].month
+    - data[0].nationality
+    - data[0].religion
+    - data[0].state_of_residence
+    - data[0].placement_city
+    - data[0].age_group
+    - data[0].gender
+    - data[0].count
+  date_field: meta.last_updated

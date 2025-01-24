@@ -1,0 +1,20 @@
+url: https://www.nhtsa.gov/laws-regulations/automated-driving-systems
+name: NHTSA Automated Driving Systems
+expected_update_frequency: monthly
+tags: [transportation, autonomous-vehicles, safety]
+api_config:
+  url: https://api.nhtsa.gov/SafetyIssues/adas
+  method: GET
+  params:
+    format: json
+    limit: 1
+  expected_fields:
+    - Count
+    - Results[0].NHTSAActionNumber
+    - Results[0].ReportReceivedDate
+    - Results[0].Component
+    - Results[0].Summary
+    - Results[0].Consequence
+    - Results[0].Remedy
+    - Results[0].Notes
+  date_field: Results[0].ReportReceivedDate

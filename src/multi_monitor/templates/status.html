@@ -1,141 +1,134 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>URL Status Report</title>
     <style>
-        .status-ok { 
-            color: #000000 !important; 
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
         }
-        .status-redirect { 
-            color: #6c757d !important;
-            font-style: italic;
+        .header {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .status-404, .status-error { 
-            color: #dc3545 !important;
-            font-weight: bold;
+        .status-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .tag { 
+        .status-table th, .status-table td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #eee;
+        }
+        .status-table th {
+            background: #f8f9fa;
+            font-weight: 600;
+        }
+        .status-ok { color: #28a745; }
+        .status-error { color: #dc3545; }
+        .status-redirect { color: #ffc107; }
+        .tag {
             display: inline-block;
-            padding: 0.25em 0.4em;
-            font-size: 75%;
-            font-weight: 700;
-            line-height: 1;
-            text-align: center;
-            white-space: nowrap;
-            vertical-align: baseline;
-            border-radius: 0.25rem;
-            background-color: #f8f9fa;
-            margin: 0.2em;
+            padding: 2px 8px;
+            margin: 2px;
+            border-radius: 12px;
+            background: #e9ecef;
+            font-size: 0.85em;
         }
-        .details-redirect {
+        .update-info {
+            font-size: 0.9em;
+            color: #666;
+        }
+        .api-status {
+            margin-top: 4px;
+            padding: 4px 8px;
+            border-radius: 4px;
+            background: #f8f9fa;
+            font-size: 0.9em;
+        }
+        .api-ok { border-left: 4px solid #28a745; }
+        .api-error { border-left: 4px solid #dc3545; }
+        .expected-update {
             font-style: italic;
-            color: #6c757d !important;
-        }
-        .details-error {
-            font-weight: bold;
-            color: #dc3545 !important;
-        }
-        td {
-            vertical-align: middle !important;
+            color: #666;
         }
     </style>
 </head>
 <body>
-    <div class="container py-4">
-        <h1>{{ title }}</h1>
-        <p class="text-muted">Last updated: {{ last_updated }}</p>
-
-        <!-- Recent Changes -->
-        {% if changes %}
-        <div class="card mb-4">
-            <div class="card-header">
-                <h2 class="h5 mb-0">Recent Changes (Last 24 Hours)</h2>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>URL</th>
-                                <th>Old Status</th>
-                                <th>New Status</th>
-                                <th>Changed At</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for change in changes %}
-                            <tr>
-                                <td>{{ change.url }}</td>
-                                <td class="status-{{ change.old_status }}">{{ change.old_status }}</td>
-                                <td class="status-{{ change.new_status }}">{{ change.new_status }}</td>
-                                <td>{{ change.new_timestamp }}</td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-        {% endif %}
-
-        <!-- Current Status -->
-        <div class="card">
-            <div class="card-header">
-                <h2 class="h5 mb-0">Current Status</h2>
-            </div>
-            <div class="card-body">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead>
-                            <tr>
-                                <th>Name</th>
-                                <th>URL</th>
-                                <th>Status</th>
-                                <th>Last Modified</th>
-                                <th>Details</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {% for result in results %}
-                            <tr>
-                                <td>{{ result.name or result.url }}</td>
-                                <td><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></td>
-                                <td class="status-{{ result.status }}">{{ result.status }}</td>
-                                <td>{{ result.last_modified|default("-", true) }}</td>
-                                <td class="details-{{ 'error' if result.error_message else 'redirect' if result.redirect_url else '' }}">
-                                    {{ result.error_message or result.redirect_url or "-" }}
-                                </td>
-                            </tr>
-                            {% endfor %}
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </div>
-
-        <!-- Tag Groups -->
-        {% if tag_groups %}
-        <div class="card mt-4">
-            <div class="card-header">
-                <h2 class="h5 mb-0">URLs by Tag</h2>
-            </div>
-            <div class="card-body">
-                {% for tag, urls in tag_groups.items() %}
-                <h3 class="h6">{{ tag }}</h3>
-                <ul>
-                    {% for url in urls %}
-                    <li><a href="{{ url.url }}" target="_blank">{{ url.name }}</a></li>
-                    {% endfor %}
-                </ul>
-                {% endfor %}
-            </div>
-        </div>
-        {% endif %}
+    <div class="header">
+        <h1>URL Status Report</h1>
+        <p>Generated on {{ timestamp }}</p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <table class="status-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>URL</th>
+                <th>Status</th>
+                <th>Last Check</th>
+                <th>Tags</th>
+                <th>Details</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for result in results %}
+            <tr>
+                <td>
+                    {{ result.name or result.url }}
+                    {% if result.expected_update_frequency %}
+                    <div class="expected-update">
+                        Expected updates: {{ result.expected_update_frequency }}
+                    </div>
+                    {% endif %}
+                </td>
+                <td><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></td>
+                <td>
+                    <span class="status-{{ result.status }}">{{ result.status }}</span>
+                    {% if result.api_result %}
+                    <div class="api-status {% if result.api_result.status == 'ok' %}api-ok{% else %}api-error{% endif %}">
+                        API: {% if result.api_result.status == 'ok' %}✓{% else %}✗{% endif %}
+                        {% if result.api_result.last_update %}
+                        <div class="update-info">Last update: {{ result.api_result.last_update.strftime('%Y-%m-%d') }}</div>
+                        {% endif %}
+                        {% if result.api_result.error_message %}
+                        <div class="update-info">{{ result.api_result.error_message }}</div>
+                        {% endif %}
+                    </div>
+                    {% endif %}
+                </td>
+                <td>
+                    {{ result.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}
+                    {% if result.last_modified %}
+                    <div class="update-info">Modified: {{ result.last_modified.strftime('%Y-%m-%d') }}</div>
+                    {% endif %}
+                </td>
+                <td>
+                    {% for tag in result.tags %}
+                    <span class="tag">{{ tag }}</span>
+                    {% endfor %}
+                </td>
+                <td>
+                    {% if result.error_message %}
+                    <span class="status-error">{{ result.error_message }}</span>
+                    {% elif result.redirect_url %}
+                    <span class="status-redirect">Redirects to: {{ result.redirect_url }}</span>
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
 </body>
 </html>

@@ -1,0 +1,4 @@
+url: https://ocrdata.ed.gov/resources/downloaddatafile
+name: Civil Rights Data Collection Download
+expected_update_frequency: yearly
+tags: [education, civil-rights, ed, data-files]

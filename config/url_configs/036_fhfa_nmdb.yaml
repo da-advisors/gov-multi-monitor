@@ -1,0 +1,20 @@
+url: https://www.fhfa.gov/DataTools/Pages/National-Mortgage-Database.aspx
+name: National Mortgage Database (NMDB)
+expected_update_frequency: quarterly
+tags: [housing, mortgage, fhfa]
+api_config:
+  url: https://www.fhfa.gov/api/NMDB/quarterly-data
+  method: GET
+  params:
+    sort: -quarter
+    limit: 1
+  expected_fields:
+    - meta.total
+    - data[0].year
+    - data[0].quarter
+    - data[0].last_updated
+    - data[0].loan_count
+    - data[0].average_loan_amount
+    - data[0].average_interest_rate
+    - data[0].average_loan_term
+  date_field: data[0].last_updated

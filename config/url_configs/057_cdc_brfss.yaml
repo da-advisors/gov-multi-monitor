@@ -1,0 +1,25 @@
+url: https://www.cdc.gov/brfss/index.html
+name: Behavioral Risk Factor Surveillance System (BRFSS)
+expected_update_frequency: yearly
+tags: [health, cdc, behavioral-health, survey]
+api_config:
+  url: https://chronicdata.cdc.gov/resource/dttw-5yxu.json
+  method: GET
+  params:
+    $order: year DESC
+    $limit: 1
+  expected_fields:
+    - year
+    - locationabbr
+    - locationdesc
+    - class
+    - topic
+    - question
+    - response
+    - sample_size
+    - data_value
+    - confidence_limit_low
+    - confidence_limit_high
+    - break_out
+    - break_out_category
+  date_field: year

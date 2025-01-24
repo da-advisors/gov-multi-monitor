@@ -3,8 +3,7 @@ import click
 from pathlib import Path
 from rich.console import Console
 from rich.table import Table
-from rich.panel import Panel
-from datetime import datetime, timedelta
+from datetime import datetime
 import sys
 import logging
 import jinja2
@@ -43,111 +42,92 @@ def check(config: str, url: str = None, verbose: bool = False):
         table.add_column("Name")
         table.add_column("URL")
         table.add_column("Status")
-        table.add_column("Response Time", justify="right")
+        table.add_column("Expected Updates")
         table.add_column("Last Modified")
+        table.add_column("API Status", justify="right")
         table.add_column("Details")
         
         # Filter URLs if specific one requested
         urls = [u for u in cfg.urls if not url or u.url == url]
         
-        with console.status("[bold green]Checking URLs..."):
-            for url_config in urls:
-                result = checker.check_url(url_config)
-                history.add_result(result)
-                
-                # Add row to table
-                status_color = {
-                    'ok': 'green',
-                    'redirect': 'yellow',
-                    '404': 'red',
-                    'error': 'red'
-                }.get(result.status, 'white')
-                
-                details = []
-                if result.redirect_url:
-                    details.append(f"→ {result.redirect_url}")
-                if result.error_message:
-                    details.append(result.error_message)
-                if result.status_code:
-                    details.append(f"HTTP {result.status_code}")
-                
-                table.add_row(
-                    url_config.name or url_config.url,
-                    result.url,
-                    f"[{status_color}]{result.status}[/{status_color}]",
-                    f"{result.response_time:.2f}s" if result.response_time else "-",
-                    result.last_modified.strftime("%Y-%m-%d %H:%M:%S") if result.last_modified else "-",
-                    "\n".join(details)
-                )
-                
-                # Show headers if verbose and there was an error
-                if verbose and (result.status in ['404', 'error']):
-                    console.print(Panel(
-                        "\n".join([f"{k}: {v}" for k, v in (result.raw_headers or {}).items()]),
-                        title=f"Response Headers for {url_config.name or url_config.url}",
-                        title_align="left"
-                    ))
+        for url_config in urls:
+            result = checker.check_url(url_config)
+            history.add_result(result)
+            
+            # Format API status
+            api_status = "-"
+            if result.api_result:
+                if result.api_result.status == 'ok':
+                    api_status = "✓"
+                    if result.api_result.last_update:
+                        api_status += f" ({result.api_result.last_update.strftime('%Y-%m-%d')})"
+                else:
+                    api_status = f"✗ ({result.api_result.error_message})"
+            
+            # Add row to results table
+            table.add_row(
+                url_config.name or url_config.url,
+                result.url,
+                result.status,
+                result.expected_update_frequency or "-",
+                result.last_modified.strftime("%Y-%m-%d %H:%M:%S") if result.last_modified else "-",
+                api_status,
+                result.error_message or result.redirect_url or "-"
+            )
         
         console.print(table)
         
     except Exception as e:
-        console.print(f"[red]Error:[/red] {str(e)}")
-        if verbose:
-            import traceback
-            console.print(Panel(traceback.format_exc(), title="Traceback"))
+        console.print(f"[red]Error: {e}[/red]")
         sys.exit(1)
 
 @cli.command()
 @click.option('--config', default='config/urls.yaml', help='Path to config file')
-def generate_page(config: str):
-    """Generate status page for GitHub Pages."""
+@click.option('--output', default='docs/index.html', help='Output HTML file')
+@click.option('--template', default=None, help='Custom template file')
+def generate_page(config: str, output: str, template: str = None):
+    """Generate a status page."""
     try:
         config_path = Path(config)
         cfg = MonitorConfig.from_yaml(config_path)
         
-        if not cfg.status_page_dir:
-            console.print("[red]Error: status_page_dir not configured[/red]")
-            sys.exit(1)
-        
-        # Ensure status page directory exists
-        cfg.status_page_dir.mkdir(parents=True, exist_ok=True)
-        
-        # Load history
+        # Initialize checker and history
+        checker = URLChecker()
         history = CheckHistory(cfg.history_file)
-        latest_results = history.get_latest_results()
         
-        # Get status changes in last 24 hours
-        yesterday = datetime.now() - timedelta(days=1)
-        changes = history.get_status_changes(yesterday)
-        
-        # Group URLs by tags
-        tag_groups = {}
+        # Get results for all URLs
+        results = []
         for url_config in cfg.urls:
-            for tag in url_config.tags:
-                if tag not in tag_groups:
-                    tag_groups[tag] = []
-                tag_groups[tag].append(url_config)
+            result = checker.check_url(url_config)
+            result.tags = url_config.tags  # Add tags to result for display
+            results.append(result)
+            history.add_result(result)
         
         # Load template
-        template_dir = Path(__file__).parent / 'templates'
-        template_loader = jinja2.FileSystemLoader(searchpath=template_dir)
-        template_env = jinja2.Environment(loader=template_loader)
-        template = template_env.get_template('status.html')
+        if template:
+            template_path = Path(template)
+            template_dir = template_path.parent
+            template_file = template_path.name
+        else:
+            template_dir = Path(__file__).parent / 'templates'
+            template_file = 'status.html'
         
-        # Render template
+        env = jinja2.Environment(
+            loader=jinja2.FileSystemLoader(template_dir),
+            autoescape=jinja2.select_autoescape(['html', 'xml'])
+        )
+        template = env.get_template(template_file)
+        
+        # Generate HTML
         html = template.render(
-            title="Government Sites Status",
-            last_updated=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
-            results=latest_results.to_dict('records'),
-            changes=changes.to_dict('records'),
-            tag_groups=tag_groups
+            timestamp=datetime.now().strftime('%Y-%m-%d %H:%M:%S'),
+            results=results
         )
         
         # Write output
-        output_file = cfg.status_page_dir / 'index.html'
-        output_file.write_text(html)
-        
-        console.print(f"[green]Status page generated at {output_file}[/green]")
+        output_path = Path(output)
+        output_path.write_text(html)
+        console.print(f"Status page generated: {output_path}")
         
     except Exception as e:
         console.print(f"[red]Error: {e}[/red]")

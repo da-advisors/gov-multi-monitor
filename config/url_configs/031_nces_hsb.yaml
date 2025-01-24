@@ -1,0 +1,19 @@
+url: https://nces.ed.gov/surveys/hsb/
+name: High School and Beyond (HS&B)
+expected_update_frequency: yearly
+tags: [education, nces, longitudinal, high-school]
+api_config:
+  url: https://nces.ed.gov/api/hsb/cohorts
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - cohorts[0].cohort_year
+    - cohorts[0].name
+    - cohorts[0].status
+    - cohorts[0].release_date
+    - cohorts[0].sample_size
+    - cohorts[0].followup_years
+  date_field: cohorts[0].release_date

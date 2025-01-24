@@ -1,0 +1,18 @@
+url: https://www.justice.gov/usao/resources/reports
+name: U.S. Attorneys Annual Statistical Reports
+expected_update_frequency: yearly
+tags: [justice, prosecution, statistics]
+api_config:
+  url: https://www.justice.gov/api/v1/usao/reports
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - reports[0].fiscal_year
+    - reports[0].title
+    - reports[0].publish_date
+    - reports[0].report_type
+    - reports[0].file_url
+  date_field: reports[0].publish_date

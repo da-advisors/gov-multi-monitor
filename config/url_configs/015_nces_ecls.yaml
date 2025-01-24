@@ -1,0 +1,19 @@
+url: https://nces.ed.gov/ecls/
+name: Early Childhood Longitudinal Study (ECLS)
+expected_update_frequency: yearly
+tags: [education, nces, early-childhood, longitudinal]
+api_config:
+  url: https://nces.ed.gov/api/ecls/cohorts
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - cohorts[0].study_id
+    - cohorts[0].name
+    - cohorts[0].base_year
+    - cohorts[0].status
+    - cohorts[0].last_update
+    - cohorts[0].data_years
+  date_field: cohorts[0].last_update

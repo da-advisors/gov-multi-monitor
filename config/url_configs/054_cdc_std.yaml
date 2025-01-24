@@ -1,0 +1,18 @@
+url: https://www.cdc.gov/std/statistics/default.htm
+name: CDC STD Surveillance Statistics
+expected_update_frequency: yearly
+tags: [health, cdc, std-surveillance]
+api_config:
+  url: https://data.cdc.gov/resource/kcdc-hxj6.json
+  method: GET
+  params:
+    $order: year DESC
+    $limit: 1
+  expected_fields:
+    - year
+    - disease
+    - state
+    - cases
+    - rates_per_100000
+    - last_updated
+  date_field: last_updated

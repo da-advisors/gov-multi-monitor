@@ -1,0 +1,19 @@
+url: https://nhats.org/researcher/data-access
+name: National Health and Aging Trends Study (NHATS)
+expected_update_frequency: yearly
+tags: [health, nih, aging, longitudinal]
+api_config:
+  url: https://nhats.org/api/v1/releases
+  method: GET
+  headers:
+    Accept: application/json
+  expected_fields:
+    - current_round
+    - last_updated
+    - releases[0].round
+    - releases[0].release_date
+    - releases[0].data_collection_year
+    - releases[0].sample_size
+    - releases[0].response_rate
+    - releases[0].documentation_version
+  date_field: releases[0].release_date

@@ -1,0 +1,4 @@
+url: https://www.fhfa.gov/DataTools/Pages/Public-Use-Databases.aspx
+name: National Mortgage Database Public Use Files
+expected_update_frequency: quarterly
+tags: [housing, mortgage, fhfa]

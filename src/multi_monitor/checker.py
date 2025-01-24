@@ -1,25 +1,28 @@
-"""Core URL checking functionality."""
-from dataclasses import dataclass
-from datetime import datetime
-from typing import Optional, List, Dict, Any
+"""Check URLs for availability and changes."""
 import requests
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse, urljoin
+from datetime import datetime
+from dataclasses import dataclass
+from typing import Optional, Dict, Any
 import logging
-import time
-import random
+from bs4 import BeautifulSoup
+import re
+import json
 
-from .config import URLConfig
-
-logger = logging.getLogger(__name__)
+@dataclass
+class APICheckResult:
+    """Result of checking an API endpoint."""
+    status: str  # ok, error
+    last_update: Optional[datetime] = None
+    missing_fields: Optional[list[str]] = None
+    error_message: Optional[str] = None
 
 @dataclass
 class CheckResult:
-    """Result of checking a single URL."""
+    """Result of checking a URL."""
     # Required fields (no defaults)
     url: str
     timestamp: datetime
-    status: str  # 'ok', 'redirect', '404', 'error'
+    status: str  # ok, error, redirect
     
     # Optional fields (with defaults)
     name: Optional[str] = None
@@ -28,200 +31,184 @@ class CheckResult:
     last_modified: Optional[datetime] = None
     error_message: Optional[str] = None
     response_time: Optional[float] = None
-    raw_headers: Optional[Dict] = None  # Store raw headers for debugging
+    expected_update_frequency: Optional[str] = None
+    api_result: Optional[APICheckResult] = None
 
 class URLChecker:
-    """Check URLs and detect their status and last modified dates."""
+    """Check URLs for availability and changes."""
     
     def __init__(self, timeout: int = 30):
         self.timeout = timeout
         self.session = requests.Session()
+        # Common User-Agent to avoid being blocked
+        self.session.headers.update({
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+        })
+    
+    def _get_nested_value(self, data: dict, field_path: str, check_exists_only: bool = False):
+        """Get a nested value from a dictionary using dot notation.
         
-        # Rotate between common browser User-Agents
-        self.user_agents = [
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15',
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0'
-        ]
-        
-        # Common headers that browsers send
-        self.default_headers = {
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'DNT': '1',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-            'Sec-Fetch-Dest': 'document',
-            'Sec-Fetch-Mode': 'navigate',
-            'Sec-Fetch-Site': 'none',
-            'Sec-Fetch-User': '?1',
-            'Cache-Control': 'max-age=0',
-        }
+        Args:
+            data: Dictionary to search
+            field_path: Path to field using dot notation (e.g. "metadata.count")
+            check_exists_only: If True, return True if field exists in schema (even if null),
+                             False if field doesn't exist. If False, return actual value.
+        """
+        try:
+            parts = field_path.split('.')
+            value = data
+            for part in parts:
+                # Handle array indices
+                if '[' in part:
+                    part, idx = part.split('[')
+                    idx = int(idx.rstrip(']'))
+                    # For existence check, just verify the array and index exist
+                    if check_exists_only:
+                        if part not in value or not isinstance(value[part], list) or len(value[part]) <= idx:
+                            return False
+                        value = value[part][idx]
+                        continue
+                    value = value[part][idx]
+                else:
+                    # For existence check, just verify the key exists
+                    if check_exists_only:
+                        if part not in value:
+                            return False
+                        value = value[part]
+                        continue
+                    value = value[part]
+            return True if check_exists_only else value
+        except (KeyError, IndexError, TypeError):
+            return False if check_exists_only else None
+
+    def _check_api(self, api_config) -> APICheckResult:
+        """Check an API endpoint for availability and data freshness."""
+        try:
+            response = self.session.request(
+                method=api_config.method,
+                url=api_config.url,
+                params=api_config.params,
+                headers=api_config.headers,
+                timeout=self.timeout
+            )
+            
+            response.raise_for_status()
+            
+            # Try to parse JSON response
+            try:
+                data = response.json()
+            except json.JSONDecodeError:
+                return APICheckResult(
+                    status='error',
+                    error_message="Invalid JSON response"
+                )
+            
+            # Check for expected fields in schema
+            if api_config.expected_fields:
+                missing = []
+                for field in api_config.expected_fields:
+                    # Only check if field exists in schema, don't care about null values
+                    if not self._get_nested_value(data, field, check_exists_only=True):
+                        missing.append(field)
+                
+                if missing:
+                    return APICheckResult(
+                        status='error',
+                        missing_fields=missing,
+                        error_message=f"Fields removed from schema: {', '.join(missing)}"
+                    )
+            
+            # Try to get last update time
+            last_update = None
+            if api_config.date_field:
+                value = self._get_nested_value(data, api_config.date_field)
+                if value:
+                    try:
+                        last_update = datetime.fromisoformat(value.replace('Z', '+00:00'))
+                    except (ValueError, AttributeError):
+                        logging.warning(f"Could not parse date from field {api_config.date_field}")
+            
+            return APICheckResult(
+                status='ok',
+                last_update=last_update
+            )
+            
+        except requests.RequestException as e:
+            return APICheckResult(
+                status='error',
+                error_message=str(e)
+            )
     
-    def _get_random_user_agent(self):
-        """Get a random User-Agent string."""
-        return random.choice(self.user_agents)
-    
-    def _normalize_url(self, url: str) -> str:
-        """Normalize URL for comparison by removing trivial differences."""
-        # Convert to lowercase
-        url = url.lower()
-        # Remove trailing slash
-        url = url.rstrip('/')
-        # Remove default ports
-        url = url.replace(':80/', '/').replace(':443/', '/')
-        # Standardize http/https
-        if url.startswith('http://'):
-            url = 'https://' + url[7:]
-        return url
-    
-    def check_url(self, config: URLConfig) -> CheckResult:
+    def check_url(self, config) -> CheckResult:
         """Check a URL and return the result."""
         start_time = datetime.now()
         result = CheckResult(
             url=config.url,
             timestamp=start_time,
-            status='error',  # Default status, will be updated to 'ok' if successful
-            name=config.name
+            status='error',  # Default status
+            name=config.name,
+            expected_update_frequency=config.expected_update_frequency
         )
         
         try:
-            # Add a small random delay to avoid overwhelming servers
-            time.sleep(random.uniform(0.5, 2.0))
+            response = self.session.get(
+                config.url,
+                timeout=self.timeout,
+                allow_redirects=True
+            )
             
-            # Prepare headers
-            headers = self.default_headers.copy()
-            headers['User-Agent'] = self._get_random_user_agent()
+            result.status_code = response.status_code
             
-            # Parse URL to get domain for Referer
-            parsed_url = urlparse(config.url)
-            headers['Host'] = parsed_url.netloc
+            # Get last modified date from headers
+            if 'last-modified' in response.headers:
+                try:
+                    result.last_modified = datetime.strptime(
+                        response.headers['last-modified'],
+                        '%a, %d %b %Y %H:%M:%S %Z'
+                    )
+                except ValueError:
+                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
             
-            response = None
-            try:
-                # First try with GET request
-                response = self.session.get(
-                    config.url,
-                    timeout=self.timeout,
-                    allow_redirects=True,
-                    headers=headers
-                )
-            except requests.TooManyRedirects as e:
-                # The exception should have the last response
-                if hasattr(e, 'response') and e.response is not None:
-                    result.status = 'redirect'
-                    # Try to get the Location header from the last response
-                    result.redirect_url = e.response.headers.get('Location')
-                    if not result.redirect_url and e.response.history:
-                        # If no Location header, use the URL from the last response in history
-                        result.redirect_url = e.response.history[-1].url
-                    # If we still don't have a redirect URL, try one more HEAD request
-                    if not result.redirect_url:
-                        try:
-                            head_response = self.session.head(
-                                config.url,
-                                timeout=self.timeout,
-                                allow_redirects=True,
-                                headers=headers,
-                                max_redirects=1
-                            )
-                            result.redirect_url = head_response.url
-                        except:
-                            pass
-                result.error_message = f"redirects to {result.redirect_url}" if result.redirect_url else "redirect loop"
+            # Check for redirect
+            if len(response.history) > 0:
+                result.status = 'redirect'
+                result.redirect_url = response.url
                 return result
             
-            if response:
-                # Store raw headers for debugging
-                result.raw_headers = dict(response.headers)
-                result.status_code = response.status_code
-                result.response_time = (datetime.now() - start_time).total_seconds()
-                
-                # Log response details for debugging
-                logger.debug(f"URL: {config.url}")
-                logger.debug(f"Status Code: {response.status_code}")
-                logger.debug(f"Headers: {response.headers}")
-                
-                # First check the final status code
-                if response.status_code >= 400:
-                    result.status = '404'
-                    result.error_message = f"HTTP {response.status_code}"
-                # Then check for meaningful redirect
-                elif len(response.history) > 0:
-                    original_url = self._normalize_url(config.url)
-                    final_url = self._normalize_url(response.url)
-                    
-                    if original_url != final_url:
-                        result.status = 'redirect'
-                        result.redirect_url = response.url
-                    else:
-                        result.status = 'ok'
-                else:
-                    result.status = 'ok'
-                
-                # Try to find last modified date
-                if hasattr(response, 'text'):  # Only for GET requests
-                    result.last_modified = self._find_last_modified(response)
+            # Check for errors
+            if response.status_code != 200:
+                result.status = 'error'
+                result.error_message = f"HTTP {response.status_code}"
+                return result
             
+            # Check content if specified
+            if config.expected_content:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                if not re.search(config.expected_content, soup.get_text()):
+                    result.status = 'error'
+                    result.error_message = f"Expected content not found: {config.expected_content}"
+                    return result
+            
+            result.status = 'ok'
+            
+            # Check associated API if configured
+            if config.api_config is not None:
+                result.api_result = self._check_api(config.api_config)
+            
+            return result
+            
+        except requests.TooManyRedirects as e:
+            result.status = 'redirect'
+            result.redirect_url = e.response.url if hasattr(e, 'response') else None
+            result.error_message = "Too many redirects"
         except requests.Timeout:
+            result.status = 'error'
             result.error_message = "Request timed out"
-        except requests.RequestException as e:
-            result.error_message = str(e)
+        except requests.ConnectionError:
+            result.status = 'error'
+            result.error_message = "Connection error"
         except Exception as e:
-            result.error_message = f"Unexpected error: {str(e)}"
+            result.status = 'error'
+            result.error_message = str(e)
         
         return result
-    
-    def _find_last_modified(self, response: requests.Response) -> Optional[datetime]:
-        """Try various methods to find the last modified date."""
-        # 1. Check HTTP headers
-        if 'last-modified' in response.headers:
-            try:
-                return datetime.strptime(
-                    response.headers['last-modified'],
-                    '%a, %d %b %Y %H:%M:%S %Z'
-                )
-            except ValueError:
-                pass
-        
-        # 2. Parse HTML for common metadata
-        try:
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Check meta tags
-            meta_tags = [
-                # Dublin Core
-                'DC.date.modified',
-                'DCTERMS.modified',
-                # Schema.org
-                'article:modified_time',
-                'og:updated_time',
-                # Other common formats
-                'last-modified',
-                'modified',
-                'date'
-            ]
-            
-            for tag in meta_tags:
-                meta = soup.find('meta', attrs={'name': tag}) or soup.find('meta', attrs={'property': tag})
-                if meta and meta.get('content'):
-                    try:
-                        # Try ISO format first
-                        return datetime.fromisoformat(meta['content'].replace('Z', '+00:00'))
-                    except ValueError:
-                        pass
-            
-            # Look for time tags with datetime attribute
-            time_tag = soup.find('time', attrs={'datetime': True})
-            if time_tag:
-                try:
-                    return datetime.fromisoformat(time_tag['datetime'].replace('Z', '+00:00'))
-                except ValueError:
-                    pass
-                    
-        except Exception as e:
-            logger.warning(f"Error parsing HTML for last modified date: {e}")
-        
-        return None

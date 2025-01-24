@@ -1,0 +1,18 @@
+url: https://nces.ed.gov/nationsreportcard/nies/
+name: National Indian Education Study (NIES)
+expected_update_frequency: yearly
+tags: [education, nces, indigenous, assessment]
+api_config:
+  url: https://nces.ed.gov/api/nies/assessments
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - assessments[0].year
+    - assessments[0].grade_levels
+    - assessments[0].status
+    - assessments[0].release_date
+    - assessments[0].sample_size
+  date_field: assessments[0].release_date

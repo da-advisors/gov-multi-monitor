@@ -1,0 +1,20 @@
+url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund
+name: Homeowner Assistance Fund (HAF)
+expected_update_frequency: monthly
+tags: [treasury, housing, assistance]
+api_config:
+  url: https://api.treasury.gov/data/haf/quarterly-reports
+  method: GET
+  params:
+    sort: -reporting_period
+    limit: 1
+  expected_fields:
+    - meta.total_records
+    - data[0].state
+    - data[0].reporting_period
+    - data[0].submission_date
+    - data[0].total_allocation
+    - data[0].total_disbursed
+    - data[0].households_served
+    - data[0].program_status
+  date_field: data[0].submission_date

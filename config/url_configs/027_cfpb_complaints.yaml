@@ -1,0 +1,28 @@
+url: https://www.consumerfinance.gov/data-research/consumer-complaints/
+name: CFPB Consumer Complaint Database
+expected_update_frequency: daily
+tags: [financial, complaints, consumer-protection]
+api_config:
+  url: https://www.consumerfinance.gov/data-research/consumer-complaints/api/v1/complaints
+  method: GET
+  params:
+    sort: date_received_desc
+    limit: 1
+  expected_fields:
+    - total
+    - complaints[0].complaint_id
+    - complaints[0].date_received
+    - complaints[0].product
+    - complaints[0].sub_product
+    - complaints[0].issue
+    - complaints[0].sub_issue
+    - complaints[0].company
+    - complaints[0].state
+    - complaints[0].zip_code
+    - complaints[0].tags
+    - complaints[0].consumer_consent_provided
+    - complaints[0].submitted_via
+    - complaints[0].company_response
+    - complaints[0].timely_response
+    - complaints[0].consumer_disputed
+  date_field: complaints[0].date_received

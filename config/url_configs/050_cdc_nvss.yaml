@@ -1,0 +1,20 @@
+url: https://www.cdc.gov/nchs/nvss/index.htm
+name: National Vital Statistics System (NVSS)
+expected_update_frequency: monthly
+tags: [health, cdc, vital-statistics]
+api_config:
+  url: https://data.cdc.gov/resource/kn79-hsxy.json
+  method: GET
+  params:
+    $order: reporting_period DESC
+    $limit: 1
+  expected_fields:
+    - jurisdiction
+    - reporting_period
+    - data_as_of
+    - births_current
+    - births_prior
+    - deaths_current
+    - deaths_prior
+    - completeness
+  date_field: data_as_of

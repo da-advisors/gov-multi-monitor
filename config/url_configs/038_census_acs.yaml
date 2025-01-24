@@ -1,0 +1,19 @@
+url: https://www.census.gov/programs-surveys/acs
+name: American Community Survey (ACS)
+expected_update_frequency: yearly
+tags: [census, demographics, survey]
+api_config:
+  url: https://api.census.gov/data/2023/acs/acs1
+  method: GET
+  params:
+    get: GROUP,YEAR
+    for: us:1
+    key: CENSUS_API_KEY
+  headers:
+    User-Agent: DemoAdvisors/1.0
+  expected_fields:
+    - [0].length  # Header row length
+    - [1].length  # Data row length
+    - [0][0]      # First column name
+    - [1][0]      # First data value
+  date_field: null  # Use Last-Modified header from response

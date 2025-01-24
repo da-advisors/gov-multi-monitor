@@ -1,0 +1,19 @@
+url: https://www2.ed.gov/about/inits/ed/edfacts/data-files/index.html
+name: EDFacts Data Files
+expected_update_frequency: yearly
+tags: [education, ed, data-files]
+api_config:
+  url: https://www2.ed.gov/api/edfacts/data-files
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - files[0].file_id
+    - files[0].name
+    - files[0].school_year
+    - files[0].publish_date
+    - files[0].data_group
+    - files[0].category
+  date_field: files[0].publish_date

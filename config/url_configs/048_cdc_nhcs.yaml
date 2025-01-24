@@ -1,0 +1,17 @@
+url: https://www.cdc.gov/nchs/nhcs/index.htm
+name: National Hospital Care Survey (NHCS)
+expected_update_frequency: yearly
+tags: [health, cdc, hospital, survey]
+api_config:
+  url: https://www.cdc.gov/nchs/nhcs/data_releases.json
+  method: GET
+  expected_fields:
+    - current_year
+    - last_updated
+    - releases[0].year
+    - releases[0].release_date
+    - releases[0].data_year
+    - releases[0].participating_hospitals
+    - releases[0].inpatient_records
+    - releases[0].outpatient_records
+  date_field: releases[0].release_date

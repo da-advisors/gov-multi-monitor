@@ -1,0 +1,19 @@
+url: https://nces.ed.gov/surveys/mgls/
+name: Middle Grades Longitudinal Study (MGLS)
+expected_update_frequency: yearly
+tags: [education, nces, middle-school, longitudinal]
+api_config:
+  url: https://nces.ed.gov/api/mgls/waves
+  method: GET
+  params:
+    sort: year_desc
+    limit: 1
+  expected_fields:
+    - total
+    - waves[0].wave_id
+    - waves[0].cohort
+    - waves[0].grade
+    - waves[0].school_year
+    - waves[0].status
+    - waves[0].release_date
+  date_field: waves[0].release_date

@@ -1,0 +1,20 @@
+url: https://vaers.hhs.gov/data.html
+name: Vaccine Adverse Event Reporting System (VAERS)
+expected_update_frequency: weekly
+tags: [health, cdc, vaccine-safety]
+api_config:
+  url: https://vaers.hhs.gov/api/data/summary
+  method: GET
+  params:
+    year: 2024
+  expected_fields:
+    - metadata.as_of_date
+    - metadata.data_updated
+    - summary.total_reports
+    - summary.serious_reports
+    - summary.reported_deaths
+    - summary.life_threatening
+    - summary.hospitalized
+    - summary.disabled
+    - summary.recovered
+  date_field: metadata.data_updated
