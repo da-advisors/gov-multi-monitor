@@ -20,6 +20,11 @@ urls:
     check_frequency: 1d
     tags: [sogi]
 
+  - url: https://dpcpsi.nih.gov/sgmro
+    name: NIH Sexual & Gender Minority Research Office
+    check_frequency: 1d
+    tags: [sogi, nih, health]
+
   - url: https://www.census.gov/topics/population/sexual-orientation-gender-identity.html
     name: Census Bureau SOGI
     check_frequency: 1d
