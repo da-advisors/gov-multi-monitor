@@ -16,9 +16,13 @@ logger = logging.getLogger(__name__)
 @dataclass
 class CheckResult:
     """Result of checking a single URL."""
+    # Required fields (no defaults)
     url: str
     timestamp: datetime
     status: str  # 'ok', 'redirect', '404', 'error'
+    
+    # Optional fields (with defaults)
+    name: Optional[str] = None
     status_code: Optional[int] = None
     redirect_url: Optional[str] = None
     last_modified: Optional[datetime] = None
@@ -74,12 +78,13 @@ class URLChecker:
         return url
     
     def check_url(self, config: URLConfig) -> CheckResult:
-        """Check a single URL and return its status."""
+        """Check a URL and return the result."""
         start_time = datetime.now()
         result = CheckResult(
             url=config.url,
             timestamp=start_time,
-            status='error'  # Default status
+            status='error',  # Default status, will be updated to 'ok' if successful
+            name=config.name
         )
         
         try:
@@ -112,7 +117,20 @@ class URLChecker:
                     if not result.redirect_url and e.response.history:
                         # If no Location header, use the URL from the last response in history
                         result.redirect_url = e.response.history[-1].url
-                result.error_message = "Exceeded 30 redirects"
+                    # If we still don't have a redirect URL, try one more HEAD request
+                    if not result.redirect_url:
+                        try:
+                            head_response = self.session.head(
+                                config.url,
+                                timeout=self.timeout,
+                                allow_redirects=True,
+                                headers=headers,
+                                max_redirects=1
+                            )
+                            result.redirect_url = head_response.url
+                        except:
+                            pass
+                result.error_message = f"redirects to {result.redirect_url}" if result.redirect_url else "redirect loop"
                 return result
             
             if response:

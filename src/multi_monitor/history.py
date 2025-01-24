@@ -18,6 +18,7 @@ class CheckHistory:
         """Get DataFrame schema."""
         return {
             'url': 'string',
+            'name': 'string',
             'timestamp': 'datetime64[ns]',
             'status': 'string',
             'status_code': pd.Int32Dtype(),
@@ -50,6 +51,7 @@ class CheckHistory:
         # Create new row with explicit dtypes
         new_data = {
             'url': result.url,
+            'name': result.name,
             'timestamp': timestamp,
             'status': result.status,
             'status_code': result.status_code,
@@ -90,7 +92,7 @@ class CheckHistory:
         """Get URLs that have had status changes since given time."""
         df = pd.read_parquet(self.history_file)
         if df.empty:
-            return df
+            return pd.DataFrame()
         
         # Convert input time to naive UTC for comparison
         since_utc = since.astimezone(timezone.utc).replace(tzinfo=None) if since.tzinfo else since
@@ -101,7 +103,14 @@ class CheckHistory:
         # Get current status for each URL
         current_status = df.sort_values('timestamp').groupby('url').last()
         
-        # Find URLs where status changed
-        changed = current_status[current_status['status'] != old_status['status']]
+        # Merge old and current status
+        changes = pd.merge(
+            old_status[['status', 'timestamp']].rename(columns={'status': 'old_status', 'timestamp': 'old_timestamp'}),
+            current_status[['status', 'timestamp']].rename(columns={'status': 'new_status', 'timestamp': 'new_timestamp'}),
+            left_index=True, right_index=True
+        )
         
-        return changed
+        # Filter to only status changes
+        changes = changes[changes['old_status'] != changes['new_status']]
+        
+        return changes

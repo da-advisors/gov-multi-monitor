@@ -4,9 +4,11 @@ from pathlib import Path
 from rich.console import Console
 from rich.table import Table
 from rich.panel import Panel
-from datetime import datetime
+from datetime import datetime, timedelta
 import sys
 import logging
+import jinja2
+import pandas as pd
 
 from .config import MonitorConfig
 from .checker import URLChecker
@@ -93,6 +95,62 @@ def check(config: str, url: str = None, verbose: bool = False):
         if verbose:
             import traceback
             console.print(Panel(traceback.format_exc(), title="Traceback"))
+        sys.exit(1)
+
+@cli.command()
+@click.option('--config', default='config/urls.yaml', help='Path to config file')
+def generate_page(config: str):
+    """Generate status page for GitHub Pages."""
+    try:
+        config_path = Path(config)
+        cfg = MonitorConfig.from_yaml(config_path)
+        
+        if not cfg.status_page_dir:
+            console.print("[red]Error: status_page_dir not configured[/red]")
+            sys.exit(1)
+        
+        # Ensure status page directory exists
+        cfg.status_page_dir.mkdir(parents=True, exist_ok=True)
+        
+        # Load history
+        history = CheckHistory(cfg.history_file)
+        latest_results = history.get_latest_results()
+        
+        # Get status changes in last 24 hours
+        yesterday = datetime.now() - timedelta(days=1)
+        changes = history.get_status_changes(yesterday)
+        
+        # Group URLs by tags
+        tag_groups = {}
+        for url_config in cfg.urls:
+            for tag in url_config.tags:
+                if tag not in tag_groups:
+                    tag_groups[tag] = []
+                tag_groups[tag].append(url_config)
+        
+        # Load template
+        template_dir = Path(__file__).parent / 'templates'
+        template_loader = jinja2.FileSystemLoader(searchpath=template_dir)
+        template_env = jinja2.Environment(loader=template_loader)
+        template = template_env.get_template('status.html')
+        
+        # Render template
+        html = template.render(
+            title="Government Sites Status",
+            last_updated=datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+            results=latest_results.to_dict('records'),
+            changes=changes.to_dict('records'),
+            tag_groups=tag_groups
+        )
+        
+        # Write output
+        output_file = cfg.status_page_dir / 'index.html'
+        output_file.write_text(html)
+        
+        console.print(f"[green]Status page generated at {output_file}[/green]")
+        
+    except Exception as e:
+        console.print(f"[red]Error: {e}[/red]")
         sys.exit(1)
 
 if __name__ == "__main__":

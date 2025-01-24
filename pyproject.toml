@@ -10,6 +10,7 @@ dependencies = [
     "pyyaml",  # For config files
     "atoma",  # For parsing RSS/Atom feeds (may help with last-modified detection)
     "rich",  # For nice CLI output
+    "jinja2",  # New dependency
 ]
 
 [project.optional-dependencies]
