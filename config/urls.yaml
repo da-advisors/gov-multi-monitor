@@ -1,0 +1,326 @@
+# Configuration for URL monitoring
+history_file: data/history.parquet
+status_page_dir: docs  # For GitHub Pages
+
+# URLs to monitor
+urls:
+  - url: https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries
+    name: FEMA Disaster Declarations API
+    check_frequency: 1d
+    tags: [fema, api, disaster-data]
+    expected_content: '"metadata":'  # JSON API should have metadata field
+  
+  - url: https://www.fema.gov/about/openfema/data-sets
+    name: OpenFEMA Datasets
+    check_frequency: 1d
+    tags: [fema]
+
+  - url: https://www.fcsm.gov/groups/sogisc/
+    name: FSCM SOGISC
+    check_frequency: 1d
+    tags: [sogi]
+
+  - url: https://www.census.gov/topics/population/sexual-orientation-gender-identity.html
+    name: Census Bureau SOGI
+    check_frequency: 1d
+    tags: [sogi, cb]
+
+  - url: https://www.census.gov/about/our-research/race-ethnicity.html
+    name: Census Bureau Race and Ethnicity
+    check_frequency: 1d
+    tags: [race, ethnicity, cb]
+
+  - url: https://ai.gov
+    name: AI.gov
+    check_frequency: 1d
+    tags: [ai, whitehouse]
+
+  - url: https://cdmrp.health.mil
+    name: Department of Defense - Congressionally Directed Medical Research Programs
+    check_frequency: 1d
+    tags: [health, military]
+
+  - url: https://mrdc.health.mil
+    name: U.S. Army Medical Research and Development Command
+    check_frequency: 1d
+    tags: [health, military]
+
+  - url: https://nces.ed.gov/nationsreportcard/
+    name: National Assessment of Educational Progress
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/b&b/
+    name: Baccalaureate and Beyond Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education, highered]
+
+  - url: https://nces.ed.gov/surveys/bps/
+    name: Beginning Postsecondary Students Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/btls/
+    name: Beginning Teacher Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://civilrightsdata.ed.gov/
+    name: Civil Rights Data Collection
+    check_frequency: 1d
+    tags: [ed, education, civilrights]
+
+  - url: https://civilrightsdata.ed.gov/data
+    name: Civil Rights Data Collection
+    check_frequency: 1d
+    tags: [ed, education, civilrights]
+
+  - url: https://nces.ed.gov/ecls/
+    name: Early Childhood Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://www.ed.gov/data/edfacts-initiative
+    name: EdFacts (K-12)
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/frss/
+    name: Fast Response Survey System
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/mgls/
+    name: Middle Grades Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/nels88/
+    name: National Education Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/nhes/
+    name: National Household Education Surveys Program
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/nationsreportcard/nies/
+    name: National Indian Education Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/npsas/
+    name: National Postsecondary Student Aid Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/pss/
+    name: Private School Universe Survey
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/ssocs/
+    name: School Survey on Crime and Safety
+    check_frequency: 1d
+    tags: [ed, education, school, crime]
+
+  - url: https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100
+    name:
+    check_frequency: 1d
+    tags: []
+
+  - url: https://www.justice.gov/usao/resources/annual-statistical-reports
+    name: 
+    check_frequency: 1d
+    tags: [DOJ, justice]
+
+  - url: https://www.consumerfinance.gov/data-research/consumer-complaints/search
+    name: Consumer Financial Protection Bureau
+    check_frequency: 1d
+    tags: [cfpb]
+
+  - url: https://fiscaldata.treasury.gov/datasets/treasury-offset-program/federal-collections
+    name:
+    check_frequency: 1d
+    tags: [treasury]
+
+  - url: https://fiscaldata.treasury.gov/datasets/delinquent-debt-referral-compliance/120-day-delinquent-debt-referral-compliance-report
+    name:
+    check_frequency: 1d
+    tags: [treasury]
+
+  - url: https://www.cdc.gov/yrbs/data/index.html
+    name: Youth Risk Behavior Survey (YRBS)
+    check_frequency: 1d
+    tags: [cdc, health]
+
+  - url: https://nces.ed.gov/surveys/hsb/
+    name: High School & Beyond Longitudinal Study
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/surveys/ntps/
+    name: National Teacher and Principal Survey
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://nces.ed.gov/nhes/parent_involvement.asp
+    name: National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)
+    check_frequency: 1d
+    tags: [ed, education]
+
+  - url: https://bjs.ojp.gov/data-collection/school-crime-supplement-scs
+    name: School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS)
+    check_frequency: 1d
+    tags: [DOJ, justice, school, crime]
+
+  - url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund
+    name: Treasury Homeowner Assistance Fund Data
+    check_frequency: 1d
+    tags: [treasury, covid, assistance]
+
+  - url: https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics
+    name: National Mortgage Database Aggregate Statistics
+    check_frequency: 1d
+    tags: [fhfa, mortgage, housing]
+    
+  - url: https://www.fhfa.gov/programs/national-mortgage-database-program
+    name: National Mortgage Database Program
+    check_frequency: 1d
+    tags: [fhfa, mortgage, housing]
+
+  - url: https://www.census.gov/programs-surveys/acs
+    name: American Community Survey
+    check_frequency: 1d
+    tags: [cb, census]
+
+  - url: https://www.census.gov/data/experimental-data-products/household-pulse-survey.html
+    name: Census Bureau Household Pulse Survey
+    check_frequency: 1d
+    tags: [cb, census]
+
+  - url: https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads
+    name: Standing General Order 2021-01 | Incident Reporting for Automated Driving Systems and Level 2 Advanced Driver Assistance Systems
+    check_frequency: 1d
+    tags: [transportation]
+
+  - url: https://www.whitehouse.gov/invest/
+    name: Investing in America
+    check_frequency: 1d
+    tags: [whitehouse]
+
+  - url: https://www.atf.gov/firearms/listing-federal-firearms-licensees
+    name: Federal Firearms Listings
+    check_frequency: 1d
+    tags: [atf, firearms]
+
+  - url: https://enforcedata.dol.gov/views/search.php
+    name: U.S. Department of Labor Enforcement Data
+    check_frequency: 1d
+    tags: [labor]
+
+  - url: https://www.consumerfinance.gov/data-research/hmda/
+    name: Home Mortgage Disclosure Act
+    check_frequency: 1d
+    tags: [housing, mortgage]
+
+  - url: https://www.cdc.gov/nchs/nhanes/
+    name: National Health and Nutrition Examination Survey (NHANES)
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://www.cdc.gov/nchs/nsfg/index.htm
+    name: National Survey of Family Growth (NSFG)
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://www.census.gov/programs-surveys/nsch.html
+    name: National Survey of Children's Health (NSCH)
+    check_frequency: 1d
+    tags: [cb]
+
+  - url: https://www.cdc.gov/nchs/nhcs/index.html
+    name: National Hospital Care Survey
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://www.cdc.gov/nchhstp/about/atlasplus.html?CDC_AAref_Val=https://www.cdc.gov/nchhstp/Atlas/
+    name: National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention - AtlasPlus
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://www.cdc.gov/nchs/nvss/index.htm
+    name: National Vital Statistics
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov
+    name: CDC WONDER
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov/NNDSS.html
+    name: National Notifiable Disease Surveillance System
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov/vaers.html
+    name: Vaccine Adverse Event Reporting System (VAERS)
+    check_frequency: 1d
+    tags: [vaccine, health, cdc]
+
+  - url: https://wonder.cdc.gov/std.html
+    name: Sexually Transmitted Disease Morbidity Data
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov/tb.html
+    name: Online Tuberculosis Information System (OTIS) Data
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov/AIDSPublic.html
+    name: AIDS Public Use Data
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://www.cdc.gov/brfss/index.html
+    name: Behavioral Risk Factor Surveillance System (BRFSS)
+    check_frequency: 1d
+    tags: [health, cdc]
+
+  - url: https://wonder.cdc.gov/cancer.html
+    name: United States Cancer Statistics
+    check_frequency: 1d
+    tags: [health, cdc, cancer]
+
+  - url: https://seer.cancer.gov/
+    name: Surveillance, Epidemiology, and End Results (SEER)
+    check_frequency: 1d
+    tags: [health, cancer]
+
+  - url: https://www.nhats.org/researcher/nhats
+    name: National Health and Aging Trends Study (NHATS)
+    check_frequency: 1d
+    tags: [health, aging]
+
+  - url: https://addhealth.cpc.unc.edu/
+    name: National Longitudinal Study of Adolescent to Adult Health (Add Health)
+    check_frequency: 1d
+    tags: []
+
+  - url: https://www.epa.gov/environmentaljustice
+    name: EPA Environmental Justice
+    check_frequency: 1d
+    tags: [epa, envjustice]
+
+  - url: https://www.wrapsnet.org/
+    name: Refugee Processing Center
+    check_frequency: 1d
+    tags: [immigration, statedept]
+
+  - url: https://reporter.nih.gov/
+    name: NIH RePORTER
+    check_frequency: 1d
+    tags: [nih, health]

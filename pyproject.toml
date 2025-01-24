@@ -1,0 +1,29 @@
+[project]
+name = "multi-monitor"
+version = "0.1.0"
+description = "Monitor multiple URLs for availability and content updates"
+requires-python = ">=3.10"
+dependencies = [
+    "requests",  # For making HTTP requests
+    "beautifulsoup4",  # For parsing HTML
+    "pandas",  # For data management
+    "pyyaml",  # For config files
+    "atoma",  # For parsing RSS/Atom feeds (may help with last-modified detection)
+    "rich",  # For nice CLI output
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",  # For testing
+    "black",  # For linting
+    "ruff",  # For linting
+    "pytest-cov",  # For test coverage
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.pytest.ini_options]
+addopts = "-ra -q"
+testpaths = ["tests"]
