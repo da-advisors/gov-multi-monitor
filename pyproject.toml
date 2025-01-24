@@ -11,6 +11,7 @@ dependencies = [
     "atoma",  # For parsing RSS/Atom feeds (may help with last-modified detection)
     "rich",  # For nice CLI output
     "jinja2",  # New dependency
+    "click",  # New dependency
 ]
 
 [project.optional-dependencies]
