@@ -77,7 +77,7 @@
                 <th>Name</th>
                 <th>URL</th>
                 <th>Status</th>
-                <th>Last Check</th>
+                <th>Last Modified</th>
                 <th>Tags</th>
                 <th>Details</th>
             </tr>
@@ -99,9 +99,6 @@
                     {% if result.api_result %}
                     <div class="api-status {% if result.api_result.status == 'ok' %}api-ok{% else %}api-error{% endif %}">
                         API: {% if result.api_result.status == 'ok' %}✓{% else %}✗{% endif %}
-                        {% if result.api_result.last_update %}
-                        <div class="update-info">Last update: {{ result.api_result.last_update.strftime('%Y-%m-%d') }}</div>
-                        {% endif %}
                         {% if result.api_result.error_message %}
                         <div class="update-info">{{ result.api_result.error_message }}</div>
                         {% endif %}
@@ -109,9 +106,12 @@
                     {% endif %}
                 </td>
                 <td>
-                    {{ result.timestamp.strftime('%Y-%m-%d %H:%M:%S') }}
-                    {% if result.last_modified %}
-                    <div class="update-info">Modified: {{ result.last_modified.strftime('%Y-%m-%d') }}</div>
+                    {% if result.api_result and result.api_result.last_update %}
+                        {{ result.api_result.last_update.strftime('%Y-%m-%d') }}
+                    {% elif result.last_modified %}
+                        {{ result.last_modified.strftime('%Y-%m-%d') }}
+                    {% else %}
+                        -
                     {% endif %}
                 </td>
                 <td>

@@ -46,51 +46,43 @@ class MonitorConfig:
             data = yaml.safe_load(f)
         
         # Get config directory and history file
-        config_dir = Path(data.get('config_dir', path.parent / 'urls'))
         history_file = Path(data.get('history_file', 'data/history.parquet'))
-        
-        # Load URL configs
+        status_page_dir = data.get('status_page_dir')
+        bluesky_handle = data.get('bluesky_handle')
+
+        # Load URLs either from individual files or from urls list
         urls = []
-        for url_entry in data.get('urls', []):
-            if 'config' in url_entry:
-                # Load URL config from separate file
-                config_file = config_dir / url_entry['config']
-                try:
-                    with open(config_file) as f:
-                        url_data = yaml.safe_load(f)
-                except (FileNotFoundError, yaml.YAMLError) as e:
-                    logging.error(f"Error loading URL config {config_file}: {e}")
-                    continue
-            else:
-                # URL config is inline
-                url_data = url_entry
-            
-            # Convert API config if present
-            api_data = url_data.get('api_config')
-            api_config = None
-            if api_data:
-                api_config = APIConfig(
-                    url=api_data['url'],
-                    method=api_data.get('method', 'GET'),
-                    params=api_data.get('params'),
-                    headers=api_data.get('headers'),
-                    expected_fields=api_data.get('expected_fields'),
-                    date_field=api_data.get('date_field')
-                )
-            
-            urls.append(URLConfig(
-                url=url_data['url'],
-                name=url_data.get('name'),
-                expected_content=url_data.get('expected_content'),
-                tags=url_data.get('tags', []),
-                expected_update_frequency=url_data.get('expected_update_frequency'),
-                api_config=api_config
-            ))
-        
+        if 'urls' in data:
+            # Load from single file
+            for url_data in data['urls']:
+                if 'api_config' in url_data:
+                    url_data['api_config'] = APIConfig(**url_data['api_config'])
+                urls.append(URLConfig(**url_data))
+        else:
+            # Load from individual files in url_configs directory
+            url_configs_dir = path.parent / 'url_configs'
+            if url_configs_dir.exists():
+                # Get list of active configs if specified
+                active_configs = data.get('active_configs')
+                
+                for config_file in sorted(url_configs_dir.glob('*.yaml')):
+                    # Skip if not in active_configs (if specified)
+                    if active_configs is not None and config_file.stem not in active_configs:
+                        continue
+                        
+                    try:
+                        with open(config_file) as f:
+                            url_data = yaml.safe_load(f)
+                            if 'api_config' in url_data:
+                                url_data['api_config'] = APIConfig(**url_data['api_config'])
+                            urls.append(URLConfig(**url_data))
+                    except Exception as e:
+                        logging.error(f"Error loading {config_file}: {e}")
+                        continue
+
         return cls(
             urls=urls,
             history_file=history_file,
-            config_dir=config_dir,
-            status_page_dir=Path(data.get('status_page_dir')) if data.get('status_page_dir') else None,
-            bluesky_handle=data.get('bluesky_handle')
+            status_page_dir=Path(status_page_dir) if status_page_dir else None,
+            bluesky_handle=bluesky_handle
         )

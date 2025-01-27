@@ -7,6 +7,8 @@ import logging
 from bs4 import BeautifulSoup
 import re
 import json
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 @dataclass
 class APICheckResult:
@@ -40,9 +42,26 @@ class URLChecker:
     def __init__(self, timeout: int = 30):
         self.timeout = timeout
         self.session = requests.Session()
-        # Common User-Agent to avoid being blocked
+        
+        # Add retry logic
+        retry_strategy = Retry(
+            total=3,  # number of retries
+            backoff_factor=1,  # wait 1, 2, 4 seconds between retries
+            status_forcelist=[429, 500, 502, 503, 504],  # retry on these status codes
+        )
+        adapter = HTTPAdapter(max_retries=retry_strategy)
+        self.session.mount("http://", adapter)
+        self.session.mount("https://", adapter)
+        
+        # Update headers to more closely match browser behavior
         self.session.headers.update({
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            'Accept': 'application/json, text/plain, */*',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache',
         })
     
     def _get_nested_value(self, data: dict, field_path: str, check_exists_only: bool = False):
