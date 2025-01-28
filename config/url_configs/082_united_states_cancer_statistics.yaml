@@ -1,0 +1,7 @@
+url: https://wonder.cdc.gov/cancer.html
+name: United States Cancer Statistics
+expected_update_frequency: null
+tags:
+  - health
+  - cdc
+  - cancer

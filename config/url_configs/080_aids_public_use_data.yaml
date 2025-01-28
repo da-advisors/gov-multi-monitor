@@ -1,0 +1,6 @@
+url: https://wonder.cdc.gov/AIDSPublic.html
+name: AIDS Public Use Data
+expected_update_frequency: null
+tags:
+  - health
+  - cdc

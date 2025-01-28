@@ -1,0 +1,39 @@
+url: https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v1
+name: FEMA Public Assistance Projects
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - public-assistance
+  - disaster-recovery
+api_config:
+  url: https://www.fema.gov/api/open/v1/PublicAssistanceFundedProjectsDetails
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - PublicAssistanceFundedProjectsDetails[0].disasterNumber
+    - PublicAssistanceFundedProjectsDetails[0].declarationDate
+    - PublicAssistanceFundedProjectsDetails[0].incidentType
+    - PublicAssistanceFundedProjectsDetails[0].pwNumber
+    - PublicAssistanceFundedProjectsDetails[0].applicationTitle
+    - PublicAssistanceFundedProjectsDetails[0].applicantId
+    - PublicAssistanceFundedProjectsDetails[0].damageCategoryCode
+    - PublicAssistanceFundedProjectsDetails[0].projectSize
+    - PublicAssistanceFundedProjectsDetails[0].county
+    - PublicAssistanceFundedProjectsDetails[0].countyCode
+    - PublicAssistanceFundedProjectsDetails[0].state
+    - PublicAssistanceFundedProjectsDetails[0].stateCode
+    - PublicAssistanceFundedProjectsDetails[0].stateNumberCode
+    - PublicAssistanceFundedProjectsDetails[0].projectAmount
+    - PublicAssistanceFundedProjectsDetails[0].federalShareObligated
+    - PublicAssistanceFundedProjectsDetails[0].totalObligated
+    - PublicAssistanceFundedProjectsDetails[0].obligatedDate
+    - PublicAssistanceFundedProjectsDetails[0].dcc
+    - PublicAssistanceFundedProjectsDetails[0].damageCategory
+    - PublicAssistanceFundedProjectsDetails[0].lastRefresh
+    - PublicAssistanceFundedProjectsDetails[0].hash
+    - PublicAssistanceFundedProjectsDetails[0].id
+  date_field: PublicAssistanceFundedProjectsDetails[0].lastRefresh

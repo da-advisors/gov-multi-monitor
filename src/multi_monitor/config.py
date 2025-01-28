@@ -1,62 +1,104 @@
-"""Configuration management for multi-monitor."""
-from pathlib import Path
-import yaml
-from typing import List, Dict, Any, Optional
+"""Configuration for URL monitoring."""
 from dataclasses import dataclass
-from datetime import timedelta
+from pathlib import Path
+from typing import List, Optional, Dict, Any
+import yaml
+import logging
+
+@dataclass
+class LinkedURL:
+    """Configuration for a linked URL to monitor."""
+    url: str
+    name: str
+    description: Optional[str] = None
+    type: Optional[str] = None  # e.g. pdf, excel, csv
+    expected_update_frequency: Optional[str] = None
+
+@dataclass
+class APIConfig:
+    """Configuration for checking an associated API."""
+    url: str
+    method: str = "GET"
+    params: Optional[Dict[str, Any]] = None
+    headers: Optional[Dict[str, str]] = None
+    expected_fields: Optional[List[str]] = None
+    date_field: Optional[str] = None  # Field to check for most recent update
 
 @dataclass
 class URLConfig:
     """Configuration for a single URL to monitor."""
     url: str
-    check_frequency: timedelta
     name: Optional[str] = None
+    expected_content: Optional[str] = None
     tags: List[str] = None
-    expected_content: Optional[str] = None  # String that should appear in valid content
-    
+    expected_update_frequency: Optional[str] = None  # e.g. "daily", "weekly", "monthly", "quarterly", "yearly"
+    api_config: Optional[APIConfig] = None
+    linked_urls: List[LinkedURL] = None
+
     def __post_init__(self):
+        """Initialize default values."""
         if self.tags is None:
             self.tags = []
-        if self.name is None:
-            # Use domain as default name
-            from urllib.parse import urlparse
-            self.name = urlparse(self.url).netloc
+        if self.linked_urls is None:
+            self.linked_urls = []
 
 @dataclass
 class MonitorConfig:
-    """Overall configuration for the monitoring system."""
+    """Overall configuration for URL monitoring."""
     urls: List[URLConfig]
-    history_file: Path
+    history_file: Path = Path('data/history.parquet')
+    config_dir: Optional[Path] = None
     status_page_dir: Optional[Path] = None  # For GitHub Pages
     bluesky_handle: Optional[str] = None
     
     @classmethod
-    def from_yaml(cls, config_path: Path) -> 'MonitorConfig':
+    def from_yaml(cls, path: Path) -> 'MonitorConfig':
         """Load configuration from YAML file."""
-        with open(config_path) as f:
+        with open(path) as f:
             data = yaml.safe_load(f)
         
-        # Convert frequency strings to timedelta
-        for url in data['urls']:
-            freq = url['check_frequency']
-            if isinstance(freq, str):
-                # Parse strings like "1d", "4h", "30m"
-                unit = freq[-1]
-                value = int(freq[:-1])
-                if unit == 'd':
-                    url['check_frequency'] = timedelta(days=value)
-                elif unit == 'h':
-                    url['check_frequency'] = timedelta(hours=value)
-                elif unit == 'm':
-                    url['check_frequency'] = timedelta(minutes=value)
-            
-            # Create URLConfig objects
-            url['tags'] = url.get('tags', [])
-            url_configs = [URLConfig(**url) for url in data['urls']]
-        
+        # Get config directory and history file
+        history_file = Path(data.get('history_file', 'data/history.parquet'))
+        status_page_dir = data.get('status_page_dir')
+        bluesky_handle = data.get('bluesky_handle')
+
+        # Load URLs either from individual files or from urls list
+        urls = []
+        if 'urls' in data:
+            # Load from single file
+            for url_data in data['urls']:
+                if 'api_config' in url_data:
+                    url_data['api_config'] = APIConfig(**url_data['api_config'])
+                if 'linked_urls' in url_data:
+                    url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
+                urls.append(URLConfig(**url_data))
+        else:
+            # Load from individual files in url_configs directory
+            url_configs_dir = path.parent / 'url_configs'
+            if url_configs_dir.exists():
+                # Get list of active configs if specified
+                active_configs = data.get('active_configs')
+                
+                for config_file in sorted(url_configs_dir.glob('*.yaml')):
+                    # Skip if not in active_configs (if specified)
+                    if active_configs is not None and config_file.stem not in active_configs:
+                        continue
+                        
+                    try:
+                        with open(config_file) as f:
+                            url_data = yaml.safe_load(f)
+                            if 'api_config' in url_data:
+                                url_data['api_config'] = APIConfig(**url_data['api_config'])
+                            if 'linked_urls' in url_data:
+                                url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
+                            urls.append(URLConfig(**url_data))
+                    except Exception as e:
+                        logging.error(f"Error loading {config_file}: {e}")
+                        continue
+
         return cls(
-            urls=url_configs,
-            history_file=Path(data['history_file']),
-            status_page_dir=Path(data['status_page_dir']) if data.get('status_page_dir') else None,
-            bluesky_handle=data.get('bluesky_handle')
+            urls=urls,
+            history_file=history_file,
+            status_page_dir=Path(status_page_dir) if status_page_dir else None,
+            bluesky_handle=bluesky_handle
         )

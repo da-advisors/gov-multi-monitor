@@ -1,0 +1,6 @@
+url: https://www.consumerfinance.gov/data-research/hmda/
+name: Home Mortgage Disclosure Act
+expected_update_frequency: null
+tags:
+  - housing
+  - mortgage

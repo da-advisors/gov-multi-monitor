@@ -66,6 +66,25 @@ class CheckHistory:
         for col, dtype in schema.items():
             new_row[col] = new_row[col].astype(dtype)
         
+        # Add linked URL results if any
+        if result.linked_url_results:
+            for linked in result.linked_url_results:
+                linked_data = {
+                    'url': linked.url,
+                    'name': linked.name,
+                    'timestamp': timestamp,
+                    'status': linked.status,
+                    'status_code': linked.status_code,
+                    'redirect_url': linked.redirect_url if linked.redirect_url else None,
+                    'last_modified': linked.last_modified if linked.last_modified else None,
+                    'error_message': linked.error_message if linked.error_message else None,
+                    'response_time': None  # Linked URLs don't track response time
+                }
+                linked_row = pd.DataFrame([linked_data])
+                for col, dtype in schema.items():
+                    linked_row[col] = linked_row[col].astype(dtype)
+                new_row = pd.concat([new_row, linked_row], ignore_index=True)
+        
         # Concatenate with existing data
         df = pd.concat([df, new_row], ignore_index=True)
         df.to_parquet(self.history_file)
@@ -88,6 +107,15 @@ class CheckHistory:
         
         return url_df
     
+    def get_last_success(self, url: str) -> Optional[datetime]:
+        """Get the last time a URL had a successful (200) response."""
+        df = pd.read_parquet(self.history_file)
+        success_df = df[(df['url'] == url) & (df['status_code'] == 200)].sort_values('timestamp', ascending=False)
+        
+        if not success_df.empty:
+            return success_df.iloc[0]['timestamp'].to_pydatetime()
+        return None
+    
     def get_status_changes(self, since: datetime) -> pd.DataFrame:
         """Get URLs that have had status changes since given time."""
         df = pd.read_parquet(self.history_file)
@@ -99,18 +127,9 @@ class CheckHistory:
         
         # Get status at 'since' time for each URL
         old_status = df[df['timestamp'] <= since_utc].sort_values('timestamp').groupby('url').last()
-        
-        # Get current status for each URL
         current_status = df.sort_values('timestamp').groupby('url').last()
         
-        # Merge old and current status
-        changes = pd.merge(
-            old_status[['status', 'timestamp']].rename(columns={'status': 'old_status', 'timestamp': 'old_timestamp'}),
-            current_status[['status', 'timestamp']].rename(columns={'status': 'new_status', 'timestamp': 'new_timestamp'}),
-            left_index=True, right_index=True
-        )
+        # Find URLs where current status differs from old status
+        changed = current_status[current_status['status'] != old_status['status']]
         
-        # Filter to only status changes
-        changes = changes[changes['old_status'] != changes['new_status']]
-        
-        return changes
+        return changed

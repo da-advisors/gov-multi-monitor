@@ -1,0 +1,6 @@
+url: https://www.atf.gov/firearms/listing-federal-firearms-licensees
+name: Federal Firearms Listings
+expected_update_frequency: null
+tags:
+  - atf
+  - firearms

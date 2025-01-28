@@ -1,0 +1,20 @@
+url: https://www.fema.gov/openfema-data-page/public-assistance-applicants-v1
+name: FEMA Public Assistance Applicants
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - public-assistance
+api_config:
+  url: https://www.fema.gov/api/open/v1/PublicAssistanceApplicants
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - PublicAssistanceApplicants[0].disasterNumber
+    - PublicAssistanceApplicants[0].state
+    - PublicAssistanceApplicants[0].applicantId
+    - PublicAssistanceApplicants[0].applicantName
+    - PublicAssistanceApplicants[0].lastRefresh

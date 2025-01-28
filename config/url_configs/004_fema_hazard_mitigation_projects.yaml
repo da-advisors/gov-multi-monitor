@@ -1,0 +1,48 @@
+url: https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4
+name: FEMA Hazard Mitigation Projects
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - hazard-mitigation
+api_config:
+  url: https://www.fema.gov/api/open/v4/HazardMitigationAssistanceProjects
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HazardMitigationAssistanceProjects[0].projectIdentifier
+    - HazardMitigationAssistanceProjects[0].programArea
+    - HazardMitigationAssistanceProjects[0].programFy
+    - HazardMitigationAssistanceProjects[0].region
+    - HazardMitigationAssistanceProjects[0].state
+    - HazardMitigationAssistanceProjects[0].stateNumberCode
+    - HazardMitigationAssistanceProjects[0].county
+    - HazardMitigationAssistanceProjects[0].countyCode
+    - HazardMitigationAssistanceProjects[0].disasterNumber
+    - HazardMitigationAssistanceProjects[0].projectCounties
+    - HazardMitigationAssistanceProjects[0].projectType
+    - HazardMitigationAssistanceProjects[0].status
+    - HazardMitigationAssistanceProjects[0].recipient
+    - HazardMitigationAssistanceProjects[0].recipientTribalIndicator
+    - HazardMitigationAssistanceProjects[0].subrecipient
+    - HazardMitigationAssistanceProjects[0].subrecipientTribalIndicator
+    - HazardMitigationAssistanceProjects[0].dataSource
+    - HazardMitigationAssistanceProjects[0].dateApproved
+    - HazardMitigationAssistanceProjects[0].dateClosed
+    - HazardMitigationAssistanceProjects[0].dateInitiallyApproved
+    - HazardMitigationAssistanceProjects[0].projectAmount
+    - HazardMitigationAssistanceProjects[0].initialObligationDate
+    - HazardMitigationAssistanceProjects[0].initialObligationAmount
+    - HazardMitigationAssistanceProjects[0].federalShareObligated
+    - HazardMitigationAssistanceProjects[0].subrecipientAdminCostAmt
+    - HazardMitigationAssistanceProjects[0].srmcObligatedAmt
+    - HazardMitigationAssistanceProjects[0].recipientAdminCostAmt
+    - HazardMitigationAssistanceProjects[0].costSharePercentage
+    - HazardMitigationAssistanceProjects[0].benefitCostRatio
+    - HazardMitigationAssistanceProjects[0].netValueBenefits
+    - HazardMitigationAssistanceProjects[0].numberOfFinalProperties
+    - HazardMitigationAssistanceProjects[0].numberOfProperties
+    - HazardMitigationAssistanceProjects[0].id
+  date_field: HazardMitigationAssistanceProjects[0].dateApproved

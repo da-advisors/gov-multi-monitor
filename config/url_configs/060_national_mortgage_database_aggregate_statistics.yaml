@@ -1,0 +1,7 @@
+url: https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics
+name: National Mortgage Database Aggregate Statistics
+expected_update_frequency: null
+tags:
+  - fhfa
+  - mortgage
+  - housing

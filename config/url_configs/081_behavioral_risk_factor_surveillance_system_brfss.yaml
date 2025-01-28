@@ -1,0 +1,6 @@
+url: https://www.cdc.gov/brfss/index.html
+name: Behavioral Risk Factor Surveillance System (BRFSS)
+expected_update_frequency: null
+tags:
+  - health
+  - cdc

@@ -1,0 +1,38 @@
+url: https://www.fema.gov/openfema-data-page/housing-assistance-program-data-owners-v2
+name: FEMA Housing Assistance Program (Owners)
+expected_update_frequency: weekly
+tags:
+  - fema
+  - api
+  - housing-assistance
+  - disaster-recovery
+api_config:
+  url: https://www.fema.gov/api/open/v2/HousingAssistanceOwners
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HousingAssistanceOwners[0].disasterNumber
+    - HousingAssistanceOwners[0].state
+    - HousingAssistanceOwners[0].county
+    - HousingAssistanceOwners[0].city
+    - HousingAssistanceOwners[0].zipCode
+    - HousingAssistanceOwners[0].averageFemaInspectedDamage
+    - HousingAssistanceOwners[0].totalInspected
+    - HousingAssistanceOwners[0].totalDamage
+    - HousingAssistanceOwners[0].noFemaInspectedDamage
+    - HousingAssistanceOwners[0].femaInspectedDamageBetween1And10000
+    - HousingAssistanceOwners[0].femaInspectedDamageBetween10001And20000
+    - HousingAssistanceOwners[0].femaInspectedDamageBetween20001And30000
+    - HousingAssistanceOwners[0].femaInspectedDamageGreaterThan30000
+    - HousingAssistanceOwners[0].approvedForFemaAssistance
+    - HousingAssistanceOwners[0].totalApprovedIhpAmount
+    - HousingAssistanceOwners[0].repairReplaceAmount
+    - HousingAssistanceOwners[0].rentalAmount
+    - HousingAssistanceOwners[0].otherNeedsAmount
+    - HousingAssistanceOwners[0].approvedBetween1And10000
+    - HousingAssistanceOwners[0].approvedBetween10001And25000
+    - HousingAssistanceOwners[0].approvedBetween25001AndMax
+    - HousingAssistanceOwners[0].totalMaxGrants
+    - HousingAssistanceOwners[0].id

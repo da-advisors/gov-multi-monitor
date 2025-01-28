@@ -1,0 +1,55 @@
+url: https://www.fema.gov/openfema-data-page/mission-assignments-v2
+name: FEMA Mission Assignments
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - disaster-response
+api_config:
+  url: https://www.fema.gov/api/open/v2/MissionAssignments
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - MissionAssignments[0].incidentId
+    - MissionAssignments[0].incidentName
+    - MissionAssignments[0].incidentType
+    - MissionAssignments[0].disasterNumber
+    - MissionAssignments[0].declarationType
+    - MissionAssignments[0].declarationTitle
+    - MissionAssignments[0].maId
+    - MissionAssignments[0].maAmendNumber
+    - MissionAssignments[0].actionId
+    - MissionAssignments[0].maType
+    - MissionAssignments[0].supportFunction
+    - MissionAssignments[0].priority
+    - MissionAssignments[0].region
+    - MissionAssignments[0].stt
+    - MissionAssignments[0].agencyId
+    - MissionAssignments[0].agency
+    - MissionAssignments[0].authority
+    - MissionAssignments[0].dateReceived
+    - MissionAssignments[0].dateRequired
+    - MissionAssignments[0].popStartDate
+    - MissionAssignments[0].popEndDate
+    - MissionAssignments[0].dateObligated
+    - MissionAssignments[0].obligationAmount
+    - MissionAssignments[0].sttCostSharePct
+    - MissionAssignments[0].fedCostSharePct
+    - MissionAssignments[0].sttCostShareAmt
+    - MissionAssignments[0].fedCostShareAmt
+    - MissionAssignments[0].maPopStartDate
+    - MissionAssignments[0].maPopEndDate
+    - MissionAssignments[0].maSttCostSharePct
+    - MissionAssignments[0].maFedCostSharePct
+    - MissionAssignments[0].maSttCostShareAmount
+    - MissionAssignments[0].maFedCostShareAmount
+    - MissionAssignments[0].maPriority
+    - MissionAssignments[0].assistanceRequested
+    - MissionAssignments[0].statementOfWork
+    - MissionAssignments[0].id
+    - MissionAssignments[0].hash
+    - MissionAssignments[0].lastRefresh
+  date_field: lastRefresh

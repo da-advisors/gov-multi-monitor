@@ -1,0 +1,17 @@
+url: https://www.fema.gov/openfema-data-page/nfip-community-layer-comprehensive-v1
+name: FEMA NFIP Community Layer
+expected_update_frequency: monthly
+tags:
+  - fema
+  - api
+  - nfip
+  - flood-insurance
+api_config:
+  url: https://www.fema.gov/api/open/v1/NfipCommunityLayerComprehensive
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - NfipCommunityLayerComprehensive[0].communityName
+    - NfipCommunityLayerComprehensive[0].county

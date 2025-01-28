@@ -1,0 +1,5 @@
+url: https://www.consumerfinance.gov/data-research/consumer-complaints/search/
+name: Consumer Financial Protection Bureau
+expected_update_frequency: null
+tags:
+  - cfpb

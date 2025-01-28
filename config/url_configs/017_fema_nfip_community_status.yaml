@@ -1,0 +1,20 @@
+url: https://www.fema.gov/openfema-data-page/nfip-community-status-book-v1
+name: FEMA NFIP Community Status
+expected_update_frequency: monthly
+tags:
+  - fema
+  - api
+  - nfip
+  - flood-insurance
+api_config:
+  url: https://www.fema.gov/api/open/v1/NfipCommunityStatusBook
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - NfipCommunityStatusBook[0].state
+    - NfipCommunityStatusBook[0].communityName
+    - NfipCommunityStatusBook[0].county
+    - NfipCommunityStatusBook[0].lastRefresh

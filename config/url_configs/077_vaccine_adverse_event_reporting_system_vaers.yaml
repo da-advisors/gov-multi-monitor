@@ -1,0 +1,7 @@
+url: https://wonder.cdc.gov/vaers.html
+name: Vaccine Adverse Event Reporting System (VAERS)
+expected_update_frequency: null
+tags:
+  - vaccine
+  - health
+  - cdc

@@ -1,0 +1,16 @@
+url: https://www.fema.gov/openfema-data-page/hazard-mitigation-plan-statuses-v1
+name: FEMA Hazard Mitigation Plan Status
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - hazard-mitigation
+api_config:
+  url: https://www.fema.gov/api/open/v1/HazardMitigationPlanStatuses
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HazardMitigationPlanStatuses[0].planId
+    - HazardMitigationPlanStatuses[0].state

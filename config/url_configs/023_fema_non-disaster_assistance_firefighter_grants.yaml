@@ -1,0 +1,15 @@
+url: https://www.fema.gov/openfema-data-page/non-disaster-and-assistance-firefighter-grants-v1
+name: FEMA Non-Disaster Assistance Firefighter Grants
+expected_update_frequency: quarterly
+tags:
+  - fema
+  - api
+  - grants
+  - firefighter-assistance
+api_config:
+  url: https://www.fema.gov/api/open/v1/NonDisasterAssistanceFirefighterGrants
+  method: GET
+  expected_fields:
+    - metadata.count
+    - NonDisasterAssistanceFirefighterGrants[0].fiscalYear
+    - NonDisasterAssistanceFirefighterGrants[0].awardAmount

@@ -1,0 +1,6 @@
+url: https://www.cdc.gov/nchs/nvss/index.htm
+name: National Vital Statistics
+expected_update_frequency: null
+tags:
+  - health
+  - cdc

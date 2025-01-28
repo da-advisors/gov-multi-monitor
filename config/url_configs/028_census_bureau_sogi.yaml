@@ -1,0 +1,29 @@
+url: https://www.census.gov/topics/population/sexual-orientation-gender-identity.html
+name: Census Bureau SOGI
+expected_update_frequency: null
+tags:
+  - sogi
+  - cb
+linked_urls:
+  - url: https://www2.census.gov/topics/population/sogi/sogi-data-action-plan.pdf
+    name: SOGI Data Action Plan
+    description: SOGI Data Action Plan (PDF)
+    type: pdf
+  - url: https://www.census.gov/about/what/data-equity.html
+    name: Data Equity
+    type: webpage
+  - url: https://www.census.gov/topics/population/sexual-orientation-gender-identity.html
+    name: SOGI Topics Page
+    type: webpage
+  - url: https://www.whitehouse.gov/briefing-room/presidential-actions/2022/06/15/executive-order-on-advancing-equality-for-lesbian-gay-bisexual-transgender-queer-and-intersex-individuals/
+    name: Executive Order on LGBTQI+ Equality
+    type: webpage
+  - url: https://www.whitehouse.gov/wp-content/uploads/2023/01/Federal-Evidence-Agenda-on-LGBTQI-Equity.pdf
+    name: Federal Evidence Agenda on LGBTQI+ Equity
+    type: pdf
+  - url: https://www.census.gov/library/working-papers/2017/adrm/rsm2017-13.html
+    name: 2017 Working Paper on SOGI Questions
+    type: webpage
+  - url: https://www.census.gov/library/working-papers/2018/adrm/rsm2018-06.html
+    name: 2018 Working Paper on SOGI Questions
+    type: webpage

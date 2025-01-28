@@ -1,0 +1,8 @@
+url: https://bjs.ojp.gov/data-collection/school-crime-supplement-scs
+name: School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS)
+expected_update_frequency: null
+tags:
+  - DOJ
+  - justice
+  - school
+  - crime

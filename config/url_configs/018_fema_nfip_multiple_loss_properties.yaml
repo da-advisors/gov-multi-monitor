@@ -1,0 +1,18 @@
+url: https://www.fema.gov/openfema-data-page/nfip-multiple-loss-properties-v1
+name: FEMA NFIP Multiple Loss Properties
+expected_update_frequency: monthly
+tags:
+  - fema
+  - api
+  - nfip
+  - flood-insurance
+api_config:
+  url: https://www.fema.gov/api/open/v1/NfipMultipleLossProperties
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - NfipMultipleLossProperties[0].state
+    - NfipMultipleLossProperties[0].county
+    - NfipMultipleLossProperties[0].communityName

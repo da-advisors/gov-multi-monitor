@@ -1,0 +1,17 @@
+url: https://www.fema.gov/openfema-data-page/fema-web-disaster-summaries-v1
+name: FEMA Web Disaster Summaries
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - disaster-summaries
+api_config:
+  url: https://www.fema.gov/api/open/v1/FemaWebDisasterSummaries
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - FemaWebDisasterSummaries[0].disasterNumber
+    - FemaWebDisasterSummaries[0].lastRefresh

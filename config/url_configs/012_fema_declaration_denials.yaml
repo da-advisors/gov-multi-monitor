@@ -1,0 +1,16 @@
+url: https://www.fema.gov/openfema-data-page/declaration-denials-v1
+name: FEMA Declaration Denials
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - disaster-declarations
+api_config:
+  url: https://www.fema.gov/api/open/v1/DeclarationDenials
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - DeclarationDenials[0].state
+    - DeclarationDenials[0].incidentBeginDate

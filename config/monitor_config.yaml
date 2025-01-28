@@ -1,0 +1,3 @@
+history_file: data/history.parquet
+status_page_dir: docs
+active_configs: null

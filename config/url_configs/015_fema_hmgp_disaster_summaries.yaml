@@ -1,0 +1,20 @@
+url: https://www.fema.gov/openfema-data-page/hazard-mitigation-grant-program-disaster-summaries-v2
+name: FEMA HMGP Disaster Summaries
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - hazard-mitigation
+api_config:
+  url: https://www.fema.gov/api/open/v2/HazardMitigationGrantProgramDisasterSummaries
+  method: GET
+  params:
+    $orderby: lastRefresh desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HazardMitigationGrantProgramDisasterSummaries[0].disasterNumber
+    - HazardMitigationGrantProgramDisasterSummaries[0].state
+    - HazardMitigationGrantProgramDisasterSummaries[0].declarationDate
+    - HazardMitigationGrantProgramDisasterSummaries[0].disasterType
+    - HazardMitigationGrantProgramDisasterSummaries[0].lastRefresh

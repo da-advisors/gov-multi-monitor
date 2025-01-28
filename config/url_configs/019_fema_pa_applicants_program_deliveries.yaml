@@ -1,0 +1,17 @@
+url: https://www.fema.gov/openfema-data-page/public-assistance-applicants-program-deliveries-v1
+name: FEMA PA Applicants Program Deliveries
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - public-assistance
+api_config:
+  url: https://www.fema.gov/api/open/v1/PublicAssistanceApplicantsProgramDeliveries
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - PublicAssistanceApplicantsProgramDeliveries[0].disasterNumber
+    - PublicAssistanceApplicantsProgramDeliveries[0].applicantName
+    - PublicAssistanceApplicantsProgramDeliveries[0].lastRefresh

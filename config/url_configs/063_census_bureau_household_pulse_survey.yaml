@@ -1,0 +1,6 @@
+url: https://www.census.gov/data/experimental-data-products/household-pulse-survey.html
+name: Census Bureau Household Pulse Survey
+expected_update_frequency: null
+tags:
+  - cb
+  - census
