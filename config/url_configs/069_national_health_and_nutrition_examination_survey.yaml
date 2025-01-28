@@ -1,0 +1,6 @@
+url: https://www.cdc.gov/nchs/nhanes/
+name: National Health and Nutrition Examination Survey (NHANES)
+expected_update_frequency: null
+tags:
+  - health
+  - cdc

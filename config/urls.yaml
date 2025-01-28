@@ -1040,3 +1040,8 @@ urls:
     name: NIH RePORTER
     expected_update_frequency: annually
     tags: [nih, health]
+
+  - url: https://www.fda.gov/about-fda/oncology-center-excellence/oce-equity-program
+    name: OCE Equity Program
+    expected_update_frequency:
+    tags: [fda, health]

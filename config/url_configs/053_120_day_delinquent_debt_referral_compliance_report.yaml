@@ -1,0 +1,5 @@
+url: https://fiscaldata.treasury.gov/datasets/delinquent-debt-referral-compliance/120-day-delinquent-debt-referral-compliance-report
+name: 120 Day Delinquent Debt Referral Compliance Report
+expected_update_frequency: null
+tags:
+  - treasury

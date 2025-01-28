@@ -2,13 +2,26 @@
 import requests
 from datetime import datetime
 from dataclasses import dataclass
-from typing import Optional, Dict, Any
+from typing import Optional, Dict, Any, List
 import logging
 from bs4 import BeautifulSoup
 import re
 import json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+
+@dataclass
+class LinkedURLCheckResult:
+    """Result of checking a linked URL."""
+    url: str
+    name: str
+    status: str  # ok, error, redirect
+    status_code: Optional[int] = None
+    redirect_url: Optional[str] = None
+    last_modified: Optional[datetime] = None
+    error_message: Optional[str] = None
+    type: Optional[str] = None
+    last_success: Optional[datetime] = None  # Added field for last successful check
 
 @dataclass
 class APICheckResult:
@@ -35,6 +48,12 @@ class CheckResult:
     response_time: Optional[float] = None
     expected_update_frequency: Optional[str] = None
     api_result: Optional[APICheckResult] = None
+    linked_url_results: List[LinkedURLCheckResult] = None
+
+    def __post_init__(self):
+        """Initialize default values."""
+        if self.linked_url_results is None:
+            self.linked_url_results = []
 
 class URLChecker:
     """Check URLs for availability and changes."""
@@ -157,7 +176,84 @@ class URLChecker:
                 status='error',
                 error_message=str(e)
             )
-    
+
+    def _check_linked_url(self, linked_url) -> LinkedURLCheckResult:
+        """Check a linked URL and return the result."""
+        try:
+            response = self.session.get(
+                linked_url.url,
+                timeout=self.timeout,
+                allow_redirects=True
+            )
+            
+            result = LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='error',  # Default status
+                type=linked_url.type
+            )
+            
+            result.status_code = response.status_code
+            
+            # Check for redirect
+            if len(response.history) > 0:
+                result.status = 'redirect'
+                result.redirect_url = response.url
+                return result
+            
+            # Check for errors
+            if response.status_code != 200:
+                result.status = 'error'
+                result.error_message = f"HTTP {response.status_code}"
+                return result
+            
+            # Get last modified date from headers only for successful responses
+            if 'last-modified' in response.headers:
+                try:
+                    result.last_modified = datetime.strptime(
+                        response.headers['last-modified'],
+                        '%a, %d %b %Y %H:%M:%S %Z'
+                    )
+                except ValueError:
+                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
+            
+            result.status = 'ok'
+            return result
+            
+        except requests.TooManyRedirects as e:
+            return LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='redirect',
+                redirect_url=e.response.url if hasattr(e, 'response') else None,
+                error_message="Too many redirects",
+                type=linked_url.type
+            )
+        except requests.Timeout:
+            return LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='error',
+                error_message="Request timed out",
+                type=linked_url.type
+            )
+        except requests.ConnectionError:
+            return LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='error',
+                error_message="Connection error",
+                type=linked_url.type
+            )
+        except Exception as e:
+            return LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='error',
+                error_message=str(e),
+                type=linked_url.type
+            )
+
     def check_url(self, config) -> CheckResult:
         """Check a URL and return the result."""
         start_time = datetime.now()
@@ -178,16 +274,6 @@ class URLChecker:
             
             result.status_code = response.status_code
             
-            # Get last modified date from headers
-            if 'last-modified' in response.headers:
-                try:
-                    result.last_modified = datetime.strptime(
-                        response.headers['last-modified'],
-                        '%a, %d %b %Y %H:%M:%S %Z'
-                    )
-                except ValueError:
-                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
-            
             # Check for redirect
             if len(response.history) > 0:
                 result.status = 'redirect'
@@ -199,6 +285,16 @@ class URLChecker:
                 result.status = 'error'
                 result.error_message = f"HTTP {response.status_code}"
                 return result
+            
+            # Get last modified date from headers only for successful responses
+            if 'last-modified' in response.headers:
+                try:
+                    result.last_modified = datetime.strptime(
+                        response.headers['last-modified'],
+                        '%a, %d %b %Y %H:%M:%S %Z'
+                    )
+                except ValueError:
+                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
             
             # Check content if specified
             if config.expected_content:
@@ -213,6 +309,11 @@ class URLChecker:
             # Check associated API if configured
             if config.api_config is not None:
                 result.api_result = self._check_api(config.api_config)
+            
+            # Check linked URLs if any
+            if config.linked_urls:
+                for linked_url in config.linked_urls:
+                    result.linked_url_results.append(self._check_linked_url(linked_url))
             
             return result
             

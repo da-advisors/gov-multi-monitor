@@ -1,46 +1,46 @@
 url: https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
 name: FEMA Disaster Declarations
-expected_update_frequency: daily
-tags: [fema, api, disaster-data]
+expected_update_frequency: 20min
+tags:
+  - fema
+  - api
+  - disaster-data
 api_config:
   url: https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries
   method: GET
   params:
     $orderby: lastRefresh desc
-    $top: 1  # Only get the most recently updated declaration
+    $top: 1
   expected_fields:
-    # Basic fields
     - metadata.count
+    - DisasterDeclarationsSummaries[0].declarationDate
+    - DisasterDeclarationsSummaries[0].disasterNumber
     - DisasterDeclarationsSummaries[0].femaDeclarationString
     - DisasterDeclarationsSummaries[0].disasterNumber
     - DisasterDeclarationsSummaries[0].state
     - DisasterDeclarationsSummaries[0].declarationType
-    # Dates
     - DisasterDeclarationsSummaries[0].declarationDate
-    - DisasterDeclarationsSummaries[0].incidentBeginDate
-    - DisasterDeclarationsSummaries[0].incidentEndDate
-    - DisasterDeclarationsSummaries[0].lastRefresh
-    # Fiscal/Administrative
     - DisasterDeclarationsSummaries[0].fyDeclared
-    - DisasterDeclarationsSummaries[0].declarationRequestNumber
-    - DisasterDeclarationsSummaries[0].lastIAFilingDate
-    - DisasterDeclarationsSummaries[0].incidentId
-    - DisasterDeclarationsSummaries[0].region
-    # Program flags
+    - DisasterDeclarationsSummaries[0].incidentType
+    - DisasterDeclarationsSummaries[0].declarationTitle
     - DisasterDeclarationsSummaries[0].ihProgramDeclared
     - DisasterDeclarationsSummaries[0].iaProgramDeclared
     - DisasterDeclarationsSummaries[0].paProgramDeclared
     - DisasterDeclarationsSummaries[0].hmProgramDeclared
-    # Location codes
+    - DisasterDeclarationsSummaries[0].incidentBeginDate
+    - DisasterDeclarationsSummaries[0].incidentEndDate
+    - DisasterDeclarationsSummaries[0].disasterCloseoutDate
+    - DisasterDeclarationsSummaries[0].tribalRequest
     - DisasterDeclarationsSummaries[0].fipsStateCode
     - DisasterDeclarationsSummaries[0].fipsCountyCode
     - DisasterDeclarationsSummaries[0].placeCode
     - DisasterDeclarationsSummaries[0].designatedArea
-    # Other
-    - DisasterDeclarationsSummaries[0].incidentType
-    - DisasterDeclarationsSummaries[0].declarationTitle
-    - DisasterDeclarationsSummaries[0].tribalRequest
+    - DisasterDeclarationsSummaries[0].declarationRequestNumber
+    - DisasterDeclarationsSummaries[0].lastIAFilingDate
+    - DisasterDeclarationsSummaries[0].incidentId
+    - DisasterDeclarationsSummaries[0].region
     - DisasterDeclarationsSummaries[0].designatedIncidentTypes
+    - DisasterDeclarationsSummaries[0].lastRefresh
     - DisasterDeclarationsSummaries[0].hash
     - DisasterDeclarationsSummaries[0].id
   date_field: DisasterDeclarationsSummaries[0].lastRefresh

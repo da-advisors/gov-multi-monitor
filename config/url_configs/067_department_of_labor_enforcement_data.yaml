@@ -1,0 +1,5 @@
+url: https://enforcedata.dol.gov/views/search.php
+name: U.S. Department of Labor Enforcement Data
+expected_update_frequency: null
+tags:
+  - labor

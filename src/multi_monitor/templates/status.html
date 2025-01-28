@@ -11,124 +11,158 @@
             padding: 20px;
             background: #f5f5f5;
         }
-        .header {
-            background: #fff;
+        .container {
+            background: white;
             padding: 20px;
             border-radius: 8px;
-            margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .status-table {
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        table {
             width: 100%;
             border-collapse: collapse;
+            margin-bottom: 20px;
             background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .status-table th, .status-table td {
+        th, td {
             padding: 12px;
             text-align: left;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #ddd;
         }
-        .status-table th {
-            background: #f8f9fa;
+        th {
+            background-color: #f8f9fa;
             font-weight: 600;
+            color: #495057;
         }
-        .status-ok { color: #28a745; }
-        .status-error { color: #dc3545; }
-        .status-redirect { color: #ffc107; }
-        .tag {
-            display: inline-block;
-            padding: 2px 8px;
-            margin: 2px;
-            border-radius: 12px;
-            background: #e9ecef;
-            font-size: 0.85em;
+        tr:hover {
+            background-color: #f8f9fa;
         }
-        .update-info {
-            font-size: 0.9em;
-            color: #666;
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
         }
-        .api-status {
-            margin-top: 4px;
-            padding: 4px 8px;
-            border-radius: 4px;
-            background: #f8f9fa;
-            font-size: 0.9em;
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
         }
-        .api-ok { border-left: 4px solid #28a745; }
-        .api-error { border-left: 4px solid #dc3545; }
-        .expected-update {
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .linked-urls {
+            margin-left: 20px;
+            padding: 10px;
+            border-left: 3px solid #dee2e6;
+            margin-bottom: 10px;
+        }
+        .linked-url-item {
+            margin-bottom: 12px;
+        }
+        .linked-url-name {
+            font-weight: 500;
+            color: #495057;
+        }
+        .linked-url-details {
+            margin-left: 20px;
+            color: #6c757d;
+            font-size: 0.95em;
+        }
+        .linked-url-error {
+            color: #dc3545;
+        }
+        .linked-url-url {
+            font-family: monospace;
+            word-break: break-all;
+            color: #6c757d;
+        }
+        .last-success {
             font-style: italic;
-            color: #666;
+            margin-left: 5px;
+            color: #6c757d;
         }
     </style>
 </head>
 <body>
-    <div class="header">
+    <div class="container">
         <h1>URL Status Report</h1>
-        <p>Generated on {{ timestamp }}</p>
-    </div>
-
-    <table class="status-table">
-        <thead>
+        <div class="timestamp">
+            Generated on {{ timestamp.strftime("%Y-%m-%d %H:%M:%S") }}
+        </div>
+        <table>
             <tr>
                 <th>Name</th>
                 <th>URL</th>
                 <th>Status</th>
+                <th>Expected Updates</th>
                 <th>Last Modified</th>
-                <th>Tags</th>
+                <th>API Status</th>
+                <th>Linked URLs</th>
                 <th>Details</th>
             </tr>
-        </thead>
-        <tbody>
-        {% for result in results %}
+            {% for result in results %}
             <tr>
-                <td>
-                    {{ result.name or result.url }}
-                    {% if result.expected_update_frequency %}
-                    <div class="expected-update">
-                        Expected updates: {{ result.expected_update_frequency }}
-                    </div>
-                    {% endif %}
-                </td>
+                <td>{{ result.name or result.url }}</td>
                 <td><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></td>
+                <td class="status-{{ result.status }}">{{ result.status }}</td>
+                <td>{{ result.expected_update_frequency or "-" }}</td>
+                <td>{{ result.last_modified.strftime("%Y-%m-%d %H:%M:%S") if result.last_modified else "-" }}</td>
                 <td>
-                    <span class="status-{{ result.status }}">{{ result.status }}</span>
                     {% if result.api_result %}
-                    <div class="api-status {% if result.api_result.status == 'ok' %}api-ok{% else %}api-error{% endif %}">
-                        API: {% if result.api_result.status == 'ok' %}✓{% else %}✗{% endif %}
-                        {% if result.api_result.error_message %}
-                        <div class="update-info">{{ result.api_result.error_message }}</div>
+                        {% if result.api_result.status == 'ok' %}
+                            ✓
+                            {% if result.api_result.last_update %}
+                                ({{ result.api_result.last_update.strftime('%Y-%m-%d') }})
+                            {% endif %}
+                        {% else %}
+                            ✗ ({{ result.api_result.error_message }})
                         {% endif %}
-                    </div>
-                    {% endif %}
-                </td>
-                <td>
-                    {% if result.api_result and result.api_result.last_update %}
-                        {{ result.api_result.last_update.strftime('%Y-%m-%d') }}
-                    {% elif result.last_modified %}
-                        {{ result.last_modified.strftime('%Y-%m-%d') }}
                     {% else %}
                         -
                     {% endif %}
                 </td>
                 <td>
-                    {% for tag in result.tags %}
-                    <span class="tag">{{ tag }}</span>
-                    {% endfor %}
-                </td>
-                <td>
-                    {% if result.error_message %}
-                    <span class="status-error">{{ result.error_message }}</span>
-                    {% elif result.redirect_url %}
-                    <span class="status-redirect">Redirects to: {{ result.redirect_url }}</span>
+                    {% if result.linked_url_results %}
+                        {{ result.linked_url_results | selectattr('status', 'eq', 'ok') | list | length }}/{{ result.linked_url_results | length }} OK
+                    {% else %}
+                        -
                     {% endif %}
                 </td>
+                <td>{{ result.error_message or result.redirect_url or "-" }}</td>
             </tr>
-        {% endfor %}
-        </tbody>
-    </table>
+            {% if result.linked_url_results and result.linked_url_results | selectattr('status', 'ne', 'ok') | list | length > 0 %}
+            <tr>
+                <td colspan="8">
+                    <div class="linked-urls">
+                        {% for linked in result.linked_url_results %}
+                            {% if linked.status != 'ok' %}
+                            <div class="linked-url-item">
+                                <div class="linked-url-name">→ {{ linked.name }}</div>
+                                <div class="linked-url-details">
+                                    <div class="linked-url-url">{{ linked.url }}</div>
+                                    <div class="linked-url-error">
+                                        {{ linked.error_message or linked.status }}
+                                        {% if linked.last_success %}
+                                            <span class="last-success">(Last successful: {{ linked.last_success.strftime('%Y-%m-%d') }})</span>
+                                        {% endif %}
+                                    </div>
+                                </div>
+                            </div>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </td>
+            </tr>
+            {% endif %}
+            {% endfor %}
+        </table>
+    </div>
 </body>
 </html>

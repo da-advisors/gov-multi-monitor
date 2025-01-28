@@ -1,0 +1,36 @@
+url: https://www.fema.gov/openfema-data-page/housing-assistance-program-data-renters-v2
+name: FEMA Housing Assistance Program (Renters)
+expected_update_frequency: weekly
+tags:
+  - fema
+  - api
+  - housing-assistance
+  - disaster-recovery
+api_config:
+  url: https://www.fema.gov/api/open/v2/HousingAssistanceRenters
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HousingAssistanceRenters[0].disasterNumber
+    - HousingAssistanceRenters[0].state
+    - HousingAssistanceRenters[0].county
+    - HousingAssistanceRenters[0].city
+    - HousingAssistanceRenters[0].zipCode
+    - HousingAssistanceRenters[0].validRegistrations
+    - HousingAssistanceRenters[0].totalInspected
+    - HousingAssistanceRenters[0].totalInspectedWithNoDamage
+    - HousingAssistanceRenters[0].totalWithModerateDamage
+    - HousingAssistanceRenters[0].totalWithMajorDamage
+    - HousingAssistanceRenters[0].totalWithSubstantialDamage
+    - HousingAssistanceRenters[0].approvedForFemaAssistance
+    - HousingAssistanceRenters[0].totalApprovedIhpAmount
+    - HousingAssistanceRenters[0].repairReplaceAmount
+    - HousingAssistanceRenters[0].rentalAmount
+    - HousingAssistanceRenters[0].otherNeedsAmount
+    - HousingAssistanceRenters[0].approvedBetween1And10000
+    - HousingAssistanceRenters[0].approvedBetween10001And25000
+    - HousingAssistanceRenters[0].approvedBetween25001AndMax
+    - HousingAssistanceRenters[0].totalMaxGrants
+    - HousingAssistanceRenters[0].id

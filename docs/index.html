@@ -11,317 +11,788 @@
             padding: 20px;
             background: #f5f5f5;
         }
-        .header {
-            background: #fff;
+        .container {
+            background: white;
             padding: 20px;
             border-radius: 8px;
-            margin-bottom: 20px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .status-table {
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        table {
             width: 100%;
             border-collapse: collapse;
+            margin-bottom: 20px;
             background: white;
-            border-radius: 8px;
-            overflow: hidden;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        .status-table th, .status-table td {
+        th, td {
             padding: 12px;
             text-align: left;
-            border-bottom: 1px solid #eee;
+            border-bottom: 1px solid #ddd;
         }
-        .status-table th {
-            background: #f8f9fa;
+        th {
+            background-color: #f8f9fa;
             font-weight: 600;
+            color: #495057;
         }
-        .status-ok { color: #28a745; }
-        .status-error { color: #dc3545; }
-        .status-redirect { color: #ffc107; }
-        .tag {
-            display: inline-block;
-            padding: 2px 8px;
-            margin: 2px;
-            border-radius: 12px;
-            background: #e9ecef;
-            font-size: 0.85em;
+        tr:hover {
+            background-color: #f8f9fa;
         }
-        .update-info {
-            font-size: 0.9em;
-            color: #666;
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
         }
-        .api-status {
-            margin-top: 4px;
-            padding: 4px 8px;
-            border-radius: 4px;
-            background: #f8f9fa;
-            font-size: 0.9em;
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
         }
-        .api-ok { border-left: 4px solid #28a745; }
-        .api-error { border-left: 4px solid #dc3545; }
-        .expected-update {
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .linked-urls {
+            margin-left: 20px;
+            padding: 10px;
+            border-left: 3px solid #dee2e6;
+            margin-bottom: 10px;
+        }
+        .linked-url-item {
+            margin-bottom: 12px;
+        }
+        .linked-url-name {
+            font-weight: 500;
+            color: #495057;
+        }
+        .linked-url-details {
+            margin-left: 20px;
+            color: #6c757d;
+            font-size: 0.95em;
+        }
+        .linked-url-error {
+            color: #dc3545;
+        }
+        .linked-url-url {
+            font-family: monospace;
+            word-break: break-all;
+            color: #6c757d;
+        }
+        .last-success {
             font-style: italic;
-            color: #666;
+            margin-left: 5px;
+            color: #6c757d;
         }
     </style>
 </head>
 <body>
-    <div class="header">
+    <div class="container">
         <h1>URL Status Report</h1>
-        <p>Generated on 2025-01-25 23:40:16</p>
-    </div>
-
-    <table class="status-table">
-        <thead>
+        <div class="timestamp">
+            Generated on 2025-01-27 22:57:30
+        </div>
+        <table>
             <tr>
                 <th>Name</th>
                 <th>URL</th>
                 <th>Status</th>
+                <th>Expected Updates</th>
                 <th>Last Modified</th>
-                <th>Tags</th>
+                <th>API Status</th>
+                <th>Linked URLs</th>
                 <th>Details</th>
             </tr>
-        </thead>
-        <tbody>
-        
+            
             <tr>
-                <td>
-                    FEMA Disaster Declarations
-                    
-                    <div class="expected-update">
-                        Expected updates: 20min
-                    </div>
-                    
-                </td>
+                <td>FEMA Disaster Declarations</td>
                 <td><a href="https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2" target="_blank">https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>20min</td>
+                <td>2025-01-28 04:54:10</td>
                 <td>
-                    <span class="status-ok">ok</span>
                     
-                    <div class="api-status api-ok">
-                        API: ✓
                         
-                    </div>
+                            ✓
+                            
+                                (2025-01-27)
+                            
+                        
                     
                 </td>
                 <td>
                     
-                        2025-01-24
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">fema</span>
-                    
-                    <span class="tag">api</span>
-                    
-                    <span class="tag">disaster-data</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    FEMA Housing Assistance Program (Owners)
-                    
-                    <div class="expected-update">
-                        Expected updates: weekly
-                    </div>
-                    
-                </td>
+                <td>FEMA Housing Assistance Program (Owners)</td>
                 <td><a href="https://www.fema.gov/openfema-data-page/housing-assistance-program-data-owners-v2" target="_blank">https://www.fema.gov/openfema-data-page/housing-assistance-program-data-owners-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>weekly</td>
+                <td>2025-01-28 04:43:05</td>
                 <td>
-                    <span class="status-ok">ok</span>
                     
-                    <div class="api-status api-ok">
-                        API: ✓
                         
-                    </div>
+                            ✓
+                            
+                        
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">fema</span>
-                    
-                    <span class="tag">api</span>
-                    
-                    <span class="tag">housing-assistance</span>
-                    
-                    <span class="tag">disaster-recovery</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    FEMA Public Assistance Projects
-                    
-                    <div class="expected-update">
-                        Expected updates: daily
-                    </div>
-                    
-                </td>
+                <td>FEMA Public Assistance Projects</td>
                 <td><a href="https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v1" target="_blank">https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:54:30</td>
                 <td>
-                    <span class="status-ok">ok</span>
                     
-                    <div class="api-status api-ok">
-                        API: ✓
+                        
+                            ✓
+                            
+                                (2025-01-27)
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Hazard Mitigation Projects</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4" target="_blank">https://www.fema.gov/openfema-data-page/hazard-mitigation-assistance-projects-v4</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:43:30</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                                (2008-04-25)
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Claims</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2" target="_blank">https://www.fema.gov/openfema-data-page/fima-nfip-redacted-claims-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:43:44</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Mission Assignments</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/mission-assignments-v2" target="_blank">https://www.fema.gov/openfema-data-page/mission-assignments-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:59:16</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Housing Assistance Program (Renters)</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/housing-assistance-program-data-renters-v2" target="_blank">https://www.fema.gov/openfema-data-page/housing-assistance-program-data-renters-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>weekly</td>
+                <td>2025-01-28 04:44:08</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Registration Intake and IHP</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/registration-intake-and-individuals-household-program-ri-ihp-v2" target="_blank">https://www.fema.gov/openfema-data-page/registration-intake-and-individuals-household-program-ri-ihp-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:44:23</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: RegistrationIntakeIndividualsHouseholdPrograms[0].totalRegistrations, RegistrationIntakeIndividualsHouseholdPrograms[0].totalInspectionsIssued, RegistrationIntakeIndividualsHouseholdPrograms[0].totalInspectionsCompleted, RegistrationIntakeIndividualsHouseholdPrograms[0].totalEligibleForHousing, RegistrationIntakeIndividualsHouseholdPrograms[0].totalEligibleForOna, RegistrationIntakeIndividualsHouseholdPrograms[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Public Assistance Grant Awards</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/public-assistance-grant-award-activities-v2" target="_blank">https://www.fema.gov/openfema-data-page/public-assistance-grant-award-activities-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:55:23</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Policies</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2" target="_blank">https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:44:45</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Hazard Mitigation Plan Status</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/hazard-mitigation-plan-statuses-v1" target="_blank">https://www.fema.gov/openfema-data-page/hazard-mitigation-plan-statuses-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:44:58</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: HazardMitigationPlanStatuses[0].tribe, HazardMitigationPlanStatuses[0].jurisdiction, HazardMitigationPlanStatuses[0].approvalDate, HazardMitigationPlanStatuses[0].expirationDate, HazardMitigationPlanStatuses[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Declaration Denials</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/declaration-denials-v1" target="_blank">https://www.fema.gov/openfema-data-page/declaration-denials-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 03:56:24</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: DeclarationDenials[0].denialId, DeclarationDenials[0].denialDate, DeclarationDenials[0].incidentType, DeclarationDenials[0].title, DeclarationDenials[0].incidentEndDate, DeclarationDenials[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Web Disaster Summaries</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/fema-web-disaster-summaries-v1" target="_blank">https://www.fema.gov/openfema-data-page/fema-web-disaster-summaries-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:45:20</td>
+                <td>
+                    
+                        
+                            ✓
+                            
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA IPAWS Archived Alerts</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/ipaws-archived-alerts-v1" target="_blank">https://www.fema.gov/openfema-data-page/ipaws-archived-alerts-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 03:59:01</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: IpawsArchivedAlerts[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA HMGP Disaster Summaries</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/hazard-mitigation-grant-program-disaster-summaries-v2" target="_blank">https://www.fema.gov/openfema-data-page/hazard-mitigation-grant-program-disaster-summaries-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:45:44</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: HazardMitigationGrantProgramDisasterSummaries[0].hmgpEligible, HazardMitigationGrantProgramDisasterSummaries[0].totalObligated, HazardMitigationGrantProgramDisasterSummaries[0].projectCount)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Public Assistance Applicants</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/public-assistance-applicants-v1" target="_blank">https://www.fema.gov/openfema-data-page/public-assistance-applicants-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:45:57</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: PublicAssistanceApplicants[0].organizationType, PublicAssistanceApplicants[0].numberOfSites)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Community Status</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/nfip-community-status-book-v1" target="_blank">https://www.fema.gov/openfema-data-page/nfip-community-status-book-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:46:10</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: NfipCommunityStatusBook[0].cid, NfipCommunityStatusBook[0].initialFirmIdentified, NfipCommunityStatusBook[0].currentEffectiveMapDate, NfipCommunityStatusBook[0].regEmergDate, NfipCommunityStatusBook[0].tribalNation)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Multiple Loss Properties</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/nfip-multiple-loss-properties-v1" target="_blank">https://www.fema.gov/openfema-data-page/nfip-multiple-loss-properties-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:46:23</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: NfipMultipleLossProperties[0].mitigated, NfipMultipleLossProperties[0].numberOfLosses, NfipMultipleLossProperties[0].totalBuildingPayment, NfipMultipleLossProperties[0].totalContentsPayment, NfipMultipleLossProperties[0].averagePaymentByBuildingValue, NfipMultipleLossProperties[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA PA Applicants Program Deliveries</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/public-assistance-applicants-program-deliveries-v1" target="_blank">https://www.fema.gov/openfema-data-page/public-assistance-applicants-program-deliveries-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:29:25</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: PublicAssistanceApplicantsProgramDeliveries[0].state, PublicAssistanceApplicantsProgramDeliveries[0].applicantId, PublicAssistanceApplicantsProgramDeliveries[0].programDeliveryModel)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA HMA Subapplications</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/hma-subapplications-v2" target="_blank">https://www.fema.gov/openfema-data-page/hma-subapplications-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>daily</td>
+                <td>2025-01-28 04:46:46</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: HmaSubapplications[0].subapplicationId, HmaSubapplications[0].state, HmaSubapplications[0].county, HmaSubapplications[0].projectType, HmaSubapplications[0].totalEstimatedCost, HmaSubapplications[0].federalShareRequest, HmaSubapplications[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Community Layer</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/nfip-community-layer-comprehensive-v1" target="_blank">https://www.fema.gov/openfema-data-page/nfip-community-layer-comprehensive-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:47:01</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: NfipCommunityLayerComprehensive[0].cid, NfipCommunityLayerComprehensive[0].state, NfipCommunityLayerComprehensive[0].tribalNation, NfipCommunityLayerComprehensive[0].initialFirmIdentified, NfipCommunityLayerComprehensive[0].initialNfipEntry, NfipCommunityLayerComprehensive[0].currentMapStatus, NfipCommunityLayerComprehensive[0].participationStatus, NfipCommunityLayerComprehensive[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Emergency Management Performance Grants</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/emergency-management-performance-grants-v2" target="_blank">https://www.fema.gov/openfema-data-page/emergency-management-performance-grants-v2</a></td>
+                <td class="status-ok">ok</td>
+                <td>quarterly</td>
+                <td>2025-01-28 04:47:13</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: EmergencyManagementPerformanceGrants[0].fiscalYear, EmergencyManagementPerformanceGrants[0].region, EmergencyManagementPerformanceGrants[0].grantee, EmergencyManagementPerformanceGrants[0].awardAmount, EmergencyManagementPerformanceGrants[0].obligatedAmount, EmergencyManagementPerformanceGrants[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA Non-Disaster Assistance Firefighter Grants</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/non-disaster-and-assistance-firefighter-grants-v1" target="_blank">https://www.fema.gov/openfema-data-page/non-disaster-and-assistance-firefighter-grants-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>quarterly</td>
+                <td>2025-01-28 04:47:29</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: NonDisasterAssistanceFirefighterGrants[0].state, NonDisasterAssistanceFirefighterGrants[0].county, NonDisasterAssistanceFirefighterGrants[0].grantProgram, NonDisasterAssistanceFirefighterGrants[0].grantType, NonDisasterAssistanceFirefighterGrants[0].obligatedAmount, NonDisasterAssistanceFirefighterGrants[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FEMA NFIP Residential Penetration Rates</td>
+                <td><a href="https://www.fema.gov/openfema-data-page/nfip-residential-penetration-rates-v1" target="_blank">https://www.fema.gov/openfema-data-page/nfip-residential-penetration-rates-v1</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2025-01-28 04:09:37</td>
+                <td>
+                    
+                        
+                            ✗ (Fields removed from schema: NfipResidentialPenetrationRates[0].censusYear, NfipResidentialPenetrationRates[0].residentialStructures, NfipResidentialPenetrationRates[0].residentialPolicies, NfipResidentialPenetrationRates[0].penetrationRate, NfipResidentialPenetrationRates[0].lastRefresh)
+                        
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>OpenFEMA Datasets</td>
+                <td><a href="https://www.fema.gov/about/openfema/data-sets" target="_blank">https://www.fema.gov/about/openfema/data-sets</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 04:31:09</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>FSCM SOGISC</td>
+                <td><a href="https://www.fcsm.gov/groups/sogisc/" target="_blank">https://www.fcsm.gov/groups/sogisc/</a></td>
+                <td class="status-error">error</td>
+                <td>-</td>
+                <td>-</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>HTTP 404</td>
+            </tr>
+            
+            
+            <tr>
+                <td>NIH Sexual &amp; Gender Minority Research Office</td>
+                <td><a href="https://dpcpsi.nih.gov/sgmro" target="_blank">https://dpcpsi.nih.gov/sgmro</a></td>
+                <td class="status-error">error</td>
+                <td>-</td>
+                <td>-</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>HTTP 404</td>
+            </tr>
+            
+            
+            <tr>
+                <td>Census Bureau SOGI</td>
+                <td><a href="https://www.census.gov/topics/population/sexual-orientation-gender-identity.html" target="_blank">https://www.census.gov/topics/population/sexual-orientation-gender-identity.html</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        4/7 OK
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            <tr>
+                <td colspan="8">
+                    <div class="linked-urls">
+                        
+                            
+                        
+                            
+                            <div class="linked-url-item">
+                                <div class="linked-url-name">→ Data Equity</div>
+                                <div class="linked-url-details">
+                                    <div class="linked-url-url">https://www.census.gov/about/what/data-equity.html</div>
+                                    <div class="linked-url-error">
+                                        HTTP 404
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        
+                            
+                        
+                            
+                            <div class="linked-url-item">
+                                <div class="linked-url-name">→ Executive Order on LGBTQI+ Equality</div>
+                                <div class="linked-url-details">
+                                    <div class="linked-url-url">https://www.whitehouse.gov/briefing-room/presidential-actions/2022/06/15/executive-order-on-advancing-equality-for-lesbian-gay-bisexual-transgender-queer-and-intersex-individuals/</div>
+                                    <div class="linked-url-error">
+                                        HTTP 404
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        
+                            
+                            <div class="linked-url-item">
+                                <div class="linked-url-name">→ Federal Evidence Agenda on LGBTQI+ Equity</div>
+                                <div class="linked-url-details">
+                                    <div class="linked-url-url">https://www.whitehouse.gov/wp-content/uploads/2023/01/Federal-Evidence-Agenda-on-LGBTQI-Equity.pdf</div>
+                                    <div class="linked-url-error">
+                                        HTTP 404
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        
+                            
+                        
+                            
                         
                     </div>
-                    
-                </td>
-                <td>
-                    
-                        2025-01-25
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">fema</span>
-                    
-                    <span class="tag">api</span>
-                    
-                    <span class="tag">public-assistance</span>
-                    
-                    <span class="tag">disaster-recovery</span>
-                    
-                </td>
-                <td>
-                    
                 </td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    OpenFEMA Datasets
-                    
-                </td>
-                <td><a href="https://www.fema.gov/about/openfema/data-sets" target="_blank">https://www.fema.gov/about/openfema/data-sets</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
-                <td>
-                    
-                        2025-01-26
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">fema</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    FSCM SOGISC
-                    
-                </td>
-                <td><a href="https://www.fcsm.gov/groups/sogisc/" target="_blank">https://www.fcsm.gov/groups/sogisc/</a></td>
-                <td>
-                    <span class="status-error">error</span>
-                    
-                </td>
-                <td>
-                    
-                        2025-01-23
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">sogi</span>
-                    
-                </td>
-                <td>
-                    
-                    <span class="status-error">HTTP 404</span>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    NIH Sexual &amp; Gender Minority Research Office
-                    
-                </td>
-                <td><a href="https://dpcpsi.nih.gov/sgmro" target="_blank">https://dpcpsi.nih.gov/sgmro</a></td>
-                <td>
-                    <span class="status-error">error</span>
-                    
-                </td>
-                <td>
-                    
-                        2025-01-26
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">sogi</span>
-                    
-                    <span class="tag">nih</span>
-                    
-                    <span class="tag">health</span>
-                    
-                </td>
-                <td>
-                    
-                    <span class="status-error">HTTP 404</span>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    Census Bureau SOGI
-                    
-                </td>
-                <td><a href="https://www.census.gov/topics/population/sexual-orientation-gender-identity.html" target="_blank">https://www.census.gov/topics/population/sexual-orientation-gender-identity.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
-                <td>
-                    
-                        -
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">sogi</span>
-                    
-                    <span class="tag">cb</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    Census Bureau Race and Ethnicity
-                    
-                </td>
+                <td>Census Bureau Race and Ethnicity</td>
                 <td><a href="https://www.census.gov/about/our-research/race-ethnicity.html" target="_blank">https://www.census.gov/about/our-research/race-ethnicity.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -329,28 +800,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">race</span>
-                    
-                    <span class="tag">ethnicity</span>
-                    
-                    <span class="tag">cb</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    AI.gov
-                    
-                </td>
+                <td>AI.gov</td>
                 <td><a href="https://ai.gov" target="_blank">https://ai.gov</a></td>
-                <td>
-                    <span class="status-redirect">redirect</span>
-                    
-                </td>
+                <td class="status-redirect">redirect</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -358,28 +820,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ai</span>
-                    
-                    <span class="tag">whitehouse</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="status-redirect">Redirects to: https://www.whitehouse.gov</span>
-                    
-                </td>
+                <td>https://www.whitehouse.gov</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Department of Defense - Congressionally Directed Medical Research Programs
-                    
-                </td>
+                <td>Department of Defense - Congressionally Directed Medical Research Programs</td>
                 <td><a href="https://cdmrp.health.mil" target="_blank">https://cdmrp.health.mil</a></td>
-                <td>
-                    <span class="status-error">error</span>
-                    
-                </td>
+                <td class="status-error">error</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -387,28 +840,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">military</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="status-error">HTTP 404</span>
-                    
-                </td>
+                <td>HTTP 404</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    U.S. Army Medical Research and Development Command
-                    
-                </td>
+                <td>U.S. Army Medical Research and Development Command</td>
                 <td><a href="https://mrdc.health.mil" target="_blank">https://mrdc.health.mil</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -416,26 +860,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">military</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Assessment of Educational Progress
-                    
-                </td>
+                <td>National Assessment of Educational Progress</td>
                 <td><a href="https://nces.ed.gov/nationsreportcard/" target="_blank">https://nces.ed.gov/nationsreportcard/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -443,26 +880,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Baccalaureate and Beyond Longitudinal Study
-                    
-                </td>
+                <td>Baccalaureate and Beyond Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/b&amp;b/" target="_blank">https://nces.ed.gov/surveys/b&amp;b/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -470,28 +900,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
-                    
-                    <span class="tag">highered</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Beginning Postsecondary Students Longitudinal Study
-                    
-                </td>
+                <td>Beginning Postsecondary Students Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/bps/" target="_blank">https://nces.ed.gov/surveys/bps/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -499,26 +920,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Beginning Teacher Longitudinal Study
-                    
-                </td>
+                <td>Beginning Teacher Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/btls/" target="_blank">https://nces.ed.gov/surveys/btls/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -526,84 +940,59 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Civil Rights Data Collection
-                    
-                </td>
+                <td>Civil Rights Data Collection</td>
                 <td><a href="https://civilrightsdata.ed.gov/" target="_blank">https://civilrightsdata.ed.gov/</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-16 15:27:38</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-16
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
-                    
-                    <span class="tag">civilrights</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Civil Rights Data Collection
-                    
-                </td>
+                <td>Civil Rights Data Collection</td>
                 <td><a href="https://civilrightsdata.ed.gov/data" target="_blank">https://civilrightsdata.ed.gov/data</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-16 15:27:38</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-16
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
-                    
-                    <span class="tag">civilrights</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Early Childhood Longitudinal Study
-                    
-                </td>
+                <td>Early Childhood Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/ecls/" target="_blank">https://nces.ed.gov/ecls/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -611,26 +1000,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    EdFacts (K-12)
-                    
-                </td>
+                <td>EdFacts (K-12)</td>
                 <td><a href="https://www.ed.gov/data/edfacts-initiative" target="_blank">https://www.ed.gov/data/edfacts-initiative</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -638,26 +1020,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Fast Response Survey System
-                    
-                </td>
+                <td>Fast Response Survey System</td>
                 <td><a href="https://nces.ed.gov/surveys/frss/" target="_blank">https://nces.ed.gov/surveys/frss/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -665,26 +1040,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Middle Grades Longitudinal Study
-                    
-                </td>
+                <td>Middle Grades Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/mgls/" target="_blank">https://nces.ed.gov/surveys/mgls/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -692,26 +1060,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Education Longitudinal Study
-                    
-                </td>
+                <td>National Education Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/nels88/" target="_blank">https://nces.ed.gov/surveys/nels88/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -719,26 +1080,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Household Education Surveys Program
-                    
-                </td>
+                <td>National Household Education Surveys Program</td>
                 <td><a href="https://nces.ed.gov/nhes/" target="_blank">https://nces.ed.gov/nhes/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -746,26 +1100,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Indian Education Study
-                    
-                </td>
+                <td>National Indian Education Study</td>
                 <td><a href="https://nces.ed.gov/nationsreportcard/nies/" target="_blank">https://nces.ed.gov/nationsreportcard/nies/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -773,26 +1120,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Postsecondary Student Aid Study
-                    
-                </td>
+                <td>National Postsecondary Student Aid Study</td>
                 <td><a href="https://nces.ed.gov/surveys/npsas/" target="_blank">https://nces.ed.gov/surveys/npsas/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -800,26 +1140,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Private School Universe Survey
-                    
-                </td>
+                <td>Private School Universe Survey</td>
                 <td><a href="https://nces.ed.gov/surveys/pss/" target="_blank">https://nces.ed.gov/surveys/pss/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -827,26 +1160,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    School Survey on Crime and Safety
-                    
-                </td>
+                <td>School Survey on Crime and Safety</td>
                 <td><a href="https://nces.ed.gov/surveys/ssocs/" target="_blank">https://nces.ed.gov/surveys/ssocs/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -854,30 +1180,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
-                    
-                    <span class="tag">school</span>
-                    
-                    <span class="tag">crime</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    ResearchDataGov - NCES
-                    
-                </td>
+                <td>ResearchDataGov - NCES</td>
                 <td><a href="https://www.researchdatagov.org/search?sources_facet=9&amp;page=1&amp;sort=dcterms_title_sort%20asc&amp;rows=100" target="_blank">https://www.researchdatagov.org/search?sources_facet=9&amp;page=1&amp;sort=dcterms_title_sort%20asc&amp;rows=100</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -885,53 +1200,39 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    DOJ Annual Statistical Reports
-                    
-                </td>
+                <td>DOJ Annual Statistical Reports</td>
                 <td><a href="https://www.justice.gov/usao/resources/annual-statistical-reports" target="_blank">https://www.justice.gov/usao/resources/annual-statistical-reports</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:36:02</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">DOJ</span>
-                    
-                    <span class="tag">justice</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Consumer Financial Protection Bureau
-                    
-                </td>
+                <td>Consumer Financial Protection Bureau</td>
                 <td><a href="https://www.consumerfinance.gov/data-research/consumer-complaints/search/" target="_blank">https://www.consumerfinance.gov/data-research/consumer-complaints/search/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -939,24 +1240,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">cfpb</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Federal Collections
-                    
-                </td>
+                <td>Federal Collections</td>
                 <td><a href="https://fiscaldata.treasury.gov/datasets/treasury-offset-program/federal-collections" target="_blank">https://fiscaldata.treasury.gov/datasets/treasury-offset-program/federal-collections</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -964,24 +1260,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">treasury</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    120 Day Delinquent Debt Referral Compliance Report
-                    
-                </td>
+                <td>120 Day Delinquent Debt Referral Compliance Report</td>
                 <td><a href="https://fiscaldata.treasury.gov/datasets/delinquent-debt-referral-compliance/120-day-delinquent-debt-referral-compliance-report" target="_blank">https://fiscaldata.treasury.gov/datasets/delinquent-debt-referral-compliance/120-day-delinquent-debt-referral-compliance-report</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -989,24 +1280,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">treasury</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Youth Risk Behavior Survey (YRBS)
-                    
-                </td>
+                <td>Youth Risk Behavior Survey (YRBS)</td>
                 <td><a href="https://www.cdc.gov/yrbs/data/index.html" target="_blank">https://www.cdc.gov/yrbs/data/index.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1014,26 +1300,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">cdc</span>
-                    
-                    <span class="tag">health</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    High School &amp; Beyond Longitudinal Study
-                    
-                </td>
+                <td>High School &amp; Beyond Longitudinal Study</td>
                 <td><a href="https://nces.ed.gov/surveys/hsb/" target="_blank">https://nces.ed.gov/surveys/hsb/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1041,26 +1320,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Teacher and Principal Survey
-                    
-                </td>
+                <td>National Teacher and Principal Survey</td>
                 <td><a href="https://nces.ed.gov/surveys/ntps/" target="_blank">https://nces.ed.gov/surveys/ntps/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1068,26 +1340,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)
-                    
-                </td>
+                <td>National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)</td>
                 <td><a href="https://nces.ed.gov/nhes/parent_involvement.asp" target="_blank">https://nces.ed.gov/nhes/parent_involvement.asp</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1095,57 +1360,39 @@
                 </td>
                 <td>
                     
-                    <span class="tag">ed</span>
-                    
-                    <span class="tag">education</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS)
-                    
-                </td>
+                <td>School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS)</td>
                 <td><a href="https://bjs.ojp.gov/data-collection/school-crime-supplement-scs" target="_blank">https://bjs.ojp.gov/data-collection/school-crime-supplement-scs</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-27 21:11:45</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-23
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">DOJ</span>
-                    
-                    <span class="tag">justice</span>
-                    
-                    <span class="tag">school</span>
-                    
-                    <span class="tag">crime</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Treasury Homeowner Assistance Fund Data
-                    
-                </td>
+                <td>Treasury Homeowner Assistance Fund Data</td>
                 <td><a href="https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund" target="_blank">https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1153,86 +1400,59 @@
                 </td>
                 <td>
                     
-                    <span class="tag">treasury</span>
-                    
-                    <span class="tag">covid</span>
-                    
-                    <span class="tag">assistance</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Mortgage Database Aggregate Statistics
-                    
-                </td>
+                <td>National Mortgage Database Aggregate Statistics</td>
                 <td><a href="https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics" target="_blank">https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:50:02</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">fhfa</span>
-                    
-                    <span class="tag">mortgage</span>
-                    
-                    <span class="tag">housing</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Mortgage Database Program
-                    
-                </td>
+                <td>National Mortgage Database Program</td>
                 <td><a href="https://www.fhfa.gov/programs/national-mortgage-database-program" target="_blank">https://www.fhfa.gov/programs/national-mortgage-database-program</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:49:58</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">fhfa</span>
-                    
-                    <span class="tag">mortgage</span>
-                    
-                    <span class="tag">housing</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    American Community Survey
-                    
-                </td>
+                <td>American Community Survey</td>
                 <td><a href="https://www.census.gov/programs-surveys/acs" target="_blank">https://www.census.gov/programs-surveys/acs</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1240,26 +1460,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">cb</span>
-                    
-                    <span class="tag">census</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Census Bureau Household Pulse Survey
-                    
-                </td>
+                <td>Census Bureau Household Pulse Survey</td>
                 <td><a href="https://www.census.gov/data/experimental-data-products/household-pulse-survey.html" target="_blank">https://www.census.gov/data/experimental-data-products/household-pulse-survey.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1267,51 +1480,39 @@
                 </td>
                 <td>
                     
-                    <span class="tag">cb</span>
-                    
-                    <span class="tag">census</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Standing General Order 2021-01 | Incident Reporting for Automated Driving Systems and Level 2 Advanced Driver Assistance Systems
-                    
-                </td>
+                <td>Standing General Order 2021-01 | Incident Reporting for Automated Driving Systems and Level 2 Advanced Driver Assistance Systems</td>
                 <td><a href="https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads" target="_blank">https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:07:51</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">transportation</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Investing in America
-                    
-                </td>
+                <td>Investing in America</td>
                 <td><a href="https://www.whitehouse.gov/invest/" target="_blank">https://www.whitehouse.gov/invest/</a></td>
-                <td>
-                    <span class="status-error">error</span>
-                    
-                </td>
+                <td class="status-error">error</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1319,53 +1520,39 @@
                 </td>
                 <td>
                     
-                    <span class="tag">whitehouse</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="status-error">HTTP 404</span>
-                    
-                </td>
+                <td>HTTP 404</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Federal Firearms Listings
-                    
-                </td>
+                <td>Federal Firearms Listings</td>
                 <td><a href="https://www.atf.gov/firearms/listing-federal-firearms-licensees" target="_blank">https://www.atf.gov/firearms/listing-federal-firearms-licensees</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:45:17</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">atf</span>
-                    
-                    <span class="tag">firearms</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    U.S. Department of Labor Enforcement Data
-                    
-                </td>
+                <td>U.S. Department of Labor Enforcement Data</td>
                 <td><a href="https://enforcedata.dol.gov/views/search.php" target="_blank">https://enforcedata.dol.gov/views/search.php</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1373,24 +1560,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">labor</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Home Mortgage Disclosure Act
-                    
-                </td>
+                <td>Home Mortgage Disclosure Act</td>
                 <td><a href="https://www.consumerfinance.gov/data-research/hmda/" target="_blank">https://www.consumerfinance.gov/data-research/hmda/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1398,26 +1580,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">housing</span>
-                    
-                    <span class="tag">mortgage</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Health and Nutrition Examination Survey (NHANES)
-                    
-                </td>
+                <td>National Health and Nutrition Examination Survey (NHANES)</td>
                 <td><a href="https://www.cdc.gov/nchs/nhanes/" target="_blank">https://www.cdc.gov/nchs/nhanes/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1425,26 +1600,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Survey of Family Growth (NSFG)
-                    
-                </td>
+                <td>National Survey of Family Growth (NSFG)</td>
                 <td><a href="https://www.cdc.gov/nchs/nsfg/index.htm" target="_blank">https://www.cdc.gov/nchs/nsfg/index.htm</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1452,26 +1620,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Survey of Children&#39;s Health (NSCH)
-                    
-                </td>
+                <td>National Survey of Children&#39;s Health (NSCH)</td>
                 <td><a href="https://www.census.gov/programs-surveys/nsch.html" target="_blank">https://www.census.gov/programs-surveys/nsch.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1479,24 +1640,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">cb</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Hospital Care Survey
-                    
-                </td>
+                <td>National Hospital Care Survey</td>
                 <td><a href="https://www.cdc.gov/nchs/nhcs/index.html" target="_blank">https://www.cdc.gov/nchs/nhcs/index.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1504,26 +1660,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention - AtlasPlus
-                    
-                </td>
+                <td>National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention - AtlasPlus</td>
                 <td><a href="https://www.cdc.gov/nchhstp/about/atlasplus.html?CDC_AAref_Val=https://www.cdc.gov/nchhstp/Atlas/" target="_blank">https://www.cdc.gov/nchhstp/about/atlasplus.html?CDC_AAref_Val=https://www.cdc.gov/nchhstp/Atlas/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1531,26 +1680,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Vital Statistics
-                    
-                </td>
+                <td>National Vital Statistics</td>
                 <td><a href="https://www.cdc.gov/nchs/nvss/index.htm" target="_blank">https://www.cdc.gov/nchs/nvss/index.htm</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1558,26 +1700,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    CDC WONDER
-                    
-                </td>
+                <td>CDC WONDER</td>
                 <td><a href="https://wonder.cdc.gov" target="_blank">https://wonder.cdc.gov</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1585,26 +1720,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    National Notifiable Disease Surveillance System
-                    
-                </td>
+                <td>National Notifiable Disease Surveillance System</td>
                 <td><a href="https://wonder.cdc.gov/NNDSS.html" target="_blank">https://wonder.cdc.gov/NNDSS.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1612,26 +1740,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Vaccine Adverse Event Reporting System (VAERS)
-                    
-                </td>
+                <td>Vaccine Adverse Event Reporting System (VAERS)</td>
                 <td><a href="https://wonder.cdc.gov/vaers.html" target="_blank">https://wonder.cdc.gov/vaers.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1639,28 +1760,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">vaccine</span>
-                    
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Sexually Transmitted Disease Morbidity Data
-                    
-                </td>
+                <td>Sexually Transmitted Disease Morbidity Data</td>
                 <td><a href="https://wonder.cdc.gov/std.html" target="_blank">https://wonder.cdc.gov/std.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1668,26 +1780,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Online Tuberculosis Information System (OTIS) Data
-                    
-                </td>
+                <td>Online Tuberculosis Information System (OTIS) Data</td>
                 <td><a href="https://wonder.cdc.gov/tb.html" target="_blank">https://wonder.cdc.gov/tb.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1695,26 +1800,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    AIDS Public Use Data
-                    
-                </td>
+                <td>AIDS Public Use Data</td>
                 <td><a href="https://wonder.cdc.gov/AIDSPublic.html" target="_blank">https://wonder.cdc.gov/AIDSPublic.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1722,26 +1820,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Behavioral Risk Factor Surveillance System (BRFSS)
-                    
-                </td>
+                <td>Behavioral Risk Factor Surveillance System (BRFSS)</td>
                 <td><a href="https://www.cdc.gov/brfss/index.html" target="_blank">https://www.cdc.gov/brfss/index.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1749,26 +1840,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    United States Cancer Statistics
-                    
-                </td>
+                <td>United States Cancer Statistics</td>
                 <td><a href="https://wonder.cdc.gov/cancer.html" target="_blank">https://wonder.cdc.gov/cancer.html</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
                 <td>
                     
                         -
@@ -1776,82 +1860,19 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cdc</span>
-                    
-                    <span class="tag">cancer</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Surveillance, Epidemiology, and End Results (SEER)
-                    
-                </td>
+                <td>Surveillance, Epidemiology, and End Results (SEER)</td>
                 <td><a href="https://seer.cancer.gov/" target="_blank">https://seer.cancer.gov/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
-                <td>
-                    
-                        2024-12-19
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">cancer</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    National Health and Aging Trends Study (NHATS)
-                    
-                </td>
-                <td><a href="https://www.nhats.org/researcher/nhats" target="_blank">https://www.nhats.org/researcher/nhats</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
-                <td>
-                    
-                        2025-01-26
-                    
-                </td>
-                <td>
-                    
-                    <span class="tag">health</span>
-                    
-                    <span class="tag">aging</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
-            </tr>
-        
-            <tr>
-                <td>
-                    National Longitudinal Study of Adolescent to Adult Health (Add Health)
-                    
-                </td>
-                <td><a href="https://addhealth.cpc.unc.edu/" target="_blank">https://addhealth.cpc.unc.edu/</a></td>
-                <td>
-                    <span class="status-ok">ok</span>
-                    
-                </td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2024-12-19 15:22:22</td>
                 <td>
                     
                         -
@@ -1859,104 +1880,134 @@
                 </td>
                 <td>
                     
-                    <span class="tag">health</span>
+                        -
                     
                 </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
+                <td>National Health and Aging Trends Study (NHATS)</td>
+                <td><a href="https://www.nhats.org/researcher/nhats" target="_blank">https://www.nhats.org/researcher/nhats</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:57:22</td>
                 <td>
-                    EPA Environmental Justice
+                    
+                        -
                     
                 </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>National Longitudinal Study of Adolescent to Adult Health (Add Health)</td>
+                <td><a href="https://addhealth.cpc.unc.edu/" target="_blank">https://addhealth.cpc.unc.edu/</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>-</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>-</td>
+            </tr>
+            
+            
+            <tr>
+                <td>EPA Environmental Justice</td>
                 <td><a href="https://www.epa.gov/environmentaljustice" target="_blank">https://www.epa.gov/environmentaljustice</a></td>
+                <td class="status-ok">ok</td>
+                <td>-</td>
+                <td>2025-01-28 05:36:22</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-26
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">epa</span>
-                    
-                    <span class="tag">envjustice</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    Refugee Processing Center
-                    
-                    <div class="expected-update">
-                        Expected updates: monthly
-                    </div>
-                    
-                </td>
+                <td>Refugee Processing Center</td>
                 <td><a href="https://www.wrapsnet.org/" target="_blank">https://www.wrapsnet.org/</a></td>
+                <td class="status-ok">ok</td>
+                <td>monthly</td>
+                <td>2024-11-06 23:54:10</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2024-11-06
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">immigration</span>
-                    
-                    <span class="tag">statedept</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
+            
+            
             <tr>
-                <td>
-                    NIH RePORTER
-                    
-                    <div class="expected-update">
-                        Expected updates: annually
-                    </div>
-                    
-                </td>
+                <td>NIH RePORTER</td>
                 <td><a href="https://reporter.nih.gov/" target="_blank">https://reporter.nih.gov/</a></td>
+                <td class="status-ok">ok</td>
+                <td>annually</td>
+                <td>2025-01-07 21:39:50</td>
                 <td>
-                    <span class="status-ok">ok</span>
+                    
+                        -
                     
                 </td>
                 <td>
                     
-                        2025-01-07
+                        -
                     
                 </td>
-                <td>
-                    
-                    <span class="tag">nih</span>
-                    
-                    <span class="tag">health</span>
-                    
-                </td>
-                <td>
-                    
-                </td>
+                <td>-</td>
             </tr>
-        
-        </tbody>
-    </table>
+            
+            
+            <tr>
+                <td>Oncology Center of Excellence Equity Program</td>
+                <td><a href="https://www.fda.gov/about-fda/oncology-center-excellence/oce-equity-program" target="_blank">https://www.fda.gov/about-fda/oncology-center-excellence/oce-equity-program</a></td>
+                <td class="status-error">error</td>
+                <td>-</td>
+                <td>-</td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>
+                    
+                        -
+                    
+                </td>
+                <td>HTTP 404</td>
+            </tr>
+            
+            
+        </table>
+    </div>
 </body>
 </html>

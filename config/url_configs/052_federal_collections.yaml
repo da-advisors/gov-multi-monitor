@@ -1,0 +1,5 @@
+url: https://fiscaldata.treasury.gov/datasets/treasury-offset-program/federal-collections
+name: Federal Collections
+expected_update_frequency: null
+tags:
+  - treasury

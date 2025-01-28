@@ -1,0 +1,21 @@
+url: https://www.fema.gov/openfema-data-page/ipaws-archived-alerts-v1
+name: FEMA IPAWS Archived Alerts
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - emergency-alerts
+api_config:
+  url: https://www.fema.gov/api/open/v1/IpawsArchivedAlerts
+  method: GET
+  params:
+    $orderby: sent desc
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - IpawsArchivedAlerts[0].identifier
+    - IpawsArchivedAlerts[0].sender
+    - IpawsArchivedAlerts[0].sent
+    - IpawsArchivedAlerts[0].status
+    - IpawsArchivedAlerts[0].msgType
+    - IpawsArchivedAlerts[0].scope

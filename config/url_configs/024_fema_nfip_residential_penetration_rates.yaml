@@ -1,0 +1,17 @@
+url: https://www.fema.gov/openfema-data-page/nfip-residential-penetration-rates-v1
+name: FEMA NFIP Residential Penetration Rates
+expected_update_frequency: monthly
+tags:
+  - fema
+  - api
+  - nfip
+  - flood-insurance
+api_config:
+  url: https://www.fema.gov/api/open/v1/NfipResidentialPenetrationRates
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - NfipResidentialPenetrationRates[0].state
+    - NfipResidentialPenetrationRates[0].county

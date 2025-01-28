@@ -6,6 +6,15 @@ import yaml
 import logging
 
 @dataclass
+class LinkedURL:
+    """Configuration for a linked URL to monitor."""
+    url: str
+    name: str
+    description: Optional[str] = None
+    type: Optional[str] = None  # e.g. pdf, excel, csv
+    expected_update_frequency: Optional[str] = None
+
+@dataclass
 class APIConfig:
     """Configuration for checking an associated API."""
     url: str
@@ -24,11 +33,14 @@ class URLConfig:
     tags: List[str] = None
     expected_update_frequency: Optional[str] = None  # e.g. "daily", "weekly", "monthly", "quarterly", "yearly"
     api_config: Optional[APIConfig] = None
+    linked_urls: List[LinkedURL] = None
 
     def __post_init__(self):
         """Initialize default values."""
         if self.tags is None:
             self.tags = []
+        if self.linked_urls is None:
+            self.linked_urls = []
 
 @dataclass
 class MonitorConfig:
@@ -57,6 +69,8 @@ class MonitorConfig:
             for url_data in data['urls']:
                 if 'api_config' in url_data:
                     url_data['api_config'] = APIConfig(**url_data['api_config'])
+                if 'linked_urls' in url_data:
+                    url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
                 urls.append(URLConfig(**url_data))
         else:
             # Load from individual files in url_configs directory
@@ -75,6 +89,8 @@ class MonitorConfig:
                             url_data = yaml.safe_load(f)
                             if 'api_config' in url_data:
                                 url_data['api_config'] = APIConfig(**url_data['api_config'])
+                            if 'linked_urls' in url_data:
+                                url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
                             urls.append(URLConfig(**url_data))
                     except Exception as e:
                         logging.error(f"Error loading {config_file}: {e}")

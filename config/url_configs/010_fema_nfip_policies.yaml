@@ -1,0 +1,20 @@
+url: https://www.fema.gov/openfema-data-page/fima-nfip-redacted-policies-v2
+name: FEMA NFIP Policies
+expected_update_frequency: monthly
+tags:
+  - fema
+  - api
+  - nfip
+  - flood-insurance
+api_config:
+  url: https://www.fema.gov/api/open/v2/FimaNfipPolicies
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - FimaNfipPolicies[0].occupancyType
+    - FimaNfipPolicies[0].elevationDifference
+    - FimaNfipPolicies[0].totalBuildingInsuranceCoverage
+    - FimaNfipPolicies[0].totalContentsInsuranceCoverage
+    - FimaNfipPolicies[0].totalInsurancePremiumOfThePolicy

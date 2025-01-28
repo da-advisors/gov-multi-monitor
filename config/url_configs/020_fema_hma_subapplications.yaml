@@ -1,0 +1,19 @@
+url: https://www.fema.gov/openfema-data-page/hma-subapplications-v2
+name: FEMA HMA Subapplications
+expected_update_frequency: daily
+tags:
+  - fema
+  - api
+  - hazard-mitigation
+api_config:
+  url: https://www.fema.gov/api/open/v2/HmaSubapplications
+  method: GET
+  params:
+    $top: 1
+  expected_fields:
+    - metadata.count
+    - HmaSubapplications[0].region
+    - HmaSubapplications[0].state
+    - HmaSubapplications[0].subapplicantName
+    - HmaSubapplications[0].status
+    - HmaSubapplications[0].benefitCostRatio
