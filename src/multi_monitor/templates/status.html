@@ -2,6 +2,8 @@
 <html>
 <head>
     <title>URL Status Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js"></script>
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -26,6 +28,35 @@
             color: #6c757d;
             margin-bottom: 30px;
         }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            flex-grow: 1;
+            min-width: 200px;
+        }
+        .tag-filter {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            background: #e9ecef;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #495057;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -41,6 +72,36 @@
             background-color: #f8f9fa;
             font-weight: 600;
             color: #495057;
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort) {
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort):after {
+            content: '';
+            float: right;
+            margin-top: 7px;
+            border-width: 0 4px 4px;
+            border-style: solid;
+            border-color: #404040 transparent;
+            visibility: hidden;
+            opacity: 0;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        th[aria-sort="ascending"]:not(.no-sort):after {
+            border-bottom: none;
+            border-width: 4px 4px 0;
+        }
+        th[aria-sort]:not(.no-sort):after {
+            visibility: visible;
+            opacity: 0.4;
+        }
+        th[role=columnheader]:not(.no-sort):hover:after {
+            visibility: visible;
+            opacity: 1;
         }
         tr:hover {
             background-color: #f8f9fa;
@@ -88,6 +149,9 @@
             margin-left: 5px;
             color: #6c757d;
         }
+        .hidden {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -96,73 +160,100 @@
         <div class="timestamp">
             Generated on {{ timestamp.strftime("%Y-%m-%d %H:%M:%S") }}
         </div>
-        <table>
-            <tr>
-                <th>Name</th>
-                <th>URL</th>
-                <th>Status</th>
-                <th>Expected Updates</th>
-                <th>Last Modified</th>
-                <th>API Status</th>
-                <th>Linked URLs</th>
-                <th>Details</th>
-            </tr>
-            {% for result in results %}
-            <tr>
-                <td>{{ result.name or result.url }}</td>
-                <td><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></td>
-                <td class="status-{{ result.status }}">{{ result.status }}</td>
-                <td>{{ result.expected_update_frequency or "-" }}</td>
-                <td>{{ result.last_modified.strftime("%Y-%m-%d %H:%M:%S") if result.last_modified else "-" }}</td>
-                <td>
-                    {% if result.api_result %}
-                        {% if result.api_result.status == 'ok' %}
-                            ✓
-                            {% if result.api_result.last_update %}
-                                ({{ result.api_result.last_update.strftime('%Y-%m-%d') }})
-                            {% endif %}
-                        {% else %}
-                            ✗ ({{ result.api_result.error_message }})
-                        {% endif %}
-                    {% else %}
-                        -
-                    {% endif %}
-                </td>
-                <td>
-                    {% if result.linked_url_results %}
-                        {{ result.linked_url_results | selectattr('status', 'eq', 'ok') | list | length }}/{{ result.linked_url_results | length }} OK
-                    {% else %}
-                        -
-                    {% endif %}
-                </td>
-                <td>{{ result.error_message or result.redirect_url or "-" }}</td>
-            </tr>
-            {% if result.linked_url_results and result.linked_url_results | selectattr('status', 'ne', 'ok') | list | length > 0 %}
-            <tr>
-                <td colspan="8">
-                    <div class="linked-urls">
-                        {% for linked in result.linked_url_results %}
-                            {% if linked.status != 'ok' %}
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="Search by name or URL..." id="searchInput">
+            <select class="tag-filter" id="tagFilter">
+                <option value="">All Tags</option>
+                {% for tag in tags %}
+                <option value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>URL</th>
+                    <th>Tags</th>
+                    <th>Status</th>
+                    <th>Timestamp</th>
+                    <th>Last Modified</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in results %}
+                <tr class="result-row" data-tags="{{ result.tags|join(',') }}">
+                    <td>{{ result.name }}</td>
+                    <td><a href="{{ result.url }}" target="_blank">{{ result.url }}</a></td>
+                    <td>
+                        {% for tag in result.tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </td>
+                    <td class="status-{{ result.status|lower }}">{{ result.status }}</td>
+                    <td data-sort="{{ result.timestamp.isoformat() }}">{{ result.timestamp.strftime("%Y-%m-%d %H:%M:%S") }}</td>
+                    <td>{{ result.last_modified or 'N/A' }}</td>
+                </tr>
+                {% if result.linked_url_results %}
+                <tr>
+                    <td colspan="6">
+                        <div class="linked-urls">
+                            {% for linked in result.linked_url_results %}
                             <div class="linked-url-item">
-                                <div class="linked-url-name">→ {{ linked.name }}</div>
+                                <div class="linked-url-name">{{ linked.name }}</div>
                                 <div class="linked-url-details">
                                     <div class="linked-url-url">{{ linked.url }}</div>
-                                    <div class="linked-url-error">
-                                        {{ linked.error_message or linked.status }}
-                                        {% if linked.last_success %}
-                                            <span class="last-success">(Last successful: {{ linked.last_success.strftime('%Y-%m-%d') }})</span>
+                                    <div class="status-{{ linked.status|lower }}">
+                                        Status: {{ linked.status }}
+                                        {% if linked.status == 'ERROR' and linked.last_success %}
+                                        <span class="last-success">Last successful check: {{ linked.last_success.strftime("%Y-%m-%d") }}</span>
                                         {% endif %}
                                     </div>
                                 </div>
                             </div>
-                            {% endif %}
-                        {% endfor %}
-                    </div>
-                </td>
-            </tr>
-            {% endif %}
-            {% endfor %}
+                            {% endfor %}
+                        </div>
+                    </td>
+                </tr>
+                {% endif %}
+                {% endfor %}
+            </tbody>
         </table>
     </div>
+    <script>
+        // Initialize table sorting
+        new Tablesort(document.getElementById('resultsTable'));
+
+        // Search functionality
+        const searchInput = document.getElementById('searchInput');
+        const tagFilter = document.getElementById('tagFilter');
+        const rows = document.querySelectorAll('.result-row');
+
+        function filterTable() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedTag = tagFilter.value.toLowerCase();
+
+            rows.forEach(row => {
+                const name = row.cells[0].textContent.toLowerCase();
+                const url = row.cells[1].textContent.toLowerCase();
+                const tags = row.getAttribute('data-tags').toLowerCase();
+                
+                const matchesSearch = name.includes(searchTerm) || url.includes(searchTerm);
+                const matchesTag = !selectedTag || tags.includes(selectedTag);
+                
+                // Also handle the linked URLs row
+                const linkedRow = row.nextElementSibling;
+                if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
+                    linkedRow.classList.toggle('hidden', !(matchesSearch && matchesTag));
+                } else {
+                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
+                }
+            });
+        }
+
+        searchInput.addEventListener('input', filterTable);
+        tagFilter.addEventListener('change', filterTable);
+    </script>
 </body>
 </html>
