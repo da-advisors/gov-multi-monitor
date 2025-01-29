@@ -9,6 +9,7 @@ api_config:
   url: https://www.fema.gov/api/open/v4/HazardMitigationAssistanceProjects
   method: GET
   params:
+    $orderby: programFy desc
     $top: 1
   expected_fields:
     - metadata.count

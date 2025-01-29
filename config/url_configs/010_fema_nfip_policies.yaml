@@ -32,4 +32,6 @@ api_config:
     - FimaNfipPolicies[0].elevationDifference
     - FimaNfipPolicies[0].federalPolicyFee
 linked_urls:
-  - https://www.fema.gov/sites/default/files/documents/fema_nfip-data-faqs.pdf
+  - url: https://www.fema.gov/about/openfema/faq
+    name: OpenFEMA FAQs
+  
