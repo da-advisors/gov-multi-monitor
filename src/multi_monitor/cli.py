@@ -133,9 +133,12 @@ def generate_page(config: str, output: str, template: str = None):
         
         # Get results for all URLs
         results = []
+        all_tags = set()  # Keep track of all unique tags
         for url_config in cfg.urls:
             result = checker.check_url(url_config)
             result.tags = url_config.tags  # Add tags to result for display
+            if url_config.tags:  # Add tags to our set if they exist
+                all_tags.update(url_config.tags)
             
             # Add last successful check date for each linked URL
             if result.linked_url_results:
@@ -144,6 +147,9 @@ def generate_page(config: str, output: str, template: str = None):
             
             results.append(result)
             history.add_result(result)
+        
+        # Sort tags alphabetically for consistent display
+        sorted_tags = sorted(all_tags)
         
         # Load template
         if template:
@@ -163,7 +169,8 @@ def generate_page(config: str, output: str, template: str = None):
         # Generate HTML
         html = template.render(
             timestamp=datetime.now(),
-            results=results
+            results=results,
+            tags=sorted_tags  # Pass sorted tags to template
         )
         
         # Write output
