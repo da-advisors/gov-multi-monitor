@@ -176,7 +176,6 @@
                     <th>URL</th>
                     <th>Tags</th>
                     <th>Status</th>
-                    <th>Timestamp</th>
                     <th>Last Modified</th>
                 </tr>
             </thead>
@@ -191,12 +190,11 @@
                         {% endfor %}
                     </td>
                     <td class="status-{{ result.status|lower }}">{{ result.status }}</td>
-                    <td data-sort="{{ result.timestamp.isoformat() }}">{{ result.timestamp.strftime("%Y-%m-%d %H:%M:%S") }}</td>
                     <td>{{ result.last_modified or 'N/A' }}</td>
                 </tr>
                 {% if result.linked_url_results %}
                 <tr>
-                    <td colspan="6">
+                    <td colspan="5">
                         <div class="linked-urls">
                             {% for linked in result.linked_url_results %}
                             <div class="linked-url-item">
