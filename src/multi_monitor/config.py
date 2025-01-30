@@ -34,6 +34,7 @@ class URLConfig:
     expected_update_frequency: Optional[str] = None  # e.g. "daily", "weekly", "monthly", "quarterly", "yearly"
     api_config: Optional[APIConfig] = None
     linked_urls: List[LinkedURL] = None
+    archived_content: List[str] = None  # List of URLs to archived versions of the content
 
     def __post_init__(self):
         """Initialize default values."""
@@ -41,6 +42,8 @@ class URLConfig:
             self.tags = []
         if self.linked_urls is None:
             self.linked_urls = []
+        if self.archived_content is None:
+            self.archived_content = []
 
 @dataclass
 class MonitorConfig:

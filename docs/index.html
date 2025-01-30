@@ -57,6 +57,16 @@
             font-size: 0.85em;
             color: #495057;
         }
+        .archived-link {
+            display: inline-block;
+            margin: 2px 4px;
+            font-size: 0.9em;
+        }
+        .archived-link:not(:last-child):after {
+            content: ';';
+            margin-left: 4px;
+            color: #6c757d;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -99,10 +109,6 @@
             visibility: visible;
             opacity: 0.4;
         }
-        th[role=columnheader]:not(.no-sort):hover:after {
-            visibility: visible;
-            opacity: 1;
-        }
         tr:hover {
             background-color: #f8f9fa;
         }
@@ -130,24 +136,16 @@
         .linked-url-name {
             font-weight: 500;
             color: #495057;
+            margin-bottom: 4px;
         }
-        .linked-url-details {
-            margin-left: 20px;
+        .linked-url-status {
+            margin-left: 12px;
+            font-size: 0.9em;
+        }
+        .linked-url-modified {
+            margin-left: 12px;
             color: #6c757d;
-            font-size: 0.95em;
-        }
-        .linked-url-error {
-            color: #dc3545;
-        }
-        .linked-url-url {
-            font-family: monospace;
-            word-break: break-all;
-            color: #6c757d;
-        }
-        .last-success {
-            font-style: italic;
-            margin-left: 5px;
-            color: #6c757d;
+            font-size: 0.9em;
         }
         .hidden {
             display: none;
@@ -158,7 +156,7 @@
     <div class="container">
         <h1>URL Status Report</h1>
         <div class="timestamp">
-            Generated on 2025-01-28 21:13:33
+            Generated on 2025-01-30 08:18:24
         </div>
         <div class="controls">
             <input type="text" class="search-box" placeholder="Search by name or URL..." id="searchInput">
@@ -287,6 +285,7 @@
                     <th>Tags</th>
                     <th>Status</th>
                     <th>Last Modified</th>
+                    <th>Archived Content</th>
                 </tr>
             </thead>
             <tbody>
@@ -304,7 +303,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:01:18</td>
+                    <td>2025-01-30 13:57:25</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -323,7 +327,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:06:39</td>
+                    <td>2025-01-30 13:57:34</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -342,7 +351,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:06:50</td>
+                    <td>2025-01-30 14:22:19</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -359,7 +373,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 02:24:53</td>
+                    <td>2025-01-30 14:22:44</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -378,7 +397,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 15:12:45</td>
+                    <td>2025-01-30 14:22:52</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -395,7 +419,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:07:23</td>
+                    <td>2025-01-30 14:23:03</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -414,7 +443,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:07:35</td>
+                    <td>2025-01-30 14:23:23</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -433,7 +467,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 04:44:23</td>
+                    <td>2025-01-30 14:23:43</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -452,7 +491,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:08:20</td>
+                    <td>2025-01-30 14:24:02</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -471,21 +515,25 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 02:55:25</td>
+                    <td>2025-01-30 13:58:51</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 <tr>
-                    <td colspan="5">
+                    <td colspan="6">
                         <div class="linked-urls">
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">OpenFEMA FAQs</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.fema.gov/about/openfema/faq</div>
-                                    <div class="status-ok">
-                                        Status: ok
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    OpenFEMA FAQs
+                                    <span class="linked-url-status status-ok">ok</span>
+                                    
+                                    <span class="linked-url-modified">Last modified: 2025-01-30 14:24:35</span>
+                                    
                                 </div>
                             </div>
                             
@@ -507,7 +555,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 16:27:12</td>
+                    <td>2025-01-30 14:25:01</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -524,7 +577,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:50:41</td>
+                    <td>2025-01-30 14:25:28</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -541,7 +599,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:09:20</td>
+                    <td>2025-01-30 14:25:41</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -558,7 +621,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:09:43</td>
+                    <td>2025-01-30 14:25:53</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -575,7 +643,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 17:13:02</td>
+                    <td>2025-01-30 14:26:27</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -592,7 +665,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 17:13:22</td>
+                    <td>2025-01-30 14:26:57</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -611,7 +689,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 21:26:57</td>
+                    <td>2025-01-30 14:27:15</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -630,7 +713,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 04:46:23</td>
+                    <td>2025-01-30 14:15:42</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -647,7 +735,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-22 21:10:16</td>
+                    <td>2025-01-30 14:27:37</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -664,7 +757,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:11:45</td>
+                    <td>2025-01-30 14:27:51</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -683,7 +781,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:12:08</td>
+                    <td>2025-01-30 14:28:10</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -702,7 +805,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:12:27</td>
+                    <td>2025-01-30 14:28:30</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -721,7 +829,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:12:41</td>
+                    <td>2025-01-30 14:28:47</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -740,7 +853,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:12:58</td>
+                    <td>2025-01-30 14:29:07</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -753,7 +871,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:13:20</td>
+                    <td>2025-01-30 14:29:24</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -767,6 +890,11 @@
                     </td>
                     <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -784,6 +912,11 @@
                     </td>
                     <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -799,86 +932,72 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 <tr>
-                    <td colspan="5">
+                    <td colspan="6">
                         <div class="linked-urls">
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">SOGI Data Action Plan</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www2.census.gov/topics/population/sogi/sogi-data-action-plan.pdf</div>
-                                    <div class="status-ok">
-                                        Status: ok
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    SOGI Data Action Plan
+                                    <span class="linked-url-status status-ok">ok</span>
+                                    
+                                    <span class="linked-url-modified">Last modified: 2024-06-04 17:37:01</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">Data Equity</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.census.gov/about/what/data-equity.html</div>
-                                    <div class="status-error">
-                                        Status: error
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    Data Equity
+                                    <span class="linked-url-status status-error">error</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">SOGI Topics Page</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.census.gov/topics/population/sexual-orientation-gender-identity.html</div>
-                                    <div class="status-ok">
-                                        Status: ok
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    SOGI Topics Page
+                                    <span class="linked-url-status status-ok">ok</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">Executive Order on LGBTQI+ Equality</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.whitehouse.gov/briefing-room/presidential-actions/2022/06/15/executive-order-on-advancing-equality-for-lesbian-gay-bisexual-transgender-queer-and-intersex-individuals/</div>
-                                    <div class="status-error">
-                                        Status: error
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    Executive Order on LGBTQI+ Equality
+                                    <span class="linked-url-status status-error">error</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">Federal Evidence Agenda on LGBTQI+ Equity</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.whitehouse.gov/wp-content/uploads/2023/01/Federal-Evidence-Agenda-on-LGBTQI-Equity.pdf</div>
-                                    <div class="status-error">
-                                        Status: error
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    Federal Evidence Agenda on LGBTQI+ Equity
+                                    <span class="linked-url-status status-error">error</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">2017 Working Paper on SOGI Questions</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.census.gov/library/working-papers/2017/adrm/rsm2017-13.html</div>
-                                    <div class="status-ok">
-                                        Status: ok
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    2017 Working Paper on SOGI Questions
+                                    <span class="linked-url-status status-ok">ok</span>
+                                    
                                 </div>
                             </div>
                             
                             <div class="linked-url-item">
-                                <div class="linked-url-name">2018 Working Paper on SOGI Questions</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">https://www.census.gov/library/working-papers/2018/adrm/rsm2018-06.html</div>
-                                    <div class="status-ok">
-                                        Status: ok
-                                        
-                                    </div>
+                                <div class="linked-url-name">
+                                    2018 Working Paper on SOGI Questions
+                                    <span class="linked-url-status status-ok">ok</span>
+                                    
                                 </div>
                             </div>
                             
@@ -901,6 +1020,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -916,6 +1040,11 @@
                     </td>
                     <td class="status-redirect">redirect</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -931,6 +1060,11 @@
                     </td>
                     <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -946,6 +1080,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -961,6 +1100,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -978,6 +1122,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -993,6 +1142,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1008,6 +1162,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1025,6 +1184,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>2025-01-16 15:27:38</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1042,6 +1206,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>2025-01-16 15:27:38</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1057,6 +1226,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1072,6 +1246,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1087,6 +1266,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1102,6 +1286,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1117,6 +1306,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1132,6 +1326,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1147,6 +1346,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1162,6 +1366,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1177,6 +1386,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1196,6 +1410,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1209,8 +1428,13 @@
                         <span class="tag">education</span>
                         
                     </td>
-                    <td class="status-ok">ok</td>
+                    <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1225,7 +1449,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:13:19</td>
+                    <td>2025-01-30 15:18:03</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1239,6 +1468,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1252,6 +1486,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1265,6 +1504,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1280,6 +1524,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1295,6 +1544,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1310,6 +1564,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1325,6 +1584,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1343,7 +1607,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-28 16:06:52</td>
+                    <td>2025-01-30 00:57:20</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1361,6 +1630,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1377,7 +1651,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:01:26</td>
+                    <td>2025-01-30 15:17:11</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1394,7 +1673,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:07:12</td>
+                    <td>2025-01-30 15:18:13</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1410,6 +1694,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1425,6 +1714,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1437,7 +1731,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 03:00:29</td>
+                    <td>2025-01-30 14:40:22</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1451,6 +1750,11 @@
                     </td>
                     <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1465,7 +1769,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:04:00</td>
+                    <td>2025-01-30 15:15:30</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1479,6 +1788,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1494,6 +1808,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1509,6 +1828,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1524,6 +1848,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1537,6 +1866,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1552,6 +1886,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1567,6 +1906,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1582,6 +1926,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1597,6 +1946,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1612,6 +1966,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1629,6 +1988,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1644,6 +2008,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1659,6 +2028,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1674,6 +2048,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1689,6 +2068,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1706,6 +2090,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1720,7 +2109,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2024-12-19 15:22:22</td>
+                    <td>2025-01-29 11:07:07</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1735,7 +2129,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 04:13:25</td>
+                    <td>2025-01-30 15:18:20</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1749,6 +2148,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1763,7 +2167,12 @@
                         
                     </td>
                     <td class="status-ok">ok</td>
-                    <td>2025-01-29 01:24:33</td>
+                    <td>2025-01-30 14:50:25</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1779,6 +2188,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>2024-11-06 23:54:10</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1794,6 +2208,11 @@
                     </td>
                     <td class="status-ok">ok</td>
                     <td>2025-01-07 21:39:50</td>
+                    <td>
+                        
+                            N/A
+                        
+                    </td>
                 </tr>
                 
                 
@@ -1811,17 +2230,25 @@
                     </td>
                     <td class="status-error">error</td>
                     <td>N/A</td>
+                    <td>
+                        
+                            
+                            <a href="https://web.archive.org/web/20250122002715/https://www.fda.gov/about-fda/oncology-center-excellence/oce-equity-program" target="_blank" class="archived-link">Snapshot 1</a>
+                            
+                        
+                    </td>
                 </tr>
                 
                 
             </tbody>
         </table>
     </div>
+
     <script>
         // Initialize table sorting
         new Tablesort(document.getElementById('resultsTable'));
 
-        // Search functionality
+        // Set up filtering
         const searchInput = document.getElementById('searchInput');
         const tagFilter = document.getElementById('tagFilter');
         const rows = document.querySelectorAll('.result-row');
@@ -1831,20 +2258,27 @@
             const selectedTag = tagFilter.value.toLowerCase();
 
             rows.forEach(row => {
-                const name = row.cells[0].textContent.toLowerCase();
-                const url = row.cells[1].textContent.toLowerCase();
-                const tags = row.getAttribute('data-tags').toLowerCase();
-                
+                const name = row.children[0].textContent.toLowerCase();
+                const url = row.children[1].textContent.toLowerCase();
+                const tags = row.dataset.tags.toLowerCase();
+
                 const matchesSearch = name.includes(searchTerm) || url.includes(searchTerm);
                 const matchesTag = !selectedTag || tags.includes(selectedTag);
-                
-                // Also handle the linked URLs row
-                const linkedRow = row.nextElementSibling;
-                if (linkedRow && linkedRow.querySelector('.linked-urls')) {
-                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
-                    linkedRow.classList.toggle('hidden', !(matchesSearch && matchesTag));
+
+                if (matchesSearch && matchesTag) {
+                    row.classList.remove('hidden');
+                    // Show linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.remove('hidden');
+                    }
                 } else {
-                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
+                    row.classList.add('hidden');
+                    // Hide linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.add('hidden');
+                    }
                 }
             });
         }

@@ -49,11 +49,14 @@ class CheckResult:
     expected_update_frequency: Optional[str] = None
     api_result: Optional[APICheckResult] = None
     linked_url_results: List[LinkedURLCheckResult] = None
+    archived_content: Optional[List[str]] = None  # Added field for archived content URLs
 
     def __post_init__(self):
         """Initialize default values."""
         if self.linked_url_results is None:
             self.linked_url_results = []
+        if self.archived_content is None:
+            self.archived_content = []
 
 class URLChecker:
     """Check URLs for availability and changes."""
@@ -82,100 +85,90 @@ class URLChecker:
             'Cache-Control': 'no-cache',
             'Pragma': 'no-cache',
         })
-    
-    def _get_nested_value(self, data: dict, field_path: str, check_exists_only: bool = False):
-        """Get a nested value from a dictionary using dot notation.
-        
-        Args:
-            data: Dictionary to search
-            field_path: Path to field using dot notation (e.g. "metadata.count")
-            check_exists_only: If True, return True if field exists in schema (even if null),
-                             False if field doesn't exist. If False, return actual value.
-        """
-        try:
-            parts = field_path.split('.')
-            value = data
-            for part in parts:
-                # Handle array indices
-                if '[' in part:
-                    part, idx = part.split('[')
-                    idx = int(idx.rstrip(']'))
-                    # For existence check, just verify the array and index exist
-                    if check_exists_only:
-                        if part not in value or not isinstance(value[part], list) or len(value[part]) <= idx:
-                            return False
-                        value = value[part][idx]
-                        continue
-                    value = value[part][idx]
-                else:
-                    # For existence check, just verify the key exists
-                    if check_exists_only:
-                        if part not in value:
-                            return False
-                        value = value[part]
-                        continue
-                    value = value[part]
-            return True if check_exists_only else value
-        except (KeyError, IndexError, TypeError):
-            return False if check_exists_only else None
 
-    def _check_api(self, api_config) -> APICheckResult:
-        """Check an API endpoint for availability and data freshness."""
+    def check_url(self, config) -> CheckResult:
+        """Check a URL and return the result."""
+        start_time = datetime.now()
+        result = CheckResult(
+            url=config.url,
+            timestamp=start_time,
+            status='error',  # Default status
+            name=config.name,
+            expected_update_frequency=config.expected_update_frequency,
+            archived_content=getattr(config, 'archived_content', [])  # Get archived content from config
+        )
+        
         try:
-            response = self.session.request(
-                method=api_config.method,
-                url=api_config.url,
-                params=api_config.params,
-                headers=api_config.headers,
-                timeout=self.timeout
+            response = self.session.get(
+                config.url,
+                timeout=self.timeout,
+                allow_redirects=True
             )
             
-            response.raise_for_status()
+            result.status_code = response.status_code
             
-            # Try to parse JSON response
-            try:
-                data = response.json()
-            except json.JSONDecodeError:
-                return APICheckResult(
-                    status='error',
-                    error_message="Invalid JSON response"
-                )
+            # Check for redirect
+            if len(response.history) > 0:
+                result.status = 'redirect'
+                result.redirect_url = response.url
+                return result
             
-            # Check for expected fields in schema
-            if api_config.expected_fields:
-                missing = []
-                for field in api_config.expected_fields:
-                    # Only check if field exists in schema, don't care about null values
-                    if not self._get_nested_value(data, field, check_exists_only=True):
-                        missing.append(field)
-                
-                if missing:
-                    return APICheckResult(
-                        status='error',
-                        missing_fields=missing,
-                        error_message=f"Fields removed from schema: {', '.join(missing)}"
+            # Check for errors
+            if response.status_code != 200:
+                result.status = 'error'
+                result.error_message = f"HTTP {response.status_code}"
+                return result
+            
+            # Get last modified date from headers only for successful responses
+            if 'last-modified' in response.headers:
+                try:
+                    result.last_modified = datetime.strptime(
+                        response.headers['last-modified'],
+                        '%a, %d %b %Y %H:%M:%S %Z'
                     )
+                except ValueError:
+                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
             
-            # Try to get last update time
-            last_update = None
-            if api_config.date_field:
-                value = self._get_nested_value(data, api_config.date_field)
-                if value:
-                    try:
-                        last_update = datetime.fromisoformat(value.replace('Z', '+00:00'))
-                    except (ValueError, AttributeError):
-                        logging.warning(f"Could not parse date from field {api_config.date_field}")
+            # Check content if specified
+            if hasattr(config, 'expected_content') and config.expected_content:
+                soup = BeautifulSoup(response.text, 'html.parser')
+                
+                # Check text content
+                if not any(text in response.text for text in config.expected_content):
+                    result.status = 'error'
+                    result.error_message = "Expected content not found"
+                    return result
             
-            return APICheckResult(
-                status='ok',
-                last_update=last_update
-            )
+            # Check linked URLs if specified
+            if hasattr(config, 'linked_urls') and config.linked_urls:
+                for linked_url in config.linked_urls:
+                    linked_result = self._check_linked_url(linked_url)
+                    result.linked_url_results.append(linked_result)
             
-        except requests.RequestException as e:
-            return APICheckResult(
-                status='error',
-                error_message=str(e)
-            )
+            # Check API if specified
+            if hasattr(config, 'api') and config.api:
+                result.api_result = self._check_api(config.api)
+                if result.api_result.status == 'error':
+                    result.status = 'error'
+                    result.error_message = result.api_result.error_message
+                    return result
+            
+            result.status = 'ok'
+            result.response_time = (datetime.now() - start_time).total_seconds()
+            return result
+            
+        except requests.TooManyRedirects:
+            result.status = 'redirect'
+            result.error_message = "Too many redirects"
+        except requests.Timeout:
+            result.error_message = "Request timed out"
+        except requests.ConnectionError:
+            result.error_message = "Connection error"
+        except Exception as e:
+            result.error_message = str(e)
+        
+        result.response_time = (datetime.now() - start_time).total_seconds()
+        return result
 
     def _check_linked_url(self, linked_url) -> LinkedURLCheckResult:
         """Check a linked URL and return the result."""
@@ -190,10 +183,9 @@ class URLChecker:
                 url=linked_url.url,
                 name=linked_url.name,
                 status='error',  # Default status
+                status_code=response.status_code,
                 type=linked_url.type
             )
-            
-            result.status_code = response.status_code
             
             # Check for redirect
             if len(response.history) > 0:
@@ -254,81 +246,109 @@ class URLChecker:
                 type=linked_url.type
             )
 
-    def check_url(self, config) -> CheckResult:
-        """Check a URL and return the result."""
-        start_time = datetime.now()
-        result = CheckResult(
-            url=config.url,
-            timestamp=start_time,
-            status='error',  # Default status
-            name=config.name,
-            expected_update_frequency=config.expected_update_frequency
-        )
-        
+    def _check_api(self, api_config) -> APICheckResult:
+        """Check an API endpoint for availability and data freshness."""
         try:
             response = self.session.get(
-                config.url,
+                api_config.url,
                 timeout=self.timeout,
                 allow_redirects=True
             )
             
-            result.status_code = response.status_code
-            
-            # Check for redirect
-            if len(response.history) > 0:
-                result.status = 'redirect'
-                result.redirect_url = response.url
-                return result
-            
-            # Check for errors
             if response.status_code != 200:
-                result.status = 'error'
-                result.error_message = f"HTTP {response.status_code}"
-                return result
+                return APICheckResult(
+                    status='error',
+                    error_message=f"HTTP {response.status_code}"
+                )
             
-            # Get last modified date from headers only for successful responses
-            if 'last-modified' in response.headers:
-                try:
-                    result.last_modified = datetime.strptime(
-                        response.headers['last-modified'],
-                        '%a, %d %b %Y %H:%M:%S %Z'
+            # Parse JSON response
+            try:
+                data = response.json()
+            except json.JSONDecodeError:
+                return APICheckResult(
+                    status='error',
+                    error_message="Invalid JSON response"
+                )
+            
+            # Check required fields
+            if api_config.required_fields:
+                missing_fields = []
+                for field in api_config.required_fields:
+                    if not self._get_nested_value(data, field, check_exists_only=True):
+                        missing_fields.append(field)
+                
+                if missing_fields:
+                    return APICheckResult(
+                        status='error',
+                        missing_fields=missing_fields,
+                        error_message="Missing required fields"
                     )
-                except ValueError:
-                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
             
-            # Check content if specified
-            if config.expected_content:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                if not re.search(config.expected_content, soup.get_text()):
-                    result.status = 'error'
-                    result.error_message = f"Expected content not found: {config.expected_content}"
-                    return result
+            # Check last update field if specified
+            if api_config.last_update_field:
+                last_update_value = self._get_nested_value(data, api_config.last_update_field)
+                if last_update_value:
+                    try:
+                        # Try parsing with different date formats
+                        for fmt in [
+                            '%Y-%m-%dT%H:%M:%S.%fZ',  # ISO format with microseconds
+                            '%Y-%m-%dT%H:%M:%SZ',     # ISO format without microseconds
+                            '%Y-%m-%d %H:%M:%S',      # Simple datetime
+                            '%Y-%m-%d',               # Simple date
+                        ]:
+                            try:
+                                last_update = datetime.strptime(last_update_value, fmt)
+                                return APICheckResult(
+                                    status='ok',
+                                    last_update=last_update
+                                )
+                            except ValueError:
+                                continue
+                        
+                        # If none of the formats worked
+                        return APICheckResult(
+                            status='error',
+                            error_message=f"Could not parse last update date: {last_update_value}"
+                        )
+                    except Exception as e:
+                        return APICheckResult(
+                            status='error',
+                            error_message=f"Error parsing last update date: {str(e)}"
+                        )
             
-            result.status = 'ok'
+            return APICheckResult(status='ok')
             
-            # Check associated API if configured
-            if config.api_config is not None:
-                result.api_result = self._check_api(config.api_config)
-            
-            # Check linked URLs if any
-            if config.linked_urls:
-                for linked_url in config.linked_urls:
-                    result.linked_url_results.append(self._check_linked_url(linked_url))
-            
-            return result
-            
-        except requests.TooManyRedirects as e:
-            result.status = 'redirect'
-            result.redirect_url = e.response.url if hasattr(e, 'response') else None
-            result.error_message = "Too many redirects"
-        except requests.Timeout:
-            result.status = 'error'
-            result.error_message = "Request timed out"
-        except requests.ConnectionError:
-            result.status = 'error'
-            result.error_message = "Connection error"
         except Exception as e:
-            result.status = 'error'
-            result.error_message = str(e)
+            return APICheckResult(
+                status='error',
+                error_message=str(e)
+            )
+
+    def _get_nested_value(self, data: dict, field_path: str, check_exists_only: bool = False):
+        """Get a nested value from a dictionary using dot notation.
         
-        return result
+        Args:
+            data: Dictionary to search
+            field_path: Path to field using dot notation (e.g. "metadata.count")
+            check_exists_only: If True, return True if field exists in schema (even if null),
+                             False if field doesn't exist. If False, return actual value.
+        """
+        try:
+            parts = field_path.split('.')
+            value = data
+            for part in parts:
+                # Handle array indices
+                if '[' in part:
+                    part, idx = part.split('[')
+                    idx = int(idx.rstrip(']'))
+                    value = value[part][idx]
+                else:
+                    value = value[part]
+            
+            if check_exists_only:
+                return True
+            return value
+        except (KeyError, IndexError, TypeError):
+            if check_exists_only:
+                return False
+            return None

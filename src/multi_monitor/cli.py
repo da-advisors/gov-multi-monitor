@@ -137,6 +137,7 @@ def generate_page(config: str, output: str, template: str = None):
         for url_config in cfg.urls:
             result = checker.check_url(url_config)
             result.tags = url_config.tags  # Add tags to result for display
+            result.archived_content = url_config.archived_content  # Add archived content links
             if url_config.tags:  # Add tags to our set if they exist
                 all_tags.update(url_config.tags)
             
