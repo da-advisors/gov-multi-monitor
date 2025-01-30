@@ -57,6 +57,16 @@
             font-size: 0.85em;
             color: #495057;
         }
+        .archived-link {
+            display: inline-block;
+            margin: 2px 4px;
+            font-size: 0.9em;
+        }
+        .archived-link:not(:last-child):after {
+            content: ';';
+            margin-left: 4px;
+            color: #6c757d;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -99,10 +109,6 @@
             visibility: visible;
             opacity: 0.4;
         }
-        th[role=columnheader]:not(.no-sort):hover:after {
-            visibility: visible;
-            opacity: 1;
-        }
         tr:hover {
             background-color: #f8f9fa;
         }
@@ -130,24 +136,16 @@
         .linked-url-name {
             font-weight: 500;
             color: #495057;
+            margin-bottom: 4px;
         }
-        .linked-url-details {
-            margin-left: 20px;
+        .linked-url-status {
+            margin-left: 12px;
+            font-size: 0.9em;
+        }
+        .linked-url-modified {
+            margin-left: 12px;
             color: #6c757d;
-            font-size: 0.95em;
-        }
-        .linked-url-error {
-            color: #dc3545;
-        }
-        .linked-url-url {
-            font-family: monospace;
-            word-break: break-all;
-            color: #6c757d;
-        }
-        .last-success {
-            font-style: italic;
-            margin-left: 5px;
-            color: #6c757d;
+            font-size: 0.9em;
         }
         .hidden {
             display: none;
@@ -177,6 +175,7 @@
                     <th>Tags</th>
                     <th>Status</th>
                     <th>Last Modified</th>
+                    <th>Archived Content</th>
                 </tr>
             </thead>
             <tbody>
@@ -191,22 +190,28 @@
                     </td>
                     <td class="status-{{ result.status|lower }}">{{ result.status }}</td>
                     <td>{{ result.last_modified or 'N/A' }}</td>
+                    <td>
+                        {% if result.archived_content %}
+                            {% for url in result.archived_content %}
+                            <a href="{{ url }}" target="_blank" class="archived-link">Snapshot {{ loop.index }}</a>
+                            {% endfor %}
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </td>
                 </tr>
                 {% if result.linked_url_results %}
                 <tr>
-                    <td colspan="5">
+                    <td colspan="6">
                         <div class="linked-urls">
                             {% for linked in result.linked_url_results %}
                             <div class="linked-url-item">
-                                <div class="linked-url-name">{{ linked.name }}</div>
-                                <div class="linked-url-details">
-                                    <div class="linked-url-url">{{ linked.url }}</div>
-                                    <div class="status-{{ linked.status|lower }}">
-                                        Status: {{ linked.status }}
-                                        {% if linked.status == 'ERROR' and linked.last_success %}
-                                        <span class="last-success">Last successful check: {{ linked.last_success.strftime("%Y-%m-%d") }}</span>
-                                        {% endif %}
-                                    </div>
+                                <div class="linked-url-name">
+                                    {{ linked.name }}
+                                    <span class="linked-url-status status-{{ linked.status|lower }}">{{ linked.status }}</span>
+                                    {% if linked.last_modified %}
+                                    <span class="linked-url-modified">Last modified: {{ linked.last_modified }}</span>
+                                    {% endif %}
                                 </div>
                             </div>
                             {% endfor %}
@@ -218,11 +223,12 @@
             </tbody>
         </table>
     </div>
+
     <script>
         // Initialize table sorting
         new Tablesort(document.getElementById('resultsTable'));
 
-        // Search functionality
+        // Set up filtering
         const searchInput = document.getElementById('searchInput');
         const tagFilter = document.getElementById('tagFilter');
         const rows = document.querySelectorAll('.result-row');
@@ -232,20 +238,27 @@
             const selectedTag = tagFilter.value.toLowerCase();
 
             rows.forEach(row => {
-                const name = row.cells[0].textContent.toLowerCase();
-                const url = row.cells[1].textContent.toLowerCase();
-                const tags = row.getAttribute('data-tags').toLowerCase();
-                
+                const name = row.children[0].textContent.toLowerCase();
+                const url = row.children[1].textContent.toLowerCase();
+                const tags = row.dataset.tags.toLowerCase();
+
                 const matchesSearch = name.includes(searchTerm) || url.includes(searchTerm);
                 const matchesTag = !selectedTag || tags.includes(selectedTag);
-                
-                // Also handle the linked URLs row
-                const linkedRow = row.nextElementSibling;
-                if (linkedRow && linkedRow.querySelector('.linked-urls')) {
-                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
-                    linkedRow.classList.toggle('hidden', !(matchesSearch && matchesTag));
+
+                if (matchesSearch && matchesTag) {
+                    row.classList.remove('hidden');
+                    // Show linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.remove('hidden');
+                    }
                 } else {
-                    row.classList.toggle('hidden', !(matchesSearch && matchesTag));
+                    row.classList.add('hidden');
+                    // Hide linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.add('hidden');
+                    }
                 }
             });
         }

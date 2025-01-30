@@ -61,6 +61,7 @@ Each configuration can include:
 - `check_frequency`: How often to check, e.g. "1d", "4h", "30m" (required)
 - `tags`: List of tags for categorization
 - `expected_content`: String that should appear in valid content
+- `archived_content`: List of URLs to archived versions of the content (e.g., Wayback Machine snapshots)
 - `linked_urls`: List of related URLs to monitor, each with:
   - `url`: The linked URL to check
   - `name`: Display name for the linked URL
@@ -74,6 +75,8 @@ name: Example API
 check_frequency: 1d
 tags: [api, example]
 expected_content: '"status": "ok"'
+archived_content:
+  - https://web.archive.org/web/20250122002715/https://example.com/api
 linked_urls:
   - url: https://example.com/api/docs
     name: API Documentation
