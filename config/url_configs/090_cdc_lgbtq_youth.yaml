@@ -1,0 +1,11 @@
+url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+name: CDC LGBTQ Youth
+expected_update_frequency: null
+tags:
+  - cdc
+  - youth
+  - lgbtq
+linked_urls:
+  - https://www.cdc.gov/healthy-youth/lgbtq-youth/terminology.html
+  - https://www.cdc.gov/healthy-youth/lgbtq-youth/health-disparities-among-lgbtq-youth.html
+archived_content:

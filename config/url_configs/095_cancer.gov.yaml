@@ -1,0 +1,11 @@
+url: https://www.cancer.gov
+name: Cancer.gov
+expected_update_frequency: null
+tags:
+  - cdc
+  - cancer
+linked urls:
+  - https://www.cancer.gov/about-cancer/understanding/disparities
+  - https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
+archived_content:
+
