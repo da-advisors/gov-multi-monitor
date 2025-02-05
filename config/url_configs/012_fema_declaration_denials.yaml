@@ -5,12 +5,13 @@ tags:
   - fema
   - api
   - disaster-declarations
+  - denials
 api_config:
   url: https://www.fema.gov/api/open/v1/DeclarationDenials
   method: GET
   params:
     $top: 1
+  date_field: DeclarationDenials[0].requestStatusDate
   expected_fields:
     - metadata.count
-    - DeclarationDenials[0].state
-    - DeclarationDenials[0].incidentBeginDate
+    - DeclarationDenials

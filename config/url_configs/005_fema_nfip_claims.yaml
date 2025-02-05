@@ -11,6 +11,7 @@ api_config:
   method: GET
   params:
     $top: 1
+  date_field: FimaNfipClaims[0].asOfDate
   expected_fields:
     - metadata.count
     - FimaNfipClaims[0].agricultureStructureIndicator

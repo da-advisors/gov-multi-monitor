@@ -11,6 +11,8 @@ api_config:
   method: GET
   params:
     $top: 1
+    $orderby: id desc
+  date_field: metadata.lastRefresh
   expected_fields:
     - metadata.count
     - HousingAssistanceOwners[0].disasterNumber

@@ -138,6 +138,23 @@
             color: #495057;
             margin-bottom: 4px;
         }
+        .linked-url-details {
+            margin-left: 20px;
+            color: #6c757d;
+            font-size: 0.95em;
+        }
+        .linked-url-error {
+            color: #dc3545;
+        }
+        .linked-url-url {
+            font-family: monospace;
+            word-break: break-all;
+            color: #6c757d;
+        }
+        .last-success {
+            font-style: italic;
+            margin-left: 5px;
+        }
         .linked-url-status {
             margin-left: 12px;
             font-size: 0.9em;
@@ -175,6 +192,7 @@
                     <th>Tags</th>
                     <th>Status</th>
                     <th>Last Modified</th>
+                    <th>API Status</th>
                     <th>Archived Content</th>
                 </tr>
             </thead>
@@ -191,9 +209,36 @@
                     <td class="status-{{ result.status|lower }}">{{ result.status }}</td>
                     <td>{{ result.last_modified or 'N/A' }}</td>
                     <td>
+                        {% if result.api_result %}
+                            <div class="status-{{ result.api_result.status|lower }}">
+                                {{ result.api_result.status }}
+                                {% if result.api_result.last_update %}
+                                    <br>
+                                    <small>Last Update: {{ result.api_result.last_update }}</small>
+                                {% endif %}
+                                {% if result.api_result.missing_fields %}
+                                    <br>
+                                    <small>Missing Fields: {{ result.api_result.missing_fields|join(', ') }}</small>
+                                {% endif %}
+                                {% if result.api_result.error_message %}
+                                    <br>
+                                    <small class="status-error">{{ result.api_result.error_message }}</small>
+                                {% endif %}
+                            </div>
+                        {% else %}
+                            N/A
+                        {% endif %}
+                    </td>
+                    <td>
                         {% if result.archived_content %}
-                            {% for url in result.archived_content %}
-                            <a href="{{ url }}" target="_blank" class="archived-link">Snapshot {{ loop.index }}</a>
+                            {% for archived in result.archived_content %}
+                            <a href="{{ archived.url }}" target="_blank" class="archived-link">
+                                {% if archived.name %}
+                                    {{ archived.name }}
+                                {% else %}
+                                    Snapshot {{ loop.index }}
+                                {% endif %}
+                            </a>
                             {% endfor %}
                         {% else %}
                             N/A
@@ -202,13 +247,19 @@
                 </tr>
                 {% if result.linked_url_results %}
                 <tr>
-                    <td colspan="6">
+                    <td colspan="7">
                         <div class="linked-urls">
                             {% for linked in result.linked_url_results %}
                             <div class="linked-url-item">
-                                <div class="linked-url-name">
-                                    {{ linked.name }}
-                                    <span class="linked-url-status status-{{ linked.status|lower }}">{{ linked.status }}</span>
+                                <div class="linked-url-name">{{ linked.name }}</div>
+                                <div class="linked-url-details">
+                                    <div class="linked-url-url">{{ linked.url }}</div>
+                                    <div class="status-{{ linked.status|lower }}">
+                                        Status: {{ linked.status }}
+                                        {% if linked.status == 'ERROR' and linked.last_success %}
+                                        <span class="last-success">Last successful check: {{ linked.last_success.strftime("%Y-%m-%d") }}</span>
+                                        {% endif %}
+                                    </div>
                                     {% if linked.last_modified %}
                                     <span class="linked-url-modified">Last modified: {{ linked.last_modified }}</span>
                                     {% endif %}
@@ -238,13 +289,14 @@
             const selectedTag = tagFilter.value.toLowerCase();
 
             rows.forEach(row => {
-                const name = row.children[0].textContent.toLowerCase();
-                const url = row.children[1].textContent.toLowerCase();
-                const tags = row.dataset.tags.toLowerCase();
+                const name = row.cells[0].textContent.toLowerCase();
+                const url = row.cells[1].textContent.toLowerCase();
+                const tags = row.getAttribute('data-tags').toLowerCase();
 
                 const matchesSearch = name.includes(searchTerm) || url.includes(searchTerm);
                 const matchesTag = !selectedTag || tags.includes(selectedTag);
 
+                // Handle both the main row and its linked URLs row
                 if (matchesSearch && matchesTag) {
                     row.classList.remove('hidden');
                     // Show linked URL row if it exists

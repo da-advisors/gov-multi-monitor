@@ -1,23 +1,17 @@
-url: https://www.fema.gov/openfema-data-page/public-assistance-grant-award-activities-v2
+url: https://www.fema.gov/openfema-data-page/public-assistance-funded-projects-details-v1
 name: FEMA Public Assistance Grant Awards
 expected_update_frequency: daily
 tags:
   - fema
   - api
   - public-assistance
-  - disaster-recovery
+  - grants
 api_config:
-  url: https://www.fema.gov/api/open/v2/PublicAssistanceGrantAwardActivities
+  url: https://www.fema.gov/api/open/v1/PublicAssistanceFundedProjectsDetails
   method: GET
   params:
     $top: 1
+  date_field: PublicAssistanceFundedProjectsDetails[0].lastRefreshDate
   expected_fields:
     - metadata.count
-    - PublicAssistanceGrantAwardActivities[0].disasterNumber
-    - PublicAssistanceGrantAwardActivities[0].state
-    - PublicAssistanceGrantAwardActivities[0].county
-    - PublicAssistanceGrantAwardActivities[0].applicantId
-    - PublicAssistanceGrantAwardActivities[0].damageCategoryCode
-    - PublicAssistanceGrantAwardActivities[0].projectTitle
-    - PublicAssistanceGrantAwardActivities[0].federalShareObligated
-    - PublicAssistanceGrantAwardActivities[0].dateObligated
+    - PublicAssistanceFundedProjectsDetails

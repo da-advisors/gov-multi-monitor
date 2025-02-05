@@ -4,13 +4,21 @@ expected_update_frequency: null
 tags:
   - cdc
   - cancer
-linked urls:
-  - https://www.cancer.gov/about-cancer/understanding/disparities
-  - https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
-  - https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
 archived_content:
-  - https://web.archive.org/web/20250124100301/https://www.cancer.gov/about-cancer/understanding/disparities
-  - https://web.archive.org/web/20231001012308/https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
-  - https://web.archive.org/web/20250126061519/https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
-
-
+  - url: https://web.archive.org/web/20250124100301/https://www.cancer.gov/about-cancer/understanding/disparities
+    name: Health Disparities Page
+  - url: https://web.archive.org/web/20231001012308/https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
+    name: Cancer Moonshot Scholars Fact Sheet
+  - url: https://web.archive.org/web/20250126061519/https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
+    name: Cancer Moonshot Scholars - Bailey Report
+linked_urls:
+  - url: https://www.cancer.gov/about-cancer/understanding/disparities
+    name: Cancer Health Disparities
+    type: html
+  - url: https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
+    name: Cancer Moonshot Scholars Fact Sheet
+    type: html
+  - url: https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
+    name: Cancer Moonshot Scholars - Bailey Report
+    type: pdf
+    

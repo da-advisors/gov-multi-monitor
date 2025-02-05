@@ -9,9 +9,8 @@ api_config:
   url: https://www.fema.gov/api/open/v1/FemaWebDisasterSummaries
   method: GET
   params:
-    $orderby: lastRefresh desc
     $top: 1
+  date_field: FemaWebDisasterSummaries[0].lastRefreshDate
   expected_fields:
     - metadata.count
-    - FemaWebDisasterSummaries[0].disasterNumber
-    - FemaWebDisasterSummaries[0].lastRefresh
+    - FemaWebDisasterSummaries

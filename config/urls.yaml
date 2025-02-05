@@ -8,6 +8,10 @@ urls:
     name: FEMA Disaster Declarations
     expected_update_frequency: 20min
     tags: [fema, api, disaster-data]
+    archived_content:
+      - https://web.archive.org/web/20240101000000/https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
+      - https://web.archive.org/web/20230101000000/https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
+      - https://web.archive.org/web/20220101000000/https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
     api_config:
       url: https://www.fema.gov/api/open/v2/DisasterDeclarationsSummaries
       method: GET

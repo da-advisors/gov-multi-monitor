@@ -6,6 +6,13 @@ import yaml
 import logging
 
 @dataclass
+class ArchivedContent:
+    """Configuration for an archived version of content."""
+    url: str
+    name: Optional[str] = None
+    date: Optional[str] = None
+
+@dataclass
 class LinkedURL:
     """Configuration for a linked URL to monitor."""
     url: str
@@ -13,6 +20,12 @@ class LinkedURL:
     description: Optional[str] = None
     type: Optional[str] = None  # e.g. pdf, excel, csv
     expected_update_frequency: Optional[str] = None
+    archived_content: List[ArchivedContent] = None  # List of archived versions of the content
+
+    def __post_init__(self):
+        """Initialize default values."""
+        if self.archived_content is None:
+            self.archived_content = []
 
 @dataclass
 class APIConfig:
@@ -34,7 +47,7 @@ class URLConfig:
     expected_update_frequency: Optional[str] = None  # e.g. "daily", "weekly", "monthly", "quarterly", "yearly"
     api_config: Optional[APIConfig] = None
     linked_urls: List[LinkedURL] = None
-    archived_content: List[str] = None  # List of URLs to archived versions of the content
+    archived_content: List[ArchivedContent] = None  # List of archived versions of the content
 
     def __post_init__(self):
         """Initialize default values."""
@@ -44,6 +57,9 @@ class URLConfig:
             self.linked_urls = []
         if self.archived_content is None:
             self.archived_content = []
+        # Convert string URLs to ArchivedContent objects for backward compatibility
+        if self.archived_content and isinstance(self.archived_content[0], str):
+            self.archived_content = [ArchivedContent(url=url) for url in self.archived_content]
 
 @dataclass
 class MonitorConfig:
@@ -74,6 +90,8 @@ class MonitorConfig:
                     url_data['api_config'] = APIConfig(**url_data['api_config'])
                 if 'linked_urls' in url_data:
                     url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
+                if 'archived_content' in url_data:
+                    url_data['archived_content'] = [ArchivedContent(**archived_content_data) for archived_content_data in url_data['archived_content']]
                 urls.append(URLConfig(**url_data))
         else:
             # Load from individual files in url_configs directory
@@ -94,6 +112,8 @@ class MonitorConfig:
                                 url_data['api_config'] = APIConfig(**url_data['api_config'])
                             if 'linked_urls' in url_data:
                                 url_data['linked_urls'] = [LinkedURL(**linked_url_data) for linked_url_data in url_data['linked_urls']]
+                            if 'archived_content' in url_data:
+                                url_data['archived_content'] = [ArchivedContent(**archived_content_data) for archived_content_data in url_data['archived_content']]
                             urls.append(URLConfig(**url_data))
                     except Exception as e:
                         logging.error(f"Error loading {config_file}: {e}")
