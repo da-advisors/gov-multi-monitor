@@ -146,8 +146,8 @@ class URLChecker:
                     result.linked_url_results.append(linked_result)
             
             # Check API if specified
-            if hasattr(config, 'api') and config.api:
-                result.api_result = self._check_api(config.api)
+            if hasattr(config, 'api_config') and config.api_config:
+                result.api_result = self._check_api(config.api_config)
                 if result.api_result.status == 'error':
                     result.status = 'error'
                     result.error_message = result.api_result.error_message
@@ -256,9 +256,19 @@ class URLChecker:
             )
             
             if response.status_code != 200:
+                error_msg = f"HTTP {response.status_code}"
+                if response.status_code == 404:
+                    error_msg = "API endpoint not found (HTTP 404) - the endpoint may have moved or been deprecated"
+                elif response.status_code == 403:
+                    error_msg = "Access forbidden (HTTP 403) - check API permissions"
+                elif response.status_code == 401:
+                    error_msg = "Unauthorized (HTTP 401) - authentication required"
+                elif response.status_code >= 500:
+                    error_msg = f"Server error (HTTP {response.status_code}) - the API server may be experiencing issues"
+                
                 return APICheckResult(
                     status='error',
-                    error_message=f"HTTP {response.status_code}"
+                    error_message=error_msg
                 )
             
             # Parse JSON response
@@ -271,9 +281,9 @@ class URLChecker:
                 )
             
             # Check required fields
-            if api_config.required_fields:
+            if hasattr(api_config, 'expected_fields'):
                 missing_fields = []
-                for field in api_config.required_fields:
+                for field in api_config.expected_fields:
                     if not self._get_nested_value(data, field, check_exists_only=True):
                         missing_fields.append(field)
                 
@@ -284,9 +294,12 @@ class URLChecker:
                         error_message="Missing required fields"
                     )
             
+            # All checks passed
+            result = APICheckResult(status='ok')
+            
             # Check last update field if specified
-            if api_config.last_update_field:
-                last_update_value = self._get_nested_value(data, api_config.last_update_field)
+            if hasattr(api_config, 'date_field'):
+                last_update_value = self._get_nested_value(data, api_config.date_field)
                 if last_update_value:
                     try:
                         # Try parsing with different date formats
@@ -297,27 +310,29 @@ class URLChecker:
                             '%Y-%m-%d',               # Simple date
                         ]:
                             try:
-                                last_update = datetime.strptime(last_update_value, fmt)
-                                return APICheckResult(
-                                    status='ok',
-                                    last_update=last_update
-                                )
+                                result.last_update = datetime.strptime(last_update_value, fmt)
+                                break
                             except ValueError:
                                 continue
                         
                         # If none of the formats worked
-                        return APICheckResult(
-                            status='error',
-                            error_message=f"Could not parse last update date: {last_update_value}"
-                        )
+                        if not result.last_update:
+                            logging.warning(f"Could not parse last update value: {last_update_value}")
                     except Exception as e:
-                        return APICheckResult(
-                            status='error',
-                            error_message=f"Error parsing last update date: {str(e)}"
-                        )
+                        logging.warning(f"Could not parse last update value: {last_update_value}")
             
-            return APICheckResult(status='ok')
+            return result
             
+        except requests.Timeout:
+            return APICheckResult(
+                status='error',
+                error_message="Request timed out - the API server is not responding"
+            )
+        except requests.ConnectionError:
+            return APICheckResult(
+                status='error',
+                error_message="Connection error - unable to reach the API server"
+            )
         except Exception as e:
             return APICheckResult(
                 status='error',
@@ -333,22 +348,65 @@ class URLChecker:
             check_exists_only: If True, return True if field exists in schema (even if null),
                              False if field doesn't exist. If False, return actual value.
         """
+        if data is None or field_path is None:
+            if check_exists_only:
+                return False
+            return None
+            
         try:
             parts = field_path.split('.')
             value = data
+            
             for part in parts:
+                if value is None:
+                    if check_exists_only:
+                        return False
+                    return None
+                
                 # Handle array indices
-                if '[' in part:
-                    part, idx = part.split('[')
-                    idx = int(idx.rstrip(']'))
-                    value = value[part][idx]
+                if '[' in part and ']' in part:
+                    try:
+                        array_name = part[:part.index('[')]
+                        idx_str = part[part.index('[')+1:part.index(']')]
+                        idx = int(idx_str)
+                        
+                        # First check if array exists
+                        if array_name not in value:
+                            if check_exists_only:
+                                return False
+                            return None
+                            
+                        array_value = value[array_name]
+                        
+                        # Check if it's actually an array and has enough elements
+                        if not isinstance(array_value, (list, tuple)):
+                            if check_exists_only:
+                                return False
+                            return None
+                            
+                        if idx < 0 or idx >= len(array_value):
+                            if check_exists_only:
+                                return False
+                            return None
+                            
+                        value = array_value[idx]
+                    except (ValueError, IndexError, KeyError, TypeError):
+                        if check_exists_only:
+                            return False
+                        return None
                 else:
+                    if part not in value:
+                        if check_exists_only:
+                            return False
+                        return None
                     value = value[part]
             
             if check_exists_only:
                 return True
             return value
-        except (KeyError, IndexError, TypeError):
+            
+        except (KeyError, IndexError, TypeError, AttributeError) as e:
+            logging.debug(f"Error getting nested value for path {field_path}: {str(e)}")
             if check_exists_only:
                 return False
             return None

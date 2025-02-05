@@ -168,6 +168,12 @@ def generate_page(config: str, output: str, template: str = None):
         template = env.get_template(template_file)
         
         # Generate HTML
+        for result in results:
+            if result.api_result:
+                logging.debug(f"API Result for {result.name}: {result.api_result}")
+            if result.linked_url_results:
+                logging.debug(f"Linked URLs for {result.name}: {result.linked_url_results}")
+                
         html = template.render(
             timestamp=datetime.now(),
             results=results,

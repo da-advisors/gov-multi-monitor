@@ -11,27 +11,10 @@ api_config:
   method: GET
   params:
     $top: 1
+  date_field: FimaNfipPolicies[0].asOfDate
   expected_fields:
     - metadata.count
-    - FimaNfipPolicies[0].occupancyType
-    - FimaNfipPolicies[0].elevationDifference
-    - FimaNfipPolicies[0].totalBuildingInsuranceCoverage
-    - FimaNfipPolicies[0].totalContentsInsuranceCoverage
-    - FimaNfipPolicies[0].totalInsurancePremiumOfThePolicy
-    - FimaNfipPolicies[0].agricultureStructureIndicator
-    - FimaNfipPolicies[0].baseFloodElevation
-    - FimaNfipPolicies[0].basementEnclosureCrawlspaceType
-    - FimaNfipPolicies[0].cancellationDateOfFloodPolicy
-    - FimaNfipPolicies[0].condominiumCoverageTypeCode
-    - FimaNfipPolicies[0].construction
-    - FimaNfipPolicies[0].crsClassCode
-    - FimaNfipPolicies[0].buildingDeductibleCode
-    - FimaNfipPolicies[0].contentsDeductibleCode
-    - FimaNfipPolicies[0].elevatedBuildingIndicator
-    - FimaNfipPolicies[0].elevationCertificateIndicator
-    - FimaNfipPolicies[0].elevationDifference
-    - FimaNfipPolicies[0].federalPolicyFee
+    - FimaNfipPolicies
 linked_urls:
   - url: https://www.fema.gov/about/openfema/faq
     name: OpenFEMA FAQs
-  

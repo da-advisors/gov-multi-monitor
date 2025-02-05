@@ -11,10 +11,7 @@ api_config:
   method: GET
   params:
     $top: 1
+  date_field: RegistrationIntakeIndividualsHouseholdPrograms[0].lastRefreshDate
   expected_fields:
     - metadata.count
-    - RegistrationIntakeIndividualsHouseholdPrograms[0].disasterNumber
-    - RegistrationIntakeIndividualsHouseholdPrograms[0].state
-    - RegistrationIntakeIndividualsHouseholdPrograms[0].county
-    - RegistrationIntakeIndividualsHouseholdPrograms[0].city
-    - RegistrationIntakeIndividualsHouseholdPrograms[0].zipCode
+    - RegistrationIntakeIndividualsHouseholdPrograms

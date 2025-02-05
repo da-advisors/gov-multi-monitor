@@ -4,18 +4,14 @@ expected_update_frequency: daily
 tags:
   - fema
   - api
-  - emergency-alerts
+  - ipaws
+  - alerts
 api_config:
   url: https://www.fema.gov/api/open/v1/IpawsArchivedAlerts
   method: GET
   params:
-    $orderby: sent desc
     $top: 1
+  date_field: IpawsArchivedAlerts[0].lastRefreshDate
   expected_fields:
     - metadata.count
-    - IpawsArchivedAlerts[0].identifier
-    - IpawsArchivedAlerts[0].sender
-    - IpawsArchivedAlerts[0].sent
-    - IpawsArchivedAlerts[0].status
-    - IpawsArchivedAlerts[0].msgType
-    - IpawsArchivedAlerts[0].scope
+    - IpawsArchivedAlerts

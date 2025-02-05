@@ -5,12 +5,13 @@ tags:
   - fema
   - api
   - hazard-mitigation
+  - planning
 api_config:
   url: https://www.fema.gov/api/open/v1/HazardMitigationPlanStatuses
   method: GET
   params:
     $top: 1
+  date_field: HazardMitigationPlanStatuses[0].lastRefreshDate
   expected_fields:
     - metadata.count
-    - HazardMitigationPlanStatuses[0].planId
-    - HazardMitigationPlanStatuses[0].state
+    - HazardMitigationPlanStatuses
