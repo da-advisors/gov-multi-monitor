@@ -41,7 +41,13 @@ jobs:
         run: python -m multi_monitor check
       
       - name: Generate status page
-        run: python -m multi_monitor generate-page
+        run: |
+          # Create docs directory if it doesn't exist
+          mkdir -p docs
+          # Generate the multi-page report
+          python -m multi_monitor generate-multi-page --output-dir docs/status
+          # Create a redirect from index.html to status/index.html
+          echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
