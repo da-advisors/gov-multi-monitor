@@ -1,0 +1,2304 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Status Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            flex-grow: 1;
+            min-width: 200px;
+        }
+        .tag-filter {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            background: #e9ecef;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #495057;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort) {
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort):after {
+            content: '';
+            float: right;
+            margin-top: 7px;
+            border-width: 0 4px 4px;
+            border-style: solid;
+            border-color: #404040 transparent;
+            visibility: hidden;
+            opacity: 0;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        th[aria-sort="ascending"]:not(.no-sort):after {
+            border-bottom: none;
+            border-width: 4px 4px 0;
+        }
+        th[aria-sort]:not(.no-sort):after {
+            visibility: visible;
+            opacity: 0.4;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
+        }
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .status-content_stripped {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .name-link {
+            color: inherit;
+            text-decoration: none;
+        }
+        .name-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>URL Status Report</h1>
+        <div class="timestamp">
+            Generated on 2025-02-05 22:24:29
+        </div>
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="Search by name..." id="searchInput">
+            <select class="tag-filter" id="tagFilter">
+                <option value="">All Tags</option>
+                
+                <option value="DOJ">DOJ</option>
+                
+                <option value="aging">aging</option>
+                
+                <option value="ai">ai</option>
+                
+                <option value="alerts">alerts</option>
+                
+                <option value="api">api</option>
+                
+                <option value="assistance">assistance</option>
+                
+                <option value="atf">atf</option>
+                
+                <option value="cancer">cancer</option>
+                
+                <option value="cb">cb</option>
+                
+                <option value="cdc">cdc</option>
+                
+                <option value="census">census</option>
+                
+                <option value="cfpb">cfpb</option>
+                
+                <option value="civilrights">civilrights</option>
+                
+                <option value="covid">covid</option>
+                
+                <option value="crime">crime</option>
+                
+                <option value="denials">denials</option>
+                
+                <option value="disaster-data">disaster-data</option>
+                
+                <option value="disaster-declarations">disaster-declarations</option>
+                
+                <option value="disaster-recovery">disaster-recovery</option>
+                
+                <option value="disaster-response">disaster-response</option>
+                
+                <option value="disaster-summaries">disaster-summaries</option>
+                
+                <option value="diversity">diversity</option>
+                
+                <option value="ed">ed</option>
+                
+                <option value="education">education</option>
+                
+                <option value="emergency-management">emergency-management</option>
+                
+                <option value="envjustice">envjustice</option>
+                
+                <option value="epa">epa</option>
+                
+                <option value="equity">equity</option>
+                
+                <option value="ethnicity">ethnicity</option>
+                
+                <option value="fda">fda</option>
+                
+                <option value="fema">fema</option>
+                
+                <option value="fhfa">fhfa</option>
+                
+                <option value="firearms">firearms</option>
+                
+                <option value="firefighter-assistance">firefighter-assistance</option>
+                
+                <option value="flood-insurance">flood-insurance</option>
+                
+                <option value="grants">grants</option>
+                
+                <option value="hazard-mitigation">hazard-mitigation</option>
+                
+                <option value="health">health</option>
+                
+                <option value="highered">highered</option>
+                
+                <option value="housing">housing</option>
+                
+                <option value="housing-assistance">housing-assistance</option>
+                
+                <option value="immigration">immigration</option>
+                
+                <option value="individual-assistance">individual-assistance</option>
+                
+                <option value="ipaws">ipaws</option>
+                
+                <option value="justice">justice</option>
+                
+                <option value="labor">labor</option>
+                
+                <option value="lgbtq">lgbtq</option>
+                
+                <option value="military">military</option>
+                
+                <option value="mortgage">mortgage</option>
+                
+                <option value="nfip">nfip</option>
+                
+                <option value="nih">nih</option>
+                
+                <option value="planning">planning</option>
+                
+                <option value="public-assistance">public-assistance</option>
+                
+                <option value="race">race</option>
+                
+                <option value="school">school</option>
+                
+                <option value="sogi">sogi</option>
+                
+                <option value="statedept">statedept</option>
+                
+                <option value="transportation">transportation</option>
+                
+                <option value="treasury">treasury</option>
+                
+                <option value="vaccine">vaccine</option>
+                
+                <option value="whitehouse">whitehouse</option>
+                
+                <option value="youth">youth</option>
+                
+            </select>
+        </div>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tags</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+                <tr class="result-row" data-tags="fema,api,disaster-data">
+                    <td>
+                        <a href="details/fema_disaster_declarations.html" class="name-link">
+                            FEMA Disaster Declarations
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">disaster-data</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,housing-assistance,disaster-recovery">
+                    <td>
+                        <a href="details/fema_housing_assistance_program_(owners).html" class="name-link">
+                            FEMA Housing Assistance Program (Owners)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">housing-assistance</span>
+                        
+                        <span class="tag">disaster-recovery</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,public-assistance,disaster-recovery">
+                    <td>
+                        <a href="details/fema_public_assistance_projects.html" class="name-link">
+                            FEMA Public Assistance Projects
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">public-assistance</span>
+                        
+                        <span class="tag">disaster-recovery</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,hazard-mitigation">
+                    <td>
+                        <a href="details/fema_hazard_mitigation_projects.html" class="name-link">
+                            FEMA Hazard Mitigation Projects
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">hazard-mitigation</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_claims.html" class="name-link">
+                            FEMA NFIP Claims
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,disaster-response">
+                    <td>
+                        <a href="details/fema_mission_assignments.html" class="name-link">
+                            FEMA Mission Assignments
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">disaster-response</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,housing-assistance,disaster-recovery">
+                    <td>
+                        <a href="details/fema_housing_assistance_program_(renters).html" class="name-link">
+                            FEMA Housing Assistance Program (Renters)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">housing-assistance</span>
+                        
+                        <span class="tag">disaster-recovery</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,individual-assistance,disaster-recovery">
+                    <td>
+                        <a href="details/fema_registration_intake_and_ihp.html" class="name-link">
+                            FEMA Registration Intake and IHP
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">individual-assistance</span>
+                        
+                        <span class="tag">disaster-recovery</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,public-assistance,grants">
+                    <td>
+                        <a href="details/fema_public_assistance_grant_awards.html" class="name-link">
+                            FEMA Public Assistance Grant Awards
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">public-assistance</span>
+                        
+                        <span class="tag">grants</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_policies.html" class="name-link">
+                            FEMA NFIP Policies
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,hazard-mitigation,planning">
+                    <td>
+                        <a href="details/fema_hazard_mitigation_plan_status.html" class="name-link">
+                            FEMA Hazard Mitigation Plan Status
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">hazard-mitigation</span>
+                        
+                        <span class="tag">planning</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,disaster-declarations,denials">
+                    <td>
+                        <a href="details/fema_declaration_denials.html" class="name-link">
+                            FEMA Declaration Denials
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">disaster-declarations</span>
+                        
+                        <span class="tag">denials</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,disaster-summaries">
+                    <td>
+                        <a href="details/fema_web_disaster_summaries.html" class="name-link">
+                            FEMA Web Disaster Summaries
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">disaster-summaries</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,ipaws,alerts">
+                    <td>
+                        <a href="details/fema_ipaws_archived_alerts.html" class="name-link">
+                            FEMA IPAWS Archived Alerts
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">ipaws</span>
+                        
+                        <span class="tag">alerts</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,hazard-mitigation">
+                    <td>
+                        <a href="details/fema_hmgp_disaster_summaries.html" class="name-link">
+                            FEMA HMGP Disaster Summaries
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">hazard-mitigation</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,public-assistance">
+                    <td>
+                        <a href="details/fema_public_assistance_applicants.html" class="name-link">
+                            FEMA Public Assistance Applicants
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">public-assistance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_community_status.html" class="name-link">
+                            FEMA NFIP Community Status
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_multiple_loss_properties.html" class="name-link">
+                            FEMA NFIP Multiple Loss Properties
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,public-assistance">
+                    <td>
+                        <a href="details/fema_pa_applicants_program_deliveries.html" class="name-link">
+                            FEMA PA Applicants Program Deliveries
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">public-assistance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,hazard-mitigation">
+                    <td>
+                        <a href="details/fema_hma_subapplications.html" class="name-link">
+                            FEMA HMA Subapplications
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">hazard-mitigation</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_community_layer.html" class="name-link">
+                            FEMA NFIP Community Layer
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,grants,emergency-management">
+                    <td>
+                        <a href="details/fema_emergency_management_performance_grants.html" class="name-link">
+                            FEMA Emergency Management Performance Grants
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">grants</span>
+                        
+                        <span class="tag">emergency-management</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,grants,firefighter-assistance">
+                    <td>
+                        <a href="details/fema_non-disaster_assistance_firefighter_grants.html" class="name-link">
+                            FEMA Non-Disaster Assistance Firefighter Grants
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">grants</span>
+                        
+                        <span class="tag">firefighter-assistance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema,api,nfip,flood-insurance">
+                    <td>
+                        <a href="details/fema_nfip_residential_penetration_rates.html" class="name-link">
+                            FEMA NFIP Residential Penetration Rates
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                        <span class="tag">api</span>
+                        
+                        <span class="tag">nfip</span>
+                        
+                        <span class="tag">flood-insurance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fema">
+                    <td>
+                        <a href="details/openfema_datasets.html" class="name-link">
+                            OpenFEMA Datasets
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fema</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="sogi">
+                    <td>
+                        <a href="details/fscm_sogisc.html" class="name-link">
+                            FSCM SOGISC
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">sogi</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="sogi,nih,health">
+                    <td>
+                        <a href="details/nih_sexual_&amp;_gender_minority_research_office.html" class="name-link">
+                            NIH Sexual &amp; Gender Minority Research Office
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">sogi</span>
+                        
+                        <span class="tag">nih</span>
+                        
+                        <span class="tag">health</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="sogi,cb">
+                    <td>
+                        <a href="details/census_bureau_sogi.html" class="name-link">
+                            Census Bureau SOGI
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">sogi</span>
+                        
+                        <span class="tag">cb</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="race,ethnicity,cb">
+                    <td>
+                        <a href="details/census_bureau_race_and_ethnicity.html" class="name-link">
+                            Census Bureau Race and Ethnicity
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">race</span>
+                        
+                        <span class="tag">ethnicity</span>
+                        
+                        <span class="tag">cb</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ai,whitehouse">
+                    <td>
+                        <a href="details/ai.gov.html" class="name-link">
+                            AI.gov
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ai</span>
+                        
+                        <span class="tag">whitehouse</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,military">
+                    <td>
+                        <a href="details/department_of_defense_-_congressionally_directed_medical_research_programs.html" class="name-link">
+                            Department of Defense - Congressionally Directed Medical Research Programs
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">military</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,military">
+                    <td>
+                        <a href="details/u.s._army_medical_research_and_development_command.html" class="name-link">
+                            U.S. Army Medical Research and Development Command
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">military</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_assessment_of_educational_progress.html" class="name-link">
+                            National Assessment of Educational Progress
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education,highered">
+                    <td>
+                        <a href="details/baccalaureate_and_beyond_longitudinal_study.html" class="name-link">
+                            Baccalaureate and Beyond Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                        <span class="tag">highered</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/beginning_postsecondary_students_longitudinal_study.html" class="name-link">
+                            Beginning Postsecondary Students Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/beginning_teacher_longitudinal_study.html" class="name-link">
+                            Beginning Teacher Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education,civilrights">
+                    <td>
+                        <a href="details/civil_rights_data_collection.html" class="name-link">
+                            Civil Rights Data Collection
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                        <span class="tag">civilrights</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education,civilrights">
+                    <td>
+                        <a href="details/civil_rights_data_collection.html" class="name-link">
+                            Civil Rights Data Collection
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                        <span class="tag">civilrights</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/early_childhood_longitudinal_study.html" class="name-link">
+                            Early Childhood Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/edfacts_(k-12).html" class="name-link">
+                            EdFacts (K-12)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/fast_response_survey_system.html" class="name-link">
+                            Fast Response Survey System
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/middle_grades_longitudinal_study.html" class="name-link">
+                            Middle Grades Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_education_longitudinal_study.html" class="name-link">
+                            National Education Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_household_education_surveys_program.html" class="name-link">
+                            National Household Education Surveys Program
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_indian_education_study.html" class="name-link">
+                            National Indian Education Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_postsecondary_student_aid_study.html" class="name-link">
+                            National Postsecondary Student Aid Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/private_school_universe_survey.html" class="name-link">
+                            Private School Universe Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education,school,crime">
+                    <td>
+                        <a href="details/school_survey_on_crime_and_safety.html" class="name-link">
+                            School Survey on Crime and Safety
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                        <span class="tag">school</span>
+                        
+                        <span class="tag">crime</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/researchdatagov_-_nces.html" class="name-link">
+                            ResearchDataGov - NCES
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="DOJ,justice">
+                    <td>
+                        <a href="details/doj_annual_statistical_reports.html" class="name-link">
+                            DOJ Annual Statistical Reports
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">DOJ</span>
+                        
+                        <span class="tag">justice</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cfpb">
+                    <td>
+                        <a href="details/consumer_financial_protection_bureau.html" class="name-link">
+                            Consumer Financial Protection Bureau
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cfpb</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="treasury">
+                    <td>
+                        <a href="details/federal_collections.html" class="name-link">
+                            Federal Collections
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">treasury</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="treasury">
+                    <td>
+                        <a href="details/120_day_delinquent_debt_referral_compliance_report.html" class="name-link">
+                            120 Day Delinquent Debt Referral Compliance Report
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">treasury</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,health,sogi,youth">
+                    <td>
+                        <a href="details/youth_risk_behavior_survey_(yrbs).html" class="name-link">
+                            Youth Risk Behavior Survey (YRBS)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">sogi</span>
+                        
+                        <span class="tag">youth</span>
+                        
+                    </td>
+                    <td class="status-content_stripped">
+                        
+                            Content Stripped
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/high_school_&amp;_beyond_longitudinal_study.html" class="name-link">
+                            High School &amp; Beyond Longitudinal Study
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_teacher_and_principal_survey.html" class="name-link">
+                            National Teacher and Principal Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="ed,education">
+                    <td>
+                        <a href="details/national_household_education_survey_(nhes)_-_parent_and_family_involvement_in_education_(pfi).html" class="name-link">
+                            National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">ed</span>
+                        
+                        <span class="tag">education</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="DOJ,justice,school,crime">
+                    <td>
+                        <a href="details/school_crime_supplement_(scs)_to_the_national_crime_victimization_survey_(ncvs).html" class="name-link">
+                            School Crime Supplement (SCS) to the National Crime Victimization Survey (NCVS)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">DOJ</span>
+                        
+                        <span class="tag">justice</span>
+                        
+                        <span class="tag">school</span>
+                        
+                        <span class="tag">crime</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="treasury,covid,assistance">
+                    <td>
+                        <a href="details/treasury_homeowner_assistance_fund_data.html" class="name-link">
+                            Treasury Homeowner Assistance Fund Data
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">treasury</span>
+                        
+                        <span class="tag">covid</span>
+                        
+                        <span class="tag">assistance</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fhfa,mortgage,housing">
+                    <td>
+                        <a href="details/national_mortgage_database_aggregate_statistics.html" class="name-link">
+                            National Mortgage Database Aggregate Statistics
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fhfa</span>
+                        
+                        <span class="tag">mortgage</span>
+                        
+                        <span class="tag">housing</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fhfa,mortgage,housing">
+                    <td>
+                        <a href="details/national_mortgage_database_program.html" class="name-link">
+                            National Mortgage Database Program
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fhfa</span>
+                        
+                        <span class="tag">mortgage</span>
+                        
+                        <span class="tag">housing</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cb,census">
+                    <td>
+                        <a href="details/american_community_survey.html" class="name-link">
+                            American Community Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cb</span>
+                        
+                        <span class="tag">census</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cb,census">
+                    <td>
+                        <a href="details/census_bureau_household_pulse_survey.html" class="name-link">
+                            Census Bureau Household Pulse Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cb</span>
+                        
+                        <span class="tag">census</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="transportation">
+                    <td>
+                        <a href="details/standing_general_order_2021-01_|_incident_reporting_for_automated_driving_systems_and_level_2_advanced_driver_assistance_systems.html" class="name-link">
+                            Standing General Order 2021-01 | Incident Reporting for Automated Driving Systems and Level 2 Advanced Driver Assistance Systems
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">transportation</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="whitehouse">
+                    <td>
+                        <a href="details/investing_in_america.html" class="name-link">
+                            Investing in America
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">whitehouse</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="atf,firearms">
+                    <td>
+                        <a href="details/federal_firearms_listings.html" class="name-link">
+                            Federal Firearms Listings
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">atf</span>
+                        
+                        <span class="tag">firearms</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="labor">
+                    <td>
+                        <a href="details/u.s._department_of_labor_enforcement_data.html" class="name-link">
+                            U.S. Department of Labor Enforcement Data
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">labor</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="housing,mortgage">
+                    <td>
+                        <a href="details/home_mortgage_disclosure_act.html" class="name-link">
+                            Home Mortgage Disclosure Act
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">housing</span>
+                        
+                        <span class="tag">mortgage</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_health_and_nutrition_examination_survey_(nhanes).html" class="name-link">
+                            National Health and Nutrition Examination Survey (NHANES)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_survey_of_family_growth_(nsfg).html" class="name-link">
+                            National Survey of Family Growth (NSFG)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cb">
+                    <td>
+                        <a href="details/national_survey_of_children&#39;s_health_(nsch).html" class="name-link">
+                            National Survey of Children&#39;s Health (NSCH)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cb</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_hospital_care_survey.html" class="name-link">
+                            National Hospital Care Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_center_for_hiv,_viral_hepatitis,_std,_and_tuberculosis_prevention_-_atlasplus.html" class="name-link">
+                            National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention - AtlasPlus
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_vital_statistics.html" class="name-link">
+                            National Vital Statistics
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/cdc_wonder.html" class="name-link">
+                            CDC WONDER
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/national_notifiable_disease_surveillance_system.html" class="name-link">
+                            National Notifiable Disease Surveillance System
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="vaccine,health,cdc">
+                    <td>
+                        <a href="details/vaccine_adverse_event_reporting_system_(vaers).html" class="name-link">
+                            Vaccine Adverse Event Reporting System (VAERS)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">vaccine</span>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/sexually_transmitted_disease_morbidity_data.html" class="name-link">
+                            Sexually Transmitted Disease Morbidity Data
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/online_tuberculosis_information_system_(otis)_data.html" class="name-link">
+                            Online Tuberculosis Information System (OTIS) Data
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/aids_public_use_data.html" class="name-link">
+                            AIDS Public Use Data
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc">
+                    <td>
+                        <a href="details/behavioral_risk_factor_surveillance_system_(brfss).html" class="name-link">
+                            Behavioral Risk Factor Surveillance System (BRFSS)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cdc,cancer">
+                    <td>
+                        <a href="details/united_states_cancer_statistics.html" class="name-link">
+                            United States Cancer Statistics
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">cancer</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,cancer">
+                    <td>
+                        <a href="details/surveillance,_epidemiology,_and_end_results_(seer).html" class="name-link">
+                            Surveillance, Epidemiology, and End Results (SEER)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">cancer</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health,aging">
+                    <td>
+                        <a href="details/national_health_and_aging_trends_study_(nhats).html" class="name-link">
+                            National Health and Aging Trends Study (NHATS)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">aging</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="health">
+                    <td>
+                        <a href="details/national_longitudinal_study_of_adolescent_to_adult_health_(add_health).html" class="name-link">
+                            National Longitudinal Study of Adolescent to Adult Health (Add Health)
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">health</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="epa,envjustice">
+                    <td>
+                        <a href="details/epa_environmental_justice.html" class="name-link">
+                            EPA Environmental Justice
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">epa</span>
+                        
+                        <span class="tag">envjustice</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="immigration,statedept">
+                    <td>
+                        <a href="details/refugee_processing_center.html" class="name-link">
+                            Refugee Processing Center
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">immigration</span>
+                        
+                        <span class="tag">statedept</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="nih,health">
+                    <td>
+                        <a href="details/nih_reporter.html" class="name-link">
+                            NIH RePORTER
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">nih</span>
+                        
+                        <span class="tag">health</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="fda,health,equity">
+                    <td>
+                        <a href="details/oncology_center_of_excellence_equity_program.html" class="name-link">
+                            Oncology Center of Excellence Equity Program
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">fda</span>
+                        
+                        <span class="tag">health</span>
+                        
+                        <span class="tag">equity</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,youth,lgbtq">
+                    <td>
+                        <a href="details/cdc_lgbtq_youth.html" class="name-link">
+                            CDC LGBTQ Youth
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">youth</span>
+                        
+                        <span class="tag">lgbtq</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,sogi">
+                    <td>
+                        <a href="details/cdc_nchs_nhis_sexual_orientation_references.html" class="name-link">
+                            CDC NCHS NHIS Sexual Orientation References
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">sogi</span>
+                        
+                    </td>
+                    <td class="status-ok">
+                        
+                            ok
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,sogi">
+                    <td>
+                        <a href="details/sexual_orientation_and_gender_identity_measures_in_nchs_data_systems.html" class="name-link">
+                            Sexual Orientation and Gender Identity Measures in NCHS Data Systems
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">sogi</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="nih,diversity">
+                    <td>
+                        <a href="details/notice_of_nih&#39;s_interest_in_diversity.html" class="name-link">
+                            Notice of NIH&#39;s Interest in Diversity
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">nih</span>
+                        
+                        <span class="tag">diversity</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,sogi">
+                    <td>
+                        <a href="details/sexual_orientation_results_from_the_national_health_interview_survey.html" class="name-link">
+                            Sexual Orientation Results from the National Health Interview Survey
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">sogi</span>
+                        
+                    </td>
+                    <td class="status-error">
+                        
+                            error
+                        
+                    </td>
+                </tr>
+                
+                <tr class="result-row" data-tags="cdc,cancer">
+                    <td>
+                        <a href="details/cancer.gov.html" class="name-link">
+                            Cancer.gov
+                        </a>
+                    </td>
+                    <td>
+                        
+                        <span class="tag">cdc</span>
+                        
+                        <span class="tag">cancer</span>
+                        
+                    </td>
+                    <td class="status-content_stripped">
+                        
+                            Content Stripped
+                        
+                    </td>
+                </tr>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Initialize table sorting
+        new Tablesort(document.getElementById('resultsTable'));
+
+        // Set up filtering
+        const searchInput = document.getElementById('searchInput');
+        const tagFilter = document.getElementById('tagFilter');
+        const rows = document.querySelectorAll('.result-row');
+
+        function filterTable() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedTag = tagFilter.value.toLowerCase();
+
+            rows.forEach(row => {
+                const name = row.cells[0].textContent.toLowerCase();
+                const tags = row.getAttribute('data-tags').toLowerCase();
+
+                const matchesSearch = name.includes(searchTerm);
+                const matchesTag = !selectedTag || tags.includes(selectedTag);
+
+                row.classList.toggle('hidden', !matchesSearch || !matchesTag);
+            });
+        }
+
+        searchInput.addEventListener('input', filterTable);
+        tagFilter.addEventListener('change', filterTable);
+    </script>
+</body>
+</html>
