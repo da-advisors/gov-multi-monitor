@@ -124,6 +124,9 @@
         .name-link:hover {
             text-decoration: underline;
         }
+        .hidden {
+            display: none !important;
+        }
     </style>
 </head>
 <body>
@@ -200,7 +203,11 @@
                 const matchesSearch = name.includes(searchTerm);
                 const matchesTag = !selectedTag || tags.includes(selectedTag);
 
-                row.classList.toggle('hidden', !matchesSearch || !matchesTag);
+                if (!matchesSearch || !matchesTag) {
+                    row.classList.add('hidden');
+                } else {
+                    row.classList.remove('hidden');
+                }
             });
         }
 
