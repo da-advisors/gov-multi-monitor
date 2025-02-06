@@ -7,7 +7,7 @@ tags:
 linked_urls:
   - url: https://www.census.gov/newsroom/blogs/random-samplings/2024/09/evolving-household-pulse-survey.html
     name: Evolving the Household Pulse Survey
-  - https://www.census.gov/programs-surveys/household-pulse-survey.html
+  - url: https://www.census.gov/programs-surveys/household-pulse-survey.html
     name: Household Pulse Survey
   - url: https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html
     name: Household Pulse Survey Public Use File (PUF)
