@@ -124,6 +124,9 @@
         .name-link:hover {
             text-decoration: underline;
         }
+        .hidden {
+            display: none !important;
+        }
     </style>
 </head>
 <body>
@@ -165,6 +168,11 @@
                     <td class="status-{{ result.status|lower }}">
                         {% if result.status == 'content_stripped' %}
                             Content Stripped
+                        {% elif result.status == 'redirect' %}
+                            Redirect
+                            {% if result.redirect_url %}
+                            <br><small>→ {{ result.redirect_url }}</small>
+                            {% endif %}
                         {% else %}
                             {{ result.status }}
                         {% endif %}
@@ -195,7 +203,11 @@
                 const matchesSearch = name.includes(searchTerm);
                 const matchesTag = !selectedTag || tags.includes(selectedTag);
 
-                row.classList.toggle('hidden', !matchesSearch || !matchesTag);
+                if (!matchesSearch || !matchesTag) {
+                    row.classList.add('hidden');
+                } else {
+                    row.classList.remove('hidden');
+                }
             });
         }
 

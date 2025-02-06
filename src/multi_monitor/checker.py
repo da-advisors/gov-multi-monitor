@@ -104,6 +104,14 @@ class URLChecker:
             result.status_code = response.status_code
             result.response_time = (datetime.now() - start_time).total_seconds()
             
+            # Check for redirects
+            if len(response.history) > 0:
+                result.status = 'redirect'
+                result.redirect_url = response.url
+                if response.status_code != 200:
+                    result.error_message = f"HTTP {response.status_code}"
+                return result
+            
             if response.status_code != 200:
                 result.status = 'error'
                 result.error_message = f"HTTP {response.status_code}"
