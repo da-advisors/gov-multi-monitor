@@ -165,6 +165,11 @@
                     <td class="status-{{ result.status|lower }}">
                         {% if result.status == 'content_stripped' %}
                             Content Stripped
+                        {% elif result.status == 'redirect' %}
+                            Redirect
+                            {% if result.redirect_url %}
+                            <br><small>→ {{ result.redirect_url }}</small>
+                            {% endif %}
                         {% else %}
                             {{ result.status }}
                         {% endif %}

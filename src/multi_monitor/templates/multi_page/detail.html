@@ -153,6 +153,10 @@
                         {{ result.status }}
                     {% endif %}
                 </span>
+                {% if result.redirect_url %}
+                <br>
+                <span class="status-redirect">Redirects to: <a href="{{ result.redirect_url }}" target="_blank" class="url-link">{{ result.redirect_url }}</a></span>
+                {% endif %}
             </p>
             {% if result.last_modified %}
             <p>Last Modified: {{ result.last_modified }}</p>
