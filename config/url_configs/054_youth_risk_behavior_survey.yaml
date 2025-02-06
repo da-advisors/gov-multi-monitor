@@ -4,3 +4,13 @@ expected_update_frequency: null
 tags:
   - cdc
   - health
+  - sogi
+  - youth
+linked_urls:
+  - url: https://www.cdc.gov/yrbs/files/2023/XXH2023_YRBS_Data.dat
+    name: 2023 YRBS Data
+  - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023_analyze_sexual_minority_data.pdf
+    name: How to Analyze YRBS Sexual Minority Data
+archived_content:
+  - url: https://web.archive.org/web/20250124100301/https://www.cdc.gov/nchs/data/series/sr_02/sr02-191.pdf
+    name: Sexual Minority Analysis Report

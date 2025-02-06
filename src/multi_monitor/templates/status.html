@@ -124,6 +124,10 @@
             color: #ffc107;
             font-weight: 500;
         }
+        .status-content_stripped {
+            color: #dc3545;
+            font-weight: 500;
+        }
         .linked-urls {
             margin-left: 20px;
             padding: 10px;
@@ -206,7 +210,13 @@
                         <span class="tag">{{ tag }}</span>
                         {% endfor %}
                     </td>
-                    <td class="status-{{ result.status|lower }}">{{ result.status }}</td>
+                    <td class="status-{{ result.status|lower }}">
+                        {% if result.status == 'content_stripped' %}
+                            Content Stripped
+                        {% else %}
+                            {{ result.status }}
+                        {% endif %}
+                    </td>
                     <td>{{ result.last_modified or 'N/A' }}</td>
                     <td>
                         {% if result.api_result %}

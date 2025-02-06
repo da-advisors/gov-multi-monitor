@@ -37,7 +37,7 @@ class CheckResult:
     # Required fields (no defaults)
     url: str
     timestamp: datetime
-    status: str  # ok, error, redirect
+    status: str  # ok, error, redirect, content_stripped
     
     # Optional fields (with defaults)
     name: Optional[str] = None
@@ -50,6 +50,7 @@ class CheckResult:
     api_result: Optional[APICheckResult] = None
     linked_url_results: List[LinkedURLCheckResult] = None
     archived_content: Optional[List[str]] = None  # Added field for archived content URLs
+    missing_components: Optional[List[str]] = None  # New field for tracking missing components
 
     def __post_init__(self):
         """Initialize default values."""
@@ -92,79 +93,79 @@ class URLChecker:
         result = CheckResult(
             url=config.url,
             timestamp=start_time,
-            status='error',  # Default status
+            status='ok',  # Default to ok instead of error
             name=config.name,
             expected_update_frequency=config.expected_update_frequency,
             archived_content=getattr(config, 'archived_content', [])  # Get archived content from config
         )
         
         try:
-            response = self.session.get(
-                config.url,
-                timeout=self.timeout,
-                allow_redirects=True
-            )
-            
+            response = self.session.get(config.url, timeout=self.timeout, allow_redirects=True)
             result.status_code = response.status_code
+            result.response_time = (datetime.now() - start_time).total_seconds()
             
-            # Check for redirect
-            if len(response.history) > 0:
-                result.status = 'redirect'
-                result.redirect_url = response.url
-                return result
-            
-            # Check for errors
             if response.status_code != 200:
                 result.status = 'error'
                 result.error_message = f"HTTP {response.status_code}"
                 return result
             
-            # Get last modified date from headers only for successful responses
-            if 'last-modified' in response.headers:
-                try:
-                    result.last_modified = datetime.strptime(
-                        response.headers['last-modified'],
-                        '%a, %d %b %Y %H:%M:%S %Z'
-                    )
-                except ValueError:
-                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
+            # Check for content stripping and missing components
+            missing_components = []
+            soup = BeautifulSoup(response.text, 'html.parser')
             
-            # Check content if specified
-            if hasattr(config, 'expected_content') and config.expected_content:
-                soup = BeautifulSoup(response.text, 'html.parser')
-                
-                # Check text content
-                if not any(text in response.text for text in config.expected_content):
-                    result.status = 'error'
-                    result.error_message = "Expected content not found"
-                    return result
+            # Check for Trump executive order notice
+            exec_order_text = soup.find(string=re.compile(r"Executive Order.*Trump", re.IGNORECASE))
+            if exec_order_text:
+                result.status = 'content_stripped'
+                result.error_message = "Content has been stripped due to executive order"
+                missing_components.append("Original content removed due to executive order")
+            
+            # Check for missing images
+            broken_images = soup.find_all('img', src=re.compile(r'^$|^#|error|missing', re.IGNORECASE))
+            if broken_images:
+                if result.status != 'content_stripped':
+                    result.status = 'content_stripped'
+                result.error_message = result.error_message or "Page contains missing or broken images"
+                missing_components.append(f"{len(broken_images)} missing/broken images")
             
             # Check linked URLs if specified
-            if hasattr(config, 'linked_urls') and config.linked_urls:
+            if hasattr(config, 'linked_urls'):
+                linked_results = []
+                has_missing_links = False
                 for linked_url in config.linked_urls:
                     linked_result = self._check_linked_url(linked_url)
-                    result.linked_url_results.append(linked_result)
+                    linked_results.append(linked_result)
+                    if linked_result.status != 'ok':
+                        has_missing_links = True
+                        missing_components.append(f"Missing linked resource: {linked_result.name}")
+                result.linked_url_results = linked_results
+                if has_missing_links:
+                    result.status = 'content_stripped'
+                    result.error_message = result.error_message or "Some linked resources are unavailable"
             
-            # Check API if specified
-            if hasattr(config, 'api_config') and config.api_config:
+            # Check API if specified and has a url config
+            if hasattr(config, 'api_config') and hasattr(config.api_config, 'url'):
                 result.api_result = self._check_api(config.api_config)
-                if result.api_result.status == 'error':
+                if result.api_result.status != 'ok':
                     result.status = 'error'
                     result.error_message = result.api_result.error_message
-                    return result
             
-            result.status = 'ok'
-            result.response_time = (datetime.now() - start_time).total_seconds()
+            if missing_components:
+                result.missing_components = missing_components
+            
             return result
             
         except requests.TooManyRedirects:
             result.status = 'redirect'
             result.error_message = "Too many redirects"
         except requests.Timeout:
+            result.status = 'error'
             result.error_message = "Request timed out"
         except requests.ConnectionError:
+            result.status = 'error'
             result.error_message = "Connection error"
         except Exception as e:
+            result.status = 'error'
             result.error_message = str(e)
         
         result.response_time = (datetime.now() - start_time).total_seconds()

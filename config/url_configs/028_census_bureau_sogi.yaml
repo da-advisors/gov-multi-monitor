@@ -27,3 +27,9 @@ linked_urls:
   - url: https://www.census.gov/library/working-papers/2018/adrm/rsm2018-06.html
     name: 2018 Working Paper on SOGI Questions
     type: webpage
+  - url: https://www.census.gov/topics/population/sexual-orientation-gender-identity/data.html
+    name: Sexual Orientation & Gender Identity (SOGI) Data
+    type: webpage
+archived_content:
+  - url: https://web.archive.org/web/20250124174636/https://www.census.gov/topics/population/sexual-orientation-gender-identity/data.html
+    name: Sexual Orientation & Gender Identity (SOGI) Data

@@ -72,11 +72,22 @@ def check(config: str, url: str = None, verbose: bool = False):
                 total = len(result.linked_url_results)
                 linked_status = f"{ok_count}/{total} OK"
             
-            # Add row to results table
+            # Format status with color and proper text
+            status_style = {
+                'ok': 'green',
+                'error': 'red',
+                'redirect': 'yellow',
+                'content_stripped': 'red'
+            }
+            
+            status_text = result.status
+            if status_text == 'content_stripped':
+                status_text = 'Content Stripped'
+            
             table.add_row(
                 url_config.name or url_config.url,
                 result.url,
-                result.status,
+                f"[{status_style.get(result.status, 'white')}]{status_text}[/{status_style.get(result.status, 'white')}]",
                 result.expected_update_frequency or "-",
                 result.last_modified.strftime("%Y-%m-%d %H:%M:%S") if result.last_modified else "-",
                 api_status,
@@ -95,19 +106,11 @@ def check(config: str, url: str = None, verbose: bool = False):
                             "",
                             f"[{status_color}]→ {linked_result.name}[/{status_color}]"
                         )
-                        # Show URL
+                        # Show URL and error if present
+                        error_text = f" - {linked_result.error_message}" if linked_result.error_message else ""
                         linked_table.add_row(
                             "",
-                            f"  [dim]{linked_result.url}[/dim]"
-                        )
-                        # Show error and last success
-                        last_success = history.get_last_success(linked_result.url)
-                        error_msg = linked_result.error_message or linked_result.status
-                        if last_success:
-                            error_msg += f" (Last successful: {last_success.strftime('%Y-%m-%d')})"
-                        linked_table.add_row(
-                            "",
-                            f"  [{status_color}]{error_msg}[/{status_color}]"
+                            f"  [dim]{linked_result.url}{error_text}[/dim]"
                         )
                 table.add_row("", linked_table, "", "", "", "", "", "")
         
