@@ -7,10 +7,243 @@ tags:
   - sogi
   - youth
 linked_urls:
-  - url: https://www.cdc.gov/yrbs/files/2023/XXH2023_YRBS_Data.dat
-    name: 2023 YRBS Data
   - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023_analyze_sexual_minority_data.pdf
     name: How to Analyze YRBS Sexual Minority Data
+  - url: https://www.cdc.gov/yrbs/about/index.html
+    name: Youth Risk Behavior Surveillance System (YRBSS)
+  - url: https://www.cdc.gov/yrbs/site.html#gen
+    name: YRBSS Site Map
+  - url: https://www.cdc.gov/yrbs/about/index.html
+    name: About YRBSS
+  - url: https://www.cdc.gov/yrbs/results/index.html
+    name: YRBSS Results
+  - url: https://www.cdc.gov/yrbs/methods/index.html
+    name: YRBSS Methods
+  - url: https://www.cdc.gov/yrbs/supplementary-tables/index.html
+    name: YRBS Supplementary Tables
+  - url: https://www.cdc.gov/yrbs/report-publication/index.html
+    name: YRBSS Reports and Publications
+  - url: https://www.cdc.gov/yrbs/results-toolkit/index.html
+    name: YRBSS Results Toolkit
+  - url: https://yrbs-explorer.services.cdc.gov/#/
+    name: YRBS Explorer
+  - url: https://www.cdc.gov/healthy-youth/index.html
+    name: Adolescent and School Health
+  - url: https://www.cdc.gov/yrbs/files/2023/XXH2023_YRBS_Data.dat
+    name: 2023 Data - ASCII
+  - url: https://www.cdc.gov/yrbs/files/2023/XXH2023_YRBS_Data.zip
+    name: 2023 Data - zip
+  - url: https://www.cdc.gov/yrbs/files/2023/2023XXH_Formats_Program.sas
+    name: 2023 Data - SAS Format Program
+  - url: https://www.cdc.gov/yrbs/files/2023/2023XXH_SAS_Input_Program.sas
+    name: 2023 Data - SAS Input Program
+  - url: https://www.cdc.gov/yrbs/files/2023/2023XXH_SPSS.sps
+    name: 2023 Data - SPSS Syntax
+  - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023_National_YRBS_Data_Users_Guide508.pdf
+    name: 2023 Data - Data User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/files/2021/XXH2021_YRBS_Data.dat
+    name: ASCII
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/files/2021/XXH2021_YRBS_Data.zip
+    name: Access
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/files/2021/2021XXH-Formats-Program.sas
+    name: SAS Format Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/files/2021/2021XXH-SAS-Input-Program.sas
+    name: SAS Input Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/files/2021/2021XXH-SPSS.sps
+    name: SPSS Syntax
+  - url: https://www.cdc.gov/yrbs/files/2021/pdf/2021_YRBS_Data_Users_Guide_508.pdf
+    name: Data User's Guide
+  - url: https://www.cdc.gov/yrbs/data/national-yrbs-datasets-documentation.html
+    name: National YRBSS Datasets and Documentation by Year
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/SADC_2023_National.dat
+    name: 2023 Data - National
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/Sadc_2023_district.dat
+    name: 2023 Data - District
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_a_d.dat
+    name: 2023 Data - A-D
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_e_h.dat
+    name: 2023 Data - E-H
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_i_l.dat
+    name: 2023 Data - I-L
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_m.dat
+    name: 2023 Data - M
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_n_p.dat
+    name: 2023 Data - N-P
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_q_t.dat
+    name: 2023 Data - Q-T
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_u_z.dat
+    name: 2023 Data - U-Z
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/2023-SADC-SAS-Formats-Program.sas
+    name: 2023 Data - SAS Format Program
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/2023-SADC-SAS-Input-Program.sas
+    name: 2023 Data - SAS Input Program
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/2023-SADC-SPSS-Input-Program.sps
+    name: 2023 Data - SPSS Input Program
+  - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023-YRBS-SADC-Documentation.pdf
+    name: 2023 Data - Combined Datasets User's Guide
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/SADC_2023_National.zip
+    name: 2023 Data - National
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/Sadc_2023_district.zip
+    name: 2023 Data - District
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_a_d.zip
+    name: 2023 Data - States A-D
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_e_h.zip
+    name: 2023 Data - States E-H
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_i_l.zip
+    name: 2023 Data - States I-L
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_m.zip
+    name: 2023 Data - States M
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_n_p.zip
+    name: 2023 Data - States N-P
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_q_t.zip
+    name: 2023 Data - States Q-T
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/HS/sadc_2023_state_u_z.zip
+    name: 2023 Data - States U-Z
+  - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023-YRBS-SADC-Documentation.pdf
+    name: 2023 Data - Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_National.dat
+    name: 2021 Data - National (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Sadc_2021_district.dat
+    name: 2021 Data - District (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_a_d.dat
+    name: 2021 Data - A-D (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_e_h.dat
+    name: 2021 Data - E-H (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_I_L.dat
+    name: 2021 Data - I-L (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_M_P.dat
+    name: 2021 Data - M-P (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_Q_T.dat
+    name: 2021 Data - Q-T (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_U_Z.dat
+    name: 2021 Data - U-Z (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-SAS-Formats-Program.sas
+    name: 2021 Data - SAS Format Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-SAS-Input-Program.sas
+    name: 2021 Data - SAS Input Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-SPSS-Input-Program.sps
+    name: 2021 Data - SPSS Input Program
+  - url: https://www.cdc.gov/yrbs/files/2021/pdf/2021-YRBS-SADC-Documentation508.pdf
+    name: 2021 Data - Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_National.zip
+    name: 2021 Data - National
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_District.zip
+    name: 2021 Data - District
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_a_d.zip
+    name: 2021 Data - States A-D
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_e_h.zip
+    name: 2021 Data - States E-H
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_I_L.zip
+    name: 2021 Data - States I-L
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_M_P.zip
+    name: 2021 Data - States M-P
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_Q_T.zip
+    name: 2021 Data - States Q-T
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/SADC_2021_State_U_Z.zip
+    name: 2021 Data - States U-Z
+  - url: https://www.cdc.gov/yrbs/files/2021/pdf/2021-YRBS-SADC-Documentation508.pdf
+    name: 2021 Data - Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/sadc_2019_national.dat
+    name: 2019 Data - National (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/sadc_2019_state_a_m.dat
+    name: 2019 Data - States A-M (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/sadc_2019_state_n_z.dat
+    name: 2019 Data - States N-Z (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/sadc_2019_district.dat
+    name: 2019 Data - Districts (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019-SADC-SAS-Formats-Program.sas
+    name: 2019 Data - SAS Format Program (sas)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019-SADC-SAS-Input-Program.sas
+    name: 2019 Data - SAS Input Program (sas)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019-sadc-spss-input-program.sps
+    name: 2019 Data - SPSS Syntax (sps)
+  - url: https://www.cdc.gov/yrbs/files/2019/pdf/2019_YRBS_SADC_Documentation.pdf
+    name: 2019 Data - Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/sadc_2019_national.zip
+    name: 2019 Data - National (zip)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/SADC_2019_State_A_M.zip
+    name: 2019 Data - States A-M (zip)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/SADC_2019_State_N_Z.zip
+    name: 2019 Data - States N-Z (zip)
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/sadc_ms_2023_district.dat
+    name: 2023 Data - District
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/sadc_ms_2023_state_a_m.dat
+    name: 2023 Data - States A-M
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/sadc_ms_2023_state_n_z.dat
+    name: 2023 Data - States N-Z
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/2023-SADC-MS-SAS-Formats-Program.sas
+    name: 2023 Data - SAS Format Program
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/2023-SADC-MS-SAS-Input-Program.sas
+    name: 2023 Data - SAS Input Program
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/2023-SADC-MS-SPSS-Input-Program.sps
+    name: 2023 Data - SPSS Input Program
+  - url: https://www.cdc.gov/yrbs/media/pdf/2023/2023-MS-YRBS-SADC-Documentation.pdf
+    name: 2023 Combined Datasets User's Guide
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/SADC_MS_2023_District.zip
+    name: 2023 Data - District
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/SADC_MS_2023_State_A_M.zip
+    name: 2023 Data - States A-M
+  - url: https://www.cdc.gov/yrbs/files/sadc_2023/MS/SADC_MS_2023_State_N_Z.zip
+    name: 2023 Data - States N-Z
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/sadc_ms_2021_district.dat
+    name: 2021 Data - District (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/sadc_ms_2021_state_a_m.dat
+    name: 2021 Data - States A-M (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/sadc_ms_2021_state_n_z.dat
+    name: 2021 Data - States N-Z (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-MS-SAS-Formats-Program.sas
+    name: 2021 Data - SAS Format Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-MS-SAS-Input-Program.sas
+    name: 2021 Data - SAS Input Program
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/2021-SADC-MS-SPSS-Input-Program.sps
+    name: 2021 Data - SPSS Input Program
+  - url: https://www.cdc.gov/yrbs/files/2021/pdf/2021-MS-YRBS-SADC-Documentation508.pdf
+    name: 2021 Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/SADC_MS_2021_District.zip
+    name: 2021 Data - District
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/SADC_MS_2021_State_A_M.zip
+    name: 2021 Data - States A-M
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2021/Middle_School/SADC_MS_2021_State_N_Z.zip
+    name: 2021 Data - States N-Z
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/sadc_ms_2019_state_a_m.dat
+    name: 2019 Data - States A-M (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/sadc_ms_2019_state_n_z.dat
+    name: 2019 Data - States N-Z (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/sadc_ms_2019_district.dat
+    name: 2019 Data - Districts (dat)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019-SADC_MS_SAS_Formats_Program.sas
+    name: 2019 Data - SAS Format Program (sas)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019_SADC_MS_SAS_Input_Program.sas
+    name: 2019 Data - SAS Input Program (sas)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/2019-SADC-MS-SPSS-Input-Program.sps
+    name: 2019 Data - SPSS Syntax (sps)
+  - url: https://www.cdc.gov/yrbs/files/2019/pdf/2019_MS_YRBS_SADC_Documentation.pdf
+    name: 2019 Combined Datasets User's Guide
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/SADC_MS_2019_State_A_M.zip
+    name: 2019 Data - States A-M (zip)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/SADC_MS_2019_State_N_Z.zip
+    name: 2019 Data - States N-Z (zip)
+  - url: https://www.cdc.gov/healthyyouth/data/yrbs/sadc_2019/Middle_School/SADC_MS_2019_District.zip
+    name: Districts (zip)
+  - url: https://www.cdc.gov/yrbs/data/index.html#cdc_data_surveillance_section_1-national-datasets-documentation
+    name: National datasets & documentation
+  - url: https://www.cdc.gov/yrbs/data/index.html#cdc_data_surveillance_section_2-combined-high-school
+    name: Combined high school
+  - url: https://www.cdc.gov/yrbs/data/index.html#cdc_data_surveillance_section_3-combined-middle-school
+    name: Combined middle school
+  - url: https://www.cdc.gov/yrbs/data/index.html#cdc_data_surveillance_section_6-dataset-file-formats
+    name: Dataset file formats
+  - url: https://www.cdc.gov/yrbs/data/index.html#cdc_data_surveillance_section_8-additional-resources
+    name: Additional resources
+  - url: https://www.cdc.gov/yrbs/data/index.html#content-sources
+    name: Sources
+  - url: https://www.cdc.gov/healthy-youth/index.html
+    name: Division of Adolescent and School Health
+  - url: https://www.cdc.gov/nccdphp/
+    name: National Center for Chronic Disease Prevention and Health Promotion
+  - url: https://www.cdc.gov/yrbs/data/index.html#archive
+    name: Archive
 archived_content:
   - url: https://web.archive.org/web/20250124100301/https://www.cdc.gov/nchs/data/series/sr_02/sr02-191.pdf
     name: Sexual Minority Analysis Report
+    
