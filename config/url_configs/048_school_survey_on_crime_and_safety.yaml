@@ -6,3 +6,32 @@ tags:
   - education
   - school
   - crime
+linked_urls:
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=027
+    name: Publications & Products
+  - url: https://nces.ed.gov/programs/crime/tables.asp
+    name: SSOCS & SCS Table Library
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=027
+    name: Staff
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp
+    name: Survey Topics
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp
+    name: Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/questionnaire.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=1
+    name: What is SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=2
+    name: Who participates in SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=3
+    name: When is SSOCS administered?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=4
+    name: What topics are covered by SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=5
+    name: Where can I learn more about SSOCS and other crime and safety data collections?
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024055
+    name: School Survey on Crime and Safety (SSOCS) 2019-2020 Public Use Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024145
+    name: Report on Indicators of School Crime and Safety 2023
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024043
+    name: Crime, Violence, Discipline, and Safety in U.S. Public Schools Findings From the School Survey on Crime and Safety 2021-22
