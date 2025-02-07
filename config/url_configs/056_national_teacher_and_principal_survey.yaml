@@ -4,3 +4,62 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/ntps/participants_2024.asp
+    name: Teacher Follow-up (TFS) and Principal Follow-up (PFS) Participant Information
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039
+    name: Teacher Attrition and Mobility Results From the 2021–22 Teacher Follow-up Survey to the National Teacher and Principal Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046
+    name: Principal Attrition and Mobility Results From the 2021–22 Principal Follow-up Survey to the National Teacher and Principal Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021007
+    name: Outside Jobs Among U.S. Public School Teachers
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019
+    name: Impact of the Coronavirus (COVID-19) Pandemic on Public and Private Elementary and Secondary Education in the United States (Preliminary Data) Results from the 2020-21 National Teacher and Principal Survey (NTPS)
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020086
+    name: School Nurses in U.S. Public Schools
+  - url: https://nces.ed.gov/surveys/ntps/overview.asp?OverviewType=1
+    name: NTPS Overview
+  - url: https://nces.ed.gov/surveys/ntps/questionnaires.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/ntps/methods-procedures.asp
+    name: Methodology & Research
+  - url: https://nces.ed.gov/surveys/ntps/estable
+    name: Table Library
+  - url: https://nces.ed.gov/surveys/ntps/tables_list.asp
+    name: Table List
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=122
+    name: Publications
+  - url: https://nces.ed.gov/surveys/ntps/researchtopics.asp
+    name: Research Topics
+  - url: https://nces.ed.gov/surveys/ntps/spotlight.asp
+    name: Spotlight on Data
+  - url: https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp
+    name: NTPS/SASS Data
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=122
+    name: Contact Us
+  - url: https://nces.ed.gov/surveys/ntps/ntpsdashboard/
+    name: NTPS State Dashboard, 2020–21
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024088
+    name: Changes in Public School Teachers\u0092 Certification Type
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024178
+    name: Documentation for the 2016-17 Principal Follow-up Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024145
+    name: Report on Indicators of School Crime and Safety 2023
+  - url: https://nces.ed.gov/surveys/ntps/pdf/NTPS_StatsDC_2023-final_508c.pdf
+    name: Introduction to the National Teacher and Principal Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039
+    name: Teacher Attrition and Mobility Results From the 2021–22 Teacher Follow-up Survey to the National Teacher and Principal Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046
+    name: Principal Attrition and Mobility Results From the 2021–22 Principal Follow-up Survey to the National Teacher and Principal Survey
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022113
+    name: Characteristics of Public and Private Elementary and Secondary School TEACHERS in the United States
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022112
+    name: Characteristics of Public and Private Elementary and Secondary School PRINCIPALS in the United States
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022111
+    name: Characteristics of Public and Private Elementary and Secondary SCHOOLS in the United States
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019
+    name: Impact of the Coronavirus (COVID-19) Pandemic on Public and Private Elementary and Secondary Education in the United States (Preliminary Data)
+  - url: https://datainventory.ed.gov
+    name: Department of Education’s ED Data Inventory
+  - url: https://nces.ed.gov/datatools/
+    name: NCES Data Tools
