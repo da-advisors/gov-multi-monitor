@@ -4,3 +4,16 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://web.archive.org/web/20250130062734/https://wonder.cdc.gov/aids-v2002.html
+    name: AIDS Public Use (Vintage 2002) Request
+  - url: https://web.archive.org/web/20250130062734/https://wonder.cdc.gov/aids-v2001.html
+    name: AIDS Public Use (Vintage 2001) Request
+  - url: https://web.archive.org/web/20250130062734/https://wonder.cdc.gov/aids-v1999.html
+    name: AIDS Public Use (Vintage 1999) Request
+archived_content:
+  - url: https://web.archive.org/web/20250130062734/https://wonder.cdc.gov/AIDSPublic.html
+    name: AIDS Public Information
+  - url: https://web.archive.org/web/20250130062734/https://wonder.cdc.gov/wonder/help/aids.html
+    name: AIDS Public Information Data Summary
+  

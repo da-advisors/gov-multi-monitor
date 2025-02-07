@@ -4,3 +4,19 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://wonder.cdc.gov/nndss-annual-summary.html
+    name: Interactive Annual Summary Data 2016 – 2022
+  - url: https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp
+    name: Annual Tables 2016 – 2022
+  - url: https://wonder.cdc.gov/nndss/nndss_weekly_tables_menu.asp
+    name: Weekly Tables 1996 – last week
+archived_content:
+  - url: https://web.archive.org/web/20250113055726/https://wonder.cdc.gov/NNDSS.html
+    name: National Notifiable Diseases Surveillance System (NNDSS) Data
+  - url: https://web.archive.org/web/20250113055726/https://wonder.cdc.gov/nndss-annual-summary.html
+    name: Interactive Annual Summary Data 2016 – 2022
+  - url: https://web.archive.org/web/20250113055726/https://wonder.cdc.gov/nndss/nndss_annual_tables_menu.asp
+    name: Annual Tables 2016 – 2022
+  - url: https://web.archive.org/web/20250113055726/https://wonder.cdc.gov/nndss/nndss_weekly_tables_menu.asp
+    name: Weekly Tables 1996 – last week
