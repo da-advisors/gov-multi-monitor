@@ -1,7 +1,53 @@
 url: https://nces.ed.gov/nhes/parent_involvement.asp
-name: National Household Education Survey (NHES) - Parent and Family Involvement in
-  Education (PFI)
+name: National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)
 expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+- url: https://nces.ed.gov/nhes/about.asp
+  name: About
+- url: https://nces.ed.gov/nhes/young_children.asp
+  name: Young Children's Care and Education Before Kindergarten
+- url: https://nces.ed.gov/nhes/parent_involvement.asp
+  name: Parent Involvement in Education from Kindergarten to High School
+- url: https://nces.ed.gov/nhes/homeschooling.asp
+  name: Homeschooling
+- url: https://nces.ed.gov/nhes/data_files.asp
+  name: Data Files & Questionnaires
+- url: https://nces.ed.gov/nhes/publications.asp
+  name: Publications
+- url: https://nces.ed.gov/nhes/research.asp
+  name: Methodological Research
+- url: https://nces.ed.gov/nhes/tables.asp
+  name: Table Library
+- url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=004
+  name: Staff
+- url: https://nces.ed.gov/nhes/pdf/pfi-e_infographic.pdf
+  name: NHES Sample and Methods(PFI Infographic PDF)
+- url: https://nces.ed.gov/nhes/about.asp
+  name: About the NHES
+- url: https://nces.ed.gov/pubs2024/2024113.pdf
+  name: Parent and Family Involvement in Education 2023
+- url: https://nces.ed.gov/pubs2023/2023085.pdf
+  name: Families' Participation in School Choice and Importance of Factors in School Choice Decisions in 2019
+- url: https://nces.ed.gov/pubs2020/2020076full.pdf
+  name: Parent and Family Involvement in Education 2019
+- url: https://nces.ed.gov/pubs2019/2019106.pdf
+  name: School Choice in the United States 2019
+- url: https://nces.ed.gov/surveys/annualreports/
+  name: NCES Annual Reports and Information program
+- url: https://nces.ed.gov/surveys/hsls09/
+  name: High School Longitudinal Studies
+- url: https://nces.ed.gov/surveys/mgls/
+  name: Middle Grades Longitudinal Studies
+- url: https://nces.ed.gov/ecls/
+  name: Early Childhood Longitudinal Studies
+- url: https://nces.ed.gov/programs/statereform/about.asp
+  name: State Education Practices (SEP)
+- url: https://ies.ed.gov/ncee/rel/Project/4509
+  name: The Institute of Education Sciences Toolkit of Resources for Engaging Families and the Community as Partners in Education
+- url: https://nces.ed.gov/nhes/dataproducts.asp#2019dp
+  name: 2019 PFI Data File
+- url: https://nces.ed.gov/nhes/pdf/pfi/2023_pfi.pdf
+  name: 2023 PFI Questionnaire
