@@ -4,3 +4,60 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/hsb/index.asp
+    name: Home
+  - url: https://nces.ed.gov/surveys/hsb/policy.asp
+    name: Policy & Research
+  - url: https://nces.ed.gov/surveys/hsb/policy.asp
+    name: Policy
+  - url: https://nces.ed.gov/surveys/hsb/research.asp
+    name: Research
+  - url: https://nces.ed.gov/surveys/hsb/hsb80.asp
+    name: HS&B 80
+  - url: https://nces.ed.gov/surveys/hsb/surveydesign.asp
+    name: HS&B 80 Survey Design
+  - url: https://nces.ed.gov/surveys/hsb/questionnaires.asp
+    name: HS&B 80 Questionnaires
+  - url: https://nces.ed.gov/surveys/hsb/manuals.asp
+    name: HS&B 80 User Manuals
+  - url: https://nces.ed.gov/surveys/hsb/hsb22.asp
+    name: HS&B 22
+  - url: https://nces.ed.gov/surveys/hsb/surveydesign22.asp
+    name: HS&B 22 Survey Design
+  - url: https://nces.ed.gov/surveys/hsb/questionnaires22.asp
+    name: HS&B 22 Questionnaires
+  - url: https://nces.ed.gov/surveys/hsb/manuals22.asp
+    name: HS&B 22 User Manuals
+  - url: https://nces.ed.gov/surveys/hsb/accessingData.asp
+    name: Data
+  - url: https://nces.ed.gov/surveys/hsb/accessingData.asp
+    name: Accessing the Data
+  - url: https://nces.ed.gov/surveys/hsb/tables.asp
+    name: Table Library
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=022
+    name: Publications
+  - url: https://nces.ed.gov/bibliography/
+    name: Bibliography
+  - url: https://nces.ed.gov/surveys/hsb/contact.asp
+    name: Contact
+  - url: https://nces.ed.gov/surveys/nls72
+    name: NLS-72
+  - url: https://nces.ed.gov/surveys/hsb/hsb80.asp
+    name: HSB 80
+  - url: https://nces.ed.gov/surveys/nels88
+    name: NELS 88
+  - url: https://nces.ed.gov/surveys/els2002
+    name: ELS 2002
+  - url: https://nces.ed.gov/surveys/hsls09
+    name: HSLS 09
+  - url: https://nces.ed.gov/surveys/hsb/hsb22.asp
+    name: HSB 22
+  - url: https://ies.ed.gov/data.asp
+    name: Data
+  - url: https://nces.ed.gov/training/datauser/
+    name: Data Training
+  - url: https://datainventory.ed.gov
+    name: ED Data Inventory
+  - url: https://nces.ed.gov/statprog/2012/
+    name: NCES Statistical Standards
