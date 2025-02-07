@@ -5,3 +5,32 @@ tags:
   - ed
   - education
   - highered
+linked_urls:
+  - url: https://nces.ed.gov/surveys/b&b/index.asp
+    name: Home
+  - url: https://nces.ed.gov/surveys/b&b/about.asp
+    name: Survey Design
+  - url: https://nces.ed.gov/surveys/b&b/availabledata.asp
+    name: Available Data
+  - url: https://nces.ed.gov/datalab
+    name: DataLab
+  - url: https://nces.ed.gov/datalab/TablesLibrary
+    name: DataLab Tables Library
+  - url: https://nces.ed.gov/surveys/b&b/tablesaddl.asp
+    name: User-Requested Tables
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=015
+    name: Publications
+  - url: https://nces.ed.gov/bibliography/
+    name: Bibliography
+  - url: https://nces.ed.gov/training/datauser
+    name: Distance Learning Training Module
+  - url: https://nces.ed.gov/surveys/b&b/contact.asp
+    name: Contact
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019241
+    name: Baccalaureate and Beyond (B&B:16/17) A First Look at the Employment and Educational Experiences of College Graduates, 1 Year Later
+  - url: https://nces.ed.gov/pubs2021/2021241.pdf
+    name: Baccalaureate and Beyond (B&B:08/18) First Look at the 2018 Employment and Educational Experiences of 2007–08 College Graduates
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022241
+    name: Baccalaureate and Beyond (B&B:16/20) A First Look at the 2020 Employment and Education Experiences of 2015–16 College Graduates
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022251
+    name: Baccalaureate and Beyond (B&B:16/20) A First Look at the 2020 Experiences of 2015–16 College Graduates During the COVID-19 Pandemic
