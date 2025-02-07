@@ -6,3 +6,54 @@ tags:
   - justice
   - school
   - crime
+linked_urls:
+  - url: https://nces.ed.gov/
+    name: National Center for Education Statistics (NCES)
+  - url: https://bjs.ojp.gov/data-collection/ncvs
+    name: National Crime Victimization Survey
+  - url: https://nces.ed.gov/programs/crime/scs/publications/
+    name: NCES SCS publications page
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/2022_scs.pdf
+    name: 2022 PDF (491.55 KB)
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/2019_scs.pdf
+    name: 2019 PDF (164.29 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs17_q.pdf
+    name: 2017 PDF (570.49 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs15_q.pdf
+    name: 2015 PDF (182.12 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs13_q.pdf
+    name: 2013 PDF (118.76 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs11_q.pdf
+    name: 2011 PDF (122.99 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs09_q.pdf
+    name: 2009 PDF (193.66 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs01qst.pdf
+    name: 2001 PDF (84.98 KB)
+  - url: https://bjs.ojp.gov/content/pub/pdf/scs99qst.pdf
+    name: 1999 PDF (61.08 KB)
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety
+    name: Indicators of School Crime and Safety
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2023-and-indicator-2-incidence
+    name: Report on Indicators of School Crime and Safety: 2023 and Indicator 2: Incidence of Nonfatal Victimization at School and Away From School
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2022-and-indicator-2-incidence
+    name: Report on Indicators of School Crime and Safety: 2022 and Indicator 2: Incidence of Victimization at School and Away From School
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2021
+    name: Report on Indicators of School Crime and Safety: 2021
+  - url: https://bjs.ojp.gov/library/publications/incidence-victimization-school-and-away-school
+    name: Incidence of Victimization at School and Away From School
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2020
+    name: Report on Indicators of School Crime and Safety, 2020
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2019
+    name: Indicators of School Crime and Safety: 2019
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2018
+    name: Indicators of School Crime and Safety: 2018
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2017
+    name: Indicators of School Crime and Safety: 2017
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2016
+    name: Indicators of School Crime and Safety: 2016
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2015
+    name: Indicators of School Crime and Safety: 2015
+  - url: https://www.icpsr.umich.edu/web/NACJD/search/studies?q=school%20crime%20supplement
+    name: Codebooks and Datasets
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/2022%20NCVS%20SCS%20School%20Crime%20Letter%20v2.0.pdf
+    name: School Crime Letter (PDF 63K)
