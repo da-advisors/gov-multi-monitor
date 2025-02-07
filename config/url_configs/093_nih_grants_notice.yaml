@@ -4,6 +4,67 @@ expected_update_frequency: null
 tags:
   - nih
   - diversity
+linked_urls:
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-HG-24-003.html
+    name: NOT-AG-24-003
+  - url: https://grants.nih.gov/grants/guide/rfa-files/RFA-RM-22-001.html
+    name: RFA-RM-22-001
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-055.html
+    name: NOT-OD-21-055
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-18-210.html
+    name: NOT-OD-18-210
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-MH-20-051.html
+    name: NOT-MH-20-051
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-21-053.html
+    name: NOT-OD-21-053
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-22-019.html
+    name: NOT-OD-22-019
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-HG-22-014.html
+    name: NOT-HG-22-014
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-22-180.html
+    name: NOT-OD-22-180
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-24-051.html
+    name: NOT-OD-24-051
+  - url: https://grants.nih.gov/grants/guide/notice-files/NOT-OD-18-210.html
+    name: NOT-OD-18-210
+  - url: http://www.nsf.gov/statistics/showpub.cfm?TopID=2&SubID=27
+    name: http://www.nsf.gov/statistics/showpub.cfm?TopID=2&SubID=27
+  - url: http://www.nsf.gov/statistics/women/
+    name: Women, Minorities, and Persons with Disabilities in Science and Engineering
+  - url: https://www.govinfo.gov/content/pkg/FR-1997-10-30/html/97-28653.htm
+    name: https://www.govinfo.gov/content/pkg/FR-1997-10-30/html/97-28653.htm
+  - url: https://www.ada.gov/pubs/adastatute08.htm
+    name: Americans with Disabilities Act of 1990, as amended
+  - url: https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab7-5.pdf
+    name: https://www.nsf.gov/statistics/2017/nsf17310/static/data/tab7-5.pdf
+  - url: https://nche.ed.gov/mckinney-vento/
+    name: https://nche.ed.gov/mckinney-vento/
+  - url: https://www.acf.hhs.gov/cb/focus-areas/foster-care
+    name: https://www.acf.hhs.gov/cb/focus-areas/foster-care
+  - url: https://www.fns.usda.gov/school-meals/income-eligibility-guidelines
+    name: https://www.fns.usda.gov/school-meals/income-eligibility-guidelines
+  - url: https://nces.ed.gov/pubs2018/2018009.pdf
+    name: https://nces.ed.gov/pubs2018/2018009.pdf
+  - url: https://www2.ed.gov/programs/fpg/eligibility.html
+    name: https://www2.ed.gov/programs/fpg/eligibility.html
+  - url: https://www.fns.usda.gov/wic/wic-eligibility-requirements
+    name: https://www.fns.usda.gov/wic/wic-eligibility-requirements
+  - url: https://data.hrsa.gov/tools/rural-health
+    name: https://data.hrsa.gov/tools/rural-health
+  - url: https://www.qhpcertification.cms.gov/s/LowIncomeandHPSAZipCodeListingPY2020.xlsx?v=1
+    name: Centers for Medicare and Medicaid Services-designated Low-Income and Health Professional Shortage Areas
+  - url: https://nces.ed.gov/programs/coe/indicator_tva.asp
+    name: https://nces.ed.gov/programs/coe/indicator_tva.asp
+  - url: https://nces.ed.gov/
+    name: https://nces.ed.gov/
+  - url: https://nces.ed.gov/programs/coe/indicator_tva.asp
+    name: https://nces.ed.gov/programs/coe/indicator_tva.asp
+  - url: https://www2.ed.gov/rschstat/research/pubs/advancing-diversity-inclusion.pdf
+    name: https://www2.ed.gov/rschstat/research/pubs/advancing-diversity-inclusion.pdf
+  - url: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008902/
+    name: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5008902/
+  - url: https://www.nsf.gov/statistics/2017/nsf17310/
+    name: https://www.nsf.gov/statistics/2017/nsf17310/
 archived_content:
   - url: https://web.archive.org/web/20250116021719/https://grants.nih.gov/grants/guide/notice-files/NOT-OD-20-031.html
-    name: NIH Grants Notice - SOGI Data Collection
+    name: Notice of NIH's Interest in Diversity
