@@ -5,13 +5,6 @@ tags:
   - cdc
   - youth
   - lgbtq
-archived_content:
-  - url: https://web.archive.org/web/20250123181733/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
-    name: CDC LGBTQ Youth
-  - url: https://web.archive.org/web/20250123181733/https://www.cdc.gov/healthy-youth/lgbtq-youth/terminology.html
-    name: LGBTQ Terminology
-  - url: https://web.archive.org/web/20250117215525/https://www.cdc.gov/healthy-youth/lgbtq-youth/health-disparities-among-lgbtq-youth.html
-    name: Health Disparities Among LGBTQ Youth
 linked_urls:
   - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/terminology.html
     name: LGBTQ Terminology
@@ -19,4 +12,286 @@ linked_urls:
   - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/health-disparities-among-lgbtq-youth.html
     name: Health Disparities
     type: html
-    
+  - url: https://www.cdc.gov/healthy-youth/index.html
+    name: Adolescent and School Health
+  - url: https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://www.cdc.gov/healthy-youth/communication-resources/index.html
+    name: Communication Resources
+  - url: https://www.cdc.gov/healthy-youth/hecat/index.html
+    name: Health Education Curriculum Analysis Tool (HECAT)
+  - url: https://www.cdc.gov/healthy-youth/get-yourself-tested/index.html
+    name: Get Yourself Tested for High Schools
+  - url: https://www.cdc.gov/healthy-youth/communication-toolkit/index.html
+    name: Communication Toolkit
+  - url: https://www.cdc.gov/healthy-youth/nyhaad/index.html
+    name: National Youth HIV/AIDS Awareness Day
+  - url: https://www.cdc.gov/healthy-youth/whats-new/index.html
+    name: What's New
+  - url: https://www.cdc.gov/healthy-youth/site.html#gen
+    name: View all
+  - url: https://www.cdc.gov/healthy-youth/site.html#php
+    name: Public Health
+  - url: https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation
+  - url: https://www.cdc.gov/healthy-youth/php/professional-development/index.html
+    name: Professional Development
+  - url: https://www.cdc.gov/healthy-youth/site.html#php
+    name: View all
+  - url: https://www.cdc.gov/healthy-youth/site.html
+    name: View All
+  - url: https://www.cdc.gov/
+    name: [No text]
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: searchclose search
+  - url: https://www.cdc.gov/healthy-youth/index.html
+    name: Adolescent and School Health
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: MenuClose
+  - url: https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://www.cdc.gov/healthy-youth/site.html#gen
+    name: View All
+  - url: https://www.cdc.gov/healthy-youth/index.html
+    name: Home
+  - url: https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation
+  - url: https://www.cdc.gov/healthy-youth/php/professional-development/index.html
+    name: Professional Development
+  - url: https://www.cdc.gov/healthy-youth/site.html#php
+    name: View All
+  - url: https://www.cdc.gov/healthy-youth/site.html
+    name: View AllAdolescent and School Health
+  - url: https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://www.cdc.gov/healthy-youth/site.html
+    name: Healthy Youth Site Map
+  - url: https://www.cdc.gov/youth-safe-environments/sexualities-alliances/index.html
+    name: Genders and Sexualities Alliances
+  - url: https://www.cdc.gov/youth-safe-environments/professional-development/index.html
+    name: professional development
+  - url: https://www.cdc.gov/youth-behavior/school-connectedness/index.html
+    name: school connectedness
+  - url: https://www.cdc.gov/youth-safe-environments/about/index.html
+    name: create safe and supportive school environments
+  - url: https://youth.gov/youth-topics/positive-youth-development
+    name: Resources on PYD
+  - url: https://familyproject.sfsu.edu/
+    name: Family Acceptance Project
+  - url: https://www.cdc.gov/youth-safe-environments/media/pdfs/2024/04/LGBTQ_Inclusivity-508.pdf
+    name: LGBTQ Inclusivity in Schools: A Self-Assessment Tool
+  - url: https://gsanetwork.org/wp-content/uploads/2018/09/Advisor-Handbook-2020.pdf
+    name: GSA Advisor Handbook
+  - url: https://www.glsen.org/participate/programs/safe-space
+    name: Safe Spaces Kit
+  - url: https://www.glsen.org/changing-the-game
+    name: Changing the Game
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_providing_care-inclusive-practices
+    name: Inclusive practices
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_personal_story-tools-for-supporting-lgbtq-youth
+    name: Tools for supporting LGBTQ youth
+  - url: https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation
+archived_content:
+  - url: https://web.archive.org/web/20250123181733/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: CDC LGBTQ Youth
+  - url: https://web.archive.org/web/20250123181733/https://www.cdc.gov/healthy-youth/lgbtq-youth/terminology.html
+    name: LGBTQ Terminology
+  - url: https://web.archive.org/web/20250117215525/https://www.cdc.gov/healthy-youth/lgbtq-youth/health-disparities-among-lgbtq-youth.html
+    name: Health Disparities Among LGBTQ Youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/index.html
+    name: Adolescent and School Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/communication-resources/index.html
+    name: Communication Resources
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/hecat/index.html
+    name: Health Education Curriculum Analysis Tool (HECAT)
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/get-yourself-tested/index.html
+    name: Get Yourself Tested for High Schools
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/communication-toolkit/index.html
+    name: Communication Toolkit
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/nyhaad/index.html
+    name: National Youth HIV/AIDS Awareness Day
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/whats-new/index.html
+    name: What's New
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html#gen
+    name: View all
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html#php
+    name: Public Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/php/professional-development/index.html
+    name: Professional Development
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html#php
+    name: View all
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html
+    name: View All
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/
+    name: [No text]
+  - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: searchclose search
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/index.html
+    name: Adolescent and School Health
+  - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: MenuClose
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html#gen
+    name: View All
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/index.html
+    name: Home
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/php/professional-development/index.html
+    name: Professional Development
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html#php
+    name: View All
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html
+    name: View AllAdolescent and School Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/site.html
+    name: Healthy Youth Site Map
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-safe-environments/sexualities-alliances/index.html
+    name: Genders and Sexualities Alliances
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-safe-environments/professional-development/index.html
+    name: professional development
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-behavior/school-connectedness/index.html
+    name: school connectedness
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-safe-environments/about/index.html
+    name: create safe and supportive school environments
+  - url: https://web.archive.org/web/20250123120338/https://youth.gov/youth-topics/positive-youth-development
+    name: Resources on PYD
+  - url: https://web.archive.org/web/20250123120338/https://familyproject.sfsu.edu/
+    name: Family Acceptance Project
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-safe-environments/media/pdfs/2024/04/LGBTQ_Inclusivity-508.pdf
+    name: LGBTQ Inclusivity in Schools: A Self-Assessment Tool
+  - url: https://web.archive.org/web/20250123120338/https://gsanetwork.org/wp-content/uploads/2018/09/Advisor-Handbook-2020.pdf
+    name: GSA Advisor Handbook
+  - url: https://web.archive.org/web/20250123120338/https://www.glsen.org/participate/programs/safe-space
+    name: Safe Spaces Kit
+  - url: https://web.archive.org/web/20250123120338/https://www.glsen.org/changing-the-game
+    name: Changing the Game
+  - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_providing_care-inclusive-practices
+    name: Inclusive practices
+  - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_personal_story-tools-for-supporting-lgbtq-youth
+    name: Tools for supporting LGBTQ youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/what-works-in-schools/index.html
+    name: What Works in Schools
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/mental-health/index.html
+    name: Mental Health
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
+    name: Supporting LGBTQ+ Youth
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/connecting-conversations/index.html
+    name: Conversation Tips
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/health-disparities/index.html
+    name: Health Disparities
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/journal-articles/index.html
+    name: Journal Articles
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/data-statistics/index.html
+    name: Data and Statistics
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/funded-programs/index.html
+    name: Resources for Funded Programs
+  - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/healthy-youth/php/program-evaluation/index.html
+    name: Program Evaluation

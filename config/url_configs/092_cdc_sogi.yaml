@@ -7,3 +7,14 @@ tags:
 archived_content:
   - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/nchs/webinars/sexual-orientation-gender-identity-measures.html
     name: Sexual Orientation and Gender Identity Measures in NCHS Data Systems
+linked_urls:
+  - url: https://www.youtube-nocookie.com/embed/JEpvTX0LHsI?autohide=0&enablejsapi=1&modestbranding=1&rel=0
+    name: YouTube
+  - url: https://www.cdc.gov/nchs/video/dae-sexual-orientation-gender-identity/DAE-Sexual-Orientation-and-Gender-Identity-2022-Low-Res.mp4
+    name: Low Resolution Video
+  - url: https://www.cdc.gov/nchs/nhanes/index.htm
+    name: National Health and Nutrition Examination Survey
+  - url: https://www.cdc.gov/nchs/nhis/index.htm
+    name: National Health Interview Survey
+  - url: https://www.cdc.gov/nchs/nsfg/index.htm
+    name: National Survey of Family Growth
