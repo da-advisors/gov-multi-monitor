@@ -4,3 +4,26 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=002
+    name: Publications & Products
+  - url: https://nces.ed.gov/surveys/pss/datatools.asp
+    name: Data Tools
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=002
+    name: Staff
+  - url: https://nces.ed.gov/surveys/pss/index.asp
+    name: Overview
+  - url: https://nces.ed.gov/surveys/pss/tables2122.asp
+    name: Data Tables
+  - url: https://nces.ed.gov/surveys/pss/pssdata.asp
+    name: Data Files
+  - url: https://nces.ed.gov/surveys/pss/faqs.asp
+    name: FAQs
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024144
+    name: Condition of Education 2024
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023042
+    name: Private School Survey Restricted-Use Data File for 2021-22 School Year
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024010
+    name: Private School Survey Public-Use Data for 2021-22 School Year
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023144REV
+    name: Condition of Education 2023
