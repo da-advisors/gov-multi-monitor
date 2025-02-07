@@ -175,11 +175,11 @@ linked_urls:
   - url: https://dpcpsi.nih.gov/sites/default/files/SGMRO_Portfolio_Analysis_RF5_508.pdf
     name: SGM Portfolio Analysis
   - url: https://dpcpsi.nih.gov/sites/default/files/2023-09/LGBT%20Health%20Report_FINAL_2013-01-03-508%20compliant%282%29%5B76%5D.pdf
-    name: FY 2010\u00a0NIH LGBT\u00a0Research Portfolio Analysis
+    name: FY 2010 NIH LGBT Research Portfolio Analysis
   - url: https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-rfi-analysis-report.pdf
     name: NIH SGM RCC Request For Information (RFI) Analysis Report
   - url: https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-nih-fy2012-portfolio-analysis-report.pdf
-    name: FY 2012\u00a0NIH SGM Research Portfolio Analysis
+    name: FY 2012 NIH SGM Research Portfolio Analysis
   - url: https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-strategic-plan_0.pdf
     name: NIH FY 2016-2020 Strategic Plan to Advance Research on the Health and Well-being of Sexual and Gender Minorities
   - url: https://www.hhs.gov/sites/default/files/dhhs-lgbt-2015-annual-report.pdf
@@ -203,9 +203,9 @@ linked_urls:
   - url: https://www.nap.edu/resource/25877/LGBTQ.pdf
     name: Consensus Study Report Highlights
   - url: https://www.ncbi.nlm.nih.gov/books/NBK64806/pdf/Bookshelf_NBK64806.pdf
-    name: The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding
+    name: The Health of Lesbian, Gay, Bisexual, and Transgender People - Building a Foundation for Better Understanding
   - url: https://www.ncbi.nlm.nih.gov/books/NBK132859/?report=reader
-    name: Collecting Sexual Orientation and Gender Identity Data in Electronic Health Records
+    name: Collecting Sexual Orientation and Gender Identity Data
   - url: https://health.gov/healthypeople
     name: Healthy People 2030
   - url: https://health.gov/healthypeople/objectives-and-data/browse-objectives/lgbt
@@ -382,11 +382,11 @@ archived_content:
   - url: https://web.archive.org/web/20241217211310/https://dpcpsi.nih.gov/sites/default/files/SGMRO_Portfolio_Analysis_RF5_508.pdf
     name: SGM Portfolio Analysis
   - url: https://web.archive.org/web/20241217211310/https://dpcpsi.nih.gov/sites/default/files/2023-09/LGBT%20Health%20Report_FINAL_2013-01-03-508%20compliant%282%29%5B76%5D.pdf
-    name: FY 2010\u00a0NIH LGBT\u00a0Research Portfolio Analysis
+    name: FY 2010 NIH LGBT Research Portfolio Analysis
   - url: https://web.archive.org/web/20241217211310/https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-rfi-analysis-report.pdf
     name: NIH SGM RCC Request For Information (RFI) Analysis Report
   - url: https://web.archive.org/web/20241217211310/https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-nih-fy2012-portfolio-analysis-report.pdf
-    name: FY 2012\u00a0NIH SGM Research Portfolio Analysis
+    name: FY 2012 NIH SGM Research Portfolio Analysis
   - url: https://web.archive.org/web/20241217211310/https://dpcpsi.nih.gov/sites/default/files/2023-09/sgm-strategic-plan_0.pdf
     name: NIH FY 2016-2020 Strategic Plan to Advance Research on the Health and Well-being of Sexual and Gender Minorities
   - url: https://web.archive.org/web/20241217211310/https://www.hhs.gov/sites/default/files/dhhs-lgbt-2015-annual-report.pdf
@@ -410,9 +410,9 @@ archived_content:
   - url: https://web.archive.org/web/20241217211310/https://www.nap.edu/resource/25877/LGBTQ.pdf
     name: Consensus Study Report Highlights
   - url: https://web.archive.org/web/20241217211310/https://www.ncbi.nlm.nih.gov/books/NBK64806/pdf/Bookshelf_NBK64806.pdf
-    name: The Health of Lesbian, Gay, Bisexual, and Transgender People: Building a Foundation for Better Understanding
+    name: The Health of Lesbian, Gay, Bisexual, and Transgender People - Building a Foundation for Better Understanding
   - url: https://web.archive.org/web/20241217211310/https://www.ncbi.nlm.nih.gov/books/NBK132859/?report=reader
-    name: Collecting Sexual Orientation and Gender Identity Data in Electronic Health Records
+    name: Collecting Sexual Orientation and Gender Identity Data
   - url: https://web.archive.org/web/20241217211310/https://health.gov/healthypeople
     name: Healthy People 2030
   - url: https://web.archive.org/web/20241217211310/https://health.gov/healthypeople/objectives-and-data/browse-objectives/lgbt

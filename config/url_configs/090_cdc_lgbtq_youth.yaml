@@ -50,14 +50,6 @@ linked_urls:
     name: Program Evaluation
   - url: https://www.cdc.gov/healthy-youth/php/professional-development/index.html
     name: Professional Development
-  - url: https://www.cdc.gov/healthy-youth/site.html#php
-    name: View all
-  - url: https://www.cdc.gov/healthy-youth/site.html
-    name: View All
-  - url: https://www.cdc.gov/
-    name: [No text]
-  - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
-    name: searchclose search
   - url: https://www.cdc.gov/healthy-youth/index.html
     name: Adolescent and School Health
   - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html
@@ -121,13 +113,13 @@ linked_urls:
   - url: https://familyproject.sfsu.edu/
     name: Family Acceptance Project
   - url: https://www.cdc.gov/youth-safe-environments/media/pdfs/2024/04/LGBTQ_Inclusivity-508.pdf
-    name: LGBTQ Inclusivity in Schools: A Self-Assessment Tool
+    name: LGBTQ Inclusivity in Schools - A Self-Assessment Tool
   - url: https://gsanetwork.org/wp-content/uploads/2018/09/Advisor-Handbook-2020.pdf
     name: GSA Advisor Handbook
   - url: https://www.glsen.org/participate/programs/safe-space
     name: Safe Spaces Kit
   - url: https://www.glsen.org/changing-the-game
-    name: Changing the Game
+    name: Changing the Game Project
   - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_providing_care-inclusive-practices
     name: Inclusive practices
   - url: https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_personal_story-tools-for-supporting-lgbtq-youth
@@ -266,13 +258,13 @@ archived_content:
   - url: https://web.archive.org/web/20250123120338/https://familyproject.sfsu.edu/
     name: Family Acceptance Project
   - url: https://web.archive.org/web/20250123120338/https://www.cdc.gov/youth-safe-environments/media/pdfs/2024/04/LGBTQ_Inclusivity-508.pdf
-    name: LGBTQ Inclusivity in Schools: A Self-Assessment Tool
+    name: LGBTQ Inclusivity in Schools - A Self-Assessment Tool
   - url: https://web.archive.org/web/20250123120338/https://gsanetwork.org/wp-content/uploads/2018/09/Advisor-Handbook-2020.pdf
     name: GSA Advisor Handbook
   - url: https://web.archive.org/web/20250123120338/https://www.glsen.org/participate/programs/safe-space
     name: Safe Spaces Kit
   - url: https://web.archive.org/web/20250123120338/https://www.glsen.org/changing-the-game
-    name: Changing the Game
+    name: Changing the Game Project
   - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_providing_care-inclusive-practices
     name: Inclusive practices
   - url: https://web.archive.org/web/20250127094426/https://www.cdc.gov/healthy-youth/lgbtq-youth/index.html#cdc_caring_for_yourself_and_others_personal_story-tools-for-supporting-lgbtq-youth
