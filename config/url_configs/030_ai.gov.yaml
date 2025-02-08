@@ -4,3 +4,55 @@ expected_update_frequency: null
 tags:
   - ai
   - whitehouse
+archived_content:
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/
+    name: AI.gov
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/actions/
+    name: Administration Actions
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/ai-in-gov/
+    name: Government Use of AI
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/research/
+    name: Research and Teach AI
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/immigrate/
+    name: Bring your AI Skills to the U.S.
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/input/
+    name: Make Your Voice Heard
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/apply/
+    name: Apply Now
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/es/
+    name: Espanol
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/actions/
+    name: Learn More about the Biden-Harris Administration's Actions
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/ai-use-cases/
+    name: Federal AI Use Case Inventories
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/aspirations/
+    name: AI Aspirations
+  - url: https://web.archive.org/web/20250117221908/https://ai.gov/naiac/
+    name: National AI Advisory Committee
+  - url: https://web.archive.org/web/20250117221908/https://www.whitehouse.gov/
+    name: Biden whitehouse.gov
+  - url: https://web.archive.org/web/20250117221908/https://www.whitehouse.gov/accessibility/
+    name: Biden White House Accessibility Statement
+linked_urls:
+  - url: https://ai.gov/actions/
+    name: Administration Actions
+  - url: https://ai.gov/ai-in-gov/
+    name: Government Use of AI
+  - url: https://ai.gov/research/
+    name: Research and Teach AI
+  - url: https://ai.gov/immigrate/
+    name: Bring your AI Skills to the U.S.
+  - url: https://ai.gov/input/
+    name: Make Your Voice Heard
+  - url: https://ai.gov/apply/
+    name: Apply Now
+  - url: https://ai.gov/es/
+    name: Espanol
+  - url: https://ai.gov/actions/
+    name: Learn More about the Biden-Harris Administration's Actions
+  - url: https://ai.gov/ai-use-cases/
+    name: Federal AI Use Case Inventories
+  - url: https://ai.gov/aspirations/
+    name: AI Aspirations
+  - url: https://ai.gov/naiac/
+    name: National AI Advisory Committee
