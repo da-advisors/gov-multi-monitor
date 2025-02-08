@@ -4,6 +4,217 @@ expected_update_frequency: null
 tags:
   - usaid
   - health
+linked_urls:
+  - url: https://www.neglecteddiseases.gov/about/
+    name: About
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/
+    name: USAID Targeted Diseases
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/lymphatic-filariasis/
+    name: Lymphatic Filariasis
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/trachoma/
+    name: Trachoma
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/onchocerciasis/
+    name: Onchocerciasis
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/schistosomiasis/
+    name: Schistosomiasis
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/soil-transmitted-helminths/
+    name: Soil Transmitted Helminths
+  - url: https://www.neglecteddiseases.gov/about/funding/
+    name: Funding
+  - url: https://www.neglecteddiseases.gov/about/who-we-partner-with/
+    name: Who We Partner With
+  - url: https://www.neglecteddiseases.gov/about/drug-donation-partnerships/
+    name: Drug Donation Partnerships
+  - url: https://www.neglecteddiseases.gov/about/results-and-impact/
+    name: Results and Impact
+  - url: https://www.neglecteddiseases.gov/about/results-and-impact/results/
+    name: Results by Year
+  - url: https://www.neglecteddiseases.gov/what-we-do/
+    name: What We Do
+  - url: https://www.neglecteddiseases.gov/what-we-do/eliminating-disease/
+    name: Eliminating Disease
+  - url: https://www.neglecteddiseases.gov/what-we-do/research/
+    name: Research
+  - url: https://www.neglecteddiseases.gov/what-we-do/sustainability/
+    name: Sustainability
+  - url: https://www.neglecteddiseases.gov/where-we-work/
+    name: Where We Work
+  - url: https://www.neglecteddiseases.gov/resources/
+    name: Resources
+  - url: https://www.neglecteddiseases.gov/resources/events/
+    name: Events
+  - url: https://www.neglecteddiseases.gov/resources/events/other-events/
+    name: Other Events
+  - url: https://www.neglecteddiseases.gov/resources/events/world-ntd-day/
+    name: World NTD Day
+  - url: https://www.neglecteddiseases.gov/resources/events/10th-anniversary/
+    name: 10th Anniversary
+  - url: https://www.neglecteddiseases.gov/resources/events/one-billion-campaign/
+    name: One Billion Campaign
+  - url: https://www.neglecteddiseases.gov/resources/multimedia/
+    name: Multimedia
+  - url: https://www.neglecteddiseases.gov/resources/multimedia/videos/
+    name: Videos
+  - url: https://www.neglecteddiseases.gov/resources/multimedia/photo-galleries/
+    name: Photos
+  - url: https://www.neglecteddiseases.gov/resources/newsroom/
+    name: News
+  - url: https://www.neglecteddiseases.gov/resources/publications/
+    name: Publications
+  - url: https://www.neglecteddiseases.gov/ending-all-ntds-usaids-approach-to-partnering-with-governments/
+    name: USAID's Approach to Partnering with Governments
+  - url: https://www.neglecteddiseases.gov/about/results-and-impact/
+    name:Results and Impact
+  - url: https://www.neglecteddiseases.gov/about/what-we-do/eliminating-disease/
+    name: Eliminating Disease
+  - url: https://www.neglecteddiseases.gov/about/what-we-do/sustainability/
+    name: Sustainability
+  - url: https://www.neglecteddiseases.gov/about/what-we-do/research
+    name: Research
+  - url: https://www.neglecteddiseases.gov/about/who-we-partner-with
+    name: Who We Partner With
+  - url: https://www.neglecteddiseases.gov/what-we-do/
+    name: What We Do
+  - url: https://www.neglecteddiseases.gov/where-we-work
+    name: Where We Work
+  - url: https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/
+    name: USAID Targeted Diseases
+  - url: https://www.neglecteddiseases.gov/about/results-and-impact/
+    name: Results & Impact
+  - url: https://www.ntdtoolbox.org/
+    name: NTD Toolbox
+  - url: https://www.neglecteddiseases.gov/wp-content/uploads/2024/04/USAID-NTD-Fact-Sheet-2023.pdf
+    name: Learn More
+  - url: https://www.neglecteddiseases.gov/resources/newsroom/
+    name: News and Stories
+  - url: https://www.neglecteddiseases.gov/he-fought-the-fiery-serpent/
+    name: He Fought the Fiery Serpent - President Carter's contribution to ending neglected diseases
+  - url: https://www.neglecteddiseases.gov/author/jeddy/
+    name: Jenny (Liz) Eddy
+  - url: https://www.neglecteddiseases.gov/samantha-power-op-ed-on-jimmy-carter/
+    name: Administrator Samantha Power\u2019s Op-Ed on Jimmy Carter
+  - url: https://www.neglecteddiseases.gov/recent-webinar-new-cooperative-agreement/
+    name: Recent Webinar: New Cooperative Agreement: Ending Neglected Diseases through Operational Research
+  - url: https://www.neglecteddiseases.gov/vietnam-eliminates-blinding-trachoma/
+    name: Vietnam Eliminates Blinding Trachoma
+  - url: https://www.neglecteddiseases.gov/usaid-at-the-2024-world-health-summit/
+    name: USAID at the 2024 World Health Summit
+  - url: https://www.neglecteddiseases.gov/resources/newsroom
+    name: More News Stories
+  - url: https://www.facebook.com/USAIDGH
+    name: Facebook
+  - url: https://twitter.com/USAIDGH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+    name: Twitter
+  - url: https://www.youtube.com/playlist?list=PL93EAED7144CF6BD7
+    name: YouTube
+  - url: https://www.flickr.com/photos/usaidntds/
+    name: Flickr
 archived_content:
   - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/
     name: USAID Neglected Tropical Diseases Program
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/
+    name: About
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/
+    name: USAID Targeted Diseases
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/lymphatic-filariasis/
+    name: Lymphatic Filariasis
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/trachoma/
+    name: Trachoma
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/onchocerciasis/
+    name: Onchocerciasis
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/schistosomiasis/
+    name: Schistosomiasis
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/soil-transmitted-helminths/
+    name: Soil Transmitted Helminths
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/funding/
+    name: Funding
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/who-we-partner-with/
+    name: Who We Partner With
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/drug-donation-partnerships/
+    name: Drug Donation Partnerships
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/results-and-impact/
+    name: Results and Impact
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/results-and-impact/results/
+    name: Results by Year
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/what-we-do/
+    name: What We Do
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/what-we-do/eliminating-disease/
+    name: Eliminating Disease
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/what-we-do/research/
+    name: Research
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/what-we-do/sustainability/
+    name: Sustainability
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/where-we-work/
+    name: Where We Work
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/
+    name: Resources
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/events/
+    name: Events
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/events/other-events/
+    name: Other Events
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/events/world-ntd-day/
+    name: World NTD Day
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/events/10th-anniversary/
+    name: 10th Anniversary
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/events/one-billion-campaign/
+    name: One Billion Campaign
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/multimedia/
+    name: Multimedia
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/multimedia/videos/
+    name: Videos
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/multimedia/photo-galleries/
+    name: Photos
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/newsroom/
+    name: News
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/publications/
+    name: Publications
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/ending-all-ntds-usaids-approach-to-partnering-with-governments/
+    name: USAID's Approach to Partnering with Governments
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/results-and-impact/
+    name:Results and Impact
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/what-we-do/eliminating-disease/
+    name: Eliminating Disease
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/what-we-do/sustainability/
+    name: Sustainability
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/what-we-do/research
+    name: Research
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/who-we-partner-with
+    name: Who We Partner With
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/what-we-do/
+    name: What We Do
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/where-we-work
+    name: Where We Work
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/usaid-targeted-diseases/
+    name: USAID Targeted Diseases
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/about/results-and-impact/
+    name: Results & Impact
+  - url: https://web.archive.org/web/20250122000632/https://www.ntdtoolbox.org/
+    name: NTD Toolbox
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/wp-content/uploads/2024/04/USAID-NTD-Fact-Sheet-2023.pdf
+    name: Learn More
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/newsroom/
+    name: News and Stories
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/he-fought-the-fiery-serpent/
+    name: He Fought the Fiery Serpent - President Carter's contribution to ending neglected diseases
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/author/jeddy/
+    name: Jenny (Liz) Eddy
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/samantha-power-op-ed-on-jimmy-carter/
+    name: Administrator Samantha Power\u2019s Op-Ed on Jimmy Carter
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/recent-webinar-new-cooperative-agreement/
+    name: Recent Webinar: New Cooperative Agreement: Ending Neglected Diseases through Operational Research
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/vietnam-eliminates-blinding-trachoma/
+    name: Vietnam Eliminates Blinding Trachoma
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/usaid-at-the-2024-world-health-summit/
+    name: USAID at the 2024 World Health Summit
+  - url: https://web.archive.org/web/20250122000632/https://www.neglecteddiseases.gov/resources/newsroom
+    name: More News Stories
+  - url: https://web.archive.org/web/20250122000632/https://www.facebook.com/USAIDGH
+    name: Facebook
+  - url: https://web.archive.org/web/20250122000632/https://twitter.com/USAIDGH?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor
+    name: Twitter
+  - url: https://web.archive.org/web/20250122000632/https://www.youtube.com/playlist?list=PL93EAED7144CF6BD7
+    name: YouTube
+  - url: https://web.archive.org/web/20250122000632/https://www.flickr.com/photos/usaidntds/
+    name: Flickr
+
+
