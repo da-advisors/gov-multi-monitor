@@ -38,7 +38,7 @@ jobs:
           pip install -e .
       
       - name: Run URL checks
-        run: python -m multi_monitor check
+        run: python -m multi_monitor check --verbose
       
       - name: Generate status page
         run: |
