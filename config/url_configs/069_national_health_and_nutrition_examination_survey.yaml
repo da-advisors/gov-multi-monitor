@@ -4,3 +4,49 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+- url: https://www.cdc.gov/nchs/about/index.html
+  name: National Center for Health Statistics
+- url: https://www.cdc.gov/nchs/nhanes/about/index.html
+  name: About NHANES
+- url: https://www.cdc.gov/nchs/nhanes/about-data/index.html
+  name: NHANES Results and Publications
+- url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx
+  name: All Demographics Data
+- url: https://www.cdc.gov/nchs/nhanes/biospecimen/index.html
+  name: Biospecimen Program
+- url: https://www.cdc.gov/nchs/nhanes/spu-specimens/index.html
+  name: Serum, Plasma, and Urine Specimens
+- url: https://www.cdc.gov/nchs/nhanes/updates/index.html
+  name: View All National Health and Nutrition Examination Survey
+- url: https://wwwn.cdc.gov/nchs/nhanes/default.aspx
+  name: About NHANES Data
+- url: https://wwwn.cdc.gov/nchs/nhanes/tutorials/default.aspx
+  name: NHANES Data Tutorials
+- url: https://www.cdc.gov/nchs/nhanes-participants/site.html
+  name: NHANES Participants
+- url: https://www.cdc.gov/nchs/nhanes-participants/index.html
+  name: Welcome to the National Health and Nutrition Examination Survey
+- url: https://www.cdc.gov/nchs/nhanes/modules/publications.html
+  name: Results and Publications
+- url: https://www.cdc.gov/nchs/nhanes/modules/data-analysis-tutorial.html
+  name: Data Analysis Tutorial
+- url: https://www.cdc.gov/nchs/nhanes/modules/webinars.html
+  name: Webinars
+- url: https://www.cdc.gov/nchs/nhanes/updates/growth-charts.html
+  name: Growth Charts
+- url: https://wwwn.cdc.gov/nchs/nhanes/ProposalGuidelines.aspx
+  name: Proposal Guidelines
+- url: https://wwwn.cdc.gov/nchs/data/nhanes/survey_contents.pdf
+  name: Survey Contents Brochure
+- url: https://www.cdc.gov/nchs/products/databriefs/db519.htm
+  name: >- 
+    Anemia Prevalence: United States, August 2021 - August 2023
+- url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=2001
+  name: Caffeine & Caffeine Metabolites - Urine (Surplus) (SSCAFE_B 2001-2002)
+- url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=1999
+  name: Caffeine & Caffeine Metabolites - Urine (Surplus) (SSCAFE_A 1999-2000)
+- url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&Cycle=2017-2020
+  name: Sex Steroid Hormone Panel - Serum (P_TST 2017-March 2020)
+- url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=2017
+  name: Sex Steroid Hormone Panel - Serum (Surplus) (SSTST_J 2017-2018)
