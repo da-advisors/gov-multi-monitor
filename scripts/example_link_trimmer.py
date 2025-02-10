@@ -33,8 +33,6 @@ for link in input_json['links']:
         continue
     if '#' in link['url']: # Omit within-page navigation tags
         continue
-    if link['text'] == '[No text]':
-        continue
     if link['text'] == 'Home':
         continue
 
