@@ -56,9 +56,9 @@ out_links
 
 out_yaml = 'linked_urls:\n'
 for x in out_links:
-    out_yaml += f'- url: {x}\n'
+    out_yaml += f'  - url: {x}\n'
     for name in out_links[x]:
-        out_yaml += f'  name: {name}\n'
+        out_yaml += f'    name: {name}\n'
 
 out_yaml
 
