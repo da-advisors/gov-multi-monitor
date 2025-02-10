@@ -1,10 +1,38 @@
-url: https://childreninadversity.gov
+urAl: https://childreninadversity.gov
 name: Advancing Protection and Care for Children in Adversity
 expected_update_frequency: null
 tags:
   - interagency
   - youth
+linked_urls:
+  - url: https://www.childreninadversity.gov/what-we-do/
+    name: What We Do
+  - url: https://www.childreninadversity.gov/who-we-are/
+    name: Who We Are
+  - url: https://www.childreninadversity.gov/where-we-work/
+    name: Where We Work
+  - url: https://www.childreninadversity.gov/resources/
+    name: Resources
+  - url: https://www.childreninadversity.gov/highlights-stories/
+    name: Highlights & Stories
+  - url: https://old-childreninadversity.gh.cldigitalservices.com/sitemap/
+    name: Sitemap
+  - url: https://old-childreninadversity.gh.cldigitalservices.com/privacy-policy/
+    name: Privacy Policy
 archived_content:
   - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/
     name: Advancing Protection and Care for Children in Adversity
-    
+  - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/what-we-do/
+    name: What We Do
+  - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/who-we-are/
+    name: Who We Are
+  - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/where-we-work/
+    name: Where We Work
+  - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/resources/
+    name: Resources
+  - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/highlights-stories/
+    name: Highlights & Stories
+  - url: https://web.archive.org/web/20250117222341/https://old-childreninadversity.gh.cldigitalservices.com/sitemap/
+    name: Sitemap
+  - url: https://web.archive.org/web/20250117222341/https://old-childreninadversity.gh.cldigitalservices.com/privacy-policy/
+    name: Privacy Policy
