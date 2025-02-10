@@ -5,3 +5,86 @@ tags:
   - race
   - ethnicity
   - cb
+linked_urls:
+  - url: https://www.census.gov/about/our-research/race-ethnicity/standards-updates.html
+    name: Standards Updates
+  - url: https://www.census.gov/newsroom/releases/archives/2010_census/cb12-146.html
+    name: Census Shows Multiple-Race Population Grew Faster Than Single-Race Population
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/plan/testing-activities/2015-census-tests/national-content-test.html
+    name: 2015 National Content Test
+  - url: https://www2.census.gov/cac/nac/meetings/2016-10/2016-nac-jones.pdf
+    name: 2016 NAC Race and Ethnicity Working Group Update
+  - url: https://www.regulations.gov/document/OMB-2016-0002-0001
+    name: Standards for Maintaining, Collecting, and Presenting Federal Data on Race and Ethnicity
+  - url: https://www.federalregister.gov/documents/2014/12/02/2014-28247/proposed-information-collection-comment-request-2015-national-content-test
+    name: 2015 National Content Test Information Collection Request
+  - url: https://www.census.gov/library/working-papers/2015/demo/2015-MENA-Experts.html
+    name: 2015 Forum on Ethnic Groups from the Middle East and North Africa
+  - url: https://www.census.gov/library/working-papers/2017/acs/2017_Harth_01.html
+    name: Cognitive Testing of Race and Ethnicity Questions
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/plan/testing-activities/2017-census-tests/2017-census-test-report_tribal-enrollment.html
+    name: 2017 Census Test - Tribal Enrollment Question Report
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/plan/testing-activities/2018-census-test/about.html
+    name: About the 2018 Census Test
+  - url: https://www2.census.gov/programs-surveys/decennial/2020/program-management/memo-series/2020-memo-2018_02.pdf
+    name: 2020 Census Race and Hispanic Origin Research
+  - url: https://www.census.gov/newsroom/blogs/random-samplings/2021/08/improvements-to-2020-census-race-hispanic-origin-question-designs.html
+    name: Improvements to 2020 Census Race and Hispanic Origin Questions
+  - url: https://www.census.gov/library/stories/2023/09/2020-census-dhc-a-race-overview.html
+    name: 2020 Census Race Data Overview
+  - url: https://www2.census.gov/programs-surveys/decennial/2020/program-management/final-analysis-reports/2015nct-race-ethnicity-analysis.pdf
+    name: 2015 National Content Test Race and Ethnicity Analysis Report
+  - url: https://www2.census.gov/programs-surveys/decennial/2020/program-management/final-analysis-reports/2020-report-2015NCT-Race-Ethnicity-Study-Plan.pdf
+    name: 2015 National Content Test Race and Ethnicity Study Plan
+  - url: https://www.census.gov/library/working-papers/2015/adrm/carra-wp-2015-05.html
+    name: Research to Improve Race and Ethnicity Questions
+  - url: https://www.census.gov/newsroom/blogs/research-matters/2015/11/improving-our-nations-data-on-race-and-ethnicity.html
+    name: Improving Our Nation's Data on Race and Ethnicity
+  - url: https://www.census.gov/content/dam/Census/library/working-papers/2014/demo/shedding-light-on-race-reporting-among-hispanics/POP-twps0102.pdf
+    name: Shedding Light on Race Reporting Among Hispanics
+  - url: https://www2.census.gov/programs-surveys/decennial/2010/program-management/5-review/cpex/2010-cpex-211.pdf
+    name: 2010 Census Race and Hispanic Origin Alternative Questionnaire Experiment
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2020/planning-management/plan/content-research.html
+    name: 2020 Census Content Research
+  - url: https://www.whitehouse.gov/omb/briefing-room/2024/03/28/omb-publishes-revisions-to-statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data-on-race-and-ethnicity/
+    name: OMB 2024 Revisions to Statistical Policy Directive No. 15
+  - url: https://www.federalregister.gov/public-inspection/2024-06469/statistical-policy-directive-no-15-standards-for-maintaining-collecting-and-presenting-federal-data
+    name: Federal Register Notice - 2024 SPD 15 Standards
+  - url: https://spd15revision.gov/content/spd15revision/en/history/2024-standards/about.html
+    name: About the 2024 Standards
+  - url: https://www.federalregister.gov/documents/2017/03/01/2017-03973/proposals-from-the-federal-interagency-working-group-for-revision-of-the-standards-for-maintaining
+    name: 2017 Federal Interagency Working Group Proposals
+  - url: https://spd15revision.gov/content/spd15revision/en/history/2024-standards/about.html
+    name: About the 2024 Standards Update
+  - url: https://www.regulations.gov/docket/OMB-2023-0001/comments
+    name: Public Comments on 2023 SPD 15 Proposals
+  - url: https://www.federalregister.gov/documents/2023/01/27/2023-01635/initial-proposals-for-updating-ombs-race-and-ethnicity-statistical-standards
+    name: Initial Proposals for Updating OMB's Race and Ethnicity Statistical Standards
+  - url: https://spd15revision.gov/content/spd15revision/en/get-involved.html
+    name: Statistical Policy Directive 15 - Get Involved
+  - url: https://spd15revision.gov/content/spd15revision/en/get-involved/recorded-webinars.html
+    name: Statistical Policy Directive 15 - Recorded Webinars
+  - url: https://spd15revision.gov/
+    name: U.S. Office of Management and Budget's Statistical Policy Directive No. 15
+  - url: https://spd15revision.gov/content/spd15revision/en/2024-spd15.html
+    name: The 2024 Statistical Policy Directive No. 15
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/1978-statistical-policy-handbook.pdf
+    name: 1978 Statistical Policy Handbook
+  - url: https://www.govinfo.gov/content/pkg/FR-1997-10-30/pdf/97-28653.pdf
+    name: 1997 Revisions to Race and Ethnicity Standards
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/final-recommendations-for-csotus.pdf
+    name: Final Recommendations for CSOTUS
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-1-content-team-final-report.pdf
+    name: Content Team Final Report
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-2-testing-team-final-report.pdf
+    name: Testing Team Final Report
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-3-implementation-team-final-report.pdf
+    name: Implementation Team Final Report
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-4-communications-and-outreach-team-final-report.pdf
+    name: Communications and Outreach Team Final Report
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-5-positions-on-final-recommendations.pdf
+    name: Positions on Final Recommendations
+  - url: https://www2.census.gov/about/ombraceethnicityitwg/annex-6-itwg-bridging-team-methods-report.pdf
+    name: ITWG Bridging Team Methods Report
+  - url: https://www.regulations.gov/document?D=OMB-2016-0002-0001B
+    name: OMB-2016-0002-0001
