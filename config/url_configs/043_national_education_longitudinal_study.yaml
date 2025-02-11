@@ -4,3 +4,114 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+
+
+
+
+    {
+      "url": "https://nces.ed.gov/surveys/nels88/",
+      "text": "[No text]",
+
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+
+      "url": "https://nces.ed.gov/surveys/lsb#high-school-studies",
+      "text": "LSB",
+
+      "url": "https://nces.ed.gov/surveys/nels88/index.asp",
+      "text": "National Education LongitudinalStudy of 1988 (NELS:88)",
+
+      "url": "https://nces.ed.gov/surveys/nels88/index.asp",
+      "text": "Home",
+
+      "url": "https://nces.ed.gov/surveys/nels88/research.asp",
+      "text": "Research",
+
+      "url": "https://nces.ed.gov/surveys/nels88/design.asp",
+      "text": "Survey Design",
+
+      "url": "https://nces.ed.gov/surveys/nels88/questionnaires.asp",
+      "text": "Questionnaires",
+
+      "url": "https://nces.ed.gov/surveys/nels88/data_products.asp",
+      "text": "Available Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/nels88/usermanuals.asp",
+      "text": "User Manuals",
+
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=023",
+      "text": "Publications",
+
+      "url": "https://nces.ed.gov/surveys/nels88/bibliography.asp",
+      "text": "Online Bibliography Search Tool",
+ 
+      "url": "https://nces.ed.gov/surveys/nels88/contact.asp",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2007/2007019.pdf",
+      "text": "Four- to 6-year completers were more likely to be unemployed than 4-year completers (10 vs. 5 percent, respectively). Four-year completers had, on average, higher wage rates and annual earnings than 4- to 6-year completers ($15 vs. $12 and $29,700 vs. $24,000, respectively). When compared to later completers, 4- to 6-year completers were less likely to be unemployed in 2000 (18 vs. 10 percent, respectively).",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2012/2012345.pdf",
+      "text": "More than 90 percent of young adults in each cohort of spring-term high school seniors in 1972, 1980, 1992, and 2004 reported having worked for pay for some portion of the two years following scheduled high school graduation.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2012/2012345.pdf",
+      "text": "Between NELS:88 and ELS:2002, the postsecondary enrollment rates of those students whose parents\u0092 highest level of education was high school or less changed from 42 percent to 46 percent.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2012/2012345.pdf",
+      "text": "The percentage of those who had ever attended any postsecondary institution was higher in 2006 (78 percent) than in 1974 (63 percent). The shift in postsecondary institution attendance appears to have occurred primarily between 1982 and 1994, when enrollment went from 64 percent in HS&B to 75 percent in NELS:88.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2012/2012345.pdf",
+      "text": "Twenty-four percent of the respondents from NELS:88 had worked but never attended a postsecondary institution two years after senior year in high school.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020010",
+      "text": "Public High School Students' Career and Technical Education Coursetaking:1992 to 2013",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/nls72",
+      "text": "[No text]",
+      "title": "Go to NLS-72"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/hsb80.asp",
+      "text": "[No text]",
+      "title": "Go to HSB:80"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/els2002",
+      "text": "[No text]",
+      "title": "Go to ELS:2002"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsls09",
+      "text": "[No text]",
+      "title": "Go to HSLS:09"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/hsb22.asp",
+      "text": "[No text]",
+      "title": "Go to HSB:22"
+    },
+    {

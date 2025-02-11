@@ -4,3 +4,262 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+
+
+
+
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb#early-childhood-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2023/2023055.pdf",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/licenses.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/transfer.asp?location=www.researchdatagov.org/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#design",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#data",
+      "text": "Data Collection",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#available",
+      "text": "Available Files",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#highlights",
+      "text": "Research Highlights",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/nels88/",
+      "text": "NELS:88",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten.asp",
+      "text": "ECLS-K",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten2011.asp",
+      "text": "ECLS-K:2011",
+      "title": ""
+    },
+    {
+      "url": "https://surveys.nces.ed.gov/hsb22",
+      "text": "HS&B:22\u0092s",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/about/",
+      "text": "NAEP",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#design",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#available",
+      "text": "Available Files",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=121",
+      "text": "data files",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/#data",
+      "text": "school and student variables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023055",
+      "text": "Overview Technical Report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023013",
+      "text": "Data File Users Manual (DFUM)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023055",
+      "text": "Overview Technical Report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_DFUM_App_E_VarLists.pdf",
+      "text": "School and Student Variables List",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_ILF_ReadMe.pdf",
+      "text": "Item Level File (ILF) ReadMe",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pptx/MGLS_MS1_MS2_EF_HeartsFlowers_Instructions.pptx",
+      "text": "MS1 and MS2 Hearts and Flowers Executive Function Task Instructions",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pptx/MGLS_MS2_EF_Spatial_2-back_Instructions.pptx",
+      "text": "MS2 Spatial 2-back Task Instructions",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Student_Specs_REDACTED.pdf",
+      "text": "MS1 Student Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Student_Specs_REDACTED.pdf",
+      "text": "MS2 Student Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_English_Specs.pdf",
+      "text": "MS1 Parent Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Mini_English_Specs.pdf",
+      "text": "MS1 Parent Hard-copy Mini Survey \u0096 English",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Mini_Spanish_Specs.pdf",
+      "text": "MS1 Parent Hard-copy Mini Survey \u0096 Spanish",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Spanish_Specs.pdf",
+      "text": "MS1 Parent Survey\u0097Spanish Translation",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_English_Specs.pdf",
+      "text": "MS2 Parent Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Mini_English_Specs.pdf",
+      "text": "MS2 Parent Hard-copy Mini Survey \u0096 English",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Mini_Spanish_Specs.pdf",
+      "text": "MS2 Parent Hard-copy Mini Survey \u0096 Spanish",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Spanish_Specs.pdf",
+      "text": "MS2 Parent Survey\u0097Spanish Translation",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_MathTeacher_Specs.pdf",
+      "text": "MS1 Math Teacher Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_MathTeacher_Specs.pdf",
+      "text": "MS2 Math Teacher Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_SpEdTeacher_Specs.pdf",
+      "text": "MS1 Special Education Teacher Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_SpEdTeacher_Specs.pdf",
+      "text": "MS2 Special Education Teacher Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_School_Environ_Checklist_Specs.pdf",
+      "text": "MS1 School Environment Checklist",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_School_Environ_Checklist_Specs.pdf",
+      "text": "MS2 School Environment Checklist",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Admin_Specs.pdf",
+      "text": "MS1 School Administrator Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Admin_Specs.pdf",
+      "text": "MS2 School Administrator Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/licenses.asp",
+      "text": "restricted-use licenses",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023131",
+      "text": "MGLS:2017 Restricted Access Use Data Files (RUF)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023013",
+      "text": "User\u0092s Manual for the MGLS:2017 Data File, Restricted-Use Version",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023015",
+      "text": "Middle Grades Longitudinal Study of 2017\u009618 (MGLS:2017) Assessment Item Level File (ILF)",
+      "title": ""
+    },
