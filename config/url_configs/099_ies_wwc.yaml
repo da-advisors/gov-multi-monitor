@@ -1,0 +1,107 @@
+url: https://ies.ed.gov/ncee/wwc/
+name: Institute of Education Sciences - What Works Clearinghouse
+expected_update_frequency: null
+tags:
+  - education
+api_config:
+  url: https://api.ies.ed.gov/eric/
+  method: GET
+  params:
+    format: json
+    rows: 10
+    fields: id,title,description,author,publicationdateyear,subject
+    sort: publicationdateyear desc
+  expected_fields:
+    - id
+    - title
+    - description
+    - author
+    - publicationdateyear
+    - subject
+linked_urls:
+  - url: https://eric.ed.gov/?api
+    name: ERIC API
+  - url: https://eric.ed.gov/pdf/ERIC_Field.pdf
+    name: Guide to the ERIC Record
+  - url: https://ies.ed.gov/ncee/wwc/WhatWeDo
+    name: What We Do
+  - url: https://ies.ed.gov/ncee/wwc/~/WhoWeAre
+    name: Who We Are
+  - url: https://ies.ed.gov/ncee/WWC/Resources/AboutWWC
+    name: Resources About the WWC and Our Website
+  - url: https://ies.ed.gov/ncee/wwc/
+    name: Find and Use Evidence
+  - url: https://ies.ed.gov/ncee/WWC/FWW
+    name: Find What Works from Systematic Reviews
+  - url: https://ies.ed.gov/ncee/WWC/PracticeGuides
+    name: Educator's Practice Guides
+  - url: https://ies.ed.gov/ncee/WWC/Resources/ResourcesForEducators
+    name: Resources for Educators
+  - url: https://ies.ed.gov/ncee/WWC/ReviewedStudies
+    name: Reviews of Individual Studies
+  - url: https://ies.ed.gov/ncee/WWC/StudyFindings
+    name: Data from Study Reviews
+  - url: https://ies.ed.gov/ncee/WWC/Resources/Evidence
+    name: Resources on Evidence Tiers and WWC Ratings
+  - url: https://ies.ed.gov/ncee/wwc/
+    name: Search Publications
+  - url: https://ies.ed.gov/ncee/WWC/AllInterventionReports
+    name: Intervention Reports
+  - url: https://ies.ed.gov/ncee/WWC/AllPracticeGuides
+    name: Educator's Practice Guides
+  - url: https://ies.ed.gov/ncee/WWC/ArchivedPublications
+    name: Archived Publications
+  - url: https://ies.ed.gov/ncee/wwc/
+    name: Handbooks and Other Resources
+  - url: https://ies.ed.gov/ncee/WWC/Handbooks
+    name: Procedures & Standards Handbooks
+  - url: https://ies.ed.gov/ncee/WWC/Protocols
+    name: Review Protocols
+  - url: https://ies.ed.gov/ncee/WWC/GroupDesign5
+    name: Group Design Standards Online Training
+  - url: https://ies.ed.gov/ncee/WWC/AdvancedTraining
+    name: Advanced Group Design Standards Online Training
+  - url: https://ies.ed.gov/ncee/WWC/SingleCaseTraining5
+    name: Single-Case Design Standards Online Training
+  - url: https://ies.ed.gov/ncee/WWC/Reviewer
+    name: Certified Reviewers
+  - url: https://ies.ed.gov/ncee/WWC/StudyReviewGuide
+    name: Study Review Guides
+  - url: https://ies.ed.gov/ncee/WWC/Resources/ResourcesForReviewers
+    name: Resources for WWC Reviewers
+  - url: https://ies.ed.gov/ncee/WWC/UserGuide
+    name: SRG User Guide
+  - url: https://ies.ed.gov/ncee/wwc/
+    name: WWC Help Desk
+  - url: https://ies.ed.gov/ncee/WWC/help
+    name: Contact Us
+  - url: https://ies.ed.gov/ncee/WWC/FAQ
+    name: FAQs
+  - url: https://ies.ed.gov/ncee/WWC/Glossary
+    name: Glossary
+  - url: https://ies.ed.gov/ncee/WWC/Resources/ResourcesForStudyAuthors
+    name: Resources for Study Authors
+  - url: https://ies.ed.gov/ncee/WWC/Resources/AboutWWC
+    name: Resources Page
+  - url: https://ies.ed.gov/ncee/WWC/Search/Products?productType=1
+    name: Practice Guides
+  - url: https://ies.ed.gov/ncee/WWC/Search/Products?productType=2
+    name: Intervention Reports
+  - url: https://ies.ed.gov/ncee/WWC/Search/Products?productType=3&includeIneligible=1
+    name: Reviews of Individual Studies
+  - url: https://ies.ed.gov/ncee/WWC/StudyFindings
+    name: Data From Study Reviews
+  - url: https://ies.ed.gov/ncee/wwc/PracticeGuide/31
+    name: New Practice Guide on Teacher-Delivered Behavioral Interventions in Grades K-5
+  - url: https://ies.ed.gov/ncee/wwc/Docs/ReferenceResources/Practitioners-On-WWC-Yr-1.pdf
+    name: New summary of suggestions for the WWC from education practitioners
+  - url: http://ies.ed.gov/ncee/wwc/WWCWhatsNew/Archive
+    name: View More What's New Posts
+  - url: https://ies.ed.gov/ncee/WWC/Handbooks
+    name: Handbooks and Reviewer Resources
+  - url: https://ies.ed.gov/ncee/WWC/OnlineTraining
+    name: Online Training
+  - url: https://ies.ed.gov/ncee/wwc/Resources/ResourcesForStudyAuthors
+    name: Resources for Study Authors
+  - url: https://ies.ed.gov/ncee/WWC/Resources/ResourcesForEducators
+    name: Resources for Educators
