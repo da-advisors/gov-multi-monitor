@@ -4,3 +4,120 @@ expected_update_frequency: annually
 tags:
   - nih
   - health
+linked_urls:
+  - url: https://report.nih.gov/
+    name: RePORT
+  - url: https://report.nih.gov/report-research
+    name: Research
+  - url: https://intramural.nih.gov/search/index.taf
+    name: NIH Intramural Research Database
+  - url: https://www.nih.gov/about-nih/what-we-do/impact-nih-research
+    name: Impact of NIH Research
+  - url: https://report.nih.gov/research/inclusion-women-and-minorities-clinical-research
+    name: Inclusion of Women and Minorities in Clinical Research
+  - url: https://www.nih.gov/health-information/nih-clinical-research-trials-you
+    name: NIH Clinical Research Trials and You
+  - url: https://report.nih.gov/organization
+    name: Organizations
+  - url: https://report.nih.gov/award/index.cfm
+    name: Awards by Location
+  - url: https://worldreport.nih.gov
+    name: NIH World RePORT
+  - url: https://www.nih.gov/institutes-nih/nih-office-director
+    name: Office of the Director
+  - url: https://grants.nih.gov/aboutoer/intro2oer.htm
+    name: Office of Extramural Research
+  - url: https://oir.nih.gov/
+    name: Office of Intramural Research
+  - url: https://www.nih.gov/institutes-nih
+    name: NIH Institutes, Centers, and Offices
+  - url: https://report.nih.gov/report-workforce
+    name: Workforce
+  - url: https://acd.od.nih.gov/documents/reports/PSW_Report_ACD_06042014.pdf
+    name: Physician-Scientist Workforce (PSW) Report 2014
+  - url: https://acd.od.nih.gov/documents/reports/Biomedical_research_wgreport.pdf
+    name: ACD Biomedical Workforce Working Group Data
+  - url: https://report.nih.gov/nih-supported/invstigators-and-trainees
+    name: Investigators and Trainees
+  - url: https://report.nih.gov/nihdatabook/category/14
+    name: Data Book: The NIH-Funded Research Workforce
+  - url: https://report.nih.gov/nihdatabook/category/18
+    name: Data Book: NIH Research Training Grants and Fellowships
+  - url: https://report.nih.gov/nihdatabook/category/17
+    name: Data Book: Research Career Development Awards
+  - url: https://report.nih.gov/nihdatabook/category/20
+    name: Data Book: National Statistics on Graduate Students
+  - url: https://report.nih.gov/nihdatabook/category/21
+    name: Data Book: National Statistics on Postdocs
+  - url: https://www.aamc.org/data/
+    name: AAMC Data and Analysis
+  - url: https://report.nih.gov/report-funding
+    name: Funding
+  - url: https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/budget-and-spending
+    name: NIH Budget and Spending
+  - url: https://report.nih.gov/funding/categorical-spending
+    name: NIH Categorical Spending
+  - url: https://report.nih.gov/funding/categorical-spending/rcdc
+    name: About RCDC
+  - url: https://report.nih.gov/funding/categorical-spending/rcdc-faqs
+    name: RCDC FAQs
+  - url: https://report.nih.gov/funding/categorical-spending/rcdc-process
+    name: RCDC: Categorization Process
+  - url: https://report.nih.gov/funding/categorical-spending/rcdc-reasons
+    name: Reasons Funding Levels Might Change
+  - url: https://report.nih.gov/funding/nih-budget-and-spending-data-past-fiscal-years/success-rates
+    name: Success Rates
+  - url: https://report.nih.gov/nihdatabook/index.aspx
+    name: NIH Data Book
+  - url: https://www.nsf.gov/statistics/srvyfedfunds/
+    name: Federal Funds for R&D
+  - url: https://report.nih.gov/reportweb/web/displayreport?rId=579
+    name: Federal Funds for Health R&D
+  - url: https://report.nih.gov/report-reports
+    name: Reports
+  - url: https://report.nih.gov/reports/frr
+    name: Frequently Requested Reports
+  - url: https://report.nih.gov/reports/strategic-plans
+    name: Strategic Plans
+  - url: https://report.nih.gov/recovery
+    name: NIH Recovery Act Archive
+  - url: https://crs.od.nih.gov/CRSPublic/
+    name: NIH Collaborations with Other HHS Agencies
+  - url: https://www.ncbi.nlm.nih.gov/books/NBK4119/
+    name: The National Academies: NIH-Funded Reports
+  - url: https://report.nih.gov/reports/catalog
+    name: Report Catalog
+  - url: https://report.nih.gov/reports/special-reports-and-current-issues
+    name: Other Special Reports
+  - url: https://report.nih.gov/databases
+    name: Links and Data
+  - url: https://reporter.nih.gov/exporter
+    name: ExPORTER
+  - url: https://www.clinicaltrials.gov/
+    name: ClinicalTrials.gov
+  - url: https://clinicalstudies.info.nih.gov/
+    name: NIH Clinical Research Studies
+  - url: https://www.ncbi.nlm.nih.gov/guide/literature/#databases_
+    name: NCBI Literature Databases
+  - url: https://www.osti.gov/
+    name: Department of Energy Office of Science and Technical Information
+  - url: https://www.nsf.gov/statistics/
+    name: NSF National Center for Science and Engineering Statistics
+  - url: http://www.oecd.org/sti/msti.htm
+    name: OECD Science and Technology Indicators
+  - url: https://www.research.gov/research-portal/appmanager/base/desktop?_nfpb=true&_pageLabel=research_page_so_rsr&_eventName=viewQuickSearchFormEvent_rsr
+    name: Research.gov
+  - url: https://www.science.gov/
+    name: Science.gov
+  - url: https://www.usaspending.gov/
+    name: USA Spending.gov
+  - url: https://worldwidescience.org/
+    name: World Wide Science
+  - url: https://report.nih.gov/about
+    name: About
+  - url: https://report.nih.gov/contactus
+    name: Contact
+  - url: https://report.nih.gov/faqs
+    name: FAQ
+  - url: http://www.faseb.org/Science-Policy--Advocacy-and-Communications/Federal-Funding-Data/Education-and-Employment-of-Scientists.aspx
+    name: FASEB Education and Employment Data Compilation
