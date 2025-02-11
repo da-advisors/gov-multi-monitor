@@ -1,0 +1,273 @@
+url: https://nces.ed.gov/#
+name: National Center for Education Statistics (NCES)
+expected_update_frequency: null
+tags:
+  - ed
+  - education
+linked_urls:
+  - url: https://ies.ed.gov
+    name: IES
+  - url: https://nces.ed.gov/
+    name: NCESNational Center forEducation Statistics
+  - url: https://nces.ed.gov/surveys
+    name: Surveys & Programs
+  - url: https://nces.ed.gov/annuals/
+    name: Annual Reports
+  - url: https://nces.ed.gov/programs/coe/
+    name: Condition of Education
+  - url: https://nces.ed.gov/programs/digest/
+    name: Digest of Education Statistics
+  - url: https://nces.ed.gov/programs/pes/
+    name: Projections of Education Statistics
+  - url: https://nces.ed.gov/surveys/annualreports/topical-studies/summary/
+    name: Topical Studies
+  - url: https://nces.ed.gov/use-work/data-collection-programs
+    name: Data Collection Programs
+  - url: https://nces.ed.gov/nationsreportcard
+    name: National Assessment of Educational Progress (NAEP)
+  - url: https://nces.ed.gov/surveys/piaac/index.asp
+    name: Program for the International Assessment of Adult Competencies (PIAAC)
+  - url: https://nces.ed.gov/surveys/international/
+    name: International Assessments
+  - url: https://nces.ed.gov/surveys/international/
+    name: International Activities Program (IAP)
+  - url: https://nces.ed.gov/ecls/
+    name: Early Childhood Longitudinal Study (ECLS)
+  - url: https://nces.ed.gov/nhes/
+    name: National Household Education Survey (NHES)
+  - url: https://nces.ed.gov/ccd/
+    name: Common Core of Data (CCD)
+  - url: https://nces.ed.gov/surveys/slsp/
+    name: Secondary Longitudinal Studies Program
+  - url: https://nces.ed.gov/programs/edge/
+    name: Education Demographic and Geographic Estimates (EDGE)
+  - url: https://nces.ed.gov/surveys/ntps/
+    name: National Teacher and Principal Survey (NTPS)
+  - url: https://nces.ed.gov/surveys/libraries/
+    name: Library Statistics Program
+  - url: https://nces.ed.gov/surveys/b&b/
+    name: Baccalaureate and Beyond (B&B)
+  - url: https://nces.ed.gov/surveys/ctes/
+    name: Career/Technical Education Statistics (CTES)
+  - url: https://nces.ed.gov/ipeds/
+    name: Integrated Postsecondary Education Data System (IPEDS)
+  - url: https://nces.ed.gov/surveys/npsas/
+    name: National Postsecondary Student Aid Study (NPSAS)
+  - url: https://nces.ed.gov/programs/ceds/
+    name: Common Education Data Standards (CEDS)
+  - url: https://nces.ed.gov/forum/
+    name: National Forum on Education Statistics
+  - url: https://nces.ed.gov/programs/SLDS/
+    name: Statewide Longitudinal Data Systems Grant Program - (SLDS)
+  - url: https://nces.ed.gov/training/datauser/
+    name: Distance Learning Dataset Training
+  - url: https://nces.ed.gov/npec/
+    name: National Postsecondary Education Cooperative (NPEC)
+  - url: https://nces.ed.gov/statprog/
+    name: Statistical Standards Program
+  - url: https://nces.ed.gov/datatools
+    name: Data & Tools
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=1
+    name: Downloads Microdata/Raw Data
+  - url: https://nces.ed.gov/ipeds/use-the-data/delta-cost-project-finance-data
+    name: Delta Cost Project
+  - url: https://nces.ed.gov/ipeds/datacenter/
+    name: IPEDS Data Center
+  - url: https://nces.ed.gov/pubsearch/licenses.asp
+    name: How to apply for Restricted Use License
+  - url: https://nces.ed.gov/datalab/onlinecodebook/
+    name: Online Codebook
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=2
+    name: Online Analysis
+  - url: https://nces.ed.gov/programs/edge/Demographic/ACS
+    name: ACS-ED Tables
+  - url: https://nces.ed.gov/datalab/
+    name: Data Lab
+  - url: https://nces.ed.gov/ccd/elsi/
+    name: Elementary Secondary Information System
+  - url: https://nces.ed.gov/surveys/international/ide/
+    name: International Data Explorer
+  - url: https://nces.ed.gov/ipeds/datacenter/
+    name: IPEDS Data Center
+  - url: https://nces.ed.gov/nationsreportcard/naepdata/
+    name: NAEP Data Explorer
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=3
+    name: School and College Search
+  - url: https://nces.ed.gov/programs/edge/acsdashboard
+    name: ACS Dashboard
+  - url: https://nces.ed.gov/collegenavigator/
+    name: College Navigator
+  - url: https://nces.ed.gov/surveys/pss/privateschoolsearch/
+    name: Private Schools
+  - url: https://nces.ed.gov/ccd/districtsearch/
+    name: Public School Districts
+  - url: https://nces.ed.gov/ccd/schoolsearch/
+    name: Public Schools
+  - url: https://nces.ed.gov/globallocator/
+    name: Search for Schools and Colleges
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=4
+    name: Comparison Tools
+  - url: https://www.nationsreportcard.gov/profiles/stateprofile/
+    name: NAEP State Profiles (nationsreportcard.gov)
+  - url: https://nces.ed.gov/edfin/search/search_intro.asp
+    name: Public School District Finance Peer Search
+  - url: https://nces.ed.gov/edfin/index.asp
+    name: Education Finance Statistics Center
+  - url: https://nces.ed.gov/ipeds/datacenter/
+    name: IPEDS Data Center
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=5
+    name: Questionnaire Tools
+  - url: https://nces.ed.gov/nationsreportcard/itmrlsx/
+    name: NAEP Question Tool
+  - url: https://nces.ed.gov/NAAL/sample_items.asp
+    name: NAAL Questions Tool
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=6
+    name: Geographic Tools
+  - url: https://nces.ed.gov/programs/edge/acsdashboard
+    name: ACS-ED Dashboard
+  - url: https://nces.ed.gov/programs/maped/ACSMaps
+    name: ACS-ED Maps
+  - url: https://nces.ed.gov/programs/maped/LocaleLookup
+    name: Locale Lookup
+  - url: https://nces.ed.gov/programs/maped
+    name: MapEd
+  - url: https://nces.ed.gov/programs/mapED/SafeMap
+    name: SAFEMap
+  - url: https://nces.ed.gov/ccd/schoolmap
+    name: School and District Navigator
+  - url: https://nces.ed.gov/datatools/index.asp?DataToolSectionID=7
+    name: Other Tools
+  - url: https://nces.ed.gov/bibliography/
+    name: Bibliography
+  - url: https://datainventory.ed.gov
+    name: ED Data Inventory
+  - url: https://nces.ed.gov/fastfacts/
+    name: Fast Facts
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption1#faqFFOption1
+    name: Assessments
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption2#faqFFOption2
+    name: Early Childhood
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption3#faqFFOption3
+    name: Elementary and Secondary
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption4#faqFFOption4
+    name: Postsecondary and Beyond
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption5#faqFFOption5
+    name: Resources
+  - url: https://nces.ed.gov/fastfacts/index.asp?faq=FFOption6#faqFFOption6
+    name: Special Topics
+  - url: https://nces.ed.gov/whatsnew/
+    name: News & Events
+  - url: https://nces.ed.gov/blogs/nces/
+    name: NCES Blog
+  - url: https://nces.ed.gov/whatsnew/
+    name: What's New at NCES
+  - url: https://ies.ed.gov/whatsnew/conferences/?cid=2
+    name: Conferences/Training
+  - url: https://ies.ed.gov/newsflash/#nces
+    name: NewsFlash
+  - url: https://nces.ed.gov/whatsnew/Solicitations.asp
+    name: Funding Opportunities
+  - url: https://nces.ed.gov/whatsnew/NCESNews.asp
+    name: Press Releases
+  - url: https://nces.ed.gov/whatsnew/statchat/index.asp
+    name: StatChat
+  - url: https://nces.ed.gov/pubsearch/
+    name: Publications & Products
+  - url: https://nces.ed.gov/pubsearch/
+    name: Search Publications and Products
+  - url: https://nces.ed.gov/annuals/
+    name: Annual Reports
+  - url: https://nces.ed.gov/pubsearch/licenses.asp
+    name: Restricted-use Data Licenses
+  - url: https://nces.ed.gov/pubsearch/index.asp?searchcat2=pubslast90&HasSearched=1
+    name: Recent Publications
+  - url: https://nces.ed.gov/pubsearch/Subindx.asp
+    name: By Subject Index A-Z
+  - url: https://nces.ed.gov/pubsearch/surveylist.asp
+    name: By Survey & Program Areas
+  - url: https://nces.ed.gov/pubsearch/index.asp?searchcat2=pubslast6month&HasSearched=1
+    name: Data Products Last 6 Months
+  - url: https://nces.ed.gov/surveys/b&b/
+    name: About Us
+  - url: https://nces.ed.gov/about/
+    name: About NCES
+  - url: https://nces.ed.gov/whatsnew/commissioner/index.asp
+    name: Commissioner
+  - url: https://nces.ed.gov/help/webmail/
+    name: Contact NCES
+  - url: https://nces.ed.gov/staff/stafflist.asp
+    name: Staff
+  - url: https://nces.ed.gov/help
+    name: Help
+  - url: https://nces.ed.gov/help/webmail/
+    name: Contact Us
+  - url: https://nces.ed.gov/datatools/
+    name: Tools
+  - url: https://www.ed.gov/
+    name: ED.gov
+  - url: https://ies.ed.gov/newsflash/#nces
+    name: Newsflash
+  - url: https://nces.ed.gov/blogs/nces/
+    name: NCES Blog
+  - url: https://x.com/EdNCES
+    name: X
+  - url: https://www.facebook.com/EdNCES/
+    name: Facebook
+  - url: https://nces.ed.gov/nceskids/
+    name: [No text]
+  - url: https://nces.ed.gov/
+    name: NCES National Center for Education Statistics
+  - url: https://ies.ed.gov/aboutus/
+    name: About
+  - url: https://ies.ed.gov/pubsearch/
+    name: Publications
+  - url: https://ies.ed.gov/data.asp
+    name: Data
+  - url: https://ies.ed.gov/funding/
+    name: Funding
+  - url: https://ies.ed.gov/events.asp
+    name: News
+  - url: https://ies.ed.gov/ncee/
+    name: NCEE
+  - url: https://ies.ed.gov/ncer/
+    name: NCER
+  - url: https://nces.ed.gov/about/
+    name: About
+  - url: https://nces.ed.gov/surveys/
+    name: Programs
+  - url: https://nces.ed.gov/pubsearch/
+    name: Publications
+  - url: https://nces.ed.gov/datatools/
+    name: Data
+  - url: https://nces.ed.gov/training/datauser/
+    name: Data Training
+  - url: https://nces.ed.gov/globallocator/
+    name: School Search
+  - url: https://nces.ed.gov/whatsnew/
+    name: News
+  - url: https://nces.ed.gov/nceskids/
+    name: Kids' Zone
+  - url: https://ies.ed.gov/ncser/
+    name: NCSER
+  - url: https://datainventory.ed.gov
+    name: ED Data Inventory
+  - url: https://ies.ed.gov/aboutus/diversity.asp
+    name: IES Diversity Statement
+  - url: https://nces.ed.gov/statprog/2012/
+    name: NCES Statistical Standards
+  - url: https://ies.ed.gov/director/sro/
+    name: Peer Review Process
+  - url: https://ies.ed.gov/help/privacy.asp
+    name: Privacy and Security Policies
+  - url: https://ies.ed.gov/funding/researchaccess.asp
+    name: Public Access Policy
+  - url: https://nces.ed.gov/help/webmail/
+    name: Contact Us
+  - url: http://www.ed.gov/
+    name: U.S. Department of Education
+  - url: https://eric.ed.gov/
+    name: ERIC
+  - url: https://nces.ed.gov/help/sitemap.asp
+    name: Sitemap
+  - url: https://nces.ed.gov/about/?sec=orgchart
+    name: Organizational Chart
