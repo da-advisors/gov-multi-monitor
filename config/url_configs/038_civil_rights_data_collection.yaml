@@ -5,3 +5,108 @@ tags:
   - ed
   - education
   - civilrights
+linked_urls:
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2023-24-crdc-school-form-final.pdf
+    name: 2023-24 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2023-24-crdc-lea-form-final.pdf
+    name: 2023-24 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2021-22-crdc-data.zip
+    name: 2021-22 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2021-22-crdc-school-form.pdf
+    name: 2021-22 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2021-22-crdc-lea-form.pdf
+    name: 2021-22 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2021-22%20User's%20Manual.pdf
+    name: 2021-22 Data File User's Manual
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2021-2220List20Definitions.pdf
+    name: 2021-22 Data Definitions
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2021-22%20Appendix%20Workbook.xlsx
+    name: 2021-22 Data Notes Appendix
+  - url: https://civilrightsdata.ed.gov/estimations/2020-2021
+    name: 2020-21 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2020-21-crdc-data.zip
+    name: 2020-21 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2020-21-crdc-school-form.pdf
+    name: 2020-21 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2020-21-crdc-lea-form.pdf
+    name: 2020-21 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2020-21%20User's%20Manual.pdf
+    name: 2020-21 Data File User's Manual
+  - url: https://civilrightsdata.ed.gov/assets/downloads/Master%20List%20of%20Definitions.pdf
+    name: 2020-21 Data Definitions
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2020-21%20Appendix%20Workbook.xlsx
+    name: 2020-21 Data Notes Appendix
+  - url: https://civilrightsdata.ed.gov/estimations/2017-2018
+    name: 2017-18 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2017-18-crdc-data.zip
+    name: 2017-18 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/school-form/2017-18-All-Schools-Form.pdf
+    name: 2017-18 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/district-form/2017-18-CRDC-LEA-Form.pdf
+    name: 2017-18 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/user-manual/2017-18%20CRDC%20Public-Use%20Data%20File%20Manual.pdf
+    name: 2017-18 Data File User's Manual
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/data-notes/Data-Notes-CRDC-2017-18.pdf
+    name: 2017-18 Data Notes
+  - url: https://civilrightsdata.ed.gov/assets/downloads/2017-18_Master_List_of_CRDC_Definitions.pdf
+    name: 2017-18 Data Definitions
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/appendix/Appendix-C-LEAs-Identified-with-Post-Submission-Data-Quality-Checks.xlsx
+    name: 2015-16 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2015-16-crdc-data.zip
+    name: 2015-16 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/school-form/All-Schools-Form-CRDC-2015-16.pdf
+    name: 2015-16 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/district-form/Lea-Form-CRDC-2015-16.pdf
+    name: 2015-16 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/user-manual/Public-Use-Data-File-Manual-2015-16.pdf
+    name: 2015-16 Data File User's Manual
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/data-notes/Data-Notes-CRDC-2015-16.pdf
+    name: 2015-16 Data Notes
+  - url: https://civilrightsdata.ed.gov/assets/downloads/CRDC-Definitions-2015-16.pdf
+    name: 2015-16 Data Definitions
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/appendix/2015-16-data-notes-addendum.pdf
+    name: Data Notes Appendix
+  - url: https://civilrightsdata.ed.gov/estimations/2013-2014
+    name: 2013-14 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2013-14-crdc-data.zip
+    name: 2013-14 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/school-form/All-Schools-Form-CRDC-2013-14.docx
+    name: 2013-14 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/district-form/Lea-Form-CRDC-2013-14.docx
+    name: 2013-14 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/user-manual/CRDC-Public-Use-Data-File-Users-Manual-2013-14.pdf
+    name: 2013-14 Data File User's Manual
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/data-notes/Data-Notes-CRDC-2013-14.pdf
+    name: 2013-14 Data Notes
+  - url: https://civilrightsdata.ed.gov/assets/downloads/CRDC-Defintions-2013-14.pdf
+    name: 2013-14 Data Definitions
+  - url: https://civilrightsdata.ed.gov/estimations/2011-2012
+    name: 2011-12 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2011-12-crdc-data.zip
+    name: 2011-12 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/downloads/Table-Layouts-2011-12.docx
+    name: 2011-12 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/Table-Layouts-2011-12.docx
+    name: 2011-12 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/data-notes/Data-Notes-CRDC-2011-12.pdf
+    name: 2011-12 Data Notes
+  - url: https://civilrightsdata.ed.gov/assets/downloads/CRDC-Definitions-2011-12.docx
+    name: 2011-12 Data Definitions
+  - url: https://civilrightsdata.ed.gov/estimations/2009-2010
+    name: 2009-10 State and National Data
+  - url: https://civilrightsdata.ed.gov/assets/ocr/docs/2009-10-crdc-data.zip
+    name: 2009-10 Downloadable Data Files
+  - url: https://civilrightsdata.ed.gov/assets/downloads/p1-p2-3-CRDC-2009-10.docx
+    name: 2009-10 CRDC School Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/downloads/p1-p2-3-CRDC-2009-10.docx
+    name: 2009-10 CRDC District Survey Form
+  - url: https://civilrightsdata.ed.gov/assets/for-researchers/data-notes/Data-Notes-CRDC-2009-10.docx
+    name: 2009-10 Data Notes
+  - url: https://civilrightsdata.ed.gov/assets/downloads/CRDC-Definitions-2009-10.docx
+    name: 2009-10 Data Definitions
+  - url: https://civilrightsdata.ed.gov/estimations/2006
+    name: 2006 State and National Data
+  - url: https://civilrightsdata.ed.gov/estimations/2004
+    name: 2004 State and National Data
+  - url: https://civilrightsdata.ed.gov/estimations/2000
+    name: 2000 State and National Data
