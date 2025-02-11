@@ -4,3 +4,22 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/nhes/about.asp
+    name: About
+  - url: https://nces.ed.gov/nhes/young_children.asp
+    name: Young Children's Care and Education Before Kindergarten
+  - url: https://nces.ed.gov/nhes/parent_involvement.asp
+    name: Parent Involvement in Education from Kindergarten to High School
+  - url: https://nces.ed.gov/nhes/homeschooling.asp
+    name: Homeschooling
+  - url: https://nces.ed.gov/nhes/data_files.asp
+    name: Data Files & Questionnaires
+  - url: https://nces.ed.gov/nhes/publications.asp
+    name: Publications
+  - url: https://nces.ed.gov/nhes/research.asp
+    name: Methodological Research
+  - url: https://nces.ed.gov/nhes/tables.asp
+    name: Table Library
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=004
+    name: Staff

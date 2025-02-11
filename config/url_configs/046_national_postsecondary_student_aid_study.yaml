@@ -4,3 +4,38 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/npsas/about.asp
+    name: Survey Design
+  - url: https://nces.ed.gov/surveys/npsas/state_oversamples.asp
+    name: State Oversamples
+  - url: https://nces.ed.gov/surveys/npsas/questionnaire.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/npsas/availabledata.asp
+    name: Available Data
+  - url: https://nces.ed.gov/datalab
+    name: DataLab
+  - url: https://nces.ed.gov/datalab/TablesLibrary
+    name: DataLab Tables Library
+  - url: https://nces.ed.gov/surveys/npsas/tablesaddl.asp
+    name: User-Requested Tables
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=013
+    name: Publications
+  - url: https://nces.ed.gov/surveys/npsas/
+    name: Resources
+  - url: https://nces.ed.gov/bibliography/?npsas
+    name: Bibliography
+  - url: https://nces.ed.gov/training/datauser
+    name: Distance Learning Training Module
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466
+    name: 2015–16 National Postsecondary Student Aid Study (NPSAS:16) Student Financial Aid Estimates for 2015–16
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023466
+    name: 2019–20 National Postsecondary Student Aid Study (NPSAS:20) First Look at Student Financial Aid Estimates for 2019–20
+  - url: https://nces.ed.gov/surveys/npsas/pdf/NPSAS20_questionnaire.pdf
+    name: 2019—20 — NPSAS:20 Item Wording for Student Survey and Student Records
+  - url: https://nces.ed.gov/surveys/npsas/pdf/NPSAS16_questionnaire.pdf
+    name: 2015—16 — NPSAS:16 Item Wording for Student Survey and Student Records
+  - url: https://nces.ed.gov/surveys/npsas/pdf/NPSAS12_questionnaire.pdf
+    name: 2011—12 — NPSAS:12 Item Wording for Student Survey and Student Records
+  - url: https://nces.ed.gov/surveys/npsas/pdf/NPSAS08_questionnaire.pdf
+    name: 2007—08 — NPSAS:08 Item Wording for Student Survey and Student Records

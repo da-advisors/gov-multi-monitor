@@ -4,3 +4,84 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://myecls.ed.gov
+    name: What is the ECLS?
+  - url: https://nces.ed.gov/surveys/lsb/#early-childhood-studies
+    name: Longitudinal Surveys Branch
+  - url: https://nces.ed.gov/ecls/researchissues.asp
+    name: Research Issues
+  - url: https://nces.ed.gov/ecls/birth.asp
+    name: ECLS-B Study information
+  - url: https://nces.ed.gov/ecls/birthinstruments.asp
+    name: ECLS-B Instruments & Assessments
+  - url: https://nces.ed.gov/ecls/birthdataprocedure.asp
+    name: ECLS-B Data Collection Procedures
+  - url: https://nces.ed.gov/ecls/birthdatainformation.asp
+    name: ECLS-B Data Information
+  - url: https://nces.ed.gov/ecls/kindergarten.asp
+    name: ECLS-K Study information
+  - url: https://nces.ed.gov/ecls/kinderinstruments.asp
+    name: ECLS-K Instruments & Assessments
+  - url: https://nces.ed.gov/ecls/kinderdataprocedure.asp
+    name: ECLS-K Data Collection Procedures
+  - url: https://nces.ed.gov/ecls/kinderdatainformation.asp
+    name: ECLS-K Data Information
+  - url: https://nces.ed.gov/ecls/kindergarten2011.asp
+    name: ECLS-K:2011 Study information
+  - url: https://nces.ed.gov/ecls/instruments2011.asp
+    name: ECLS-K:2011 Instruments & Assessments
+  - url: https://nces.ed.gov/ecls/assessments2011.asp
+    name: ECLS-K:2011 Direct Cognitive Assessments
+  - url: https://nces.ed.gov/ecls/datainformation2011.asp
+    name: ECLS-K:2011 Data Information
+  - url: https://nces.ed.gov/ecls/comparisons2011.asp
+    name: ECLS-K:2011 Comparisons to ECLS-B & ECLS-K
+  - url: https://nces.ed.gov/ecls/sponsoring2011.asp
+    name: ECLS-K:2011 Sponsoring Agencies
+  - url: https://nces.ed.gov/ecls/kindergarten2024.asp
+    name: ECLS-K:2024 Study information
+  - url: https://nces.ed.gov/ecls/instruments2024.asp
+    name: ECLS-K:2024 Instruments & Assessments
+  - url: https://nces.ed.gov/ecls/dataprocedure2024.asp
+    name: ECLS-K:2024 Data Collection Procedures
+  - url: https://nces.ed.gov/ecls/datainformation2024.asp
+    name: ECLS-K:2024 Data Information
+  - url: https://nces.ed.gov/transfer.asp?location=myecls.ed.gov
+    name: ECLS-K:2024 Information for Survey Participants
+  - url: https://nces.ed.gov/ecls/researchquestions2024.asp
+    name: ECLS-K:2024 Example Research Questions
+  - url: https://nces.ed.gov/ecls/comparisons2024.asp
+    name: ECLS-K:2024 Comparisons to Other ECLS Studies
+  - url: https://nces.ed.gov/ecls/faqs.asp
+    name: FAQs
+  - url: https://nces.ed.gov/ecls/dataproducts.asp
+    name: Data Products
+  - url: https://nces.ed.gov/ecls/tables.asp
+    name: Table Library
+  - url: https://nces.ed.gov/ecls/dataissues.asp
+    name: Data Issues
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=024
+    name: Publications & Products
+  - url: https://nces.ed.gov/bibliography
+    name: Bibliography
+  - url: https://nces.ed.gov/ecls/kindergarten2024.asp
+    name: Kindergarten Class of 2023-24 (ECLS-K:2024)
+  - url: https://nces.ed.gov/ecls/Birth.asp
+    name: Birth Cohort (ECLS-B)
+  - url: https://nces.ed.gov/ecls/kindergarten.asp
+    name: Kindergarten Class of 1998-99 (ECLS-K)
+  - url: https://nces.ed.gov/ecls/kindergarten2011.asp
+    name: Kindergarten Class of 2010-11 (ECLS-K:2011)
+  - url: https://ies.ed.gov/
+    name: Institute of Education Sciences (IES)
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018083
+    name: ECLS-K:2011 Restricted-Use Kindergarten-Fourth Grade Data File and Electronic Codebook
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018033
+    name: ECLS-K:2011 Public-Use Kindergarten-Fourth Grade Data File and Electronic Codebook
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023009
+    name: Digest of Education Statistics, 2021
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022009
+    name: Digest of Education Statistics, 2020
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021009
+    name: Digest of Education Statistics, 2019

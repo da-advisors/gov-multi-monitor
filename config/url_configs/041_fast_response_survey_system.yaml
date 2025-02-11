@@ -4,3 +4,14 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=005
+    name: Publications & Products
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=005
+    name: Staff
+  - url: https://nces.ed.gov/surveys/frss/publications/index.asp
+    name: Publications
+  - url: https://nces.ed.gov/surveys/frss/downloads.asp
+    name: Downloads
+  - url: https://nces.ed.gov/surveys/frss/faq.asp
+    name: FAQ

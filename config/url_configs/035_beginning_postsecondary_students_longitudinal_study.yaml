@@ -4,3 +4,40 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/bps/index.asp
+    name: Home
+  - url: https://nces.ed.gov/surveys/bps/
+    name: Survey Design
+  - url: https://nces.ed.gov/surveys/bps/about.asp
+    name: Survey Design and Methodology
+  - url: https://nces.ed.gov/surveys/bps/datapractice.asp
+    name: Data in Practice
+  - url: https://nces.ed.gov/surveys/bps/availabledata.asp
+    name: Available Data
+  - url: https://nces.ed.gov/datalab
+    name: DataLab
+  - url: https://nces.ed.gov/datalab/TablesLibrary
+    name: DataLab Tables Library
+  - url: https://nces.ed.gov/surveys/bps/tablesaddl.asp
+    name: User-Requested Tables
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=014
+    name: Publications
+  - url: https://nces.ed.gov/surveys/bps/
+    name: Resources
+  - url: https://nces.ed.gov/bibliography/?bps
+    name: Bibliography
+  - url: https://nces.ed.gov/training/datauser
+    name: Distance Learning Training Module
+  - url: https://nces.ed.gov/surveys/bps/contact.asp
+    name: Contact
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401
+    name: Persistence, Retention, and Attainment of 2011–12 First-Time Beginning Postsecondary Students as of Spring 2017
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021177
+    name: 2012 Beginning Postsecondary Students Longitudinal Study (BPS:12) Postsecondary Education Transcript Study (PETS) Restricted-use Data
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020504
+    name: 2012-17 Beginning Postsecondary Students Longitudinal Study restricted-use data
+  - url: https://nces.ed.gov/surveys/bps/whatsnew.asp
+    name: Additional announcements
+  - url: https://nces.ed.gov/surveys/npsas/about.asp
+    name: The National Postsecondary Student Aid Study (NPSAS)

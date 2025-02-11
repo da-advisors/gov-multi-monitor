@@ -4,3 +4,184 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://www.ed.gov/higher-education
+    name: Higher Education Homepage
+  - url: https://www.ed.gov/higher-education/find-college-or-educational-program
+    name: Find a College or Educational Program
+  - url: https://collegescorecard.ed.gov/
+    name: College Scorecard
+  - url: https://www.ed.gov/higher-education/find-college-or-educational-program/community-college
+    name: Community College
+  - url: https://www.ed.gov/higher-education/paying-college
+    name: Pay for College
+  - url: https://studentaid.gov/
+    name: Federal Student Aid (FSA)
+  - url: https://studentaid.gov/h/apply-for-aid/fafsa
+    name: Complete the FAFSA
+  - url: https://www.ed.gov/higher-education/manage-your-loans
+    name: Manage Your Loans
+  - url: https://studentaid.gov/loan-simulator/
+    name: Loan Simulator
+  - url: https://www.ed.gov/higher-education/manage-your-loans/_098-e-tax-form
+    name: Get your 1098-E Tax Form
+  - url: https://www.ed.gov/higher-education/career-pathways
+    name: Career Pathways
+  - url: https://cte.ed.gov/
+    name: Career and Technical Education
+  - url: https://www.apprenticeship.gov
+    name: Apprenticeships
+  - url: https://www.ed.gov/higher-education/veterans-and-military-families
+    name: Veterans
+  - url: https://www.ed.gov/higher-education/veterans-and-military-families/education-benefits
+    name: Information for Military Families and Veterans
+  - url: https://www.ed.gov/higher-education/veterans-and-military-families/_-keys-to-veterans-success-sites
+    name: 8 Keys to Veteran Success
+  - url: https://www.ed.gov/adult-programs
+    name: Adult Programs Homepage
+  - url: https://rsa.ed.gov
+    name: Vocational Rehabilitation
+  - url: https://aefla.ed.gov/
+    name: Adult Education and Family Literacy Act (AEFLA)
+  - url: https://aefla.ed.gov/correctional-education
+    name: Correctional Education
+  - url: https://www.ed.gov/birth-to-grade-12-education
+    name: Birth to Grade 12 Education Homepage
+  - url: https://www.ed.gov/birth-to-grade-12-education/early-childhood-education
+    name: Early Childhood Education
+  - url: https://www.ed.gov/birth-to-grade-12-education/early-childhood-education/early-learning-home-page
+    name: Early Learning
+  - url: https://www.ed.gov/birth-to-grade-12-education/early-childhood-education/early-learning-research
+    name: Research on Early Learning
+  - url: https://www.ed.gov/birth-to-grade-12-education/elementary-and-secondary-education
+    name: Elementary and Secondary Education
+  - url: https://nces.ed.gov/ccd/schoolsearch/
+    name: Locate a school or district
+  - url: https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/esea/consolidated-state-performance-reports
+    name: Find Your State 2019s Performance Report
+  - url: https://cte.ed.gov
+    name: Career and Technical Education
+  - url: https://www.ed.gov/birth-to-grade-12-education/resources-families
+    name: Resources for Parents and Students
+  - url: https://www.ed.gov/birth-grade-12-education/resources-families/family-partnership-and-engagement
+    name: Family Partnership and Engagement
+  - url: https://www.ed.gov/birth-grade-12-education/school-choice
+    name: School Choice
+  - url: https://studentprivacy.ed.gov/
+    name: Student Records and Privacy
+  - url: https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education
+    name: Laws related to Preschool to Grade 12 Education
+  - url: https://www.ed.gov/laws-and-policy/individuals-disabilities
+    name: Students with disabilities
+  - url: https://www.ed.gov/teaching-and-administration
+    name: Teaching and Administration Homepage
+  - url: https://www.ed.gov/teaching-and-administration/lead-and-manage-my-school
+    name: Lead and Manage My School
+  - url: https://www.ed.gov/teaching-and-administration/supporting-students/seac
+    name: Student Engagement and Attendance Center
+  - url: https://www.ed.gov/teaching-and-administration/safe-learning-environments
+    name: Safe Learning Environments
+  - url: https://www.ed.gov/teaching-and-administration/safe-learning-environments/natural-disaster-resources
+    name: Disaster and Emergency Response
+  - url: https://www.ed.gov/teaching-and-administration/safe-learning-environments/school-safety-and-security
+    name: School Safety and Security
+  - url: https://www.ed.gov/teaching-and-administration/supporting-students
+    name: Supporting Students
+  - url: https://www.ed.gov/teaching-and-administration/supporting-students/special-populations/students-foster-care
+    name: Students in foster care
+  - url: https://www.ed.gov/teaching-and-administration/teaching-resources/professional-development
+    name: Professional Development
+  - url: https://ies.ed.gov/ncee/wwc/
+    name: What Works Clearinghouse
+  - url: https://nces.ed.gov/nceskids/educators_corner.asp
+    name: Kids\u2019 Zone Educator Corner
+  - url: https://www.ed.gov/grants-and-programs
+    name: Grants and Programs Homepage
+  - url: https://www.ed.gov/grants-and-programs/money-college
+    name: Money for College
+  - url: https://studentaid.gov/understand-aid/types/grants/pell
+    name: Pell Grants and Scholarships
+  - url: https://studentaid.gov/understand-aid/types/work-study
+    name: Work Study Programs
+  - url: https://www.ed.gov/grants-and-programs/apply-grant
+    name: Grants Overview
+  - url: https://www.ed.gov/grants-and-programs/apply-grant/available-grants
+    name: Available Grants
+  - url: https://www.ed.gov/grants-and-programs/apply-grant/getting-started-discretionary-grant-applications
+    name: Getting Started with Grant Applications
+  - url: https://www.ed.gov/grants-and-programs/manage-your-grant
+    name: Manage Your Grant
+  - url: https://www.ed.gov/grants-and-programs/manage-your-grant/ed-memoranda-guidance-for-grantees-us-department-of-education
+    name: Grantee Responsibilities
+  - url: https://www.ed.gov/grants-and-programs/manage-your-grant/grant-training-and-risk-management
+    name: Grant Training
+  - url: https://www.ed.gov/grants-and-programs/grants-birth-grade-12
+    name: Grants for Birth to Grade 12
+  - url: https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants
+    name: Well-Rounded Education
+  - url: https://www.ed.gov/grants-and-programs/teacher-prep
+    name: Teacher Prep
+  - url: https://www.ed.gov/grants-and-programs/grants-higher-education
+    name: Grants for Higher Education
+  - url: https://www.ed.gov/about/ed-offices/ope/fipse/overview
+    name: Fund for the Improvement of Postsecondary Education (FIPSE)
+  - url: https://www.ed.gov/grants-and-programs/grants-higher-education/trio-home-page
+    name: TRIO programs
+  - url: https://www.ed.gov/grants-and-programs/grants-special-populations
+    name: Grants for Special Populations
+  - url: https://www.ed.gov/grants-and-programs/grants-special-populations/grants-individuals-disabilities
+    name: Students with Disabilities
+  - url: https://www.ed.gov/grants-and-programs/grants-special-populations/economically-disadvantaged-students
+    name: Economically Disadvantaged Students
+  - url: https://www.ed.gov/grants-and-programs/recognition-programs
+    name: Recognition Programs
+  - url: https://www.ed.gov/grants-and-programs/recognition-programs/us-presidential-scholars-program
+    name: US Presidential Scholars Program
+  - url: https://www.ed.gov/grants-and-programs/formula-grants
+    name: Formula Grants
+  - url: https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/improving-basic-programs-operated-by-local-educational-agencies-esea-title-i-part-a
+    name: Title I, Part A
+  - url: https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/student-support-and-academic-enrichment-program
+    name: Title IV, Part A
+  - url: https://www.ed.gov/laws-and-policy
+    name: Laws and Policy Homepage
+  - url: https://www.ed.gov/laws-and-policy/civil-rights-laws
+    name: Civil Rights Laws
+  - url: https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint
+    name: File a Complaint
+  - url: https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education
+    name: Preschool to Grade 12 Education
+  - url: https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/every-student-succeeds-act-essa
+    name: Every Student Succeeds Act (ESSA)
+  - url: https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/preschool-grade-12-policy-documents
+    name: Preschool to Grade 12 Education Policy
+  - url: https://www.ed.gov/laws-and-policy/higher-education-laws-and-policy
+    name: Higher Education
+  - url: https://www.ed.gov/laws-and-policy/higher-education-laws-and-policy/college-accreditation
+    name: College Accreditation
+  - url: https://www.ed.gov/laws-and-policy/individuals-disabilities
+    name: Individuals with Disabilities
+  - url: https://www.ed.gov/laws-and-policy/individuals-disabilities/idea
+    name: IDEA
+  - url: https://www.ed.gov/laws-and-policy/individuals-disabilities/section-504
+    name: Section 504 and 504 Plans
+  - url: https://www.ed.gov/espanol
+    name: Espa\u00f1ol
+  - url: https://www.ed.gov/data
+    name: Data
+  - url: https://www.ed.gov/research
+    name: Research
+  - url: https://www.ed.gov/contact-us
+    name: Contact Us
+  - url: https://edpass.ed.gov/auth/login/
+    name: EDPass Log-In
+  - url: http://emaps.ed.gov/suite/
+    name: EDFactsMetadata and Process System (EMAPS) Log-In
+  - url: https://surveys.nces.ed.gov/CCDDMS/login/go
+    name: CCD Data Management System (DMS) Log-in
+  - url: https://www.ed.gov/edfacts-resources
+    name: EDFactsResources
+  - url: https://www.ed.gov/ed-web-archives
+    name: ED Archive
+  - url: https://www.ed.gov/
+    name: www.ed.gov

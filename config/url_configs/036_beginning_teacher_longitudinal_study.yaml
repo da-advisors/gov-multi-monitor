@@ -4,3 +4,52 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=112
+    name: Publications & Products
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=112
+    name: Staff
+  - url: https://nces.ed.gov/surveys/btls/index.asp
+    name: BTLS Homepage
+  - url: https://nces.ed.gov/surveys/btls/overview.asp
+    name: Overview
+  - url: https://nces.ed.gov/surveys/btls/questionnaires.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/btls/tables.asp
+    name: BTLS Tables
+  - url: https://nces.ed.gov/surveys/btls/research_issues.asp
+    name: Research Issues
+  - url: https://nces.ed.gov/surveys/btls/methods.asp
+    name: Methods and Procedures
+  - url: https://nces.ed.gov/surveys/btls/faq.asp
+    name: FAQ
+  - url: http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2012306
+    name: 2011-12 Beginning Teacher Longitudinal Brochure
+  - url: http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2011359
+    name: Beginning Teacher Longitudinal Study (BTLS) Waves 1-3 Preliminary Restricted-Use Data File and Documentation
+  - url: http://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2011318
+    name: Beginning Teacher Attrition and Mobility Results From the First Through Third Waves of the 2007-08 Beginning Teacher Longitudinal Study
+  - url: http://nces.ed.gov/surveys/sass/
+    name: Schools and Staffing Survey
+  - url: https://nces.ed.gov/surveys/btls/tables/table_01.asp
+    name: Beginning Teacher Longitudinal Study Table 1
+  - url: https://nces.ed.gov/surveys/btls/tables/table_02.asp
+    name: Beginning Teacher Longitudinal Study Table 2
+  - url: https://nces.ed.gov/surveys/btls/tables/table_03.asp
+    name: Beginning Teacher Longitudinal Study Table 3
+  - url: https://nces.ed.gov/surveys/btls/tables/table_04.asp
+    name: Beginning Teacher Longitudinal Study Table 4
+  - url: https://nces.ed.gov/surveys/btls/tables/table_05.asp
+    name: Beginning Teacher Longitudinal Study Table 5
+  - url: https://nces.ed.gov/surveys/btls/tables/table_06.asp
+    name: Beginning Teacher Longitudinal Study Table 6
+  - url: https://nces.ed.gov/surveys/btls/tables/table_07.asp
+    name: Beginning Teacher Longitudinal Study Table 7
+  - url: https://nces.ed.gov/surveys/btls/tables/table_08.asp
+    name: Beginning Teacher Longitudinal Study Table 8
+  - url: https://nces.ed.gov/surveys/sass/pdf/0708/sass4a.pdf
+    name: Questionnaire Wave 1 2007-2008
+  - url: https://nces.ed.gov/surveys/sass/pdf/0809/tfs_4.pdf
+    name: Current Teacher Questionnaire Wave 2 2008-2009
+  - url: https://nces.ed.gov/surveys/sass/pdf/0809/tfs_2.pdf
+    name: Former Teacher Questionnaire Wave 2 2008-2009

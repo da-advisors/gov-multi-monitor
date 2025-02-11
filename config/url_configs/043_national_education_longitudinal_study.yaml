@@ -4,3 +4,90 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/nels88/research.asp
+    name: Research
+  - url: https://nces.ed.gov/surveys/nels88/design.asp
+    name: Survey Design
+  - url: https://nces.ed.gov/surveys/nels88/questionnaires.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/nels88/data_products.asp
+    name: Available Data
+  - url: https://nces.ed.gov/surveys/nels88/usermanuals.asp
+    name: User Manuals
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=023
+    name: Publications
+  - url: https://nces.ed.gov/surveys/nels88/bibliography.asp
+    name: Online Bibliography Search Tool
+  - url: https://nces.ed.gov/pubs2007/2007019.pdf
+    name: Economic Outcomes of High School Completers and Noncompleters 8 Years Later
+  - url: https://nces.ed.gov/pubs2012/2012345.pdf
+    name: Trends Among Young Adults Over Three Decades, 1974–2006
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020010
+    name: Public High School Students' Career and Technical Education Coursetaking 1992 to 2013
+  - url: https://nces.ed.gov/surveys/nels88/pdf/01_BY_Student.pdf
+    name: BY Student Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/02_F1_Student.pdf
+    name: F1 Student Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/03_F2_Student.pdf
+    name: F2 Student Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/04_F1_Dropout.pdf
+    name: F1 Dropout Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/05_F2_Dropout.pdf
+    name: F2 Dropout Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/06_BY_School_Administrator.pdf
+    name: BY School Administrator Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/07_F1_School_Administrator.pdf
+    name: F1 School Administrator Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/08_F2_School_Administrator.pdf
+    name: F2 School Administrator Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/09_BY_Parent.pdf
+    name: BY Parent Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/10_F2_Parent.pdf
+    name: F2 Parent Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/11_BY_Teacher.pdf
+    name: BY Teacher Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/12_F1_Teacher.pdf
+    name: F1 Teacher Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/13_F2_Teacher.pdf
+    name: F2 Teacher Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/14_F3_Student_Dropout_CATI_Facsimile.pdf
+    name: F3 Student/Dropout Questionnaire
+  - url: https://nces.ed.gov/surveys/nels88/pdf/15_F4_Student_Dropout_Flowchart.pdf
+    name: F4 Student/Dropout Flow Chart
+  - url: https://nces.ed.gov/surveys/nels88/pdf/16_F4_Student_Dropout_CATI_CAPI_Fac.pdf
+    name: F4 Student/Dropout Questionnaire in CATI/CAPI Format
+  - url: https://nces.ed.gov/datalab/onlinecodebook
+    name: Online Codebook
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2002323
+    name: USER'S MANUAL NELS:88 Base-Year to Fourth Follow-up Student Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=95377
+    name: USER'S MANUAL NELS:88 Second Follow-Up Transcript Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=94376
+    name: USER'S MANUAL NELS:88 Second Follow-Up School Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=94378
+    name: USER'S MANUAL NELS:88 Second Follow-Up Parent Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=94374
+    name: USER'S MANUAL NELS:88 Second Follow-up Student Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=94375
+    name: NELS:88 Second Follow-Up Dropout Component Data File User's Manual
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=94379
+    name: USER'S MANUAL NELS:88 Second Follow-Up Teacher Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=92088
+    name: National Education Longitudinal Study of 1988 First Follow-up Student Component Data File User's Manual Volume II
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=93085
+    name: USER'S MANUAL NELS:88 First Follow-Up Teacher Component Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=92083
+    name: USER'S MANUAL NELS:88 First Follow-Up Dropout Component Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=92084
+    name: USER'S MANUAL NELS:88 First Follow-Up School Component Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=92030
+    name: USER'S MANUAL NELS:88 First Follow-Up Student Component Volume I
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90464
+    name: USER'S MANUAL NELS:88 Base Year Student Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90466
+    name: USER'S MANUAL NELS:88 Base Year Parent Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90482
+    name: USER'S MANUAL NELS:88 Base Year School Component Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=90484
+    name: USER'S MANUAL NELS:88 Base Year Teacher Component Data File

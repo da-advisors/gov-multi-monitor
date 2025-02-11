@@ -4,3 +4,62 @@ expected_update_frequency: null
 tags:
   - ed
   - education
+linked_urls:
+  - url: https://nces.ed.gov/surveys/mgls/#about
+    name: About
+  - url: https://nces.ed.gov/surveys/mgls/#design
+    name: Survey Design
+  - url: https://nces.ed.gov/surveys/mgls/#data
+    name: Data Collection
+  - url: https://nces.ed.gov/surveys/mgls/#available
+    name: Available Files
+  - url: https://nces.ed.gov/surveys/mgls/#highlights
+    name: Research Highlights
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023055
+    name: Overview of the Middle Grades Longitudinal Study of 2017–18 (MGLS:2017) Technical Report
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023013
+    name: User's Manual for the MGLS:2017 Data File
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_DFUM_App_E_VarLists.pdf
+    name: School and Student Variables List
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_ILF_ReadMe.pdf
+    name: Item Level File (ILF) ReadMe
+  - url: https://nces.ed.gov/surveys/mgls/pptx/MGLS_MS1_MS2_EF_HeartsFlowers_Instructions.pptx
+    name: MS1 and MS2 Hearts and Flowers Executive Function Task Instructions
+  - url: https://nces.ed.gov/surveys/mgls/pptx/MGLS_MS2_EF_Spatial_2-back_Instructions.pptx
+    name: MS2 Spatial 2-back Task Instructions
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Student_Specs_REDACTED.pdf
+    name: MS1 Student Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Student_Specs_REDACTED.pdf
+    name: MS2 Student Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_English_Specs.pdf
+    name: MS1 Parent Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Mini_English_Specs.pdf
+    name: MS1 Parent Hard-copy Mini Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Mini_Spanish_Specs.pdf
+    name: MS1 Parent Hard-copy Mini Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Parent_Spanish_Specs.pdf
+    name: MS1 Parent Survey Spanish Translation
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_English_Specs.pdf
+    name: MS2 Parent Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Mini_English_Specs.pdf
+    name: MS2 Parent Hard-copy Mini Survey English
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Mini_Spanish_Specs.pdf
+    name: MS2 Parent Hard-copy Mini Survey Spanish
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Parent_Spanish_Specs.pdf
+    name: MS2 Parent Survey Spanish Translation
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_MathTeacher_Specs.pdf
+    name: MS1 Math Teacher Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_MathTeacher_Specs.pdf
+    name: MS2 Math Teacher Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_SpEdTeacher_Specs.pdf
+    name: MS1 Special Education Teacher Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_SpEdTeacher_Specs.pdf
+    name: MS2 Special Education Teacher Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_School_Environ_Checklist_Specs.pdf
+    name: MS1 School Environment Checklist
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_School_Environ_Checklist_Specs.pdf
+    name: MS2 School Environment Checklist
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS1_Admin_Specs.pdf
+    name: MS1 School Administrator Survey
+  - url: https://nces.ed.gov/surveys/mgls/pdf/MGLS_MS2_Admin_Specs.pdf
+    name: MS2 School Administrator Survey

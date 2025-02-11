@@ -6,3 +6,100 @@ tags:
   - education
   - school
   - crime
+linked_urls:
+  - url: https://nces.ed.gov/pubsearch/getpubcats.asp?sid=027
+    name: Publications & Products
+  - url: https://nces.ed.gov/programs/crime/tables.asp
+    name: SSOCS & SCS Table Library
+  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=027
+    name: Staff
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp
+    name: Survey Topics
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp
+    name: Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/questionnaire.asp
+    name: Questionnaires
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=1
+    name: What is SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=2
+    name: Who participates in SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=3
+    name: When is SSOCS administered?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=4
+    name: What topics are covered by SSOCS?
+  - url: https://nces.ed.gov/surveys/ssocs/index.asp?FType=5
+    name: Where can I learn more about SSOCS and other crime and safety data collections?
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024055
+    name: School Survey on Crime and Safety (SSOCS) 2019-2020 Public Use Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024145
+    name: Report on Indicators of School Crime and Safety 2023
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024043
+    name: Crime, Violence, Discipline, and Safety in U.S. Public Schools Findings From the School Survey on Crime and Safety 2021-22
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2020_Questionnaire.pdf
+    name: 2019–20 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2018_Questionnaire.pdf
+    name: 2017–18 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2016_Questionnaire.pdf
+    name: 2015–16 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2010_Questionnaire.pdf
+    name: 2009–10 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2008_Questionnaire.pdf
+    name: 2007–08 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2006_Questionnaire.pdf
+    name: 2005–06 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2004_Questionnaire.pdf
+    name: 2003–04 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2000_Questionnaire.pdf
+    name: 1999–2000 SSOCS Questionnaire
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2020
+    name: 2019-2020 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2018
+    name: 2017-18 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2016
+    name: 2015-16 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2010
+    name: 2009-10 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2008
+    name: 2007-08 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2005
+    name: 2005-06 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#2003
+    name: 2003–04 SSOCS Data Products
+  - url: https://nces.ed.gov/surveys/ssocs/data_products.asp#1999
+    name: 1999–2000 SSOCS Data Products
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024054
+    name: School Survey on Crime and Safety (SSOCS) 2019-2020 Public Use Data File User's Manual (DFUM)
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024055
+    name: School Survey on Crime and Safety (SSOCS) 2019-2020 Public Use Data Files
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020054
+    name: 2017-18 School Survey on Crime and Safety (SSOCS) Public-Use Data File User's Manual
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020054
+    name: 2017-18 School Survey on Crime and Safety (SSOCS) Public-Use Data File
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018107
+    name: 2015-16 School Survey on Crime and Safety (SSOCS) Public-Use Data File User's Manual
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018109
+    name: 2015-16 School Survey on Crime and Safety (SSOCS) Public-Use Data Files and Codebook
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015060
+    name: 2009-10 School Survey on Crime and Safety Public-Use Data Files and Codebook
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015061
+    name: 2009-10 School Survey on Crime and Safety Public-Use Data File's User's Manual
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015177
+    name: 2009-10 School Survey on Crime and Safety (SSOCS) Survey Documentation
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=1
+    name: Survey Topic - School Practices and Programs
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=2
+    name: Survey Topic - Parent and Community Involvement at School
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=3
+    name: Survey Topic - School Security Staff
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=4
+    name: Survey Topic - School Mental Health Services
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=5
+    name: Survey Topic - Staff Training and Practices
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=6
+    name: Survey Topic - Limitations on Crime Prevention
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=7
+    name: Survey Topic - Incidents
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=8
+    name: Survey Topic - Disciplinary Problems and Actions
+  - url: https://nces.ed.gov/surveys/ssocs/surveytopics.asp?RType=9
+    name: Survey Topic - School Characteristics
