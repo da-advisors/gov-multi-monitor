@@ -4,726 +4,212 @@ expected_update_frequency: null
 tags:
   - ed
   - education
-
-
-
-{
-  "source_yaml": "049_nces_researchdatagov.yaml",
-  "source_url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100",
-  "name": "ResearchDataGov - NCES",
-  "timestamp": "Thu, 06 Feb 2025 17:30:19 GMT",
-  "num_links": 142,
-  "links": [
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#mainContent",
-      "text": "Skip to content",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/migrationInstructions",
-      "text": "More information",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/",
-      "text": "Research Data Gov",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/",
-      "text": "Research Data Gov",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/",
-      "text": "Home",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/about",
-      "text": "About",
-      "title": ""
-    },
-    {
-      "url": "https://manager.researchdatagov.org/RDG_User_Guide.pdf",
-      "text": "How To Apply",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/faq",
-      "text": "FAQ",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/agencyInfoMetrics",
-      "text": "Agency Info & Metrics",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/contact",
-      "text": "Contact",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "Login",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "Clear all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter1",
-      "text": "Sources",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter2",
-      "text": "Authorizers",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter3",
-      "text": "Funder Sponsors",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter4",
-      "text": "Program Title",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter5",
-      "text": "Topic",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter6",
-      "text": "Observation Unit",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter7",
-      "text": "Access Modality",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter8",
-      "text": "Public-use File Available",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100#divFilter9",
-      "text": "Linkage Variables",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?sources_facet=9&&page=1&&sort=dcterms_title_sort%20asc&&rows=100",
-      "text": "view all",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3785",
-      "text": "1987 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3786",
-      "text": "1990 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4144",
-      "text": "1990/94 Beginning Postsecondary Students Longitudinal Study (BPS:90/94)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3810",
-      "text": "1994 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5988",
-      "text": "1996 NAEP National Mathematics & Science, & Long-Term Trend Assessments Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4145",
-      "text": "1996/2001 Beginning Postsecondary Students Longitudinal Study (including the 2015 Federal Student Aid Supplement)  (BPS:96/01)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3787",
-      "text": "1998 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3811",
-      "text": "2000 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4658",
-      "text": "2003-04 Schools and Staffing Survey (SASS) and 2004-05 Teacher Follow-up Survey (TFS) Restricted-Use Data with Electronic Codebook",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4676",
-      "text": "2004-05 Teacher Follow-up Survey New School Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4677",
-      "text": "2004-05 Teacher Follow-up Survey Teacher Status Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3789",
-      "text": "2005 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6040",
-      "text": "2005 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6043",
-      "text": "2007 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4678",
-      "text": "2007-08 Schools and Staffing Survey (SASS) and 2008-09 Teacher Follow-up Survey (TFS) Restricted-Use Data with Codebook",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4659",
-      "text": "2007-08 Schools and Staffing Survey, Public Charter School Analysis Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3788",
-      "text": "2009 NAEP High School Transcript Study",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6085",
-      "text": "2009 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6184",
-      "text": "2011 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/2100",
-      "text": "2011-2012 Schools and Staffing Survey Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6204",
-      "text": "2015 NAEP National and State Mathematics and Reading (Grades 4 & 8) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6195",
-      "text": "2015 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/18240",
-      "text": "2017 National Assessment of Educational Progress (NAEP) Reading Student Response\nData Restricted-Use File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6231",
-      "text": "2018 NAEP National Civics, Geography, and U.S. History Assessments (Grade 8) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/9720",
-      "text": "The 2018 National Assessment of Educational Progress (NAEP) Grade 4 Oral Reading Fluency Study Restricted-Use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/12184",
-      "text": "2018-19 Common Core of Data (CCD) Dropouts Restricted-Use Data Files, version 1a",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6197",
-      "text": "2019 NAEP Digitally Based Assessments in Mathematics and Reading (National, Grade 12) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6233",
-      "text": "2019 NAEP Digitally Based Assessments in Science (National, Grades 4, 8, and 12) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/6232",
-      "text": "2019 NAEP National Indian Education Study (NIES) (Grades 4 & 8) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/15757",
-      "text": "2020 NAEP Long-Term Trend Mathematics and Reading Restricted-Use Data Files (1971-2020)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/16056",
-      "text": "2022 NAEP Long-Term Trend Mathematics and Reading Restricted-Use Data Files (1971-2022)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/15756",
-      "text": "2022 NAEP National and State Mathematics, Reading and Puerto Rico Mathematics (Grades 4 & 8) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/16108",
-      "text": "2022 NAEP National Civics and U.S. History (Grade 8) Restricted-Use Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/9236",
-      "text": "21st Century Community Learning Centers Program National Evaluation",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3744",
-      "text": "Academic Libraries Survey, 2002-2004",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3746",
-      "text": "Academic Libraries Survey, 2012",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3745",
-      "text": "Academic Library Survey, 2010",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/8933",
-      "text": "Access to Algebra I: Effects of Online Mathematics for Grade 8 Students (Virtual Algebra-VA)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/8532",
-      "text": "Accommodations for English Language Learner Students: The Effect of Linguistic Modification of Math Test Item Sets (AELLS)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/8613",
-      "text": "Achievement Effects of 4 Elementary School Math Curricula: 1st & 2nd Graders",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/8632",
-      "text": "Achievement Effects of 4 Elementary School Math Curricula: 1st Graders",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3332",
-      "text": "Adult Literacy and Lifeskills Survey, 2003 with Rescaled Literacy and Numeracy Scores for Trend with the Program for the International Assessment of Adult Competencies (PIAAC)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/11664",
-      "text": "Baccalaureate and Beyond Longitudinal Study 1993/2003, Base Year to Third Follow-Up",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3712",
-      "text": "Baccalaureate and Beyond Longitudinal Study 2008, Second Follow-Up 2012 with Postsecondary Education Transcript Study (PETS)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3725",
-      "text": "Baccalaureate and Beyond Longitudinal Study 2008, Third Follow-up 2018",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/13044",
-      "text": "Baccalaureate and Beyond Longitudinal Study 2016/2020, Base Year to Second Follow-Up",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3724",
-      "text": "Baccalaureate and Beyond Longitudinal Study: 2000/01",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/9012",
-      "text": "Barron\u2019s Admissions Competitiveness Index 1972-2008",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/9032",
-      "text": "Barron\u2019s Admissions Competitiveness Index 1972-2014",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3306",
-      "text": "Beginning Postsecondary Students Longitudinal Study, 2004",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3307",
-      "text": "Beginning Postsecondary Students Longitudinal Study, 2012-2017 (with PETS and update)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4657",
-      "text": "Beginning Teacher Longitudinal Study (BTLS) Waves 1-5 Restricted-Use Data File and Documentation",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5869",
-      "text": "Civil Rights Data Collection, 1968-2009 Timeseries",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5865",
-      "text": "Civil Rights Data Collection, 2000-06",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5866",
-      "text": "Civil Rights Data Collection, 2009\u201310",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5867",
-      "text": "Civil Rights Data Collection, 2013\u201314 Revised",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5868",
-      "text": "Civil Rights Data Collection, 2015\u201316, 2018 Update",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/5884",
-      "text": "Civil Rights Data Collection, 2017-18",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/8772",
-      "text": "Classroom Assessment for Student Learning (CASL)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/10273",
-      "text": "Classroom Literacy Interventions and Outcomes Study (CLIO)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3864",
-      "text": "Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) 9-Month Twin Triad",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3865",
-      "text": "Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Country of Birth String Variables",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3845",
-      "text": "Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Longitudinal 9-Month-Kindergarten 2007",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3846",
-      "text": "Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Psychometric Report",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4637",
-      "text": "Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Zip Codes",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/13748",
-      "text": "Early Childhood Longitudinal Study, Kindergarten Class of 1998-99 (ECLS-K) Teacher Social Rating Scale (copyright required)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3866",
-      "text": "ECLS-K Base Year Restricted-Use Child, Teacher, and School Data Files",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3847",
-      "text": "ECLS-K Base Year Restricted-Use Student Record Abstract File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3848",
-      "text": "ECLS-K Census Data and Geocodes",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3849",
-      "text": "ECLS-K Eighth Grade Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3869",
-      "text": "ECLS-K Fifth Grade Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3867",
-      "text": "ECLS-K First Grade Restricted-Use Child File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4816",
-      "text": "ECLS-K Item-Level Cognitive Assessment without Item Wording (no copyright required)",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3868",
-      "text": "ECLS-K Third Grade Restricted-Use Child File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3853",
-      "text": "ECLS-K:2011 Fifth-Grade Hearing Evaluations Component Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3851",
-      "text": "ECLS-K:2011 Restricted-Use Kindergarten-Fifth Grade Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3870",
-      "text": "ECLS-K:2011 Second-Grade Hearing Evaluations Component Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/3852",
-      "text": "ECLS-K:2011 Third-Grade Hearing Evaluations Component Restricted-Use Data File",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4736",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2010-2011 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4737",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2011-2012 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4756",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2012-2013 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4757",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2013-2014 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4738",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2014-2015 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4758",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2015-2016 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4739",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2016-2017 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4740",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2017-2018 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4741",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2018-2019 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/11332",
-      "text": "EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2020-2021",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4759",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2009-2010 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4760",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2010-2011 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4776",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2011-2012 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4777",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2012-2013 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4796",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2013-2014 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4761",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2014-2015 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4797",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2015-2016 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4762",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2016-2017 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4743",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2017-2018 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4763",
-      "text": "EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2018-2019 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4744",
-      "text": "EDFacts Results for State Assessments by Performance Levels in Reading/Language Arts and Mathematics 2011-2012 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/product/4798",
-      "text": "EDFacts Results for State Assessments by Performance Levels in Reading/Language Arts and Mathematics 2012-2013 Restricted-use Data",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "Previous",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=1&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "skip to first",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=2&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "2",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=3&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "3",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=4&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "skip to end",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/search?&sources_facet=9&page=2&sort=dcterms_title_sort%20asc&rows=100",
-      "text": "Next",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/",
-      "text": "[No text]",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/about",
-      "text": "About",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/contact",
-      "text": "Contact Us",
-      "title": ""
-    },
-    {
-      "url": "https://www.researchdatagov.org/privacyPolicy",
-      "text": "Privacy Policy",
-      "title": ""
-    },
-    {
-      "url": "https://regents.umich.edu/",
-      "text": "The Regents of the University of Michigan",
-      "title": ""
-    },
-    {
-      "url": "https://isr.umich.edu/",
-      "text": "Institute for Social Research",
-      "title": ""
-    },
-    {
-      "url": "https://umich.edu/",
-      "text": "University of Michigan",
-      "title": ""
-    }
-  ],
-  "linked_urls": []
-}
+linked_urls:
+  - url: https://www.researchdatagov.org/about
+    name: About
+  - url: https://manager.researchdatagov.org/RDG_User_Guide.pdf
+    name: How To Apply
+  - url: https://www.researchdatagov.org/faq
+    name: FAQ
+  - url: https://www.researchdatagov.org/agencyInfoMetrics
+    name: Agency Info & Metrics
+  - url: https://www.researchdatagov.org/product/3785
+    name: 1987 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/3786
+    name: 1990 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/4144
+    name: 1990/94 Beginning Postsecondary Students Longitudinal Study (BPS:90/94)
+  - url: https://www.researchdatagov.org/product/3810
+    name: 1994 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/5988
+    name: 1996 NAEP National Mathematics & Science, & Long-Term Trend Assessments Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/4145
+    name: 1996/2001 Beginning Postsecondary Students Longitudinal Study (including the 2015 Federal Student Aid Supplement)  (BPS:96/01)
+  - url: https://www.researchdatagov.org/product/3787
+    name: 1998 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/3811
+    name: 2000 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/4658
+    name: 2003-04 Schools and Staffing Survey (SASS) and 2004-05 Teacher Follow-up Survey (TFS) Restricted-Use Data with Electronic Codebook
+  - url: https://www.researchdatagov.org/product/4676
+    name: 2004-05 Teacher Follow-up Survey New School Data File
+  - url: https://www.researchdatagov.org/product/4677
+    name: 2004-05 Teacher Follow-up Survey Teacher Status Files
+  - url: https://www.researchdatagov.org/product/3789
+    name: 2005 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/6040
+    name: 2005 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6043
+    name: 2007 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/4678
+    name: 2007-08 Schools and Staffing Survey (SASS) and 2008-09 Teacher Follow-up Survey (TFS) Restricted-Use Data with Codebook
+  - url: https://www.researchdatagov.org/product/4659
+    name: 2007-08 Schools and Staffing Survey, Public Charter School Analysis Data File
+  - url: https://www.researchdatagov.org/product/3788
+    name: 2009 NAEP High School Transcript Study
+  - url: https://www.researchdatagov.org/product/6085
+    name: 2009 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6184
+    name: 2011 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/2100
+    name: 2011-2012 Schools and Staffing Survey Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6204
+    name: 2015 NAEP National and State Mathematics and Reading (Grades 4 & 8) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6195
+    name: 2015 NAEP National Indian Education Study, Parts I and II Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/18240
+    name: 2017 National Assessment of Educational Progress (NAEP) Reading Student Response\nData Restricted-Use File
+  - url: https://www.researchdatagov.org/product/6231
+    name: 2018 NAEP National Civics, Geography, and U.S. History Assessments (Grade 8) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/9720
+    name: The 2018 National Assessment of Educational Progress (NAEP) Grade 4 Oral Reading Fluency Study Restricted-Use Data
+  - url: https://www.researchdatagov.org/product/12184
+    name: 2018-19 Common Core of Data (CCD) Dropouts Restricted-Use Data Files, version 1a
+  - url: https://www.researchdatagov.org/product/6197
+    name: 2019 NAEP Digitally Based Assessments in Mathematics and Reading (National, Grade 12) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6233
+    name: 2019 NAEP Digitally Based Assessments in Science (National, Grades 4, 8, and 12) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/6232
+    name: 2019 NAEP National Indian Education Study (NIES) (Grades 4 & 8) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/15757
+    name: 2020 NAEP Long-Term Trend Mathematics and Reading Restricted-Use Data Files (1971-2020)
+  - url: https://www.researchdatagov.org/product/16056
+    name: 2022 NAEP Long-Term Trend Mathematics and Reading Restricted-Use Data Files (1971-2022)
+  - url: https://www.researchdatagov.org/product/15756
+    name: 2022 NAEP National and State Mathematics, Reading and Puerto Rico Mathematics (Grades 4 & 8) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/16108
+    name: 2022 NAEP National Civics and U.S. History (Grade 8) Restricted-Use Data Files
+  - url: https://www.researchdatagov.org/product/9236
+    name: 21st Century Community Learning Centers Program National Evaluation
+  - url: https://www.researchdatagov.org/product/3744
+    name: Academic Libraries Survey, 2002-2004
+  - url: https://www.researchdatagov.org/product/3746
+    name: Academic Libraries Survey, 2012
+  - url: https://www.researchdatagov.org/product/3745
+    name: Academic Library Survey, 2010
+  - url: https://www.researchdatagov.org/product/8933
+    name: Access to Algebra I Effects of Online Mathematics for Grade 8 Students (Virtual Algebra-VA)
+  - url: https://www.researchdatagov.org/product/8532
+    name: Accommodations for English Language Learner Students The Effect of Linguistic Modification of Math Test Item Sets (AELLS)
+  - url: https://www.researchdatagov.org/product/8613
+    name: Achievement Effects of 4 Elementary School Math Curricula 1st & 2nd Graders
+  - url: https://www.researchdatagov.org/product/8632
+    name: Achievement Effects of 4 Elementary School Math Curricula 1st Graders
+  - url: https://www.researchdatagov.org/product/3332
+    name: Adult Literacy and Lifeskills Survey, 2003 with Rescaled Literacy and Numeracy Scores for Trend with the Program for the International Assessment of Adult Competencies (PIAAC)
+  - url: https://www.researchdatagov.org/product/11664
+    name: Baccalaureate and Beyond Longitudinal Study 1993/2003, Base Year to Third Follow-Up
+  - url: https://www.researchdatagov.org/product/3712
+    name: Baccalaureate and Beyond Longitudinal Study 2008, Second Follow-Up 2012 with Postsecondary Education Transcript Study (PETS)
+  - url: https://www.researchdatagov.org/product/3725
+    name: Baccalaureate and Beyond Longitudinal Study 2008, Third Follow-up 2018
+  - url: https://www.researchdatagov.org/product/13044
+    name: Baccalaureate and Beyond Longitudinal Study 2016/2020, Base Year to Second Follow-Up
+  - url: https://www.researchdatagov.org/product/3724
+    name: Baccalaureate and Beyond Longitudinal Study 2000/01
+  - url: https://www.researchdatagov.org/product/9012
+    name: Barron\u2019s Admissions Competitiveness Index 1972-2008
+  - url: https://www.researchdatagov.org/product/9032
+    name: Barron\u2019s Admissions Competitiveness Index 1972-2014
+  - url: https://www.researchdatagov.org/product/3306
+    name: Beginning Postsecondary Students Longitudinal Study, 2004
+  - url: https://www.researchdatagov.org/product/3307
+    name: Beginning Postsecondary Students Longitudinal Study, 2012-2017 (with PETS and update)
+  - url: https://www.researchdatagov.org/product/4657
+    name: Beginning Teacher Longitudinal Study (BTLS) Waves 1-5 Restricted-Use Data File and Documentation
+  - url: https://www.researchdatagov.org/product/5869
+    name: Civil Rights Data Collection, 1968-2009 Timeseries
+  - url: https://www.researchdatagov.org/product/5865
+    name: Civil Rights Data Collection, 2000-06
+  - url: https://www.researchdatagov.org/product/5866
+    name: Civil Rights Data Collection, 2009\u201310
+  - url: https://www.researchdatagov.org/product/5867
+    name: Civil Rights Data Collection, 2013\u201314 Revised
+  - url: https://www.researchdatagov.org/product/5868
+    name: Civil Rights Data Collection, 2015\u201316, 2018 Update
+  - url: https://www.researchdatagov.org/product/5884
+    name: Civil Rights Data Collection, 2017-18
+  - url: https://www.researchdatagov.org/product/8772
+    name: Classroom Assessment for Student Learning (CASL)
+  - url: https://www.researchdatagov.org/product/10273
+    name: Classroom Literacy Interventions and Outcomes Study (CLIO)
+  - url: https://www.researchdatagov.org/product/3864
+    name: Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) 9-Month Twin Triad
+  - url: https://www.researchdatagov.org/product/3865
+    name: Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Country of Birth String Variables
+  - url: https://www.researchdatagov.org/product/3845
+    name: Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Longitudinal 9-Month-Kindergarten 2007
+  - url: https://www.researchdatagov.org/product/3846
+    name: Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Psychometric Report
+  - url: https://www.researchdatagov.org/product/4637
+    name: Early Childhood Longitudinal Study, Birth Cohort (ECLS-B) Zip Codes
+  - url: https://www.researchdatagov.org/product/13748
+    name: Early Childhood Longitudinal Study, Kindergarten Class of 1998-99 (ECLS-K) Teacher Social Rating Scale (copyright required)
+  - url: https://www.researchdatagov.org/product/3866
+    name: ECLS-K Base Year Restricted-Use Child, Teacher, and School Data Files
+  - url: https://www.researchdatagov.org/product/3847
+    name: ECLS-K Base Year Restricted-Use Student Record Abstract File
+  - url: https://www.researchdatagov.org/product/3848
+    name: ECLS-K Census Data and Geocodes
+  - url: https://www.researchdatagov.org/product/3849
+    name: ECLS-K Eighth Grade Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/3869
+    name: ECLS-K Fifth Grade Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/3867
+    name: ECLS-K First Grade Restricted-Use Child File
+  - url: https://www.researchdatagov.org/product/4816
+    name: ECLS-K Item-Level Cognitive Assessment without Item Wording (no copyright required)
+  - url: https://www.researchdatagov.org/product/3868
+    name: ECLS-K Third Grade Restricted-Use Child File
+  - url: https://www.researchdatagov.org/product/3853
+    name: ECLS-K:2011 Fifth-Grade Hearing Evaluations Component Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/3851
+    name: ECLS-K:2011 Restricted-Use Kindergarten-Fifth Grade Data File
+  - url: https://www.researchdatagov.org/product/3870
+    name: ECLS-K:2011 Second-Grade Hearing Evaluations Component Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/3852
+    name: ECLS-K:2011 Third-Grade Hearing Evaluations Component Restricted-Use Data File
+  - url: https://www.researchdatagov.org/product/4736
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2010-2011 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4737
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2011-2012 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4756
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2012-2013 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4757
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2013-2014 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4738
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2014-2015 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4758
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2015-2016 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4739
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2016-2017 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4740
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2017-2018 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4741
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2018-2019 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/11332
+    name: EDFacts Four-Year Adjusted Cohort Graduation Rates for School Year 2020-2021
+  - url: https://www.researchdatagov.org/product/4759
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2009-2010 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4760
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2010-2011 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4776
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2011-2012 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4777
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2012-2013 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4796
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2013-2014 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4761
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2014-2015 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4797
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2015-2016 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4762
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2016-2017 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4743
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2017-2018 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4763
+    name: EDFacts Results for State Assessments Achievement in Reading/Language Arts and Mathematics 2018-2019 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4744
+    name: EDFacts Results for State Assessments by Performance Levels in Reading/Language Arts and Mathematics 2011-2012 Restricted-use Data
+  - url: https://www.researchdatagov.org/product/4798
+    name: EDFacts Results for State Assessments by Performance Levels in Reading/Language Arts and Mathematics 2012-2013 Restricted-use Data
