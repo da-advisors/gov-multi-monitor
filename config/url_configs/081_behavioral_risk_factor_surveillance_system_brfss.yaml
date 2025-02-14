@@ -4,3 +4,178 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov/spanish/
+    name: EspaÃ±ol
+  - url: https://wwwn.cdc.gov/pubs/other-languages/
+    name: Other Languages
+  - url: https://www.cdc.gov/
+    name: Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
+  - url: https://www.cdc.gov/brfss/index.html
+    name: Behavioral Risk Factor Surveillance System
+  - url: https://www.cdc.gov/brfss/annual_data/annual_2023.html
+    name: 2023 BRFSS Data
+  - url: https://www.cdc.gov/brfss/pdf/Save-The-Date-and-Call-for-Abstracts-BRFSS-2025-508c.pdf
+    name: Save the Date and Call for Abstracts BRFSS 2025 MeetingBRFSS 2025 Meeting
+  - url: https://www.cdc.gov/brfss/acbs/2022_documentation.html
+    name: 2022 ACBS Now AvailableView the 2022 Asthma Call-back Survey
+    name: 2022 Data
+  - url: https://www.cdc.gov/brfss/about/index.htm
+    name: See More
+  - url: https://www.cdc.gov/brfss/data_tools.htm
+    name: Prevalence Data & Data Analysis Tools
+  - url: https://www.cdc.gov/brfss/questionnaires/index.htm
+    name: BRFSS Questionnaires
+  - url: https://www.cdc.gov/brfss/data_documentation/index.htm
+    name: Survey Data & Documentation
+  - url: https://www.cdc.gov/brfss/publications/index.htm
+    name: Publications & Resources
+  - url: https://www.cdc.gov/brfss/data_documentation/statistic_brief.htm
+    name: Statistical Briefs
+  - url: https://healthdata.gov/
+    name: HealthData.gov
+  - url: https://data.cdc.gov/
+    name: Data Catalog
+  - url: https://www.cdc.gov/brfss/state_info/coordinators.htm
+    name: State Coordinators
+  - url: https://www.cdc.gov/brfss/state_info/brfss_use_examples.htm
+    name: State-by-State Listing of How Data Are Used
+  - url: http://www.cdc.gov/24-7/?s_cid=cdc_homepage_cdcinaction_001
+    name: [No text]
+  - url: https://www.cdc.gov/chronic-disease/
+    name: National Center for Chronic Disease Prevention and Health Promotion
+  - url: https://www.cdc.gov/nccdphp/divisions-offices/about-the-division-of-population-health.html
+    name: Division of Population Health
+  - url: https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
+    name: Facebook
+  - url: https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
+    name: Twitter
+  - url: https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
+    name: LinkedIn
+  - url: https://www.cdc.gov/brfss/
+    name: BRFSS
+  - url: https://www.cdc.gov/brfss/about/brfss_faq.htm
+    name: BRFSS FAQs
+  - url: https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO.htm
+    name: Behavioral Risk Factor Surveillance System Funding Opportunity
+  - url: https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO-faqs.htm
+    name: BRFSS NOFO FAQs
+  - url: https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO-call-script.htm
+    name: BRFSS NOFO Call Script
+  - url: https://www.cdc.gov/brfss/annual_data/annual_data.htm
+    name: Annual Survey Data
+  - url: https://www.cdc.gov/brfss/annual_data/annual_2022.html
+    name: 2022 Data
+  - url: https://www.cdc.gov/brfss/annual_data/annual_2021.html
+    name: 2021 Data
+  - url: https://www.cdc.gov/brfss/annual_data/annual_2020.html
+    name: 2020 Data
+  - url: https://www.cdc.gov/brfss/annual_data/annual_2019.html
+    name: 2019 Data
+  - url: https://www.cdc.gov/brfss/acbs/index.htm
+    name: Asthma Call-back Survey Data
+  - url: https://www.cdc.gov/brfss/acbs/2022_tables_LLCP.html
+    name: Table of Contents (LLCP)
+  - url: https://www.cdc.gov/brfss/acbs/2021_documentation.html
+    name: 2021 Data
+  - url: https://www.cdc.gov/brfss/acbs/2021_tables_LLCP.html
+    name: Table of Contents (LLCP)
+  - url: https://www.cdc.gov/brfss/acbs/2020_documentation.html
+    name: 2020 Data
+  - url: https://www.cdc.gov/brfss/acbs/2020_tables_LLCP.html
+    name: Table of Contents (LLCP)
+  - url: https://www.cdc.gov/brfss/acbs/combined_years_15-17.html
+    name: Children Combined Data 2015-2017
+  - url: https://www.cdc.gov/brfss/acbs/2015-2017_tables.html
+    name: Combined 2015-2017 Child ACBS Prevalence Tables
+  - url: https://www.cdc.gov/brfss/acbs/2017/pdf/Combined-2015-2017-Child-ACBS-Prevalence-Tables-Technical-Information_final-508.pdf
+    name: 2015-2017 ACBS Combined Prevalence Tables Technical Information [PDF - 195 KB]
+  - url: https://www.cdc.gov/brfss/acbs/combined_years_18-20.html
+    name: Children Combined Data 2018-2020
+  - url: https://www.cdc.gov/brfss/acbs/2018-2020_tables.html
+    name: Combined 2018-2020 Child ACBS Prevalence Tables
+  - url: https://www.cdc.gov/brfss/acbs/2018/multiple_year/files/Combined-2018-2020-ACBS-Child-Data-History_Analysis_final-508.docx
+    name: 2018-2020 ACBS Combined Prevalence Tables Technical Information [DOC - 316 KB]
+  - url: https://www.cdc.gov/brfss/acbs/combined_years_19-21.html
+    name: Children Combined Data 2019-2021
+  - url: https://www.cdc.gov/brfss/acbs/2019-2021_tables.html
+    name: Combined 2019-2021 Child ACBS Prevalence Tables
+  - url: https://www.cdc.gov/brfss/acbs/2019_documentation.html
+    name: 2019 Data
+  - url: https://www.cdc.gov/brfss/acbs/2019_tables_LLCP.html
+    name: Table of Contents (LLCP)
+  - url: https://www.cdc.gov/brfss/gis/gis_maps.htm
+    name: GIS Maps Data
+  - url: https://www.cdc.gov/brfss/gis/gis_maps_faq.htm
+    name: BRFSS Maps FAQs
+  - url: https://www.cdc.gov/brfss/smart/Smart_data.htm
+    name: SMART City and County Survey Data
+  - url: https://www.cdc.gov/brfss/smart/smart_faq.htm
+    name: SMART BRFSS FAQs
+  - url: https://www.cdc.gov/brfss/smart/smart_2023.html
+    name: 2023 Data
+  - url: https://www.cdc.gov/brfss/smart/smart_2022.html
+    name: 2022 Data
+  - url: https://www.cdc.gov/brfss/smart/smart_2021.html
+    name: 2021 Data
+  - url: https://www.cdc.gov/brfss/smart/smart_2020.html
+    name: 2020 Data
+  - url: https://www.cdc.gov/brfss/smart/smart_2019.html
+    name: 2019 Data
+  - url: https://www.cdc.gov/brfss/publications/ssummaries.htm
+    name: Surveillance Summaries
+  - url: https://www.cdc.gov/brfss/publications/data_qvr.htm
+    name: Data Quality
+  - url: https://www.cdc.gov/brfss/publications/mvr.html
+    name: Bibliography
+  - url: https://www.cdc.gov/brfss/state_info/index.htm
+    name: State Information
+  - url: https://www.cdc.gov/emailupdates/
+    name: What’s this?
+  - url: http://healthdata.gov/
+    name: HealthData.gov
+  - url: http://data.cdc.gov/
+    name: Data Catalog
+  - url: https://www.cdc.gov/chronicdisease/data/surveillance.htm
+    name: CDC’s Major Disease Surveillance Systems
+  - url: https://www.cdc.gov/24-7/?s_cid=24-7_004
+    name: [No text]
+  - url: https://www.cdc.gov/about/default.htm
+    name: About CDC
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: Contact Us
+    name: Email Us
+  - url: https://tools.cdc.gov/medialibrary/index.aspx
+    name: RSS
+  - url: https://jobs.cdc.gov
+    name: Jobs
+  - url: https://www.cdc.gov/funding
+    name: Funding
+  - url: https://www.cdc.gov/other/accessibility.html
+    name: Accessibility
+  - url: https://www.cdc.gov/Other/disclaimer.html
+    name: External Links
+  - url: https://www.cdc.gov/other/privacy.html
+    name: Privacy
+  - url: https://www.cdc.gov/Other/policies.html
+    name: Web Policies
+  - url: https://www.cdc.gov/od/foia
+    name: FOIA
+  - url: https://oig.hhs.gov
+    name: OIG
+  - url: https://www.cdc.gov/oeeowe/no-fear-act/
+    name: No Fear Act
+  - url: https://www.cdc.gov/other/nondiscrimination.html
+    name: Nondiscrimination
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+    name: Vulnerability Disclosure Policy
+  - url: https://archive.cdc.gov/
+    name: CDC Archive
+  - url: https://stacks.cdc.gov/
+    name: Public Health Publications
+  - url: https://hhs.gov/
+    name: HHS.gov
+  - url: https://www.usa.gov/
+    name: USA.gov
+  - url: https://wwwn.cdc.gov/dcs/RequestForm.aspx
+    name: Email
