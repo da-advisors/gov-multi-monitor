@@ -3,3 +3,24 @@ name: 120 Day Delinquent Debt Referral Compliance Report
 expected_update_frequency: null
 tags:
   - treasury
+linked_urls:
+  - url: https://fiscaldata.treasury.gov/
+    name: [No text]
+  - url: https://fiscaldata.treasury.gov/datasets/
+    name: Dataset Search
+  - url: https://fiscaldata.treasury.gov/about-us/
+    name: About Us
+  - url: https://fiscaldata.treasury.gov/api-documentation/
+    name: API Documentation
+  - url: https://onevoicecrm.my.site.com/FiscalDataCommunity/s/
+    name: Community Site
+  - url: https://fiscaldata.treasury.gov/release-calendar/
+    name: Release Calendar
+  - url: https://www.usaspending.gov/
+    name: USAspending
+  - url: https://fiscal.treasury.gov/accessibility.html
+    name: Accessibility
+  - url: https://fiscal.treasury.gov/privacy.html
+    name: Privacy Policy
+  - url: https://fiscal.treasury.gov/foia.html
+    name: Freedom of Information Act
