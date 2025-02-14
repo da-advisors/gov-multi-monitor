@@ -4,3 +4,214 @@ expected_update_frequency: null
 tags:
   - housing
   - mortgage
+linked_urls:
+  - url: https://www.consumerfinance.gov/
+    name: [No text]
+  - url: https://www.consumerfinance.gov/complaint/
+    name: Submit a Complaint
+  - url: https://search.consumerfinance.gov/search?affiliate=cfpb&query=
+    name: Search
+  - url: https://www.consumerfinance.gov/data-research/hmda/
+    name: Consumer Education
+    name: Mortgage Database (HMDA)
+    name: News
+  - url: https://www.consumerfinance.gov/consumer-tools/
+    name: Resources for Yourself
+    name: Explore guides to help you plan for big financial goals
+  - url: https://www.consumerfinance.gov/consumer-tools/educator-tools/
+    name: Resources for Helping Others
+  - url: https://www.consumerfinance.gov/data-research/consumer-complaints/
+    name: Consumer Complaint Database
+  - url: https://www.consumerfinance.gov/consumer-tools/auto-loans/
+    name: Auto Loans
+  - url: https://www.consumerfinance.gov/consumer-tools/bank-accounts/
+    name: Bank Accounts & Services
+  - url: https://www.consumerfinance.gov/consumer-tools/credit-cards/
+    name: Credit Cards
+  - url: https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/
+    name: Credit Reports & Scores
+  - url: https://www.consumerfinance.gov/consumer-tools/debt-collection/
+    name: Debt Collection
+  - url: https://www.consumerfinance.gov/consumer-tools/fraud/
+    name: Fraud & Scams
+  - url: https://www.consumerfinance.gov/consumer-tools/money-transfers/
+    name: Money Transfers
+  - url: https://www.consumerfinance.gov/consumer-tools/mortgages/
+    name: Mortgages
+  - url: https://www.consumerfinance.gov/consumer-tools/payday-loans/
+    name: Payday Loans
+  - url: https://www.consumerfinance.gov/consumer-tools/prepaid-cards/
+    name: Prepaid Cards
+  - url: https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/
+    name: Reverse Mortgages
+  - url: https://www.consumerfinance.gov/consumer-tools/student-loans/
+    name: Student Loans
+  - url: https://www.consumerfinance.gov/your-story/
+    name: Tell Your Story
+  - url: https://pueblo.gpo.gov/CFPBPubs/CFPBPubs.php
+    name: Order free brochures
+  - url: https://www.consumerfinance.gov/ask-cfpb/
+    name: Browse Ask CFPB
+  - url: https://www.consumerfinance.gov/rules-policy/
+    name: Rules & Policy
+    name: Rules & Policy Overview
+  - url: https://www.consumerfinance.gov/rules-policy/final-rules/
+    name: Final Rules
+  - url: https://www.consumerfinance.gov/rules-policy/regulations/
+    name: Interactive Regulations
+  - url: https://www.consumerfinance.gov/rules-policy/rules-under-development/
+    name: Rules Under Development
+  - url: https://www.consumerfinance.gov/rules-policy/notice-opportunities-comment/
+    name: Notices and Opportunities to Comment
+  - url: https://www.consumerfinance.gov/rules-policy/regulatory-agenda/
+    name: Regulatory Agenda
+  - url: https://www.consumerfinance.gov/rules-policy/petitions-rulemaking/
+    name: Petitions for Rulemaking
+  - url: https://www.consumerfinance.gov/rules-policy/competition-innovation/
+    name: Competition and Innovation
+  - url: https://www.consumerfinance.gov/rules-policy/advisory-committees/
+    name: Advisory Committees
+  - url: https://www.consumerfinance.gov/enforcement/
+    name: Enforcement
+    name: Enforcement Overview
+  - url: https://www.consumerfinance.gov/enforcement/actions/
+    name: Enforcement Actions
+  - url: https://www.consumerfinance.gov/enforcement/enforcement-by-the-numbers/
+    name: Enforcement by the Numbers
+  - url: https://www.consumerfinance.gov/enforcement/investigatory-authority/
+    name: Investigatory Authority
+  - url: https://www.consumerfinance.gov/enforcement/warning-letters/
+    name: Warning Letters
+  - url: https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/
+    name: Payments to Harmed Consumers
+  - url: https://www.consumerfinance.gov/enforcement/information-industry-whistleblowers/
+    name: Industry Whistleblowers
+  - url: https://www.consumerfinance.gov/compliance/
+    name: Compliance
+    name: Compliance Overview
+  - url: https://www.consumerfinance.gov/compliance/compliance-resources/
+    name: Compliance Resources
+  - url: https://www.consumerfinance.gov/compliance/advisory-opinion-program/
+    name: Advisory Opinion Program
+  - url: https://www.consumerfinance.gov/compliance/circulars/
+    name: Consumer Financial Protection Circulars
+  - url: https://www.consumerfinance.gov/compliance/supervision-examinations/
+    name: Supervision and Examinations
+  - url: https://www.consumerfinance.gov/compliance/supervisory-highlights/
+    name: Supervisory Highlights
+  - url: https://www.consumerfinance.gov/compliance/supervisory-guidance/
+    name: Supervisory Guidance
+  - url: https://www.consumerfinance.gov/compliance/registration-and-submission-programs/
+    name: Registration & Submission Programs
+  - url: https://www.consumerfinance.gov/compliance/amicus/
+    name: Amicus Program
+  - url: https://www.consumerfinance.gov/compliance/consumer-complaint-program/
+    name: Consumer Complaint Program
+  - url: https://www.consumerfinance.gov/data-research/
+    name: Data & Research
+    name: Data & Research Overview
+  - url: https://www.consumerfinance.gov/data-research/research-reports/
+    name: Reports
+  - url: https://www.consumerfinance.gov/data-research/research-hub/
+    name: Research Hub
+  - url: https://www.consumerfinance.gov/data-research/small-business-lending/
+    name: Small Business Lending Database
+  - url: https://www.consumerfinance.gov/data-research/public-data-inventory/
+    name: Public Data Inventory
+  - url: https://www.consumerfinance.gov/data-research/consumer-credit-trends/
+    name: Consumer Credit Trends
+  - url: https://www.consumerfinance.gov/data-research/mortgage-performance-trends/
+    name: Mortgage Performance Trends
+  - url: https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/
+    name: Financial Well-Being Survey
+    name: Help advance financial well-being
+  - url: https://www.consumerfinance.gov/data-research/credit-card-data/
+    name: Credit Card Surveys & Agreements
+  - url: https://www.consumerfinance.gov/data-research/prepaid-accounts/
+    name: Prepaid Account Agreements
+  - url: https://www.consumerfinance.gov/data-research/nbr-submission/
+    name: Nonbank Registry
+  - url: https://www.consumerfinance.gov/about-us/newsroom/?categories=press-release
+    name: Press Releases
+  - url: https://www.consumerfinance.gov/about-us/newsroom/?categories=op-ed&categories=speech
+    name: Speeches & Op-eds
+  - url: https://www.consumerfinance.gov/about-us/newsroom/?categories=testimony
+    name: Testimony
+  - url: https://www.consumerfinance.gov/about-us/newsroom/?categories=directors-statement
+    name: Statements
+  - url: https://www.consumerfinance.gov/about-us/blog/
+    name: Blog
+  - url: https://www.consumerfinance.gov/about-us/blog/?categories=directors-notebook
+    name: Director’s Notebook
+  - url: https://www.consumerfinance.gov/activity-log/
+    name: Recent Updates
+  - url: https://www.consumerfinance.gov/about-us/newsroom/?categories=consumer-advisories
+    name: Consumer Advisories
+  - url: https://www.consumerfinance.gov/compliance/compliance-resources/mortgage-resources/hmda-reporting-requirements/
+    name: Learn about complying with HMDA
+  - url: https://ffiec.cfpb.gov/
+    name: Get resources for filers
+  - url: https://www.consumerfinance.gov/data-research/hmda/historic-data/
+    name: Download 2007-2017 data
+  - url: https://ffiec.cfpb.gov/data-publication/
+    name: See recent data and summaries
+  - url: https://ffiec.cfpb.gov/data-publication/modified-lar
+    name: Download data for a specific institution
+  - url: https://ffiec.cfpb.gov/data-browser/
+    name: Browse HMDA data
+  - url: https://www.consumerfinance.gov/data-research/research-reports/2023-mortgage-market-activity-and-trends/
+    name: Data Point: 2023 Mortgage Market Activity and Trends
+  - url: https://content.consumerfinance.gov/data-research/research-reports/?title=&topics=hmda-reporting&from_date=&to_date=
+    name: View reports using the HMDA data
+  - url: https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-americans-are-paying-upfront-fees-seeking-to-lower-interest-rates-on-mortgages/
+    name: CFPB Finds Americans are Paying Upfront Fees Seeking to Lower Interest Rates on Mortgages
+  - url: https://www.consumerfinance.gov/about-us/newsroom/cfpb-annual-report-2021-mortgage-market-activity-end-to-refinancing-boom/
+    name: CFPB Annual Report of 2021 Mortgage Market Activity Reveals an End to the Refinancing Boom and an Increase in Home Purchase Loans
+  - url: https://www.consumerfinance.gov/about-us/newsroom/2021-hmda-data-on-mortgage-lending-now-available/
+    name: 2021 HMDA Data on Mortgage Lending Now Available
+  - url: https://www.consumerfinance.gov/activity-log/?topics=home-mortgage-disclosure-act
+    name: View more
+  - url: https://www.consumerfinance.gov/about-us/
+    name: About Us
+  - url: https://www.consumerfinance.gov/about-us/contact-us/
+    name: Contact Us
+  - url: https://www.consumerfinance.gov/about-us/careers/
+    name: Careers
+  - url: https://www.consumerfinance.gov/about-us/events/
+    name: Events
+  - url: https://www.consumerfinance.gov/cfpb-ombudsman/
+    name: CFPB Ombudsman
+  - url: https://x.com/CFPB
+    name: [No text]
+  - url: https://www.flickr.com/photos/cfpbphotos
+    name: [No text]
+  - url: https://www.consumerfinance.gov/foia-requests/
+    name: FOIA
+  - url: https://www.consumerfinance.gov/privacy/
+    name: Privacy
+  - url: https://www.consumerfinance.gov/privacy/website-privacy-policy/
+    name: Website Privacy Policy & Legal Notices
+  - url: https://www.consumerfinance.gov/data/
+    name: Data
+  - url: https://www.consumerfinance.gov/open-government/
+    name: Open Government
+  - url: https://www.consumerfinance.gov/open-government/information-quality-guidelines/
+    name: Information Quality Guidelines
+  - url: https://www.consumerfinance.gov/about-us/omwi/
+    name: Office of Minority and Women Inclusion
+  - url: https://www.consumerfinance.gov/administrative-adjudication-proceedings/
+    name: Administrative Adjudication
+  - url: https://www.consumerfinance.gov/plain-writing/
+    name: Plain Writing
+  - url: https://www.consumerfinance.gov/accessibility/
+    name: Accessibility
+  - url: https://www.consumerfinance.gov/office-civil-rights/
+    name: Office of Civil Rights
+  - url: https://www.consumerfinance.gov/office-civil-rights/no-fear-act-cummings-act/
+    name: No FEAR Act & Cummings Act
+  - url: https://www.consumerfinance.gov/tribal/
+    name: Tribal
+  - url: https://www.usa.gov/
+    name: USA.gov
+  - url: https://oig.federalreserve.gov/
+    name: Office of Inspector General

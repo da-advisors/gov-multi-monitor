@@ -4,3 +4,157 @@ name: Standing General Order 2021-01 | Incident Reporting for Automated Driving 
 expected_update_frequency: null
 tags:
   - transportation
+linked_urls:
+  - url: https://www.transportation.gov/
+    name: U.S. Department of Transportation
+  - url: https://www.nhtsa.gov/report-a-safety-problem
+    name: Report a Safety Problem
+  - url: https://www.nhtsa.gov/
+    name: Homepage
+  - url: https://www.nhtsa.gov/ratings
+    name: Ratings
+  - url: https://www.nhtsa.gov/recalls
+    name: Recalls
+  - url: https://www.nhtsa.gov/risky-driving
+    name: Risky Driving
+  - url: https://www.nhtsa.gov/risky-driving/drunk-driving
+    name: Drunk Driving
+  - url: https://www.nhtsa.gov/risky-driving/drug-impaired-driving
+    name: Drug-Impaired Driving
+  - url: https://www.nhtsa.gov/risky-driving/distracted-driving
+    name: Distracted Driving
+  - url: https://www.nhtsa.gov/risky-driving/speeding
+    name: Speeding
+  - url: https://www.nhtsa.gov/risky-driving/drowsy-driving
+    name: Drowsy Driving
+  - url: https://www.nhtsa.gov/road-safety
+    name: Road Safety
+  - url: https://www.nhtsa.gov/road-safety/child-safety
+    name: Child Safety
+  - url: https://www.nhtsa.gov/road-safety/teen-driving
+    name: Teen Driving
+  - url: https://www.nhtsa.gov/road-safety/older-drivers
+    name: Older Drivers
+  - url: https://www.nhtsa.gov/road-safety/pedestrian-safety
+    name: Pedestrian Safety
+  - url: https://www.nhtsa.gov/road-safety/bicycle-safety
+    name: Bicycle Safety
+  - url: https://www.nhtsa.gov/road-safety/motorcycles
+    name: Motorcycle Safety
+  - url: https://www.nhtsa.gov/road-safety/school-bus-safety
+    name: School Bus Safety
+  - url: https://www.nhtsa.gov/vehicle-safety
+    name: Vehicle Safety
+  - url: https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats
+    name: Car Seats & Boosters
+  - url: https://www.nhtsa.gov/vehicle-safety/seat-belts
+    name: Seat Belts
+  - url: https://www.nhtsa.gov/vehicle-safety/tires
+    name: Tires
+  - url: https://www.nhtsa.gov/vehicle-safety/air-bags
+    name: Air Bags
+  - url: https://www.nhtsa.gov/vehicle-safety/takata-recall-spotlight
+    name: Takata Recall Spotlight
+  - url: https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies
+    name: Driver Assistance Technologies
+  - url: https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles
+    name: Electric & Hybrid Vehicles
+  - url: https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety
+    name: Automated Vehicles
+  - url: https://www.nhtsa.gov/vehicle-safety/vehicle-theft-prevention
+    name: Vehicle Theft Prevention
+  - url: https://www.nhtsa.gov/vehicle-safety/odometer-fraud
+    name: Odometer Fraud
+  - url: https://www.nhtsa.gov/vehicle-safety/adapted-vehicles
+    name: Adapted Vehicles
+  - url: https://www.nhtsa.gov/vehicle-safety/15-passenger-vans
+    name: 15-Passenger Vans
+  - url: https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting
+    name: More
+  - url: https://www.nhtsa.gov/about-nhtsa/briefing-room
+    name: Briefing Room
+  - url: https://www.nhtsa.gov/importing-vehicle
+    name: Importing a Vehicle
+  - url: https://www.nhtsa.gov/data
+    name: Data
+  - url: https://www.nhtsa.gov/research
+    name: Research
+  - url: https://www.nhtsa.gov/laws-regulations
+    name: Laws & Regulations
+  - url: https://www.nhtsa.gov/vehicle-manufacturers
+    name: Vehicle Manufacturers
+  - url: https://www.nhtsa.gov/highway-safety-grants-program
+    name: State Governments
+  - url: https://www.nhtsa.gov/enforcement-justice-services
+    name: Enforcement & Justice
+  - url: https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads
+    name: PDF Download
+  - url: https://www.nhtsa.gov/node/102611
+    name: safety defect
+  - url: https://www.nhtsa.gov/document/summary-report-standing-general-order-ads
+    name: PDF Download
+  - url: https://www.nhtsa.gov/document/summary-report-standing-general-order-adas-l2
+    name: PDF Download
+  - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf
+    name: Data Element Definitions & Log (PDF)
+  - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv
+    name: ADS Incident Report Data
+  - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv
+    name: Level 2 ADAS Incident Report Data
+  - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv
+    name: Other Incident Report Data
+  - url: https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
+    name: NHTSA.gov
+    name: Automated Vehicles for Safety
+  - url: https://www.sae.org/standards/content/j3016_202104
+    name: six Levels of Driving Automation
+  - url: https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads-sample-form
+    name: here
+  - url: https://www.nhtsa.gov/automated-vehicle-test-tracking-tool
+    name: AV TEST Initiative
+  - url: https://www.nhtsa.gov/equipment/driver-assistance-technologies
+    name: Driver Assistance Technologies
+  - url: https://www.nhtsa.gov/about-nhtsa
+    name: About NHTSA
+  - url: https://www.nhtsa.gov/about-nhtsa/working-nhtsa
+    name: Careers & Internships
+  - url: https://www.nhtsa.gov/about-nhtsa/contact-us
+    name: Contact Us
+  - url: https://www.nhtsa.gov/campaign/safercar-app
+    name: SaferCar App
+  - url: https://www.trafficsafetymarketing.gov/
+    name: TrafficSafetyMarketing.gov
+  - url: https://www.ems.gov/
+    name: EMS.gov
+  - url: https://www.911.gov
+    name: 911.gov
+  - url: https://www.nhtsa.gov/about-nhtsa/web-policies-notices
+    name: Web Policies & Notices
+  - url: https://www.nhtsa.gov/about-nhtsa/accessibility
+    name: Accessibility
+  - url: https://www.nhtsa.gov/about-nhtsa/foia
+    name: FOIA
+  - url: https://www.nhtsa.gov/about-nhtsa/privacy-policy
+    name: Privacy Policy
+  - url: https://www.transportation.gov/regulations/dot-information-dissemination-quality-guidelines
+    name: Information Quality
+  - url: https://www.transportation.gov/vulnerability-disclosure-policy
+    name: Vulnerability Disclosure Policy
+  - url: https://www.eeoc.gov/eeoc/statistics/nofear/qanda.cfm
+    name: No Fear Act Data
+  - url: https://www.transportation.gov/ethics
+    name: Ethics
+  - url: https://www.transportation.gov/civil-rights
+    name: Civil Rights
+  - url: https://www.oig.dot.gov/
+    name: Office of Inspector General
+  - url: https://www.oig.dot.gov/hotline
+    name: OIG Hotline
+  - url: https://www.usa.gov/business
+    name: BusinessUSA
+  - url: https://www.usa.gov/
+    name: USA.gov
+  - url: https://www.whitehouse.gov/
+    name: WhiteHouse.gov
+  - url: https://www.transportation.gov/feedback?title=NHTSA%20Page&url=https%3A%2F%2Fnhtsa.gov%2F
+    name: Submit Feedback
