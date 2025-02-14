@@ -14,13 +14,10 @@ archived_content:
 linked_urls:
   - url: https://www.cancer.gov/about-cancer/understanding/disparities
     name: Cancer Health Disparities
-    type: html
   - url: https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
     name: Cancer Moonshot Scholars Fact Sheet
-    type: html
   - url: https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
     name: Cancer Moonshot Scholars - Bailey Report
-    type: pdf
   - url: https://www.cancer.gov/
     name: National Cancer Institute
   - url: https://www.cancer.gov/about-cancer
@@ -58,27 +55,27 @@ linked_urls:
   - url: https://www.cancer.gov/research/key-initiatives
     name: Key NCI Initiatives
   - url: https://www.cancer.gov/contact/emergency-preparedness
-    name: Emergency ResourcesLearn about resources for patients and health care providers to continue cancer care when natural or human-made disasters occur.
+    name: Emergency Resources
   - url: https://www.cancer.gov/news-events/cancer-currents-blog/2025/lung-cancer-stigma-teaching-empathy
-    name: Training Program Aims to Reduce Lung Cancer StigmaThe training program for health professionals is being tested in a clinical trial.
+    name: Training Program Aims to Reduce Lung Cancer Stigma
   - url: https://www.cancer.gov/news-events/cancer-currents-blog/2025/fructose-tumor-growth-liver-lipids
-    name: How One Type of Sugar Might Help Tumors GrowFructose gets a lift from the liver to fuel the growth of some types of tumors, a new study suggests.
+    name: How One Type of Sugar Might Help Tumors Grow
   - url: https://nationalcancerplan.cancer.gov/goals/maximize-data-utility
-    name: Learn More
+    name: Maximize Data Utility - National Cancer Plan
   - url: https://www.cancer.gov/research/leading-progress?cid=wl_cgov_hpfc_ap-rollout
-    name: Learn More
+    name: NCI Fiscal Year 2026 Annual Plan & Professional Judgment Budget Proposal
   - url: https://www.cancer.gov/contact
-    name: Contact Us
+    name: NCI's Cancer Information Service
   - url: https://www.cancer.gov/about-nci/leadership
     name: Senior LeadersInformation about NCI senior leadership.
   - url: https://www.cancer.gov/about-nci/organization
-    name: NCI Divisions, Offices, and CentersNCI has 30 divisions, offices, and centers who work together to build, maintain, and enhance a cohesive and comprehensive cancer research agenda.
+    name: NCI Divisions, Offices, and Centers
   - url: https://www.cancer.gov/about-nci/advisory-boards
-    name: Advisory Boards and Review GroupsNCI relies on advisory committees to provide advice on the National Cancer Program, NCI scientific priorities, and more.
+    name: Advisory Boards and Review Groups
   - url: https://www.cancer.gov/about-website
     name: About This Website
   - url: https://www.cancer.gov/policies/copyright-reuse
-    name: Reuse & Copyright
+    name: Reuse of NCI Information
   - url: https://www.cancer.gov/social-media
     name: Social Media
   - url: https://www.cancer.gov/publications
