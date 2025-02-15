@@ -4,8 +4,6 @@ expected_update_frequency: null
 tags:
   - health
 linked_urls:
-  - url: https://addhealth.cpc.unc.edu/
-    name: Add Health
   - url: https://addhealth.cpc.unc.edu/about/
     name: About
   - url: https://addhealth.cpc.unc.edu/about/contact-us/
@@ -19,7 +17,7 @@ linked_urls:
   - url: https://addhealth.cpc.unc.edu/documentation/codebooks/
     name: Codebooks
   - url: https://addhealth-navigator.cpc.unc.edu/
-    name: Add Health Navigator
+    name: Navigator
   - url: https://addhealth.cpc.unc.edu/documentation/codebook-explorer/
     name: Codebook Explorer
   - url: https://addhealth.cpc.unc.edu/documentation/add-health-contextual-variable-inventory/
@@ -36,22 +34,6 @@ linked_urls:
     name: Events
   - url: https://addhealth.cpc.unc.edu/participants/
     name: Participants
-  - url: https://addhealth.cpc.unc.edu/home/
-    name: Home Page
-  - url: https://addhealth.cpc.unc.edu/featured-page-2/
-    name: Home Page
-  - url: https://addhealth.cpc.unc.edu/user-guides/
-    name: User Guides
-  - url: https://addhealth.cpc.unc.edu/codebooks/
-    name: Codebooks
-  - url: https://addhealth.cpc.unc.edu/contact-us
-    name: Contact us
-  - url: https://addhealth.cpc.unc.edu/data/ancillary-studies
-    name: Ancillary Studies
-  - url: https://addhealth.cpc.unc.edu/participants
-    name: Participants
-  - url: https://addhealth.cpc.unc.edu/frequently-asked-questions/
-    name: FAQs
   - url: https://www.unc.edu/about/privacy-statement/
     name: Privacy Policy
   - url: https://addhealth.cpc.unc.edu/accessibility/
