@@ -2,7 +2,7 @@ name: Check URLs and Deploy Status Page
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Run every hour
+    - cron: '0 */2 * * *'  # Run every 2 hours
   workflow_dispatch:  # Allow manual trigger
   push:
     branches: [ main ]
@@ -38,8 +38,28 @@ jobs:
           pip install duckdb  # Install duckdb explicitly
           pip install -e .
       
+      - name: Download previous database
+        run: |
+          mkdir -p data
+          # Try to download previous DB, if it fails create a new one
+          if curl -L -f -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db; then
+            echo "Successfully downloaded existing database"
+          else
+            echo "No existing database found, creating new one"
+            # Copy from the repo as our initial database
+            cp data/monitor.db data/monitor.db.new
+            mv data/monitor.db.new data/monitor.db
+          fi
+      
       - name: Run URL checks
-        run: python -m multi_monitor check --verbose
+        env:
+          PYTHONPATH: /home/runner/work/gov-multi-monitor/gov-multi-monitor/src
+          PYTHONUNBUFFERED: 1  # Ensure we see output immediately
+          LOGLEVEL: DEBUG  # Set logging to debug level
+        run: |
+          # Set up debug logging
+          python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
+          python -m multi_monitor check --verbose
       
       - name: Generate status page
         run: |
