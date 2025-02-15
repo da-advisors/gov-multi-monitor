@@ -150,6 +150,7 @@
                     <th>Name</th>
                     <th>Tags</th>
                     <th>Status</th>
+                    <th>Linked URLs</th>
                 </tr>
             </thead>
             <tbody>
@@ -175,6 +176,15 @@
                             {% endif %}
                         {% else %}
                             {{ result.status }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if result.linked_url_results %}
+                            {% set ok_count = result.linked_url_results|selectattr('status', 'equalto', 'ok')|list|length %}
+                            {% set total = result.linked_url_results|length %}
+                            {{ ok_count }}/{{ total }} OK
+                        {% else %}
+                            -
                         {% endif %}
                     </td>
                 </tr>
