@@ -130,10 +130,10 @@ class CheckHistory:
         results = self.db.conn.execute(
             'SELECT r.url, r.name, rs.checked_at, rs.status, rs.status_code, rs.redirect_url, rs.last_modified, rs.error_message, rs.response_time '
             'FROM resources r '
-            'JOIN resource_statuses rs ON r.id = rs.resource_id '
+            'JOIN resource_status rs ON r.id = rs.resource_id '
             'WHERE rs.checked_at = ( '
             '    SELECT MAX(checked_at) '
-            '    FROM resource_statuses '
+            '    FROM resource_status '
             '    WHERE resource_id = r.id '
             ')'
         ).fetchall()
@@ -164,7 +164,7 @@ class CheckHistory:
         results = self.db.conn.execute(
             'SELECT r.url, r.name, rs.checked_at, rs.status, rs.status_code, rs.redirect_url, rs.last_modified, rs.error_message, rs.response_time '
             'FROM resources r '
-            'JOIN resource_statuses rs ON r.id = rs.resource_id '
+            'JOIN resource_status rs ON r.id = rs.resource_id '
             'WHERE r.url = ? '
             'ORDER BY rs.checked_at DESC',
             (url,)
@@ -199,7 +199,7 @@ class CheckHistory:
         result = self.db.conn.execute(
             'SELECT MAX(rs.checked_at) '
             'FROM resources r '
-            'JOIN resource_statuses rs ON r.id = rs.resource_id '
+            'JOIN resource_status rs ON r.id = rs.resource_id '
             'WHERE r.url = ? AND rs.status_code = 200',
             (url,)
         ).fetchone()
@@ -213,7 +213,7 @@ class CheckHistory:
         results = self.db.conn.execute(
             'SELECT r.url, r.name, rs.checked_at, rs.status, rs.status_code, rs.redirect_url, rs.last_modified, rs.error_message, rs.response_time '
             'FROM resources r '
-            'JOIN resource_statuses rs ON r.id = rs.resource_id '
+            'JOIN resource_status rs ON r.id = rs.resource_id '
             'WHERE rs.checked_at > ?',
             (since,)
         ).fetchall()
