@@ -8,15 +8,12 @@ archived_content:
   - url: https://web.archive.org/web/20250124100301/https://www.cdc.gov/nchs/nhis/sexual-orientation.htm
     name: NHIS Sexual Orientation Data
 linked_urls:
-  - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm
-    name: Search NCHS
-    name: All CDC
   - url: https://archive.cdc.gov/nchs/index.htm
     name: National Center for Health Statistics
   - url: https://archive.cdc.gov/nchs/nhis/index.htm
     name: National Health Interview Survey
   - url: https://www.cdc.gov/nchs/nhis/index.html
-    name: https://www.cdc.gov/nchs/nhis/
+    name: National Health Interview Survey
   - url: https://archive.cdc.gov/nchs/nhis/about_nhis.htm
     name: About NHIS
   - url: https://archive.cdc.gov/nchs/nhis/2019_quest_redesign.htm
@@ -28,7 +25,6 @@ linked_urls:
   - url: https://archive.cdc.gov/nchs/nhis/nhis-webinar.htm
     name: Webinar
   - url: https://archive.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm
-    name: Questionnaires, Datasets, and Related Documentation
     name: Data, Questionnaires, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/quest_doc.htm
     name: Survey Instruments
@@ -137,163 +133,163 @@ linked_urls:
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_topics.htm
     name: List of Topics
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_questionnaires.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Adult Alcohol Use Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_changes.htm
-    name: Major Changes
+    name: Adult Alcohol Use Major Changes
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_questions.htm
     name: Adult Alcohol Use Questions
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_guide.htm
-    name: Guide for Data Users
+    name: Adult Alcohol Use Guide for Data Users
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_recodes.htm
-    name: Recodes
+    name: Adult Alcohol Use Recodes
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_statistics.htm
     name: Alcohol Statistics
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_faq.htm
-    name: Frequently Asked Questions
+    name: Adult Alcohol Use Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_references.htm
-    name: References
+    name: Adult Alcohol Use References
   - url: https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_glossary.htm
-    name: Glossary
+    name: Adult Alcohol Use Glossary
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity.htm
-    name: Adult Physical Activity Information
+    name: Physical Activity Information
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_history.htm
-    name: Historical Context
+    name: Physical Activity Historical Context
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_overview.htm
-    name: Overview of Topics
+    name: Physical Activity Overview of Topics
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_topics.htm
-    name: List of Topics
+    name: Physical Activity List of Topics
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_questionnaires.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Physical Activity Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_changes.htm
-    name: Major Changes
+    name: Physical Activity Major Changes
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_questions.htm
-    name: Adult Physical Activity Questions
+    name: Physical Activity Questions
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_guide.htm
-    name: Guide for Data Users
+    name: Physical Activity Guide for Data Users
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_recodes.htm
-    name: Recodes
+    name: Physical Activity Recodes
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_comparison.htm
     name: Comparison of Two Sets of Physical Activity Questions
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_statistics.htm
     name: Adult Physical Activity Statistics
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_faq.htm
-    name: Frequently Asked Questions
+    name: Physical Activity Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_references.htm
-    name: References
+    name: Physical Activity References
   - url: https://archive.cdc.gov/nchs/nhis/physical_activity/pa_glossary.htm
-    name: Glossary
+    name: Physical Activity Glossary
   - url: https://archive.cdc.gov/nchs/nhis/tobacco.htm
     name: Adult Tobacco Use Information
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_history.htm
-    name: Historical Context
+    name: Tobacco Use Historical Context
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_overview.htm
-    name: Overview of Topics
+    name: Tobacco Use Overview of Topics
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_topics.htm
-    name: List of Topics
+    name: Tobacco Use List of Topics
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_questionnaires.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Tobacco Use Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_changes.htm
-    name: Major Changes
+    name: Tobacco Use Major Changes
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_questions.htm
     name: Adult Tobacco Use Questions
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_guide.htm
-    name: Guide for Data Users
+    name: Tobacco Use Guide for Data Users
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_recodes.htm
-    name: Recodes
+    name: Tobacco Use Recodes
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_statistics.htm
     name: Tobacco Statistics
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_faq.htm
-    name: Frequently Asked Questions
+    name: Tobacco Use Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_references.htm
-    name: References
+    name: Tobacco Use References
   - url: https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_glossary.htm
-    name: Glossary
+    name: Tobacco Use Glossary
   - url: https://archive.cdc.gov/nchs/nhis/insurance.htm
     name: Health Insurance Information
   - url: https://archive.cdc.gov/nchs/nhis/health_insurance/hi_history.htm
-    name: Historical Context
+    name: Health Insurance Historical Context
   - url: https://archive.cdc.gov/nchs/nhis/health_insurance/hi_content.htm
-    name: Questionnaire Content
+    name: Health Insurance Questionnaire Content
   - url: https://archive.cdc.gov/nchs/nhis/health_insurance/hi_eval.htm
     name: Evaluation and Editing of Health Insurance Data
   - url: https://archive.cdc.gov/nchs/nhis/health_insurance/hi_statistics.htm
     name: Health Insurance Statistics
   - url: https://archive.cdc.gov/nchs/nhis/health_insurance/hi_glossary.htm
-    name: Glossary
+    name: Health Insurance Glossary
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning.htm
     name: Injury and Poisoning Information
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_history.htm
-    name: Historical Context
+    name: Injury and Poisoning Historical Context
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_questionnaires.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Injury and Poisoning Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_changes.htm
-    name: Major Changes
+    name: Injury and Poisoning Major Changes
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_questions.htm
     name: Injury and Poisoning Questions
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_guide.htm
-    name: Guide for Data Users
+    name: Injury and Poisoning Guide for Data Users
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_editing.htm
     name: Editing and Processing the Injury and Poisoning Data
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_statistics.htm
     name: Injury and Poisoning Statistics
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_calculating_estimates.htm
-    name: Calculating Estimates
+    name: Injury and Poisoning Calculating Estimates
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_publications.htm
-    name: NCHS Publications
+    name: Injury and Poisoning NCHS Publications
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_references.htm
-    name: References
+    name: Injury and Poisoning References
   - url: https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_glossary.htm
-    name: Glossary
+    name: Injury and Poisoning Glossary
   - url: https://archive.cdc.gov/nchs/nhis/rhoi.htm
     name: Race and Hispanic Origin Information
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_history.htm
-    name: Historical Context
+    name: Race and Hispanic Origin Historical Context
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_questionnaires.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Race and Hispanic Origin Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_changes.htm
-    name: Major Changes
+    name: Race and Hispanic Origin Major Changes
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_documentation.htm
-    name: Documentation
+    name: Race and Hispanic Origin Documentation
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_presentations.htm
-    name: Presentations
+    name: Race and Hispanic Origin Presentations
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_faq.htm
-    name: Frequently Asked Questions
+    name: Race and Hispanic Origin Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_bibliography.htm
-    name: Annotated Bibliography
+    name: Race and Hispanic Origin Annotated Bibliography
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_references.htm
-    name: References
+    name: Race and Hispanic Origin References
   - url: https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_glossary.htm
-    name: Glossary
+    name: Race and Hispanic Origin Glossary
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/index.htm
     name: Sexual Orientation Information
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/background.htm
-    name: Background
+    name: Sexual Orientation Background
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/questionnaire.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Sexual Orientation Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/statistics.htm
     name: Sexual Orientation Statistics
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/faqs.htm
-    name: Frequently Asked Questions
+    name: Sexual Orientation Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/sexual_orientation/references.htm
-    name: References
+    name: Sexual Orientation References
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/veterans-health-info.htm
     name: Veterans Health Information
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/background.htm
-    name: Background
+    name: Veterans Health Background
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/questionnaire.htm
-    name: Questionnaires, Datasets, and Related Documentation
+    name: Veterans Health Questionnaires, Datasets, and Related Documentation
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/veterans-health-statistics.htm
     name: Veterans Health Statistics
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/tables.htm
     name: Tables of Veterans Health Statistics
   - url: https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/publications.htm
-    name: Other Publications
+    name: Other Veterans Health Publications
   - url: https://archive.cdc.gov/nchs/nhis/nhpi.html
     name: Native Hawaiian and Pacific Islander NHIS
   - url: https://archive.cdc.gov/nchs/nhis/nhpi/nhpi_2014_data_release.htm
-    name: 2014 Data Release
+    name: Native Hawaiian and Pacific Islander 2014 Data Release
   - url: https://archive.cdc.gov/nchs/nhis/nhpi/faqs.htm
-    name: Frequently Asked Questions
+    name: Native Hawaiian and Pacific Islander Frequently Asked Questions
   - url: https://archive.cdc.gov/nchs/nhis/teen.htm
     name: NHIS-Teen
   - url: https://archive.cdc.gov/nchs/nhis/nhis_disability.htm
