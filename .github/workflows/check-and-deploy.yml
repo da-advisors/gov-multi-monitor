@@ -41,8 +41,13 @@ jobs:
       - name: Download previous database
         run: |
           mkdir -p data
-          # Try to download previous DB, but don't fail if it doesn't exist
-          curl -L -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db || true
+          # Try to download previous DB, if it fails, remove the empty file
+          if curl -L -f -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db; then
+            echo "Successfully downloaded existing database"
+          else
+            echo "No existing database found, will create new one"
+            rm -f data/monitor.db  # Remove empty file if curl failed
+          fi
           # Initialize DB if it doesn't exist or is empty
           python -c "from multi_monitor.db import MonitorDB; MonitorDB('data/monitor.db')"
 
