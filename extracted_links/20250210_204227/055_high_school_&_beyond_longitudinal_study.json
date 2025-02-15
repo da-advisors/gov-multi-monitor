@@ -1,0 +1,175 @@
+{
+  "source_yaml": "055_high_school_&_beyond_longitudinal_study.yaml",
+  "source_url": "https://nces.ed.gov/surveys/hsb/",
+  "name": "High School & Beyond Longitudinal Study",
+  "timestamp": "Tue, 11 Feb 2025 03:46:26 GMT",
+  "num_links": 33,
+  "links": [
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb#high-school-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb",
+      "text": "HS&B",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/policy.asp",
+      "text": "Policy & Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/policy.asp",
+      "text": "Policy",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/research.asp",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/hsb80.asp",
+      "text": "HS&B:80",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/surveydesign.asp",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/questionnaires.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/manuals.asp",
+      "text": "User Manuals",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/hsb22.asp",
+      "text": "HS&B:22",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/surveydesign22.asp",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/questionnaires22.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/manuals22.asp",
+      "text": "User Manuals",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/accessingData.asp",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/accessingData.asp",
+      "text": "Accessing the Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/tables.asp",
+      "text": "Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=022",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=022",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/the-high-school-and-beyond-midlife-study",
+      "text": "Those who took Algebra II or higher in high school had lower unemployment at midlife, even after controlling for whether they completed a bachelor's degree. Additionally, women who earned higher GPAs were employed at higher rates and men who scored higher on math achievement tests were employed at higher rates.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/the-high-school-and-beyond-midlife-study",
+      "text": "The percentage of workers who held jobs with low pay and/or no health or retirement benefits was higher for women than for men, even among workers with similar levels of educational attainment. However, this gender gap was smaller among people who had taken advanced math coursework in high school (i.e., Algebra II or above).",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/the-high-school-and-beyond-midlife-study",
+      "text": "A higher proportion of cohort adults whose parents had higher levels of education enrolled in graduate school between the ages of 28 and 50, which may be related to high school academic achievement (e.g., grades, test scores).",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2012/2012345.pdf",
+      "text": "Across high school cohorts spanning 4 decades, the most common living arrangement for young adults approximately 2 years out of high school was to live with their parents. The percentage of young adults living with their parents was 39 percent in 1974, 50 percent in 1982, 51 percent in 1994, and 46 percent in 2006.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2009/2009307.pdf",
+      "text": "For those sophomores coming to class prepared, dropout rates were lower in 1992 and 2004 (6 percent each) than in 1982 (8 percent). Additionally, dropout rates declined for sophomores coming to class unprepared: for example, the rate was 9 percent in 2004 and 19 percent in 1982 for those saying they \"often\" or \"sometimes\" came to class without books.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/nls72",
+      "text": "[No text]",
+      "title": "Go to NLS-72"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsb/hsb80.asp",
+      "text": "[No text]",
+      "title": "Go to HSB:80"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/nels88",
+      "text": "[No text]",
+      "title": "Go to NELS:88"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/els2002",
+      "text": "[No text]",
+      "title": "Go to ELS:2002"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsls09",
+      "text": "[No text]",
+      "title": "Go to HSLS:09"
+    }
+  ],
+  "linked_urls": []
+}

@@ -185,7 +185,13 @@
 
     <script>
         // Initialize table sorting
-        new Tablesort(document.getElementById('resultsTable'));
+        const table = document.getElementById('resultsTable');
+        new Tablesort(table);
+        
+        // Set default sort on Name column (first column, ascending)
+        const nameHeader = table.querySelector('th');  // First th element
+        const event = new Event('click');
+        nameHeader.dispatchEvent(event);
 
         // Set up filtering
         const searchInput = document.getElementById('searchInput');

@@ -1,0 +1,54 @@
+{
+  "source_yaml": "030_ai.gov.yaml",
+  "source_url": "https://ai.gov",
+  "name": "AI.gov",
+  "timestamp": "Tue, 11 Feb 2025 03:44:09 GMT",
+  "num_links": 0,
+  "links": [],
+  "linked_urls": [
+    {
+      "url": "https://ai.gov/actions/",
+      "name": "Administration Actions"
+    },
+    {
+      "url": "https://ai.gov/ai-in-gov/",
+      "name": "Government Use of AI"
+    },
+    {
+      "url": "https://ai.gov/research/",
+      "name": "Research and Teach AI"
+    },
+    {
+      "url": "https://ai.gov/immigrate/",
+      "name": "Bring your AI Skills to the U.S."
+    },
+    {
+      "url": "https://ai.gov/input/",
+      "name": "Make Your Voice Heard"
+    },
+    {
+      "url": "https://ai.gov/apply/",
+      "name": "Apply Now"
+    },
+    {
+      "url": "https://ai.gov/es/",
+      "name": "Espanol"
+    },
+    {
+      "url": "https://ai.gov/actions/",
+      "name": "Learn More about the Biden-Harris Administration's Actions"
+    },
+    {
+      "url": "https://ai.gov/ai-use-cases/",
+      "name": "Federal AI Use Case Inventories"
+    },
+    {
+      "url": "https://ai.gov/aspirations/",
+      "name": "AI Aspirations"
+    },
+    {
+      "url": "https://ai.gov/naiac/",
+      "name": "National AI Advisory Committee"
+    }
+  ]
+}

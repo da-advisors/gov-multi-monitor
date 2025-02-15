@@ -1,0 +1,2038 @@
+{
+  "source_yaml": "063_census_bureau_household_pulse_survey.yaml",
+  "source_url": "https://www.census.gov/data/experimental-data-products/household-pulse-survey.html",
+  "name": "Census Bureau Household Pulse Survey",
+  "timestamp": "Tue, 11 Feb 2025 03:44:39 GMT",
+  "num_links": 247,
+  "links": [
+    {
+      "url": "https://www.census.gov/data/experimental-data-products/household-pulse-survey.html#content",
+      "text": "Skip Header",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom.html",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/naics",
+      "text": "NAICS Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about-us",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "Topics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "Data & Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "Resource Library",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/quickfacts.html",
+      "text": "QuickFacts U.S. Data Finder",
+      "title": ""
+    },
+    {
+      "url": "https://data.census.gov/advanced",
+      "text": "Advanced Data Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/idb",
+      "text": "International Database (IDB)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/history/census-records-family-history.html",
+      "text": "Census Records & Genealogy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/quickfacts.html",
+      "text": "QuickFacts U.S. Data Finder",
+      "title": ""
+    },
+    {
+      "url": "https://data.census.gov/advanced",
+      "text": "Advanced Data Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/idb",
+      "text": "International Database (IDB)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/history/census-records-family-history.html",
+      "text": "Census Records & Genealogy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "View All Topics and Subtopics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/index.html",
+      "text": "Index A to Z",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/age-and-sex.html",
+      "text": "Age and Sex",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/businessandeconomy",
+      "text": "Business and Economy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/education.html",
+      "text": "Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/disasters",
+      "text": "Emergency Management / Disasters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/employment.html",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/families.html",
+      "text": "Families and Living Arrangements",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geography",
+      "text": "Geography",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/health.html",
+      "text": "Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/hispanic-origin.html",
+      "text": "Hispanic Origin",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/housing.html",
+      "text": "Housing",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/income-poverty.html",
+      "text": "Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/international-trade.html",
+      "text": "International Trade",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/migration.html",
+      "text": "Migration/Geographic Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population.html",
+      "text": "Population",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/population-estimates.html",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/govs",
+      "text": "Public Sector",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/race.html",
+      "text": "Race",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
+      "text": "Redistricting",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/public-sector/voting.html",
+      "text": "Voting and Registration",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/data-cedsci.html",
+      "text": "Explore data on data.census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "View all data resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Census Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/what/admin-data.html",
+      "text": "Combining Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools.html",
+      "text": "Data Tools and Apps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/datasets.html",
+      "text": "Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/developers/",
+      "text": "Developers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/interactive-maps",
+      "text": "Interactive Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geographies/mapping-files.html",
+      "text": "Mapping Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/profile.html",
+      "text": "Profiles",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/related-sites.html",
+      "text": "Related Sites",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/software.html",
+      "text": "Software",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/tables.html",
+      "text": "Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/training-workshops.html",
+      "text": "Training and Workshops",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "View all Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2020census",
+      "text": "2020 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2026test",
+      "text": "2026 Census Test",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2030census",
+      "text": "2030 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AHS",
+      "text": "American Housing Survey (AHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/abs",
+      "text": "Annual Business Survey (ABS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/aies",
+      "text": "Annual Integrated Economic Survey (AIES)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp.html",
+      "text": "County Business Patterns (CBP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cps.html",
+      "text": "Current Population Survey (CPS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/EconomicCensus",
+      "text": "Economic Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulse",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/internationalprograms",
+      "text": "International Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/metro-micro.html",
+      "text": "Metro and Micro Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/popest",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/popproj.html",
+      "text": "Population Projections",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/saipe.html",
+      "text": "Small Area Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "text": "Statistics of U.S. Businesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/sipp/",
+      "text": "Survey of Income and Program Participation (SIPP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "View all library resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/glossary.html",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts: Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/audio.html",
+      "text": "Audio",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs.html",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/by-the-numbers.html",
+      "text": "By the Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/facts-for-features.html",
+      "text": "Facts for Features",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/fact-sheets.html",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Infographics and Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/photos.html",
+      "text": "Photos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/publications.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/spotlights.html",
+      "text": "Spotlights",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/stories.html",
+      "text": "Stats for Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Training (Census Academy)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/video.html",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/working-papers.html",
+      "text": "Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom.html",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/naics",
+      "text": "NAICS Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about-us",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "View All Topics and Subtopics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/index.html",
+      "text": "Index A to Z",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/age-and-sex.html",
+      "text": "Age and Sex",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/businessandeconomy",
+      "text": "Business and Economy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/education.html",
+      "text": "Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/disasters",
+      "text": "Emergency Management / Disasters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/employment.html",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/families.html",
+      "text": "Families and Living Arrangements",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geography",
+      "text": "Geography",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/health.html",
+      "text": "Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/hispanic-origin.html",
+      "text": "Hispanic Origin",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/housing.html",
+      "text": "Housing",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/income-poverty.html",
+      "text": "Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/international-trade.html",
+      "text": "International Trade",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/migration.html",
+      "text": "Migration/Geographic Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population.html",
+      "text": "Population",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/population-estimates.html",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/govs",
+      "text": "Public Sector",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/race.html",
+      "text": "Race",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
+      "text": "Redistricting",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/public-sector/voting.html",
+      "text": "Voting and Registration",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/data-cedsci.html",
+      "text": "Explore data on data.census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "View all data resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Census Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/what/admin-data.html",
+      "text": "Combining Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools.html",
+      "text": "Data Tools and Apps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/datasets.html",
+      "text": "Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/developers/",
+      "text": "Developers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/interactive-maps",
+      "text": "Interactive Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geographies/mapping-files.html",
+      "text": "Mapping Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/profile.html",
+      "text": "Profiles",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/related-sites.html",
+      "text": "Related Sites",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/software.html",
+      "text": "Software",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/tables.html",
+      "text": "Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/training-workshops.html",
+      "text": "Training and Workshops",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "View all Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2020census",
+      "text": "2020 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2026test",
+      "text": "2026 Census Test",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2030census",
+      "text": "2030 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AHS",
+      "text": "American Housing Survey (AHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/abs",
+      "text": "Annual Business Survey (ABS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/aies",
+      "text": "Annual Integrated Economic Survey (AIES)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp.html",
+      "text": "County Business Patterns (CBP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cps.html",
+      "text": "Current Population Survey (CPS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/EconomicCensus",
+      "text": "Economic Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulse",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/internationalprograms",
+      "text": "International Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/metro-micro.html",
+      "text": "Metro and Micro Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/popest",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/popproj.html",
+      "text": "Population Projections",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/saipe.html",
+      "text": "Small Area Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "text": "Statistics of U.S. Businesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/sipp/",
+      "text": "Survey of Income and Program Participation (SIPP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "View all library resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/glossary.html",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts: Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/audio.html",
+      "text": "Audio",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs.html",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/by-the-numbers.html",
+      "text": "By the Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/facts-for-features.html",
+      "text": "Facts for Features",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/fact-sheets.html",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Infographics and Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/photos.html",
+      "text": "Photos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/publications.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/spotlights.html",
+      "text": "Spotlights",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/stories.html",
+      "text": "Stats for Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Training (Census Academy)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/video.html",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/working-papers.html",
+      "text": "Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "Census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products/household-pulse-survey.html#content",
+      "text": "Skip Navigation",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/htops.html",
+      "text": "Household Trends and Outlook Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs/random-samplings/2024/09/evolving-household-pulse-survey.html",
+      "text": "Evolving the Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html",
+      "text": "Data Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "text": "Public Use Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/household-pulse-data-tool.html",
+      "text": "Interactive Tool",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/library/working-papers.html",
+      "text": "HPS Research and Presentations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey.html",
+      "text": "Find more information for survey participants here",
+      "title": ""
+    },
+    {
+      "url": "https://www.bls.gov/",
+      "text": "Bureau of Labor Statistics (BLS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.bts.gov/",
+      "text": "Bureau of Transportation Statistics (BTS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/index.html",
+      "text": "Centers for Disease Control and Prevention (CDC)",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/",
+      "text": "Consumer Financial Protection Bureau (CFPB)",
+      "title": ""
+    },
+    {
+      "url": "https://data.defense.gov/",
+      "text": "Department of Defense (DOD)",
+      "title": ""
+    },
+    {
+      "url": "https://www.eia.gov/",
+      "text": "Energy Information Administration (EIA)",
+      "title": ""
+    },
+    {
+      "url": "https://aspe.hhs.gov/",
+      "text": "Department of Health and Human Services (HHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.huduser.gov/portal/pdrdatas_landing.html",
+      "text": "Department of Housing and Urban Development (HUD)",
+      "title": ""
+    },
+    {
+      "url": "https://www.fda.gov/",
+      "text": "Food and Drug Administration (FDA)",
+      "title": ""
+    },
+    {
+      "url": "https://mchb.hrsa.gov/",
+      "text": "Maternal and Child Health Bureau (MCHB)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "National Center for Education Statistics (NCES)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/covid19/health-care-access-and-mental-health.htm",
+      "text": "National Center for Health Statistics (NCHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/ncird/index.html",
+      "text": "National Center for Immunization and Respiratory Diseases (NCIRD)",
+      "title": ""
+    },
+    {
+      "url": "https://www.arts.gov/",
+      "text": "National Endowment for the Arts (NEA)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/niosh/index.htm",
+      "text": "National Institute for Occupational Safety and Health (NIOSH)",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/surgeongeneral/index.html",
+      "text": "Office of the Surgeon General (OSG)",
+      "title": ""
+    },
+    {
+      "url": "https://www.ers.usda.gov/",
+      "text": "USDA Economic Research Service (ERS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.fns.usda.gov/",
+      "text": "USDA Food and Nutrition Service (FNS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.whitehouse.gov/cea/",
+      "text": "The White House Council of Economic Advisers (CEA)",
+      "title": ""
+    },
+    {
+      "url": "https://www.whitehouse.gov/dpc/",
+      "text": "The White House Domestic Policy Council (DPC)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data ProductsInnovative statistical products created using new data sources or methodologies that benefit data users in the absence of other relevant products.",
+      "title": "Experimental Data Products"
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?quote=The+Household+Pulse+Survey+is+designed+to+deploy+quickly%2C+and+efficiently+collect+data+on+emergent+social+and+economic+matters+facing+U.S.+households.&u=https://www.census.gov/householdpulsedata",
+      "text": "Facebook",
+      "title": "Facebook"
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?url=https://www.census.gov/householdpulsedata&text=The+Household+Pulse+Survey+is+designed+to+deploy+quickly%2C+and+efficiently+collect+data+on+emergent+social+and+economic+matters+facing+U.S.+households.",
+      "text": "X (Twitter)",
+      "title": "X (Twitter)"
+    },
+    {
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.census.gov/householdpulsedata&title=Household+Pulse+Survey%3A+Measuring+Emergent+Social+and+Economic+Matters+Facing+U.S.+Households&text=The+Household+Pulse+Survey+is+designed+to+deploy+quickly%2C+and+efficiently+collect+data+on+emergent+social+and+economic+matters+facing+U.S.+households.&source=U.S.+Census+Bureau",
+      "text": "LinkedIn",
+      "title": "LinkedIn"
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products/household-pulse-survey.html#uscb-nav-skip-header",
+      "text": "Back to Header",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/directorsblog",
+      "text": "Director\u2019s Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs/deputy-director.html",
+      "text": "Deputy Director\u2019s Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/randomsamplings",
+      "text": "Random Samplings",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/researchmatters",
+      "text": "Research Matters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Support",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "Facebook"
+    },
+    {
+      "url": "https://twitter.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "X (Twitter)"
+    },
+    {
+      "url": "https://www.linkedin.com/company/us-census-bureau/",
+      "text": "[No text]",
+      "title": "Linkedln"
+    },
+    {
+      "url": "https://www.youtube.com/user/uscensusbureau/",
+      "text": "[No text]",
+      "title": "YouTube"
+    },
+    {
+      "url": "https://www.instagram.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "Instagram"
+    },
+    {
+      "url": "https://www.census.gov/quality/",
+      "text": "Information Quality",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/datalinkage",
+      "text": "Data Linkage Infrastructure",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/privacy",
+      "text": "Data Protection and Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/section508",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.oig.doc.gov",
+      "text": "Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act",
+      "text": "No FEAR Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "text": "U.S. Department of Commerce",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": [
+    {
+      "url": "https://www.census.gov/newsroom/blogs/random-samplings/2024/09/evolving-household-pulse-survey.html",
+      "name": "Evolving the Household Pulse Survey"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey.html",
+      "name": "Household Pulse Survey"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "name": "Household Pulse Survey Public Use File (PUF)"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html",
+      "name": "Data"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/tables.html",
+      "name": "Data Tables"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/data-tools.html",
+      "name": "Data Tool"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "name": "Public Use File (PUF)"
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs/random-samplings/2024/09/evolving-household-pulse-survey.html",
+      "name": "Evolving the Household Pulse Survey"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html#phase-3-3",
+      "name": "Phase 3.3 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html#phase-3-2",
+      "name": "Phase 3.2 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html#phase-3-1",
+      "name": "Phase 3.1 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html#phase-3",
+      "name": "Phase 3 PUF Releases"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk40/HPS_Week40_PUF_SAS.zip",
+      "name": "HPS Week 40 PUF SAS [76.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk40/HPS_Week40_PUF_CSV.zip",
+      "name": "HPS Week 40 PUF CSV [63.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk39/HPS_Week39_PUF_SAS.zip",
+      "name": "HPS Week 39 PUF SAS [71.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk39/HPS_Week39_PUF_CSV.zip",
+      "name": "HPS Week 39 PUF CSV [56.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk38/HPS_Week38_PUF_SAS.zip",
+      "name": "HPS Week 38 PUF SAS [71.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk38/HPS_Week38_PUF_CSV.zip",
+      "name": "HPS Week 38 PUF CSV [56.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk37/HPS_Week37_PUF_SAS.zip",
+      "name": "HPS Week 37 PUF SAS [79.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk37/HPS_Week37_PUF_CSV.zip",
+      "name": "HPS Week 37 PUF CSV [62.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk36/HPS_Week36_PUF_SAS.zip",
+      "name": "HPS Week 36 PUF SAS [86.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk36/HPS_Week36_PUF_CSV.zip",
+      "name": "HPS Week 36 PUF CSV [68.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk35/HPS_Week35_PUF_SAS.zip",
+      "name": "HPS Week 35 PUF SAS [86.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk35/HPS_Week35_PUF_CSV.zip",
+      "name": "HPS Week 35 PUF CSV [68.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk34/HPS_Week34_PUF_SAS.zip",
+      "name": "HPS Week 34 PUF SAS [71.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk34/HPS_Week34_PUF_CSV.zip",
+      "name": "HPS Week 34 PUF CSV [56.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk33/HPS_Week33_PUF_SAS.zip",
+      "name": "HPS Week 33 PUF SAS [83.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk33/HPS_Week33_PUF_CSV.zip",
+      "name": "HPS Week 33 PUF CSV [66.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk32/HPS_Week32_PUF_SAS.zip",
+      "name": "HPS Week 32 PUF SAS [86.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk32/HPS_Week32_PUF_CSV.zip",
+      "name": "HPS Week 32 PUF CSV [67.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk31/HPS_Week31_PUF_SAS.zip",
+      "name": "HPS Week 31 PUF SAS [89.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk31/HPS_Week31_PUF_CSV.zip",
+      "name": "HPS Week 31 PUF CSV [70.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk30/HPS_Week30_PUF_SAS.zip",
+      "name": "HPS Week 30 PUF SAS [92.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk30/HPS_Week30_PUF_CSV.zip",
+      "name": "HPS Week 30 PUF CSV [72.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk29/HPS_Week29_PUF_SAS.zip",
+      "name": "HPS Week 29 PUF SAS [99 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk29/HPS_Week29_PUF_CSV.zip",
+      "name": "HPS Week 29 PUF CSV [78.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk28/HPS_Week28_PUF_SAS.zip",
+      "name": "HPS Week 28 PUF SAS [87.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk28/HPS_Week28_PUF_CSV.zip",
+      "name": "HPS Week 28 PUF CSV [68.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk27/HPS_Week27_PUF_SAS.zip",
+      "name": "HPS Week 27 PUF SAS [96.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk27/HPS_Week27_PUF_CSV.zip",
+      "name": "HPS Week 27 PUF CSV [76.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk26/HPS_Week26_PUF_SAS.zip",
+      "name": "HPS Week 26 PUF SAS [98 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk26/HPS_Week26_PUF_CSV.zip",
+      "name": "HPS Week 26 PUF CSV [77.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk25/HPS_Week25_PUF_SAS.zip",
+      "name": "HPS Week 25 PUF SAS [97.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk25/HPS_Week25_PUF_CSV.zip",
+      "name": "HPS Week 25 PUF CSV [77.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk24/HPS_Week24_PUF_SAS.zip",
+      "name": "HPS Week 24 PUF SAS [96.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk24/HPS_Week24_PUF_CSV.zip",
+      "name": "HPS Week 24 PUF CSV [76.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk23/HPS_Week23_PUF_SAS.zip",
+      "name": "HPS Week 23 PUF SAS [101 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk23/HPS_Week23_PUF_CSV.zip",
+      "name": "HPS Week 23 PUF CSV [79.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk22/HPS_Week22_PUF_SAS.zip",
+      "name": "HPS Week 22 PUF SAS [86.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2021/wk22/HPS_Week22_PUF_CSV.zip",
+      "name": "HPS Week 22 PUF CSV [68.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk21/HPS_Week21_PUF_SAS.zip",
+      "name": "HPS Week 21 PUF SAS [87.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk21/HPS_Week21_PUF_CSV.zip",
+      "name": "HPS Week 21 PUF CSV [69.6 MB]"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2020.html#phase-3",
+      "name": "Phase 3 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2020.html#phase-2",
+      "name": "Phase 2 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2020.html#phase-1",
+      "name": "Phase 1 PUF Releases"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk20/HPS_Week20_PUF_SAS.zip",
+      "name": "HPS Week 20 PUF SAS [90.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk20/HPS_Week20_PUF_CSV.zip",
+      "name": "HPS Week 20 PUF CSV [72 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk19/HPS_Week19_PUF_SAS.zip",
+      "name": "HPS Week 19 PUF SAS [90 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk19/HPS_Week19_PUF_CSV.zip",
+      "name": "HPS Week 19 PUF CSV [72 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk18/HPS_Week18_PUF_SAS.zip",
+      "name": "HPS Week 18 PUF SAS [74 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk18/HPS_Week18_PUF_CSV.zip",
+      "name": "HPS Week 18 PUF CSV [59 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk17/HPS_Week17_PUF_SAS.zip",
+      "name": "HPS Week 17 PUF SAS [111 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk17/HPS_Week17_PUF_CSV.zip",
+      "name": "HPS Week 17 PUF CSV [88 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk16/HPS_Week16_PUF_SAS.zip",
+      "name": "HPS Week 16 PUF SAS [119 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk16/HPS_Week16_PUF_CSV.zip",
+      "name": "HPS Week 16 PUF CSV [95 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk15/HPS_Week15_PUF_SAS.zip",
+      "name": "HPS Week 15 PUF SAS [124 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk15/HPS_Week15_PUF_CSV.zip",
+      "name": "HPS Week 15 PUF CSV [98 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk14/HPS_Week14_PUF_SAS.zip",
+      "name": "HPS Week 14 PUF SAS [136 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk14/HPS_Week14_PUF_CSV.zip",
+      "name": "HPS Week 14 PUF CSV [108 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk13/HPS_Week13_PUF_SAS.zip",
+      "name": "HPS Week 13 PUF SAS [136 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk13/HPS_Week13_PUF_CSV.zip",
+      "name": "HPS Week 13 PUF CSV [108 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk12/HPS_Week12_PUF_SAS.zip",
+      "name": "HPS Week 12 PUF SAS  [57 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk12/pulse2020_puf_hhwgt_12.sas7bdat",
+      "name": "HPS Week 12 PUF Household Weights SAS [57 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk12/HPS_Week12_PUF_CSV.zip",
+      "name": "HPS Week 12 PUF CSV [45 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk12/pulse2020_puf_hhwgt_12.csv",
+      "name": "HPS Week 12 PUF Household Weights CSV  [45 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk11/HPS_Week11_PUF_SAS.zip",
+      "name": "HPS Week 11 PUF SAS  [60 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk11/pulse2020_puf_hhwgt_11.sas7bdat",
+      "name": "HPS Week 11 PUF Household Weights SAS [60 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk11/HPS_Week11_PUF_CSV.zip",
+      "name": "HPS Week 11 PUF CSV [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk11/pulse2020_puf_hhwgt_11.csv",
+      "name": "HPS Week 11 PUF Household Weights CSV  [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk10/HPS_Week10_PUF_SAS.zip",
+      "name": "HPS Week 10 PUF SAS  [60 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk10/pulse2020_puf_hhwgt_10.sas7bdat",
+      "name": "HPS Week 10 PUF Household Weights SAS [60 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk10/HPS_Week10_PUF_CSV.zip",
+      "name": "HPS Week 10 PUF CSV [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk10/pulse2020_puf_hhwgt_10.csv",
+      "name": "HPS Week 10 PUF Household Weights CSV [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk9/HPS_Week09_PUF_SAS.zip",
+      "name": "HPS Week 9 PUF SAS  [65 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk9/pulse2020_puf_hhwgt_09.sas7bdat",
+      "name": "HPS Week 9 PUF Household Weights SAS [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk9/HPS_Week09_PUF_CSV.zip",
+      "name": "HPS Week 9 PUF CSV [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk9/pulse2020_puf_hhwgt_09.csv",
+      "name": "HPS Week 9 PUF Household Weights CSV [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk8/HPS_Week08_PUF_SAS.zip",
+      "name": "HPS Week 8 PUF SAS  [69 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk8/pulse2020_puf_hhwgt_08.sas7bdat",
+      "name": "HPS Week 8 PUF Household Weights SAS  [55 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk8/HPS_Week08_PUF_CSV.zip",
+      "name": "HPS Week 8 PUF CSV [55 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk8/pulse2020_puf_hhwgt_08.csv",
+      "name": "HPS Week 8 PUF Household Weights CSV [55 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk7/HPS_Week07_PUF_SAS.zip",
+      "name": "HPS Week 7 PUF SAS  [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk7/pulse2020_puf_hhwgt_07.sas7bdat",
+      "name": "HPS Week 7 PUF Household Weights SAS  [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk7/HPS_Week07_PUF_CSV.zip",
+      "name": "HPS Week 7 PUF CSV [37 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk7/pulse2020_puf_hhwgt_07.csv",
+      "name": "HPS Week 7 PUF Household Weights CSV [37 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk6/HPS_Week06_PUF_SAS.zip",
+      "name": "HPS Week 6 PUF SAS  [53 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk6/pulse2020_puf_hhwgt_06.sas7bdat",
+      "name": "HPS Week 6 PUF Household Weights SAS  [53 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk6/HPS_Week06_PUF_CSV.zip",
+      "name": "HPS Week 6 PUF CSV [53 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk6/pulse2020_puf_hhwgt_06.csv",
+      "name": "HPS Week 6 PUF Household Weights CSV  [42 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk5/HPS_Week05_PUF_SAS.zip",
+      "name": "HPS Week 5 PUF SAS  [64 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk5/pulse2020_puf_hhwgt_05.sas7bdat",
+      "name": "HPS Week 5 PUF Household Weights SAS  [64 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk5/HPS_Week05_PUF_CSV.zip",
+      "name": "HPS Week 5 PUF CSV [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk5/pulse2020_puf_hhwgt_05.csv",
+      "name": "HPS Week 5 PUF Household Weights CSV [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk4/HPS_Week04_PUF_SAS.zip",
+      "name": "HPS Week 4 PUF SAS  [64 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk4/pulse2020_puf_hhwgt_04.sas7bdat",
+      "name": "HPS Week 4 PUF Household Weights SAS [64 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk4/HPS_Week04_PUF_CSV.zip",
+      "name": "HPS Week 4 PUF CSV [51 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk4/pulse2020_puf_hhwgt_04.csv",
+      "name": "HPS Week 4 PUF Household Weights CSV  [64 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk3/HPS_Week03_PUF_SAS.zip",
+      "name": "HPS Week 3 PUF SAS  [84 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk3/pulse2020_puf_hhwgt_03.sas7bdat",
+      "name": "HPS Week 3 PUF Household Weights SAS [84 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk3/HPS_Week03_PUF_CSV.zip",
+      "name": "HPS Week 3 PUF CSV [138 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk3/pulse2020_puf_hhwgt_03.csv",
+      "name": "HPS Week 3 PUF Household Weights CSV [84 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk2/HPS_Week02_PUF_SAS.zip",
+      "name": "HPS Week 2 PUF SAS  [27 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk2/pulse2020_puf_hhwgt_02.sas7bdat",
+      "name": "HPS Week 2 PUF Household Weights SAS [27 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk1/HPS_Week01_PUF_CSV.zip",
+      "name": "HPS Week 1 PUF CSV [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk1/pulse2020_puf_hhwgt_01.csv",
+      "name": "HPS Week 1 PUF Household Weights CSV [47 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk2/HPS_Week02_PUF_CSV.zip",
+      "name": "HPS Week 2 PUF CSV [22 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk2/pulse2020_puf_hhwgt_02.csv",
+      "name": "HPS Week 2 PUF Household Weights CSV [22 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk1/HPS_Week01_PUF_SAS.zip",
+      "name": "HPS Week 1 PUF SAS  [39 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2020/wk1/pulse2020_puf_hhwgt_01.sas7bdat",
+      "name": "HPS Week 1 PUF Household Weights SAS [39 MB]"
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/household-pulse-data-tool.html",
+      "name": "Data ToolHousehold Pulse Data ToolAn interactive application for exploring data from the Household Pulse Survey."
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html#htops-oct24",
+      "name": "HPS October 2024"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html#phase-4-2",
+      "name": "Phase 4.2 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html#phase-4-1",
+      "name": "Phase 4.1 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html#phase-4-0",
+      "name": "Phase 4.0 PUF Releases"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/oct/HPS_OCTOBER2024_PUF_SAS.zip",
+      "name": "HPS October 2024 PUF SAS [11.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/oct/HPS_OCTOBER2024_PUF_CSV.zip",
+      "name": "HPS October 2024 PUF CSV [13.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle09/HPS_Phase4-2Cycle09_PUF_SAS.zip",
+      "name": "HPS Cycle 09 PUF SAS [66.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle09/HPS_Phase4-2Cycle09_PUF_CSV.zip",
+      "name": "HPS Cycle 09 PUF CSV [54.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle08/HPS_Phase4-2Cycle08_PUF_SAS.zip",
+      "name": "HPS Cycle 08 PUF SAS [77.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle08/HPS_Phase4-2Cycle08_PUF_CSV.zip",
+      "name": "HPS Cycle 08 PUF CSV [63.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle07/HPS_Phase4-1Cycle07_PUF_SAS.zip",
+      "name": "HPS Cycle 07 PUF SAS [90.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle07/HPS_Phase4-1Cycle07_PUF_CSV.zip",
+      "name": "HPS Cycle 07 PUF CSV [74.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle06/HPS_Phase4-1Cycle06_PUF_SAS.zip",
+      "name": "HPS Cycle 06 PUF SAS [92.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle06/HPS_Phase4-1Cycle06_PUF_CSV.zip",
+      "name": "HPS Cycle 06 PUF CSV [75.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle05/HPS_Phase4-1Cycle05_PUF_SAS.zip",
+      "name": "HPS Cycle 05 PUF SAS [92.8 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle05/HPS_Phase4-1Cycle05_PUF_CSV.zip",
+      "name": "HPS Cycle 05 PUF CSV [75.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle04/HPS_Phase4-1Cycle04_PUF_SAS.zip",
+      "name": "HPS Cycle 04 PUF SAS [94.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle04/HPS_Phase4-1Cycle04_PUF_CSV.zip",
+      "name": "HPS Cycle 04 PUF CSV [77.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle03/HPS_Phase4Cycle03_PUF_SAS.zip",
+      "name": "HPS Cycle 03 PUF SAS [91.8 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle03/HPS_Phase4Cycle03_PUF_CSV.zip",
+      "name": "HPS Cycle 03 PUF CSV [75.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle02/HPS_Phase4Cycle02_PUF_SAS.zip",
+      "name": "HPS Cycle 02 PUF SAS [91.0 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle02/HPS_Phase4Cycle02_PUF_CSV.zip",
+      "name": "HPS Cycle 02 PUF CSV [74.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle01/HPS_Phase4Cycle01_PUF_SAS.zip",
+      "name": "HPS Cycle 01 PUF SAS [87.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2024/cycle01/HPS_Phase4Cycle01_PUF_CSV.zip",
+      "name": "HPS Cycle 01 PUF CSV [72.0 MB]"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html#phase-3-10",
+      "name": "Phase 3.10 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html#phase-3-9",
+      "name": "Phase 3.9 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html#phase-3-8",
+      "name": "Phase 3.8 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html#phase-3-7",
+      "name": "Phase 3.7 PUF Releases"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk63/HPS_Week63_PUF_SAS.zip",
+      "name": "HPS Week 63 PUF SAS [103.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk63/HPS_Week63_PUF_CSV.zip",
+      "name": "HPS Week 63 PUF CSV [84.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk62/HPS_Week62_PUF_SAS.zip",
+      "name": "HPS Week 62 PUF SAS [94.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk62/HPS_Week62_PUF_CSV.zip",
+      "name": "HPS Week 62 PUF CSV [77.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk61/HPS_Week61_PUF_SAS.zip",
+      "name": "HPS Week 61 PUF SAS [89.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk61/HPS_Week61_PUF_CSV.zip",
+      "name": "HPS Week 61 PUF CSV [73.0 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk60/HPS_Week60_PUF_SAS.zip",
+      "name": "HPS Week 60 PUF SAS [89.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk60/HPS_Week60_PUF_CSV.zip",
+      "name": "HPS Week 60 PUF CSV [73.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk59/HPS_Week59_PUF_SAS.zip",
+      "name": "HPS Week 59 PUF SAS [82.8 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk59/HPS_Week59_PUF_CSV.zip",
+      "name": "HPS Week 59 PUF CSV [67.8 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk58/HPS_Week58_PUF_SAS.zip",
+      "name": "HPS Week 58 PUF SAS [84.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk58/HPS_Week58_PUF_CSV.zip",
+      "name": "HPS Week 58 PUF CSV [68.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk57/HPS_Week57_PUF_SAS.zip",
+      "name": "HPS Week 57 PUF SAS [77.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk57/HPS_Week57_PUF_CSV.zip",
+      "name": "HPS Week 57 PUF CSV [63.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk56/HPS_Week56_PUF_SAS.zip",
+      "name": "HPS Week 56 PUF SAS [80.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk56/HPS_Week56_PUF_CSV.zip",
+      "name": "HPS Week 56 PUF CSV [65.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk55/HPS_Week55_PUF_SAS.zip",
+      "name": "HPS Week 55 PUF SAS [94.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk55/HPS_Week55_PUF_CSV.zip",
+      "name": "HPS Week 55 PUF CSV [77.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk54/HPS_Week54_PUF_SAS.zip",
+      "name": "HPS Week 54 PUF SAS [98.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk54/HPS_Week54_PUF_CSV.zip",
+      "name": "HPS Week 54 PUF CSV [80.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk53/HPS_Week53_PUF_SAS.zip",
+      "name": "HPS Week 53 PUF SAS [89.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk53/HPS_Week53_PUF_CSV.zip",
+      "name": "HPS Week 53 PUF CSV [72.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk52/HPS_Week52_PUF_SAS.zip",
+      "name": "HPS Week 52 PUF SAS [92.0 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2023/wk52/HPS_Week52_PUF_CSV.zip",
+      "name": "HPS Week 52 PUF CSV [75.2 MB]"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-6",
+      "name": "Phase 3.6 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-5",
+      "name": "Phase 3.5 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-4",
+      "name": "Phase 3.4 PUF Releases"
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-3",
+      "name": "Phase 3.3 PUF Releases"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk51/HPS_Week51_PUF_SAS.zip",
+      "name": "HPS Week 51 PUF SAS [79.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk51/HPS_Week51_PUF_CSV.zip",
+      "name": "HPS Week 51 PUF CSV [65.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk50/HPS_Week50_PUF_SAS.zip",
+      "name": "HPS Week 50 PUF SAS [54.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk50/HPS_Week50_PUF_CSV.zip",
+      "name": "HPS Week 50 PUF CSV [44.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk49/HPS_Week49_PUF_SAS.zip",
+      "name": "HPS Week 49 PUF SAS [66.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk49/HPS_Week49_PUF_CSV.zip",
+      "name": "HPS Week 49 PUF CSV [54.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk48/HPS_Week48_PUF_SAS.zip",
+      "name": "HPS Week 48 PUF SAS [60.7 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk48/HPS_Week48_PUF_CSV.zip",
+      "name": "HPS Week 48 PUF CSV [49.4 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk47/HPS_Week47_PUF_SAS.zip",
+      "name": "HPS Week 47 PUF SAS [75.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk47/HPS_Week47_PUF_CSV.zip",
+      "name": "HPS Week 47 PUF CSV [61.5 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk46/HPS_Week46_PUF_SAS.zip",
+      "name": "HPS Week 46 PUF SAS [81.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk46/HPS_Week46_PUF_CSV.zip",
+      "name": "HPS Week 46 PUF CSV [66.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk45/HPS_Week45_PUF_SAS.zip",
+      "name": "HPS Week 45 PUF SAS [78.1 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk45/HPS_Week45_PUF_CSV.zip",
+      "name": "HPS Week 45 PUF CSV [64.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk44/HPS_Week44_PUF_SAS.zip",
+      "name": "HPS Week 44 PUF SAS [80.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk44/HPS_Week44_PUF_CSV.zip",
+      "name": "HPS Week 44 PUF CSV [66.3 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk43/HPS_Week43_PUF_SAS.zip",
+      "name": "HPS Week 43 PUF SAS [105.8 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk43/HPS_Week43_PUF_CSV.zip",
+      "name": "HPS Week 43 PUF CSV [87.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk42/HPS_Week42_PUF_SAS.zip",
+      "name": "HPS Week 42 PUF SAS [94.9 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk42/HPS_Week42_PUF_CSV.zip",
+      "name": "HPS Week 42 PUF CSV [78.2 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk41/HPS_Week41_PUF_SAS.zip",
+      "name": "HPS Week 41 PUF SAS [94.6 MB]"
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk41/HPS_Week41_PUF_CSV.zip",
+      "name": "HPS Week 41 PUF CSV [77.8 MB]"
+    }
+  ]
+}

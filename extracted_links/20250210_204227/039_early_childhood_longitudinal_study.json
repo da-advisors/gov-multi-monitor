@@ -1,0 +1,335 @@
+{
+  "source_yaml": "039_early_childhood_longitudinal_study.yaml",
+  "source_url": "https://nces.ed.gov/ecls/",
+  "name": "Early Childhood Longitudinal Study",
+  "timestamp": "Tue, 11 Feb 2025 03:46:37 GMT",
+  "num_links": 65,
+  "links": [
+    {
+      "url": "https://myecls.ed.gov",
+      "text": "Click here for more information.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb/#early-childhood-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/index.asp",
+      "text": "Early Childhood LongitudinalStudies (ECLS) Program",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/news.asp",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/researchissues.asp",
+      "text": "Research Issues",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "ECLS-B",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/birth.asp",
+      "text": "Study information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/birthinstruments.asp",
+      "text": "Instruments & Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/birthdataprocedure.asp",
+      "text": "Data Collection Procedures",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/birthdatainformation.asp",
+      "text": "Data Information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "ECLS-K",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten.asp",
+      "text": "Study information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kinderinstruments.asp",
+      "text": "Instruments & Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kinderdataprocedure.asp",
+      "text": "Data Collection Procedures",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kinderdatainformation.asp",
+      "text": "Data Information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "ECLS-K:2011",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten2011.asp",
+      "text": "Study information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/instruments2011.asp",
+      "text": "Instruments & Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/assessments2011.asp",
+      "text": "Direct Cognitive Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/datainformation2011.asp",
+      "text": "Data Information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/comparisons2011.asp",
+      "text": "Comparisons to ECLS-B & ECLS-K",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/sponsoring2011.asp",
+      "text": "Sponsoring Agencies",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "ECLS-K:2024",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten2024.asp",
+      "text": "Study information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/instruments2024.asp",
+      "text": "Instruments & Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/dataprocedure2024.asp",
+      "text": "Data Collection Procedures",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/datainformation2024.asp",
+      "text": "Data Information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/transfer.asp?location=myecls.ed.gov",
+      "text": "Information for Survey Participants",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/researchquestions2024.asp",
+      "text": "Example Research Questions",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/comparisons2024.asp",
+      "text": "Comparisons to Other ECLS Studies",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/faqs.asp",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/dataproducts.asp",
+      "text": "Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/tables.asp",
+      "text": "Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/dataissues.asp",
+      "text": "Data Issues",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=024",
+      "text": "Publications & Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten2024.asp",
+      "text": "Kindergarten Class of 2023-24 (ECLS-K:2024)Will provide updated information on children's early learning and development, preschool/early care experiences, transition into kindergarten, and progress through elementary grades.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/Birth.asp",
+      "text": "Birth Cohort (ECLS-B)Children who participated in regular early care and education arrangements the year prior to kindergarten scored higher on the fine motor skill assessments at kindergarten entry than children who had no regular early care and education the year prior to entering kindergarten.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten.asp",
+      "text": "Kindergarten Class of 1998-99 (ECLS-K)Students who indicated in the fifth grade that the statement \"I like math\" was \"very true\" for them were more likely to have gone on to an algebra or higher-level course in the eighth grade (43 percent) than were students who responded \"not at all true\" (33 percent) or \"a little bit true\" (35 percent).",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/kindergarten2011.asp",
+      "text": "Kindergarten Class of 2010-11 (ECLS-K:2011)No significant differences by child's sex were detected in children's fifth-grade reading, math, and science knowledge and skills.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/#myCarousel",
+      "text": "Previous",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/#myCarousel",
+      "text": "Next",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "U.S. Department of Education",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "The National Center for Education Statistics (NCES)",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/",
+      "text": "Institute of Education Sciences (IES)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/happy-new-year-from-the-ecls-k-2024",
+      "text": "New ECLS blog series released for 2025",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/celebrating-the-ecls-k-2024-learning-about-our-nation-s-teachers-principals-and-schools",
+      "text": "ECLS blog on teachers, principals, and school published",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/celebrating-the-ecls-k-2024-parents-contributing-data-on-today-s-children-and-families",
+      "text": "Blog celebrating ECLS parents \u2013 part of the 2024 ECLS blog series \u2013 now posted",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/dataissues.asp",
+      "text": "New ECLS \"Data Issues\" website now live",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/news.asp",
+      "text": "Most recent ECLS Newsletter (Summer 2024 School Staff Newsletter) available on ECLS News website",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/celebrating-the-ecls-k-2024-participating-children-are-the-key-to-increasing-our-knowledge-of-children-s-education-and-development-today",
+      "text": "Second 2024 ECLS blog series post celebrating the ECLS-K:2024 has been released",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/celebrating-the-ecls-k-2024-providing-key-national-data-on-our-country-s-youngest-learners",
+      "text": "First posting in the 2024 ECLS blog series, \"Celebrating the ECLS-K:2024,\" is now live",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/dataproducts.asp",
+      "text": "Resource on available ECLS restricted-use files (\"Variable names and labels\") now available",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/post/what-do-nces-data-tell-us-about-america-s-kindergartners",
+      "text": "\"What Do NCES Data Tell Us About America\u2019s Kindergartners?\" blog post now online",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018083",
+      "text": "ECLS-K:2011 Restricted-Use Kindergarten-Fourth Grade Data File and Electronic Codebook",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018033",
+      "text": "ECLS-K:2011 Public-Use Kindergarten-Fourth Grade Data File and Electronic Codebook",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023009",
+      "text": "Digest of Education Statistics, 2021",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022009",
+      "text": "Digest of Education Statistics, 2020",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021009",
+      "text": "Digest of Education Statistics, 2019",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

@@ -9,6 +9,7 @@ import re
 import json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from email.utils import parsedate_to_datetime
 
 @dataclass
 class LinkedURLCheckResult:
@@ -22,6 +23,8 @@ class LinkedURLCheckResult:
     error_message: Optional[str] = None
     type: Optional[str] = None
     last_success: Optional[datetime] = None  # Added field for last successful check
+    content_length: Optional[int] = None  # Added field for content length
+    response_time: Optional[float] = None  # Added for consistency with main CheckResult
 
 @dataclass
 class APICheckResult:
@@ -51,6 +54,7 @@ class CheckResult:
     linked_url_results: List[LinkedURLCheckResult] = None
     archived_content: Optional[List[str]] = None  # Added field for archived content URLs
     missing_components: Optional[List[str]] = None  # New field for tracking missing components
+    content_length: Optional[int] = None  # Added field for content length
 
     def __post_init__(self):
         """Initialize default values."""
@@ -102,6 +106,13 @@ class URLChecker:
         try:
             response = self.session.get(config.url, timeout=self.timeout, allow_redirects=True)
             result.status_code = response.status_code
+            
+            # Get content length either from headers or actual response content
+            content_length = response.headers.get('content-length')
+            if content_length is None and response.content:
+                content_length = len(response.content)
+            result.content_length = int(content_length) if content_length else None
+            
             result.response_time = (datetime.now() - start_time).total_seconds()
             
             # Check for redirects
@@ -181,6 +192,7 @@ class URLChecker:
 
     def _check_linked_url(self, linked_url) -> LinkedURLCheckResult:
         """Check a linked URL and return the result."""
+        start_time = datetime.now()
         try:
             response = self.session.get(
                 linked_url.url,
@@ -188,37 +200,24 @@ class URLChecker:
                 allow_redirects=True
             )
             
+            # Get content length
+            content_length = response.headers.get('content-length')
+            if content_length is None and response.content:
+                content_length = len(response.content)
+            
             result = LinkedURLCheckResult(
                 url=linked_url.url,
                 name=linked_url.name,
-                status='error',  # Default status
+                status='ok' if response.status_code == 200 else 'error',
                 status_code=response.status_code,
+                redirect_url=str(response.url) if response.url != linked_url.url else None,
+                last_modified=parse_http_date(response.headers.get('last-modified')) if response.headers.get('last-modified') else None,
+                content_length=int(content_length) if content_length else None,
+                response_time=(datetime.now() - start_time).total_seconds(),
+                error_message=f"HTTP {response.status_code}" if response.status_code != 200 else None,
                 type=linked_url.type
             )
             
-            # Check for redirect
-            if len(response.history) > 0:
-                result.status = 'redirect'
-                result.redirect_url = response.url
-                return result
-            
-            # Check for errors
-            if response.status_code != 200:
-                result.status = 'error'
-                result.error_message = f"HTTP {response.status_code}"
-                return result
-            
-            # Get last modified date from headers only for successful responses
-            if 'last-modified' in response.headers:
-                try:
-                    result.last_modified = datetime.strptime(
-                        response.headers['last-modified'],
-                        '%a, %d %b %Y %H:%M:%S %Z'
-                    )
-                except ValueError:
-                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
-            
-            result.status = 'ok'
             return result
             
         except requests.TooManyRedirects as e:
@@ -419,3 +418,6 @@ class URLChecker:
             if check_exists_only:
                 return False
             return None
+
+def parse_http_date(date_str):
+    return parsedate_to_datetime(date_str)

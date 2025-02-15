@@ -1,0 +1,230 @@
+{
+  "source_yaml": "056_national_teacher_and_principal_survey.yaml",
+  "source_url": "https://nces.ed.gov/surveys/ntps/",
+  "name": "National Teacher and Principal Survey",
+  "timestamp": "Tue, 11 Feb 2025 03:42:37 GMT",
+  "num_links": 44,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/participants_2024.asp",
+      "text": "Questions about the survey? Click here for TFS/PFS participant information!",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps",
+      "text": "National Teacher and Principal Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/overview.asp?OverviewType=1",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021007",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020086",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/overview.asp",
+      "text": "Learn More About NTPS and SASS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039",
+      "text": "Teacher Attrition and Mobility Results From the 2021\u009622 Teacher Follow-up Survey to the National Teacher and Principal Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046",
+      "text": "Principal Attrition and Mobility: Results From the 2021\u201322 Principal Follow-up Survey to the National Teacher and Principal Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021007",
+      "text": "Outside Jobs Among U.S. Public School Teachers in 2017-18What percentage of public school teachers work a second job outside of their school during the school year?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019",
+      "text": "Impact of the Coronavirus (COVID-19) Pandemic on Public and Private Elementary and Secondary Education in the United States (Preliminary Data)How did schools, principals, and teachers first adapt to the coronavirus pandemic?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020086",
+      "text": "School Nurses in U.S. Public SchoolsRead about the presence of school nurses in public schools.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/",
+      "text": "NTPS Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/overview.asp?OverviewType=1",
+      "text": "NTPS Overview",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/questionnaires.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/methods-procedures.asp",
+      "text": "Methodology & Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/estable",
+      "text": "Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/tables_list.asp",
+      "text": "Table List",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=122",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/researchtopics.asp",
+      "text": "Research Topics",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/spotlight.asp",
+      "text": "Spotlight on Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/ntps-sass-data.asp",
+      "text": "NTPS/SASS Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=122",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/ntpsdashboard/",
+      "text": "Visit the NTPS dashboard to view data about your state",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/overview.asp",
+      "text": "Learn More",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024088",
+      "text": "Changes in Public School Teachers\u0092 Certification Type",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024178 ",
+      "text": "Documentation for the 2016-17 Principal Follow-up Survey",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024145",
+      "text": "Report on Indicators of School Crime and Safety: 2023",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/pdf/NTPS_StatsDC_2023-final_508c.pdf",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039",
+      "text": "Teacher Attrition and Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024039",
+      "text": "Download the full report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046",
+      "text": "Principal Attrition and Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023046",
+      "text": "Download the full report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022113",
+      "text": "Characteristics of Public and Private Elementary and Secondary School TEACHERS in the United States:",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022113",
+      "text": "Download the full report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022112",
+      "text": "Characteristics of Public and Private Elementary and Secondary School PRINCIPALS in the United States",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022112",
+      "text": "Download the full report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022111",
+      "text": "Characteristics of Public and Private Elementary and Secondary SCHOOLS in the United States",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022111",
+      "text": "Download the full report",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019",
+      "text": "Impact of the Coronavirus (COVID-19) Pandemic on Public and Private Elementary and Secondary Education in the United States (Preliminary Data)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022019",
+      "text": "Download the full report",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

@@ -1,0 +1,955 @@
+{
+  "source_yaml": "061_national_mortgage_database_program.yaml",
+  "source_url": "https://www.fhfa.gov/programs/national-mortgage-database-program",
+  "name": "National Mortgage Database Program",
+  "timestamp": "Thu, 06 Feb 2025 17:32:28 GMT",
+  "num_links": 189,
+  "links": [
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/",
+      "text": "[No text]",
+      "title": "fhfa's logo"
+    },
+    {
+      "url": "https://www.fhfa.gov/",
+      "text": "FEDERAL HOUSING FINANCE AGENCY",
+      "title": "Federal Housing Finance Agency"
+    },
+    {
+      "url": "https://www.fhfa.gov/about",
+      "text": "Mission & Core Values",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/conservatorship",
+      "text": "Conservatorship",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/foia-privacy",
+      "text": "FOIA & Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/information-quality",
+      "text": "Information Quality",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/meet-the-experts",
+      "text": "Meet the Experts",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/do-business-with-us",
+      "text": "Do Business with Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/ombudsman",
+      "text": "Ombudsman",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/budget-finances-and-performance",
+      "text": "Budget, Finances, and Performance",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/equal-employment-opportunity-no-fear-act",
+      "text": "Equal Employment Opportunity",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/workforce-ombuds-person",
+      "text": "Workforce Ombuds",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/careers",
+      "text": "Careers",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies",
+      "text": "FHFA Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=advisory-bulletins",
+      "text": "Advisory Bulletin",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/fannie-mae-and-freddie-mac",
+      "text": "Fannie Mae & Freddie Mac",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/libor-transition",
+      "text": "LIBOR Transition",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/dodd-frank-act-stress-tests",
+      "text": "Dodd-Frank Act Stress Tests (DFAST)",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/federal-home-loan-bank-system",
+      "text": "Federal Home Loan Bank System",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/rulemaking",
+      "text": "Rulemaking and Federal Register",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/examiner-resources",
+      "text": "\u200bExaminer Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/supervision/legal-documents",
+      "text": "Legal Documents & Suspensions",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=policy",
+      "text": "Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/fannie-mae-freddie-mac-affordable-housing-allocations",
+      "text": "Affordable Housing Allocations",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/guarantee-fees",
+      "text": "Guarantee Fees",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/pilot-transparency",
+      "text": "Pilot Transparency",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/credit-risk-transfer",
+      "text": "Credit Risk Transfer",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/language-access",
+      "text": "Language Access",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/fannie-mae-freddie-mac-private-mortgage-insurer-eligibility-requirements-pmiers",
+      "text": "Private Mortgage Insurer Eligibility Requirements",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/credit-scores",
+      "text": "Credit Scores",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/mortgage-servicing",
+      "text": "Mortgage Servicing",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/representation-and-warranty-framework",
+      "text": "Representation and Warranty Framework",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/deemed-issuance-ratio",
+      "text": "Deemed-Issuance Ratio",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/fannie-mae-and-freddie-mac-multifamily-businesses",
+      "text": "Multifamily Businesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/single-security-initiative-and-common-securitization-platform",
+      "text": "Common Securitization Platform",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/executive-compensation",
+      "text": "Executive Compensation",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/non-performing-npl-and-re-performing-loan-rpl-sales",
+      "text": "Non-Performing and Re-Performing Loan Sales",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/tenant-protections",
+      "text": "Tenant Protections",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/policy/fair-lending-oversight",
+      "text": "Fair Lending Oversight",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=programs",
+      "text": "Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/fintech/techsprint/2024",
+      "text": "2024 TechSprint: Generative AI in Housing Finance",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/affordable-housing/enterprise-housing-goals",
+      "text": "Enterprise Housing Goals",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/fhfas-housing-finance-examiner-commission-program",
+      "text": "Housing Finance Examiner Commission Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/loss-mitigation",
+      "text": "Loss Mitigation",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/affordable-housing",
+      "text": "Affordable Housing & Community Investment",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program",
+      "text": "National Mortgage Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/climate-risk",
+      "text": "Climate Risk Committee",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/fintech",
+      "text": "Financial Technology",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/neighborhood-stabilization-initiative-nsi",
+      "text": "Neighborhood Stabilization Initiative",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/duty-to-serve",
+      "text": "Duty to Serve",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/fraud-prevention",
+      "text": "Fraud Prevention",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/dashboard/borrower-assistance-map",
+      "text": "Borrower Assistance Map",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/enterprise-housing-goals",
+      "text": "\u200bEnterprise Housing Goals",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics",
+      "text": "NMDB\u00ae Aggregate Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/conforming-loan-limit",
+      "text": "Conforming Loan Limit",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/fair-lending-data",
+      "text": "\u200bFair Lending Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/national-survey-mortgage-originations-nsmo-public-use-file",
+      "text": "NSMO Public Use File",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/data-governance-resources",
+      "text": "Data Governance",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/hpi",
+      "text": "FHFA House Price Index",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/dashboard",
+      "text": "Dashboards",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/federal-home-loan-bank-membership-data",
+      "text": "FHLB Membership Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/pudb",
+      "text": "Public Use Databases",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/developer-information",
+      "text": "Developer Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/fhlb-stress-tests-market-and-credit-risk",
+      "text": "FHLB Stress Tests for Market and Credit Risk",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/uniform-appraisal-dataset-aggregate-statistics",
+      "text": "UAD Aggregate Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/duty-to-serve/eligibility-data",
+      "text": "Duty to Serve Eligibility Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/market-data",
+      "text": "Market Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/uad-appraisal-level-public-use-file-puf",
+      "text": "UAD Appraisal-Level Public Use File",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/duty-to-serve/performance-data",
+      "text": "Duty to Serve Performance Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/mirs",
+      "text": "MIRS Transition Index",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/data/underserved-areas-data",
+      "text": "Underserved Areas Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=research",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=research&category=briefs%2C-notes-%26-white-papers",
+      "text": "Briefs, Notes & White Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=research&category=nmdb-staff-working-papers",
+      "text": "NMDB Staff Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulatory?topic=research&category=staff-working-papers",
+      "text": "Staff Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports",
+      "text": "Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports?topic=conservatorship-reports",
+      "text": "Conservatorship Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports?topic=fhfa-reports",
+      "text": "FHFA Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports?topic=mortgage-market-reports",
+      "text": "Mortgage Market Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports?topic=fannie-mae-and-freddie-mac-reports",
+      "text": "Fannie Mae and Freddie Mac Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/reports?topic=fhlbank-reports",
+      "text": "FHLBank Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations",
+      "text": "Mortgage Translations",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations",
+      "text": "About Mortgage Translations",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations/language-translation-disclosure",
+      "text": "Language Translation Disclosure",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations/borrower-education-materials",
+      "text": "Borrower Education Materials",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations/interpretive-services",
+      "text": "Interpretive Services",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations/search",
+      "text": "Search Documents",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/mortgage-translations/covid-19-resources",
+      "text": "COVID-19 Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news?topic=blogs",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news?topic=releases",
+      "text": "News Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/public-input",
+      "text": "Public Input",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news?topic=fact-sheets",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news/partner-agency-engagements",
+      "text": "Partner Agency Engagements",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news?topic=remarks",
+      "text": "Remarks",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news/public-engagements",
+      "text": "Public Engagements",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/news?topic=videos",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/FHFA",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoKP7Om6nsRkEav9yInFekw",
+      "text": "YouTube",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/FHFA",
+      "text": "X (formerly Twitter)",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/354523",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#_ftn1",
+      "text": "[1]",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/",
+      "text": "Consumer Financial Protection Bureau",
+      "title": "Link goes to an external web page."
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#NMDB",
+      "text": "National Mortgage Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#NSMO",
+      "text": "National Survey of Mortgage Originations",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#_ftn2",
+      "text": "[2]",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#ASMB",
+      "text": "American Survey of Mortgage Borrowers",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#_ftn3",
+      "text": "[3]",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#_ftn4",
+      "text": "[4]",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/privacy-act-system-of-records-notice/2016-n-13",
+      "text": "Notice of Revision to an Existing System of Records: National Mortgage Database Project",
+      "title": "Notice of revision to an existing system of records: National Mortgage Database Project (FHFA-21)"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/privacy-act-system-of-records-notice/2015-n-07",
+      "text": "Revised System of Records-National Mortgage Database Project",
+      "title": "Privacy Act of 1974; Revised System of Records-National Mortgage Database Project"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2023-03/nmdb_update_08012014.pdf",
+      "text": "FHFA Update About the National Mortgage Database",
+      "title": "nmdb_update_08012014.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/privacy-act-system-of-records-notice/2014-n-03",
+      "text": "System of Records: National Mortgage Database Project",
+      "title": "Privacy Act of 1974; System of Records: National Mortgage Database Project"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/documents/NMDB%20PIA%20Version%202%20-%2011062013.pdf",
+      "text": "Privacy Impact Assessment",
+      "title": "NMDB PIA Version 2 - 11062013.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/privacy-act-system-of-records-notice/2012-n-18",
+      "text": "Notice of Proposed Establishment of New System of Records",
+      "title": "National Mortgage Database: Notice of Proposed Establishment of New System of Records"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2023-03/nmdb_pia_2012_redacted_508.pdf",
+      "text": "Privacy Impact Assessment",
+      "title": "nmdb_pia_2012_redacted_508.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program",
+      "text": "National Mortgage Database program",
+      "title": "National Mortgage Database Program"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/",
+      "text": "Consumer Financial Protection Bureau",
+      "title": "Link goes to an external web page."
+    },
+    {
+      "url": "https://www.nsmosurvey.com/",
+      "text": "www.NSMOsurvey.com",
+      "title": "Link goes to an external web page."
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-10/NSMO_2024Q4_Letter.pdf",
+      "text": "Image",
+      "title": "NSMO_2024Q4_Letter.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-10/NSMO_2024Q4_Letter.pdf",
+      "text": "Survey Cover Letter",
+      "title": "NSMO_2024Q4_Letter.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-03/NSMO_2024Q1_Questionnaire.pdf",
+      "text": "Image",
+      "title": "NSMO_2024Q1_Questionnaire.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-03/NSMO_2024Q1_Questionnaire.pdf",
+      "text": "Survey Qu\u200bestionnaire",
+      "title": "NSMO_2024Q1_Questionnaire.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2023-n-6",
+      "text": "30-Day Notice of Submission of National Survey of Mortgage Originations (N\u200bSMO) Information Collection",
+      "title": "30-Day notice \"National Survey of Mortgage Originations\u201d information collection for OMB approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2022-n-15",
+      "text": "60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection",
+      "title": "60-Day notice \"National Survey of Mortgage Originations\u201d information collection for OMB approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-8",
+      "text": "30-Day Notice of Submission of National Survey of Mortgage\u00a0Originations (NSMO) Information Collection",
+      "title": "30-day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection to OMB for Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2019-n-8",
+      "text": "60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection",
+      "title": "60-Day Notice of Submission of \"National Survey of Mortgage Originations\" (NSMO) Information Collection for OMB Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-06",
+      "text": "30-Day Notice of Submission of National Survey of Mortgage\u00a0Originations (NSMO) Information Collection",
+      "title": "60-day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection to OMB for Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-16",
+      "text": "60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection",
+      "title": "30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) information collection for OMB Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2013-n-08",
+      "text": "Proposed Collection; Comment Request: National Survey of Mortgage Borrowers",
+      "title": "Proposed Collection; Comment Request: National Survey of Mortgage Borrowers (30-Day Notice)"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2013-n-07",
+      "text": "Proposed Collection; Comment Request: National Survey of Mortgage Borrowers",
+      "title": "Proposed Collection; Comment Request: National Survey of Mortgage Borrowers (60-Day Notice)"
+    },
+    {
+      "url": "https://www.fhfa.gov/programs/national-mortgage-database-program#top",
+      "text": "National Mortgage Database program",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/",
+      "text": "Consumer Financial Protection\u00a0Bureau",
+      "title": "Link goes to an external web page."
+    },
+    {
+      "url": "https://www.asmbsurvey.com/",
+      "text": "www.ASMBsurvey.com",
+      "title": "Link goes to an external web page."
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-09/ASMB_2024_Letter.pdf",
+      "text": "Image",
+      "title": "ASMB_2024_Letter.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/sites/default/files/2024-09/ASMB_2024_Letter.pdf",
+      "text": "Survey Cover Letter",
+      "title": "ASMB_2024_Letter.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2022-n-5",
+      "text": "30-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers (ASMB) for OMB Approval\u200b",
+      "title": "30-Day Notice of Submission of Information Collection \"American Survey of Mortgage Borrowers (ASMB)\" for OMB Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2021-n-15",
+      "text": "60-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers for Approval from OMB\u200b",
+      "title": "60-Day notice of submission of information collection American Survey of Mortgage Borrowers for approval from OMB"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-14-0",
+      "text": "30-Day Notice of Submission of American Survey of Mortgage\u00a0Borrowers (ASMB) Emergency Information Collection - Correction",
+      "title": "American Survey of Mortgage Borrowers\u201430-day Notice of Submission of Information Collection for Approval for Emergency Clearance from Office of Management and Budget - Correction"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-14",
+      "text": "30-Day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Emergency Information Collection",
+      "title": "American Survey of Mortgage Borrowers\u201430-day Notice of Submission of Information Collection for Approval for Emergency Clearance from Office of Management and Budget"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-03",
+      "text": "30-Day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Information Collection",
+      "title": "30-day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Information Collection to OMB for Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2015-n-11",
+      "text": "60-Day Notice of Submission of National Survey of Existing Mortgage Borrowers (NSEMB) Information Collection",
+      "title": "60-day Notice of Submission of National Survey of Existing Mortgage Borrowers (NSEMB) Information Collection to OMB for Approval"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-releases-nmdbr-residential-mortgage-dashboard",
+      "text": "FHFA Releases NMDB Residential Mortgage Dashboard",
+      "title": "FHFA Releases NMDB\u00ae Residential Mortgage Dashboard"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-releases-data-visualization-dashboard-for-nmdb-outstanding-residential-mortgage-statistics",
+      "text": "FHFA Releases Data Visualization Dashboard for NMDB Outstanding Residential Mortgage Statistics",
+      "title": "FHFA Releases Data Visualization Dashboard for  NMDB Outstanding Residential Mortgage Statistics"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-and-cfpb-release-updated-data-from-the-national-survey-of-mortgage-originations-for-public-use",
+      "text": "F\u200bHFA and CFPB\u200b\u00a0Release Updated Data from the National Survey of Mortgage Originations for Public Use",
+      "title": "FHFA and CFPB Release Updated Data from the National Survey of Mortgage Originations for Public Use"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-and-cfpb-release-updated-data-from-the-national-survey-of-mortgage-originations-for-public-use",
+      "text": "\u200bF\u200bHFA and CFPB\u200b\u00a0Release Updated Data from the National Survey of Mortgage Originations for Public Use",
+      "title": "FHFA and CFPB Release Updated Data from the National Survey of Mortgage Originations for Public Use"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-announces-new-and-expanded-statistical-products-from-the-national-mortgage-database",
+      "text": "F\u200bHFA \u200bAnnounces New and Expanded Statistical Products from the National Mortgage Database",
+      "title": "FHFA Announces New and Expanded Statistical Products From the National Mortgage Database"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-and-cfpb-release-additional-data-from-the-national-survey-of-mortgage-originations-for-public",
+      "text": "FHFA and CFPB Release Additional Data from the National Survey of Mortgage Originations for Public Use",
+      "title": "FHFA and CFPB Release Additional Data from the National Survey of Mortgage Originations for Public Use; Details Borrowers' Experiences Obtaining a Mortgage"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-releases-u.s.-mortgage-statistics-from-the-national-mortgage-database",
+      "text": "FHFA Releases U.S. Mortgage Statistics from the National Mortgage Database",
+      "title": "FHFA Releases U.S. Mortgage Statistics from the National Mortgage Database"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-and-bcfp-release-national-survey-of-mortgage-originations-dataset-for-public-use",
+      "text": "FHFA and CFPB Release National Survey of Mortgage Originations Dataset for Public Use",
+      "title": "FHFA and BCFP Release National Survey of Mortgage Originations Dataset for Public Use"
+    },
+    {
+      "url": "https://www.fhfa.gov/news/news-release/fhfa-and-cfpb-partner-on-development-of-national-mortgage-database",
+      "text": "FHFA and CFPB Partner on Development of National Mortgage Database",
+      "title": "FHFA and CFPB Partner on Development of National Mortgage Database"
+    },
+    {
+      "url": "https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics",
+      "text": "NMDB Aggregate Statistics",
+      "title": "National Mortgage Database (NMDB\u00ae) Aggregate Statistics"
+    },
+    {
+      "url": "https://www.fhfa.gov/data/national-survey-mortgage-originations-nsmo-public-use-file",
+      "text": "NSMO Public Use File",
+      "title": "National Survey of Mortgage Originations (NSMO) Public Use File"
+    },
+    {
+      "url": "https://www.fhfa.gov/document/NMDB-Technical-Documentation.pdf",
+      "text": "NMDB",
+      "title": "NMDB-Technical-Documentation-20221228.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/document/NSMO-Technical-Report-v50.pdf",
+      "text": "NSMO",
+      "title": "NSMO-Technical-Report-v50.pdf"
+    },
+    {
+      "url": "https://www.fhfa.gov/blog/statistics/recent-changes-in-mortgage-related-housing-consumption-costs-evidence-from-the-national-mortgage",
+      "text": "Recent Changes in Mortgage-Related Housing Consumption Costs: Evidence from the National Mortgage Database",
+      "title": "Recent Changes in Mortgage-Related Housing Consumption Costs: Evidence from the National Mortgage Database"
+    },
+    {
+      "url": "https://www.fhfa.gov/blog/statistics/homeowners-equity-remains-high",
+      "text": "Homeowners' Equity Remains High",
+      "title": "Homeowners\u2019 Equity Remains High"
+    },
+    {
+      "url": "https://www.fhfa.gov/blog/statistics/what-types-of-mortgages-do-fannie-mae-and-freddie-mac-acquire",
+      "text": "What Types of Mortgages Do Fannie Mae and Freddie Mac Acquire?",
+      "title": "What Types of Mortgages Do Fannie Mae and Freddie Mac Acquire?"
+    },
+    {
+      "url": "https://www.fhfa.gov/blog/statistics/mortgage-performance-during-the-covid-19-pandemic",
+      "text": "Mortgage Performance During the COVID-19 Pandemic",
+      "title": "Mortgage Performance During the COVID-19 Pandemic"
+    },
+    {
+      "url": "https://www.fhfa.gov/research/papers/nmdb-wp1802",
+      "text": "18-02: First-Time Homebuyer Counseling and the Mortgage Selection Experience",
+      "title": "NMDB Staff Working Paper 18-02: First-Time Homebuyer Counseling and the Mortgage Selection Experience in the United States: Evidence from the National Survey of Mortgage Originations"
+    },
+    {
+      "url": "https://www.fhfa.gov/research/papers/nmdb-wp1801",
+      "text": "18-01: Mortgage Experience of Rural Borrowers",
+      "title": "NMDB Staff Working Paper 18-01: Mortgage Experiences of Rural Borrowers in the United States: Insights from the National Survey of Mortgage Originations"
+    },
+    {
+      "url": "https://www.huduser.gov/portal/periodicals/cityscpe/vol21num2/index.html",
+      "text": "Link",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/",
+      "text": "[No text]",
+      "title": "fhfa's logo"
+    },
+    {
+      "url": "https://www.fhfa.gov/contact",
+      "text": "Contact Us",
+      "title": "Contact Us"
+    },
+    {
+      "url": "https://www.facebook.com/FHFA",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/FHFA",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCoKP7Om6nsRkEav9yInFekw",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/fhfa/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/contact/general",
+      "text": "Leave a comment",
+      "title": "General Questions and Comments Form"
+    },
+    {
+      "url": "https://www.fhfa.gov/homeowners-and-homebuyers/mortgage-assistance",
+      "text": "Trouble With Your Mortgage?",
+      "title": "Mo\u200brtgage As\u200bsistance for America's Homeowners"
+    },
+    {
+      "url": "https://public.govdelivery.com/accounts/USFHFA/subscriber/new?category_id=FHFA_web",
+      "text": "Subscribe to FHFA.gov updates",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/accessibility",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/budget-finances-and-performance",
+      "text": "Budget, Finances, and Performance\u200b",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/careers",
+      "text": "Careers",
+      "title": ""
+    },
+    {
+      "url": "https://data.gov/",
+      "text": "Data.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/do-business-with-us",
+      "text": "Do Business With Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/equal-employment-opportunity-no-fear-act",
+      "text": "EEO/No FEAR Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/foia-privacy",
+      "text": "FOIA & Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfaoig.gov/",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/open-government",
+      "text": "Open Government",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/plain-writing",
+      "text": "Plain Writing",
+      "title": ""
+    },
+    {
+      "url": "https://www.regulations.gov/",
+      "text": "Regulations.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/sitemap",
+      "text": "Sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy",
+      "text": "Terms of Use",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy",
+      "text": "Website Privacy",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}
