@@ -1,0 +1,680 @@
+{
+  "source_yaml": "064_automated_and_driver_assistance_system_incidents.yaml",
+  "source_url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads",
+  "name": "Standing General Order 2021-01 | Incident Reporting for Automated Driving Systems and Level 2 Advanced Driver Assistance Systems",
+  "timestamp": "Thu, 06 Feb 2025 17:30:04 GMT",
+  "num_links": 134,
+  "links": [
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/",
+      "text": "U.S. Department of Transportation",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/report-a-safety-problem",
+      "text": "Report a Safety Problem",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/",
+      "text": "Homepage",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/report-a-safety-problem",
+      "text": "Report a Safety Problem",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/ratings",
+      "text": "Ratings",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/recalls",
+      "text": "Recalls",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving",
+      "text": "Risky Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drunk-driving",
+      "text": "Drunk Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drug-impaired-driving",
+      "text": "Drug-Impaired Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/distracted-driving",
+      "text": "Distracted Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/speeding",
+      "text": "Speeding",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/risky-driving/drowsy-driving",
+      "text": "Drowsy Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety",
+      "text": "Road Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/child-safety",
+      "text": "Child Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/teen-driving",
+      "text": "Teen Driving",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/older-drivers",
+      "text": "Older Drivers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/pedestrian-safety",
+      "text": "Pedestrian Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/bicycle-safety",
+      "text": "Bicycle Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/motorcycles",
+      "text": "Motorcycle Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/road-safety/school-bus-safety",
+      "text": "School Bus Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety",
+      "text": "Vehicle Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/car-seats-and-booster-seats",
+      "text": "Car Seats & Boosters",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/seat-belts",
+      "text": "Seat Belts",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/tires",
+      "text": "Tires",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/air-bags",
+      "text": "Air Bags",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/takata-recall-spotlight",
+      "text": "Takata Recall Spotlight",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/driver-assistance-technologies",
+      "text": "Driver Assistance Technologies",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/electric-and-hybrid-vehicles",
+      "text": "Electric & Hybrid Vehicles",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/automated-vehicles-safety",
+      "text": "Automated Vehicles",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/vehicle-theft-prevention",
+      "text": "Vehicle Theft Prevention",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/odometer-fraud",
+      "text": "Odometer Fraud",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/adapted-vehicles",
+      "text": "Adapted Vehicles",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-safety/15-passenger-vans",
+      "text": "15-Passenger Vans",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "text": "More",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/briefing-room",
+      "text": "Briefing Room",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/importing-vehicle",
+      "text": "Importing a Vehicle",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/research",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations",
+      "text": "Laws & Regulations",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-manufacturers",
+      "text": "Vehicle Manufacturers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/highway-safety-grants-program",
+      "text": "State Governments",
+      "title": "Information and resources for States about highway safety grants."
+    },
+    {
+      "url": "https://www.nhtsa.gov/enforcement-justice-services",
+      "text": "Enforcement & Justice",
+      "title": "Information and resources for the Law Enforcement and Judicial community."
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations",
+      "text": "Laws & Regulations",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?url=https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#overview",
+      "text": "Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads",
+      "text": "ADS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#level-2-adas",
+      "text": "Level 2 ADAS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#overview",
+      "text": "Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#ads",
+      "text": "ADS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#level-2-adas",
+      "text": "Level 2 ADAS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads",
+      "text": "PDF Download",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/node/102611",
+      "text": "safety defect",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/node/103486#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/document/summary-report-standing-general-order-ads",
+      "text": "PDF Download",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/document/summary-report-standing-general-order-adas-l2",
+      "text": "PDF Download",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69361",
+      "text": "Reporting Requirements Are Different for ADS and Level 2 ADAS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69271",
+      "text": "Access to Crash Data May Affect Crash Reporting",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69291",
+      "text": "Incident Report Data May Be Incomplete or Unverified",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69296",
+      "text": "Redacted Confidential Business Information and Personally Identifiable Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69301",
+      "text": "The Same Crash May Have Multiple Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69306",
+      "text": "Summary Incident Report Data Are Not Normalized",
+      "title": ""
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf",
+      "text": "document",
+      "title": ""
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv",
+      "text": "ADS Incident Report Data",
+      "title": ""
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADAS.csv",
+      "text": "Level 2 ADAS Incident Report Data",
+      "title": ""
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv",
+      "text": "Other Incident Report Data",
+      "title": ""
+    },
+    {
+      "url": "https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf",
+      "text": "Data Element Definitions & Log (PDF)",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69281",
+      "text": "Additional Info on Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/node/103486#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62261",
+      "text": "What is the difference between ADS and Level 2 ADAS?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety",
+      "text": "NHTSA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62271",
+      "text": "What is the difference between the SAE Levels?",
+      "title": ""
+    },
+    {
+      "url": "https://www.sae.org/standards/content/j3016_202104",
+      "text": "six Levels of Driving Automation",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62276",
+      "text": "Is my vehicle equipped with an ADS or a Level 2 ADAS?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62281",
+      "text": "Why did NHTSA issue the General Order that requires crash reporting?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62286",
+      "text": "Does the General Order require me to do anything?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62291",
+      "text": "Which companies are subject to the General Order?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62296",
+      "text": "Why have some entities listed in the General Order not submitted any reports?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62301",
+      "text": "How can I notify NHTSA about a crash or safety concern if I am not one of the companies identified in the General Order?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/report-a-safety-problem",
+      "text": "website",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-68866",
+      "text": "Why do some companies have many more incident reports than others?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69371",
+      "text": "Is the information about crashes reported under the General Order complete?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62311",
+      "text": "Are there any consequences if a company fails to comply with the crash reporting obligations in the General Order?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62316",
+      "text": "Can I view the form used to report crashes?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads-sample-form",
+      "text": "here",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/node/103486#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62321",
+      "text": "What does NHTSA do with the reported crash data?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-62326",
+      "text": "Is the incident report data required by the General Order publicly available?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/node/103486#data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-68861",
+      "text": "What\u2019s the difference between the General Order and NHTSA\u2019s AV TEST Initiative?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/automated-vehicle-test-tracking-tool",
+      "text": "AV TEST",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting#faq-69376",
+      "text": "What\u2019s next for the General Order?",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/equipment/driver-assistance-technologies",
+      "text": "Driver Assistance Technologies",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety",
+      "text": "Automated Vehicles for Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/automated-vehicle-test-tracking-tool",
+      "text": "AV TEST Initiative",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa",
+      "text": "About NHTSA",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/working-nhtsa",
+      "text": "Careers & Internships",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/contact-us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/recalls",
+      "text": "Recall Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/report-a-safety-problem",
+      "text": "Report a Safety Problem",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/vehicle-manufacturers",
+      "text": "Vehicle Manufacturers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/highway-safety-grants-program",
+      "text": "State Governments",
+      "title": "Information and resources for States about highway safety grants."
+    },
+    {
+      "url": "https://www.nhtsa.gov/enforcement-justice-services",
+      "text": "Enforcement & Justice",
+      "title": "Information and resources for the Law Enforcement and Judicial community."
+    },
+    {
+      "url": "https://www.nhtsa.gov/campaign/safercar-app",
+      "text": "SaferCar App",
+      "title": ""
+    },
+    {
+      "url": "https://www.trafficsafetymarketing.gov/",
+      "text": "TrafficSafetyMarketing.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.ems.gov/",
+      "text": "EMS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.911.gov",
+      "text": "911.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/web-policies-notices",
+      "text": "Web Policies & Notices",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/accessibility",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhtsa.gov/about-nhtsa/privacy-policy",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/regulations/dot-information-dissemination-quality-guidelines",
+      "text": "Information Quality",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/vulnerability-disclosure-policy",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.eeoc.gov/eeoc/statistics/nofear/qanda.cfm",
+      "text": "No Fear Act Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/ethics",
+      "text": "Ethics",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/civil-rights",
+      "text": "Civil Rights",
+      "title": ""
+    },
+    {
+      "url": "https://www.oig.dot.gov/",
+      "text": "Office of Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://www.oig.dot.gov/hotline",
+      "text": "OIG Hotline",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/business",
+      "text": "BusinessUSA",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.whitehouse.gov/",
+      "text": "WhiteHouse.gov",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/@nhtsagov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/national-highway-traffic-safety-administration-nhtsa",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/NHTSA",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/usdotnhtsa",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/nhtsagov",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.transportation.gov/feedback?title=NHTSA%20Page&url=https%3A%2F%2Fnhtsa.gov%2F",
+      "text": "Submit Feedback >",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

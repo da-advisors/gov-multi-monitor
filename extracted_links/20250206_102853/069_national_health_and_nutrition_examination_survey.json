@@ -1,0 +1,770 @@
+{
+  "source_yaml": "069_national_health_and_nutrition_examination_survey.yaml",
+  "source_url": "https://www.cdc.gov/nchs/nhanes/",
+  "name": "National Health and Nutrition Examination Survey (NHANES)",
+  "timestamp": "Thu, 06 Feb 2025 17:28:55 GMT",
+  "num_links": 152,
+  "links": [
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#cdc-search",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#gov-notice",
+      "text": "Here's how you know",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/about/index.html",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/",
+      "text": "Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "About NHANES",
+      "title": "About NHANES"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about-data/index.html",
+      "text": "NHANES Results and Publications",
+      "title": "NHANES Results and Publications"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/biospecimen/index.html",
+      "text": "Biospecimen Program",
+      "title": "Biospecimen Program"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/spu-specimens/index.html",
+      "text": "Serum, Plasma, and Urine Specimens",
+      "title": "Serum, Plasma, and Urine Specimens"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/updates/index.html",
+      "text": "Webinars",
+      "title": "Webinars"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/site.html",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/",
+      "text": "searchclose search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/about/index.html",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/index.html",
+      "text": "National Health and Nutrition Examination Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/",
+      "text": "Menu",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "About NHANES",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about-data/index.html",
+      "text": "NHANES Results and Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/biospecimen/index.html",
+      "text": "Biospecimen Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/spu-specimens/index.html",
+      "text": "Serum, Plasma, and Urine Specimens",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/updates/index.html",
+      "text": "Webinars",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/site.html#gen",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/index.html",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+      "text": "About NHANES Data",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/tutorials/default.aspx",
+      "text": "NHANES Data Tutorials",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes-participants/site.html",
+      "text": "NHANES Participants",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/site.html",
+      "text": "View AllNational Health and Nutrition Examination Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "[No text]",
+      "title": "About NHANES"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "About NHANES",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "Learn More",
+      "title": "Learn More"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes-participants/index.html",
+      "text": "[No text]",
+      "title": "Welcome to the National Health and Nutrition Examination Survey"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes-participants/index.html",
+      "text": "Welcome to the National Health and Nutrition Examination Survey",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+      "text": "[No text]",
+      "title": "About the Data"
+    },
+    {
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/default.aspx",
+      "text": "About the Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/publications.html",
+      "text": "[No text]",
+      "title": "Results and Publications"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/publications.html",
+      "text": "Results and Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/biospecimen-redirect.html",
+      "text": "[No text]",
+      "title": "Biospecimen Program"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/biospecimen-redirect.html",
+      "text": "Biospecimen Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/data-analysis-tutorial.html",
+      "text": "[No text]",
+      "title": "Data Analysis Tutorial"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/data-analysis-tutorial.html",
+      "text": "Data Analysis Tutorial",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/webinars.html",
+      "text": "[No text]",
+      "title": "Webinars"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/modules/webinars.html",
+      "text": "Webinars",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/updates/growth-charts.html",
+      "text": "[No text]",
+      "title": "Growth Charts"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/updates/growth-charts.html",
+      "text": "Growth Charts",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/nchs/nhanes/ProposalGuidelines.aspx",
+      "text": "New Content and Proposals submission deadline extended through February 3, 2025.",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db519.htm",
+      "text": "Anemia Prevalence: United States, August 2021\u2013August 2023",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=2001",
+      "text": "Caffeine & Caffeine Metabolites - Urine (Surplus) (SSCAFE_B 2001-2002)",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=1999",
+      "text": "Caffeine & Caffeine Metabolites - Urine (Surplus) (SSCAFE_A 1999-2000)",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&Cycle=2017-2020",
+      "text": "Sex Steroid Hormone Panel - Serum (P_TST 2017-March 2020)",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=2017",
+      "text": "Sex Steroid Hormone Panel - Serum (Surplus) (SSTST_J 2017-2018)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/about/index.html",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/site.html",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/index.html#gen",
+      "text": "For Everyone",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about/index.html",
+      "text": "About NHANES",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/about-data/index.html",
+      "text": "NHANES Results and Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/biospecimen/index.html",
+      "text": "Biospecimen Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/spu-specimens/index.html",
+      "text": "Serum, Plasma, and Urine Specimens",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/updates/index.html",
+      "text": "Webinars",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/campaignproxyservice/subscriptions.aspx#featured",
+      "text": "Sign up for Email Updates",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#contactUs",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#aboutCDC",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/organization/",
+      "text": "Organization",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/budget/",
+      "text": "Budget & Funding",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov/index.html",
+      "text": "Careers & Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#policies",
+      "text": "Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html#exit-notification",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/foia/",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov/",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#languages",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html",
+      "text": "Language Assistance",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#archive",
+      "text": "Archive",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#mobile-footer-contactUs",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#mobile-footer-aboutCDC",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/organization/",
+      "text": "Organization",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/budget/",
+      "text": "Budget & Funding",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov/index.html",
+      "text": "Careers & Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#mobile-footer-policies",
+      "text": "Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html#exit-notification",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/foia/",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov/",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#mobile-footer-languages",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/#mobile-footer-archive",
+      "text": "Archive",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/cdc",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/rss",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://usa.gov",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhanes/",
+      "text": "[No text]",
+      "title": "Go to top"
+    }
+  ],
+  "linked_urls": []
+}

@@ -1,0 +1,920 @@
+{
+  "source_yaml": "050_doj_annual_statistical_reports.yaml",
+  "source_url": "https://www.justice.gov/usao/resources/annual-statistical-reports",
+  "name": "DOJ Annual Statistical Reports",
+  "timestamp": "Thu, 06 Feb 2025 17:30:16 GMT",
+  "num_links": 182,
+  "links": [
+    {
+      "url": "https://www.justice.gov/usao/resources/annual-statistical-reports#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/",
+      "text": "U.S. Department\n                            of Justice",
+      "title": "U.S. Department of Justice Homepage"
+    },
+    {
+      "url": "https://www.justice.gov/ag",
+      "text": "The Attorney General",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/agencies/chart/map",
+      "text": "Organizational Chart",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/doj/budget-and-performance",
+      "text": "Budget & Performance",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/history",
+      "text": "History",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/opcl",
+      "text": "Privacy Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/our-work",
+      "text": "Our Work",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/press-releases",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/speeches",
+      "text": "Speeches",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/videos",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/photo-galleries",
+      "text": "Photo Galleries",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/blogs",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/podcasts",
+      "text": "Podcasts",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/guidance",
+      "text": "Guidance Documents",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/forms",
+      "text": "Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/publications",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/information-victims-large-cases",
+      "text": "Information for Victims in Large Cases",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/jm/justice-manual",
+      "text": "Justice Manual",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/business",
+      "text": "Business and Contracts",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/grants",
+      "text": "Grants",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/why-justice",
+      "text": "Why Justice ?",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/benefits",
+      "text": "Benefits",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/search-jobs",
+      "text": "DOJ Vacancies",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/legal-careers",
+      "text": "Legal Careers at DOJ",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/find-your-united-states-attorney",
+      "text": "USAO Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.justice.gov/usao/find-your-united-states-attorney",
+      "text": "USAO Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/us-attorneys-listing",
+      "text": "U.S. Attorneys List",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/mission",
+      "text": "Mission of the U.S. Attorneys",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/history",
+      "text": "History of the U.S. Attorneys",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa",
+      "text": "EOUSA",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/mission-and-functions",
+      "text": "EOUSA Mission and Functions",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/organizational-chart",
+      "text": "EOUSA Organizational Chart",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/pressreleases",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/videos",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/usao-social-media-directory",
+      "text": "Social Media Directory",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources/foia-library",
+      "text": "FOIA Library",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources/making-foia-request",
+      "text": "FOIA/Privacy Act Requests",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources/annual-statistical-reports",
+      "text": "Annual Statistical Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources/journal-of-federal-law-and-practice",
+      "text": "DOJ Journal",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/jm/justice-manual",
+      "text": "Justice Manual",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/office-victims-rights-ombudsman",
+      "text": "Office of the Victims\u2019 Rights Ombudsman",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center",
+      "text": "Career Center",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/job-openings",
+      "text": "Current Job Openings",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/attorneys",
+      "text": "Attorneys",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/professional-staff",
+      "text": "Professional Staff",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/students",
+      "text": "Students",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/salary-information",
+      "text": "Salary Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/career-center/frequently-asked-questions",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/find-your-united-states-attorney",
+      "text": "USAO Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/about",
+      "text": "About",
+      "title": "About"
+    },
+    {
+      "url": "https://www.justice.gov/ag",
+      "text": "The Attorney General",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/agencies/chart/map",
+      "text": "Organizational Chart",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/doj/budget-and-performance",
+      "text": "Budget & Performance",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/history",
+      "text": "History",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/opcl",
+      "text": "Privacy Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/our-work",
+      "text": "Our Work",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news",
+      "text": "News",
+      "title": "News"
+    },
+    {
+      "url": "https://www.justice.gov/news/press-releases",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/speeches",
+      "text": "Speeches",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/videos",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/photo-galleries",
+      "text": "Photo Galleries",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/blogs",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/news/podcasts",
+      "text": "Podcasts",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/resources",
+      "text": "Resources",
+      "title": "Guidance & Resources"
+    },
+    {
+      "url": "https://www.justice.gov/guidance",
+      "text": "Guidance Documents",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/forms",
+      "text": "Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/publications",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/information-victims-large-cases",
+      "text": "Information for Victims in Large Cases",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/jm/justice-manual",
+      "text": "Justice Manual",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/business",
+      "text": "Business and Contracts",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/grants",
+      "text": "Grants",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/why-justice",
+      "text": "Why Justice ?",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/benefits",
+      "text": "Benefits",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/careers/search-jobs",
+      "text": "DOJ Vacancies",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/legal-careers",
+      "text": "Legal Careers at DOJ",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/find-your-united-states-attorney",
+      "text": "USAO Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/eousa/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/",
+      "text": "Justice.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao",
+      "text": "U.S. Attorneys",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "http://www.facebook.com/sharer/sharer.php?u=https://www.justice.gov/usao/resources/annual-statistical-reports",
+      "text": "Facebook",
+      "title": "Share on Facebook"
+    },
+    {
+      "url": "http://twitter.com/intent/tweet?url=https://www.justice.gov/usao/resources/annual-statistical-reports&text=Annual Statistical Reports",
+      "text": "X",
+      "title": "Share on X"
+    },
+    {
+      "url": "http://www.linkedin.com/shareArticle?mini=true&url=https://www.justice.gov/usao/resources/annual-statistical-reports&title=Annual Statistical Reports",
+      "text": "LinkedIn",
+      "title": "Share on LinkedIn"
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/1390446/dl?inline",
+      "text": "2020",
+      "title": "fy_2020_stat_tables_toc_cover_rev3a_7_18d.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/1476856/dl?inline",
+      "text": "2021",
+      "title": "fy_2021_cover_intro_toc_tables_v4.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/file/1574596/dl?inline",
+      "text": "2022",
+      "title": "22statrpt.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/media/1343726/dl?inline",
+      "text": "2023",
+      "title": "fy2023-cover-intro-toc-tables.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2010/10statrpt.pdf",
+      "text": "2010",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2011/11statrpt.pdf",
+      "text": "2011",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2012/12statrpt.pdf",
+      "text": "2012",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2013/13statrpt.pdf",
+      "text": "2013",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/sites/default/files/usao/pages/attachments/2015/03/23/14statrpt.pdf",
+      "text": "2014",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/media/823441/dl?inline",
+      "text": "2015",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/988896/dl?inline",
+      "text": "2016",
+      "title": "fy2016_asr.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/1081801/dl?inline",
+      "text": "2017",
+      "title": "17statrpt.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/1199336/dl?inline",
+      "text": "2018",
+      "title": "fy-2018-annual-statistical-report.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/page/file/1285951/dl?inline",
+      "text": "2019",
+      "title": "2020statrpt.pdf"
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2000/00statrpt.pdf",
+      "text": "2000",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2001/01statrpt.pdf",
+      "text": "2001",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2002/02_stat_book.pdf",
+      "text": "2002",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2003/03_STAT_Report.pdf",
+      "text": "2003",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2004/asr2004.pdf",
+      "text": "2004",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2005/05statrpt.pdf",
+      "text": "2005",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2006/06statrpt.pdf",
+      "text": "2006",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2007/07statrpt.pdf",
+      "text": "2007",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2008/08statrpt.pdf",
+      "text": "2008",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr2009/09statrpt.pdf",
+      "text": "2009",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1990.pdf",
+      "text": "1990",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1991.pdf",
+      "text": "1991",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1992.pdf",
+      "text": "1992",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1993.pdf",
+      "text": "1993",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1994.pdf",
+      "text": "1994",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1995.pdf",
+      "text": "1995",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1996.pdf",
+      "text": "1996",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1990s/STATISTICAL_REPORT_FISCAL_YEAR_1997.pdf",
+      "text": "1997",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr1998/98statrpt.pdf",
+      "text": "1998",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/asr1999/99statrpt.pdf",
+      "text": "1999",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1980.pdf",
+      "text": "1980",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1981.pdf",
+      "text": "1981",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1982.pdf",
+      "text": "1982",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1983.pdf",
+      "text": "1983",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1984.pdf",
+      "text": "1984",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1985.pdf",
+      "text": "1985",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1986.pdf",
+      "text": "1986",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1987.pdf",
+      "text": "1987",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1988.pdf",
+      "text": "1988",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1980s/STATISTICAL_REPORT_FISCAL_YEAR_1989.pdf",
+      "text": "1989",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1970.pdf",
+      "text": "1970",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1971.pdf",
+      "text": "1971",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1972.pdf",
+      "text": "1972",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1973.pdf",
+      "text": "1973",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1974.pdf",
+      "text": "1974",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1975.pdf",
+      "text": "1975",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/media/987941/dl?inline",
+      "text": "1976",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1977.pdf",
+      "text": "1977",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1978.pdf",
+      "text": "1978",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1970s/STATISTICAL_REPORT_FISCAL_YEAR_1979.pdf",
+      "text": "1979",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1960.pdf",
+      "text": "1960",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1961.pdf",
+      "text": "1961",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1962.pdf",
+      "text": "1962",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1963.pdf",
+      "text": "1963",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1964.pdf",
+      "text": "1964",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1965.pdf",
+      "text": "1965",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1966.pdf",
+      "text": "1966",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1967.pdf",
+      "text": "1967",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1968.pdf",
+      "text": "1968",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1960s/STATISTICAL_REPORT_FISCAL_YEAR_1969.pdf",
+      "text": "1969",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1955.pdf",
+      "text": "1955",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1956.pdf",
+      "text": "1956",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1957.pdf",
+      "text": "1957",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1958_Jan.pdf",
+      "text": "Jan 1958",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1958_Sept.pdf",
+      "text": "Sept 1958",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/reading_room/reports/1950s/STATISTICAL_REPORT_FISCAL_YEAR_1959.pdf",
+      "text": "1959",
+      "title": ""
+    },
+    {
+      "url": "http://get.adobe.com/reader/",
+      "text": "Adobe website",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/USAttorneys",
+      "text": "twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/UnitedStatesAttorneysOffices",
+      "text": "youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/usattorneys/",
+      "text": "linkedin",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/about",
+      "text": "About",
+      "title": "About DOJ"
+    },
+    {
+      "url": "https://www.justice.gov/archives/doj-archive",
+      "text": "Archives",
+      "title": "Department of Justice Archive"
+    },
+    {
+      "url": "https://www.justice.gov/oip",
+      "text": "FOIA",
+      "title": "Office of Information Policy"
+    },
+    {
+      "url": "https://www.justice.gov/accessibility/accessibility-statement",
+      "text": "Accessibility",
+      "title": "Accessibility Statement"
+    },
+    {
+      "url": "https://www.justice.gov/legalpolicies",
+      "text": "Legal Policies & Disclaimers",
+      "title": "Legal Policies and Disclaimers"
+    },
+    {
+      "url": "https://www.justice.gov/doj/privacy-policy",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/employees",
+      "text": "For Employees",
+      "title": "For Employees"
+    },
+    {
+      "url": "https://oig.justice.gov/",
+      "text": "Office of the Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/jmd/eeo-program-status-report",
+      "text": "No FEAR\u00a0Act Data",
+      "title": "Data Posted Pursuant To The No Fear Act"
+    },
+    {
+      "url": "https://www.justice.gov/jmd/vulnerability-disclosure-policy",
+      "text": "Vulnerability Disclosure",
+      "title": "Vulnerability Disclosure Policy (VDP)"
+    },
+    {
+      "url": "https://www.justice.gov/es/espanol",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://vote.gov/",
+      "text": "Vote.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "Contact USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/usao/resources/annual-statistical-reports",
+      "text": "Top",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

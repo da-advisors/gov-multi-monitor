@@ -21,6 +21,13 @@ class LinkedURL:
     type: Optional[str] = None  # e.g. pdf, excel, csv
     expected_update_frequency: Optional[str] = None
     archived_content: List[ArchivedContent] = None  # List of archived versions of the content
+    status: Optional[str] = None
+    status_code: Optional[int] = None
+    redirect_url: Optional[str] = None
+    last_modified: Optional[str] = None
+    error_message: Optional[str] = None
+    content_length: Optional[int] = None
+    response_time: Optional[float] = None
 
     def __post_init__(self):
         """Initialize default values."""

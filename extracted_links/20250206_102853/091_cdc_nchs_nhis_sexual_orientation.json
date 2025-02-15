@@ -1,0 +1,930 @@
+{
+  "source_yaml": "091_cdc_nchs_nhis_sexual_orientation.yaml",
+  "source_url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm",
+  "name": "CDC NCHS NHIS Sexual Orientation References",
+  "timestamp": "Thu, 06 Feb 2025 17:33:05 GMT",
+  "num_links": 184,
+  "links": [
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#headerSearch",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/spanish/",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages/",
+      "text": "Other Languages",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm",
+      "text": "Search NCHS",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm",
+      "text": "All CDC",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/index.htm",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#print",
+      "text": "Print",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#collapse_1626672af45c07d13",
+      "text": "Minus",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhis/index.html",
+      "text": "https://www.cdc.gov/nchs/nhis/",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/index.htm",
+      "text": "National Health Interview Survey",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/about_nhis.htm",
+      "text": "About NHIS",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2019_quest_redesign.htm",
+      "text": "2019 Redesign",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-fc979",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_redesign.htm",
+      "text": "1997 Redesign",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/new_nhis.htm",
+      "text": "What's New",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis-webinar.htm",
+      "text": "Webinar",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-b5e08",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/quest_doc.htm",
+      "text": "Survey Instruments",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/data-questionnaires-documentation.htm",
+      "text": "Data, Questionnaires, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-39c49",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2024nhis.htm",
+      "text": "2024 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2023nhis.htm",
+      "text": "2023 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2022nhis.htm",
+      "text": "2022 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2021nhis.htm",
+      "text": "2021 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2020nhis.htm",
+      "text": "2020 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2019nhis.htm",
+      "text": "2019 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2018_data_release.htm",
+      "text": "2018 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2017_data_release.htm",
+      "text": "2017 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2016_data_release.htm",
+      "text": "2016 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2015_data_release.htm",
+      "text": "2015 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2014_data_release.htm",
+      "text": "2014 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2013_data_release.htm",
+      "text": "2013 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2012_data_release.htm",
+      "text": "2012 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2011_data_release.htm",
+      "text": "2011 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2010_data_release.htm",
+      "text": "2010 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2009_data_release.htm",
+      "text": "2009 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2008_data_release.htm",
+      "text": "2008 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2007_data_release.htm",
+      "text": "2007 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2006_data_release.htm",
+      "text": "2006 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2005_data_release.htm",
+      "text": "2005 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_2004_data_release.htm",
+      "text": "2004 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2003imputedincome.htm",
+      "text": "2003 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2003supplementalimputedincome.htm",
+      "text": "2003 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2002imputedincome.htm",
+      "text": "2002 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2002supplementalimputedincome.htm",
+      "text": "2002 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2001imputedincome.htm",
+      "text": "2001 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2001supplementalimputedincome.htm",
+      "text": "2001 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2000imputedincome.htm",
+      "text": "2000 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/2000supplementalimputedincome.htm",
+      "text": "2000 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1999imputedincome.htm",
+      "text": "1999 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1999supplementalimputedincome.htm",
+      "text": "1999 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1998imputedincome.htm",
+      "text": "1998 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1998supplementalimputedincome.htm",
+      "text": "1998 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1997imputedincome.htm",
+      "text": "1997 Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/1997supplementalimputedincome.htm",
+      "text": "1997 Supplemental Imputed Income Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/family_resource_supplement_add_imp_flags.htm",
+      "text": "Additional Imputation Flags, NHIS Family Resources Supplements, 1993-1996",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/methods.htm",
+      "text": "Methods",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-92ccb",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/singleton_psu.htm",
+      "text": "Supplementary Resources for NHIS Public Use Files With Variance Estimation Singleton PSUs",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sudaan.htm",
+      "text": "Variance Estimation for NHIS Public-Use Person Data Files, 1985-94",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/supplements_cosponsors.htm",
+      "text": "Supplements and Cosponsors",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_products.htm",
+      "text": "Survey Reports and Data Linked to NHIS",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-954fe",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/shs.htm",
+      "text": "Summary Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_db.htm",
+      "text": "Data Briefs",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_nhsr.htm",
+      "text": "National Health Statistics Reports",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_series.htm",
+      "text": "Series Reports",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_bibliography.htm",
+      "text": "List of Articles Using NHIS Data",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhismep.htm",
+      "text": "Medical Expenditure Panel Survey Linkage Files",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/niprcs.htm",
+      "text": "National Immunization Provider Record Check Study",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/releases.htm",
+      "text": "NHIS Early Release Program",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/special_topics.htm",
+      "text": "Special Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-2d9b0",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol.htm",
+      "text": "Adult Alcohol Use Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-d9779",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_topics.htm",
+      "text": "List of Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-77634",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_changes.htm",
+      "text": "Major Changes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_questions.htm",
+      "text": "Adult Alcohol Use Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_guide.htm",
+      "text": "Guide for Data Users",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_recodes.htm",
+      "text": "Recodes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_statistics.htm",
+      "text": "Alcohol Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_faq.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/alcohol/alcohol_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity.htm",
+      "text": "Adult Physical Activity Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-3c348",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_history.htm",
+      "text": "Historical Context",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_overview.htm",
+      "text": "Overview of Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_topics.htm",
+      "text": "List of Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-bfc7f",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_changes.htm",
+      "text": "Major Changes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_questions.htm",
+      "text": "Adult Physical Activity Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_guide.htm",
+      "text": "Guide for Data Users",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_recodes.htm",
+      "text": "Recodes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/physical_activity/pa_comparison.htm",
+      "text": "Comparison of Two Sets of Physical Activity Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_statistics.htm",
+      "text": "Adult Physical Activity Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_faq.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/physical_activity/pa_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco.htm",
+      "text": "Adult Tobacco Use Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-9f43e",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_history.htm",
+      "text": "Historical Context",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_overview.htm",
+      "text": "Overview of Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_topics.htm",
+      "text": "List of Topics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-651d7",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_changes.htm",
+      "text": "Major Changes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_questions.htm",
+      "text": "Adult Tobacco Use Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_guide.htm",
+      "text": "Guide for Data Users",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_recodes.htm",
+      "text": "Recodes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_statistics.htm",
+      "text": "Tobacco Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_faq.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/tobacco/tobacco_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/insurance.htm",
+      "text": "Health Insurance Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-7d3a7",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/health_insurance/hi_history.htm",
+      "text": "Historical Context",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/health_insurance/hi_content.htm",
+      "text": "Questionnaire Content",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/health_insurance/hi_eval.htm",
+      "text": "Evaluation and Editing of Health Insurance Data",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/health_insurance/hi_statistics.htm",
+      "text": "Health Insurance Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/health_insurance/hi_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning.htm",
+      "text": "Injury and Poisoning Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-b9d2d",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_history.htm",
+      "text": "Historical Context",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-86ae2",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_changes.htm",
+      "text": "Major Changes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_questions.htm",
+      "text": "Injury and Poisoning Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_guide.htm",
+      "text": "Guide for Data Users",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_editing.htm",
+      "text": "Editing and Processing the Injury and Poisoning Data",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_statistics.htm",
+      "text": "Injury and Poisoning Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-ad57e",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_calculating_estimates.htm",
+      "text": "Calculating Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_publications.htm",
+      "text": "NCHS Publications",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/injury_poisoning/ip_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi.htm",
+      "text": "Race and Hispanic Origin Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-41103",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_history.htm",
+      "text": "Historical Context",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-e5cce",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_changes.htm",
+      "text": "Major Changes",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_documentation.htm",
+      "text": "Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_presentations.htm",
+      "text": "Presentations",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_faq.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_bibliography.htm",
+      "text": "Annotated Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/rhoi/rhoi_glossary.htm",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/index.htm",
+      "text": "Sexual Orientation Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-e3e65",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/background.htm",
+      "text": "Background",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/questionnaire.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/statistics.htm",
+      "text": "Sexual Orientation Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/faqs.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/sexual_orientation/references.htm",
+      "text": "References",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/veterans-health-info.htm",
+      "text": "Veterans Health Information",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-0e11a",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/background.htm",
+      "text": "Background",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/questionnaire.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/veterans-health-statistics.htm",
+      "text": "Veterans Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/tables.htm",
+      "text": "Tables of Veterans Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/veterans_health_statistics/publications.htm",
+      "text": "Other Publications",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhpi.html",
+      "text": "Native Hawaiian and Pacific Islander NHIS",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-b1b3d",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhpi/nhpi_2014_data_release.htm",
+      "text": "2014 Data Release",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhpi/faqs.htm",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/teen.htm",
+      "text": "NHIS-Teen",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/nhis_disability.htm",
+      "text": "NHIS on Disability",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/www_cdc_gov/nchs/nhis/sexual_orientation/references.htm#nav-group-b036a",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/biblio.htm",
+      "text": "Workshop on Data Release, Analysis Methods, and Preliminary Findings",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/ad292tb1.htm",
+      "text": "Number of persons using assistive technology devices",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/jcush.htm",
+      "text": "Joint Canada/United States Survey of Health",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/participants/index.htm",
+      "text": "NHIS Survey Participants",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/nhis/contact.htm",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/nchs/surveys.htm",
+      "text": "Surveys and Data Collection Systems",
+      "title": ""
+    },
+    {
+      "url": "https://www.ihis.us/",
+      "text": "Integrated Version of Selected NHIS Variables",
+      "title": ""
+    },
+    {
+      "url": "https://www.childstats.gov/",
+      "text": "Child and Family Statistics",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

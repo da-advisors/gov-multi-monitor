@@ -1,0 +1,810 @@
+{
+  "source_yaml": "081_behavioral_risk_factor_surveillance_system_brfss.yaml",
+  "source_url": "https://www.cdc.gov/brfss/index.html",
+  "name": "Behavioral Risk Factor Surveillance System (BRFSS)",
+  "timestamp": "Tue, 11 Feb 2025 03:45:16 GMT",
+  "num_links": 160,
+  "links": [
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#headerSearch",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages/",
+      "text": "Other Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "text": "Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html",
+      "text": "Behavioral Risk Factor Surveillance System",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#print",
+      "text": "Print",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#collapse_4383679eb89c05159",
+      "text": "Minus",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+      "text": "2023 BRFSS Data Now AvailableView the latest 2023 BRFSS Annual Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/pdf/Save-The-Date-and-Call-for-Abstracts-BRFSS-2025-508c.pdf",
+      "text": "Save the Date and Call for Abstracts: BRFSS 2025 MeetingBRFSS 2025 Meeting",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2022_documentation.html",
+      "text": "2022 ACBS Now AvailableView the 2022 Asthma Call-back Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/about/index.htm",
+      "text": "See More",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_tools.htm",
+      "text": "Prevalence Data & Data Analysis Tools",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/questionnaires/index.htm",
+      "text": "BRFSS Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_documentation/index.htm",
+      "text": "Survey Data & Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/publications/index.htm",
+      "text": "Publications & Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_documentation/statistic_brief.htm",
+      "text": "Working with Module Data?BRFSS Statistical Briefs help guide research on many topics.",
+      "title": ""
+    },
+    {
+      "url": "https://healthdata.gov/",
+      "text": "HealthData.gov",
+      "title": ""
+    },
+    {
+      "url": "https://data.cdc.gov/",
+      "text": "Data Catalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/state_info/coordinators.htm",
+      "text": "View State Coordinators",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/state_info/brfss_use_examples.htm",
+      "text": "State Data Uses",
+      "title": ""
+    },
+    {
+      "url": "http://www.cdc.gov/24-7/?s_cid=cdc_homepage_cdcinaction_001",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/chronic-disease/",
+      "text": "National Center for Chronic Disease Prevention and Health Promotion",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nccdphp/divisions-offices/about-the-division-of-population-health.html",
+      "text": "Division of Population Health",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": "Share to Facebook"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": "Share to Twitter"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": "Share to LinkedIn"
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm",
+      "text": "Syndicate",
+      "title": "Embed this Page"
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/",
+      "text": "BRFSS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/about/brfss_faq.htm",
+      "text": "BRFSS FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_tools.htm",
+      "text": "Prevalence Data and Data Analysis Tools",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO.htm",
+      "text": "Behavioral Risk Factor Surveillance System Funding Opportunity",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-8bdc8",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO-faqs.htm",
+      "text": "BRFSS NOFO FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/funding/Behavioral-Risk-Factor-Surveillance-System-NOFO-call-script.htm",
+      "text": "BRFSS NOFO Call Script",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_documentation/index.htm",
+      "text": "Survey Data and Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-a0252",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_data.htm",
+      "text": "Annual Survey Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-d69a9",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2023.html",
+      "text": "2023 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2022.html",
+      "text": "2022 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2021.html",
+      "text": "2021 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2020.html",
+      "text": "2020 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/annual_data/annual_2019.html",
+      "text": "2019 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/index.htm",
+      "text": "Asthma Call-back Survey Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-fb772",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2022_documentation.html",
+      "text": "2022 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-1ee2c",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2022_tables_LLCP.html",
+      "text": "Table of Contents (LLCP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2021_documentation.html",
+      "text": "2021 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-fd320",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2021_tables_LLCP.html",
+      "text": "Table of Contents (LLCP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2020_documentation.html",
+      "text": "2020 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-7dfd9",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2020_tables_LLCP.html",
+      "text": "Table of Contents (LLCP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/combined_years_15-17.html",
+      "text": "Children Combined Data 2015-2017",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-beaf1",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2015-2017_tables.html",
+      "text": "Combined 2015-2017 Child ACBS Prevalence Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2017/pdf/Combined-2015-2017-Child-ACBS-Prevalence-Tables-Technical-Information_final-508.pdf",
+      "text": "2015-2017 ACBS Combined Prevalence Tables Technical Information [PDF - 195 KB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/combined_years_18-20.html",
+      "text": "Children Combined Data 2018-2020",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-6da8b",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2018-2020_tables.html",
+      "text": "Combined 2018-2020 Child ACBS Prevalence Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2018/multiple_year/files/Combined-2018-2020-ACBS-Child-Data-History_Analysis_final-508.docx",
+      "text": "2018-2020 ACBS Combined Prevalence Tables Technical Information [DOC - 316 KB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/combined_years_19-21.html",
+      "text": "Children Combined Data 2019-2021",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-421f0",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2019-2021_tables.html",
+      "text": "Combined 2019-2021 Child ACBS Prevalence Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2019_documentation.html",
+      "text": "2019 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-3de73",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/acbs/2019_tables_LLCP.html",
+      "text": "Table of Contents (LLCP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/gis/gis_maps.htm",
+      "text": "GIS Maps Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-4c340",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/gis/gis_maps_faq.htm",
+      "text": "BRFSS Maps FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/Smart_data.htm",
+      "text": "SMART: City and County Survey Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-f401d",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_faq.htm",
+      "text": "SMART: BRFSS FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_2023.html",
+      "text": "2023 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_2022.html",
+      "text": "2022 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_2021.html",
+      "text": "2021 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_2020.html",
+      "text": "2020 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/smart/smart_2019.html",
+      "text": "2019 Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/data_documentation/statistic_brief.htm",
+      "text": "Statistical Briefs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/questionnaires/index.htm",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/publications/index.htm",
+      "text": "Publications and Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/index.html#nav-group-3cd87",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/publications/ssummaries.htm",
+      "text": "Surveillance Summaries",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/publications/data_qvr.htm",
+      "text": "Data Quality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/publications/mvr.html",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/state_info/index.htm",
+      "text": "State Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/state_info/coordinators.htm",
+      "text": "State Coordinators",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/brfss/state_info/brfss_use_examples.htm",
+      "text": "State-by-State Listing of How Data Are Used",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/emailupdates/",
+      "text": "What\u2019s this?",
+      "title": ""
+    },
+    {
+      "url": "http://healthdata.gov/",
+      "text": "HealthData.gov",
+      "title": ""
+    },
+    {
+      "url": "http://data.cdc.gov/",
+      "text": "Data Catalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/chronicdisease/data/surveillance.htm",
+      "text": "CDC\u2019s Major Disease Surveillance Systems",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/24-7/?s_cid=24-7_004",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx",
+      "text": "RSS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Email Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/funding",
+      "text": "Funding",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/dcs/RequestForm.aspx",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": "Spanish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": "Chinese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": "Vietnamese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": "Korean"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": "Tagalog"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": "Russian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": "Arabic"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": "Haitian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": "French"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": "Polish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": "Portuguese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": "Italian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": "German"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": "Japanese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": "Farsi"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": "English"
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

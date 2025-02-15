@@ -1,0 +1,90 @@
+{
+  "source_yaml": "047_private_school_universe_survey.yaml",
+  "source_url": "https://nces.ed.gov/surveys/pss/",
+  "name": "Private School Universe Survey",
+  "timestamp": "Tue, 11 Feb 2025 03:44:50 GMT",
+  "num_links": 16,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/surveys/pss/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/index.asp",
+      "text": "Private School Universe Survey (PSS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=002",
+      "text": "Publications & Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/datatools.asp",
+      "text": "Data Tools",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=002",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/index.asp",
+      "text": "Overview",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/tables2122.asp",
+      "text": "Data Tables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/pssdata.asp",
+      "text": "Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/faqs.asp",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "http://ies.ed.gov/newsflash/index.asp#nces",
+      "text": "Join NewsFlash",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/#top",
+      "text": "Top",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024144",
+      "text": "Condition of Education 2024",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023042",
+      "text": "Private School Survey: Restricted-Use Data File for 2021-22 School Year",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024010",
+      "text": "Private School Survey: Public-Use Data for 2021-22 School Year",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023144REV",
+      "text": "Condition of Education 2023",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

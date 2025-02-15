@@ -1,0 +1,565 @@
+{
+  "source_yaml": "083_surveillance_epidemiology_and_end_results.yaml",
+  "source_url": "https://seer.cancer.gov/",
+  "name": "Surveillance, Epidemiology, and End Results (SEER)",
+  "timestamp": "Thu, 06 Feb 2025 17:32:13 GMT",
+  "num_links": 111,
+  "links": [
+    {
+      "url": "https://seer.cancer.gov/#skipnav",
+      "text": "Skip to Main Content",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/",
+      "text": "[No text]",
+      "title": "Return Home"
+    },
+    {
+      "url": "https://twitter.com/share?ref_src=twsrc%5Etfw",
+      "text": "Tweet",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/",
+      "text": "Cancer Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/reports.html",
+      "text": "Reports on Cancer",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/report_to_nation/",
+      "text": "Annual Report to the Nation on the Status of Cancer",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statfacts/",
+      "text": "Cancer Stat Facts",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/preliminary-estimates/",
+      "text": "Preliminary Cancer Incidence Rates and Trends",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/publications/",
+      "text": "SEER Publications",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/interactive.html",
+      "text": "Interactive Tools, Maps, & Graphs",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics-network/",
+      "text": "Cancer Statistics Explorer Network",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/canques/",
+      "text": "Cancer Query System",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/resources.html",
+      "text": "Understanding Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/videos/",
+      "text": "Did You Know? Video Series",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/types.html",
+      "text": "Defining Cancer Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/cgi-bin/glossary/glossary.pl",
+      "text": "Glossary of Statistical Terms",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/",
+      "text": "SEER Data & Software",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data/",
+      "text": "SEER Incidence Database",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data/product-comparison.html",
+      "text": "Comparison of Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data/access.html",
+      "text": "How to Request the Data",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/documentation/",
+      "text": "Documentation for Data",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/documentation/seerstat/",
+      "text": "SEER*Stat Database Details",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/analysis/",
+      "text": "Variable and Recode Definitions",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/datasets.html",
+      "text": "U.S. Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/mortality/",
+      "text": "U.S. Mortality",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/uspopulations.html",
+      "text": "U.S. Populations",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/stdpopulations/",
+      "text": "Standard Populations",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/linked_databases.html",
+      "text": "SEER Linked Databases",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/software.html",
+      "text": "Statistical Software",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seerstat/",
+      "text": "SEER*Stat",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seerprep/",
+      "text": "SEER*Prep",
+      "title": ""
+    },
+    {
+      "url": "https://surveillance.cancer.gov/tools/",
+      "text": "Methods & Tools for Population-based Cancer Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/",
+      "text": "Registry Operations",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/guidelines.html",
+      "text": "Reporting Guidelines",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/codingmanuals/",
+      "text": "SEER Program Coding Manual",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/heme/",
+      "text": "Hematopoietic Project",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/solidtumor/",
+      "text": "Solid Tumor Rules",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/tools-software.html",
+      "text": "Tools & Software",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seertools/glossary/",
+      "text": "Glossary for Registrars",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/seerrx/",
+      "text": "SEER*Rx - Drug Database",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seerabs/",
+      "text": "SEER Abstracting Tool",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seerdms/",
+      "text": "SEER Data Management System (SEER*DMS)",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/staging.html",
+      "text": "Staging",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/staging/rsa.html",
+      "text": "Registrar Staging Assistant (SEER*RSA)",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/ssm/",
+      "text": "Summary Stage 2018",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/staging/index.html",
+      "text": "Staging Resources",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/tools/staging/eod/",
+      "text": "Extent of Disease 2018",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/qa.html",
+      "text": "Questions & Answers",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/seer-inquiry/",
+      "text": "SEER Inquiry System",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/contact.html",
+      "text": "Ask a SEER Registrar",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registrars/data-collection.html",
+      "text": "Data Collection Answers",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/cancerpathchart/",
+      "text": "Cancer PathCHART",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/training/",
+      "text": "Training",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/news/",
+      "text": "News & Events",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/",
+      "text": "About SEER",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/overview.html",
+      "text": "Program Overview",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/goals.html",
+      "text": "Goals of the SEER Program",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/factsheets/",
+      "text": "Fact Sheets & Brochures",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/organizations.html",
+      "text": "Collaborating Organizations",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registries/",
+      "text": "SEER Registries",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registries/cancer_registry/",
+      "text": "What is a Cancer Registry?",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registries/list.html",
+      "text": "List of Registries",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registries/terms.html",
+      "text": "Registry Groupings",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/registries/characteristics.html",
+      "text": "Population Characteristics",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/activities.html",
+      "text": "Research Activities",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/biospecimen/",
+      "text": "Residual Tissue Repository Program",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/vtr/",
+      "text": "SEER-Linked Virtual Tissue Repository Program",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/qi/",
+      "text": "SEER Quality Improvement",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics-network/explorer/application.html",
+      "text": "SEER*Explorer",
+      "title": ""
+    },
+    {
+      "url": "https://nccrexplorer.ccdi.cancer.gov/",
+      "text": "NCCR*Explorer",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics-network/",
+      "text": "Start Exploring",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/videos/",
+      "text": "Watch Latest Video",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/statistics/preliminary-estimates/",
+      "text": "Preliminary Cancer Incidence Rates and Trends, 2000-2022",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data/",
+      "text": "SEER Incidence Data, 1975-2021",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data/covid-impact.html",
+      "text": "Impact of COVID on SEER Cancer Incidence Data",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/explorer/",
+      "text": "SEER*Explorer with Statistics through 2021",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/data-software/crwdi/",
+      "text": "New!COVID-19 Real-world Data Infrastructure (CRWDi)",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/news/seerstat-webinars.html#sae",
+      "text": "Small Area Estimation of Prostate-specific Antigen Testing in U.S. States and Counties",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=%23PoweredBySEER%3A+Researchers+%40CUMedicalSchool+found+rates+of+distant-stage+%23BreastCancer+increased+by+2.91%25+each+year+between+2004+and+2021+among+women+between+the+ages+of+20+and+39&url=https%3A%2F%2Fpubs.rsna.org%2Fdoi%2F10.1148%2Fradiol.241397&via=NCICancerStats",
+      "text": "Tweet",
+      "title": ""
+    },
+    {
+      "url": "https://pubs.rsna.org/doi/10.1148/radiol.241397",
+      "text": "Rates of distant-stage breast cancer on the rise",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/linking",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=%23SEERSupportsCancerResearch%3A+Researchers+%40AmericanCancer+released+their+biennial+report+on+%23BreastCancer+statistics+in+the+United+States.+The+death+rate+from+breast+cancer+fell+by+44%25+from+1989+to+2022&url=https%3A%2F%2Facsjournals.onlinelibrary.wiley.com%2Fdoi%2Ffull%2F10.3322%2Fcaac.21863&via=NCICancerStats",
+      "text": "Tweet",
+      "title": ""
+    },
+    {
+      "url": "https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21863",
+      "text": "American Cancer Society releases study on breast cancer statistics in U.S.",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/linking",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?text=%23SEERSupportsCancerResearch%3A+Cancer+diagnoses+in+2021+did+not+rebound+enough+to+include+delayed+or+missed+diagnoses+in+2020&via=https%3A%2F%2Facademic.oup.com%2Fjnci%2Fadvance-article%2Fdoi%2F10.1093%2Fjnci%2Fdjae180%2F7765196",
+      "text": "Tweet",
+      "title": ""
+    },
+    {
+      "url": "https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djae180/7765196",
+      "text": "SEER data helps researchers determine if cancer diagnoses rebounded in 2021",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/linking",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/news/",
+      "text": "More News",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/#content",
+      "text": "Return to Top",
+      "title": ""
+    },
+    {
+      "url": "https://surveillance.cancer.gov/",
+      "text": "Surveillance Research Program (SRP)",
+      "title": ""
+    },
+    {
+      "url": "https://cancercontrol.cancer.gov/",
+      "text": "Division of Cancer Control and Population Sciences (DCCPS)",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/NCICancerStats",
+      "text": "Twitter/X icon",
+      "title": ""
+    },
+    {
+      "url": "https://surveillance.cancer.gov/blog",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/showcase/nci-cancer-control-and-population-sciences/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/contact.html",
+      "text": "Contact SEER",
+      "title": ""
+    },
+    {
+      "url": "https://livehelp.cancer.gov/",
+      "text": "NCI LiveHelp Online Chat",
+      "title": ""
+    },
+    {
+      "url": "https://surveillance.cancer.gov/jobs/",
+      "text": "Careers",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/sitemap.html",
+      "text": "Sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://seer.cancer.gov/about/using-website.html",
+      "text": "Using This Website",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/accessibility",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/disclaimer",
+      "text": "Disclaimer",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy",
+      "text": "HHS Vulnerability Disclosure",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/privacy-security",
+      "text": "Privacy & Security",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/copyright-reuse",
+      "text": "Reuse of Graphics and Text",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/policies/linking",
+      "text": "Website Linking",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/",
+      "text": "U.S. Department of Health and Human Services",
+      "title": ""
+    },
+    {
+      "url": "https://www.nih.gov/",
+      "text": "National Institutes of Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.cancer.gov/",
+      "text": "National Cancer Institute",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

@@ -1,0 +1,740 @@
+{
+  "source_yaml": "070_national_survey_of_family_growth_nsfg.yaml",
+  "source_url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+  "name": "National Survey of Family Growth (NSFG)",
+  "timestamp": "Tue, 11 Feb 2025 03:46:49 GMT",
+  "num_links": 146,
+  "links": [
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#headerSearch",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages/",
+      "text": "Other Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "text": "Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+      "text": "Search NCHS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+      "text": "All CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#print",
+      "text": "Print",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#collapse_4287067591ca2c9055",
+      "text": "Minus",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_products.htm",
+      "text": "Publications and Information Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg-2022-2023-puf.htm",
+      "text": "2022\u20102023 NSFG Public Use Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/keystatistics.htm",
+      "text": "2015-2019 NSFG Key Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm",
+      "text": "2017-2019 NSFG Public Use Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db520.htm",
+      "text": "Receipt of Family Planning Services in the United States: 2022\u20132023",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr202.pdf",
+      "text": "Infertility and Impaired Fecundity in Women and Men in the United States, 2015\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr196.pdf",
+      "text": "Teenagers in the United States: Sexual Activity, Contraceptive Use, and Childbearing, 2015\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr195.pdf",
+      "text": "Contraceptive Methods Women Have Ever Used: United States, 2015\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr179.pdf",
+      "text": "Fertility of Men and Women Aged 15\u201349 in the United States: National Survey of Family Growth, 2015\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db388.htm",
+      "text": "Current Contraceptive Status Among Women Aged 15\u201349: United States, 2017\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr146-508.pdf",
+      "text": "Trends and Patterns in Menarche in the United States:1995 through 2013\u20132017[PDF \u2013 366 KB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db366.htm",
+      "text": "Sexual Activity and Contraceptive Use Among Teenagers Aged 15\u201319 in the United States, 2015\u20132017",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr138-508.pdf",
+      "text": "Demographic, Health Care, and Fertility-related Characteristics of Adults Aged 18\u201344 Who Have Ever Been in Foster Care: United States, 2011\u20132017[PDF \u2013 374 KB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_products.htm",
+      "text": "More",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": "Share to Facebook"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": "Share to Twitter"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": "Share to LinkedIn"
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm",
+      "text": "Syndicate",
+      "title": "Embed this Page"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+      "text": "National Survey of Family Growth",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/about_nsfg.htm",
+      "text": "About NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/new_nsfg.htm",
+      "text": "What's New",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg-questionnaires.htm",
+      "text": "Questionnaires, Datasets, and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-91d4e",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg-2022-2023-puf.htm",
+      "text": "2022-2023 NSFG: Public-Use Data Files, Codebooks, and Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2011_2019_combined_files.htm",
+      "text": "2011-2019 Combined Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-a053e",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_combining_data.htm",
+      "text": "Combining Data across NSFG File Releases from 2011-2019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_other_information.htm",
+      "text": "Other Information on Data Collection 2011-2019",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_special_supplementary_data.htm",
+      "text": "Special Supplementary Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm",
+      "text": "2017 - 2019 NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-584b4",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_codebooks.htm",
+      "text": "2017 - 2019 NSFG Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_questionnaires.htm",
+      "text": "2017-2019 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_puf.htm",
+      "text": "2015-2017 NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-23db2",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_codebooks.htm",
+      "text": "2015-2017 NSFG Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_questionnaires.htm",
+      "text": "2015-2017 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_puf.htm",
+      "text": "2013\u20132015 NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-f1095",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_codebooks.htm",
+      "text": "2013-2015 NSFG Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_questionnaires.htm",
+      "text": "2013\u20132015 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_puf.htm",
+      "text": "2011\u20132013 NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-a8fdd",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_codebooks.htm",
+      "text": "2011-2013 NSFG Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_questionnaires.htm",
+      "text": "2011\u20132013 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_puf.htm",
+      "text": "2006\u20132010 NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-73ccb",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_codebooks.htm",
+      "text": "2006\u20132010 NSFG Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_questionnaires.htm",
+      "text": "2006\u20132010 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm",
+      "text": "NSFG Cycle 6 (2002)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-80008",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_2002_questionnaires.htm",
+      "text": "2002 NSFG Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle5.htm",
+      "text": "NSFG Cycle 5 (1995)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle4.htm",
+      "text": "NSFG Cycle 4 (1988)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle3.htm",
+      "text": "NSFG Cycle 3 (1982)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle2.htm",
+      "text": "NSFG Cycle 2 (1976)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_cycle1.htm",
+      "text": "NSFG Cycle 1 (1973)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/key_statistics_nsfg.htm",
+      "text": "Key Statistics from NSFG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm#nav-group-85605",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/keystatistics.htm",
+      "text": "2015-2019 NSFG Key Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/key_statistics.htm",
+      "text": "Archived NSFG Key Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/participant.htm",
+      "text": "Survey Participants",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/products.htm",
+      "text": "Publications and Information Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_bibliography.htm",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/nsfg_research_conference.htm",
+      "text": "Research Conferences",
+      "title": ""
+    },
+    {
+      "url": "http://www.cdc.gov/Other/emailupdates/",
+      "text": "What's this?",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/nchs_listservs.htm",
+      "text": "NCHS Listservs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/surveys.htm",
+      "text": "Surveys and Data Collection Systems",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/births.htm",
+      "text": "Vital Statistics: Birth Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx",
+      "text": "RSS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Email Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/funding",
+      "text": "Funding",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/dcs/RequestForm.aspx",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": "Spanish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": "Chinese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": "Vietnamese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": "Korean"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": "Tagalog"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": "Russian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": "Arabic"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": "Haitian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": "French"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": "Polish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": "Portuguese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": "Italian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": "German"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": "Japanese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": "Farsi"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": "English"
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

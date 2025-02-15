@@ -1,0 +1,630 @@
+{
+  "source_yaml": "066_federal_firearms_listings.yaml",
+  "source_url": "https://www.atf.gov/firearms/listing-federal-firearms-licensees",
+  "name": "Federal Firearms Listings",
+  "timestamp": "Thu, 06 Feb 2025 17:32:30 GMT",
+  "num_links": 124,
+  "links": [
+    {
+      "url": "https://www.atf.gov/firearms/listing-federal-firearms-licensees#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.atf.gov/",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.atf.gov/",
+      "text": "Bureau of Alcohol, Tobacco, Firearms and Explosives",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.atf.gov/about/who-we-are",
+      "text": "Who We Are",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/leadership",
+      "text": "Leadership",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/organization-structure",
+      "text": "Organization Structure",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/our-history",
+      "text": "Our History",
+      "title": "Our History Menu"
+    },
+    {
+      "url": "https://www.atf.gov/contact",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/hotlines",
+      "text": "Hotlines",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/licensing-and-other-services",
+      "text": "Licensing Services",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/media-and-congressional-contacts",
+      "text": "For Media & Congress",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/victim-witness-assistance-program",
+      "text": "For Victims & Witnesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/careers",
+      "text": "Careers",
+      "title": "Careers section of the ATF website.  Job opportunities are listed here."
+    },
+    {
+      "url": "https://www.atf.gov/careers/becoming-special-agent",
+      "text": "Special Agent",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/becoming-industry-operations-investigator",
+      "text": "IO Investigator",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/attorneys",
+      "text": "Attorneys",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/professional-and-technical",
+      "text": "Professional/Technical",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/atf-field-divisions",
+      "text": "Locations",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/contact-atf-headquarters",
+      "text": "HQ Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/atf-field-divisions",
+      "text": "Field Divisions",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/local-atf-offices",
+      "text": "Local Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/contact/international-offices",
+      "text": "International",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/what-we-do",
+      "text": "What We Do",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/mission-areas",
+      "text": "Mission Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms",
+      "text": "Firearms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/explosives",
+      "text": "Explosives",
+      "title": "Explosives industry members play an integral role in maintaining and improving our quality of life in the United States and work to bring countless benefits to our everyday lives in areas such as mining, oil and gas exploration; demolition; avalanche control; and the use of explosives in special industrial tools, fire extinguishers, air bag inflators, fireworks; and special effects in the entertainment industry."
+    },
+    {
+      "url": "https://www.atf.gov/arson/arson",
+      "text": "Arson",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/alcohol-tobacco",
+      "text": "Alcohol & Tobacco",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations",
+      "text": "Regulations",
+      "title": "ATF regulations are published as Title 27, Chapter II, Code of Federal Regulations (CFR) by the Government Printing Office. Consult the official legal version of 27 CFR (updated April 1 of each year) and any more recent final/interim rules to learn the requirements that apply to you."
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/laws-alcohol-tobacco-firearms-and-explosives",
+      "text": "Laws",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/regulations-alcohol-tobacco-firearms-and-explosives",
+      "text": "Regulations",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/federal-register-actions",
+      "text": "Federal Register",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/rulings",
+      "text": "Rulings",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/advisories",
+      "text": "Advisories",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/press-releases",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/media-and-congressional-contacts",
+      "text": "Media Contacts",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/laboratories",
+      "text": "Laboratories",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/laboratories/fire-research-laboratory",
+      "text": "Fire Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/laboratories/forensics/publications",
+      "text": "Forensics",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/laboratories/national-firearms-examiner-academy",
+      "text": "Firearms Examiner Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/most-wanted",
+      "text": "Most Wanted",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/reward-notices",
+      "text": "Reward Notices",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/forms-library",
+      "text": "Download Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/distribution-center-order-form",
+      "text": "Order Paper Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/atf-photo-galleries",
+      "text": "Photo Galleries",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/firearms-photo-gallery",
+      "text": "Firearms Gallery",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/explosives/canine-gallery",
+      "text": "K-9 Gallery",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/publications-library",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/fact-sheets",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/rules-and-regulations-library",
+      "text": "Regulations Library",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/freedom-information-act-foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/questions-and-answers",
+      "text": "Q&A",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/questions-and-answers/firearms-qas",
+      "text": "Firearms",
+      "title": "Firearms Questions and Answers"
+    },
+    {
+      "url": "https://www.atf.gov/questions-and-answers/explosives-qas",
+      "text": "Explosives",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/questions-and-answers/careers-qas",
+      "text": "Careers",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/data-statistics",
+      "text": "Data & Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/firearms-trace-data-2023",
+      "text": "U.S. Firearms Trace Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/docs/report/2021-firearms-commerce-report/download",
+      "text": "U.S. Firearms Commerce Report",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/%3Cfront%3E",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/what-we-do",
+      "text": "What We Do",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/mission-areas",
+      "text": "Mission Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms",
+      "text": "Firearms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/tools-services-firearms-industry",
+      "text": "Tools & Services for Firearms Industry",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms",
+      "text": "Firearms Home",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/tools-services-law-enforcement",
+      "text": "Tools & Services for Law Enforcement",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/tools-services-firearms-industry",
+      "text": "Tools & Services for Firearms Industry",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/listing-federal-firearms-licensees",
+      "text": "Listing of Federal Firearms Licensees",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/state-laws-and-published-ordinances-firearms-35th-edition",
+      "text": "State Laws & Published Ordinances",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/apply-license",
+      "text": "Apply for a License",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/current-licensees",
+      "text": "Current Licensees",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/firearms-and-explosives-industry-division-customer-service-standards",
+      "text": "FEID Customer Service Standards",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/curios-relics",
+      "text": "Curios and Relics",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/imports-variances-stamps-verification-guides",
+      "text": "Imports, Variances, Stamps & Verification Guides",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/national-firearms-act-handbook",
+      "text": "National Firearms Act Handbook",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/national-firearms-act-division",
+      "text": "NFA Division",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations/brady-law",
+      "text": "Brady Law",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/privately-made-firearms",
+      "text": "Privately Made Firearms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/rules-and-regulations",
+      "text": "Rules and Regulations",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/firearms-forms",
+      "text": "Firearms Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms/federal-firearms-licenses",
+      "text": "Firearms Licenses",
+      "title": "Federal Firearms Licenses"
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/publications-library?search_api_views_fulltext=&field_document_type_1=All&og_group_ref=1&=Apply&field_document_type_value=All&og_group_ref_target_id=186",
+      "text": "Firearms Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/questions-and-answers/firearms-qas",
+      "text": "Firearms Q&As",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/HQATF",
+      "text": "facebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.twitter.com/atfhq",
+      "text": "twitter",
+      "title": ""
+    },
+    {
+      "url": "https://instagram.com/atfhq/",
+      "text": "instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/ATFHQ",
+      "text": "youtube",
+      "title": ""
+    },
+    {
+      "url": "https://public.govdelivery.com/accounts/USATF/subscriber/new",
+      "text": "email",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/who-we-are",
+      "text": "Who We Are",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/leadership",
+      "text": "Executive Staff",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/about/organization-structure",
+      "text": "Organization Structure",
+      "title": "Displays the Organizational Structure of the ATF Agency"
+    },
+    {
+      "url": "https://www.atf.gov/our-history",
+      "text": "Our History",
+      "title": "Our History Pages"
+    },
+    {
+      "url": "https://www.atf.gov/about/what-we-do",
+      "text": "What We Do",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/firearms",
+      "text": "Firearms",
+      "title": "ATF recognizes the role that firearms play in violent crimes and pursues an integrated regulatory and enforcement strategy. Investigative priorities focus on armed violent offenders and career criminals, narcotics traffickers, narco-terrorists, violent gangs, and domestic and international arms traffickers."
+    },
+    {
+      "url": "https://www.atf.gov/explosives",
+      "text": "Explosives",
+      "title": "Explosives industry members play an integral role in maintaining and improving our quality of life in the United States and work to bring countless benefits to our everyday lives in areas such as mining, oil and gas exploration; demolition; avalanche control; and the use of explosives in special industrial tools, fire extinguishers, air bag inflators, fireworks; and special effects in the entertainment industry."
+    },
+    {
+      "url": "https://www.atf.gov/arson/arson",
+      "text": "Arson",
+      "title": "The Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) is the Federal agency primarily responsible for administering and enforcing the criminal and regulatory provisions of the Federal laws pertaining to destructive devices (bombs), explosives, and arson. "
+    },
+    {
+      "url": "https://www.atf.gov/alcohol-tobacco",
+      "text": "Alcohol & Tobacco",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news",
+      "text": "News",
+      "title": "ATF Press Releases"
+    },
+    {
+      "url": "https://www.atf.gov/news/press-releases",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/advisories",
+      "text": "Advisories",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/reward-notices",
+      "text": "Reward Notices",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/news/media-and-congressional-contacts",
+      "text": "Media/Congressional Contacts",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/careers",
+      "text": "Careers",
+      "title": "At the Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF), we conduct criminal investigations, regulate the firearms and explosives industries and assist other law enforcement agencies. We help to prevent terrorism, reduce violent crime and protect the public in a manner that is faithful to the Constitution and the laws of the United States."
+    },
+    {
+      "url": "https://www.atf.gov/careers/becoming-special-agent",
+      "text": "Special Agent",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/becoming-industry-operations-investigator",
+      "text": "Industry Operations Investigator",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/careers/equal-opportunity-employer",
+      "text": "EEO and Disability Information",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center",
+      "text": "Resource Center",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/data-statistics",
+      "text": "Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/freedom-information-act-foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/most-wanted",
+      "text": "Most Wanted",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/forms-library",
+      "text": "Download Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/resource-center/whistleblower-information",
+      "text": "Whistleblower Rights & Protections",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/open",
+      "text": "Open Government",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/doj/privacy-policy",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/legalpolicies",
+      "text": "Legal Policies & Disclaimers",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/home/site-map",
+      "text": "Site Map",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/accessibility/accessibility-statement",
+      "text": "Accessibility & Plug-Ins",
+      "title": ""
+    },
+    {
+      "url": "https://www.atf.gov/<front>",
+      "text": "ATF.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov",
+      "text": "U.S. Department of Justice",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

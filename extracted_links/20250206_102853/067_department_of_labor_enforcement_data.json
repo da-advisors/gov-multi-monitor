@@ -1,0 +1,115 @@
+{
+  "source_yaml": "067_department_of_labor_enforcement_data.yaml",
+  "source_url": "https://enforcedata.dol.gov/views/search.php",
+  "name": "U.S. Department of Labor Enforcement Data",
+  "timestamp": "Thu, 06 Feb 2025 17:33:04 GMT",
+  "num_links": 21,
+  "links": [
+    {
+      "url": "https://enforcedata.dol.gov/views/search.php#contents-area",
+      "text": "Skip to Main Content",
+      "title": ""
+    },
+    {
+      "url": "https://docs.google.com/forms/d/e/1FAIpQLSeNQNpZIPvmYGO5eN9BkvHd5tthF2oCit0UAD4rFw_agB9u2g/viewform?usp=sf_link ",
+      "text": "Customer Surveys",
+      "title": ""
+    },
+    {
+      "url": "https://www.addthis.com/bookmark.php?v=250&username=xa-4b82cea50a7489e4",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=home",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=searchChooser",
+      "text": "SEARCH",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=data_catalogs",
+      "text": "DATA CATALOG",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=lab",
+      "text": "LABS",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=agency_tools",
+      "text": "AGENCY TOOLS",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=faq",
+      "text": "FAQ",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=whatsnew",
+      "text": "What's New",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/views/faqNaics.php",
+      "text": "link for hidden function",
+      "title": "NAICS Codes and Descriptions"
+    },
+    {
+      "url": "https://enforcedata.dol.gov/views/faqSic.php",
+      "text": "link for hidden function",
+      "title": "SIC Codes and Descriptions"
+    },
+    {
+      "url": "https://enforcedata.dol.gov/views/search/search_infovis_whd_voa.php",
+      "text": "link for hidden function",
+      "title": "WHD - Violation By Act"
+    },
+    {
+      "url": "https://enforcedata.dol.gov/views/search/search_infovis_ebsa_subjcode.php",
+      "text": "link for hidden function",
+      "title": "EBSA User Assistance - Subject Code"
+    },
+    {
+      "url": "https://www.dol.gov/general/foia",
+      "text": "Freedom of Information Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.dol.gov/general/privacynotice",
+      "text": "Privacy & Security Statement",
+      "title": ""
+    },
+    {
+      "url": "https://www.dol.gov/general/disclaim",
+      "text": "Disclaimers",
+      "title": ""
+    },
+    {
+      "url": "https://www.dol.gov/general/aboutdol/website-policies",
+      "text": "Important Website Notices",
+      "title": ""
+    },
+    {
+      "url": "https://www.dol.gov/",
+      "text": "www.dol.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.dol.gov/general/contact",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://enforcedata.dol.gov/index.php?page=feedback",
+      "text": "FEEDBACK",
+      "title": "Send Us Your Feedback"
+    }
+  ],
+  "linked_urls": []
+}

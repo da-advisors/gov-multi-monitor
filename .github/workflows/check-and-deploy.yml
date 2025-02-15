@@ -12,7 +12,7 @@ on:
       - '.github/workflows/**'
 
 permissions:
-  contents: read
+  contents: write  # Need write to push DB updates
   pages: write
   id-token: write
 
@@ -37,6 +37,14 @@ jobs:
           python -m pip install --upgrade pip
           pip install -e .
       
+      - name: Download previous database
+        run: |
+          mkdir -p data
+          # Try to download previous DB, but don't fail if it doesn't exist
+          curl -L -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db || true
+          # Initialize DB if it doesn't exist or is empty
+          python -c "from multi_monitor.db import MonitorDB; MonitorDB('data/monitor.db')"
+
       - name: Run URL checks
         run: python -m multi_monitor check --verbose
       
@@ -49,6 +57,17 @@ jobs:
           # Create a redirect from index.html to status/index.html
           echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
       
+      - name: Upload database as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: data/monitor.db
+          tag_name: latest
+          name: Latest Database
+          body: |
+            Latest monitoring database from ${{ github.sha }}
+            
+            This release is automatically updated with each successful check.
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

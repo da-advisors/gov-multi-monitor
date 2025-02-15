@@ -1,0 +1,80 @@
+{
+  "source_yaml": "041_fast_response_survey_system.yaml",
+  "source_url": "https://nces.ed.gov/surveys/frss/",
+  "name": "Fast Response Survey System",
+  "timestamp": "Tue, 11 Feb 2025 03:44:06 GMT",
+  "num_links": 14,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/surveys/frss/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/index.asp",
+      "text": "Fast Response Survey System (FRSS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=005",
+      "text": "Publications & Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=005",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/index.asp",
+      "text": "Overview",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/publications/index.asp",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/downloads.asp",
+      "text": "Downloads",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/faq.asp",
+      "text": "FAQ",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/frss/faq.asp",
+      "text": "FAQ page",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022003",
+      "text": "Restricted-Use Data Files and Documentation (FRSS 110): 2019-20 Public School Use of Educational Technology for Instruction",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022011",
+      "text": "Public-Use Data Files and Documentation (FRSS 110): 2019-20 Public School Use of Educational Technology for Instruction",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023009",
+      "text": "Digest of Education Statistics, 2021",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022092",
+      "text": "Report on Indicators of School Crime and Safety: 2021",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

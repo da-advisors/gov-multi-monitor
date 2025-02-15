@@ -1,0 +1,88 @@
+{
+  "source_url": "https://fiscaldata.treasury.gov/datasets/treasury-offset-program/federal-collections",
+  "name": "Federal Collections",
+  "timestamp": "Thu, 06 Feb 2025 15:15:47 GMT",
+  "num_links": 16,
+  "links": [
+    {
+      "url": "https://fiscaldata.treasury.gov/",
+      "text": "[No text]",
+      "title": "Return to home page"
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/datasets/",
+      "text": "Dataset Search",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/about-us/",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/datasets/",
+      "text": "Dataset Search",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/api-documentation/",
+      "text": "API Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/about-us/#faq",
+      "text": "FAQ",
+      "title": ""
+    },
+    {
+      "url": "https://onevoicecrm.my.site.com/FiscalDataCommunity/s/",
+      "text": "Community Site",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/about-us/#about-fiscal-data",
+      "text": "About Fiscal Data",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/release-calendar/",
+      "text": "Release Calendar",
+      "title": ""
+    },
+    {
+      "url": "https://fiscaldata.treasury.gov/about-us/#subscribe",
+      "text": "Subscribe to Our Mailing List",
+      "title": ""
+    },
+    {
+      "url": "https://www.usaspending.gov/",
+      "text": "USAspending",
+      "title": ""
+    },
+    {
+      "url": "https://fiscal.treasury.gov/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://fiscal.treasury.gov/privacy.html",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://fiscal.treasury.gov/foia.html",
+      "text": "Freedom of Information Act",
+      "title": ""
+    }
+  ]
+}

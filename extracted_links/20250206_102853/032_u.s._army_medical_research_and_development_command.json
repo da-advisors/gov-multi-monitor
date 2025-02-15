@@ -1,0 +1,690 @@
+{
+  "source_yaml": "032_u.s._army_medical_research_and_development_command.yaml",
+  "source_url": "https://mrdc.health.mil",
+  "name": "U.S. Army Medical Research and Development Command",
+  "timestamp": "Thu, 06 Feb 2025 17:30:19 GMT",
+  "num_links": 136,
+  "links": [
+    {
+      "url": "https://mrdc.health.mil#content",
+      "text": "Skip to Main Content",
+      "title": ""
+    },
+    {
+      "url": "http://www.army.mil",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.army.mil/futures/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://cdmrp.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.tatrc.org/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usaarl.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usaisr.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usammda.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usamraa.health.mil/Pages/Main01.aspx",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usamricd.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usamriid.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://usariem.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://wrair.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/contact_us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/sitemap",
+      "text": "Sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/mission_vision",
+      "text": "Mission/Vision",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/history",
+      "text": "Command History",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/leadership",
+      "text": "Leadership",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/headquarters",
+      "text": "MRDC Headquarters",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/subordinate_commands",
+      "text": "Subordinate Commands",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/inspector_general",
+      "text": "Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/jag",
+      "text": "Staff Judge Advocate",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil",
+      "text": "Program Areas",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_research_and_development",
+      "text": "Medical Research & Development",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_product_development",
+      "text": "Medical Program",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_materiel",
+      "text": "Medical Materiel",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil",
+      "text": "Media",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles",
+      "text": "Articles",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/news_releases",
+      "text": "News Releases",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/publications",
+      "text": "Strategic Communication Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.flickr.com/photos/usamrmc/albums",
+      "text": "Images",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/social_media",
+      "text": "Social Media Hub",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil",
+      "text": "Collaborate",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/doing_business_with_us",
+      "text": "Doing Business With Us",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/research_protections",
+      "text": "Research Protections",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/technology_transfer",
+      "text": "Technology Transfer",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/submit_proposal",
+      "text": "Research Proposal",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/researcher_resources",
+      "text": "Researcher Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/employment",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/mrdc_resources",
+      "text": "MRDC Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/soldier_care",
+      "text": "Soldier Care",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/links",
+      "text": "Links",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/educational_opportunities",
+      "text": "Educational Opportunities",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2025/after_DOD_award_datlof_looks_to_future_of_military_medical_technology_transfer",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2025/USAMRICD_researchers_receive_presidential_science_award",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2025/when_in_doubt_call_USAMRIID_US_army_north_exercise_tests_biological_threat_response",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2025/USAISRs_cancio_named_american_burn_association_president",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2025/USARIEM_is_updating_guidance_on_cold-weather_injuries",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2024/reifman_receives_third_presidential_rank_award",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles/2024/as_dr_mark_dertzbaugh_retires_MRDC_honors_his_thirty-plus_years_of_service",
+      "text": "read full story",
+      "title": ""
+    },
+    {
+      "url": "http://www.jssor.com",
+      "text": "Bootstrap Slider",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_research_and_development",
+      "text": "View details \u00bb",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_product_development",
+      "text": "View details \u00bb",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_materiel",
+      "text": "View details \u00bb",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/doing_business_with_us",
+      "text": "Click here to view your options >>",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/employment/",
+      "text": "USAMRDC Engineer and Scientist Job Openings",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/links",
+      "text": "External Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/mrdc_resources",
+      "text": "Internal Resources",
+      "title": ""
+    },
+    {
+      "url": "https://webmail.apps.mil/mail/",
+      "text": "Outlook Webmail",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/jag/pl_115-92",
+      "text": "Public Law (PL) 115-92",
+      "title": ""
+    },
+    {
+      "url": "https://www.safehelpline.org/",
+      "text": "safehelpline.org",
+      "title": ""
+    },
+    {
+      "url": "https://www.armyresilience.army.mil/sharp/index.html",
+      "text": "armyresilience.army.mil",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/publications",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/assets/docs/media/USAMRDC-Handbook.pdf",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/assets/docs/DoD_Suicide_Prevention_Research_Strategy.pdf",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/assets/docs/media/2019_Medical_Products_Book_Third_Edition.pdf",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://stem.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.mepcom.army.mil/Home/Contractors/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/USAMRDC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/USAMRMC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.flickr.com/people/USAMRMC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/usamrdc/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/ask",
+      "text": "Ask the Leadership \u00bb",
+      "title": ""
+    },
+    {
+      "url": "https://www.army.mil/futures",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/mrdc_resources/dcshr",
+      "text": "View Full Details Here \u00bb",
+      "title": ""
+    },
+    {
+      "url": "https://www.inscom.army.mil/isalute/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/submit_proposal",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/submit_proposal",
+      "text": "Submit a Research Proposal",
+      "title": ""
+    },
+    {
+      "url": "https://technologytransfer.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://technologytransfer.health.mil/",
+      "text": "Medical Technology Transfer",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc-npi.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc-npi.health.mil/",
+      "text": "Submit New Product or Idea",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/mission_vision",
+      "text": "Mission/Vision",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/history",
+      "text": "Command History",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/leadership",
+      "text": "Leadership",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/headquarters",
+      "text": "MRDC Headquarters",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/subordinate_commands",
+      "text": "Subordinate Commands",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/inspector_general",
+      "text": "Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/jag",
+      "text": "Staff Judge Advocate",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/about/faqs",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_research_and_development",
+      "text": "Medical Research & Development",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_product_development",
+      "text": "Medical Program",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/program_areas/medical_materiel",
+      "text": "Medical Materiel",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/doing_business_with_us",
+      "text": "Doing Business With Us",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/research_protections",
+      "text": "Research Protections",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/technology_transfer",
+      "text": "Technology Transfer",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/collaborate/submit_proposal",
+      "text": "Research Proposal",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/articles",
+      "text": "Articles",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/news_releases",
+      "text": "News Releases",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/publications",
+      "text": "Strategic Communication Products",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/media/social_media",
+      "text": "Social Media Hub",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/researcher_resources",
+      "text": "Researcher Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/employment",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/mrdc_resources",
+      "text": "MRDC Resources",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/soldier_care",
+      "text": "Soldier Care",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/links",
+      "text": "Links",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/resources/educational_opportunities",
+      "text": "Educational Opportunities",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/index.cfm/contact_us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/privacy",
+      "text": "Privacy and Security",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/terms",
+      "text": "Terms of Use",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/foia",
+      "text": "Freedom of Information Act (FOIA)",
+      "title": ""
+    },
+    {
+      "url": "https://dodcio.defense.gov/DoDSection508/Std_Stmt.aspx",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/USAMRDC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/USAMRMC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.flickr.com/people/USAMRMC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/usamrdc/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.army.mil",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.army.mil/futures/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://mrdc.health.mil/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://cdmrp.health.mil/",
+      "text": "CDMRP",
+      "title": ""
+    },
+    {
+      "url": "https://www.tatrc.org/",
+      "text": "TATRC",
+      "title": ""
+    },
+    {
+      "url": "https://usaarl.health.mil/",
+      "text": "USAARL",
+      "title": ""
+    },
+    {
+      "url": "https://usaisr.health.mil/",
+      "text": "USAISR",
+      "title": ""
+    },
+    {
+      "url": "https://usammda.health.mil/",
+      "text": "USAMMDA",
+      "title": ""
+    },
+    {
+      "url": "https://usamraa.health.mil/Pages/Main01.aspx",
+      "text": "USAMRAA",
+      "title": ""
+    },
+    {
+      "url": "https://usamricd.health.mil/",
+      "text": "USAMRICD",
+      "title": ""
+    },
+    {
+      "url": "https://usamriid.health.mil/",
+      "text": "USAMRIID",
+      "title": ""
+    },
+    {
+      "url": "https://usariem.health.mil/",
+      "text": "USARIEM",
+      "title": ""
+    },
+    {
+      "url": "https://wrair.health.mil/",
+      "text": "WRAIR",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

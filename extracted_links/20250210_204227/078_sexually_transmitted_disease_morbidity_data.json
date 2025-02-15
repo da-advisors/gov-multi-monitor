@@ -1,0 +1,325 @@
+{
+  "source_yaml": "078_sexually_transmitted_disease_morbidity_data.yaml",
+  "source_url": "https://wonder.cdc.gov/std.html",
+  "name": "Sexually Transmitted Disease Morbidity Data",
+  "timestamp": "Tue, 11 Feb 2025 03:45:14 GMT",
+  "num_links": 63,
+  "links": [
+    {
+      "url": "https://wonder.cdc.gov/std.html#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html#share-nav",
+      "text": "Skip directly to page options",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html#az-large",
+      "text": "Skip directly to A-Z link",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html#az-medium",
+      "text": "Skip directly to A-Z link",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html#az-small",
+      "text": "Skip directly to A-Z link",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov",
+      "text": "Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting PeopleCenters for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/az/",
+      "text": "A-Z Index",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/",
+      "text": "CDC WONDER",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/wonder/help/faq.html",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/wonder/help/main.html",
+      "text": "Help",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/controller/datarequest?stage=contactus&action=start",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/controller/datarequest?stage=search&action=current",
+      "text": "WONDER Search",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html",
+      "text": "TP Docs Home",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm",
+      "text": "Syndicate",
+      "title": ""
+    },
+    {
+      "url": "http://www.cdc.gov/nchhstp/",
+      "text": "NCHHSTP",
+      "title": ""
+    },
+    {
+      "url": "http://www.cdc.gov/std/",
+      "text": "Sexually Transmitted Diseases",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/wonder/outside/nchhstp-atlas.html",
+      "text": "NCHHSTP Atlas",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std-sex.html",
+      "text": "Data Request",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/wonder/help/stdm.html",
+      "text": "More information",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std-race-age.html",
+      "text": "Data Request",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/wonder/help/std-race-age-frame.html",
+      "text": "More information",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/stdmarchives.html",
+      "text": "archived data",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/",
+      "text": "CDC WONDER",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Visit CDC-INFO",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/dcs/contactus/form",
+      "text": "Email CDC-INFO",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/funding",
+      "text": "Funding",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/plugins/index.html",
+      "text": "File Viewers & Players",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/eeo/nofearact/index.htm",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/contact/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/es/vulnerability-disclosure-policy/index.html",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/CDCstreamingHealth",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/std.html",
+      "text": "Syndicate",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdctv",
+      "text": "CDC TV",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/podcasts/rss.asp",
+      "text": "RSS",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/dcs/RequestForm.aspx",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov",
+      "text": "U.S. Department of Health & Human Services",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "CDC Website Exit Disclaimer",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "Website Disclaimers",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://cdc.112.2o7.net",
+      "text": "[No text]",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

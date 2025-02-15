@@ -1,0 +1,220 @@
+{
+  "source_yaml": "057_nhes_parent_and_family_involvement.yaml",
+  "source_url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+  "name": "National Household Education Survey (NHES) - Parent and Family Involvement in Education (PFI)",
+  "timestamp": "Tue, 11 Feb 2025 03:46:37 GMT",
+  "num_links": 42,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/nhes/index.asp",
+      "text": "National Household Education Surveys Program (NHES)",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/NHES/contact.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/EdNCES",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/ednces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/EdNCES/featured",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/about.asp",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "Topics",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/young_children.asp",
+      "text": "Young Children's Care and Education Before Kindergarten",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "Parent Involvement in Education from Kindergarten to High School",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/homeschooling.asp",
+      "text": "Homeschooling",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/data_files.asp",
+      "text": "Data Files & Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "Publications & Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/publications.asp",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/research.asp",
+      "text": "Methodological Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/tables.asp",
+      "text": "Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=004",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "Join Newsflash",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/NHES/contact.asp",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "NCES Blog",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/EdNCES",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/EdNCES/featured",
+      "text": "YouTube",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/pdf/pfi-e_infographic.pdf",
+      "text": "View NHES Sample and Methods(PFI Infographic PDF)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/about.asp",
+      "text": "Go toAbout the NHES",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2024/2024113.pdf",
+      "text": "Parent and Family Involvement in Education: 2023",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2023/2023085.pdf",
+      "text": "Families\u2019 Participation in School Choice and Importance of Factors in School Choice Decisions in 2019",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2020/2020076full.pdf",
+      "text": "Parent and Family Involvement in Education: 2019",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2019/2019106.pdf",
+      "text": "School Choice in the United States: 2019",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/annualreports/",
+      "text": "NCES Annual Reports and Information program",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/hsls09/",
+      "text": "High School",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/mgls/",
+      "text": "Middle Grades",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "Early Childhood",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/statereform/about.asp",
+      "text": "website",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/rel/Project/4509",
+      "text": "Toolkit of Resources for Engaging Families and the Community as Partners in Education",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/dataproducts.asp#2019dp",
+      "text": "2019 PFI Data File",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/pdf/pfi/2023_pfi.pdf",
+      "text": "2023 PFI Questionnaire",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp#top",
+      "text": "Back to Top",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}
