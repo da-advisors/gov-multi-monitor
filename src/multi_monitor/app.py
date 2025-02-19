@@ -5,7 +5,7 @@ from .db import MonitorDB
 # current module (__name__) as argument.
 app = Flask(__name__)
 
-db = MonitorDB('../data/monitor.db')
+db = MonitorDB('../data/monitor.db', read_only=True)
 
 # The route() function of the Flask class is a decorator, 
 # which tells the application which URL should call 
@@ -23,7 +23,9 @@ def landing_home():
         stale_collections_count=3
     )
 
-@app.route('')
+@app.route('/resources')
+def list_resources():
+    return 'Resources list will go here'
 
 # main driver function
 if __name__ == '__main__':
