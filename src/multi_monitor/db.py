@@ -28,9 +28,11 @@ class MonitorDB:
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         
         # Initialize connection
-        self.read_only = True
+        self.read_only = read_only
         self.conn = duckdb.connect(str(self.db_path), read_only = read_only)
-        self._create_tables()
+        # TODO: instantiate "cursors" for thread safety on connection?
+        if not read_only:
+            self._create_tables()
     
     def _create_tables(self):
         """Create database tables if they don't exist."""
@@ -542,5 +544,6 @@ class MonitorDB:
                   is set in read-only mode. Did you create your MonitorDB with read_only = True?""")
         
         result = self.conn.execute(query_string)
-        return result.fetchall()
+        # TODO: Refactor returned result data format
+        return [result.description, result.fetchall()]
 

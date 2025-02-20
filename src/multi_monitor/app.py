@@ -25,7 +25,37 @@ def landing_home():
 
 @app.route('/resources')
 def list_resources():
-    return 'Resources list will go here'
+    results = db._read_query(
+        """
+        SELECT * FROM resources
+        """)
+    return results
+
+@app.route('/resources/<resource_id>')
+def show_resource_details(resource_id: str):
+    # TODO: Make as safer executition string.
+    results = db._read_query(
+    f"""
+    SELECT * FROM resources
+    WHERE id = '{resource_id}';
+    """
+    )
+    column_headers = [field[0] for field in results[0]]
+    body = results[1][0]
+    
+    return render_template(
+        "multi_page/resource_detail.html",
+        resource = {
+            'name': body[1],
+            'type': body[2],
+            'url': body[3],
+            # "metadata" field in [4]
+            'created_at': body[5]
+        }
+    )
+
+
+
 
 # main driver function
 if __name__ == '__main__':
