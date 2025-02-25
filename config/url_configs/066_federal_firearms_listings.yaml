@@ -24,8 +24,6 @@ linked_urls:
   - url: https://www.atf.gov/contact/licensing-and-other-services
     name: Licensing Services
   - url: https://www.atf.gov/news/media-and-congressional-contacts
-    name: For Media & Congress
-    name: Media Contacts
     name: Media/Congressional Contacts
   - url: https://www.atf.gov/contact/victim-witness-assistance-program
     name: For Victims & Witnesses
@@ -34,14 +32,12 @@ linked_urls:
   - url: https://www.atf.gov/careers/becoming-special-agent
     name: Special Agent
   - url: https://www.atf.gov/careers/becoming-industry-operations-investigator
-    name: IO Investigator
     name: Industry Operations Investigator
   - url: https://www.atf.gov/careers/attorneys
     name: Attorneys
   - url: https://www.atf.gov/careers/professional-and-technical
     name: Professional/Technical
   - url: https://www.atf.gov/contact/atf-field-divisions
-    name: Locations
     name: Field Divisions
   - url: https://www.atf.gov/contact/contact-atf-headquarters
     name: HQ Offices
@@ -55,7 +51,6 @@ linked_urls:
     name: Mission Areas
   - url: https://www.atf.gov/firearms
     name: Firearms
-    name: Firearms Home
   - url: https://www.atf.gov/explosives
     name: Explosives
   - url: https://www.atf.gov/arson/arson
@@ -63,7 +58,6 @@ linked_urls:
   - url: https://www.atf.gov/alcohol-tobacco
     name: Alcohol & Tobacco
   - url: https://www.atf.gov/rules-and-regulations
-    name: Regulations
     name: Rules and Regulations
   - url: https://www.atf.gov/rules-and-regulations/laws-alcohol-tobacco-firearms-and-explosives
     name: Laws
@@ -93,7 +87,6 @@ linked_urls:
     name: Reward Notices
   - url: https://www.atf.gov/resource-center
     name: Resources
-    name: Resource Center
   - url: https://www.atf.gov/resource-center/forms-library
     name: Download Forms
   - url: https://www.atf.gov/distribution-center-order-form
@@ -115,7 +108,6 @@ linked_urls:
   - url: https://www.atf.gov/questions-and-answers
     name: Q&A
   - url: https://www.atf.gov/questions-and-answers/firearms-qas
-    name: Firearms
     name: Firearms Q&As
   - url: https://www.atf.gov/questions-and-answers/explosives-qas
     name: Explosives
@@ -123,7 +115,6 @@ linked_urls:
     name: Careers
   - url: https://www.atf.gov/resource-center/data-statistics
     name: Data & Statistics
-    name: Statistics
   - url: https://www.atf.gov/resource-center/firearms-trace-data-2023
     name: U.S. Firearms Trace Data
   - url: https://www.atf.gov/firearms/docs/report/2021-firearms-commerce-report/download

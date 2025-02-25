@@ -18,8 +18,7 @@ linked_urls:
   - url: https://www.cdc.gov/brfss/pdf/Save-The-Date-and-Call-for-Abstracts-BRFSS-2025-508c.pdf
     name: Save the Date and Call for Abstracts BRFSS 2025 MeetingBRFSS 2025 Meeting
   - url: https://www.cdc.gov/brfss/acbs/2022_documentation.html
-    name: 2022 ACBS Now AvailableView the 2022 Asthma Call-back Survey
-    name: 2022 Data
+    name: 2022 ACBS
   - url: https://www.cdc.gov/brfss/about/index.htm
     name: See More
   - url: https://www.cdc.gov/brfss/data_tools.htm
@@ -144,7 +143,6 @@ linked_urls:
     name: About CDC
   - url: https://www.cdc.gov/cdc-info/index.html
     name: Contact Us
-    name: Email Us
   - url: https://tools.cdc.gov/medialibrary/index.aspx
     name: RSS
   - url: https://jobs.cdc.gov

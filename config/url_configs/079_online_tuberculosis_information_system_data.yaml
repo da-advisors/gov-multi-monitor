@@ -21,7 +21,6 @@ linked_urls:
     name: WONDER Search
   - url: https://wonder.cdc.gov/tb.html
     name: TP Docs Home
-    name: Syndicate
   - url: https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
     name: Facebook
   - url: https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
@@ -86,7 +85,6 @@ linked_urls:
     name: Funding
   - url: https://www.cdc.gov/Other/policies.html
     name: Policies
-    name: Privacy
   - url: https://www.cdc.gov/other/plugins/index.html
     name: File Viewers & Players
   - url: https://www.cdc.gov/od/foia
@@ -115,6 +113,5 @@ linked_urls:
     name: USA.gov
   - url: https://www.cdc.gov/Other/disclaimer.html
     name: CDC Website Exit Disclaimer
-    name: Website Disclaimers
   - url: https://cdc.112.2o7.net
     name: [No text]

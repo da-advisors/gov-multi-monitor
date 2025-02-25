@@ -45,28 +45,10 @@ api_config:
     - DisasterDeclarationsSummaries[0].id
   date_field: DisasterDeclarationsSummaries[0].lastRefresh
 linked_urls:
-  - url: https://www.fema.gov/openfema-data-page/disaster-declarations-summaries-v2
-    name: English
-    name: Return to top
-  - url: https://www.fema.gov/es/node/691933
-    name: Español
-  - url: https://www.fema.gov/fr/node/691933
-    name: Français
-  - url: https://www.fema.gov/ht/node/691933
-    name: Kreyòl
-  - url: https://www.fema.gov/vi/node/691933
-    name: Tiếng Việt
-  - url: https://www.fema.gov/zh-hans/node/691933
-    name: 简体中文
-  - url: https://www.fema.gov/ko/node/691933
-    name: 한국어
-  - url: https://www.fema.gov/
-    name: [No text]
   - url: https://www.disasterassistance.gov
     name: Apply for Assistance
   - url: https://www.fema.gov/disaster/current
     name: Current Disasters
-    name: Disasters & Assistance
   - url: https://www.fema.gov/disaster/4856
     name: California Wildfires
   - url: https://www.fema.gov/disaster/4830
@@ -121,7 +103,6 @@ linked_urls:
     name: Historic Disasters
   - url: https://www.fema.gov/grants
     name: FEMA Grants
-    name: Grants
   - url: https://www.fema.gov/grants/preparedness
     name: Preparedness Grants
   - url: https://www.fema.gov/grants/mitigation
@@ -137,7 +118,7 @@ linked_urls:
   - url: https://www.fema.gov/grants/procurement
     name: Procurement & Contracting
   - url: https://www.fema.gov/grants/policy-guidance/buy-america
-    name: "Buy America" Preference
+    name: Buy America Preference
   - url: https://www.fema.gov/grants/policy-guidance/bipartisan-infrastructure-law
     name: Bipartisan Infrastructure Law
   - url: https://www.fema.gov/grants/policy-guidance/low-carbon-goals
@@ -160,7 +141,6 @@ linked_urls:
     name: Non-Disaster Grants Management System
   - url: https://www.fema.gov/flood-insurance
     name: Flood Insurance
-    name: Floods & Maps
   - url: https://www.fema.gov/flood-insurance/find-form
     name: Find an Insurance Form
   - url: https://www.fema.gov/flood-insurance/work-with-nfip
@@ -265,7 +245,6 @@ linked_urls:
     name: Strategic Foresight 2050
   - url: https://www.fema.gov/emergency-managers/individuals-communities
     name: Individuals & Communities
-    name: Emergency Management
   - url: https://www.fema.gov/emergency-managers/individuals-communities/preparedness-activities-research-webinars
     name: Preparedness Activities, Research & Webinars
   - url: https://www.fema.gov/emergency-managers/individuals-communities/faith-volunteer
@@ -278,7 +257,6 @@ linked_urls:
     name: Activities to Reduce Risk for Your Home
   - url: https://www.fema.gov/about
     name: About Us
-    name: About
   - url: https://www.fema.gov/about/how-fema-works
     name: How FEMA Works
   - url: https://www.fema.gov/about/organization/offices-leadership
@@ -293,7 +271,6 @@ linked_urls:
     name: History of FEMA
   - url: https://www.fema.gov/about/contact
     name: Contact Us
-    name: Contact FEMA
   - url: https://www.fema.gov/about/civil-rights
     name: Your Civil Rights
   - url: https://www.fema.gov/about/newsroom
@@ -322,7 +299,6 @@ linked_urls:
     name: Reports & Data
   - url: https://www.fema.gov/about/reports-and-data/annual-reports
     name: Annual Reports
-    name: Accountability
   - url: https://www.fema.gov/about/reports-and-data/data-visualizations
     name: Data Visualizations
   - url: https://www.fema.gov/about/reports-and-data/disaster-relief-fund-monthly-reports
@@ -342,10 +318,9 @@ linked_urls:
   - url: https://www.fema.gov/about/action/national-resilience
     name: National Resilience Month
   - url: https://www.fema.gov/about/action/twenty-years-september-11
-    name: 9/11: We Remember and Honor
+    name: 9/11 We Remember and Honor
   - url: https://www.fema.gov/careers
     name: Careers
-    name: Work With Us
   - url: https://www.fema.gov/careers/benefits
     name: Benefits
   - url: https://www.fema.gov/careers/paths
@@ -378,7 +353,6 @@ linked_urls:
     name: Data Sets
   - url: https://www.fema.gov/about/openfema/faq
     name: Frequently Asked Questions
-    name: https://www.fema.gov/about/openfema/faq
   - url: https://www.fema.gov/about/openfema/changelog
     name: Changelog
   - url: https://www.fema.gov/about/openfema/api
@@ -427,7 +401,6 @@ linked_urls:
     name: Newsletter
   - url: https://dhs.gov
     name: U.S. Department of Homeland Security
-    name: DHS.gov
   - url: https://www.fema.gov/accessibility
     name: Accessibility
   - url: https://www.fema.gov/about/offices/equal-rights/civil-rights

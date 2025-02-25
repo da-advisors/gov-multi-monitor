@@ -6,18 +6,15 @@ tags:
   - mortgage
 linked_urls:
   - url: https://www.consumerfinance.gov/
-    name: [No text]
+    name: Consumer Finance
   - url: https://www.consumerfinance.gov/complaint/
     name: Submit a Complaint
   - url: https://search.consumerfinance.gov/search?affiliate=cfpb&query=
     name: Search
   - url: https://www.consumerfinance.gov/data-research/hmda/
     name: Consumer Education
-    name: Mortgage Database (HMDA)
-    name: News
   - url: https://www.consumerfinance.gov/consumer-tools/
     name: Resources for Yourself
-    name: Explore guides to help you plan for big financial goals
   - url: https://www.consumerfinance.gov/consumer-tools/educator-tools/
     name: Resources for Helping Others
   - url: https://www.consumerfinance.gov/data-research/consumer-complaints/
@@ -54,7 +51,6 @@ linked_urls:
     name: Browse Ask CFPB
   - url: https://www.consumerfinance.gov/rules-policy/
     name: Rules & Policy
-    name: Rules & Policy Overview
   - url: https://www.consumerfinance.gov/rules-policy/final-rules/
     name: Final Rules
   - url: https://www.consumerfinance.gov/rules-policy/regulations/
@@ -73,7 +69,6 @@ linked_urls:
     name: Advisory Committees
   - url: https://www.consumerfinance.gov/enforcement/
     name: Enforcement
-    name: Enforcement Overview
   - url: https://www.consumerfinance.gov/enforcement/actions/
     name: Enforcement Actions
   - url: https://www.consumerfinance.gov/enforcement/enforcement-by-the-numbers/
@@ -88,7 +83,6 @@ linked_urls:
     name: Industry Whistleblowers
   - url: https://www.consumerfinance.gov/compliance/
     name: Compliance
-    name: Compliance Overview
   - url: https://www.consumerfinance.gov/compliance/compliance-resources/
     name: Compliance Resources
   - url: https://www.consumerfinance.gov/compliance/advisory-opinion-program/
@@ -109,7 +103,6 @@ linked_urls:
     name: Consumer Complaint Program
   - url: https://www.consumerfinance.gov/data-research/
     name: Data & Research
-    name: Data & Research Overview
   - url: https://www.consumerfinance.gov/data-research/research-reports/
     name: Reports
   - url: https://www.consumerfinance.gov/data-research/research-hub/
@@ -124,7 +117,6 @@ linked_urls:
     name: Mortgage Performance Trends
   - url: https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/
     name: Financial Well-Being Survey
-    name: Help advance financial well-being
   - url: https://www.consumerfinance.gov/data-research/credit-card-data/
     name: Credit Card Surveys & Agreements
   - url: https://www.consumerfinance.gov/data-research/prepaid-accounts/
@@ -160,7 +152,7 @@ linked_urls:
   - url: https://ffiec.cfpb.gov/data-browser/
     name: Browse HMDA data
   - url: https://www.consumerfinance.gov/data-research/research-reports/2023-mortgage-market-activity-and-trends/
-    name: Data Point: 2023 Mortgage Market Activity and Trends
+    name: Data Point 2023 Mortgage Market Activity and Trends
   - url: https://content.consumerfinance.gov/data-research/research-reports/?title=&topics=hmda-reporting&from_date=&to_date=
     name: View reports using the HMDA data
   - url: https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-americans-are-paying-upfront-fees-seeking-to-lower-interest-rates-on-mortgages/

@@ -6,10 +6,8 @@ tags:
   - cdc
 linked_urls:
   - url: https://www.cdc.gov/
-    name: Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
+    name: Centers for Disease Control and Prevention
   - url: https://www.cdc.gov/nchs/nsfg/index.htm
-    name: Search NCHS
-    name: All CDC
     name: National Survey of Family Growth
   - url: https://www.cdc.gov/nchs/index.htm
     name: National Center for Health Statistics

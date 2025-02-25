@@ -493,7 +493,6 @@ linked_urls:
     name: HAF Plans
   - url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund/program-service-design
     name: Program and Service Design
-    name: Design of Your HAF Program
   - url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund/promising-practices
     name: Promising Practices
   - url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund/reporting
@@ -586,7 +585,6 @@ linked_urls:
   - url: https://home.treasury.gov/system/files/136/HAF-Q1-2023-Quartely-Report-Data.xlsx
     name: HAF Quarterly Compliance Data through Q1 2023
   - url: https://home.treasury.gov/news/press-releases/jy1594
-    name: Press Release
     name: Homeowner Assistance Fund Helped Keep More than 300,000 Families In Their Homes
   - url: https://home.treasury.gov/policy-issues/coronavirus/assistance-for-state-local-and-tribal-governments/homeowner-assistance-fund/program-service-design/online-application-improvements
     name: Online Application Improvements

@@ -104,7 +104,6 @@ linked_urls:
   - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_OTHER.csv
     name: Other Incident Report Data
   - url: https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
-    name: NHTSA.gov
     name: Automated Vehicles for Safety
   - url: https://www.sae.org/standards/content/j3016_202104
     name: six Levels of Driving Automation

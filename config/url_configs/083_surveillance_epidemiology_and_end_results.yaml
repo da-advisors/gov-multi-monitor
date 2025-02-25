@@ -5,8 +5,6 @@ tags:
   - health
   - cancer
 linked_urls:
-  - url: https://seer.cancer.gov/
-    name: [No text]
   - url: https://seer.cancer.gov/statistics/
     name: Cancer Statistics
   - url: https://seer.cancer.gov/statistics/reports.html

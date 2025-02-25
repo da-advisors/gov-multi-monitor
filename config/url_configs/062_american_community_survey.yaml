@@ -91,7 +91,6 @@ linked_urls:
     name: Explore data on data.census.gov
   - url: https://www.census.gov/academy
     name: Census Academy
-    name: Training (Census Academy)
   - url: https://www.census.gov/about/what/admin-data.html
     name: Combining Data
   - url: https://www.census.gov/data/data-tools.html
@@ -118,7 +117,6 @@ linked_urls:
     name: Training and Workshops
   - url: https://www.census.gov/library/visualizations.html
     name: Visualizations
-    name: Infographics and Visualizations
   - url: https://www.census.gov/2020census
     name: 2020 Census
   - url: https://www.census.gov/2026test
@@ -156,9 +154,7 @@ linked_urls:
   - url: https://www.census.gov/data/data-tools/glossary.html
     name: Glossary
   - url: https://www.census.gov/AmericaCounts
-    name: America Counts: Stories
-    name: America Counts: StoriesTells the stories behind the numbers in a new inviting way. It features stories on various topics such as housing, employment and population.
-    name: America Counts
+    name: America Counts Stories
   - url: https://www.census.gov/library/audio.html
     name: Audio
   - url: https://www.census.gov/newsroom/blogs.html
@@ -177,22 +173,18 @@ linked_urls:
     name: Spotlights
   - url: https://www.census.gov/newsroom/stories.html
     name: Stats for Stories
-    name: View More
   - url: https://www.census.gov/library/video.html
     name: Videos
   - url: https://www.census.gov/library/working-papers.html
     name: Working Papers
   - url: https://www.census.gov/programs-surveys/acs/about.html
-    name: About the ACS
     name: American Community Survey
   - url: https://www.census.gov/programs-surveys/acs/respond.html
     name: Respond to the ACS
-    name: Respond to the ACSLearn the different ways to respond to the American Community Survey -- online, by phone, by email.  Read our FAQs or call us for more help with the survey.
   - url: https://www.census.gov/programs-surveys/acs/news.html
     name: News & Updates
   - url: https://www.census.gov/programs-surveys/acs/data.html
     name: Data
-    name: American Community Survey DataThe American Community Survey releases new data every year, in the form of estimates, in a variety of tables, tools, and analytical reports.
   - url: https://www.census.gov/programs-surveys/acs/microdata.html
     name: Microdata
   - url: https://www.census.gov/programs-surveys/acs/guidance.html
@@ -214,8 +206,7 @@ linked_urls:
   - url: https://public.govdelivery.com/accounts/USCENSUS/signup/12426
     name: SubscribeSubscribe to GovDelivery email updates to stay up-to-date on the latest news and events about the American Community Survey.
   - url: https://www.census.gov/programs-surveys/acs/news/data-releases.html
-    name: View More
-    name: 2022 Data ReleaseLearn more about 2022 ACS data releases, including the latest release of new 2018-2022 ACS 5-year PUMS files and Variance Replicate Estimate Tables.
+    name: 2022 Data Release
   - url: https://www.census.gov/programs-surveys/acs/news/data-releases.2023.html
     name: 2023 Data ReleaseLearn more about 2023 ACS data releases, including the latest release of new 2019-2023 ACS 5-year PUMS files and Variance Replicate Estimate Tables.
   - url: https://data.census.gov

@@ -87,7 +87,7 @@ linked_urls:
   - url: https://www.fhfa.gov/regulatory?topic=programs
     name: Programs
   - url: https://www.fhfa.gov/programs/fintech/techsprint/2024
-    name: 2024 TechSprint: Generative AI in Housing Finance
+    name: 2024 TechSprint Generative AI in Housing Finance
   - url: https://www.fhfa.gov/programs/affordable-housing/enterprise-housing-goals
     name: Enterprise Housing Goals
   - url: https://www.fhfa.gov/programs/fhfas-housing-finance-examiner-commission-program
@@ -172,7 +172,6 @@ linked_urls:
     name: FHLBank Reports
   - url: https://www.fhfa.gov/mortgage-translations
     name: Mortgage Translations
-    name: About Mortgage Translations
   - url: https://www.fhfa.gov/mortgage-translations/language-translation-disclosure
     name: Language Translation Disclosure
   - url: https://www.fhfa.gov/mortgage-translations/borrower-education-materials

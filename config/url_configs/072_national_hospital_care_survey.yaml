@@ -14,17 +14,11 @@ linked_urls:
   - url: https://www.cdc.gov/nchs/nhcs/index.html
     name: National Hospital Care Survey
   - url: https://www.cdc.gov/nchs/nhcs/data/index.html
-    name: About the Data
     name: Questionnaires, Data Sets, and Documentation
-    name: 2021 Public Use Data
-    name: File
-    name: 2020 Public Use Data
   - url: https://www.cdc.gov/nchs/nhcs/results-publications/index.html
     name: Publications
-    name: publishes reports and maintains dashboards
   - url: https://www.cdc.gov/nchs/nhcs-participants/about/index.html
     name: NHCS Participants
-    name: Visit our participant website
   - url: https://www.cdc.gov/nchs/dhcs/index.htm
     name: National Health Care Surveys
   - url: https://www.cdc.gov/nchs/nhcs/site.html

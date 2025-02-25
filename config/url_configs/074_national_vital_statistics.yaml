@@ -13,7 +13,6 @@ linked_urls:
     name: Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
   - url: https://www.cdc.gov/nchs/nvss/index.htm
     name: National Vital Statistics System
-    name: Quarterly Provisional Estimates
   - url: https://www.cdc.gov/nchs/index.htm
     name: National Center for Health Statistics (NCHS)
   - url: https://wonder.cdc.gov/natality.html
@@ -54,7 +53,6 @@ linked_urls:
     name: Downloadable Final Data
   - url: https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm
     name: Restricted-use Data for Research
-    name: Restricted-use Vital Statistics Data
   - url: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
     name: Drug Overdose Death Counts
   - url: https://www.cdc.gov/nchs/data-visualization/index.htm
@@ -64,7 +62,6 @@ linked_urls:
   - url: https://www.cdc.gov/nchs/nvss/training-and-instructional-materials.htm
     name: Training and Instructional Materials
   - url: https://www.cdc.gov/nchs/nvss/revisions-of-the-us-standard-certificates-and-reports.htm
-    name: U.S. Standard Certificates Information for jurisdictions about certificates of birth, death, and fetal death
     name: Revisions of the U.S. Standard Certificates and Reports
   - url: https://www.cdc.gov/nchs/nvss/medical-examiners-coroners.htm
     name: Impact of Medical Examiners and Coroners in Public Health
@@ -88,8 +85,6 @@ linked_urls:
     name: National Survey of Family Growth
   - url: https://www.cdc.gov/nchs/nvss/nmfs.htm
     name: National Mortality
-    name: Followback
-    name: Survey
   - url: https://www.cdc.gov/nchs/nvss/nmihs.htm
     name: National Maternal and Infant Health Survey
   - url: https://www.cdc.gov/nchs/nvss/about_nvss.htm

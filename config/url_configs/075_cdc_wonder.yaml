@@ -13,7 +13,6 @@ linked_urls:
     name: CDC WONDER
   - url: https://wonder.cdc.gov/wonder/help/faq.html
     name: FAQs
-    name: Frequently Asked Questions
   - url: https://wonder.cdc.gov/wonder/help/main.html
     name: Help
   - url: https://wonder.cdc.gov/controller/datarequest?stage=contactus&action=start
@@ -22,13 +21,6 @@ linked_urls:
     name: WONDER Search
   - url: https://wonder.cdc.gov
     name: TP Docs Home
-    name: Syndicate
-  - url: https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Facebook
-  - url: https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Twitter
-  - url: https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: LinkedIn
   - url: https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
     name: Email
   - url: https://wonder.cdc.gov/welcomet.html
@@ -44,8 +36,7 @@ linked_urls:
   - url: https://wonder.cdc.gov/deaths-by-underlying-cause.html
     name: Underlying Cause of Death
   - url: https://wonder.cdc.gov/mcd.html
-    name: Multiple Cause of Death (Provisional)
-    name: Multiple Cause of Death (Final)
+    name: Multiple Cause of Death
   - url: https://wonder.cdc.gov/ucd-border.html
     name: U.S. - Mexico Border Area Mortality
   - url: https://wonder.cdc.gov/mortsql.html
@@ -82,7 +73,6 @@ linked_urls:
     name: NNDSS Annual Summary Data Query
   - url: https://wonder.cdc.gov/wonder/outside/nndss-tables.html
     name: NNDSS Annual Tables
-    name: NNDSS Weekly Tables
   - url: https://wonder.cdc.gov/wonder/outside/data2010.html
     name: Healthy People
   - url: https://wonder.cdc.gov/datause.html
