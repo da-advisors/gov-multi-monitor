@@ -4,3 +4,122 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov
+    name: Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting PeopleCenters for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
+  - url: https://www.cdc.gov/az/
+    name: A-Z Index
+  - url: https://wonder.cdc.gov/
+    name: CDC WONDER
+  - url: https://wonder.cdc.gov/wonder/help/faq.html
+    name: FAQs
+  - url: https://wonder.cdc.gov/wonder/help/main.html
+    name: Help
+  - url: https://wonder.cdc.gov/controller/datarequest?stage=contactus&action=start
+    name: Contact Us
+  - url: https://wonder.cdc.gov/controller/datarequest?stage=search&action=current
+    name: WONDER Search
+  - url: https://wonder.cdc.gov
+    name: TP Docs Home
+  - url: https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
+    name: Email
+  - url: https://wonder.cdc.gov/welcomet.html
+    name: Topics
+  - url: https://wonder.cdc.gov/welcomea.html
+    name: A-Z Index
+  - url: https://wonder.cdc.gov/aidspublic.html
+    name: AIDS Public Use Data
+  - url: https://wonder.cdc.gov/natality.html
+    name: Births
+  - url: https://wonder.cdc.gov/cancer.html
+    name: Cancer Statistics
+  - url: https://wonder.cdc.gov/deaths-by-underlying-cause.html
+    name: Underlying Cause of Death
+  - url: https://wonder.cdc.gov/mcd.html
+    name: Multiple Cause of Death
+  - url: https://wonder.cdc.gov/ucd-border.html
+    name: U.S. - Mexico Border Area Mortality
+  - url: https://wonder.cdc.gov/mortsql.html
+    name: Compressed Mortality
+  - url: https://wonder.cdc.gov/fetal.html
+    name: Fetal Deaths
+  - url: https://wonder.cdc.gov/lbd.html
+    name: Infant Deaths
+  - url: https://wonder.cdc.gov/nca-heatwavedays-historic.html
+    name: Heat Wave Days May-September
+  - url: https://wonder.cdc.gov/nasa-nldas.html
+    name: Daily Air Temperatures & Heat Index
+  - url: https://wonder.cdc.gov/nasa-lst.html
+    name: Daily Land Surface Temperatures
+  - url: https://wonder.cdc.gov/nasa-pm.html
+    name: Daily Fine Particulate Matter
+  - url: https://wonder.cdc.gov/nasa-insolar.html
+    name: Daily Sunlight
+  - url: https://wonder.cdc.gov/nasa-precipitation.html
+    name: Daily Precipitation
+  - url: https://wonder.cdc.gov/tb.html
+    name: Online Tuberculosis Information System
+  - url: https://wonder.cdc.gov/bridged-race-population.html
+    name: Bridged-Race Population (from NCHS)
+  - url: https://wonder.cdc.gov/single-race-population.html
+    name: Single-Race Population (from Census)
+  - url: https://wonder.cdc.gov/population.html
+    name: Population Projections (from Census)
+  - url: https://wonder.cdc.gov/std.html
+    name: Sexually Transmitted Disease Morbidity
+  - url: https://wonder.cdc.gov/vaers.html
+    name: Vaccine Adverse Event Reporting
+  - url: https://wonder.cdc.gov/nndss-annual-summary.html
+    name: NNDSS Annual Summary Data Query
+  - url: https://wonder.cdc.gov/wonder/outside/nndss-tables.html
+    name: NNDSS Annual Tables
+  - url: https://wonder.cdc.gov/wonder/outside/data2010.html
+    name: Healthy People
+  - url: https://wonder.cdc.gov/datause.html
+    name: Data Use Restrictions
+  - url: https://wonder.cdc.gov/datasets.html
+    name: Data Collections
+  - url: https://wonder.cdc.gov/whatsnew.html
+    name: What's New?
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: Visit CDC-INFO
+  - url: https://wwwn.cdc.gov/dcs/contactus/form
+    name: Email CDC-INFO
+  - url: https://www.cdc.gov/about/default.htm
+    name: About CDC
+  - url: https://jobs.cdc.gov
+    name: Jobs
+  - url: https://www.cdc.gov/funding
+    name: Funding
+  - url: https://www.cdc.gov/Other/policies.html
+    name: Policies
+  - url: https://www.cdc.gov/other/plugins/index.html
+    name: File Viewers & Players
+  - url: https://www.cdc.gov/od/foia
+    name: FOIA
+  - url: https://www.cdc.gov/eeo/nofearact/index.htm
+    name: No Fear Act
+  - url: https://oig.hhs.gov
+    name: OIG
+  - url: https://www.cdc.gov/other/nondiscrimination.html
+    name: Nondiscrimination
+  - url: https://www.cdc.gov/contact/accessibility.html
+    name: Accessibility
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+    name: Vulnerability Disclosure Policy
+  - url: https://www.hhs.gov/es/vulnerability-disclosure-policy/index.html
+    name: Español
+  - url: https://www.cdc.gov/cdctv
+    name: CDC TV
+  - url: https://tools.cdc.gov/podcasts/rss.asp
+    name: RSS
+  - url: https://wwwn.cdc.gov/dcs/RequestForm.aspx
+    name: Email
+  - url: https://www.hhs.gov
+    name: U.S. Department of Health & Human Services
+  - url: https://www.usa.gov/
+    name: USA.gov
+  - url: https://www.cdc.gov/Other/disclaimer.html
+    name: CDC Website Exit Disclaimer
+  - url: https://cdc.112.2o7.net
+    name: [No text]

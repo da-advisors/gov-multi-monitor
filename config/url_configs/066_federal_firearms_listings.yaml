@@ -4,3 +4,174 @@ expected_update_frequency: null
 tags:
   - atf
   - firearms
+linked_urls:
+  - url: https://www.atf.gov/
+    name: Bureau of Alcohol, Tobacco, Firearms and Explosives
+  - url: https://www.atf.gov/about/who-we-are
+    name: Who We Are
+  - url: https://www.atf.gov/about
+    name: About
+  - url: https://www.atf.gov/about/leadership
+    name: Leadership
+  - url: https://www.atf.gov/about/organization-structure
+    name: Organization Structure
+  - url: https://www.atf.gov/our-history
+    name: Our History
+  - url: https://www.atf.gov/contact
+    name: Contact
+  - url: https://www.atf.gov/contact/hotlines
+    name: Hotlines
+  - url: https://www.atf.gov/contact/licensing-and-other-services
+    name: Licensing Services
+  - url: https://www.atf.gov/news/media-and-congressional-contacts
+    name: Media/Congressional Contacts
+  - url: https://www.atf.gov/contact/victim-witness-assistance-program
+    name: For Victims & Witnesses
+  - url: https://www.atf.gov/careers/careers
+    name: Careers
+  - url: https://www.atf.gov/careers/becoming-special-agent
+    name: Special Agent
+  - url: https://www.atf.gov/careers/becoming-industry-operations-investigator
+    name: Industry Operations Investigator
+  - url: https://www.atf.gov/careers/attorneys
+    name: Attorneys
+  - url: https://www.atf.gov/careers/professional-and-technical
+    name: Professional/Technical
+  - url: https://www.atf.gov/contact/atf-field-divisions
+    name: Field Divisions
+  - url: https://www.atf.gov/contact/contact-atf-headquarters
+    name: HQ Offices
+  - url: https://www.atf.gov/contact/local-atf-offices
+    name: Local Offices
+  - url: https://www.atf.gov/contact/international-offices
+    name: International
+  - url: https://www.atf.gov/about/what-we-do
+    name: What We Do
+  - url: https://www.atf.gov/about/mission-areas
+    name: Mission Areas
+  - url: https://www.atf.gov/firearms
+    name: Firearms
+  - url: https://www.atf.gov/explosives
+    name: Explosives
+  - url: https://www.atf.gov/arson/arson
+    name: Arson
+  - url: https://www.atf.gov/alcohol-tobacco
+    name: Alcohol & Tobacco
+  - url: https://www.atf.gov/rules-and-regulations
+    name: Rules and Regulations
+  - url: https://www.atf.gov/rules-and-regulations/laws-alcohol-tobacco-firearms-and-explosives
+    name: Laws
+  - url: https://www.atf.gov/rules-and-regulations/regulations-alcohol-tobacco-firearms-and-explosives
+    name: Regulations
+  - url: https://www.atf.gov/rules-and-regulations/federal-register-actions
+    name: Federal Register
+  - url: https://www.atf.gov/rules-and-regulations/rulings
+    name: Rulings
+  - url: https://www.atf.gov/news
+    name: News
+  - url: https://www.atf.gov/news/advisories
+    name: Advisories
+  - url: https://www.atf.gov/news/press-releases
+    name: Press Releases
+  - url: https://www.atf.gov/laboratories
+    name: Laboratories
+  - url: https://www.atf.gov/laboratories/fire-research-laboratory
+    name: Fire Research
+  - url: https://www.atf.gov/laboratories/forensics/publications
+    name: Forensics
+  - url: https://www.atf.gov/laboratories/national-firearms-examiner-academy
+    name: Firearms Examiner Academy
+  - url: https://www.atf.gov/most-wanted
+    name: Most Wanted
+  - url: https://www.atf.gov/news/reward-notices
+    name: Reward Notices
+  - url: https://www.atf.gov/resource-center
+    name: Resources
+  - url: https://www.atf.gov/resource-center/forms-library
+    name: Download Forms
+  - url: https://www.atf.gov/distribution-center-order-form
+    name: Order Paper Forms
+  - url: https://www.atf.gov/resource-center/atf-photo-galleries
+    name: Photo Galleries
+  - url: https://www.atf.gov/firearms/firearms-photo-gallery
+    name: Firearms Gallery
+  - url: https://www.atf.gov/explosives/canine-gallery
+    name: K-9 Gallery
+  - url: https://www.atf.gov/resource-center/publications-library
+    name: Publications
+  - url: https://www.atf.gov/resource-center/fact-sheets
+    name: Fact Sheets
+  - url: https://www.atf.gov/rules-and-regulations/rules-and-regulations-library
+    name: Regulations Library
+  - url: https://www.atf.gov/resource-center/freedom-information-act-foia
+    name: FOIA
+  - url: https://www.atf.gov/questions-and-answers
+    name: Q&A
+  - url: https://www.atf.gov/questions-and-answers/firearms-qas
+    name: Firearms Q&As
+  - url: https://www.atf.gov/questions-and-answers/explosives-qas
+    name: Explosives
+  - url: https://www.atf.gov/questions-and-answers/careers-qas
+    name: Careers
+  - url: https://www.atf.gov/resource-center/data-statistics
+    name: Data & Statistics
+  - url: https://www.atf.gov/resource-center/firearms-trace-data-2023
+    name: U.S. Firearms Trace Data
+  - url: https://www.atf.gov/firearms/docs/report/2021-firearms-commerce-report/download
+    name: U.S. Firearms Commerce Report
+  - url: https://www.atf.gov/firearms/tools-services-firearms-industry
+    name: Tools & Services for Firearms Industry
+  - url: https://www.atf.gov/firearms/tools-services-law-enforcement
+    name: Tools & Services for Law Enforcement
+  - url: https://www.atf.gov/firearms/listing-federal-firearms-licensees
+    name: Listing of Federal Firearms Licensees
+  - url: https://www.atf.gov/firearms/state-laws-and-published-ordinances-firearms-35th-edition
+    name: State Laws & Published Ordinances
+  - url: https://www.atf.gov/firearms/apply-license
+    name: Apply for a License
+  - url: https://www.atf.gov/firearms/current-licensees
+    name: Current Licensees
+  - url: https://www.atf.gov/firearms/firearms-and-explosives-industry-division-customer-service-standards
+    name: FEID Customer Service Standards
+  - url: https://www.atf.gov/firearms/curios-relics
+    name: Curios and Relics
+  - url: https://www.atf.gov/firearms/imports-variances-stamps-verification-guides
+    name: Imports, Variances, Stamps & Verification Guides
+  - url: https://www.atf.gov/firearms/national-firearms-act-handbook
+    name: National Firearms Act Handbook
+  - url: https://www.atf.gov/firearms/national-firearms-act-division
+    name: NFA Division
+  - url: https://www.atf.gov/rules-and-regulations/brady-law
+    name: Brady Law
+  - url: https://www.atf.gov/firearms/privately-made-firearms
+    name: Privately Made Firearms
+  - url: https://www.atf.gov/firearms/firearms-forms
+    name: Firearms Forms
+  - url: https://www.atf.gov/firearms/federal-firearms-licenses
+    name: Firearms Licenses
+  - url: https://www.atf.gov/resource-center/publications-library?search_api_views_fulltext=&field_document_type_1=All&og_group_ref=1&=Apply&field_document_type_value=All&og_group_ref_target_id=186
+    name: Firearms Publications
+  - url: https://instagram.com/atfhq/
+    name: instagram
+  - url: https://public.govdelivery.com/accounts/USATF/subscriber/new
+    name: email
+  - url: https://www.atf.gov/careers/equal-opportunity-employer
+    name: EEO and Disability Information
+  - url: https://www.atf.gov/resource-center/whistleblower-information
+    name: Whistleblower Rights & Protections
+  - url: https://www.justice.gov/open
+    name: Open Government
+  - url: https://www.justice.gov/doj/privacy-policy
+    name: Privacy Policy
+  - url: https://www.justice.gov/legalpolicies
+    name: Legal Policies & Disclaimers
+  - url: https://www.usa.gov/
+    name: USA.gov
+  - url: https://www.atf.gov/home/site-map
+    name: Site Map
+  - url: https://www.justice.gov/accessibility/accessibility-statement
+    name: Accessibility & Plug-Ins
+  - url: https://www.atf.gov/<front>
+    name: ATF.gov
+  - url: https://www.justice.gov
+    name: U.S. Department of Justice

@@ -5,3 +5,288 @@ tags:
   - fhfa
   - mortgage
   - housing
+linked_urls:
+  - url: https://www.fhfa.gov/
+    name: FEDERAL HOUSING FINANCE AGENCY
+  - url: https://www.fhfa.gov/about
+    name: Mission & Core Values
+  - url: https://www.fhfa.gov/conservatorship
+    name: Conservatorship
+  - url: https://www.fhfa.gov/about/foia-privacy
+    name: FOIA & Privacy
+  - url: https://www.fhfa.gov/about/information-quality
+    name: Information Quality
+  - url: https://www.fhfa.gov/about/meet-the-experts
+    name: Meet the Experts
+  - url: https://www.fhfa.gov/about/do-business-with-us
+    name: Do Business with Us
+  - url: https://www.fhfa.gov/about/ombudsman
+    name: Ombudsman
+  - url: https://www.fhfa.gov/about/budget-finances-and-performance
+    name: Budget, Finances, and Performance
+  - url: https://www.fhfa.gov/about/fhfa-policies/equal-employment-opportunity-no-fear-act
+    name: Equal Employment Opportunity No FEAR Act
+  - url: https://www.fhfa.gov/about/workforce-ombuds-person
+    name: Workforce Ombuds
+  - url: https://www.fhfa.gov/about/careers
+    name: Careers
+  - url: https://www.fhfa.gov/about/fhfa-policies
+    name: FHFA Policies
+  - url: https://www.fhfa.gov/contact
+    name: Contact Us
+  - url: https://www.fhfa.gov/regulatory?topic=advisory-bulletins
+    name: Advisory Bulletin
+  - url: https://www.fhfa.gov/supervision/fannie-mae-and-freddie-mac
+    name: Fannie Mae & Freddie Mac
+  - url: https://www.fhfa.gov/supervision/libor-transition
+    name: LIBOR Transition
+  - url: https://www.fhfa.gov/supervision/dodd-frank-act-stress-tests
+    name: Dodd-Frank Act Stress Tests (DFAST)
+  - url: https://www.fhfa.gov/supervision/federal-home-loan-bank-system
+    name: Federal Home Loan Bank System
+  - url: https://www.fhfa.gov/regulation/rulemaking
+    name: Rulemaking and Federal Register
+  - url: https://www.fhfa.gov/supervision/examiner-resources
+    name: ​Examiner Resources
+  - url: https://www.fhfa.gov/supervision/legal-documents
+    name: Legal Documents & Suspensions
+  - url: https://www.fhfa.gov/regulatory?topic=policy
+    name: Policy
+  - url: https://www.fhfa.gov/policy/fannie-mae-freddie-mac-affordable-housing-allocations
+    name: Affordable Housing Allocations
+  - url: https://www.fhfa.gov/policy/guarantee-fees
+    name: Guarantee Fees
+  - url: https://www.fhfa.gov/policy/pilot-transparency
+    name: Pilot Transparency
+  - url: https://www.fhfa.gov/policy/credit-risk-transfer
+    name: Credit Risk Transfer
+  - url: https://www.fhfa.gov/policy/language-access
+    name: Language Access
+  - url: https://www.fhfa.gov/policy/fannie-mae-freddie-mac-private-mortgage-insurer-eligibility-requirements-pmiers
+    name: Private Mortgage Insurer Eligibility Requirements
+  - url: https://www.fhfa.gov/policy/credit-scores
+    name: Credit Scores
+  - url: https://www.fhfa.gov/policy/mortgage-servicing
+    name: Mortgage Servicing
+  - url: https://www.fhfa.gov/policy/representation-and-warranty-framework
+    name: Representation and Warranty Framework
+  - url: https://www.fhfa.gov/policy/deemed-issuance-ratio
+    name: Deemed-Issuance Ratio
+  - url: https://www.fhfa.gov/policy/fannie-mae-and-freddie-mac-multifamily-businesses
+    name: Multifamily Businesses
+  - url: https://www.fhfa.gov/policy/single-security-initiative-and-common-securitization-platform
+    name: Common Securitization Platform
+  - url: https://www.fhfa.gov/policy/executive-compensation
+    name: Executive Compensation
+  - url: https://www.fhfa.gov/policy/non-performing-npl-and-re-performing-loan-rpl-sales
+    name: Non-Performing and Re-Performing Loan Sales
+  - url: https://www.fhfa.gov/policy/tenant-protections
+    name: Tenant Protections
+  - url: https://www.fhfa.gov/policy/fair-lending-oversight
+    name: Fair Lending Oversight
+  - url: https://www.fhfa.gov/regulatory?topic=programs
+    name: Programs
+  - url: https://www.fhfa.gov/programs/fintech/techsprint/2024
+    name: 2024 TechSprint Generative AI in Housing Finance
+  - url: https://www.fhfa.gov/programs/affordable-housing/enterprise-housing-goals
+    name: Enterprise Housing Goals
+  - url: https://www.fhfa.gov/programs/fhfas-housing-finance-examiner-commission-program
+    name: Housing Finance Examiner Commission Program
+  - url: https://www.fhfa.gov/programs/loss-mitigation
+    name: Loss Mitigation
+  - url: https://www.fhfa.gov/programs/affordable-housing
+    name: Affordable Housing & Community Investment
+  - url: https://www.fhfa.gov/programs/national-mortgage-database-program
+    name: National Mortgage Database
+  - url: https://www.fhfa.gov/programs/climate-risk
+    name: Climate Risk Committee
+  - url: https://www.fhfa.gov/programs/fintech
+    name: Financial Technology
+  - url: https://www.fhfa.gov/programs/neighborhood-stabilization-initiative-nsi
+    name: Neighborhood Stabilization Initiative
+  - url: https://www.fhfa.gov/programs/duty-to-serve
+    name: Duty to Serve
+  - url: https://www.fhfa.gov/programs/fraud-prevention
+    name: Fraud Prevention
+  - url: https://www.fhfa.gov/data
+    name: Data
+  - url: https://www.fhfa.gov/data/dashboard/borrower-assistance-map
+    name: Borrower Assistance Map
+  - url: https://www.fhfa.gov/data/enterprise-housing-goals
+    name: ​Enterprise Housing Goals
+  - url: https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics
+    name: NMDB® Aggregate Statistics
+  - url: https://www.fhfa.gov/data/conforming-loan-limit
+    name: Conforming Loan Limit
+  - url: https://www.fhfa.gov/data/fair-lending-data
+    name: ​Fair Lending Data
+  - url: https://www.fhfa.gov/data/national-survey-mortgage-originations-nsmo-public-use-file
+    name: NSMO Public Use File
+  - url: https://www.fhfa.gov/data/data-governance-resources
+    name: Data Governance
+  - url: https://www.fhfa.gov/data/hpi
+    name: FHFA House Price Index
+  - url: https://www.fhfa.gov/data/dashboard
+    name: Dashboards
+  - url: https://www.fhfa.gov/data/federal-home-loan-bank-membership-data
+    name: FHLB Membership Data
+  - url: https://www.fhfa.gov/data/pudb
+    name: Public Use Databases
+  - url: https://www.fhfa.gov/data/developer-information
+    name: Developer Information
+  - url: https://www.fhfa.gov/data/fhlb-stress-tests-market-and-credit-risk
+    name: FHLB Stress Tests for Market and Credit Risk
+  - url: https://www.fhfa.gov/data/uniform-appraisal-dataset-aggregate-statistics
+    name: UAD Aggregate Statistics
+  - url: https://www.fhfa.gov/data/duty-to-serve/eligibility-data
+    name: Duty to Serve Eligibility Data
+  - url: https://www.fhfa.gov/data/market-data
+    name: Market Data
+  - url: https://www.fhfa.gov/data/uad-appraisal-level-public-use-file-puf
+    name: UAD Appraisal-Level Public Use File
+  - url: https://www.fhfa.gov/data/duty-to-serve/performance-data
+    name: Duty to Serve Performance Data
+  - url: https://www.fhfa.gov/data/mirs
+    name: MIRS Transition Index
+  - url: https://www.fhfa.gov/data/underserved-areas-data
+    name: Underserved Areas Data
+  - url: https://www.fhfa.gov/regulatory?topic=research
+    name: Research
+  - url: https://www.fhfa.gov/regulatory?topic=research&category=briefs%2C-notes-%26-white-papers
+    name: Briefs, Notes & White Papers
+  - url: https://www.fhfa.gov/regulatory?topic=research&category=nmdb-staff-working-papers
+    name: NMDB Staff Working Papers
+  - url: https://www.fhfa.gov/regulatory?topic=research&category=staff-working-papers
+    name: Staff Working Papers
+  - url: https://www.fhfa.gov/reports
+    name: Reports
+  - url: https://www.fhfa.gov/reports?topic=conservatorship-reports
+    name: Conservatorship Reports
+  - url: https://www.fhfa.gov/reports?topic=fhfa-reports
+    name: FHFA Reports
+  - url: https://www.fhfa.gov/reports?topic=mortgage-market-reports
+    name: Mortgage Market Reports
+  - url: https://www.fhfa.gov/reports?topic=fannie-mae-and-freddie-mac-reports
+    name: Fannie Mae and Freddie Mac Reports
+  - url: https://www.fhfa.gov/reports?topic=fhlbank-reports
+    name: FHLBank Reports
+  - url: https://www.fhfa.gov/mortgage-translations
+    name: Mortgage Translations
+  - url: https://www.fhfa.gov/mortgage-translations/language-translation-disclosure
+    name: Language Translation Disclosure
+  - url: https://www.fhfa.gov/mortgage-translations/borrower-education-materials
+    name: Borrower Education Materials
+  - url: https://www.fhfa.gov/mortgage-translations/interpretive-services
+    name: Interpretive Services
+  - url: https://www.fhfa.gov/mortgage-translations/search
+    name: Search Documents
+  - url: https://www.fhfa.gov/mortgage-translations/covid-19-resources
+    name: COVID-19 Resources
+  - url: https://www.fhfa.gov/news?topic=blogs
+    name: Blogs
+  - url: https://www.fhfa.gov/news?topic=releases
+    name: News Releases
+  - url: https://www.fhfa.gov/public-input
+    name: Public Input
+  - url: https://www.fhfa.gov/news?topic=fact-sheets
+    name: Fact Sheets
+  - url: https://www.fhfa.gov/news/partner-agency-engagements
+    name: Partner Agency Engagements
+  - url: https://www.fhfa.gov/news?topic=remarks
+    name: Remarks
+  - url: https://www.fhfa.gov/faqs
+    name: FAQs
+  - url: https://www.fhfa.gov/news/public-engagements
+    name: Public Engagements
+  - url: https://www.fhfa.gov/news?topic=videos
+    name: Videos
+  - url: https://www.fhfa.gov/document/NMDB-Aggregate-Statistics-Data-Dictionary-Technical-Notes.pdf
+    name: Data Dictionary and Technical Notes
+  - url: https://www.fhfa.gov/sites/default/files/2023-10/CSV-to-XLSX-Pivot-Table.pdf
+    name: How to Convert CSV to Excel Pivot Table
+  - url: https://www.fhfa.gov/sites/default/files/2024-02/How-to-Read-a-CSV-File-in-Tableau.pdf
+    name: How to Import CSV Data into Tableau
+  - url: https://www.fhfa.gov/data/dashboard/nmdb-outstanding-residential-mortgage-statistics
+    name: Dashboard
+  - url: https://www.fhfa.gov/data/dashboard/nmdb-residential-mortgage-performance-statistics
+    name: Dashboard
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-all-annual.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-annual.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-state-annual.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-quarterly-by-year.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-monthly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-monthly-by-year.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-wide-column-format.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-all-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-national-census-areas-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-states-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-wide-column-format.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-all-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-national-census-areas-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-states-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-metro-quarterly.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-wide-column-format.zip
+    name: [CSV]
+  - url: https://www.fhfa.gov/news/news-release/fhfa-releases-nmdbr-residential-mortgage-dashboard
+    name: FHFA Releases NMDB Residential Mortgage Dashboard
+  - url: https://www.fhfa.gov/news/news-release/fhfa-releases-data-visualization-dashboard-for-nmdb-outstanding-residential-mortgage-statistics
+    name: FHFA Releases Data Visualization Dashboard for NMDB Outstanding Residential Mortgage Statistics
+  - url: https://www.fhfa.gov/news/news-release/fhfa-announces-new-and-expanded-statistical-products-from-the-national-mortgage-database
+    name: FHFA Announces New and Expanded Statistical Products from the ​National Mortgage Database
+  - url: https://www.fhfa.gov/news/news-release/fhfa-releases-u.s.-mortgage-statistics-from-the-national-mortgage-database
+    name: FHFA Releases U.S. Mortgage Statistics from the National Mortgage Database
+  - url: https://www.fhfa.gov/news/news-release/fhfa-and-cfpb-partner-on-development-of-national-mortgage-database
+    name: FHFA and CFPB Partner on Development of National Mortgage Database
+  - url: https://www.fhfa.gov/node/17641
+    name: NSMO Public Use File
+  - url: https://www.fhfa.gov/document/NMDB-Technical-Documentation.pdf
+    name: NMDB
+  - url: https://www.fhfa.gov/blog/statistics/recent-changes-in-mortgage-related-housing-consumption-costs-evidence-from-the-national-mortgage
+    name: Recent Changes in Mortgage-Related Housing Consumption Costs Evidence from the National Mortgage Database
+  - url: https://www.fhfa.gov/blog/statistics/homeowners-equity-remains-high
+    name: Homeowners' Equity Remains High
+  - url: https://www.fhfa.gov/blog/statistics/what-types-of-mortgages-do-fannie-mae-and-freddie-mac-acquire
+    name: What Types of Mortgages Do Fannie Mae and Freddie Mac Acquire?
+  - url: https://www.fhfa.gov/blog/statistics/mortgage-performance-during-the-covid-19-pandemic
+    name: Mortgage Performance During the COVID-19 Pandemic
+  - url: https://www.fhfa.gov/contact/general
+    name: Leave a comment
+  - url: https://www.fhfa.gov/homeowners-and-homebuyers/mortgage-assistance
+    name: Trouble With Your Mortgage?
+  - url: https://public.govdelivery.com/accounts/USFHFA/subscriber/new?category_id=FHFA_web
+    name: Subscribe to FHFA.gov updates
+  - url: https://www.fhfa.gov/about/fhfa-policies/accessibility
+    name: Accessibility
+  - url: https://data.gov/
+    name: Data.gov
+  - url: https://www.fhfaoig.gov/
+    name: OIG
+  - url: https://www.fhfa.gov/about/fhfa-policies/open-government
+    name: Open Government
+  - url: https://www.fhfa.gov/about/fhfa-policies/plain-writing
+    name: Plain Writing
+  - url: https://www.regulations.gov/
+    name: Regulations.gov
+  - url: https://www.fhfa.gov/sitemap
+    name: Sitemap
+  - url: https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy
+    name: Website Privacy
+  - url: https://www.usa.gov/
+    name: USA.gov

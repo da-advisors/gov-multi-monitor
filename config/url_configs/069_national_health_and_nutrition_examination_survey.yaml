@@ -40,8 +40,7 @@ linked_urls:
   - url: https://wwwn.cdc.gov/nchs/data/nhanes/survey_contents.pdf
     name: Survey Contents Brochure
   - url: https://www.cdc.gov/nchs/products/databriefs/db519.htm
-    name: >  
-        Anemia Prevalence: United States, August 2021 - August 2023
+    name: Anemia Prevalence United States, August 2021 - August 2023
   - url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=2001
     name: Caffeine & Caffeine Metabolites - Urine (Surplus) (SSCAFE_B 2001-2002)
   - url: https://wwwn.cdc.gov/Nchs/Nhanes/Search/DataPage.aspx?Component=Laboratory&CycleBeginYear=1999

@@ -4,3 +4,188 @@ expected_update_frequency: null
 tags:
   - health
   - cancer
+linked_urls:
+  - url: https://seer.cancer.gov/statistics/
+    name: Cancer Statistics
+  - url: https://seer.cancer.gov/statistics/reports.html
+    name: Reports on Cancer
+  - url: https://seer.cancer.gov/report_to_nation/
+    name: Annual Report to the Nation on the Status of Cancer
+  - url: https://seer.cancer.gov/statfacts/
+    name: Cancer Stat Facts
+  - url: https://seer.cancer.gov/statistics/preliminary-estimates/
+    name: Preliminary Cancer Incidence Rates and Trends, 2000-2022
+  - url: https://seer.cancer.gov/publications/
+    name: SEER Publications
+  - url: https://seer.cancer.gov/statistics/interactive.html
+    name: Interactive Tools, Maps, & Graphs
+  - url: https://seer.cancer.gov/statistics-network/
+    name: Cancer Statistics Explorer Network
+  - url: https://seer.cancer.gov/canques/
+    name: Cancer Query System
+  - url: https://seer.cancer.gov/statistics/resources.html
+    name: Understanding Statistics
+  - url: https://seer.cancer.gov/statistics/videos/
+    name: Did You Know? Video Series
+  - url: https://seer.cancer.gov/statistics/types.html
+    name: Defining Cancer Statistics
+  - url: https://seer.cancer.gov/cgi-bin/glossary/glossary.pl
+    name: Glossary of Statistical Terms
+  - url: https://seer.cancer.gov/data-software/
+    name: SEER Data & Software
+  - url: https://seer.cancer.gov/data/
+    name: SEER Incidence Data, 1975-2021
+  - url: https://seer.cancer.gov/data/product-comparison.html
+    name: Comparison of Data Products
+  - url: https://seer.cancer.gov/data/access.html
+    name: How to Request the Data
+  - url: https://seer.cancer.gov/data-software/documentation/
+    name: Documentation for Data
+  - url: https://seer.cancer.gov/data-software/documentation/seerstat/
+    name: SEER*Stat Database Details
+  - url: https://seer.cancer.gov/analysis/
+    name: Variable and Recode Definitions
+  - url: https://seer.cancer.gov/data-software/datasets.html
+    name: U.S. Datasets
+  - url: https://seer.cancer.gov/mortality/
+    name: U.S. Mortality
+  - url: https://seer.cancer.gov/data-software/uspopulations.html
+    name: U.S. Populations
+  - url: https://seer.cancer.gov/stdpopulations/
+    name: Standard Populations
+  - url: https://seer.cancer.gov/data-software/linked_databases.html
+    name: SEER Linked Databases
+  - url: https://seer.cancer.gov/data-software/software.html
+    name: Statistical Software
+  - url: https://seer.cancer.gov/seerstat/
+    name: SEER*Stat
+  - url: https://seer.cancer.gov/seerprep/
+    name: SEER*Prep
+  - url: https://surveillance.cancer.gov/tools/
+    name: Methods & Tools for Population-based Cancer Statistics
+  - url: https://seer.cancer.gov/registrars/
+    name: Registry Operations
+  - url: https://seer.cancer.gov/registrars/guidelines.html
+    name: Reporting Guidelines
+  - url: https://seer.cancer.gov/tools/codingmanuals/
+    name: SEER Program Coding Manual
+  - url: https://seer.cancer.gov/tools/heme/
+    name: Hematopoietic Project
+  - url: https://seer.cancer.gov/tools/solidtumor/
+    name: Solid Tumor Rules
+  - url: https://seer.cancer.gov/registrars/tools-software.html
+    name: Tools & Software
+  - url: https://seer.cancer.gov/seertools/glossary/
+    name: Glossary for Registrars
+  - url: https://seer.cancer.gov/tools/seerrx/
+    name: SEER*Rx - Drug Database
+  - url: https://seer.cancer.gov/seerabs/
+    name: SEER Abstracting Tool
+  - url: https://seer.cancer.gov/seerdms/
+    name: SEER Data Management System (SEER*DMS)
+  - url: https://seer.cancer.gov/registrars/staging.html
+    name: Staging
+  - url: https://seer.cancer.gov/tools/staging/rsa.html
+    name: Registrar Staging Assistant (SEER*RSA)
+  - url: https://seer.cancer.gov/tools/ssm/
+    name: Summary Stage 2018
+  - url: https://seer.cancer.gov/tools/staging/index.html
+    name: Staging Resources
+  - url: https://seer.cancer.gov/tools/staging/eod/
+    name: Extent of Disease 2018
+  - url: https://seer.cancer.gov/registrars/qa.html
+    name: Questions & Answers
+  - url: https://seer.cancer.gov/seer-inquiry/
+    name: SEER Inquiry System
+  - url: https://seer.cancer.gov/registrars/contact.html
+    name: Ask a SEER Registrar
+  - url: https://seer.cancer.gov/registrars/data-collection.html
+    name: Data Collection Answers
+  - url: https://seer.cancer.gov/cancerpathchart/
+    name: Cancer PathCHART
+  - url: https://seer.cancer.gov/training/
+    name: Training
+  - url: https://seer.cancer.gov/news/
+    name: News & Events
+  - url: https://seer.cancer.gov/about/
+    name: About SEER
+  - url: https://seer.cancer.gov/about/overview.html
+    name: Program Overview
+  - url: https://seer.cancer.gov/about/goals.html
+    name: Goals of the SEER Program
+  - url: https://seer.cancer.gov/about/factsheets/
+    name: Fact Sheets & Brochures
+  - url: https://seer.cancer.gov/about/organizations.html
+    name: Collaborating Organizations
+  - url: https://seer.cancer.gov/registries/
+    name: SEER Registries
+  - url: https://seer.cancer.gov/registries/cancer_registry/
+    name: What is a Cancer Registry?
+  - url: https://seer.cancer.gov/registries/list.html
+    name: List of Registries
+  - url: https://seer.cancer.gov/registries/terms.html
+    name: Registry Groupings
+  - url: https://seer.cancer.gov/registries/characteristics.html
+    name: Population Characteristics
+  - url: https://seer.cancer.gov/about/activities.html
+    name: Research Activities
+  - url: https://seer.cancer.gov/biospecimen/
+    name: Residual Tissue Repository Program
+  - url: https://seer.cancer.gov/vtr/
+    name: SEER-Linked Virtual Tissue Repository Program
+  - url: https://seer.cancer.gov/qi/
+    name: SEER Quality Improvement
+  - url: https://seer.cancer.gov/statistics-network/explorer/application.html
+    name: SEER*Explorer
+  - url: https://nccrexplorer.ccdi.cancer.gov/
+    name: NCCR*Explorer
+  - url: https://seer.cancer.gov/data/covid-impact.html
+    name: Impact of COVID on SEER Cancer Incidence Data
+  - url: https://seer.cancer.gov/explorer/
+    name: SEER*Explorer with Statistics through 2021
+  - url: https://seer.cancer.gov/data-software/crwdi/
+    name: New!COVID-19 Real-world Data Infrastructure (CRWDi)
+  - url: https://pubs.rsna.org/doi/10.1148/radiol.241397
+    name: Rates of distant-stage breast cancer on the rise
+  - url: https://www.cancer.gov/policies/linking
+    name: Website Linking
+  - url: https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21863
+    name: American Cancer Society releases study on breast cancer statistics in U.S.
+  - url: https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djae180/7765196
+    name: SEER data helps researchers determine if cancer diagnoses rebounded in 2021
+  - url: https://surveillance.cancer.gov/
+    name: Surveillance Research Program (SRP)
+  - url: https://cancercontrol.cancer.gov/
+    name: Division of Cancer Control and Population Sciences (DCCPS)
+  - url: https://surveillance.cancer.gov/blog
+    name: [No text]
+  - url: https://seer.cancer.gov/about/contact.html
+    name: Contact SEER
+  - url: https://livehelp.cancer.gov/
+    name: NCI LiveHelp Online Chat
+  - url: https://surveillance.cancer.gov/jobs/
+    name: Careers
+  - url: https://seer.cancer.gov/sitemap.html
+    name: Sitemap
+  - url: https://seer.cancer.gov/about/using-website.html
+    name: Using This Website
+  - url: https://www.cancer.gov/policies/accessibility
+    name: Accessibility
+  - url: https://www.cancer.gov/policies/disclaimer
+    name: Disclaimer
+  - url: https://www.cancer.gov/policies/foia
+    name: FOIA
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy
+    name: HHS Vulnerability Disclosure
+  - url: https://www.cancer.gov/policies/privacy-security
+    name: Privacy & Security
+  - url: https://www.cancer.gov/policies/copyright-reuse
+    name: Reuse of Graphics and Text
+  - url: https://www.hhs.gov/
+    name: U.S. Department of Health and Human Services
+  - url: https://www.nih.gov/
+    name: National Institutes of Health
+  - url: https://www.cancer.gov/
+    name: National Cancer Institute
+  - url: https://www.usa.gov/
+    name: USA.gov
