@@ -15,6 +15,10 @@ linked_urls:
     name: Resources
   - url: https://www.childreninadversity.gov/highlights-stories/
     name: Highlights & Stories
+  - url: https://old-childreninadversity.gh.cldigitalservices.com/sitemap/
+    name: Sitemap
+  - url: https://old-childreninadversity.gh.cldigitalservices.com/privacy-policy/
+    name: Privacy Policy
 archived_content:
   - url: https://web.archive.org/web/20250117222341/https://www.childreninadversity.gov/
     name: Advancing Protection and Care for Children in Adversity
