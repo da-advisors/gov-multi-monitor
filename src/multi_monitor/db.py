@@ -17,18 +17,22 @@ from .checker import CheckResult, LinkedURLCheckResult, APICheckResult
 class MonitorDB:
     """Database for storing monitoring data."""
     
-    def __init__(self, db_path: Union[str, Path] = "data/monitor.db"):
+    def __init__(self, db_path: Union[str, Path] = "data/monitor.db", read_only: bool = False):
         """Initialize database connection and ensure tables exist.
         
         Args:
             db_path: Path to DuckDB database file
+            read_only: Whether to initiate the db connection in read-only mode
         """
         self.db_path = Path(db_path)
         self.db_path.parent.mkdir(parents=True, exist_ok=True)
         
         # Initialize connection
-        self.conn = duckdb.connect(str(self.db_path))
-        self._create_tables()
+        self.read_only = read_only
+        self.conn = duckdb.connect(str(self.db_path), read_only = read_only)
+        # TODO: instantiate "cursors" for thread safety on connection?
+        if not read_only:
+            self._create_tables()
     
     def _create_tables(self):
         """Create database tables if they don't exist."""
@@ -520,3 +524,26 @@ class MonitorDB:
         """, [collection_id])
         row = result.fetchone()
         return row[0] if row else []
+    
+    def _read_query(self, query_string: str) -> List[tuple]:
+        """Execute an arbitrary read query on the database, to retrieve
+        data not available from another existing method. Note that to prevent
+        totally arbitrary code execution, this function can only be used when
+        the database connection is established in read_only mode.
+
+        Args:
+            query_string (str): The contents of the SQL query to be executed.
+            A `SELECT` statement must be included to produce results.
+
+        Returns:
+            List[tuple]: The tabular data output of the query response. Note that column
+            headers/names will not be returned.
+        """
+        if self.read_only == False:
+            raise("""Arbitrary queries are only allowed when the database connection
+                  is set in read-only mode. Did you create your MonitorDB with read_only = True?""")
+        
+        result = self.conn.execute(query_string)
+        # TODO: Refactor returned result data format
+        return [result.description, result.fetchall()]
+
