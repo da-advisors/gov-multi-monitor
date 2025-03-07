@@ -544,6 +544,8 @@ class MonitorDB:
                   is set in read-only mode. Did you create your MonitorDB with read_only = True?""")
         
         result = self.conn.execute(query_string)
-        # TODO: Refactor returned result data format
-        return [result.description, result.fetchall()]
+        column_names = [column[0] for column in result.description]
+        list_of_objects = [dict(zip(column_names, row)) for row in result.fetchall()]
+        
+        return list_of_objects
 

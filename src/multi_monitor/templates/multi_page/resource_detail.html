@@ -6,9 +6,16 @@
 
 <body>
     <h2>{{resource.name}}</h2>
-    <b>URL: </b> <a href = "{{resource.url}}">{{resource.url}}</a>
-    <b>Type: </b> {{resource.type}}
-    <b>Created at: </b> {{resource.created_at}}
+    <b>URL: </b> <a href = "{{resource.url}}">{{resource.url}}</a><br>
+    <b>Type: </b> {{resource.type}} <br>
+    <b>Created at: </b> {{resource.created_at}} <br>
 <br>
     <a href = "/resources/">Back to all resources</a>
+
+    {% if status_history %}
+    <h3>Status history</h3>
+        {% for status in status_history %}
+            {% include 'multi_page/status_preview.html' %}
+        {% endfor %}
+    {% endif %}
 </body>
