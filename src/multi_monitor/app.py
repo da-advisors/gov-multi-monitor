@@ -13,11 +13,17 @@ db = MonitorDB('../data/monitor.db', read_only=True)
 @app.route('/')
 # ‘/’ URL is bound with hello_world() function.
 def landing_home():
+    results = db._read_query(
+        """
+        SELECT count(*) as data_resources_count FROM resources
+        """)
+
+    data_resources_count = results[0]['data_resources_count']
 
     return render_template(
         'multi_page/landing_page.html',
         data_collections_count=100,
-        data_resources_count=10000,
+        data_resources_count=data_resources_count,
         unavailable_collections_count=1,
         partially_unavailable_collections_count=2,
         stale_collections_count=3
