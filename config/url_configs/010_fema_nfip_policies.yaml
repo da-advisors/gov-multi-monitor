@@ -364,8 +364,6 @@ linked_urls:
     name: https://www.fema.gov/about/openfema/terms-conditions.
   - url: https://www.fema.gov/about/openfema/faq
     name: https://www.fema.gov/about/openfema/faq.
-  - url: https://www.fema.gov/about/reports-and-data/openfema/FimaNfipPolicies.csv
-    name: Link to csv
   - url: http://year.The
     name: year.The
   - url: https://nfipservices.floodsmart.gov/manuals/jan_2015_consolidated_trrp.pdf
