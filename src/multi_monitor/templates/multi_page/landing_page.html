@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Federal Dataset Monitoring Service</title>
+    <title>America's Essential Data</title>
+<!--     <link rel="stylesheet" type="text/css" href="styles.css">
+ -->
+ <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+
 </head>
 
 <body>
     <div class="header_block">
-        <h1>Federal Dataset Monitoring Service</h1>
+        <h1>America's Essential Data</h1>
     </div>
 
     <div class="intro_blurb">
-        We are currently monitoring {{data_collections_count}} data collections publicly published by the U.S. Government, totalling some {{data_resources_count}} different data resources.
+        <h1></h1>
+        We are currently monitoring 
+        <a href="/resources/" id="resourcesCountLink">{{data_resources_count}}</a> data resources publicly published by the U.S. Government.
 
-        Currently, 🔴 {{unavailable_collections_count}} collections are completely unavailable, 🟠 {{partially_unavailable_collections_count}} are partially unavailable, and 🟡 {{stale_collections_count}} have not been updated as expected.
+        Currently, 🔴 {{unavailable_collections_count}} are completely unavailable, 🟠 {{partially_unavailable_collections_count}} are partially unavailable, and 🟡 {{stale_collections_count}} have not been updated as expected.
 
     </div>
 
