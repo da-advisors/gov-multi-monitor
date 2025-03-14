@@ -105,49 +105,11 @@ linked_urls:
     name: Bibliography
   - url: https://www.cdc.gov/nchs/nsfg/nsfg_research_conference.htm
     name: Research Conferences
-  - url: http://www.cdc.gov/Other/emailupdates/
-    name: What's this?
-  - url: https://www.cdc.gov/nchs/products/nchs_listservs.htm
-    name: NCHS Listservs
   - url: https://www.cdc.gov/nchs/surveys.htm
     name: Surveys and Data Collection Systems
   - url: https://www.cdc.gov/nchs/nvss/births.htm
     name: Vital Statistics Birth Data
-  - url: https://www.cdc.gov/about/default.htm
-    name: About CDC
-  - url: https://www.cdc.gov/cdc-info/index.html
-    name: Contact Us
-  - url: https://tools.cdc.gov/medialibrary/index.aspx
-    name: RSS
-  - url: https://jobs.cdc.gov
-    name: Jobs
-  - url: https://www.cdc.gov/funding
-    name: Funding
-  - url: https://www.cdc.gov/other/accessibility.html
-    name: Accessibility
-  - url: https://www.cdc.gov/Other/disclaimer.html
-    name: External Links
-  - url: https://www.cdc.gov/other/privacy.html
-    name: Privacy
-  - url: https://www.cdc.gov/Other/policies.html
-    name: Web Policies
-  - url: https://www.cdc.gov/od/foia
-    name: FOIA
-  - url: https://oig.hhs.gov
-    name: OIG
-  - url: https://www.cdc.gov/oeeowe/no-fear-act/
-    name: No Fear Act
-  - url: https://www.cdc.gov/other/nondiscrimination.html
-    name: Nondiscrimination
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure Policy
   - url: https://archive.cdc.gov/
     name: CDC Archive
   - url: https://stacks.cdc.gov/
     name: Public Health Publications
-  - url: https://hhs.gov/
-    name: HHS.gov
-  - url: https://www.usa.gov/
-    name: USA.gov
-  - url: https://wwwn.cdc.gov/dcs/RequestForm.aspx
-    name: Email

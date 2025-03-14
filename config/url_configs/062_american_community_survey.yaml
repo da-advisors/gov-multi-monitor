@@ -245,15 +245,3 @@ linked_urls:
     name: Data Linkage Infrastructure
   - url: https://www.census.gov/privacy
     name: Data Protection and Privacy Policy
-  - url: https://www.census.gov/section508
-    name: Accessibility
-  - url: https://www.census.gov/foia
-    name: FOIA
-  - url: https://www.oig.doc.gov
-    name: Inspector General
-  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
-    name: No FEAR Act
-  - url: https://www.commerce.gov/
-    name: U.S. Department of Commerce
-  - url: https://www.usa.gov/
-    name: USA.gov

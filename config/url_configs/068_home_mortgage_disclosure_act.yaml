@@ -7,10 +7,6 @@ tags:
 linked_urls:
   - url: https://www.consumerfinance.gov/
     name: Consumer Finance
-  - url: https://www.consumerfinance.gov/complaint/
-    name: Submit a Complaint
-  - url: https://search.consumerfinance.gov/search?affiliate=cfpb&query=
-    name: Search
   - url: https://www.consumerfinance.gov/data-research/hmda/
     name: Consumer Education
   - url: https://www.consumerfinance.gov/consumer-tools/
@@ -48,11 +44,7 @@ linked_urls:
   - url: https://pueblo.gpo.gov/CFPBPubs/CFPBPubs.php
     name: Order free brochures
   - url: https://www.consumerfinance.gov/ask-cfpb/
-    name: Browse Ask CFPB
-  - url: https://www.consumerfinance.gov/rules-policy/
-    name: Rules & Policy
-  - url: https://www.consumerfinance.gov/rules-policy/final-rules/
-    name: Final Rules
+    name: Ask CFPB
   - url: https://www.consumerfinance.gov/rules-policy/regulations/
     name: Interactive Regulations
   - url: https://www.consumerfinance.gov/rules-policy/rules-under-development/
@@ -162,48 +154,4 @@ linked_urls:
   - url: https://www.consumerfinance.gov/about-us/newsroom/2021-hmda-data-on-mortgage-lending-now-available/
     name: 2021 HMDA Data on Mortgage Lending Now Available
   - url: https://www.consumerfinance.gov/activity-log/?topics=home-mortgage-disclosure-act
-    name: View more
-  - url: https://www.consumerfinance.gov/about-us/
-    name: About Us
-  - url: https://www.consumerfinance.gov/about-us/contact-us/
-    name: Contact Us
-  - url: https://www.consumerfinance.gov/about-us/careers/
-    name: Careers
-  - url: https://www.consumerfinance.gov/about-us/events/
-    name: Events
-  - url: https://www.consumerfinance.gov/cfpb-ombudsman/
-    name: CFPB Ombudsman
-  - url: https://x.com/CFPB
-    name: [No text]
-  - url: https://www.flickr.com/photos/cfpbphotos
-    name: [No text]
-  - url: https://www.consumerfinance.gov/foia-requests/
-    name: FOIA
-  - url: https://www.consumerfinance.gov/privacy/
-    name: Privacy
-  - url: https://www.consumerfinance.gov/privacy/website-privacy-policy/
-    name: Website Privacy Policy & Legal Notices
-  - url: https://www.consumerfinance.gov/data/
-    name: Data
-  - url: https://www.consumerfinance.gov/open-government/
-    name: Open Government
-  - url: https://www.consumerfinance.gov/open-government/information-quality-guidelines/
-    name: Information Quality Guidelines
-  - url: https://www.consumerfinance.gov/about-us/omwi/
-    name: Office of Minority and Women Inclusion
-  - url: https://www.consumerfinance.gov/administrative-adjudication-proceedings/
-    name: Administrative Adjudication
-  - url: https://www.consumerfinance.gov/plain-writing/
-    name: Plain Writing
-  - url: https://www.consumerfinance.gov/accessibility/
-    name: Accessibility
-  - url: https://www.consumerfinance.gov/office-civil-rights/
-    name: Office of Civil Rights
-  - url: https://www.consumerfinance.gov/office-civil-rights/no-fear-act-cummings-act/
-    name: No FEAR Act & Cummings Act
-  - url: https://www.consumerfinance.gov/tribal/
-    name: Tribal
-  - url: https://www.usa.gov/
-    name: USA.gov
-  - url: https://oig.federalreserve.gov/
-    name: Office of Inspector General
+    name: Recent updates

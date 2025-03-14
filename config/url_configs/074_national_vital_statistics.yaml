@@ -5,18 +5,14 @@ tags:
   - health
   - cdc
 linked_urls:
-  - url: https://www.cdc.gov/spanish/
-    name: EspaÃ±ol
-  - url: https://wwwn.cdc.gov/pubs/other-languages/
-    name: Other Languages
   - url: https://www.cdc.gov/
-    name: Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People
+    name: Centers for Disease Control and Prevention
   - url: https://www.cdc.gov/nchs/nvss/index.htm
     name: National Vital Statistics System
   - url: https://www.cdc.gov/nchs/index.htm
     name: National Center for Health Statistics (NCHS)
   - url: https://wonder.cdc.gov/natality.html
-    name: [No text]
+    name: Natality Information
   - url: https://www.cdc.gov/nchs/data/hestat/maternal-mortality/2023/maternal-mortality-rates-2023.htm
     name: Maternal Mortality Rates in the United States, 2023
   - url: https://www.cdc.gov/nchs/products/databriefs/db523.htm
@@ -93,12 +89,6 @@ linked_urls:
     name: The U.S. National Vital Statistics System Transitioning Into the 21st Century, 1990–2017
   - url: https://www.cdc.gov/nchs/products/other/miscpub/vsushist.htm
     name: U.S. Vital Statistics System Major Activities and Developments, 1950-95
-  - url: https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Facebook
-  - url: https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Twitter
-  - url: https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: LinkedIn
   - url: https://www.cdc.gov/nchs/covid19/coding-and-reporting.htm
     name: Coding and Reporting Guidance
   - url: https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm
@@ -217,34 +207,6 @@ linked_urls:
     name: U.S. Intercensal Population Estimates by Specified Hispanic Origin Groups
   - url: https://www.cdc.gov/nchs/nvss/nvss_products.htm
     name: Publications and Information Products
-  - url: https://www.cdc.gov/about/default.htm
-    name: About CDC
-  - url: https://www.cdc.gov/cdc-info/index.html
-    name: Contact Us
-  - url: https://tools.cdc.gov/medialibrary/index.aspx
-    name: RSS
-  - url: https://jobs.cdc.gov
-    name: Jobs
-  - url: https://www.cdc.gov/funding
-    name: Funding
-  - url: https://www.cdc.gov/other/accessibility.html
-    name: Accessibility
-  - url: https://www.cdc.gov/Other/disclaimer.html
-    name: External Links
-  - url: https://www.cdc.gov/other/privacy.html
-    name: Privacy
-  - url: https://www.cdc.gov/Other/policies.html
-    name: Web Policies
-  - url: https://www.cdc.gov/od/foia
-    name: FOIA
-  - url: https://oig.hhs.gov
-    name: OIG
-  - url: https://www.cdc.gov/oeeowe/no-fear-act/
-    name: No Fear Act
-  - url: https://www.cdc.gov/other/nondiscrimination.html
-    name: Nondiscrimination
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure Policy
   - url: https://archive.cdc.gov/
     name: CDC Archive
   - url: https://stacks.cdc.gov/
@@ -253,5 +215,3 @@ linked_urls:
     name: HHS.gov
   - url: https://www.usa.gov/
     name: USA.gov
-  - url: https://wwwn.cdc.gov/dcs/RequestForm.aspx
-    name: Email

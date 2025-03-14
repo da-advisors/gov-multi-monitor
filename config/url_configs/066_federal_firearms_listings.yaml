@@ -17,8 +17,6 @@ linked_urls:
     name: Organization Structure
   - url: https://www.atf.gov/our-history
     name: Our History
-  - url: https://www.atf.gov/contact
-    name: Contact
   - url: https://www.atf.gov/contact/hotlines
     name: Hotlines
   - url: https://www.atf.gov/contact/licensing-and-other-services
@@ -27,8 +25,6 @@ linked_urls:
     name: Media/Congressional Contacts
   - url: https://www.atf.gov/contact/victim-witness-assistance-program
     name: For Victims & Witnesses
-  - url: https://www.atf.gov/careers/careers
-    name: Careers
   - url: https://www.atf.gov/careers/becoming-special-agent
     name: Special Agent
   - url: https://www.atf.gov/careers/becoming-industry-operations-investigator
@@ -151,27 +147,3 @@ linked_urls:
     name: Firearms Licenses
   - url: https://www.atf.gov/resource-center/publications-library?search_api_views_fulltext=&field_document_type_1=All&og_group_ref=1&=Apply&field_document_type_value=All&og_group_ref_target_id=186
     name: Firearms Publications
-  - url: https://instagram.com/atfhq/
-    name: instagram
-  - url: https://public.govdelivery.com/accounts/USATF/subscriber/new
-    name: email
-  - url: https://www.atf.gov/careers/equal-opportunity-employer
-    name: EEO and Disability Information
-  - url: https://www.atf.gov/resource-center/whistleblower-information
-    name: Whistleblower Rights & Protections
-  - url: https://www.justice.gov/open
-    name: Open Government
-  - url: https://www.justice.gov/doj/privacy-policy
-    name: Privacy Policy
-  - url: https://www.justice.gov/legalpolicies
-    name: Legal Policies & Disclaimers
-  - url: https://www.usa.gov/
-    name: USA.gov
-  - url: https://www.atf.gov/home/site-map
-    name: Site Map
-  - url: https://www.justice.gov/accessibility/accessibility-statement
-    name: Accessibility & Plug-Ins
-  - url: https://www.atf.gov/<front>
-    name: ATF.gov
-  - url: https://www.justice.gov
-    name: U.S. Department of Justice

@@ -6,12 +6,10 @@ tags:
   - cdc
 linked_urls:
   - url: https://www.cdc.gov
-    name: [No text]
+    name: CDC
   - url: https://www.cdc.gov/nchs/about/index.html
     name: National Center for Health Statistics
   - url: https://www.cdc.gov/nchs/nhcs/
-    name: National Hospital Care Survey
-  - url: https://www.cdc.gov/nchs/nhcs/index.html
     name: National Hospital Care Survey
   - url: https://www.cdc.gov/nchs/nhcs/data/index.html
     name: Questionnaires, Data Sets, and Documentation
@@ -23,14 +21,12 @@ linked_urls:
     name: National Health Care Surveys
   - url: https://www.cdc.gov/nchs/nhcs/site.html
     name: View All NHCS
-  - url: https://www.cdc.gov/nchs/index.htm
-    name: National Center for Health Statistics
   - url: https://www.cdc.gov/nchs/ndi/index.html
     name: National Death Index
   - url: https://www.cdc.gov/rdc/b1datatype/Dt1224h.htm
     name: National Center for Health Statistics Research Data Center
   - url: https://www.cdc.gov/rdc/application-process/submission.html
-    name: instructions
+    name: Research Data Center Application
   - url: https://www.cdc.gov/nchs/nhcs/2020nhcs.htm
     name: File
   - url: https://www.cdc.gov/nchs/data/nhsr/nhsr201.pdf
@@ -43,46 +39,10 @@ linked_urls:
     name: National Health Care Surveys Program
   - url: https://www.cdc.gov/nchs/nhds/
     name: National Hospital Discharge Survey
-  - url: https://www.cdc.gov/cdc-info/index.html
-    name: Contact CDC
-  - url: https://www.cdc.gov/about/
-    name: About CDC
-  - url: https://www.cdc.gov/about/organization/
-    name: Organization
-  - url: https://www.cdc.gov/budget/
-    name: Budget & Funding
-  - url: https://jobs.cdc.gov/index.html
-    name: Careers & Jobs
-  - url: https://www.cdc.gov/other/accessibility.html
-    name: Accessibility
-  - url: https://www.cdc.gov/other/privacy.html
-    name: Privacy
-  - url: https://www.cdc.gov/Other/policies.html
-    name: Web Policies
-  - url: https://www.cdc.gov/foia/
-    name: FOIA
-  - url: https://oig.hhs.gov/
-    name: OIG
-  - url: https://www.cdc.gov/oeeowe/no-fear-act/
-    name: No Fear Act
-  - url: https://www.cdc.gov/other/nondiscrimination.html
-    name: Nondiscrimination
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure Policy
-  - url: https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc
-    name: Languages
-  - url: https://www.cdc.gov/spanish/
-    name: EspaÃ±ol
-  - url: https://www.cdc.gov/other/language-assistance.html
-    name: Language Assistance
   - url: https://archive.cdc.gov/
     name: CDC Archive
   - url: https://stacks.cdc.gov/
     name: Public Health Publications
-  - url: https://www.cdc.gov/
-    name: [No text]
-  - url: https://www.cdc.gov/rss
-    name: [No text]
   - url: https://hhs.gov
     name: HHS.gov
   - url: https://usa.gov

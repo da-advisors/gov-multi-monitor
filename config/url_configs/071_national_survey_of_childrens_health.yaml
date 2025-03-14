@@ -6,26 +6,6 @@ tags:
 linked_urls:
   - url: https://www.census.gov/en.html
     name: Census.gov
-  - url: https://www.census.gov/partners
-    name: Partners
-  - url: https://www.census.gov/topics/research.html
-    name: Research
-  - url: https://www.census.gov/schools
-    name: Educators
-  - url: https://www.census.gov/surveyhelp
-    name: Survey Help
-  - url: https://www.census.gov/newsroom.html
-    name: News
-  - url: https://www.census.gov/naics
-    name: NAICS Codes
-  - url: https://www.census.gov/careers
-    name: Jobs
-  - url: https://www.census.gov/about-us
-    name: About Us
-  - url: https://www.census.gov/about/contact-us.html
-    name: Contact Us
-  - url: https://www.census.gov/help
-    name: Help
   - url: https://www.census.gov/topics.html
     name: Topics
   - url: https://www.census.gov/data
@@ -178,16 +158,12 @@ linked_urls:
     name: About the National Survey of Children’s Health
   - url: https://www.census.gov/programs-surveys/nsch/data.html
     name: Data
-  - url: https://www.census.gov/programs-surveys/nsch/Information_spanish.html
-    name: Información sobre NSCH en Español
   - url: https://www.census.gov/programs-surveys/nsch/information.html
     name: Information for Respondents
   - url: https://www.census.gov/programs-surveys/nsch/nschnewsandupdates.html
     name: News and Updates
   - url: https://www.census.gov/programs-surveys/nsch/technical-documentation.html
     name: Technical Documentation
-  - url: https://www.census.gov/programs-surveys/nsch/contact.html
-    name: Contact Us
   - url: https://www.hrsa.gov/index.html
     name: Sponsored By
   - url: https://www.mchb.hrsa.gov/
@@ -196,10 +172,6 @@ linked_urls:
     name: 2023 NSCH Data ReleaseAccess the 2023 public use microdata files
   - url: https://www.census.gov/programs-surveys/nsch/technical-documentation/questionnaires.html
     name: NSCH QuestionnairesCopies of the NSCH screener and topical questionnaires.
-  - url: https://www.census.gov/directorsblog
-    name: Director’s Blog
-  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
-    name: Deputy Director’s Blog
   - url: https://www.census.gov/randomsamplings
     name: Random Samplings
   - url: https://www.census.gov/researchmatters
@@ -210,15 +182,3 @@ linked_urls:
     name: Data Linkage Infrastructure
   - url: https://www.census.gov/privacy
     name: Data Protection and Privacy Policy
-  - url: https://www.census.gov/section508
-    name: Accessibility
-  - url: https://www.census.gov/foia
-    name: FOIA
-  - url: https://www.oig.doc.gov
-    name: Inspector General
-  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
-    name: No FEAR Act
-  - url: https://www.commerce.gov/
-    name: U.S. Department of Commerce
-  - url: https://www.usa.gov/
-    name: USA.gov

@@ -14,38 +14,26 @@ linked_urls:
     name: CDC WONDER
   - url: https://wonder.cdc.gov/wonder/help/faq.html
     name: FAQs
-  - url: https://wonder.cdc.gov/wonder/help/main.html
-    name: Help
-  - url: https://wonder.cdc.gov/controller/datarequest?stage=contactus&action=start
-    name: Contact Us
   - url: https://wonder.cdc.gov/controller/datarequest?stage=search&action=current
     name: WONDER Search
   - url: https://wonder.cdc.gov/cancer.html
-    name: TP Docs Home
-  - url: https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Facebook
-  - url: https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Twitter
-  - url: https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: LinkedIn
-  - url: https://api.addthis.com/oexchange/0.8/forward/email/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png
-    name: Email
+    name: United States Cancer Statistics Public Information Data
   - url: https://wonder.cdc.gov/cancer-v2021.html
-    name: Data Request
+    name: United States and Puerto Rico Cancer Statistics, 1999-2021 Incidence Request
   - url: https://wonder.cdc.gov/wonder/help/cancer-v2021.html
-    name: More information
+    name: United States Cancer Statistics Public Information Data Incidence
   - url: https://wonder.cdc.gov/cancermort-v2021.html
-    name: Data Request
+    name: United States and Puerto Rico Cancer Statistics, 1999-2021 Mortality Request
   - url: https://wonder.cdc.gov/wonder/help/cancermort-v2021.html
-    name: More information
+    name: United States Cancer Statistics Public Information Mortality Data
   - url: https://wonder.cdc.gov/cancermir-v2021.html
-    name: Data Request
+    name: United States and Puerto Rico Cancer Statistics, 1999-2021 Mortality Incidence Rate Ratios Request
   - url: https://wonder.cdc.gov/wonder/help/cancermir-v2021.html
-    name: More information
+    name: United States Cancer Statistics Mortality Incidence Rate Ratios
   - url: https://gis.cdc.gov/Cancer/USCS/DataViz.html?ref=dGFiPXRhYlN1cnZpdmFsJnFzPTEwMw==
     name: United States Cancer Statistics Data Visualizations
   - url: https://wonder.cdc.gov/cancer-archives.html
-    name: archived data
+    name: Archived Data
   - url: https://www.cdc.gov/uscs
     name: United States Cancer Statistics
   - url: https://www.cdc.gov/cancer/uscs/technical_notes/contributors/
@@ -59,44 +47,16 @@ linked_urls:
   - url: http://seer.cancer.gov/codrecode/
     name: SEER Cause of Death Recodes
   - url: https://www.cdc.gov/cdc-info/index.html
-    name: Visit CDC-INFO
-  - url: https://wwwn.cdc.gov/dcs/contactus/form
-    name: Email CDC-INFO
+    name: CDC-INFO
   - url: https://www.cdc.gov/about/default.htm
     name: About CDC
-  - url: https://jobs.cdc.gov
-    name: Jobs
   - url: https://www.cdc.gov/funding
     name: Funding
-  - url: https://www.cdc.gov/Other/policies.html
-    name: Policies
-  - url: https://www.cdc.gov/other/plugins/index.html
-    name: File Viewers & Players
-  - url: https://www.cdc.gov/od/foia
-    name: FOIA
-  - url: https://www.cdc.gov/eeo/nofearact/index.htm
-    name: No Fear Act
-  - url: https://oig.hhs.gov
-    name: OIG
-  - url: https://www.cdc.gov/other/nondiscrimination.html
-    name: Nondiscrimination
-  - url: https://www.cdc.gov/contact/accessibility.html
-    name: Accessibility
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure Policy
-  - url: https://www.hhs.gov/es/vulnerability-disclosure-policy/index.html
-    name: Español
   - url: https://www.cdc.gov/cdctv
     name: CDC TV
   - url: https://tools.cdc.gov/podcasts/rss.asp
     name: RSS
-  - url: https://wwwn.cdc.gov/dcs/RequestForm.aspx
-    name: Email
   - url: https://www.hhs.gov
     name: U.S. Department of Health & Human Services
   - url: https://www.usa.gov/
     name: USA.gov
-  - url: https://www.cdc.gov/Other/disclaimer.html
-    name: CDC Website Exit Disclaimer
-  - url: https://cdc.112.2o7.net
-    name: [No text]

@@ -223,15 +223,15 @@ linked_urls:
   - url: https://www.fhfa.gov/sites/default/files/2024-03/NSMO_2024Q1_Questionnaire.pdf
     name: Survey Questionnaire
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2023-n-6
-    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (N​SMO) Information Collection
+    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2022-n-15
     name: 60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-8
-    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
+    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2019-n-8
     name: 60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-06
-    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
+    name: 30-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-16
     name: 60-Day Notice of Submission of National Survey of Mortgage Originations (NSMO) Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2013-n-08
@@ -243,11 +243,11 @@ linked_urls:
   - url: https://www.fhfa.gov/sites/default/files/2024-09/ASMB_2024_Letter.pdf
     name: Survey Cover Letter
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2022-n-5
-    name: 30-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers (ASMB) for OMB Approval​
+    name: 30-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers (ASMB) for OMB Approval
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2021-n-15
-    name: 60-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers for Approval from OMB​
+    name: 60-Day Notice of Submission of Information Collection American Survey of Mortgage Borrowers for Approval from OMB
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-14-0
-    name: 30-Day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Emergency Information Collection - Correction
+    name: 30-Day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Emergency Information Collection - Correction
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2020-n-14
     name: 30-Day Notice of Submission of American Survey of Mortgage Borrowers (ASMB) Emergency Information Collection
   - url: https://www.fhfa.gov/regulation/federal-register/pra-information-collection-notice/2016-n-03
@@ -288,27 +288,5 @@ linked_urls:
     name: 18-01 Mortgage Experience of Rural Borrowers
   - url: https://www.huduser.gov/portal/periodicals/cityscpe/vol21num2/index.html
     name: Link
-  - url: https://www.fhfa.gov/contact/general
-    name: Leave a comment
   - url: https://www.fhfa.gov/homeowners-and-homebuyers/mortgage-assistance
     name: Trouble With Your Mortgage?
-  - url: https://public.govdelivery.com/accounts/USFHFA/subscriber/new?category_id=FHFA_web
-    name: Subscribe to FHFA.gov updates
-  - url: https://www.fhfa.gov/about/fhfa-policies/accessibility
-    name: Accessibility
-  - url: https://data.gov/
-    name: Data.gov
-  - url: https://www.fhfaoig.gov/
-    name: OIG
-  - url: https://www.fhfa.gov/about/fhfa-policies/open-government
-    name: Open Government
-  - url: https://www.fhfa.gov/about/fhfa-policies/plain-writing
-    name: Plain Writing
-  - url: https://www.regulations.gov/
-    name: Regulations.gov
-  - url: https://www.fhfa.gov/sitemap
-    name: Sitemap
-  - url: https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy
-    name: Terms of Use
-  - url: https://www.usa.gov/
-    name: USA.gov

@@ -6,8 +6,6 @@ tags:
   - health
   - cdc
 linked_urls:
-  - url: https://www.cdc.gov
-    name: [No text]
   - url: https://www.cdc.gov/nchhstp/index.html
     name: National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention
   - url: https://www.cdc.gov/nchhstp/about/atlasplus.html?CDC_AAref_Val=https://www.cdc.gov/nchhstp/Atlas/
@@ -32,8 +30,6 @@ linked_urls:
     name: Partners and Programs
   - url: https://www.cdc.gov/nchhstp/acet/index.html
     name: Tuberculosis Advisory Council
-  - url: https://www.cdc.gov/nchhstp/careers/index.html
-    name: Careers
   - url: https://www.cdc.gov/nchhstp/eis/index.html
     name: NCHHSTP EIS Program
   - url: https://www.cdc.gov/hiv/index.html
@@ -49,53 +45,15 @@ linked_urls:
   - url: https://www.cdc.gov/nchhstp-newsroom/newsroom/index.html
     name: NCHHSTP Newsroom
   - url: https://www.cdc.gov/nchhstp/site.html
-    name: View All CDC NCHHSTP
+    name: NCHHSTP
   - url: https://gis.cdc.gov/grasp/nchhstpatlas/main.html
     name: Direct access to AtlasPlus (508 compliant)
   - url: https://www.cdc.gov/hiv-data/nhss/national-hiv-prevention-and-care-outcomes.html
     name: National HIV Prevention and Care Outcomes
-  - url: https://tools.cdc.gov/campaignproxyservice/subscriptions.aspx?topic_id=USCDCNPIN_6
-    name: Sign up for Email Updates
-  - url: https://www.cdc.gov/cdc-info/index.html
-    name: Contact CDC
-  - url: https://www.cdc.gov/about/
-    name: About CDC
-  - url: https://www.cdc.gov/about/organization/
-    name: Organization
-  - url: https://www.cdc.gov/budget/
-    name: Budget & Funding
-  - url: https://jobs.cdc.gov/index.html
-    name: Careers & Jobs
-  - url: https://www.cdc.gov/other/accessibility.html
-    name: Accessibility
-  - url: https://www.cdc.gov/other/privacy.html
-    name: Privacy
-  - url: https://www.cdc.gov/Other/policies.html
-    name: Web Policies
-  - url: https://www.cdc.gov/foia/
-    name: FOIA
-  - url: https://oig.hhs.gov/
-    name: OIG
-  - url: https://www.cdc.gov/oeeowe/no-fear-act/
-    name: No Fear Act
-  - url: https://www.cdc.gov/other/nondiscrimination.html
-    name: Nondiscrimination
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure Policy
-  - url: https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc
-    name: Languages
-  - url: https://www.cdc.gov/spanish/
-    name: EspaÃ±ol
-  - url: https://www.cdc.gov/other/language-assistance.html
-    name: Language Assistance
   - url: https://archive.cdc.gov/
     name: CDC Archive
   - url: https://stacks.cdc.gov/
     name: Public Health Publications
-  - url: https://www.cdc.gov/
-    name: [No text]
-  - url: https://www.cdc.gov/rss
-    name: [No text]
   - url: https://hhs.gov
     name: HHS.gov
   - url: https://usa.gov

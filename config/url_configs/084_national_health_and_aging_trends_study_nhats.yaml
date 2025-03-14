@@ -16,7 +16,7 @@ linked_urls:
   - url: https://micda.isr.umich.edu/research/nhats-trends-dashboards/
     name: Trends
   - url: https://www.nhats.org/researcher/about
-    name: About
+    name: About NHATS & NSOC
   - url: https://www.nhats.org/researcher/nhats/methods-documentation?id=user_guide
     name: User Guides
   - url: https://www.nhats.org/researcher/nhats/methods-documentation?id=data_collection
@@ -47,35 +47,9 @@ linked_urls:
     name: Restricted Files
   - url: https://www.nhats.org/researcher/data-access/cross-year-search
     name: Cross Year Search
-  - url: https://www.nhats.org/researcher/about?id=at-a-glance
-    name: At-a-Glance
-  - url: https://www.nhats.org/researcher/about?id=leadership
-    name: Leadership
-  - url: https://www.nhats.org/researcher/about?id=advisory-boards
-    name: Advisory Board
-  - url: https://www.nhats.org/researcher/about?id=sponsors
-    name: Sponsors
   - url: https://mynhats.org/nhats
     name: NHATS Participants
   - url: https://mynhats.org/nsoc
     name: NSOC Participants
   - url: https://www.nhats.org/researcher
     name: Welcome Researchers
-  - url: https://www.nhats.org/user/register
-    name: Create new account
-  - url: https://www.nhats.org/user/password
-    name: Reset your password
-  - url: https://www.jhsph.edu/
-    name: [No text]
-  - url: https://isr.umich.edu/
-    name: [No text]
-  - url: https://www.westat.com/
-    name: [No text]
-  - url: https://www.westat.com/privacy-policy
-    name: Westat's Privacy Policy
-  - url: https://www.adobe.com/acrobat/pdf-reader.html
-    name: PDF Reader
-  - url: https://mynhatsdemo.wesdemo.com/nhats
-    name: NHATSParticipants
-  - url: https://mynhatsdemo.wesdemo.com/nsoc
-    name: NSOCParticipants

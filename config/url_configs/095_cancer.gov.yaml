@@ -76,26 +76,12 @@ linked_urls:
     name: About This Website
   - url: https://www.cancer.gov/policies/copyright-reuse
     name: Reuse of NCI Information
-  - url: https://www.cancer.gov/social-media
-    name: Social Media
   - url: https://www.cancer.gov/publications
     name: Publications
   - url: https://www.cancer.gov/publications/dictionaries/cancer-terms
     name: Dictionary of Cancer Terms
-  - url: https://www.cancer.gov/policies/accessibility
-    name: Accessibility
   - url: https://www.cancer.gov/policies/foia
     name: FOIA
-  - url: https://www.cancer.gov/policies/privacy-security
-    name: Privacy & Security
-  - url: https://www.cancer.gov/policies/disclaimer
-    name: Disclaimers
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
-    name: Vulnerability Disclosure
-  - url: https://livehelp.cancer.gov/
-    name: Live Chat
-  - url: https://nci.az1.qualtrics.com/jfe/form/SV_aeLLobt6ZeGVn5I
-    name: Site Feedback
   - url: https://www.hhs.gov/
     name: U.S. Department of Health and Human Services
   - url: https://www.nih.gov/

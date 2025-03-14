@@ -12,8 +12,6 @@ linked_urls:
     name: National Center for Health Statistics
   - url: https://archive.cdc.gov/nchs/nhis/index.htm
     name: National Health Interview Survey
-  - url: https://www.cdc.gov/nchs/nhis/index.html
-    name: National Health Interview Survey
   - url: https://archive.cdc.gov/nchs/nhis/about_nhis.htm
     name: About NHIS
   - url: https://archive.cdc.gov/nchs/nhis/2019_quest_redesign.htm
@@ -302,8 +300,6 @@ linked_urls:
     name: Joint Canada/United States Survey of Health
   - url: https://archive.cdc.gov/nchs/nhis/participants/index.htm
     name: NHIS Survey Participants
-  - url: https://archive.cdc.gov/nchs/nhis/contact.htm
-    name: Contact Us
   - url: https://archive.cdc.gov/nchs/surveys.htm
     name: Surveys and Data Collection Systems
   - url: https://www.ihis.us/

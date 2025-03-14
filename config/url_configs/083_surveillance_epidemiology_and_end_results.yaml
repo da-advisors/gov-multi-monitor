@@ -141,46 +141,20 @@ linked_urls:
     name: NCCR*Explorer
   - url: https://seer.cancer.gov/data/covid-impact.html
     name: Impact of COVID on SEER Cancer Incidence Data
-  - url: https://seer.cancer.gov/explorer/
-    name: SEER*Explorer with Statistics through 2021
   - url: https://seer.cancer.gov/data-software/crwdi/
-    name: New!COVID-19 Real-world Data Infrastructure (CRWDi)
+    name: COVID-19 Real-world Data Infrastructure (CRWDi)
   - url: https://pubs.rsna.org/doi/10.1148/radiol.241397
     name: Rates of distant-stage breast cancer on the rise
-  - url: https://www.cancer.gov/policies/linking
-    name: Website Linking
   - url: https://acsjournals.onlinelibrary.wiley.com/doi/full/10.3322/caac.21863
-    name: American Cancer Society releases study on breast cancer statistics in U.S.
+    name: Breast cancer statistics 2024
   - url: https://academic.oup.com/jnci/advance-article/doi/10.1093/jnci/djae180/7765196
-    name: SEER data helps researchers determine if cancer diagnoses rebounded in 2021
+    name: Impact of COVID-19 on 2021 cancer incidence rates and potential rebound from 2020 decline
   - url: https://surveillance.cancer.gov/
     name: Surveillance Research Program (SRP)
   - url: https://cancercontrol.cancer.gov/
     name: Division of Cancer Control and Population Sciences (DCCPS)
   - url: https://surveillance.cancer.gov/blog
-    name: [No text]
-  - url: https://seer.cancer.gov/about/contact.html
-    name: Contact SEER
-  - url: https://livehelp.cancer.gov/
-    name: NCI LiveHelp Online Chat
-  - url: https://surveillance.cancer.gov/jobs/
-    name: Careers
-  - url: https://seer.cancer.gov/sitemap.html
-    name: Sitemap
-  - url: https://seer.cancer.gov/about/using-website.html
-    name: Using This Website
-  - url: https://www.cancer.gov/policies/accessibility
-    name: Accessibility
-  - url: https://www.cancer.gov/policies/disclaimer
-    name: Disclaimer
-  - url: https://www.cancer.gov/policies/foia
-    name: FOIA
-  - url: https://www.hhs.gov/vulnerability-disclosure-policy
-    name: HHS Vulnerability Disclosure
-  - url: https://www.cancer.gov/policies/privacy-security
-    name: Privacy & Security
-  - url: https://www.cancer.gov/policies/copyright-reuse
-    name: Reuse of Graphics and Text
+    name: Toward Precision Cancer Surveillance Blog
   - url: https://www.hhs.gov/
     name: U.S. Department of Health and Human Services
   - url: https://www.nih.gov/

@@ -6,8 +6,6 @@ tags:
 linked_urls:
   - url: https://addhealth.cpc.unc.edu/about/
     name: About
-  - url: https://addhealth.cpc.unc.edu/about/contact-us/
-    name: Contact Us
   - url: https://addhealth.cpc.unc.edu/documentation/
     name: Documentation
   - url: https://addhealth.cpc.unc.edu/documentation/study-design/
@@ -34,9 +32,3 @@ linked_urls:
     name: Events
   - url: https://addhealth.cpc.unc.edu/participants/
     name: Participants
-  - url: https://www.unc.edu/about/privacy-statement/
-    name: Privacy Policy
-  - url: https://addhealth.cpc.unc.edu/accessibility/
-    name: Accessibility
-  - url: https://addhealth.cpc.unc.edu/email-signup
-    name: Sign up for emails

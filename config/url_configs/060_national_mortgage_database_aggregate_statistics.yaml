@@ -12,30 +12,6 @@ linked_urls:
     name: Mission & Core Values
   - url: https://www.fhfa.gov/conservatorship
     name: Conservatorship
-  - url: https://www.fhfa.gov/about/foia-privacy
-    name: FOIA & Privacy
-  - url: https://www.fhfa.gov/about/information-quality
-    name: Information Quality
-  - url: https://www.fhfa.gov/about/meet-the-experts
-    name: Meet the Experts
-  - url: https://www.fhfa.gov/about/do-business-with-us
-    name: Do Business with Us
-  - url: https://www.fhfa.gov/about/ombudsman
-    name: Ombudsman
-  - url: https://www.fhfa.gov/about/budget-finances-and-performance
-    name: Budget, Finances, and Performance
-  - url: https://www.fhfa.gov/about/fhfa-policies/equal-employment-opportunity-no-fear-act
-    name: Equal Employment Opportunity No FEAR Act
-  - url: https://www.fhfa.gov/about/workforce-ombuds-person
-    name: Workforce Ombuds
-  - url: https://www.fhfa.gov/about/careers
-    name: Careers
-  - url: https://www.fhfa.gov/about/fhfa-policies
-    name: FHFA Policies
-  - url: https://www.fhfa.gov/contact
-    name: Contact Us
-  - url: https://www.fhfa.gov/regulatory?topic=advisory-bulletins
-    name: Advisory Bulletin
   - url: https://www.fhfa.gov/supervision/fannie-mae-and-freddie-mac
     name: Fannie Mae & Freddie Mac
   - url: https://www.fhfa.gov/supervision/libor-transition
@@ -47,7 +23,7 @@ linked_urls:
   - url: https://www.fhfa.gov/regulation/rulemaking
     name: Rulemaking and Federal Register
   - url: https://www.fhfa.gov/supervision/examiner-resources
-    name: ​Examiner Resources
+    name: Examiner Resources
   - url: https://www.fhfa.gov/supervision/legal-documents
     name: Legal Documents & Suspensions
   - url: https://www.fhfa.gov/regulatory?topic=policy
@@ -113,13 +89,13 @@ linked_urls:
   - url: https://www.fhfa.gov/data/dashboard/borrower-assistance-map
     name: Borrower Assistance Map
   - url: https://www.fhfa.gov/data/enterprise-housing-goals
-    name: ​Enterprise Housing Goals
+    name: Enterprise Housing Goals
   - url: https://www.fhfa.gov/data/national-mortgage-database-aggregate-statistics
     name: NMDB® Aggregate Statistics
   - url: https://www.fhfa.gov/data/conforming-loan-limit
     name: Conforming Loan Limit
   - url: https://www.fhfa.gov/data/fair-lending-data
-    name: ​Fair Lending Data
+    name: Fair Lending Data
   - url: https://www.fhfa.gov/data/national-survey-mortgage-originations-nsmo-public-use-file
     name: NSMO Public Use File
   - url: https://www.fhfa.gov/data/data-governance-resources
@@ -267,26 +243,3 @@ linked_urls:
   - url: https://www.fhfa.gov/blog/statistics/mortgage-performance-during-the-covid-19-pandemic
     name: Mortgage Performance During the COVID-19 Pandemic
   - url: https://www.fhfa.gov/contact/general
-    name: Leave a comment
-  - url: https://www.fhfa.gov/homeowners-and-homebuyers/mortgage-assistance
-    name: Trouble With Your Mortgage?
-  - url: https://public.govdelivery.com/accounts/USFHFA/subscriber/new?category_id=FHFA_web
-    name: Subscribe to FHFA.gov updates
-  - url: https://www.fhfa.gov/about/fhfa-policies/accessibility
-    name: Accessibility
-  - url: https://data.gov/
-    name: Data.gov
-  - url: https://www.fhfaoig.gov/
-    name: OIG
-  - url: https://www.fhfa.gov/about/fhfa-policies/open-government
-    name: Open Government
-  - url: https://www.fhfa.gov/about/fhfa-policies/plain-writing
-    name: Plain Writing
-  - url: https://www.regulations.gov/
-    name: Regulations.gov
-  - url: https://www.fhfa.gov/sitemap
-    name: Sitemap
-  - url: https://www.fhfa.gov/about/fhfa-policies/website-privacy-policy
-    name: Website Privacy
-  - url: https://www.usa.gov/
-    name: USA.gov

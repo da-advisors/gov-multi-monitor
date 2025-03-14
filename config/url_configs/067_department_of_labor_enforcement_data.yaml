@@ -7,36 +7,22 @@ linked_urls:
   - url: https://docs.google.com/forms/d/e/1FAIpQLSeNQNpZIPvmYGO5eN9BkvHd5tthF2oCit0UAD4rFw_agB9u2g/viewform?usp=sf_link
     name: Customer Surveys
   - url: https://enforcedata.dol.gov/index.php?page=searchChooser
-    name: SEARCH
+    name: Search
   - url: https://enforcedata.dol.gov/index.php?page=data_catalogs
-    name: DATA CATALOG
+    name: Data Catalog
   - url: https://enforcedata.dol.gov/index.php?page=lab
-    name: LABS
+    name: Labs
   - url: https://enforcedata.dol.gov/index.php?page=agency_tools
-    name: AGENCY TOOLS
+    name: Agency Tools
   - url: https://enforcedata.dol.gov/index.php?page=faq
     name: FAQ
   - url: https://enforcedata.dol.gov/index.php?page=whatsnew
     name: What's New
   - url: https://enforcedata.dol.gov/views/faqNaics.php
-    name: link for hidden function
+    name: NAICS Code and Description
   - url: https://enforcedata.dol.gov/views/faqSic.php
-    name: link for hidden function
+    name: SIC Code and Description
   - url: https://enforcedata.dol.gov/views/search/search_infovis_whd_voa.php
     name: link for hidden function
   - url: https://enforcedata.dol.gov/views/search/search_infovis_ebsa_subjcode.php
     name: link for hidden function
-  - url: https://www.dol.gov/general/foia
-    name: Freedom of Information Act
-  - url: https://www.dol.gov/general/privacynotice
-    name: Privacy & Security Statement
-  - url: https://www.dol.gov/general/disclaim
-    name: Disclaimers
-  - url: https://www.dol.gov/general/aboutdol/website-policies
-    name: Important Website Notices
-  - url: https://www.dol.gov/
-    name: www.dol.gov
-  - url: https://www.dol.gov/general/contact
-    name: Contact Us
-  - url: https://enforcedata.dol.gov/index.php?page=feedback
-    name: FEEDBACK

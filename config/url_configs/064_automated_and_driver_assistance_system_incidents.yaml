@@ -5,12 +5,10 @@ expected_update_frequency: null
 tags:
   - transportation
 linked_urls:
-  - url: https://www.transportation.gov/
-    name: U.S. Department of Transportation
   - url: https://www.nhtsa.gov/report-a-safety-problem
     name: Report a Safety Problem
   - url: https://www.nhtsa.gov/
-    name: Homepage
+    name: NHTSA
   - url: https://www.nhtsa.gov/ratings
     name: Ratings
   - url: https://www.nhtsa.gov/recalls
@@ -70,7 +68,7 @@ linked_urls:
   - url: https://www.nhtsa.gov/vehicle-safety/15-passenger-vans
     name: 15-Passenger Vans
   - url: https://www.nhtsa.gov/laws-regulations/standing-general-order-crash-reporting
-    name: More
+    name: Standing General Order on Crash Reporting
   - url: https://www.nhtsa.gov/about-nhtsa/briefing-room
     name: Briefing Room
   - url: https://www.nhtsa.gov/importing-vehicle
@@ -88,13 +86,13 @@ linked_urls:
   - url: https://www.nhtsa.gov/enforcement-justice-services
     name: Enforcement & Justice
   - url: https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads
-    name: PDF Download
+    name: Second Amended Standing General Order 2021-01
   - url: https://www.nhtsa.gov/node/102611
-    name: safety defect
+    name: Safety Defect
   - url: https://www.nhtsa.gov/document/summary-report-standing-general-order-ads
-    name: PDF Download
+    name: Summary Report Standing General Order on Crash Reporting for Automated Driving Systems
   - url: https://www.nhtsa.gov/document/summary-report-standing-general-order-adas-l2
-    name: PDF Download
+    name: Summary Report Standing General Order on Crash Reporting for Level 2 Advanced Driver Assistance Systems
   - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Data_Element_Definitions.pdf
     name: Data Element Definitions & Log (PDF)
   - url: https://static.nhtsa.gov/odi/ffdd/sgo-2021-01/SGO-2021-01_Incident_Reports_ADS.csv
@@ -106,54 +104,12 @@ linked_urls:
   - url: https://www.nhtsa.gov/technology-innovation/automated-vehicles-safety
     name: Automated Vehicles for Safety
   - url: https://www.sae.org/standards/content/j3016_202104
-    name: six Levels of Driving Automation
+    name: Six Levels of Driving Automation
   - url: https://www.nhtsa.gov/document/sgo-crash-reporting-adas-ads-sample-form
-    name: here
+    name: Sample Form for Standing General Order on Crash Reporting
   - url: https://www.nhtsa.gov/automated-vehicle-test-tracking-tool
     name: AV TEST Initiative
   - url: https://www.nhtsa.gov/equipment/driver-assistance-technologies
     name: Driver Assistance Technologies
   - url: https://www.nhtsa.gov/about-nhtsa
     name: About NHTSA
-  - url: https://www.nhtsa.gov/about-nhtsa/working-nhtsa
-    name: Careers & Internships
-  - url: https://www.nhtsa.gov/about-nhtsa/contact-us
-    name: Contact Us
-  - url: https://www.nhtsa.gov/campaign/safercar-app
-    name: SaferCar App
-  - url: https://www.trafficsafetymarketing.gov/
-    name: TrafficSafetyMarketing.gov
-  - url: https://www.ems.gov/
-    name: EMS.gov
-  - url: https://www.911.gov
-    name: 911.gov
-  - url: https://www.nhtsa.gov/about-nhtsa/web-policies-notices
-    name: Web Policies & Notices
-  - url: https://www.nhtsa.gov/about-nhtsa/accessibility
-    name: Accessibility
-  - url: https://www.nhtsa.gov/about-nhtsa/foia
-    name: FOIA
-  - url: https://www.nhtsa.gov/about-nhtsa/privacy-policy
-    name: Privacy Policy
-  - url: https://www.transportation.gov/regulations/dot-information-dissemination-quality-guidelines
-    name: Information Quality
-  - url: https://www.transportation.gov/vulnerability-disclosure-policy
-    name: Vulnerability Disclosure Policy
-  - url: https://www.eeoc.gov/eeoc/statistics/nofear/qanda.cfm
-    name: No Fear Act Data
-  - url: https://www.transportation.gov/ethics
-    name: Ethics
-  - url: https://www.transportation.gov/civil-rights
-    name: Civil Rights
-  - url: https://www.oig.dot.gov/
-    name: Office of Inspector General
-  - url: https://www.oig.dot.gov/hotline
-    name: OIG Hotline
-  - url: https://www.usa.gov/business
-    name: BusinessUSA
-  - url: https://www.usa.gov/
-    name: USA.gov
-  - url: https://www.whitehouse.gov/
-    name: WhiteHouse.gov
-  - url: https://www.transportation.gov/feedback?title=NHTSA%20Page&url=https%3A%2F%2Fnhtsa.gov%2F
-    name: Submit Feedback

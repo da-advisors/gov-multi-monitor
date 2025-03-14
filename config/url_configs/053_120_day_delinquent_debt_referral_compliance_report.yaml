@@ -5,7 +5,7 @@ tags:
   - treasury
 linked_urls:
   - url: https://fiscaldata.treasury.gov/
-    name: [No text]
+    name: Fiscal Data
   - url: https://fiscaldata.treasury.gov/datasets/
     name: Dataset Search
   - url: https://fiscaldata.treasury.gov/about-us/
@@ -16,11 +16,3 @@ linked_urls:
     name: Community Site
   - url: https://fiscaldata.treasury.gov/release-calendar/
     name: Release Calendar
-  - url: https://www.usaspending.gov/
-    name: USAspending
-  - url: https://fiscal.treasury.gov/accessibility.html
-    name: Accessibility
-  - url: https://fiscal.treasury.gov/privacy.html
-    name: Privacy Policy
-  - url: https://fiscal.treasury.gov/foia.html
-    name: Freedom of Information Act
