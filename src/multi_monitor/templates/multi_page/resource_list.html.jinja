@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Data Sources | America's Essential Data</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='styles/resources.css') }}" />
+    </head>
+    <body>
+        <h1 class="resource-list__title">All tracked resources</h1>
+        <main class="resource-list__items">
+            {% for resource in resources %}
+                {% include "multi_page/resource_preview.html.jinja" %}
+            {% endfor %}
+        </main>
+    </body>
+</html>

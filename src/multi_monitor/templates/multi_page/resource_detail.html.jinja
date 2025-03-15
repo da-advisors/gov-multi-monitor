@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{{ resource.name }} | America's Essential Data</title>
+        <link rel="stylesheet"
+              href="{{ url_for('static', filename='styles/resources.css') }}" />
+    </head>
+    <body>
+        <div class="resource-detail__wrapper">
+            <div class="resource-detail__heading">
+                <h1 class="resource-detail__title">{{ resource.name }}</h1>
+                <a href={{ url_for("list_resources") }}>Back to all resources</a>
+            </div>
+            <main class="resource-detail">
+                <table class="resource-detail__metadata">
+                    <tbody>
+                        <tr>
+                            <th class="resource-detail__field-header">URL</th>
+                            <td>
+                                <a href="{{ resource.url }}">{{ resource.url }}</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th class="resource-detail__field-header">Type</th>
+                            <td>{{ resource.type }}</td>
+                        </tr>
+                        <tr>
+                            <th class="resource-detail__field-header">Created at</th>
+                            <td>{{ resource.created_at }}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </main>
+            <section class="resource-detail__status-history">
+                {% if status_history %}
+                    <h2 class="resource-detail__status-history-title">Status history</h2>
+                    <table class="resource-detail__status-history-items">
+                        <thead class="resource-detail__status-history-table-header">
+                            <tr>
+                                <th class="resource-detail__status-history-date">Checked at</th>
+                                <th class="resource-detail__status-history-status">Status</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for status in status_history %}
+                                <tr>
+                                    <td class="resource-detail__status-history-date">{{ status.checked_at }}</td>
+                                    <td class="resource-detail__status-history-status">{{ status.status }}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <h2 class="resource-detail__status-history-title">No history recorded (yet!)</h2>
+                {% endif %}
+            </section>
+        </div>
+    </body>
