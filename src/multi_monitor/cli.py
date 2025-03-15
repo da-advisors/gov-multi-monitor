@@ -194,7 +194,7 @@ def generate_page(config: str, output: str, template: str = None):
             template_file = template_path.name
         else:
             template_dir = Path(__file__).parent / "templates"
-            template_file = "status.html"
+            template_file = "status.html.jinja"
 
         env = jinja2.Environment(
             loader=jinja2.FileSystemLoader(template_dir),
@@ -282,14 +282,14 @@ def generate_multi_page(config: str, output_dir: str):
         )
 
         # Generate index page
-        index_template = env.get_template("index.html")
+        index_template = env.get_template("index.html.jinja")
         index_html = index_template.render(
             timestamp=datetime.now(), results=results, tags=sorted_tags
         )
         (output_path / "index.html").write_text(index_html)
 
         # Generate detail pages
-        detail_template = env.get_template("detail.html")
+        detail_template = env.get_template("detail.html.jinja")
         for result in results:
             # Create a safe filename from the result name
             safe_name = result.name.lower().replace(" ", "_")

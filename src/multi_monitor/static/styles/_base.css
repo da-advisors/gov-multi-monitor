@@ -1,0 +1,13 @@
+@import url("./_variables.css");
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+
+  background-color: var(--surface--page-background);
+  color: var(--color--text-primary);
+
+  font-family: var(--font-family--body);
+  line-height: 1.6;
+}
