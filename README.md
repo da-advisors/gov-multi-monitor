@@ -14,37 +14,57 @@ Monitor multiple URLs for availability and content updates. Features include:
 - Status page generation for GitHub Pages
 - Bluesky integration for status updates (coming soon)
 
-## Setup
+## Development setup (the easy way)
 
-1. Install uv if you haven't already:
+If you're running a Mac or Linux system, you should be able to set up for
+development with just one command:
+
+```sh
+./scripts/dev-setup/setup.sh
+```
+
+If you use Visual Studio Code, we also recommend installing the suggested
+extensions for this workspace. They'll help with syntax highlighting, code
+formatting, and other nice things to have during development.
+
+## Development setup (the DIY way)
+
+1. Make sure you're in the repository's root directory.
+
+2. Install uv if you haven't already:
+
 ```bash
 curl -LsSf https://astral.sh/uv/install.sh | sh
 ```
 
-2. Create and activate virtual environment:
+3. Create and activate a Python virtual environment:
+
 ```bash
 uv venv
 source .venv/bin/activate
 ```
 
-3. Install dependencies:
-```bash
-uv pip install -e .
-```
+4. Install all dependencies:
 
-## Development
-
-To install development dependencies:
 ```bash
 uv pip install -e ".[dev]"
 ```
 
-Run tests:
+## Helpful commands
+
+### Run tests
+
 ```bash
 pytest
 ```
 
-Format code:
+### Format code
+
+If you use Visual Studio Code, you should see a list of recommended extensions
+to install. These will automatically format your code whenever you save.
+
+To format all Python code on your own, though:
+
 ```bash
 black .
 ruff check --fix .
@@ -69,6 +89,7 @@ Each configuration can include:
   - `type`: Type of resource (e.g., 'pdf', 'webpage', 'dataset')
 
 Example configuration:
+
 ```yaml
 url: https://example.com/api
 name: Example API
@@ -90,18 +111,33 @@ linked_urls:
 ## Usage
 
 Run a check of all URLs:
+
 ```bash
 python -m multi_monitor.cli check
 ```
 
-Generate status page:
+Generate the main status page:
+
 ```bash
 python -m multi_monitor.cli generate-page
 ```
 
 View recent status changes:
+
 ```bash
 python -m multi_monitor.cli status
+```
+
+Run the web app:
+
+```bash
+python -m multi_monitor.app
+```
+
+OR
+
+```bash
+python -m multi_monitor.cli web
 ```
 
 ## Data Storage
