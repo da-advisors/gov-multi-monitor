@@ -3,24 +3,33 @@ name = "multi-monitor"
 version = "0.1.0"
 description = "Monitor multiple URLs for availability and content updates"
 requires-python = ">=3.10"
+# !!! IF YOU MODIFY DEPENDENCIES IN THIS FILE,
+# !!! PLEASE RUN pip freeze TO MAKE CORRESPONDING UPDATES TO REQUIREMENTS.TXT
+# Example command: uv pip freeze --exclude-editable > requirements.txt
 dependencies = [
-    "requests",  # For making HTTP requests
-    "beautifulsoup4",  # For parsing HTML
-    "pandas",  # For data management
-    "pyyaml",  # For config files
-    "atoma",  # For parsing RSS/Atom feeds (may help with last-modified detection)
-    "rich",  # For nice CLI output
-    "jinja2",  # New dependency
-    "click",  # New dependency
-    "pyarrow",  # New dependency
+    "atoma==0.0.17",  # For parsing RSS/Atom feeds (may help with last-modified detection)
+    "beautifulsoup4==4.13.3",  # For parsing HTML
+    "click==8.1.8",  # For CLI options parsing/routing
+    "duckdb==1.2.1",  # For DuckDB support
+    "flask==3.1.0",  # For the Flask web server
+    "jinja2==3.1.6",  # For HTML templating
+    "pandas==2.2.3",  # For data management
+    "pyarrow==19.0.1",  # To support Apache Arrow format
+    "pyyaml==6.0.2",  # For config files
+    "requests==2.32.3",  # For making HTTP requests
+    "rich==13.9.4",  # For nice CLI output
+    "tqdm==4.67.1",  # For smart progress meters
 ]
 
+# !!! IF YOU MODIFY DEPENDENCIES IN THIS FILE,
+# !!! PLEASE RUN pip freeze TO MAKE CORRESPONDING UPDATES TO REQUIREMENTS.TXT
+# Example command: uv pip freeze --exclude-editable > requirements.txt
 [project.optional-dependencies]
 dev = [
-    "pytest",  # For testing
-    "black",  # For linting
-    "ruff",  # For linting
-    "pytest-cov",  # For test coverage
+    "black==25.1.0",  # For linting
+    "pytest==8.3.5",  # For testing
+    "pytest-cov==6.0.0",  # For test coverage
+    "ruff==0.9.10",  # For linting
 ]
 
 [build-system]
