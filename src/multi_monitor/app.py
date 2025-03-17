@@ -1,4 +1,4 @@
-from flask import Flask, render_template, g
+from flask import Flask, g, render_template
 from pathlib import Path
 from typing import Optional
 from werkzeug.local import LocalProxy
@@ -29,32 +29,9 @@ def create_app():
     app = Flask(__name__)
     db = LocalProxy(get_db)
 
-    @app.teardown_appcontext
-    def teardown_db(exception):
-        if hasattr(g, "db"):
-            g.db.close()
-
-    @app.route("/")
-    def landing_home():
-        results = db._read_query(
-            """
-            SELECT count(*) as data_resources_count FROM resources
-            """
-        )
-
-        data_resources_count = results[0]["data_resources_count"]
-
-        return render_template(
-            "multi_page/landing_page.html",
-            data_collections_count=100,
-            data_resources_count=data_resources_count,
-            unavailable_collections_count=1,
-            partially_unavailable_collections_count=2,
-            stale_collections_count=3,
-        )
-
-    @app.route("/resources/data")
-    def list_resources():
+    # START API ROUTES
+    @app.route("/resources/_data")
+    def get_resources_data():
         results = db._read_query(
             """
             SELECT * FROM resources
@@ -62,31 +39,8 @@ def create_app():
         )
         return results
 
-    @app.route("/resources/")
-    def render_resources_list_page():
-        results = list_resources()
-        return render_template("multi_page/resource_list.html", resources=results)
-
-    @app.route("/resources/<resource_id>")
-    def show_resource_details(resource_id: str):
-        # TODO: Make as safer executition string.
-        results = db._read_query(
-            f"""
-        SELECT * FROM resources
-        WHERE id = '{resource_id}';
-        """
-        )
-
-        status_history = get_status_history_for_resource(resource_id)
-
-        return render_template(
-            "multi_page/resource_detail.html",
-            resource=results[0],
-            status_history=status_history,
-        )
-
     @app.route("/resources/<resource_id>/status_history")
-    def get_status_history_for_resource(resource_id: str):
+    def get_resource_status_history(resource_id: str):
         results = db._read_query(
             f"""
         SELECT * FROM resource_status
@@ -96,6 +50,54 @@ def create_app():
         )
 
         return results
+
+    # END API ROUTES
+
+    @app.route("/")
+    def view_landing():
+        results = db._read_query(
+            """
+            SELECT count(*) as data_resources_count FROM resources
+            """
+        )
+
+        data_resources_count = results[0]["data_resources_count"]
+
+        return render_template(
+            "multi_page/landing_page.html.jinja",
+            data_collections_count=100,
+            data_resources_count=data_resources_count,
+            unavailable_collections_count=1,
+            partially_unavailable_collections_count=2,
+            stale_collections_count=3,
+        )
+
+    @app.route("/status/")
+    def list_statuses():
+        return render_template("index.html.jinja", tags=None, results=None)
+
+    @app.route("/resources/")
+    def list_resources():
+        results = get_resources_data()
+        return render_template("multi_page/resource_list.html.jinja", resources=results)
+
+    @app.route("/resources/<resource_id>")
+    def view_resource(resource_id: str):
+        # TODO: Make as safer executition string.
+        results = db._read_query(
+            f"""
+        SELECT * FROM resources
+        WHERE id = '{resource_id}';
+        """
+        )
+
+        status_history = get_resource_status_history(resource_id)
+
+        return render_template(
+            "multi_page/resource_detail.html.jinja",
+            resource=results[0],
+            status_history=status_history,
+        )
 
     return app
 
