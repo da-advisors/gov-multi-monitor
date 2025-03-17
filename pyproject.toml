@@ -27,6 +27,7 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "black==25.1.0",  # For linting
+    "djlint==1.36.4",  # For formatting and linting
     "pytest==8.3.5",  # For testing
     "pytest-cov==6.0.0",  # For test coverage
     "ruff==0.9.10",  # For linting
