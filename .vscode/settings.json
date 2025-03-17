@@ -11,6 +11,11 @@
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
+  "[jinja-html]": {
+    "djlint.enableLinting": true,
+    "djlint.profile": "jinja",
+    "editor.defaultFormatter": "monosans.djlint"
+  },
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -19,10 +24,5 @@
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
-  },
-  "[jinja-html]": {
-    "djlint.enableLinting": true,
-    "djlint.profile": "jinja",
-    "editor.defaultFormatter": "monosans.djlint"
   }
 }
