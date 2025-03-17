@@ -19,5 +19,10 @@
   },
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "[jinja-html]": {
+    "djlint.enableLinting": true,
+    "djlint.profile": "jinja",
+    "editor.defaultFormatter": "monosans.djlint"
   }
 }
