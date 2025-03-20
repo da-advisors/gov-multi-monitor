@@ -345,13 +345,9 @@ linked_urls:
   - url: https://www.fema.gov/api/open/v2/FimaNfipPolicies
     name: https://www.fema.gov/api/open/v2/FimaNfipPolicies
   - url: https://www.fema.gov/sites/default/files/documents/fema_nfip-data-faqs.pdf
-    name: https://www.fema.gov/sites/default/files/documents/fema_nfip-data-faqs.pdf.
+    name: https://www.fema.gov/sites/default/files/documents/fema_nfip-data-faqs.pdf
   - url: https://www.fema.gov/about/openfema/terms-conditions
-    name: https://www.fema.gov/about/openfema/terms-conditions.
-  - url: https://www.fema.gov/about/openfema/faq
-    name: https://www.fema.gov/about/openfema/faq.
-  - url: http://year.The
-    name: year.The
+    name: https://www.fema.gov/about/openfema/terms-conditions
   - url: https://nfipservices.floodsmart.gov/manuals/jan_2015_consolidated_trrp.pdf
     name: https://nfipservices.floodsmart.gov/manuals/jan_2015_consolidated_trrp.pdf
   - url: https://www.fema.gov/api/open/v1/OpenFemaDataSets?$filter=name%20eq%20%27FimaNfipPolicies%27
