@@ -1,0 +1,3 @@
+   [build]
+     command = "python freeze.py"
+     publish = "build"
