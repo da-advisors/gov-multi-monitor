@@ -59,7 +59,7 @@
   --__token__color--yellow-90: #fff0c3;
 
   /* Grays */
-  --__token__color-gray-05: #0e0e0e;
+  --__token__color--gray-05: #0e0e0e;
   --__token__color--gray-10: #171717;
   --__token__color--gray-20: #303030;
   --__token__color--gray-30: #484848;
@@ -82,6 +82,11 @@
     var(--__token__font-family--macos), var(--__token__font-family--windows),
     var(--__token__font-family--android), sans-serif;
   --__token__font-family--serif: "Merriweather", serif;
+
+  /**
+   * Font sizes
+   */
+  --__token__font-size--base: 16px;
 
   /**
    * Spacing
