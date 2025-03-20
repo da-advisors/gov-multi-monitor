@@ -1,0 +1,20 @@
+<div class="status-update">
+  <h2 class="status-update__heading">
+    <span class="status-update__title">{{ status.dataset }}</span>
+    <br />
+    <span class="status-update__source">{{ status.source }}</span>
+  </h2>
+  {% if status.status_type == "resources_not_updated" %}
+    <p class="status-update__status">
+      🟡 <a href="#">{{ status.count }} resource(s) not updated</a> as of {{ status.updated_at }}
+    </p>
+  {% elif status.status_type == "resources_offline" %}
+    <p class="status-update__status">
+      🟠 <a href="#">{{ status.count }} resource(s) offline</a> as of {{ status.updated_at }}
+    </p>
+  {% elif status.status_type == "source_offline" %}
+    <p class="status-update__status">
+      🔴 <a href="#">Full domain offline</a> as of {{ status.updated_at }}
+    </p>
+  {% endif %}
+</div>

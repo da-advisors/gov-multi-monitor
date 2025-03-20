@@ -22,36 +22,9 @@
       <h1 class="status-updates__heading">Latest collection status changes</h1>
       <a class="status-updates__see-all" href="#">See all status updates ></a>
       <div class="status-updates__items">
-        <div class="status-update">
-          <h2 class="status-update__heading">
-            <span class="status-update__title">Workplace Fatality Investigations Data</span>
-            <br />
-            <span class="status-update__source">Occupational Safety and Health Administration</span>
-          </h2>
-          <p class="status-update__status">
-            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
-          </p>
-        </div>
-        <div class="status-update">
-          <h2 class="status-update__heading">
-            <span class="status-update__title">Workplace Fatality Investigations Data</span>
-            <br />
-            <span class="status-update__source">Occupational Safety and Health Administration</span>
-          </h2>
-          <p class="status-update__status">
-            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
-          </p>
-        </div>
-        <div class="status-update">
-          <h2 class="status-update__heading">
-            <span class="status-update__title">Workplace Fatality Investigations Data</span>
-            <br />
-            <span class="status-update__source">Occupational Safety and Health Administration</span>
-          </h2>
-          <p class="status-update__status">
-            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
-          </p>
-        </div>
+        {% for status in statuses %}
+          {% include "data-and-tools/status-update.html.jinja" %}
+        {% endfor %}
       </div>
     </div>
   </div>
