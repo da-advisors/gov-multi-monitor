@@ -4,6 +4,8 @@
         <title>{{ resource.name }} | America's Essential Data</title>
         <link rel="stylesheet"
               href="{{ url_for('static', filename='styles/resources.css') }}" />
+        <!-- Include Chart.js -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     </head>
     <body>
         <div class="resource-detail__wrapper">
@@ -27,6 +29,10 @@
                         <tr>
                             <th class="resource-detail__field-header">Created at</th>
                             <td>{{ resource.created_at }}</td>
+                        </tr>
+                        <tr>
+                            <th class="resource-detail__header">Metadata</th>
+                            <td>{{ resource.metadata }}</td>
                         </tr>
                     </tbody>
                 </table>
