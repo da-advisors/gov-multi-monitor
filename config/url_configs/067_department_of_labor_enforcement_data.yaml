@@ -3,3 +3,22 @@ name: U.S. Department of Labor Enforcement Data
 expected_update_frequency: null
 tags:
   - labor
+linked_urls:
+  - url: https://docs.google.com/forms/d/e/1FAIpQLSeNQNpZIPvmYGO5eN9BkvHd5tthF2oCit0UAD4rFw_agB9u2g/viewform?usp=sf_link
+    name: Customer Surveys
+  - url: https://enforcedata.dol.gov/index.php?page=searchChooser
+    name: Search
+  - url: https://enforcedata.dol.gov/index.php?page=data_catalogs
+    name: Data Catalog
+  - url: https://enforcedata.dol.gov/index.php?page=lab
+    name: Labs
+  - url: https://enforcedata.dol.gov/index.php?page=agency_tools
+    name: Agency Tools
+  - url: https://enforcedata.dol.gov/index.php?page=faq
+    name: FAQ
+  - url: https://enforcedata.dol.gov/index.php?page=whatsnew
+    name: What's New
+  - url: https://enforcedata.dol.gov/views/faqNaics.php
+    name: NAICS Code and Description
+  - url: https://enforcedata.dol.gov/views/faqSic.php
+    name: SIC Code and Description

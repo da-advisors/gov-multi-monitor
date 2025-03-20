@@ -4,3 +4,212 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov/
+    name: Centers for Disease Control and Prevention
+  - url: https://www.cdc.gov/nchs/nvss/index.htm
+    name: National Vital Statistics System
+  - url: https://www.cdc.gov/nchs/index.htm
+    name: National Center for Health Statistics (NCHS)
+  - url: https://wonder.cdc.gov/natality.html
+    name: Natality Information
+  - url: https://www.cdc.gov/nchs/data/hestat/maternal-mortality/2023/maternal-mortality-rates-2023.htm
+    name: Maternal Mortality Rates in the United States, 2023
+  - url: https://www.cdc.gov/nchs/products/databriefs/db523.htm
+    name: Differences in Cesarean Delivery Rates for Puerto Rican Mothers in Puerto Rico and the U.S. Mainland, 2023
+  - url: https://www.cdc.gov/nchs/products/databriefs/db522.htm
+    name: Drug Overdose Deaths in the United States, 2003–2023
+  - url: https://www.cdc.gov/nchs/products/databriefs/db521.htm
+    name: Mortality in the United States, 2023
+  - url: https://www.cdc.gov/nchs/data/nvsr/nvsr73/NVSR-73-10.pdf
+    name: Deaths Leading Causes for 2022[PDF - 2,144 KB]
+  - url: https://www.cdc.gov/nchs/nvss/new_nvss.htm
+    name: What’s New
+  - url: https://www.cdc.gov/nchs/nvss/births.htm
+    name: Birth Data
+  - url: https://www.cdc.gov/nchs/nvss/deaths.htm
+    name: Mortality Data
+  - url: https://www.cdc.gov/nchs/nvss/fetal_death.htm
+    name: Fetal Death Data
+  - url: https://www.cdc.gov/nchs/nvss/linked-birth.htm
+    name: Linked Birth and Infant Death Data
+  - url: https://www.cdc.gov/nchs/nvss/life-expectancy.htm
+    name: Life Expectancy
+  - url: https://www.cdc.gov/nchs/nvss/marriage-divorce.htm
+    name: Marriages and Divorces
+  - url: https://www.cdc.gov/nchs/nvss/covid-19.htm
+    name: Coronavirus Disease (COVID-19) Death Data and Resources
+  - url: https://www.cdc.gov/nchs/nvss/vsrr.htm
+    name: Vital Statistics Rapid Release
+  - url: https://www.cdc.gov/nchs/nvss/modernization.htm
+    name: Modernizing the National Vital Statistics System
+  - url: https://wonder.cdc.gov/
+    name: CDC WONDER
+  - url: https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm
+    name: Downloadable Final Data
+  - url: https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm
+    name: Restricted-use Data for Research
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm
+    name: Drug Overdose Death Counts
+  - url: https://www.cdc.gov/nchs/data-visualization/index.htm
+    name: Data Visualizations
+  - url: https://www.cdc.gov/nchs/fastats/default.htm
+    name: FastStats
+  - url: https://www.cdc.gov/nchs/nvss/training-and-instructional-materials.htm
+    name: Training and Instructional Materials
+  - url: https://www.cdc.gov/nchs/nvss/revisions-of-the-us-standard-certificates-and-reports.htm
+    name: Revisions of the U.S. Standard Certificates and Reports
+  - url: https://www.cdc.gov/nchs/nvss/medical-examiners-coroners.htm
+    name: Impact of Medical Examiners and Coroners in Public Health
+  - url: https://www.cdc.gov/nchs/w2w/
+    name: Where to WriteWhere to write for birth, death, marriage, or divorce certificates by state and territory
+  - url: https://www.cdc.gov/nchs/ndi/
+    name: National Death IndexResources to link death certificate information, including cause of death, to research datasets
+  - url: https://www.cdc.gov/nchs/comec/
+    name: Collaborating Office for Medical Examiners and CoronersResources from across CDC to support the work in the medical examiner and coroner community
+  - url: https://www.cdc.gov/nchs/nvss/newsletters.htm
+    name: Newsletters
+  - url: https://www.cdc.gov/nchs/isp/isp_crvs.htm
+    name: Global Program for Civil Registration of Vital Statistics
+  - url: https://www.cdc.gov/nchs/nvss/evital_standards_intiatives.htm
+    name: e-Vital Standards Initiative
+  - url: https://www.cdc.gov/nchs/nvss/modernization/improving-data-on-drug-overdose-deaths.html
+    name: Improving Data on Drug Overdose Deaths
+  - url: https://www.cdc.gov/nchs/nvss/bridged_race.htm
+    name: U.S. Census Populations With Bridged Race Categories
+  - url: https://www.cdc.gov/nchs/nsfg/index.htm
+    name: National Survey of Family Growth
+  - url: https://www.cdc.gov/nchs/nvss/nmfs.htm
+    name: National Mortality
+  - url: https://www.cdc.gov/nchs/nvss/nmihs.htm
+    name: National Maternal and Infant Health Survey
+  - url: https://www.cdc.gov/nchs/nvss/about_nvss.htm
+    name: About the National Vital Statistics System
+  - url: https://www.cdc.gov/nchs/data/series/sr_01/sr01_062.pdf
+    name: The U.S. National Vital Statistics System Transitioning Into the 21st Century, 1990–2017
+  - url: https://www.cdc.gov/nchs/products/other/miscpub/vsushist.htm
+    name: U.S. Vital Statistics System Major Activities and Developments, 1950-95
+  - url: https://www.cdc.gov/nchs/covid19/coding-and-reporting.htm
+    name: Coding and Reporting Guidance
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm
+    name: Daily Updates of Totals by Week and State
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm
+    name: Weekly Updates by Select Demographic and Geographic Characteristics
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm
+    name: Excess Deaths Associated with COVID-19
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/covid19/tech_notes.htm
+    name: Technical Notes
+  - url: https://www.cdc.gov/nchs/nvss/webinar/dvs-webinar.htm
+    name: Webinar
+  - url: https://www.cdc.gov/nchs/nvss/deleted_items_from_birth_fetal_death_files.htm
+    name: Deletion of Data Items from the Birth and Fetal Death National Files
+  - url: https://www.cdc.gov/nchs/nvss/letters_from_dvs_to_states.htm
+    name: Letters from the Division of Vital Statistics (DVS) to States
+  - url: https://www.cdc.gov/nchs/nvss/training.htm
+    name: Training
+  - url: https://www.cdc.gov/nchs/nvss/reporting-guidance.htm
+    name: Vital Statistics Reporting Guidance
+  - url: https://www.cdc.gov/nchs/nvss/handbooks-and-guides.htm
+    name: Handbooks and Guides
+  - url: https://www.cdc.gov/nchs/nvss/instruction-manuals.htm
+    name: Instruction Manuals
+  - url: https://www.cdc.gov/nchs/nvss/writing-cause-of-death-statements.htm
+    name: Writing Cause-of-Death Statements
+  - url: https://www.cdc.gov/nchs/comec/state-mec-organizations.html
+    name: State Medical Examiners and Coroners Organizations
+  - url: https://www.cdc.gov/nchs/nvss/birth_methods.htm
+    name: Datasets and Related Documentation
+  - url: https://www.cdc.gov/nchs/nvss/birth_products.htm
+    name: Results and Publications
+  - url: https://www.cdc.gov/nchs/nvss/cohort_fertility_tables.htm
+    name: Cohort Fertility Tables
+  - url: https://www.cdc.gov/nchs/nvss/vermont_2005_update.htm
+    name: Update to 2005 Vermont Birth Data
+  - url: https://www.cdc.gov/nchs/nvss/reproductive_health_links.htm
+    name: Reproductive Health Links
+  - url: https://www.cdc.gov/nchs/nvss/mortality_methods.htm
+    name: Datasets and Related Documentation
+  - url: https://www.cdc.gov/nchs/nvss/mortality_public_use_data.htm
+    name: Public Use Data File Documentation
+  - url: https://www.cdc.gov/nchs/nvss/medcoder.htm
+    name: MedCoder
+  - url: https://www.cdc.gov/nchs/nvss/mortality_products.htm
+    name: Results and Publications
+  - url: https://www.cdc.gov/nchs/nvss/mortality_tables.htm
+    name: Mortality Tables
+  - url: https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm
+    name: Historical Data, 1900-1998
+  - url: https://www.cdc.gov/nchs/nvss/leading-causes-of-death.htm
+    name: Leading Causes of Death
+  - url: https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm
+    name: Drug Overdose Deaths
+  - url: https://www.cdc.gov/nchs/nvss/mortality_related.htm
+    name: Related Sites
+  - url: https://www.cdc.gov/nchs/nvss/ice_automation.htm
+    name: ICE on Automating Mortality Statistics
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/provisional-drug-overdose.htm
+    name: Provisional Drug Overdose Death Counts
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/provisional-maternal-deaths-rates.htm
+    name: Maternal Mortality Surveillance
+  - url: https://gis.cdc.gov/grasp/fluview/mortality.html
+    name: FluView Interactive
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/mortality.htm
+    name: Mortality
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/mortality-dashboard.htm
+    name: Mortality Dashboard
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/mortality-technical-notes.htm
+    name: Technical Notes
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/natality.htm
+    name: Natality
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/natality-dashboard.htm
+    name: Natality Dashboard
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/natality-technical-notes.htm
+    name: Technical Notes
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality.htm
+    name: Infant Mortality
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality-dashboard.htm
+    name: Infant Mortality Dashboard
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality-technical-notes.htm
+    name: Technical Notes
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/reports.htm
+    name: Reports
+  - url: https://www.cdc.gov/nchs/nvss/vsrr/provisional-tables.htm
+    name: State and National Provisional Control Counts
+  - url: https://www.cdc.gov/nchs/nvss/dvs_data_release.htm
+    name: Data Release Policy for Vital Statistics
+  - url: https://www.cdc.gov/nchs/nvss/modernization/cop.htm
+    name: Vital Statistics Modernization Community of Practice
+  - url: https://www.cdc.gov/nchs/nvss/modernization/why-modernization-matters.htm
+    name: Why Modernization Matters
+  - url: https://www.cdc.gov/nchs/nvss/modernization/goals-accomplishments.htm
+    name: Goals and Accomplishments
+  - url: https://www.cdc.gov/nchs/nvss/modernization/projects.htm
+    name: Our Projects
+  - url: https://www.cdc.gov/nchs/nvss/modernization/tools.htm
+    name: Technical Resources
+  - url: https://www.cdc.gov/nchs/nvss/modernization/tool-kit.htm
+    name: NVSS Modernization Tool Kit
+  - url: https://www.cdc.gov/nchs/nvss/modernization/beginnings.htm
+    name: Where We Began
+  - url: https://www.cdc.gov/nchs/nvss/modernization/partners.htm
+    name: Related People and Activities
+  - url: https://www.cdc.gov/nchs/nvss/modernization/stories.htm
+    name: Stories from the Modernization Community
+  - url: https://www.cdc.gov/nchs/nvss/modernization/modernization-presentations.htm
+    name: Modernization Presentations
+  - url: https://www.cdc.gov/nchs/nvss/evital/accessing_evital_standards.htm
+    name: How to Access e-Vital Standards
+  - url: https://www.cdc.gov/nchs/nvss/evital/evital_information_products.htm
+    name: e-Vital Standards Information Products
+  - url: https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm
+    name: Data Files and Documentation
+  - url: https://www.cdc.gov/nchs/nvss/bridged_race/intercensal.htm
+    name: U.S. Intercensal Population Estimates by Specified Hispanic Origin Groups
+  - url: https://www.cdc.gov/nchs/nvss/nvss_products.htm
+    name: Publications and Information Products
+  - url: https://archive.cdc.gov/
+    name: CDC Archive
+  - url: https://stacks.cdc.gov/
+    name: Public Health Publications
+  - url: https://hhs.gov/
+    name: HHS.gov

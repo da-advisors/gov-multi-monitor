@@ -4,3 +4,244 @@ expected_update_frequency: null
 tags:
   - cb
   - census
+linked_urls:
+  - url: https://www.census.gov/programs-surveys/acs/news/data-releases/2023/release.html
+    name: 2019-2023 American Community Survey 5-year estimates are now available, including the Public Use Microdata Sample (PUMS) and Variance Replicate Estimate (VRE) Tables.
+  - url: https://www.census.gov/en.html
+    name: Census.gov
+  - url: https://www.census.gov/partners
+    name: Partners
+  - url: https://www.census.gov/topics/research.html
+    name: Research
+  - url: https://www.census.gov/schools
+    name: Educators
+  - url: https://www.census.gov/surveyhelp
+    name: Survey Help
+  - url: https://www.census.gov/newsroom.html
+    name: News
+  - url: https://www.census.gov/naics
+    name: NAICS Codes
+  - url: https://www.census.gov/careers
+    name: Jobs
+  - url: https://www.census.gov/about-us
+    name: About Us
+  - url: https://www.census.gov/about/contact-us.html
+    name: Contact Us
+  - url: https://www.census.gov/help
+    name: Help
+  - url: https://www.census.gov/topics.html
+    name: Topics
+  - url: https://www.census.gov/data
+    name: Data & Maps
+  - url: https://www.census.gov/programs-surveys.html
+    name: Surveys & Programs
+  - url: https://www.census.gov/library.html
+    name: Resource Library
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: QuickFacts U.S. Data Finder
+  - url: https://data.census.gov/advanced
+    name: Advanced Data Search
+  - url: https://www.census.gov/idb
+    name: International Database (IDB)
+  - url: https://www.census.gov/programs-surveys/acs
+    name: American Community Survey (ACS)
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: Census Records & Genealogy
+  - url: https://www.census.gov/about/index.html
+    name: Index A to Z
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: Age and Sex
+  - url: https://www.census.gov/businessandeconomy
+    name: Business and Economy
+  - url: https://www.census.gov/topics/education.html
+    name: Education
+  - url: https://www.census.gov/disasters
+    name: Emergency Management / Disasters
+  - url: https://www.census.gov/topics/employment.html
+    name: Employment
+  - url: https://www.census.gov/topics/families.html
+    name: Families and Living Arrangements
+  - url: https://www.census.gov/geography
+    name: Geography
+  - url: https://www.census.gov/topics/health.html
+    name: Health
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: Hispanic Origin
+  - url: https://www.census.gov/topics/housing.html
+    name: Housing
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: Income and Poverty
+  - url: https://www.census.gov/topics/international-trade.html
+    name: International Trade
+  - url: https://www.census.gov/topics/population/migration.html
+    name: Migration/Geographic Mobility
+  - url: https://www.census.gov/topics/population.html
+    name: Population
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: Population Estimates
+  - url: https://www.census.gov/govs
+    name: Public Sector
+  - url: https://www.census.gov/topics/population/race.html
+    name: Race
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: Redistricting
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: Voting and Registration
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: Explore data on data.census.gov
+  - url: https://www.census.gov/academy
+    name: Census Academy
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: Combining Data
+  - url: https://www.census.gov/data/data-tools.html
+    name: Data Tools and Apps
+  - url: https://www.census.gov/data/datasets.html
+    name: Datasets
+  - url: https://www.census.gov/developers/
+    name: Developers
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: Experimental Data Products
+  - url: https://www.census.gov/interactive-maps
+    name: Interactive Maps
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: Mapping Files
+  - url: https://www.census.gov/data/profile.html
+    name: Profiles
+  - url: https://www.census.gov/data/related-sites.html
+    name: Related Sites
+  - url: https://www.census.gov/data/software.html
+    name: Software
+  - url: https://www.census.gov/data/tables.html
+    name: Tables
+  - url: https://www.census.gov/data/training-workshops.html
+    name: Training and Workshops
+  - url: https://www.census.gov/library/visualizations.html
+    name: Visualizations
+  - url: https://www.census.gov/2020census
+    name: 2020 Census
+  - url: https://www.census.gov/2026test
+    name: 2026 Census Test
+  - url: https://www.census.gov/2030census
+    name: 2030 Census
+  - url: https://www.census.gov/AHS
+    name: American Housing Survey (AHS)
+  - url: https://www.census.gov/abs
+    name: Annual Business Survey (ABS)
+  - url: https://www.census.gov/aies
+    name: Annual Integrated Economic Survey (AIES)
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: County Business Patterns (CBP)
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: Current Population Survey (CPS)
+  - url: https://www.census.gov/EconomicCensus
+    name: Economic Census
+  - url: https://www.census.gov/householdpulse
+    name: Household Pulse Survey
+  - url: https://www.census.gov/internationalprograms
+    name: International Programs
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: Metro and Micro Areas
+  - url: https://www.census.gov/popest
+    name: Population Estimates
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: Population Projections
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: Small Area Income and Poverty
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: Statistics of U.S. Businesses
+  - url: https://www.census.gov/sipp/
+    name: Survey of Income and Program Participation (SIPP)
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: Glossary
+  - url: https://www.census.gov/AmericaCounts
+    name: America Counts Stories
+  - url: https://www.census.gov/library/audio.html
+    name: Audio
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: Blogs
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: By the Numbers
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: Facts for Features
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: Fact Sheets
+  - url: https://www.census.gov/library/photos.html
+    name: Photos
+  - url: https://www.census.gov/library/publications.html
+    name: Publications
+  - url: https://www.census.gov/library/spotlights.html
+    name: Spotlights
+  - url: https://www.census.gov/newsroom/stories.html
+    name: Stats for Stories
+  - url: https://www.census.gov/library/video.html
+    name: Videos
+  - url: https://www.census.gov/library/working-papers.html
+    name: Working Papers
+  - url: https://www.census.gov/programs-surveys/acs/about.html
+    name: American Community Survey
+  - url: https://www.census.gov/programs-surveys/acs/respond.html
+    name: Respond to the ACS
+  - url: https://www.census.gov/programs-surveys/acs/news.html
+    name: News & Updates
+  - url: https://www.census.gov/programs-surveys/acs/data.html
+    name: Data
+  - url: https://www.census.gov/programs-surveys/acs/microdata.html
+    name: Microdata
+  - url: https://www.census.gov/programs-surveys/acs/guidance.html
+    name: Guidance for Data Users
+  - url: https://www.census.gov/programs-surveys/acs/geography-acs.html
+    name: Geography & ACS
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation.html
+    name: Technical Documentation
+  - url: https://www.census.gov/programs-surveys/acs/methodology.html
+    name: Research & Methodology
+  - url: https://www.census.gov/programs-surveys/acs/information-for.html
+    name: Information For...
+  - url: https://www.census.gov/programs-surveys/acs/library.html
+    name: Library
+  - url: https://www.census.gov/programs-surveys/acs/contact.html
+    name: Contact Us
+  - url: https://acsdatacommunity.prb.org/
+    name: [No text]
+  - url: https://public.govdelivery.com/accounts/USCENSUS/signup/12426
+    name: SubscribeSubscribe to GovDelivery email updates to stay up-to-date on the latest news and events about the American Community Survey.
+  - url: https://www.census.gov/programs-surveys/acs/news/data-releases.html
+    name: 2022 Data Release
+  - url: https://www.census.gov/programs-surveys/acs/news/data-releases.2023.html
+    name: 2023 Data ReleaseLearn more about 2023 ACS data releases, including the latest release of new 2019-2023 ACS 5-year PUMS files and Variance Replicate Estimate Tables.
+  - url: https://data.census.gov
+    name: data.census.govAccess American Community Survey data on the Census Bureau's new platform, data.census.gov.
+  - url: https://www.census.gov/newsroom/stories/lunar-new-year.html
+    name: Stats for StoriesLunar New Year January 29, 2025January 29, 2025With celebrations also known as Chinese New Year or Spring Festival, many people across the world will welcome the Year of the Snake with reunions and hope.
+  - url: https://www.census.gov/newsroom/stories/poverty-awareness-month.html
+    name: Stats for StoriesNational Poverty in America Awareness Month January 2025January 2025The Current Population Survey Annual Social and Economic Supplement reports the official poverty rate in 2023 was 11.1%, not statistically different from 2022.
+  - url: https://www.census.gov/newsroom/stories/stem-day.html
+    name: Stats for StoriesNational STEM Day November 8, 2024November 08, 2024The American Community Survey estimates 10.8M Americans 16+ were employed in STEM occupations in 2021, 26.7% women who earned 84.1% as much as men.
+  - url: https://www.census.gov/programs-surveys/acs/about/acs-data-stories.html
+    name: View More
+  - url: https://www.census.gov/programs-surveys/acs/about/acs-data-stories/first-five-years-fund.html
+    name: First Five Years Fund Uses ACS Data to Build SupportNovember 14, 2024Learn how First Five Years Fund uses ACS data to build support for early learning at the federal level.
+  - url: https://www.census.gov/programs-surveys/acs/about/acs-data-stories/oh-cuyahoga-planning.html
+    name: Cuyahoga County Planning Commission Uses ACS Data to Create Data Book SeriesApril 25, 2024Learn how Cuyahoga County Planning Commission uses ACS data to provide insights into the communities that comprise Cuyahoga County.
+  - url: https://www.census.gov/programs-surveys/acs/about/acs-data-stories/ymca-community-insights-tool.html
+    name: The YMCA’s Community Insights Tool Uses ACS Data to Maximize Impacts for CommunitiesDecember 15, 2023Learn how ACS data are used in the Community Insights Tool to help YMCA branches throughout the country understand the unique needs of communities.
+  - url: https://www.census.gov/programs-surveys/acs/news/events.html
+    name: American Community Survey EventsLearn about upcoming American Community Survey webinars and outreach opportunities
+  - url: https://www.census.gov/programs-surveys/acs/about/language-brochures.html
+    name: Language BrochuresQuestions and Answers about the ACS in العربية, 中文, Français, Kreyòl ayisyen, 한 국 어,  Polski, Português, русский, Español, Việt Ngữ
+  - url: https://www.census.gov/data/data-tools/survey-explorer-tool.html
+    name: Census Survey ExplorerDiscover which surveys meet your criteria or needs. Search by topic, geography, and frequency of publication. This is a great place to jumpstart your research.
+  - url: https://www.census.gov/directorsblog
+    name: Director’s Blog
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: Deputy Director’s Blog
+  - url: https://www.census.gov/randomsamplings
+    name: Random Samplings
+  - url: https://www.census.gov/researchmatters
+    name: Research Matters
+  - url: https://www.census.gov/quality/
+    name: Information Quality
+  - url: https://www.census.gov/datalinkage
+    name: Data Linkage Infrastructure
+  - url: https://www.census.gov/privacy
+    name: Data Protection and Privacy Policy

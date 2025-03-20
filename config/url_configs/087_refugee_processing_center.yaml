@@ -4,3 +4,98 @@ expected_update_frequency: monthly
 tags:
   - immigration
   - statedept
+linked_urls:
+  - url: https://www.wrapsnet.org/about-us/Refugee Processing Center
+    name: About Refugee Processing Center
+  - url: https://www.wrapsnet.org/US-Refugee-Admissions-Program
+    name: US Refugee Admissions Program
+  - url: https://www.wrapsnet.org/resources
+    name: Resources
+  - url: https://www.wrapsnet.org/rp-agency-contacts
+    name: Reception & Placement Agency Contacts
+  - url: https://www.wrapsnet.org/siv-iraqi-syrian-afghan-referrals
+    name: SIV/Iraqi & Syrian P-2/Afghan Referrals
+  - url: https://www.wrapsnet.org/afghans-granted-humanitarian-parole
+    name: Afghans Granted Humanitarian Parole
+  - url: https://www.wrapsnet.org/admissions-and-arrivals
+    name: Admissions & Arrivals
+  - url: https://www.wrapsnet.org/archives
+    name: Archives
+  - url: https://commons.wikimedia.org/w/index.php?curid=23030906
+    name: Refugee Photos
+  - url: http://www.flickr.com/photos/statephotos/9312291491/sizes/o/in/photostream/
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=27504278
+    name: Refugee Photos
+  - url: http://www.humanrights.gov/2012/06/15/map-of-numbers-and-locations-of-people-fleeing-the-violence-in-syria/
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=20033376
+    name: Refugee Photos
+  - url: http://www.voanews.com/content/syria-refugee-tide-rises-as-strikes-loom/1743908.html
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=28117847
+    name: Refugee Photos
+  - url: http://www.youtube.com/watch?v=RpYAoR5nzBo&feature=plcp
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=21077776
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=28117855
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=49822723
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=28117850
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=50465690
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=30786740
+    name: Refugee Photos
+  - url: https://www.flickr.com/photos/dfid/20103869942/in/photolist-wCvA8h-wDduE4/
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=47499009
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=30786736
+    name: Refugee Photos
+  - url: https://www.flickr.com/photos/dfid/20111851135/in/photolist-wCvA8h-wDduE4/
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=47499537
+    name: Refugee Photos
+  - url: http://www.gov.uk/government/news/syria-the-latest-updates-on-uk
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818231
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818222
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818228
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818224
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818218
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818223
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=26818225
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=30786520
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=2720844
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=2720862
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=8533351
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=8533461
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=8533499
+    name: Refugee Photos
+  - url: https://www.flickr.com/photos/gtzecosan/4362399842/
+    name: Refugee Photos
+  - url: https://commons.wikimedia.org/w/index.php?curid=36535206
+    name: Refugee Photos
+  - url: http://creativecommons.org/licenses/by/2.0
+    name: Refugee Photos
+  - url: https://www.state.gov
+    name: U.S. Department of State
+  - url: https://www.state.gov/bureaus-offices/under-secretary-for-civilian-security-democracy-and-human-rights/bureau-of-population-refugees-and-migration/
+    name: Bureau of Population, Refugees, and Migration
+  - url: https://www.state.gov/refugee-admissions/
+    name: Refugee Admissions

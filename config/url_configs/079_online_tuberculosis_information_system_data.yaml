@@ -4,3 +4,64 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov
+    name: Centers for Disease Control and Prevention
+  - url: https://www.cdc.gov/az/
+    name: A-Z Index
+  - url: https://wonder.cdc.gov/
+    name: CDC WONDER
+  - url: https://wonder.cdc.gov/wonder/help/faq.html
+    name: FAQs
+  - url: https://wonder.cdc.gov/controller/datarequest?stage=search&action=current
+    name: WONDER Search
+  - url: https://wonder.cdc.gov/tb.html
+    name: Online Tuberculosis Information System (OTIS) Data
+  - url: https://wonder.cdc.gov/tb-v2023.html
+    name: OTIS TB Data 1993-2023 Request
+  - url: https://wonder.cdc.gov/tb-v2022.html
+    name: OTIS TB Data 1993-2022, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2021.html
+    name: OTIS TB Data 1993-2021, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2020.html
+    name: OTIS TB Data 1993-2020, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2019.html
+    name: OTIS TB Data 1993-2019, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2018.html
+    name: OTIS TB Data 1993-2018, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2017.html
+    name: OTIS TB Data 1993-2017, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2016.html
+    name: OTIS TB Data 1993-2016, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2015.html
+    name: OTIS TB Data 1993-2015, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2014.html
+    name: OTIS TB Data 1993-2014, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2013.html
+    name: OTIS 2013 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2012.html
+    name: OTIS 2012 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2010.html
+    name: OTIS 2010 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2009.html
+    name: OTIS 2009 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2008.html
+    name: OTIS 2008 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2007.html
+    name: OTIS 2007 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2006.html
+    name: OTIS 2006 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2005.html
+    name: OTIS 2005 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2004.html
+    name: OTIS 2004 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/tb-v2003.html
+    name: OTIS 2003 TB Data, Archive Request
+  - url: https://wonder.cdc.gov/wonder/help/tb/otistechnicalreference.html
+    name: OTIS Technical Reference
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: CDC-INFO
+  - url: https://www.cdc.gov/about/default.htm
+    name: About CDC
+  - url: https://www.hhs.gov
+    name: U.S. Department of Health & Human Services

@@ -4,3 +4,74 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov
+    name: Centers for Disease Control and Prevention
+  - url: https://www.cdc.gov/az/
+    name: CSC A-Z Index
+  - url: https://wonder.cdc.gov/wonder/help/faq.html
+    name: FAQs
+  - url: https://wonder.cdc.gov/controller/datarequest?stage=search&action=current
+    name: WONDER Search
+  - url: https://wonder.cdc.gov/welcomet.html
+    name: Topics
+  - url: https://wonder.cdc.gov/welcomea.html
+    name: WONDER A-Z Index
+  - url: https://wonder.cdc.gov/aidspublic.html
+    name: AIDS Public Use Data
+  - url: https://wonder.cdc.gov/natality.html
+    name: Births
+  - url: https://wonder.cdc.gov/cancer.html
+    name: Cancer Statistics
+  - url: https://wonder.cdc.gov/deaths-by-underlying-cause.html
+    name: Underlying Cause of Death
+  - url: https://wonder.cdc.gov/mcd.html
+    name: Multiple Cause of Death
+  - url: https://wonder.cdc.gov/ucd-border.html
+    name: U.S. - Mexico Border Area Mortality
+  - url: https://wonder.cdc.gov/mortsql.html
+    name: Compressed Mortality
+  - url: https://wonder.cdc.gov/fetal.html
+    name: Fetal Deaths
+  - url: https://wonder.cdc.gov/lbd.html
+    name: Infant Deaths
+  - url: https://wonder.cdc.gov/nca-heatwavedays-historic.html
+    name: Heat Wave Days May-September
+  - url: https://wonder.cdc.gov/nasa-nldas.html
+    name: Daily Air Temperatures & Heat Index
+  - url: https://wonder.cdc.gov/nasa-lst.html
+    name: Daily Land Surface Temperatures
+  - url: https://wonder.cdc.gov/nasa-pm.html
+    name: Daily Fine Particulate Matter
+  - url: https://wonder.cdc.gov/nasa-insolar.html
+    name: Daily Sunlight
+  - url: https://wonder.cdc.gov/nasa-precipitation.html
+    name: Daily Precipitation
+  - url: https://wonder.cdc.gov/tb.html
+    name: Online Tuberculosis Information System
+  - url: https://wonder.cdc.gov/bridged-race-population.html
+    name: Bridged-Race Population (from NCHS)
+  - url: https://wonder.cdc.gov/single-race-population.html
+    name: Single-Race Population (from Census)
+  - url: https://wonder.cdc.gov/population.html
+    name: Population Projections (from Census)
+  - url: https://wonder.cdc.gov/std.html
+    name: Sexually Transmitted Disease Morbidity
+  - url: https://wonder.cdc.gov/vaers.html
+    name: Vaccine Adverse Event Reporting
+  - url: https://wonder.cdc.gov/nndss-annual-summary.html
+    name: NNDSS Annual Summary Data Query
+  - url: https://wonder.cdc.gov/wonder/outside/nndss-tables.html
+    name: NNDSS Annual Tables
+  - url: https://wonder.cdc.gov/wonder/outside/data2010.html
+    name: Healthy People
+  - url: https://wonder.cdc.gov/datause.html
+    name: Data Use Restrictions
+  - url: https://wonder.cdc.gov/datasets.html
+    name: Data Collections
+  - url: https://wonder.cdc.gov/whatsnew.html
+    name: What's New?
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: CDC-INFO
+  - url: https://www.hhs.gov
+    name: U.S. Department of Health & Human Services

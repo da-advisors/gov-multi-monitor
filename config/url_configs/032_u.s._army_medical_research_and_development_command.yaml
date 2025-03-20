@@ -4,3 +4,110 @@ expected_update_frequency: null
 tags:
   - health
   - military
+linked_urls:
+  - url: http://www.army.mil
+    name: U.S. Army
+  - url: https://www.army.mil/futures/
+    name: Army Futures Command
+  - url: https://cdmrp.health.mil/
+    name: CDMRP
+  - url: https://www.tatrc.org/
+    name: TATRC
+  - url: https://usaarl.health.mil/
+    name: USAARL
+  - url: https://usaisr.health.mil/
+    name: USAISR
+  - url: https://usammda.health.mil/
+    name: USAMMDA
+  - url: https://usamraa.health.mil/Pages/Main01.aspx
+    name: USAMRAA
+  - url: https://usamricd.health.mil/
+    name: USAMRICD
+  - url: https://usamriid.health.mil/
+    name: USAMRIID
+  - url: https://usariem.health.mil/
+    name: USARIEM
+  - url: https://wrair.health.mil/
+    name: WRAIR
+  - url: https://mrdc.health.mil/index.cfm/about/faqs
+    name: FAQs
+  - url: https://mrdc.health.mil/index.cfm/contact_us
+    name: Contact Us
+  - url: https://mrdc.health.mil/index.cfm/sitemap
+    name: Sitemap
+  - url: https://mrdc.health.mil
+    name: About
+  - url: https://mrdc.health.mil/index.cfm/about/mission_vision
+    name: Mission/Vision
+  - url: https://mrdc.health.mil/index.cfm/about/history
+    name: Command History
+  - url: https://mrdc.health.mil/index.cfm/about/leadership
+    name: Leadership
+  - url: https://mrdc.health.mil/index.cfm/about/headquarters
+    name: MRDC Headquarters
+  - url: https://mrdc.health.mil/index.cfm/about/subordinate_commands
+    name: Subordinate Commands
+  - url: https://mrdc.health.mil/index.cfm/about/inspector_general
+    name: Inspector General
+  - url: https://mrdc.health.mil/index.cfm/about/jag
+    name: Staff Judge Advocate
+  - url: https://mrdc.health.mil/index.cfm/program_areas/medical_research_and_development
+    name: Medical Research & Development
+  - url: https://mrdc.health.mil/index.cfm/program_areas/medical_product_development
+    name: Medical Program
+  - url: https://mrdc.health.mil/index.cfm/program_areas/medical_materiel
+    name: Medical Materiel
+  - url: https://mrdc.health.mil/index.cfm/media/articles
+    name: Articles
+  - url: https://mrdc.health.mil/index.cfm/media/news_releases
+    name: News Releases
+  - url: https://mrdc.health.mil/index.cfm/media/publications
+    name: Strategic Communication Products
+  - url: https://www.flickr.com/photos/usamrmc/albums
+    name: Images
+  - url: https://mrdc.health.mil/index.cfm/media/social_media
+    name: Social Media Hub
+  - url: https://mrdc.health.mil/index.cfm/collaborate/doing_business_with_us
+    name: Doing Business With Us
+  - url: https://mrdc.health.mil/index.cfm/collaborate/research_protections
+    name: Research Protections
+  - url: https://mrdc.health.mil/index.cfm/collaborate/technology_transfer
+    name: Technology Transfer
+  - url: https://mrdc.health.mil/index.cfm/collaborate/submit_proposal
+    name: Submit a Research Proposal
+  - url: https://mrdc.health.mil/index.cfm/resources/researcher_resources
+    name: Researcher Resources
+  - url: https://mrdc.health.mil/index.cfm/resources/employment
+    name: Employment
+  - url: https://mrdc.health.mil/index.cfm/resources/mrdc_resources
+    name: MRDC Resources
+  - url: https://mrdc.health.mil/index.cfm/resources/soldier_care
+    name: Soldier Care
+  - url: https://mrdc.health.mil/index.cfm/resources/links
+    name: Links
+  - url: https://mrdc.health.mil/index.cfm/resources/educational_opportunities
+    name: Educational Opportunities
+  - url: https://mrdc.health.mil/index.cfm/resources/employment/
+    name: USAMRDC Engineer and Scientist Job Openings
+  - url: https://mrdc.health.mil/index.cfm/about/jag/pl_115-92
+    name: Public Law (PL) 115-92
+  - url: https://www.safehelpline.org/
+    name: DoD Safe Helpline
+  - url: https://www.armyresilience.army.mil/sharp/index.html
+    name: armyresilience.army.mil
+  - url: https://mrdc.health.mil/assets/docs/media/USAMRDC-Handbook.pdf
+    name: USARMRDC 2023 Handbook
+  - url: https://mrdc.health.mil/assets/docs/DoD_Suicide_Prevention_Research_Strategy.pdf
+    name: DoD Suicide Prevention Research Strategy 2020-2030
+  - url: https://mrdc.health.mil/assets/docs/media/2019_Medical_Products_Book_Third_Edition.pdf
+    name: USARMRDC Medical Products 2019
+  - url: https://stem.health.mil/
+    name: USARMRDC Education Outreach STEM
+  - url: https://www.mepcom.army.mil/Home/Contractors/
+    name: USMEPCOM Contractor Training
+  - url: https://mrdc.health.mil/index.cfm/resources/mrdc_resources/dcshr
+    name: DCSHR/G1, Information & Updates
+  - url: https://www.inscom.army.mil/isalute/
+    name: iSALUTE Suspicious Activity Report
+  - url: https://technologytransfer.health.mil/
+    name: Medical Technology Transfer

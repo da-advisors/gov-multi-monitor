@@ -4,3 +4,112 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov/
+    name: Centers for Disease Control and Prevention
+  - url: https://www.cdc.gov/nchs/nsfg/index.htm
+    name: National Survey of Family Growth
+  - url: https://www.cdc.gov/nchs/index.htm
+    name: National Center for Health Statistics
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_products.htm
+    name: Publications and Information Products
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg-2022-2023-puf.htm
+    name: 2022-2023 NSFG Public-Use Data Files, Codebooks, and Documentation
+  - url: https://www.cdc.gov/nchs/nsfg/keystatistics.htm
+    name: 2015-2019 NSFG Key Statistics
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_puf.htm
+    name: 2017-2019 NSFG Public Use Data Files
+  - url: https://www.cdc.gov/nchs/products/databriefs/db520.htm
+    name: Receipt of Family Planning Services in the United States 2022–2023
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr202.pdf
+    name: Infertility and Impaired Fecundity in Women and Men in the United States, 2015–2019
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr196.pdf
+    name: Teenagers in the United States Sexual Activity, Contraceptive Use, and Childbearing, 2015–2019
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr195.pdf
+    name: Contraceptive Methods Women Have Ever Used United States, 2015–2019
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr179.pdf
+    name: Fertility of Men and Women Aged 15–49 in the United States National Survey of Family Growth, 2015–2019
+  - url: https://www.cdc.gov/nchs/products/databriefs/db388.htm
+    name: Current Contraceptive Status Among Women Aged 15–49 United States, 2017–2019
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr146-508.pdf
+    name: Trends and Patterns in Menarche in the United States:1995 through 2013–2017[PDF – 366 KB]
+  - url: https://www.cdc.gov/nchs/products/databriefs/db366.htm
+    name: Sexual Activity and Contraceptive Use Among Teenagers Aged 15–19 in the United States, 2015–2017
+  - url: https://www.cdc.gov/nchs/data/nhsr/nhsr138-508.pdf
+    name: Demographic, Health Care, and Fertility-related Characteristics of Adults Aged 18–44 Who Have Ever Been in Foster Care United States, 2011–2017[PDF – 374 KB]
+  - url: https://www.cdc.gov/nchs/nsfg/about_nsfg.htm
+    name: About NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/new_nsfg.htm
+    name: What's New
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg-questionnaires.htm
+    name: Questionnaires, Datasets, and Related Documentation
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2011_2019_combined_files.htm
+    name: 2011-2019 Combined Data Files
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_combining_data.htm
+    name: Combining Data across NSFG File Releases from 2011-2019
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_other_information.htm
+    name: Other Information on Data Collection 2011-2019
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_special_supplementary_data.htm
+    name: Special Supplementary Data Files
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_codebooks.htm
+    name: 2017 - 2019 NSFG Codebooks
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2017_2019_questionnaires.htm
+    name: 2017-2019 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_puf.htm
+    name: 2015-2017 NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_codebooks.htm
+    name: 2015-2017 NSFG Codebooks
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2015_2017_questionnaires.htm
+    name: 2015-2017 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_puf.htm
+    name: 2013–2015 NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_codebooks.htm
+    name: 2013-2015 NSFG Codebooks
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2013_2015_questionnaires.htm
+    name: 2013–2015 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_puf.htm
+    name: 2011–2013 NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_codebooks.htm
+    name: 2011-2013 NSFG Codebooks
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2011_2013_questionnaires.htm
+    name: 2011–2013 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_puf.htm
+    name: 2006–2010 NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_codebooks.htm
+    name: 2006–2010 NSFG Codebooks
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2006_2010_questionnaires.htm
+    name: 2006–2010 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle6.htm
+    name: NSFG Cycle 6 (2002)
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_2002_questionnaires.htm
+    name: 2002 NSFG Questionnaires
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle5.htm
+    name: NSFG Cycle 5 (1995)
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle4.htm
+    name: NSFG Cycle 4 (1988)
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle3.htm
+    name: NSFG Cycle 3 (1982)
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle2.htm
+    name: NSFG Cycle 2 (1976)
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_cycle1.htm
+    name: NSFG Cycle 1 (1973)
+  - url: https://www.cdc.gov/nchs/nsfg/key_statistics_nsfg.htm
+    name: Key Statistics from NSFG
+  - url: https://www.cdc.gov/nchs/nsfg/key_statistics.htm
+    name: Archived NSFG Key Statistics
+  - url: https://www.cdc.gov/nchs/nsfg/participant.htm
+    name: Survey Participants
+  - url: https://www.cdc.gov/nchs/nsfg/products.htm
+    name: Publications and Information Products
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_bibliography.htm
+    name: Bibliography
+  - url: https://www.cdc.gov/nchs/nsfg/nsfg_research_conference.htm
+    name: Research Conferences
+  - url: https://www.cdc.gov/nchs/surveys.htm
+    name: Surveys and Data Collection Systems
+  - url: https://www.cdc.gov/nchs/nvss/births.htm
+    name: Vital Statistics Birth Data
+  - url: https://archive.cdc.gov/
+    name: CDC Archive
+  - url: https://stacks.cdc.gov/
+    name: Public Health Publications

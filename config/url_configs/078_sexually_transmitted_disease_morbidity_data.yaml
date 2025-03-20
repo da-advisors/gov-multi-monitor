@@ -4,3 +4,38 @@ expected_update_frequency: null
 tags:
   - health
   - cdc
+linked_urls:
+  - url: https://www.cdc.gov
+    name: Centers for Disease Control and Prevention
+  - url: https://www.cdc.gov/az/
+    name: A-Z Index
+  - url: https://wonder.cdc.gov/
+    name: CDC WONDER
+  - url: https://wonder.cdc.gov/wonder/help/faq.html
+    name: FAQs
+  - url: https://wonder.cdc.gov/controller/datarequest?stage=search&action=current
+    name: WONDER Search
+  - url: https://wonder.cdc.gov/std.html
+    name: Sexually Transmitted Disease Morbidity Data
+  - url: http://www.cdc.gov/nchhstp/
+    name: National Center for HIV, Viral Hepatitis, STD, and Tuberculosis Prevention (NCHHSTP)
+  - url: http://www.cdc.gov/std/
+    name: Sexually Transmitted Diseases
+  - url: https://wonder.cdc.gov/wonder/outside/nchhstp-atlas.html
+    name: NCHHSTP Atlas
+  - url: https://wonder.cdc.gov/std-sex.html
+    name: Sexually Transmitted Disease Morbidity, 1984-2014 Request
+  - url: https://wonder.cdc.gov/wonder/help/stdm.html
+    name: Sexually Transmitted Disease Morbidity United States, Guam, Puerto Rico, and Virgin Islands, by sex, 1984 - 2014
+  - url: https://wonder.cdc.gov/std-race-age.html
+    name: Selected STDs by Age, Race/Ethnicity, and Sex, 1996-2014 Request
+  - url: https://wonder.cdc.gov/wonder/help/std-race-age-frame.html
+    name: Sexually Transmitted Disease Morbidity Selected STDs by Age, Sex, and Race/Ethnicity
+  - url: https://wonder.cdc.gov/stdmarchives.html
+    name: Archived Data
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: CDC-INFO
+  - url: https://www.cdc.gov/about/default.htm
+    name: About CDC
+  - url: https://www.hhs.gov
+    name: U.S. Department of Health & Human Services
