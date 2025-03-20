@@ -1,0 +1,1165 @@
+{
+  "source_yaml": "074_national_vital_statistics.yaml",
+  "source_url": "https://www.cdc.gov/nchs/nvss/index.htm",
+  "name": "National Vital Statistics",
+  "timestamp": "Thu, 06 Feb 2025 17:31:01 GMT",
+  "num_links": 231,
+  "links": [
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#headerSearch",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages/",
+      "text": "Other Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "text": "Centers for Disease Control and Prevention. CDC twenty four seven. Saving Lives, Protecting People",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm",
+      "text": "Search NCHS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm",
+      "text": "All CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#print",
+      "text": "Print",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#collapse_888067a2f09cd0395",
+      "text": "Minus",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/natality.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/hestat/maternal-mortality/2023/maternal-mortality-rates-2023.htm",
+      "text": "Maternal Mortality Rates in the United States, 2023",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db523.htm",
+      "text": "Differences in Cesarean Delivery Rates for Puerto Rican Mothers in Puerto Rico and the U.S. Mainland, 2023",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db522.htm",
+      "text": "Drug Overdose Deaths in the United States, 2003\u20132023",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/databriefs/db521.htm",
+      "text": "Mortality in the United States, 2023",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nvsr/nvsr73/NVSR-73-10.pdf",
+      "text": "Deaths: Leading Causes for 2022[PDF - 2,144 KB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/new_nvss.htm",
+      "text": "More",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/births.htm",
+      "text": "BirthsBirth data track important demographic and health trends, such as pregnancy risk factors, teen pregnancy, and preterm birth",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/deaths.htm",
+      "text": "DeathsData from death certificates are the most comprehensive source of information on mortality, including cause of death",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/fetal_death.htm",
+      "text": "Fetal DeathsFetal death data can help identify pregnancy risks and improve the health of mothers and infants",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/linked-birth.htm",
+      "text": "Linked Birth/Infant DeathLinked birth/infant death data are used to explore relationships between infant death and risk factors present during pregnancy and at birth",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/life-expectancy.htm",
+      "text": "Life ExpectancyLife expectancy data provide a snapshot of population health and mortality in the United States",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "text": "Marriages and DivorcesInformation on the total numbers and rates of marriages and divorces is collected at the national and state levels",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/covid-19.htm",
+      "text": "Coronavirus Disease (COVID-19)Find the latest resources to help monitor and report Coronavirus Disease 2019 (COVID-19) deaths. Please visit our COVID-19 Death Data and Reporting Guidance page to stay up to date on the latest information.",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr.htm",
+      "text": "Vital Statistics Rapid ReleaseFind our latest provisional (preliminary) estimates on births and deaths, including deaths from drug overdoses and flu.",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization.htm",
+      "text": "Modernizing Vital StatisticsExplore our projects and initiatives to improve data timeliness and quality",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/",
+      "text": "CDC WONDER: Interactive Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm",
+      "text": "Downloadable Final Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm",
+      "text": "Restricted-use Data for Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/drug-overdose-data.htm",
+      "text": "Drug Overdose Death Counts",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data-visualization/index.htm",
+      "text": "Data Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/fastats/default.htm",
+      "text": "NCHS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/fastats/default.htm",
+      "text": "FastStats",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/training-and-instructional-materials.htm",
+      "text": "Training and InstructionOnline trainings, mobile apps, guidance, and handbooks for those working with vital records",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/revisions-of-the-us-standard-certificates-and-reports.htm",
+      "text": "U.S. Standard CertificatesInformation for jurisdictions about certificates of birth, death, and fetal death",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/medical-examiners-coroners.htm",
+      "text": "Impact of Medical Examiners and Coroners in Public HealthInformation on the role medical examiners and coroners play in public health",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/w2w/",
+      "text": "Where to WriteWhere to write for birth, death, marriage, or divorce certificates by state and territory",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/ndi/",
+      "text": "National Death IndexResources to link death certificate information, including cause of death, to research datasets",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/comec/",
+      "text": "Collaborating Office for Medical Examiners and CoronersResources from across CDC to support the work in the medical examiner and coroner community",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/newsletters.htm",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/isp/isp_crvs.htm",
+      "text": "Global Program for Civil Registration of Vital Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/evital_standards_intiatives.htm",
+      "text": "e-Vital Standards Initiative",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/improving-data-on-drug-overdose-deaths.html",
+      "text": "Improving Data on Drug Overdose Deaths",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/bridged_race.htm",
+      "text": "U.S. Census Populations With Bridged Race Categories",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nsfg/index.htm",
+      "text": "National Survey of Family Growth",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nmfs.htm",
+      "text": "National Mortality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nmfs.htm",
+      "text": "Followback",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nmfs.htm",
+      "text": "Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nmihs.htm",
+      "text": "National Maternal and Infant Health Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/about_nvss.htm",
+      "text": "About the National Vital Statistics System",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/series/sr_01/sr01_062.pdf",
+      "text": "The U.S. National Vital Statistics System: Transitioning Into the 21st Century, 1990\u20132017",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/other/miscpub/vsushist.htm",
+      "text": "U.S. Vital Statistics System: Major Activities and Developments, 1950-95",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics (NCHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/facebook/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Facebook",
+      "title": "Share to Facebook"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/twitter/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "Twitter",
+      "title": "Share to Twitter"
+    },
+    {
+      "url": "https://api.addthis.com/oexchange/0.8/forward/linkedin/offer?url=https%3A%2F%2Fwww.cdc.gov%2Findex.htm&title=CDC%20Works%2024/7&description=As%20the%20nation%27s%20health%20protection%20agency,%20CDC%20saves%20lives%20and%20protects%20people%20from%20health,%20safety,%20and%20security%20threats.&via=CDCgov&ct=0&media=https://www.cdc.gov/homepage/images/centers-for-disease-control-and-prevention.png",
+      "text": "LinkedIn",
+      "title": "Share to LinkedIn"
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https%3A%2F%2Fwww.cdc.gov%2Findex.htm",
+      "text": "Syndicate",
+      "title": "Embed this Page"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm",
+      "text": "National Vital Statistics System",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/covid-19.htm",
+      "text": "Coronavirus Disease (COVID-19) Death Data and Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-5f1ad",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/covid19/coding-and-reporting.htm",
+      "text": "Coding and Reporting Guidance",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/COVID19/index.htm",
+      "text": "Daily Updates of Totals by Week and State",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/covid_weekly/index.htm",
+      "text": "Weekly Updates by Select Demographic and Geographic Characteristics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/covid19/excess_deaths.htm",
+      "text": "Excess Deaths Associated with COVID-19",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/covid19/tech_notes.htm",
+      "text": "Technical Notes",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/about_nvss.htm",
+      "text": "About NVSS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/new_nvss.htm",
+      "text": "What\u2019s New",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/newsletters.htm",
+      "text": "Newsletters",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/webinar/dvs-webinar.htm",
+      "text": "Webinar",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/revisions-of-the-us-standard-certificates-and-reports.htm",
+      "text": "Revisions of the U.S. Standard Certificates and Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-1c3e3",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/deleted_items_from_birth_fetal_death_files.htm",
+      "text": "Deletion of Data Items from the Birth and Fetal Death National Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/letters_from_dvs_to_states.htm",
+      "text": "Letters from the Division of Vital Statistics (DVS) to States",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/training-and-instructional-materials.htm",
+      "text": "Training and Instructional Materials",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-38a5a",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/training.htm",
+      "text": "Training",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/reporting-guidance.htm",
+      "text": "Vital Statistics Reporting Guidance",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/handbooks-and-guides.htm",
+      "text": "Handbooks and Guides",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/instruction-manuals.htm",
+      "text": "Instruction Manuals",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/writing-cause-of-death-statements.htm",
+      "text": "Writing Cause-of-Death Statements",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/medical-examiners-coroners.htm",
+      "text": "Impact of Medical Examiners and Coroners in Public Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-725b9",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/comec/state-mec-organizations.html",
+      "text": "Medical Examiners and Coroners Organizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/births.htm",
+      "text": "Birth Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-66318",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/birth_methods.htm",
+      "text": "Datasets and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/birth_products.htm",
+      "text": "Results and Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-dac6e",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/cohort_fertility_tables.htm",
+      "text": "Cohort Fertility Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vermont_2005_update.htm",
+      "text": "Update to 2005 Vermont Birth Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/reproductive_health_links.htm",
+      "text": "Reproductive Health Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/deaths.htm",
+      "text": "Mortality Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-36917",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_methods.htm",
+      "text": "Datasets and Related Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-6679c",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data_access/vitalstatsonline.htm#Mortality_Multiple",
+      "text": "Public Use Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_public_use_data.htm",
+      "text": "Public Use Data File Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/medcoder.htm",
+      "text": "MedCoder",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_products.htm",
+      "text": "Results and Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-974e9",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_tables.htm",
+      "text": "Mortality Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_historical_data.htm",
+      "text": "Historical Data, 1900-1998",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/leading-causes-of-death.htm",
+      "text": "Leading Causes of Death",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/life-expectancy.htm",
+      "text": "Life Expectancy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm",
+      "text": "Drug Overdose Deaths",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/mortality_related.htm",
+      "text": "Related Sites",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-abbff",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/ice_automation.htm",
+      "text": "ICE on Automating Mortality Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/comec/state-mec-organizations.html",
+      "text": "State Medical Examiners and Coroners Organizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/linked-birth.htm",
+      "text": "Linked Birth and Infant Death Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/fetal_death.htm",
+      "text": "Fetal Death Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/drug-overdose-deaths.htm",
+      "text": "Drug Overdose Mortality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr.htm",
+      "text": "Vital Statistics Rapid Release",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-a4858",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr.htm",
+      "text": "Surveillance Activities",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-6b6d9",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/covid-19.htm",
+      "text": "COVID-19 Surveillance",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-drug-overdose.htm",
+      "text": "Provisional Drug Overdose Death Counts",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-maternal-deaths-rates.htm",
+      "text": "Maternal Mortality Surveillance",
+      "title": ""
+    },
+    {
+      "url": "https://gis.cdc.gov/grasp/fluview/mortality.html",
+      "text": "FluView Interactive",
+      "title": ""
+    },
+    {
+      "url": "https://wonder.cdc.gov/",
+      "text": "CDC WONDER",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm",
+      "text": "Quarterly Provisional Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-a54c1",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/mortality.htm",
+      "text": "Mortality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-d890d",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/mortality-dashboard.htm",
+      "text": "Mortality Dashboard",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/mortality-technical-notes.htm",
+      "text": "Technical Notes",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/natality.htm",
+      "text": "Natality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-d387f",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/natality-dashboard.htm",
+      "text": "Natality Dashboard",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/natality-technical-notes.htm",
+      "text": "Technical Notes",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality.htm",
+      "text": "Infant Mortality",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-1e1f3",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality-dashboard.htm",
+      "text": "Infant Mortality Dashboard",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/infant-mortality-technical-notes.htm",
+      "text": "Technical Notes",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/reports.htm",
+      "text": "Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/vsrr/provisional-tables.htm",
+      "text": "State and National Provisional Control Counts",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nvss-restricted-data.htm",
+      "text": "Restricted-use Vital Statistics Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-32308",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/dvs_data_release.htm",
+      "text": "Data Release Policy for Vital Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization.htm",
+      "text": "Modernizing the National Vital Statistics System",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-5ae01",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/cop.htm",
+      "text": "Vital Statistics Modernization Community of Practice",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/why-modernization-matters.htm",
+      "text": "Why Modernization Matters",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/goals-accomplishments.htm",
+      "text": "Goals and Accomplishments",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/projects.htm",
+      "text": "Our Projects",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/tools.htm",
+      "text": "Technical Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-47a98",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/tool-kit.htm",
+      "text": "NVSS Modernization Tool Kit",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/beginnings.htm",
+      "text": "Where We Began",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/partners.htm",
+      "text": "Related People and Activities",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/stories.htm",
+      "text": "Stories from the Modernization Community",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/modernization/modernization-presentations.htm",
+      "text": "Modernization Presentations",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/evital_standards_intiatives.htm",
+      "text": "e-Vital Standards Initiative",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-0aef4",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/evital/accessing_evital_standards.htm",
+      "text": "How to Access e-Vital Standards",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/evital/evital_information_products.htm",
+      "text": "e-Vital Standards Information Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/bridged_race.htm",
+      "text": "Bridged Race Categories",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/index.htm#nav-group-03b44",
+      "text": "plus icon",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/bridged_race/data_documentation.htm",
+      "text": "Data Files and Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/bridged_race/intercensal.htm",
+      "text": "U.S. Intercensal Population Estimates by Specified Hispanic Origin Groups",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/marriage-divorce.htm",
+      "text": "Marriages and Divorces",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nmihs.htm",
+      "text": "National Maternal and Infant Health Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nvss/nvss_products.htm",
+      "text": "Publications and Information Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx",
+      "text": "RSS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Email Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/default.htm",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/funding",
+      "text": "Funding",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov/",
+      "text": "Instagram",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "LinkedIn",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/cdc/",
+      "text": "Youtube",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov/",
+      "text": "Pinterest",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "Snapchat",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/dcs/RequestForm.aspx",
+      "text": "Email",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": "Spanish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": "Chinese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": "Vietnamese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": "Korean"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": "Tagalog"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": "Russian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": "Arabic"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": "Haitian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": "French"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": "Polish"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": "Portuguese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": "Italian"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": "German"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": "Japanese"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": "Farsi"
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": "English"
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/od/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/ ",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov/",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

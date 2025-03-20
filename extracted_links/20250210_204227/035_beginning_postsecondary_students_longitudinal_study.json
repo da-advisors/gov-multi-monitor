@@ -1,0 +1,205 @@
+{
+  "source_yaml": "035_beginning_postsecondary_students_longitudinal_study.yaml",
+  "source_url": "https://nces.ed.gov/surveys/bps/",
+  "name": "Beginning Postsecondary Students Longitudinal Study",
+  "timestamp": "Tue, 11 Feb 2025 03:46:12 GMT",
+  "num_links": 39,
+  "links": [
+    {
+      "url": "https://surveys.nces.ed.gov/bps/about",
+      "text": "Click here for more information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb/#postsecondary-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/index.asp",
+      "text": "Beginning PostsecondaryStudents (BPS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/about.asp",
+      "text": "Survey Design and Methodology",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/datapractice.asp",
+      "text": "Data in Practice",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/availabledata.asp",
+      "text": "Available Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/TablesLibrary",
+      "text": "DataLab Tables Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/tablesaddl.asp",
+      "text": "User-Requested Tables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=014",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/?bps",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser",
+      "text": "Distance Learning Training Module",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What types of awards are attained at any institution by beginning students who first enroll in 4-year institutions?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete a certificate at their first institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What types of awards are attained at their first institution by beginning students who first enroll in 4-year institutions?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete a bachelor's degree at any institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete an associate's degree at their first institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete a certificate at any institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What types of awards are attained at any institution by beginning students who first enroll in public 2-year institutions?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete an associate's degree at any institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What types of awards are attained at their first institution by beginning students who first enroll in public 2-year institutions?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019401",
+      "text": "What percentage of beginning students complete a bachelor's degree at their first institution within 6 years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021177",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2021177",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020504",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020504",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser",
+      "text": "http://nces.ed.gov/training/datauser",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/whatsnew.asp",
+      "text": "Additional announcements",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/B&B",
+      "text": "Baccalaureateand Beyond",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas",
+      "text": "National PostsecondaryStudent Aid Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS \u2013 National Postsecondary Student Aid StudyNPSAS:AC \u2013 National Postsecondary Student Aid Study: Administrative CollectionBPS \u2013 Beginning Postsecondary Students Longitudinal StudyB&B \u2013 Baccalaureate and Beyond Longitudinal StudyPETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS:AC \u2013 National Postsecondary Student Aid Study: Administrative Collection",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "B&B \u2013 Baccalaureate and Beyond Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pets/",
+      "text": "PETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

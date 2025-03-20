@@ -2,7 +2,7 @@ name: Check URLs and Deploy Status Page
 
 on:
   schedule:
-    - cron: '0 * * * *'  # Run every hour
+    - cron: '0 */2 * * *'  # Run every 2 hours
   workflow_dispatch:  # Allow manual trigger
   push:
     branches: [ main ]
@@ -12,7 +12,7 @@ on:
       - '.github/workflows/**'
 
 permissions:
-  contents: read
+  contents: write  # Need write to push DB updates
   pages: write
   id-token: write
 
@@ -35,10 +35,31 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
+          pip install duckdb  # Install duckdb explicitly
           pip install -e .
       
+      - name: Download previous database
+        run: |
+          mkdir -p data
+          # Try to download previous DB, if it fails create a new one
+          if curl -L -f -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db; then
+            echo "Successfully downloaded existing database"
+          else
+            echo "No existing database found, creating new one"
+            # Copy from the repo as our initial database
+            cp data/monitor.db data/monitor.db.new
+            mv data/monitor.db.new data/monitor.db
+          fi
+      
       - name: Run URL checks
-        run: python -m multi_monitor check --verbose
+        env:
+          PYTHONPATH: /home/runner/work/gov-multi-monitor/gov-multi-monitor/src
+          PYTHONUNBUFFERED: 1  # Ensure we see output immediately
+          LOGLEVEL: DEBUG  # Set logging to debug level
+        run: |
+          # Set up debug logging
+          python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
+          python -m multi_monitor check --verbose
       
       - name: Generate status page
         run: |
@@ -49,6 +70,17 @@ jobs:
           # Create a redirect from index.html to status/index.html
           echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
       
+      - name: Upload database as release asset
+        uses: softprops/action-gh-release@v1
+        with:
+          files: data/monitor.db
+          tag_name: latest
+          name: Latest Database
+          body: |
+            Latest monitoring database from ${{ github.sha }}
+            
+            This release is automatically updated with each successful check.
+          
       - name: Setup Pages
         uses: actions/configure-pages@v4
       

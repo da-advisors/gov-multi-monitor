@@ -1,0 +1,998 @@
+{
+  "source_url": "https://nces.ed.gov/surveys/npsas/",
+  "name": "National Postsecondary Student Aid Study",
+  "timestamp": "Thu, 06 Feb 2025 15:15:41 GMT",
+  "num_links": 198,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/#content",
+      "text": "Skip Navigation",
+      "title": "Skip Navigation"
+    },
+    {
+      "url": "https://ies.ed.gov",
+      "text": "IES",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "NCESNational Center forEducation Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/annuals/",
+      "text": "Annual Reports",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/coe/",
+      "text": "Condition of Education",
+      "title": "Condition of Education"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/digest/",
+      "text": "Digest of Education Statistics",
+      "title": "Digest of Education Statistics"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/pes/",
+      "text": "Projections of Education Statistics",
+      "title": "Projections of Education Statistics"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/annualreports/topical-studies/summary/",
+      "text": "Topical Studies",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=4",
+      "text": "National Assessments",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard",
+      "text": "National Assessment of Educational Progress (NAEP)",
+      "title": "National Assessment of Educational Progress (NAEP)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/piaac/index.asp",
+      "text": "Program for the International Assessment of Adult Competencies (PIAAC)",
+      "title": "Program for the International Assessment of Adult Competencies (PIAAC)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/international/",
+      "text": "International Assessments",
+      "title": "International"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/international/",
+      "text": "International Activities Program (IAP)",
+      "title": "International Activities Program (IAP)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=3",
+      "text": "Early Childhood",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ecls/",
+      "text": "Early Childhood Longitudinal Study (ECLS)",
+      "title": "Early Childhood Longitudinal Study (ECLS)"
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "National Household Education Survey (NHES)",
+      "title": "National Household Education Survey (NHES)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=1",
+      "text": "Elementary/ Secondary",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/",
+      "text": "Common Core of Data (CCD)",
+      "title": "Common Core of Data (CCD)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/slsp/",
+      "text": "Secondary Longitudinal Studies Program",
+      "title": "Secondary Longitudinal Studies Program"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/edge/",
+      "text": "Education Demographic and Geographic Estimates (EDGE)",
+      "title": "Education Demographic and Geographic Estimates (EDGE)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ntps/",
+      "text": "National Teacher and Principal Survey (NTPS)",
+      "title": "National Teacher and Principal Survey (NTPS)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=1",
+      "text": "more...",
+      "title": "more Elementary/Secondary"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=5",
+      "text": "Library",
+      "title": "Library"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/libraries/",
+      "text": "Library Statistics Program",
+      "title": "Library Statistics Program"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=2",
+      "text": "Postsecondary",
+      "title": "Postsecondary"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "Baccalaureate and Beyond (B&B)",
+      "title": "Baccalaureate and Beyond (B&B)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ctes/",
+      "text": "Career/Technical Education Statistics (CTES)",
+      "title": "Career/Technical Education Statistics (CTES)"
+    },
+    {
+      "url": "https://nces.ed.gov/ipeds/",
+      "text": "Integrated Postsecondary Education Data System (IPEDS)",
+      "title": "Integrated Postsecondary Education Data System (IPEDS)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "National Postsecondary Student Aid Study (NPSAS)",
+      "title": "National Postsecondary Student Aid Study (NPSAS)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=2",
+      "text": "more...",
+      "title": "more Postsecondary"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=8",
+      "text": "Data Systems, Use, & Privacy",
+      "title": "Data Systems, Use, & Privacy"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/ceds/",
+      "text": "Common Education Data Standards (CEDS)",
+      "title": "Common Education Data Standards (CEDS)"
+    },
+    {
+      "url": "https://nces.ed.gov/forum/",
+      "text": "National Forum on Education Statistics",
+      "title": "National Forum on Education Statistics"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/SLDS/",
+      "text": "Statewide Longitudinal Data Systems Grant Program - (SLDS)",
+      "title": "Statewide Longitudinal Data Systems Grant Program - (SLDS)"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=8",
+      "text": "more...",
+      "title": "more Data Systems, Use, & Privacy"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=7",
+      "text": "Resources",
+      "title": "Resources"
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser/",
+      "text": "Distance Learning Dataset Training",
+      "title": "Distance Learning Dataset Training"
+    },
+    {
+      "url": "https://nces.ed.gov/npec/",
+      "text": "National Postsecondary Education Cooperative (NPEC)",
+      "title": "National Postsecondary Education Cooperative (NPEC)"
+    },
+    {
+      "url": "https://nces.ed.gov/statprog/",
+      "text": "Statistical Standards Program",
+      "title": "Statistical Standards Program"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/SurveyGroups.asp?group=7",
+      "text": "more...",
+      "title": "more Resources"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools",
+      "text": "Data & Tools",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=1",
+      "text": "Downloads Microdata/Raw Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ipeds/use-the-data/delta-cost-project-finance-data",
+      "text": "Delta Cost Project",
+      "title": "Delta Cost Project"
+    },
+    {
+      "url": "https://nces.ed.gov/ipeds/datacenter/",
+      "text": "IPEDS Data Center",
+      "title": "IPEDS Data Center"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/licenses.asp",
+      "text": "How to apply for Restricted Use License",
+      "title": "How to apply for Restricted Use License"
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/onlinecodebook/",
+      "text": "Online Codebook",
+      "title": "Online Codebook"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=2",
+      "text": "Online Analysis",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/edge/Demographic/ACS",
+      "text": "ACS-ED Tables",
+      "title": "ACS-ED Tables"
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/",
+      "text": "Data Lab",
+      "title": "Data Lab"
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/elsi/",
+      "text": "Elementary Secondary Information System",
+      "title": "Elementary Secondary Information System"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/international/ide/",
+      "text": "International Data Explorer",
+      "title": "International Data Explorer"
+    },
+    {
+      "url": "https://nces.ed.gov/ipeds/datacenter/",
+      "text": "IPEDS Data Center",
+      "title": "IPEDS Data Center"
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/naepdata/",
+      "text": "NAEP Data Explorer",
+      "title": "NAEP Data Explorer"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=3",
+      "text": "School and College Search",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/edge/acsdashboard",
+      "text": "ACS Dashboard",
+      "title": "ACS Dashboard"
+    },
+    {
+      "url": "https://nces.ed.gov/collegenavigator/",
+      "text": "College Navigator",
+      "title": "College Navigator"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pss/privateschoolsearch/",
+      "text": "Private Schools",
+      "title": "Private Schools"
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/districtsearch/",
+      "text": "Public School Districts",
+      "title": "Public School Districts"
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/schoolsearch/",
+      "text": "Public Schools",
+      "title": "CCD School Search"
+    },
+    {
+      "url": "https://nces.ed.gov/globallocator/",
+      "text": "Search for Schools and Colleges",
+      "title": "Search for Schools and Colleges"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=4",
+      "text": "Comparison Tools",
+      "title": ""
+    },
+    {
+      "url": "https://www.nationsreportcard.gov/profiles/stateprofile/",
+      "text": "NAEP State Profiles (nationsreportcard.gov)",
+      "title": "NAEP State Profiles"
+    },
+    {
+      "url": "https://nces.ed.gov/edfin/search/search_intro.asp",
+      "text": "Public School District Finance Peer Search",
+      "title": "Public School District Finance Peer Search"
+    },
+    {
+      "url": "https://nces.ed.gov/edfin/index.asp",
+      "text": "Education Finance Statistics Center",
+      "title": "Education Finance Statistics Center"
+    },
+    {
+      "url": "https://nces.ed.gov/ipeds/datacenter/",
+      "text": "IPEDS Data Center",
+      "title": "IPEDS Data Center"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=5",
+      "text": "Questionnaire Tools",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nationsreportcard/itmrlsx/",
+      "text": "NAEP Question Tool",
+      "title": "NAEP Question Tool"
+    },
+    {
+      "url": "https://nces.ed.gov/NAAL/sample_items.asp",
+      "text": "NAAL Questions Tool",
+      "title": "NAAL Questions Tool"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=6",
+      "text": "Geographic Tools",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/edge/acsdashboard",
+      "text": "ACS-ED Dashboard",
+      "title": "ACS-ED Dashboard"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/maped/ACSMaps",
+      "text": "ACS-ED Maps",
+      "title": "ACS-ED Maps"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/maped/LocaleLookup",
+      "text": "Locale Lookup",
+      "title": "Locale Lookup"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/maped",
+      "text": "MapEd",
+      "title": "MapEd"
+    },
+    {
+      "url": "https://nces.ed.gov/programs/mapED/SafeMap",
+      "text": "SAFEMap",
+      "title": "SAFEMap"
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/schoolmap",
+      "text": "School and District Navigator",
+      "title": "School and District Navigator"
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/index.asp?DataToolSectionID=7",
+      "text": "Other Tools",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/",
+      "text": "Bibliography",
+      "title": "Bibliography"
+    },
+    {
+      "url": "https://datainventory.ed.gov",
+      "text": "ED Data Inventory",
+      "title": "Bibliography"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/",
+      "text": "Fast Facts",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption1#faqFFOption1",
+      "text": "Assessments",
+      "title": "Assessments"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption2#faqFFOption2",
+      "text": "Early Childhood",
+      "title": "Early Childhood"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption3#faqFFOption3",
+      "text": "Elementary and Secondary",
+      "title": "Elementary and Secondary"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption4#faqFFOption4",
+      "text": "Postsecondary and Beyond",
+      "title": "Postsecondary and Beyond"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption5#faqFFOption5",
+      "text": "Resources",
+      "title": "Resources"
+    },
+    {
+      "url": "https://nces.ed.gov/fastfacts/index.asp?faq=FFOption6#faqFFOption6",
+      "text": "Special Topics",
+      "title": "Special Topics"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/",
+      "text": "News & Events",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "NCES Blog",
+      "title": "NCES Blog"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/",
+      "text": "What's New at NCES",
+      "title": "What's New at NCES"
+    },
+    {
+      "url": "https://ies.ed.gov/whatsnew/conferences/?cid=2",
+      "text": "Conferences/Training",
+      "title": "Conferences/Training"
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "NewsFlash",
+      "title": "NewsFlash"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/Solicitations.asp",
+      "text": "Funding Opportunities",
+      "title": "Funding Opportunities"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/NCESNews.asp",
+      "text": "Press Releases",
+      "title": "Press Releases"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/statchat/index.asp",
+      "text": "StatChat",
+      "title": "StatChat"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/",
+      "text": "Publications & Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/",
+      "text": "Search Publications and Products",
+      "title": "Search Publications and Products"
+    },
+    {
+      "url": "https://nces.ed.gov/annuals/",
+      "text": "Annual Reports",
+      "title": "Publications"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/licenses.asp",
+      "text": "Restricted-use Data Licenses",
+      "title": "Restricted-use Data Licenses"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/index.asp?searchcat2=pubslast90&HasSearched=1",
+      "text": "Recent Publications",
+      "title": "Recent Publications"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/Subindx.asp",
+      "text": "By Subject Index A-Z",
+      "title": "By Subject Index A-Z"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/surveylist.asp",
+      "text": "By Survey & Program Areas",
+      "title": "By Survey & Program Areas"
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/index.asp?searchcat2=pubslast6month&HasSearched=1",
+      "text": "Data Products Last 6 Months",
+      "title": "Data Products Last 6 Months"
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/about/",
+      "text": "About NCES",
+      "title": "About NCES"
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/commissioner/index.asp",
+      "text": "Commissioner",
+      "title": "Commissioner"
+    },
+    {
+      "url": "https://nces.ed.gov/help/webmail/",
+      "text": "Contact NCES",
+      "title": "Contact NCES"
+    },
+    {
+      "url": "https://nces.ed.gov/staff/stafflist.asp",
+      "text": "Staff",
+      "title": "Staff"
+    },
+    {
+      "url": "https://nces.ed.gov/help",
+      "text": "Help",
+      "title": "Help"
+    },
+    {
+      "url": "https://nces.ed.gov/help/webmail/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/",
+      "text": "Tools",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "ED.gov",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "Newsflash",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "NCES Blog",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/EdNCES",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/EdNCES",
+      "text": "X",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nceskids/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://surveys.nces.ed.gov/NPSAS/about",
+      "text": "Click here for more information.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb/#postsecondary-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/index.asp",
+      "text": "National PostsecondaryStudent Aid Study (NPSAS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/about.asp",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/state_oversamples.asp",
+      "text": "State Oversamples",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/questionnaire.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/availabledata.asp",
+      "text": "Available Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/TablesLibrary",
+      "text": "DataLab Tables Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/tablesaddl.asp",
+      "text": "User-Requested Tables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=013",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/?npsas",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser",
+      "text": "Distance Learning Training Module",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received financial aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of financial aid received by undergraduates?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received any federal aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of federal aid received by undergraduates?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates are Pell grant recipients?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received federal Direct loans?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average federal Direct loans?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of graduate students receive financial aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of financial aid received by graduate students?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://surveys.nces.ed.gov/NPSAS/about",
+      "text": "Click here for more information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024483",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024483",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023466",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023466",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps",
+      "text": "BeginningPostsecondaryStudents",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b",
+      "text": "Baccalaureateand Beyond",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "BPS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "B&B",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "PETS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps",
+      "text": "BPS \u2013 Beginning Postsecondary Students Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b",
+      "text": "B&B \u2013 Baccalaureate and Beyond Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pets/",
+      "text": "PETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/",
+      "text": "IES",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "NCESNational Center forEducation Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/EdNCES",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/ednces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/EdNCES/featured",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/",
+      "text": "IES",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/aboutus/",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/pubsearch/",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/data.asp",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/funding/",
+      "text": "Funding",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/events.asp",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/",
+      "text": "NCEE",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/ncer/",
+      "text": "NCER",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "NCES",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/about/",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/",
+      "text": "Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datatools/",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser/",
+      "text": "Data Training",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/globallocator/",
+      "text": "School Search",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/whatsnew/",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nceskids/",
+      "text": "Kids' Zone",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/ncser/",
+      "text": "NCSER",
+      "title": ""
+    },
+    {
+      "url": "https://datainventory.ed.gov",
+      "text": "ED Data Inventory",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/aboutus/diversity.asp",
+      "text": "IES Diversity Statement",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/statprog/2012/",
+      "text": "NCES Statistical Standards",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/director/sro/",
+      "text": "Peer Review Process",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/help/privacy.asp",
+      "text": "Privacy and Security Policies",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/funding/researchaccess.asp",
+      "text": "Public Access Policy",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/help/webmail/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "http://www.ed.gov/",
+      "text": "U.S. Department of Education",
+      "title": ""
+    },
+    {
+      "url": "https://eric.ed.gov/",
+      "text": "ERIC",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/help/sitemap.asp",
+      "text": "Sitemap",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/about/?sec=orgchart",
+      "text": "Organizational Chart",
+      "title": ""
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "source_yaml": "044_national_household_education_surveys_program.yaml",
+  "source_url": "https://nces.ed.gov/nhes/",
+  "name": "National Household Education Surveys Program",
+  "timestamp": "Tue, 11 Feb 2025 03:46:57 GMT",
+  "num_links": 35,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/nhes/index.asp",
+      "text": "National Household Education Surveys Program (NHES)",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/NHES/contact.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/EdNCES",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/ednces/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/EdNCES/featured",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/about.asp",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "Topics",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/young_children.asp",
+      "text": "Young Children's Care and Education Before Kindergarten",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "Parent Involvement in Education from Kindergarten to High School",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/homeschooling.asp",
+      "text": "Homeschooling",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/data_files.asp",
+      "text": "Data Files & Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/",
+      "text": "Publications & Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/publications.asp",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/research.asp",
+      "text": "Methodological Research",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/tables.asp",
+      "text": "Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=004",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/newsflash/#nces",
+      "text": "Join Newsflash",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/NHES/contact.asp",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/blogs/nces/",
+      "text": "NCES Blog",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/EdNCES",
+      "text": "Twitter",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/EdNCES/",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/c/EdNCES/featured",
+      "text": "YouTube",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubSearch/pubsinfo.asp?pubid=2024112",
+      "text": "Early Childhood Program Participation: 2023 (September 2024)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024113",
+      "text": "Parent and Family Involvement in Education: 2023 (September 2024)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023085",
+      "text": "Families\u2019 Participation in School Choice and Importance of Factors in School Choice Decisions in 2019 (September 2023)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubSearch/pubsinfo.asp?pubid=2023101",
+      "text": "2019 Homeschooling and Full-Time Virtual Education Rates (September 2023)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubSearch/pubsinfo.asp?pubid=2022001",
+      "text": "National Household Education Surveys Program of 2019: Methodological Experiments Report (June 2022)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/parent_involvement.asp",
+      "text": "Parent Involvement in Education from Kindergarten to High School",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/homeschooling.asp",
+      "text": "Homeschooling",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nhes/young_children.asp",
+      "text": "Young Children\u00e2\u0080\u0099s Care and Education Before Kindergarten",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

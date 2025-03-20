@@ -1,0 +1,1317 @@
+{
+  "source_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#list-tab-1264157801",
+  "timestamp": "Thu, 06 Feb 2025 19:51:13 GMT",
+  "num_links": 262,
+  "links": [
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#content",
+      "text": "Skip Header",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom.html",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/naics",
+      "text": "NAICS Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about-us",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "Topics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "Data & Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "Resource Library",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/quickfacts.html",
+      "text": "QuickFacts U.S. Data Finder",
+      "title": ""
+    },
+    {
+      "url": "https://data.census.gov/advanced",
+      "text": "Advanced Data Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/idb",
+      "text": "International Database (IDB)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/history/census-records-family-history.html",
+      "text": "Census Records & Genealogy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/quickfacts.html",
+      "text": "QuickFacts U.S. Data Finder",
+      "title": ""
+    },
+    {
+      "url": "https://data.census.gov/advanced",
+      "text": "Advanced Data Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/idb",
+      "text": "International Database (IDB)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/history/census-records-family-history.html",
+      "text": "Census Records & Genealogy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "View All Topics and Subtopics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/index.html",
+      "text": "Index A to Z",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/age-and-sex.html",
+      "text": "Age and Sex",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/businessandeconomy",
+      "text": "Business and Economy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/education.html",
+      "text": "Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/disasters",
+      "text": "Emergency Management / Disasters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/employment.html",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/families.html",
+      "text": "Families and Living Arrangements",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geography",
+      "text": "Geography",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/health.html",
+      "text": "Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/hispanic-origin.html",
+      "text": "Hispanic Origin",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/housing.html",
+      "text": "Housing",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/income-poverty.html",
+      "text": "Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/international-trade.html",
+      "text": "International Trade",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/migration.html",
+      "text": "Migration/Geographic Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population.html",
+      "text": "Population",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/population-estimates.html",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/govs",
+      "text": "Public Sector",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/race.html",
+      "text": "Race",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
+      "text": "Redistricting",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/public-sector/voting.html",
+      "text": "Voting and Registration",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/data-cedsci.html",
+      "text": "Explore data on data.census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "View all data resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Census Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/what/admin-data.html",
+      "text": "Combining Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools.html",
+      "text": "Data Tools and Apps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/datasets.html",
+      "text": "Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/developers/",
+      "text": "Developers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/interactive-maps",
+      "text": "Interactive Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geographies/mapping-files.html",
+      "text": "Mapping Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/profile.html",
+      "text": "Profiles",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/related-sites.html",
+      "text": "Related Sites",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/software.html",
+      "text": "Software",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/tables.html",
+      "text": "Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/training-workshops.html",
+      "text": "Training and Workshops",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "View all Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2020census",
+      "text": "2020 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2026test",
+      "text": "2026 Census Test",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2030census",
+      "text": "2030 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AHS",
+      "text": "American Housing Survey (AHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/abs",
+      "text": "Annual Business Survey (ABS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/aies",
+      "text": "Annual Integrated Economic Survey (AIES)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp.html",
+      "text": "County Business Patterns (CBP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cps.html",
+      "text": "Current Population Survey (CPS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/EconomicCensus",
+      "text": "Economic Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulse",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/internationalprograms",
+      "text": "International Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/metro-micro.html",
+      "text": "Metro and Micro Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/popest",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/popproj.html",
+      "text": "Population Projections",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/saipe.html",
+      "text": "Small Area Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "text": "Statistics of U.S. Businesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/sipp/",
+      "text": "Survey of Income and Program Participation (SIPP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "View all library resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/glossary.html",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts: Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/audio.html",
+      "text": "Audio",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs.html",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/by-the-numbers.html",
+      "text": "By the Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/facts-for-features.html",
+      "text": "Facts for Features",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/fact-sheets.html",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Infographics and Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/photos.html",
+      "text": "Photos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/publications.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/spotlights.html",
+      "text": "Spotlights",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/stories.html",
+      "text": "Stats for Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Training (Census Academy)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/video.html",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/working-papers.html",
+      "text": "Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/partners",
+      "text": "Partners",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/schools",
+      "text": "Educators",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Respondents",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom.html",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/naics",
+      "text": "NAICS Codes",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about-us",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics.html",
+      "text": "View All Topics and Subtopics",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/index.html",
+      "text": "Index A to Z",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/age-and-sex.html",
+      "text": "Age and Sex",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/businessandeconomy",
+      "text": "Business and Economy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/education.html",
+      "text": "Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/disasters",
+      "text": "Emergency Management / Disasters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/employment.html",
+      "text": "Employment",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/families.html",
+      "text": "Families and Living Arrangements",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geography",
+      "text": "Geography",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/health.html",
+      "text": "Health",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/hispanic-origin.html",
+      "text": "Hispanic Origin",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/housing.html",
+      "text": "Housing",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/income-poverty.html",
+      "text": "Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/international-trade.html",
+      "text": "International Trade",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/migration.html",
+      "text": "Migration/Geographic Mobility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population.html",
+      "text": "Population",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/population-estimates.html",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/govs",
+      "text": "Public Sector",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/population/race.html",
+      "text": "Race",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html",
+      "text": "Redistricting",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/research.html",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/topics/public-sector/voting.html",
+      "text": "Voting and Registration",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/data-cedsci.html",
+      "text": "Explore data on data.census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data",
+      "text": "View all data resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Census Academy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/what/admin-data.html",
+      "text": "Combining Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools.html",
+      "text": "Data Tools and Apps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/datasets.html",
+      "text": "Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/developers/",
+      "text": "Developers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/experimental-data-products.html",
+      "text": "Experimental Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/interactive-maps",
+      "text": "Interactive Maps",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/geographies/mapping-files.html",
+      "text": "Mapping Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/profile.html",
+      "text": "Profiles",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/related-sites.html",
+      "text": "Related Sites",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/software.html",
+      "text": "Software",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/tables.html",
+      "text": "Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/training-workshops.html",
+      "text": "Training and Workshops",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/surveyhelp",
+      "text": "Survey Help",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "View all Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2020census",
+      "text": "2020 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2026test",
+      "text": "2026 Census Test",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/2030census",
+      "text": "2030 Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/acs",
+      "text": "American Community Survey (ACS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AHS",
+      "text": "American Housing Survey (AHS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/abs",
+      "text": "Annual Business Survey (ABS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/aies",
+      "text": "Annual Integrated Economic Survey (AIES)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cbp.html",
+      "text": "County Business Patterns (CBP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/cps.html",
+      "text": "Current Population Survey (CPS)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/EconomicCensus",
+      "text": "Economic Census",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulse",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/internationalprograms",
+      "text": "International Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/metro-micro.html",
+      "text": "Metro and Micro Areas",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/popest",
+      "text": "Population Estimates",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/popproj.html",
+      "text": "Population Projections",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/saipe.html",
+      "text": "Small Area Income and Poverty",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/susb.html",
+      "text": "Statistics of U.S. Businesses",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/sipp/",
+      "text": "Survey of Income and Program Participation (SIPP)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library.html",
+      "text": "View all library resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/data/data-tools/glossary.html",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts: Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/audio.html",
+      "text": "Audio",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs.html",
+      "text": "Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/by-the-numbers.html",
+      "text": "By the Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/facts-for-features.html",
+      "text": "Facts for Features",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/fact-sheets.html",
+      "text": "Fact Sheets",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/visualizations.html",
+      "text": "Infographics and Visualizations",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/photos.html",
+      "text": "Photos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/publications.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/spotlights.html",
+      "text": "Spotlights",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/stories.html",
+      "text": "Stats for Stories",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/academy",
+      "text": "Training (Census Academy)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/video.html",
+      "text": "Videos",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/library/working-papers.html",
+      "text": "Working Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/en.html",
+      "text": "Census.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys.html",
+      "text": "Our Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulse",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#content",
+      "text": "Skip Navigation",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html",
+      "text": "Within Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/tables.html",
+      "text": "Data Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/data-tools.html",
+      "text": "Data Tool",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "text": "Public Use File (PUF)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data.html",
+      "text": "Within Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/tables.html",
+      "text": "Data Tables",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/data-tools.html",
+      "text": "Data Tool",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "text": "Public Use File (PUF)",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs/random-samplings/2024/09/evolving-household-pulse-survey.html",
+      "text": "Evolving the Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2024.html#list-tab-1264157801",
+      "text": "2024",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2023.html#list-tab-1264157801",
+      "text": "2023",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#list-tab-1264157801",
+      "text": "2022",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2021.html#list-tab-1264157801",
+      "text": "2021",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2020.html#list-tab-1264157801",
+      "text": "2020",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-6",
+      "text": "Phase 3.6 PUF Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-5",
+      "text": "Phase 3.5 PUF Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-4",
+      "text": "Phase 3.4 PUF Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#phase-3-3",
+      "text": "Phase 3.3 PUF Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk51/HPS_Week51_PUF_SAS.zip",
+      "text": "HPS Week 51 PUF SAS [79.9 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk51/HPS_Week51_PUF_CSV.zip",
+      "text": "HPS Week 51 PUF CSV [65.3 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk50/HPS_Week50_PUF_SAS.zip",
+      "text": "HPS Week 50 PUF SAS [54.7 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk50/HPS_Week50_PUF_CSV.zip",
+      "text": "HPS Week 50 PUF CSV [44.7 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk49/HPS_Week49_PUF_SAS.zip",
+      "text": "HPS Week 49 PUF SAS [66.3 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk49/HPS_Week49_PUF_CSV.zip",
+      "text": "HPS Week 49 PUF CSV [54.1 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk48/HPS_Week48_PUF_SAS.zip",
+      "text": "HPS Week 48 PUF SAS [60.7 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk48/HPS_Week48_PUF_CSV.zip",
+      "text": "HPS Week 48 PUF CSV [49.4 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk47/HPS_Week47_PUF_SAS.zip",
+      "text": "HPS Week 47 PUF SAS [75.6 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk47/HPS_Week47_PUF_CSV.zip",
+      "text": "HPS Week 47 PUF CSV [61.5 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk46/HPS_Week46_PUF_SAS.zip",
+      "text": "HPS Week 46 PUF SAS [81.2 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk46/HPS_Week46_PUF_CSV.zip",
+      "text": "HPS Week 46 PUF CSV [66.2 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk45/HPS_Week45_PUF_SAS.zip",
+      "text": "HPS Week 45 PUF SAS [78.1 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk45/HPS_Week45_PUF_CSV.zip",
+      "text": "HPS Week 45 PUF CSV [64.3 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk44/HPS_Week44_PUF_SAS.zip",
+      "text": "HPS Week 44 PUF SAS [80.6 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk44/HPS_Week44_PUF_CSV.zip",
+      "text": "HPS Week 44 PUF CSV [66.3 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk43/HPS_Week43_PUF_SAS.zip",
+      "text": "HPS Week 43 PUF SAS [105.8 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk43/HPS_Week43_PUF_CSV.zip",
+      "text": "HPS Week 43 PUF CSV [87.2 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk42/HPS_Week42_PUF_SAS.zip",
+      "text": "HPS Week 42 PUF SAS [94.9 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk42/HPS_Week42_PUF_CSV.zip",
+      "text": "HPS Week 42 PUF CSV [78.2 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk41/HPS_Week41_PUF_SAS.zip",
+      "text": "HPS Week 41 PUF SAS [94.6 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2022/wk41/HPS_Week41_PUF_CSV.zip",
+      "text": "HPS Week 41 PUF CSV [77.8 MB]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?quote=Cycle+releases+to+the+Household+Pulse+Survey+PUF+files.&u=https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
+      "text": "Facebook",
+      "title": "Facebook"
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?url=https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html&text=Cycle+releases+to+the+Household+Pulse+Survey+PUF+files.",
+      "text": "X (Twitter)",
+      "title": "X (Twitter)"
+    },
+    {
+      "url": "https://www.linkedin.com/sharing/share-offsite/?url=https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html&title=Household+Pulse+Survey+Public+Use+File+%28PUF%29&text=Cycle+releases+to+the+Household+Pulse+Survey+PUF+files.&source=U.S.+Census+Bureau",
+      "text": "LinkedIn",
+      "title": "LinkedIn"
+    },
+    {
+      "url": "https://www.census.gov/householdpulsedata",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/householdpulsedata",
+      "text": "Household Pulse Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.2022.html#uscb-nav-skip-header",
+      "text": "Back to Header",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/AmericaCounts",
+      "text": "America Counts",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/directorsblog",
+      "text": "Director\u2019s Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/newsroom/blogs/deputy-director.html",
+      "text": "Deputy Director\u2019s Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/randomsamplings",
+      "text": "Random Samplings",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/researchmatters",
+      "text": "Research Matters",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/about/contact-us.html",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/help",
+      "text": "Support",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/careers",
+      "text": "Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "Facebook"
+    },
+    {
+      "url": "https://twitter.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "X (Twitter)"
+    },
+    {
+      "url": "https://www.linkedin.com/company/us-census-bureau/",
+      "text": "[No text]",
+      "title": "Linkedln"
+    },
+    {
+      "url": "https://www.youtube.com/user/uscensusbureau/",
+      "text": "[No text]",
+      "title": "YouTube"
+    },
+    {
+      "url": "https://www.instagram.com/uscensusbureau/",
+      "text": "[No text]",
+      "title": "Instagram"
+    },
+    {
+      "url": "https://www.census.gov/quality/",
+      "text": "Information Quality",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/datalinkage",
+      "text": "Data Linkage Infrastructure",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/privacy",
+      "text": "Data Protection and Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/section508",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.census.gov/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.oig.doc.gov",
+      "text": "Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://www.commerce.gov/cr/reports-and-resources/no-fear-act",
+      "text": "No FEAR Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.commerce.gov/",
+      "text": "U.S. Department of Commerce",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    }
+  ]
+}

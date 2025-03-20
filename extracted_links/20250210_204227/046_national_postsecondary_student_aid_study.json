@@ -1,0 +1,210 @@
+{
+  "source_yaml": "046_national_postsecondary_student_aid_study.yaml",
+  "source_url": "https://nces.ed.gov/surveys/npsas/",
+  "name": "National Postsecondary Student Aid Study",
+  "timestamp": "Tue, 11 Feb 2025 03:45:36 GMT",
+  "num_links": 40,
+  "links": [
+    {
+      "url": "https://surveys.nces.ed.gov/NPSAS/about",
+      "text": "Click here for more information.",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb/#postsecondary-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/index.asp",
+      "text": "National PostsecondaryStudent Aid Study (NPSAS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/about.asp",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/state_oversamples.asp",
+      "text": "State Oversamples",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/questionnaire.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/availabledata.asp",
+      "text": "Available Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/TablesLibrary",
+      "text": "DataLab Tables Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/tablesaddl.asp",
+      "text": "User-Requested Tables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=013",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/?npsas",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser",
+      "text": "Distance Learning Training Module",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received financial aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of financial aid received by undergraduates?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received any federal aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of federal aid received by undergraduates?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates are Pell grant recipients?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of undergraduates received federal Direct loans?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average federal Direct loans?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "What percentage of graduate students receive financial aid?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018466",
+      "text": "How much is the average amount of financial aid received by graduate students?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://surveys.nces.ed.gov/NPSAS/about",
+      "text": "Click here for more information",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024483",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024483",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023466",
+      "text": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2023466",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps",
+      "text": "BeginningPostsecondaryStudents",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b",
+      "text": "Baccalaureateand Beyond",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "BPS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "B&B",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "PETS",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps",
+      "text": "BPS \u2013 Beginning Postsecondary Students Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b",
+      "text": "B&B \u2013 Baccalaureate and Beyond Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pets/",
+      "text": "PETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

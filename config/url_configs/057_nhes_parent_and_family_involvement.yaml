@@ -21,7 +21,7 @@ linked_urls:
     name: Methodological Research
   - url: https://nces.ed.gov/nhes/tables.asp
     name: Table Library
-  - url: https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=004
+  - url: https://nces.ed.gov/about/directory/nces-staff
     name: Staff
   - url: https://nces.ed.gov/nhes/pdf/pfi-e_infographic.pdf
     name: NHES Sample and Methods(PFI Infographic PDF)
@@ -45,8 +45,6 @@ linked_urls:
     name: Early Childhood Longitudinal Studies
   - url: https://nces.ed.gov/programs/statereform/about.asp
     name: State Education Practices (SEP)
-  - url: https://ies.ed.gov/ncee/rel/Project/4509
-    name: The Institute of Education Sciences Toolkit of Resources for Engaging Families and the Community as Partners in Education
   - url: https://nces.ed.gov/nhes/dataproducts.asp#2019dp
     name: 2019 PFI Data File
   - url: https://nces.ed.gov/nhes/pdf/pfi/2023_pfi.pdf

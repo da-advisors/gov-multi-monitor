@@ -1,0 +1,30 @@
+url: https://www.ssa.gov/oact/STATS/OASDIbenies.html
+name: Social Security Beneficiary Statistics
+expected_update_frequency: null
+tags:
+  - social security
+linked_urls:
+  - url: https://www.ssa.gov/oact/STATS/OASDIbenies.html
+    name: Beneficiaries by broad groups
+  - url: https://www.ssa.gov/oact/STATS/OAbenies.html
+    name: Retired workers & dependents
+  - url: https://www.ssa.gov/oact/STATS/SRVbenies.html
+    name: Survivors
+  - url: https://www.ssa.gov/oact/STATS/DIbenies.html
+    name: Disabled workers & dependents
+  - url: https://www.ssa.gov/oact/ProgData/icpGraph.html
+    name: Graph of Benefits in Current Payment Status
+  - url: https://www.ssa.gov/oact/ProgData/describeoasi.html
+    name: Old-Age & Survivors Insurance Trust Fund
+  - url: https://www.ssa.gov/oact/ProgData/describedi.html
+    name: Disability Insurance
+  - url: https://www.ssa.gov/oact/ProgData/icp.html
+    name: Benefits Paid by Type of Beneficiary
+  - url: https://www.ssa.gov/oact/ProgData/famben.html
+    name: Benefits Paid by Type of Family
+  - url: https://www.ssa.gov/oact/ProgData/family.html
+    name: Family Benefits
+  - url: https://www.ssa.gov/oact/ProgData/insured.html
+    name: Insured Status Requirements
+  - url: https://www.ssa.gov/oact/ProgData/awards.html
+    name: Benefits Awarded by Type of Beneficiary

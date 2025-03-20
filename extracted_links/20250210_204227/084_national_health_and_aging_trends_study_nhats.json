@@ -1,0 +1,300 @@
+{
+  "source_yaml": "084_national_health_and_aging_trends_study_nhats.yaml",
+  "source_url": "https://www.nhats.org/researcher/nhats",
+  "name": "National Health and Aging Trends Study (NHATS)",
+  "timestamp": "Tue, 11 Feb 2025 03:43:27 GMT",
+  "num_links": 58,
+  "links": [
+    {
+      "url": "https://www.nhats.org/researcher/nhats",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher",
+      "text": "Home",
+      "title": "Researcher Home"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats",
+      "text": "NHATS",
+      "title": "National Health and Aging Trends Study (NHATS)"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc",
+      "text": "NSOC",
+      "title": "National Study of Caregiving (NSOC)"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access",
+      "text": "Data",
+      "title": "Data Access"
+    },
+    {
+      "url": "https://www.nhats.org/publications/search",
+      "text": "Publications",
+      "title": "Publications"
+    },
+    {
+      "url": "https://micda.isr.umich.edu/research/nhats-trends-dashboards/",
+      "text": "Trends",
+      "title": "Trends"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about",
+      "text": "About",
+      "title": "About"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access",
+      "text": "Log in",
+      "title": "Login"
+    },
+    {
+      "url": "https://www.nhats.org/researcher",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access",
+      "text": "Log in",
+      "title": "Login"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats",
+      "text": "NHATS",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=user_guide",
+      "text": "User Guide",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=data_collection",
+      "text": "Data Collection",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=technical-papers",
+      "text": "Technical Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=instruments",
+      "text": "Instruments",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=variable-crosswalk",
+      "text": "CrossWalks",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/videos",
+      "text": "Getting Started",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc",
+      "text": "NSOC",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc/methods-documentation?id=user_guide",
+      "text": "User Guide",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc/methods-documentation?id=variable-crosswalk",
+      "text": "CrossWalks",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc/methods-documentation?id=technical_papers",
+      "text": "Technical Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc/methods-documentation?id=instruments",
+      "text": "Instruments",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc/videos",
+      "text": "Getting Started",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access",
+      "text": "Data Access",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access/public-use-files",
+      "text": "Public Use Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access/sensitive-data-files?id=nsoc_other_sensitive_files",
+      "text": "Sensitive Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access/sensitive-data-files?id=restricted_data_files",
+      "text": "Restricted Files",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/data-access/cross-year-search",
+      "text": "Cross Year Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/publications/search",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://micda.isr.umich.edu/research/nhats-trends-dashboards/",
+      "text": "Trends",
+      "title": "Trends"
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about?id=at-a-glance",
+      "text": "At-a-Glance",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about?id=leadership",
+      "text": "Leadership",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about?id=advisory-boards",
+      "text": "Advisory Board",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/about?id=sponsors",
+      "text": "Sponsors",
+      "title": ""
+    },
+    {
+      "url": "https://mynhats.org/nhats",
+      "text": "NHATS Participants",
+      "title": ""
+    },
+    {
+      "url": "https://mynhats.org/nsoc",
+      "text": "NSOC Participants",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher",
+      "text": "Welcome Researchers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc",
+      "text": "National Study of Caregiving (NSOC)",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nsoc",
+      "text": "National Study of Caregiving (NSOC)",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=user_guide",
+      "text": "User Guides",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=technical-papers",
+      "text": "Technical Papers",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=instruments",
+      "text": "Instruments",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=variable-crosswalk",
+      "text": "Instrument-Variable Crosswalks",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/methods-documentation?id=data_collection",
+      "text": "Data Collection Materials",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/researcher/nhats/videos",
+      "text": "Getting Started",
+      "title": ""
+    },
+    {
+      "url": "https://www.nhats.org/user/register",
+      "text": "Create new account",
+      "title": "Create a new user account."
+    },
+    {
+      "url": "https://www.nhats.org/user/password",
+      "text": "Reset your password",
+      "title": "Send password reset instructions via email."
+    },
+    {
+      "url": "https://www.jhsph.edu/",
+      "text": "[No text]",
+      "title": "Johns Hopkins"
+    },
+    {
+      "url": "https://isr.umich.edu/",
+      "text": "[No text]",
+      "title": "University of Michigan"
+    },
+    {
+      "url": "https://www.westat.com/",
+      "text": "[No text]",
+      "title": "Westat"
+    },
+    {
+      "url": "https://www.westat.com/privacy-policy",
+      "text": "Westat's Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.adobe.com/acrobat/pdf-reader.html",
+      "text": "PDF Reader",
+      "title": ""
+    },
+    {
+      "url": "https://mynhatsdemo.wesdemo.com/nhats",
+      "text": "NHATSParticipants",
+      "title": "NHATS Participants Page"
+    },
+    {
+      "url": "https://mynhatsdemo.wesdemo.com/nsoc",
+      "text": "NSOCParticipants",
+      "title": "NSOC Participants Page"
+    }
+  ],
+  "linked_urls": []
+}

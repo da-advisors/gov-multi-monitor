@@ -187,39 +187,39 @@ linked_urls:
   - url: https://www.fhfa.gov/data/dashboard/nmdb-residential-mortgage-performance-statistics
     name: Dashboard
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-all-annual.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics all-annual
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-annual.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics national-census-areas-annual
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-state-annual.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics state-annual
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-quarterly.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics national-census-areas-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-quarterly-by-year.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics national-census-areas-quarterly-by-year
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-monthly.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics national-census-areas-monthly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-national-census-areas-monthly-by-year.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics national-census-areas-monthly-by-year
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-new-mortgage-statistics-wide-column-format.zip
-    name: [CSV]
+    name: NMDB New Mortgage Statistics wide-column-format
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-all-quarterly.zip
-    name: [CSV]
+    name: NMDB Outstanding Mortgage Statistics all-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-national-census-areas-quarterly.zip
-    name: [CSV]
+    name: NMDB Outstanding Mortgage Statistics national-census-areas-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-states-quarterly.zip
-    name: [CSV]
+    name: NMDB Outstanding Mortgage Statistics states-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-outstanding-mortgage-statistics-wide-column-format.zip
-    name: [CSV]
+    name: NMDB Outstanding Mortgage Statistics wide-column-format
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-all-quarterly.zip
-    name: [CSV]
+    name: NMDB Mortgage Performance Statistics all-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-national-census-areas-quarterly.zip
-    name: [CSV]
+    name: NMDB Mortgage Performance Statistics national-census-areas-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-states-quarterly.zip
-    name: [CSV]
+    name: NMDB Mortgage Performance Statistics states-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-metro-quarterly.zip
-    name: [CSV]
+    name: NMDB Mortgage Performance Statistics metro-quarterly
   - url: https://www.fhfa.gov/sites/default/files/2024-12/nmdb-mortgage-performance-statistics-wide-column-format.zip
-    name: [CSV]
+    name: NMDB Mortgage Performance Statistics wide-column-format
   - url: https://www.fhfa.gov/news/news-release/fhfa-releases-nmdbr-residential-mortgage-dashboard
     name: FHFA Releases NMDB Residential Mortgage Dashboard
   - url: https://www.fhfa.gov/news/news-release/fhfa-releases-data-visualization-dashboard-for-nmdb-outstanding-residential-mortgage-statistics
@@ -233,7 +233,7 @@ linked_urls:
   - url: https://www.fhfa.gov/node/17641
     name: NSMO Public Use File
   - url: https://www.fhfa.gov/document/NMDB-Technical-Documentation.pdf
-    name: NMDB
+    name: NMDB Technical Documentation
   - url: https://www.fhfa.gov/blog/statistics/recent-changes-in-mortgage-related-housing-consumption-costs-evidence-from-the-national-mortgage
     name: Recent Changes in Mortgage-Related Housing Consumption Costs Evidence from the National Mortgage Database
   - url: https://www.fhfa.gov/blog/statistics/homeowners-equity-remains-high

@@ -22,7 +22,3 @@ linked_urls:
     name: NAICS Code and Description
   - url: https://enforcedata.dol.gov/views/faqSic.php
     name: SIC Code and Description
-  - url: https://enforcedata.dol.gov/views/search/search_infovis_whd_voa.php
-    name: link for hidden function
-  - url: https://enforcedata.dol.gov/views/search/search_infovis_ebsa_subjcode.php
-    name: link for hidden function

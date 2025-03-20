@@ -1,0 +1,100 @@
+{
+  "source_yaml": "048_school_survey_on_crime_and_safety.yaml",
+  "source_url": "https://nces.ed.gov/surveys/ssocs/",
+  "name": "School Survey on Crime and Safety",
+  "timestamp": "Tue, 11 Feb 2025 03:43:33 GMT",
+  "num_links": 18,
+  "links": [
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp",
+      "text": "School Survey on Crime and Safety (SSOCS)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=027",
+      "text": "Publications & Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/programs/crime/tables.asp",
+      "text": "SSOCS & SCS Table Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ncestaff/survdetl.asp?surveyid=027",
+      "text": "Staff",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/surveytopics.asp",
+      "text": "Survey Topics",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/data_products.asp",
+      "text": "Data Products",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/questionnaire.asp",
+      "text": "Questionnaires",
+      "title": ""
+    },
+    {
+      "url": "http://ies.ed.gov/newsflash/index.asp",
+      "text": "Join NewsFlash",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp?FType=1",
+      "text": "What is SSOCS?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp?FType=2",
+      "text": "Who participates in SSOCS?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp?FType=3",
+      "text": "When is SSOCS administered?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp?FType=4",
+      "text": "What topics are covered by SSOCS?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/ssocs/index.asp?FType=5",
+      "text": "Where can I learn more about SSOCS and other crime and safety data collections?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024055",
+      "text": "School Survey on Crime and Safety (SSOCS): 2019-2020 Public Use Data Files",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024145",
+      "text": "Report on Indicators of School Crime and Safety: 2023",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024043",
+      "text": "Crime, Violence, Discipline, and Safety in U.S. Public Schools: Findings From the School Survey on Crime and Safety: 2021-22",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

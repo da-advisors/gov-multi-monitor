@@ -1,0 +1,730 @@
+{
+  "source_yaml": "040_edfacts_k12.yaml",
+  "source_url": "https://www.ed.gov/data/edfacts-initiative",
+  "name": "EdFacts (K-12)",
+  "timestamp": "Tue, 11 Feb 2025 03:47:18 GMT",
+  "num_links": 144,
+  "links": [
+    {
+      "url": "https://www.ed.gov/data/edfacts-initiative#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "U.S. Department of Education",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "U.S. Department of Education",
+      "title": "Home"
+    },
+    {
+      "url": "https://www.ed.gov/higher-education",
+      "text": "Higher Education Homepage",
+      "title": "Higher Education"
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/find-college-or-educational-program",
+      "text": "Find a College or Educational Program",
+      "title": ""
+    },
+    {
+      "url": "https://collegescorecard.ed.gov/",
+      "text": "College Scorecard",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/find-college-or-educational-program/community-college",
+      "text": "Community College",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/paying-college",
+      "text": "Pay for College",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/",
+      "text": "Federal Student Aid (FSA)",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/h/apply-for-aid/fafsa",
+      "text": "Complete the FAFSA",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/manage-your-loans",
+      "text": "Manage Your Loans",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/loan-simulator/",
+      "text": "Loan Simulator",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/manage-your-loans/_098-e-tax-form",
+      "text": "Get your 1098-E Tax Form",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/career-pathways",
+      "text": "Career Pathways",
+      "title": ""
+    },
+    {
+      "url": "https://cte.ed.gov/",
+      "text": "Career and Technical Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.apprenticeship.gov",
+      "text": "Apprenticeships",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/veterans-and-military-families",
+      "text": "Veterans",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/veterans-and-military-families/education-benefits",
+      "text": "Information for Military Families and Veterans",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/veterans-and-military-families/_-keys-to-veterans-success-sites",
+      "text": "8 Keys to Veteran Success",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/adult-programs",
+      "text": "Adult Programs Homepage",
+      "title": "Adult Programs"
+    },
+    {
+      "url": "https://rsa.ed.gov",
+      "text": "Vocational Rehabilitation",
+      "title": ""
+    },
+    {
+      "url": "https://aefla.ed.gov/",
+      "text": "Adult Education and Family Literacy Act (AEFLA)",
+      "title": ""
+    },
+    {
+      "url": "https://aefla.ed.gov/correctional-education",
+      "text": "Correctional Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education",
+      "text": "Birth to Grade 12 Education Homepage",
+      "title": "Birth to Grade 12 Education"
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/early-childhood-education",
+      "text": "Early Childhood Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/early-childhood-education/early-learning-home-page",
+      "text": "Early Learning",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/early-childhood-education/early-learning-research",
+      "text": "Research on Early Learning",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/elementary-and-secondary-education",
+      "text": "Elementary and Secondary Education",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/ccd/schoolsearch/",
+      "text": "Locate a school or district",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/esea/consolidated-state-performance-reports",
+      "text": "Find Your State\u2019s Performance Report",
+      "title": ""
+    },
+    {
+      "url": "https://cte.ed.gov",
+      "text": "Career and Technical Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/resources-families",
+      "text": "Resources for Parents and Students",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-grade-12-education/resources-families/family-partnership-and-engagement",
+      "text": "Family Partnership and Engagement",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-grade-12-education/school-choice",
+      "text": "School Choice",
+      "title": ""
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/",
+      "text": "Student Records and Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education",
+      "text": "Laws related to Preschool to Grade 12 Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities",
+      "text": "Students with disabilities",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration",
+      "text": "Teaching and Administration Homepage",
+      "title": "Teaching and Administration "
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/lead-and-manage-my-school",
+      "text": "Lead and Manage My School",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/supporting-students/seac",
+      "text": "Student Engagement and Attendance Center",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/safe-learning-environments",
+      "text": "Safe Learning Environments",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/safe-learning-environments/natural-disaster-resources",
+      "text": "Disaster and Emergency Response",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/safe-learning-environments/school-safety-and-security",
+      "text": "School Safety and Security",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/supporting-students",
+      "text": "Supporting Students",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/supporting-students/special-populations/students-foster-care",
+      "text": "Students in foster care",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/teaching-resources/professional-development",
+      "text": "Professional Development",
+      "title": ""
+    },
+    {
+      "url": "https://ies.ed.gov/ncee/wwc/",
+      "text": "What Works Clearinghouse",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/nceskids/educators_corner.asp",
+      "text": "Kids\u2019 Zone Educator Corner",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs",
+      "text": "Grants and Programs Homepage",
+      "title": "Grants and Programs"
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/money-college",
+      "text": "Money for College",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/understand-aid/types/grants/pell",
+      "text": "Pell Grants and Scholarships",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/understand-aid/types/work-study",
+      "text": "Work Study Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/apply-grant",
+      "text": "Grants Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/apply-grant/available-grants",
+      "text": "Available Grants",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/apply-grant/getting-started-discretionary-grant-applications",
+      "text": "Getting Started with Grant Applications",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/manage-your-grant",
+      "text": "Manage Your Grant",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/manage-your-grant/ed-memoranda-guidance-for-grantees-us-department-of-education",
+      "text": "Grantee Responsibilities",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/manage-your-grant/grant-training-and-risk-management",
+      "text": "Grant Training",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12",
+      "text": "Grants for Birth to Grade 12",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-birth-grade-12/well-rounded-education-grants",
+      "text": "Well-Rounded Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/teacher-prep",
+      "text": "Teacher Prep",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-higher-education",
+      "text": "Grants for Higher Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-offices/ope/fipse/overview",
+      "text": "Fund for the Improvement of Postsecondary Education (FIPSE)",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-higher-education/trio-home-page",
+      "text": "TRIO programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-special-populations",
+      "text": "Grants for Special Populations",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-special-populations/grants-individuals-disabilities",
+      "text": "Students with Disabilities",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/grants-special-populations/economically-disadvantaged-students",
+      "text": "Economically Disadvantaged Students",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/recognition-programs",
+      "text": "Recognition Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/recognition-programs/us-presidential-scholars-program",
+      "text": "US Presidential Scholars Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/formula-grants",
+      "text": "Formula Grants",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/improving-basic-programs-operated-by-local-educational-agencies-esea-title-i-part-a",
+      "text": "Title I, Part A",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/grants-and-programs/formula-grants/school-improvement/student-support-and-academic-enrichment-program",
+      "text": "Title IV, Part A",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy",
+      "text": "Laws and Policy Homepage",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws",
+      "text": "Civil Rights Laws",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint",
+      "text": "File a Complaint",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education",
+      "text": "Preschool to Grade 12 Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/every-student-succeeds-act-essa",
+      "text": "Every Student Succeeds Act (ESSA)",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/laws-preschool-grade-12-education/preschool-grade-12-policy-documents",
+      "text": "Preschool to Grade 12 Education Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/higher-education-laws-and-policy",
+      "text": "Higher Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/higher-education-laws-and-policy/college-accreditation",
+      "text": "College Accreditation",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities",
+      "text": "Individuals with Disabilities",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities/idea",
+      "text": "IDEA",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities/section-504",
+      "text": "Section 504 and 504 Plans",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/espanol",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/research",
+      "text": "Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/contact-us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://edpass.ed.gov/auth/login/",
+      "text": "EDPass Log-In",
+      "title": ""
+    },
+    {
+      "url": "http://emaps.ed.gov/suite/",
+      "text": "EDFactsMetadata and Process System (EMAPS) Log-In",
+      "title": ""
+    },
+    {
+      "url": "https://surveys.nces.ed.gov/CCDDMS/login/go",
+      "text": "CCD Data Management System (DMS) Log-in",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/edfacts-resources",
+      "text": "EDFactsResources",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/data/edfacts-initiative",
+      "text": "Return to top",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/paying-college",
+      "text": "Pay for College",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/paying-college/better-fafsa",
+      "text": "Fill out the FAFSA",
+      "title": ""
+    },
+    {
+      "url": "https://www.collegesavings.org/",
+      "text": "529 Plans",
+      "title": ""
+    },
+    {
+      "url": "https://studentaid.gov/manage-loans/forgiveness-cancellation",
+      "text": "Loan Forgiveness",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/higher-education/manage-your-loans/_098-e-tax-form",
+      "text": "1098 Tax Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/birth-to-grade-12-education/resources-families",
+      "text": "Educational Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/individuals-disabilities/section-504",
+      "text": "504 Plans",
+      "title": ""
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/ferpa",
+      "text": "FERPA",
+      "title": ""
+    },
+    {
+      "url": "https://sites.ed.gov/idea/topic-areas/#IEP",
+      "text": "IEPs (Individualized Education Program)",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/teaching-resources",
+      "text": "Teaching Resources",
+      "title": ""
+    },
+    {
+      "url": "https://cte.ed.gov/unlocking-career-success/take-action/teachers",
+      "text": "Become a Teacher",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/teaching-resources/professional-development",
+      "text": "Professional Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/teaching-and-administration/safe-learning-environments/school-safety-and-security",
+      "text": "School Safety and Security",
+      "title": ""
+    },
+    {
+      "url": "https://studyabroad.state.gov/us-government-scholarships-and-programs/programs-us-teachers",
+      "text": "Teaching Abroad",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint",
+      "text": "File a Report",
+      "title": ""
+    },
+    {
+      "url": "https://oig.ed.gov/oig-hotline",
+      "text": "Report Fraud, Waste, or Abuse",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/laws-and-policy/civil-rights-laws/file-complaint",
+      "text": "Report a Civil Rights Violation",
+      "title": ""
+    },
+    {
+      "url": "https://studentprivacy.ed.gov/file-a-complaint",
+      "text": "Student Privacy Complaint Forms",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/contact-us",
+      "text": "Contact Us",
+      "title": "Contact ED"
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-offices",
+      "text": "ED Offices",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview",
+      "text": "Overview of ED",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/contact-us/faqs",
+      "text": "Frequently Asked Questions (FAQs)",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/doing-business-ed/jobs-at-ed",
+      "text": "Jobs at ED",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/news",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/news",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://blog.ed.gov/",
+      "text": "Homeroom Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/news/subscriptions",
+      "text": "Subscriptions",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/required-notices",
+      "text": "Site Notices and Privacy Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/notices-other-languages",
+      "text": "Accessibility Support",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/ed-web-archives",
+      "text": "ED Archive",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/ED.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/USEducacion",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/usedgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/usedgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/usedgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/@usedgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.flickr.com/photos/departmentofed",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/",
+      "text": "www.ed.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about",
+      "text": "About Dept of Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/required-notices/website-policies/accessibility-statement",
+      "text": "Accessibility Support",
+      "title": ""
+    },
+    {
+      "url": "https://www.opm.gov/equal-employment-opportunity/no-fear-act/",
+      "text": "No FEAR Act data",
+      "title": ""
+    },
+    {
+      "url": "https://oig.ed.gov/",
+      "text": "Office of the Inspector General",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/annual-performance-reports",
+      "text": "Performance reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/required-notices/foia",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/about/ed-overview/required-notices/privacy/privacy-policy-us-department-of-education",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.ed.gov/ed-web-archives",
+      "text": "ED Archive",
+      "title": ""
+    },
+    {
+      "url": "https://usa.gov",
+      "text": "Visit USA.gov",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

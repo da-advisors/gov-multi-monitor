@@ -1,0 +1,942 @@
+{
+  "source_yaml": "051_consumer_financial_protection_bureau.yaml",
+  "source_url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/",
+  "name": "Consumer Financial Protection Bureau",
+  "timestamp": "Tue, 11 Feb 2025 03:43:32 GMT",
+  "num_links": 123,
+  "links": [
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/#main",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/es/",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/zh/",
+      "text": "\u4e2d\u6587",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/vi/",
+      "text": "Ti\u1ebfng Vi\u1ec7t",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ko/",
+      "text": "\ud55c\uad6d\uc5b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/tl/",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ru/",
+      "text": "P\u0443\u0441\u0441\u043a\u0438\u0439",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ar/",
+      "text": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ht/",
+      "text": "Krey\u00f2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/complaint/",
+      "text": "Submit a Complaint",
+      "title": ""
+    },
+    {
+      "url": "https://search.consumerfinance.gov/search?affiliate=cfpb&query=",
+      "text": "Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/complaint/",
+      "text": "Submit a Complaint",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/",
+      "text": "Consumer Education",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/",
+      "text": "Resources for Yourself",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/",
+      "text": "Resources for Helping Others",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "text": "Consumer Complaint Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/auto-loans/",
+      "text": "Auto Loans",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+      "text": "Bank Accounts & Services",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+      "text": "Credit Cards",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "text": "Credit Reports & Scores",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
+      "text": "Debt Collection",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/fraud/",
+      "text": "Fraud & Scams",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/money-transfers/",
+      "text": "Money Transfers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+      "text": "Mortgages",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/payday-loans/",
+      "text": "Payday Loans",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/prepaid-cards/",
+      "text": "Prepaid Cards",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
+      "text": "Reverse Mortgages",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/student-loans/",
+      "text": "Student Loans",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/",
+      "text": "Explore guides to help you plan for big financial goals",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/complaint/",
+      "text": "Submit a Complaint",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/your-story/",
+      "text": "Tell Your Story",
+      "title": ""
+    },
+    {
+      "url": "https://pueblo.gpo.gov/CFPBPubs/CFPBPubs.php",
+      "text": "Order free brochures",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/",
+      "text": "Browse Ask CFPB",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/",
+      "text": "Rules & Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/",
+      "text": "Rules & Policy Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/final-rules/",
+      "text": "Final Rules",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/",
+      "text": "Interactive Regulations",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/rules-under-development/",
+      "text": "Rules Under Development",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/notice-opportunities-comment/",
+      "text": "Notices and Opportunities to Comment",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulatory-agenda/",
+      "text": "Regulatory Agenda",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/petitions-rulemaking/",
+      "text": "Petitions for Rulemaking",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/competition-innovation/",
+      "text": "Competition and Innovation",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/advisory-committees/",
+      "text": "Advisory Committees",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/",
+      "text": "Enforcement",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/",
+      "text": "Enforcement Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/actions/",
+      "text": "Enforcement Actions",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/enforcement-by-the-numbers/",
+      "text": "Enforcement by the Numbers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/investigatory-authority/",
+      "text": "Investigatory Authority",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/warning-letters/",
+      "text": "Warning Letters",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/",
+      "text": "Payments to Harmed Consumers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/information-industry-whistleblowers/",
+      "text": "Industry Whistleblowers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/",
+      "text": "Compliance",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/",
+      "text": "Compliance Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/compliance-resources/",
+      "text": "Compliance Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/advisory-opinion-program/",
+      "text": "Advisory Opinion Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/circulars/",
+      "text": "Consumer Financial Protection Circulars",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervision-examinations/",
+      "text": "Supervision and Examinations",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervisory-highlights/",
+      "text": "Supervisory Highlights",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervisory-guidance/",
+      "text": "Supervisory Guidance",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/registration-and-submission-programs/",
+      "text": "Registration & Submission Programs",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/amicus/",
+      "text": "Amicus Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/consumer-complaint-program/",
+      "text": "Consumer Complaint Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/",
+      "text": "Data & Research",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/",
+      "text": "Data & Research Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/",
+      "text": "Reports",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/research-hub/",
+      "text": "Research Hub",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "text": "Consumer Complaint Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/hmda/",
+      "text": "Mortgage Database (HMDA)",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/small-business-lending/",
+      "text": "Small Business Lending Database",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/public-data-inventory/",
+      "text": "Public Data Inventory",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-credit-trends/",
+      "text": "Consumer Credit Trends",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/mortgage-performance-trends/",
+      "text": "Mortgage Performance Trends",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/",
+      "text": "Financial Well-Being Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/credit-card-data/",
+      "text": "Credit Card Surveys & Agreements",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/prepaid-accounts/",
+      "text": "Prepaid Account Agreements",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/nbr-submission/",
+      "text": "Nonbank Registry",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/",
+      "text": "Help advance financial well-being",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=press-release",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=op-ed&categories=speech",
+      "text": "Speeches & Op-eds",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=testimony",
+      "text": "Testimony",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=directors-statement",
+      "text": "Statements",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/blog/",
+      "text": "Blog",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/blog/?categories=directors-notebook",
+      "text": "Director\u2019s Notebook",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/activity-log/",
+      "text": "Recent Updates",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=consumer-advisories",
+      "text": "Consumer Advisories",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/es/",
+      "text": "Espa\u00f1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/zh/",
+      "text": "\u4e2d\u6587",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/vi/",
+      "text": "Ti\u1ebfng Vi\u1ec7t",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ko/",
+      "text": "\ud55c\uad6d\uc5b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/tl/",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ru/",
+      "text": "P\u0443\u0441\u0441\u043a\u0438\u0439",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ar/",
+      "text": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/language/ht/",
+      "text": "Krey\u00f2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/#download-the-data",
+      "text": "Download the data",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/search/",
+      "text": "Back to top",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/",
+      "text": "About Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/contact-us/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/careers/",
+      "text": "Careers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/events/",
+      "text": "Events",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/information-industry-whistleblowers/",
+      "text": "Industry Whistleblowers",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/cfpb-ombudsman/",
+      "text": "CFPB Ombudsman",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CFPB",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://x.com/CFPB",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/consumer-financial-protection-bureau",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/user/cfpbvideo",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.flickr.com/photos/cfpbphotos",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/foia-requests/",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/privacy/",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/privacy/website-privacy-policy/",
+      "text": "Website Privacy Policy & Legal Notices",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data/",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/open-government/",
+      "text": "Open Government",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/open-government/information-quality-guidelines/",
+      "text": "Information Quality Guidelines",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/omwi/",
+      "text": "Office of Minority and Women Inclusion",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/administrative-adjudication-proceedings/",
+      "text": "Administrative Adjudication",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/plain-writing/",
+      "text": "Plain Writing",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/accessibility/",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/office-civil-rights/",
+      "text": "Office of Civil Rights",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/office-civil-rights/no-fear-act-cummings-act/",
+      "text": "No FEAR Act & Cummings Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.consumerfinance.gov/tribal/",
+      "text": "Tribal",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://oig.federalreserve.gov/",
+      "text": "Office of Inspector General",
+      "title": ""
+    }
+  ],
+  "linked_urls": [
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/",
+      "name": "Resources for Yourself"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/educator-tools/",
+      "name": "Resources for Helping Others"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-complaints/",
+      "name": "Consumer Complaint Database"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/auto-loans/",
+      "name": "Auto Loans"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/bank-accounts/",
+      "name": "Bank Accounts & Services"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-cards/",
+      "name": "Credit Cards"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/credit-reports-and-scores/",
+      "name": "Credit Reports & Scores"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/debt-collection/",
+      "name": "Debt Collection"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/fraud/",
+      "name": "Fraud & Scams"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/money-transfers/",
+      "name": "Money Transfers"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/mortgages/",
+      "name": "Mortgages"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/payday-loans/",
+      "name": "Payday Loans"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/prepaid-cards/",
+      "name": "Prepaid Cards"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/reverse-mortgages/",
+      "name": "Reverse Mortgages"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/consumer-tools/student-loans/",
+      "name": "Student Loans"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/complaint/",
+      "name": "Submit a Complaint"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/your-story/",
+      "name": "Tell Your Story"
+    },
+    {
+      "url": "https://pueblo.gpo.gov/CFPBPubs/CFPBPubs.php",
+      "name": "Order free brochures"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/ask-cfpb/",
+      "name": "Browse Ask CFPB"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/",
+      "name": "Rules & Policy"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/final-rules/",
+      "name": "Final Rules"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulations/",
+      "name": "Interactive Regulations"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/rules-under-development/",
+      "name": "Rules Under Development"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/notice-opportunities-comment/",
+      "name": "Notices and Opportunities to Comment"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/regulatory-agenda/",
+      "name": "Regulatory Agenda"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/petitions-rulemaking/",
+      "name": "Petitions for Rulemaking"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/competition-innovation/",
+      "name": "Competition and Innovation"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/rules-policy/advisory-committees/",
+      "name": "Advisory Committees"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/",
+      "name": "Enforcement"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/actions/",
+      "name": "Enforcement Actions"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/enforcement-by-the-numbers/",
+      "name": "Enforcement by the Numbers"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/investigatory-authority/",
+      "name": "Investigatory Authority"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/warning-letters/",
+      "name": "Warning Letters"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/payments-harmed-consumers/",
+      "name": "Payments to Harmed Consumers"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/enforcement/information-industry-whistleblowers/",
+      "name": "Industry Whistleblowers"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/",
+      "name": "Compliance"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/compliance-resources/",
+      "name": "Compliance Resources"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/advisory-opinion-program/",
+      "name": "Advisory Opinion Program"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/circulars/",
+      "name": "Consumer Financial Protection Circulars"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervision-examinations/",
+      "name": "Supervision and Examinations"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervisory-highlights/",
+      "name": "Supervisory Highlights"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/supervisory-guidance/",
+      "name": "Supervisory Guidance"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/registration-and-submission-programs/",
+      "name": "Registration & Submission Programs"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/amicus/",
+      "name": "Amicus Program"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/compliance/consumer-complaint-program/",
+      "name": "Consumer Complaint Program"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/",
+      "name": "Data & Research"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/research-reports/",
+      "name": "Reports"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/research-hub/",
+      "name": "Research Hub"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/hmda/",
+      "name": "Mortgage Database (HMDA)"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/small-business-lending/",
+      "name": "Small Business Lending Database"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/public-data-inventory/",
+      "name": "Public Data Inventory"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/consumer-credit-trends/",
+      "name": "Consumer Credit Trends"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/mortgage-performance-trends/",
+      "name": "Mortgage Performance Trends"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/financial-well-being-survey-data/",
+      "name": "Financial Well-Being Survey"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/credit-card-data/",
+      "name": "Credit Card Surveys & Agreements"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/prepaid-accounts/",
+      "name": "Prepaid Account Agreements"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/data-research/nbr-submission/",
+      "name": "Nonbank Registry"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=press-release",
+      "name": "Press Releases"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=op-ed&categories=speech",
+      "name": "Speeches & Op-eds"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=testimony",
+      "name": "Testimony"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=directors-statement",
+      "name": "Statements"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/blog/",
+      "name": "Blog"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/blog/?categories=directors-notebook",
+      "name": "Director's Notebook"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/activity-log/",
+      "name": "Recent Updates"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/newsroom/?categories=consumer-advisories",
+      "name": "Consumer Advisories"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/",
+      "name": "About Us"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/contact-us/",
+      "name": "Contact Us"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/careers/",
+      "name": "Careers"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/events/",
+      "name": "Events"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/cfpb-ombudsman/",
+      "name": "CFPB Ombudsman"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/open-government/",
+      "name": "Open Government"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/open-government/information-quality-guidelines/",
+      "name": "Information Quality Guidelines"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/about-us/omwi/",
+      "name": "Office of Minority and Women Inclusion"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/administrative-adjudication-proceedings/",
+      "name": "Administrative Adjudication"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/plain-writing/",
+      "name": "Plain Writing"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/accessibility/",
+      "name": "Accessibility"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/office-civil-rights/",
+      "name": "Office of Civil Rights"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/office-civil-rights/no-fear-act-cummings-act/",
+      "name": "No FEAR Act & Cummings Act"
+    },
+    {
+      "url": "https://www.consumerfinance.gov/tribal/",
+      "name": "Tribal"
+    }
+  ]
+}

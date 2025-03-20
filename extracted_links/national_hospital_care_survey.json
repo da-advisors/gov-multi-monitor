@@ -1,0 +1,818 @@
+{
+  "source_url": "https://www.cdc.gov/nchs/nhcs/index.html",
+  "name": "National Hospital Care Survey",
+  "timestamp": "Thu, 06 Feb 2025 15:15:54 GMT",
+  "num_links": 162,
+  "links": [
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#content",
+      "text": "Skip directly to site content",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc-search",
+      "text": "Skip directly to search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#gov-notice",
+      "text": "Here's how you know",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/about/index.html",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/",
+      "text": "National Hospital Care Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "Search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html#gen",
+      "text": "For Everyone",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "National Hospital Care Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "About the Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/results-publications/index.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html#gen",
+      "text": "View all",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs-participants/about/index.html",
+      "text": "NHCS Participants",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/dhcs/index.htm",
+      "text": "National Health Care Surveys",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "searchclose search",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/",
+      "text": "NHCS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "Menu",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "National Hospital Care Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "About the Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/results-publications/index.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html#gen",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs-participants/about/index.html",
+      "text": "NHCS Participants",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/dhcs/index.htm",
+      "text": "National Health Care Surveys",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html",
+      "text": "View AllNHCS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/ndi/index.html",
+      "text": "National Death Index",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs-participants/about/index.html",
+      "text": "Visit our participant website",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/results-publications/index.html",
+      "text": "publishes reports and maintains dashboards",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/rdc/b1datatype/Dt1224h.htm",
+      "text": "National Center for Health Statistics Research Data Center",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/rdc/application-process/submission.html",
+      "text": "instructions",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "Questionnaires, Data Sets, and Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "2021 Public Use Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "File",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "2020 Public Use Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/2020nhcs.htm",
+      "text": "File",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr201.pdf",
+      "text": "National Hospital Care Survey Demonstration Projects: Examination of Maternal Health Outcomes by Housing Assistance Status",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/data/series/sr_02/sr02-205.pdf",
+      "text": "Validation of the Enhanced Opioid Identification and Co-occurring Disorders Algorithms",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/products/nchs_listservs.htm",
+      "text": "National Hospital Care Survey Data Listserv",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/dhcs/",
+      "text": "National Health Care Surveys Program",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/ahcd/about_ahcd.htm#NHAMCS",
+      "text": "National Hospital Ambulatory Health Care Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhds/",
+      "text": "National Hospital Discharge Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_purpose-overview",
+      "text": "Overview",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_collected-whats-collected",
+      "text": "What's collected",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_how_surveys_are_conducted-data-and-documentation",
+      "text": "Data and documentation",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_how_the_information_is_used-how-the-data-are-used",
+      "text": "How the data are used",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_reports_data_sets_and_publications-whats-new-from-nhcs",
+      "text": "What's new from NHCS",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#cdc_survey_profile_resources-resources",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#content-sources",
+      "text": "Sources",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#print",
+      "text": "Print",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#share",
+      "text": "Share",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.cdc.gov",
+      "text": "Facebook",
+      "title": "Share to Facebook"
+    },
+    {
+      "url": "https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fwww.cdc.gov&title=Living%20with%20High%20Blood%20Pressure",
+      "text": "LinkedIn",
+      "title": "Share to LinkedIn"
+    },
+    {
+      "url": "https://twitter.com/share?url=https%3A%2F%2Fwww.cdc.gov&text=Living%20with%20High%20Blood%20Pressure",
+      "text": "Twitter",
+      "title": "Share to Twitter"
+    },
+    {
+      "url": "https://tools.cdc.gov/medialibrary/index.aspx#/sharecontent/https://https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "Syndicate",
+      "title": "Embed this Page"
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/index.htm",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/about/index.html",
+      "text": "National Center for Health Statistics",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html",
+      "text": "View All",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/site.html#gen",
+      "text": "For Everyone",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "National Hospital Care Survey",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/data/index.html",
+      "text": "About the Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/results-publications/index.html",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://tools.cdc.gov/campaignproxyservice/subscriptions.aspx#featured",
+      "text": "Sign up for Email Updates",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#contactUs",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#aboutCDC",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/organization/",
+      "text": "Organization",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/budget/",
+      "text": "Budget & Funding",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov/index.html",
+      "text": "Careers & Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#policies",
+      "text": "Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html#exit-notification",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/foia/",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov/",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#languages",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html",
+      "text": "Language Assistance",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#archive",
+      "text": "Archive",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#mobile-footer-contactUs",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/cdc-info/index.html",
+      "text": "Contact CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#mobile-footer-aboutCDC",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/organization/",
+      "text": "Organization",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/budget/",
+      "text": "Budget & Funding",
+      "title": ""
+    },
+    {
+      "url": "https://jobs.cdc.gov/index.html",
+      "text": "Careers & Jobs",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/about/",
+      "text": "About CDC",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#mobile-footer-policies",
+      "text": "Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/accessibility.html",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/disclaimer.html#exit-notification",
+      "text": "External Links",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/privacy.html",
+      "text": "Privacy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/Other/policies.html",
+      "text": "Web Policies",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/foia/",
+      "text": "FOIA",
+      "title": ""
+    },
+    {
+      "url": "https://oig.hhs.gov/",
+      "text": "OIG",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/oeeowe/no-fear-act/",
+      "text": "No Fear Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/nondiscrimination.html",
+      "text": "Nondiscrimination",
+      "title": ""
+    },
+    {
+      "url": "https://www.hhs.gov/vulnerability-disclosure-policy/index.html",
+      "text": "Vulnerability Disclosure Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#mobile-footer-languages",
+      "text": "Languages",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/spanish/",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Spanish",
+      "text": "Espa\u00c3\u00b1ol",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Chinese",
+      "text": "\u00e7\u00b9\u0081\u00e9\u00ab\u0094\u00e4\u00b8\u00ad\u00e6\u0096\u0087",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Vietnamese",
+      "text": "Ti\u00e1\u00ba\u00bfng Vi\u00e1\u00bb\u0087t",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Korean",
+      "text": "\u00ed\u0095\u009c\u00ea\u00b5\u00ad\u00ec\u0096\u00b4",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Tagalog",
+      "text": "Tagalog",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Russian",
+      "text": "\u00d0\u00a0\u00d1\u0083\u00d1\u0081\u00d1\u0081\u00d0\u00ba\u00d0\u00b8\u00d0\u00b9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Arabic",
+      "text": "\u00d8\u00a7\u00d9\u0084\u00d8\u00b9\u00d8\u00b1\u00d8\u00a8\u00d9\u008a\u00d8\u00a9",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Haitian",
+      "text": "Krey\u00c3\u00b2l Ayisyen",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#French",
+      "text": "Fran\u00c3\u00a7ais",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Polish",
+      "text": "Polski",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Portuguese",
+      "text": "Portugu\u00c3\u00aas",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Italian",
+      "text": "Italiano",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#German",
+      "text": "Deutsch",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Japanese",
+      "text": "\u00e6\u0097\u00a5\u00e6\u009c\u00ac\u00e8\u00aa\u009e",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#Farsi",
+      "text": "\u00d9\u0081\u00d8\u00a7\u00d8\u00b1\u00d8\u00b3\u00db\u008c",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/other/language-assistance.html#English",
+      "text": "English",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html#mobile-footer-archive",
+      "text": "Archive",
+      "title": ""
+    },
+    {
+      "url": "https://archive.cdc.gov/",
+      "text": "CDC Archive",
+      "title": ""
+    },
+    {
+      "url": "https://stacks.cdc.gov/",
+      "text": "Public Health Publications",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/CDC",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/CDCgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.instagram.com/CDCgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.linkedin.com/company/centers-for-disease-control-and-prevention",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/cdc",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.pinterest.com/cdcgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.snapchat.com/add/cdcgov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/rss",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://hhs.gov",
+      "text": "HHS.gov",
+      "title": ""
+    },
+    {
+      "url": "https://usa.gov",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.cdc.gov/nchs/nhcs/index.html",
+      "text": "[No text]",
+      "title": "Go to top"
+    }
+  ]
+}

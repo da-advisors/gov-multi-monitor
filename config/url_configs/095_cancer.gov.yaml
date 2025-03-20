@@ -14,8 +14,10 @@ archived_content:
 linked_urls:
   - url: https://www.cancer.gov/about-cancer/understanding/disparities
     name: Cancer Health Disparities
+    type: html
   - url: https://www.cancer.gov/about-nci/organization/crchd/about-health-disparities/resources/cancer-moonshot-scholars-fact-sheet
     name: Cancer Moonshot Scholars Fact Sheet
+    type: html
   - url: https://deainfo.nci.nih.gov/advisory/joint/1224/Bailey.pdf
     name: Cancer Moonshot Scholars - Bailey Report
   - url: https://www.cancer.gov/

@@ -9,6 +9,8 @@ import re
 import json
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
+from email.utils import parsedate_to_datetime
+from urllib.parse import urlparse
 
 @dataclass
 class LinkedURLCheckResult:
@@ -22,6 +24,8 @@ class LinkedURLCheckResult:
     error_message: Optional[str] = None
     type: Optional[str] = None
     last_success: Optional[datetime] = None  # Added field for last successful check
+    content_length: Optional[int] = None  # Added field for content length
+    response_time: Optional[float] = None  # Added for consistency with main CheckResult
 
 @dataclass
 class APICheckResult:
@@ -51,6 +55,7 @@ class CheckResult:
     linked_url_results: List[LinkedURLCheckResult] = None
     archived_content: Optional[List[str]] = None  # Added field for archived content URLs
     missing_components: Optional[List[str]] = None  # New field for tracking missing components
+    content_length: Optional[int] = None  # Added field for content length
 
     def __post_init__(self):
         """Initialize default values."""
@@ -79,124 +84,133 @@ class URLChecker:
         # Update headers to more closely match browser behavior
         self.session.headers.update({
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'application/json, text/plain, */*',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
             'Accept-Encoding': 'gzip, deflate, br',
             'Connection': 'keep-alive',
             'Cache-Control': 'no-cache',
             'Pragma': 'no-cache',
+            'DNT': '1'
         })
 
-    def check_url(self, config) -> CheckResult:
-        """Check a URL and return the result."""
+    def _get_content_type_headers(self, url: str) -> Dict[str, str]:
+        """Get content-type specific headers."""
+        headers = {}
+        lower_url = url.lower()
+        
+        if lower_url.endswith('.pdf'):
+            headers.update({
+                'Accept': 'application/pdf,*/*;q=0.8',
+                'Accept-Encoding': 'gzip, deflate, br'
+            })
+        elif any(lower_url.endswith(ext) for ext in ['.doc', '.docx', '.xls', '.xlsx']):
+            headers.update({
+                'Accept': 'application/msword,application/vnd.openxmlformats-officedocument.*,*/*;q=0.8',
+                'Accept-Encoding': 'gzip, deflate, br'
+            })
+        return headers
+
+    def _get_domain_specific_headers(self, url: str) -> Dict[str, str]:
+        """Get domain-specific headers based on URL."""
+        parsed_url = urlparse(url)
+        domain = parsed_url.netloc.lower()
+        headers = {}
+
+        # Get content-type specific headers first
+        headers.update(self._get_content_type_headers(url))
+
+        # Base headers that improve compatibility across sites
+        base_headers = {
+            'Sec-Ch-Ua': '"Not A(Brand";v="99", "Google Chrome";v="121", "Chromium";v="121"',
+            'Sec-Ch-Ua-Mobile': '?0',
+            'Sec-Ch-Ua-Platform': '"macOS"',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Upgrade-Insecure-Requests': '1'
+        }
+        headers.update(base_headers)
+
+        if 'ed.gov' in domain:
+            headers.update({
+                'Host': domain,
+                'Origin': f'https://{domain}',
+                'Referer': f'https://{domain}/',
+                'X-Requested-With': 'XMLHttpRequest'
+            })
+        elif 'nih.gov' in domain:
+            headers.update({
+                'Host': domain,
+                'Origin': f'https://{domain}',
+                'Referer': f'https://{domain}/',
+                'X-Requested-With': 'XMLHttpRequest',
+                'Accept': headers.get('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8')
+            })
+            # For NIH PDFs, add specific headers
+            if url.lower().endswith('.pdf'):
+                headers.update({
+                    'Sec-Fetch-Dest': 'empty',
+                    'Sec-Fetch-Mode': 'cors'
+                })
+        elif 'oecd.org' in domain:
+            headers.update({
+                'Host': domain,
+                'Origin': 'https://www.oecd.org',
+                'Referer': 'https://www.oecd.org/',
+                'Accept': headers.get('Accept', 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'),
+                'Sec-Ch-Ua-Full-Version-List': '"Not A(Brand";v="99.0.0.0", "Google Chrome";v="121.0.6167.85", "Chromium";v="121.0.6167.85"',
+                'Sec-Ch-Ua-Arch': '"x86"',
+                'Sec-Ch-Ua-Bitness': '"64"',
+                'Sec-Ch-Ua-Full-Version': '"121.0.6167.85"',
+                'Sec-Ch-Ua-Platform-Version': '"13.0.0"'
+            })
+
+        return headers
+
+    def check_url(self, url_config: Dict[str, Any]) -> CheckResult:
+        """Check a URL for availability and changes."""
+        # Support both dictionary and object access for url_config
+        if isinstance(url_config, dict):
+            url = url_config['url']
+            name = url_config.get('name')
+            expected_update_frequency = url_config.get('expected_update_frequency')
+            archived_content = url_config.get('archived_content', [])
+            tags = url_config.get('tags', [])
+            linked_urls = url_config.get('linked_urls', [])
+            api_config = url_config.get('api_config')
+        else:
+            url = url_config.url
+            name = getattr(url_config, 'name', None)
+            expected_update_frequency = getattr(url_config, 'expected_update_frequency', None)
+            archived_content = getattr(url_config, 'archived_content', [])
+            tags = getattr(url_config, 'tags', [])
+            linked_urls = getattr(url_config, 'linked_urls', [])
+            api_config = getattr(url_config, 'api_config', None)
+
         start_time = datetime.now()
         result = CheckResult(
-            url=config.url,
+            url=url,
             timestamp=start_time,
-            status='ok',  # Default to ok instead of error
-            name=config.name,
-            expected_update_frequency=config.expected_update_frequency,
-            archived_content=getattr(config, 'archived_content', [])  # Get archived content from config
+            status='error',  # Default to error
+            name=name,
+            expected_update_frequency=expected_update_frequency,
+            archived_content=archived_content
         )
         
         try:
-            response = self.session.get(config.url, timeout=self.timeout, allow_redirects=True)
+            response = self.session.get(url, timeout=self.timeout, allow_redirects=True)
             result.status_code = response.status_code
+            
+            # Get content length either from headers or actual response content
+            content_length = response.headers.get('content-length')
+            if content_length is None and response.content:
+                content_length = len(response.content)
+            result.content_length = int(content_length) if content_length else None
+            
             result.response_time = (datetime.now() - start_time).total_seconds()
             
             # Check for redirects
-            if len(response.history) > 0:
-                result.status = 'redirect'
-                result.redirect_url = response.url
-                if response.status_code != 200:
-                    result.error_message = f"HTTP {response.status_code}"
-                return result
-            
-            if response.status_code != 200:
-                result.status = 'error'
-                result.error_message = f"HTTP {response.status_code}"
-                return result
-            
-            # Check for content stripping and missing components
-            missing_components = []
-            soup = BeautifulSoup(response.text, 'html.parser')
-            
-            # Check for Trump executive order notice
-            exec_order_text = soup.find(string=re.compile(r"Executive Order.*Trump", re.IGNORECASE))
-            if exec_order_text:
-                result.status = 'content_stripped'
-                result.error_message = "Content has been stripped due to executive order"
-                missing_components.append("Original content removed due to executive order")
-            
-            # Check for missing images
-            broken_images = soup.find_all('img', src=re.compile(r'^$|^#|error|missing', re.IGNORECASE))
-            if broken_images:
-                if result.status != 'content_stripped':
-                    result.status = 'content_stripped'
-                result.error_message = result.error_message or "Page contains missing or broken images"
-                missing_components.append(f"{len(broken_images)} missing/broken images")
-            
-            # Check linked URLs if specified
-            if hasattr(config, 'linked_urls'):
-                linked_results = []
-                has_missing_links = False
-                for linked_url in config.linked_urls:
-                    linked_result = self._check_linked_url(linked_url)
-                    linked_results.append(linked_result)
-                    if linked_result.status != 'ok':
-                        has_missing_links = True
-                        missing_components.append(f"Missing linked resource: {linked_result.name}")
-                result.linked_url_results = linked_results
-                if has_missing_links:
-                    result.status = 'content_stripped'
-                    result.error_message = result.error_message or "Some linked resources are unavailable"
-            
-            # Check API if specified and has a url config
-            if hasattr(config, 'api_config') and hasattr(config.api_config, 'url'):
-                result.api_result = self._check_api(config.api_config)
-                if result.api_result.status != 'ok':
-                    result.status = 'error'
-                    result.error_message = result.api_result.error_message
-            
-            if missing_components:
-                result.missing_components = missing_components
-            
-            return result
-            
-        except requests.TooManyRedirects:
-            result.status = 'redirect'
-            result.error_message = "Too many redirects"
-        except requests.Timeout:
-            result.status = 'error'
-            result.error_message = "Request timed out"
-        except requests.ConnectionError:
-            result.status = 'error'
-            result.error_message = "Connection error"
-        except Exception as e:
-            result.status = 'error'
-            result.error_message = str(e)
-        
-        result.response_time = (datetime.now() - start_time).total_seconds()
-        return result
-
-    def _check_linked_url(self, linked_url) -> LinkedURLCheckResult:
-        """Check a linked URL and return the result."""
-        try:
-            response = self.session.get(
-                linked_url.url,
-                timeout=self.timeout,
-                allow_redirects=True
-            )
-            
-            result = LinkedURLCheckResult(
-                url=linked_url.url,
-                name=linked_url.name,
-                status='error',  # Default status
-                status_code=response.status_code,
-                type=linked_url.type
-            )
-            
-            # Check for redirect
             if len(response.history) > 0:
                 result.status = 'redirect'
                 result.redirect_url = response.url
@@ -208,17 +222,87 @@ class URLChecker:
                 result.error_message = f"HTTP {response.status_code}"
                 return result
             
-            # Get last modified date from headers only for successful responses
+            # All good, mark as ok
+            result.status = 'ok'
+            
+            # Check for last modified date
             if 'last-modified' in response.headers:
                 try:
-                    result.last_modified = datetime.strptime(
-                        response.headers['last-modified'],
-                        '%a, %d %b %Y %H:%M:%S %Z'
-                    )
-                except ValueError:
-                    logging.warning(f"Could not parse Last-Modified header: {response.headers['last-modified']}")
+                    result.last_modified = parse_http_date(response.headers['last-modified'])
+                except (TypeError, ValueError):
+                    pass
             
-            result.status = 'ok'
+            # Check linked URLs if specified
+            if linked_urls:
+                linked_results = []
+                has_missing_links = False
+                for linked_url in linked_urls:
+                    linked_result = self._check_linked_url(linked_url)
+                    linked_results.append(linked_result)
+                    if linked_result.status != 'ok':
+                        has_missing_links = True
+                
+                result.linked_url_results = linked_results
+                if has_missing_links:
+                    result.status = 'error'
+                    result.error_message = "Some linked resources are unavailable"
+            
+            # Check API if specified
+            if api_config:
+                try:
+                    result.api_result = self._check_api(api_config)
+                    if result.api_result.status != 'ok':
+                        result.status = 'error'
+                        result.error_message = result.api_result.error_message
+                except Exception as e:
+                    result.status = 'error'
+                    result.error_message = str(e)
+            
+            return result
+            
+        except requests.Timeout:
+            result.error_message = "Request timed out"
+            return result
+        except requests.TooManyRedirects as e:
+            if hasattr(e, 'response') and e.response.history:
+                if len(e.response.history) > 0:
+                    result.status = 'redirect'
+                    result.redirect_url = e.response.history[-1].url
+            result.error_message = "Exceeded 30 redirects"
+            return result
+        except requests.RequestException as e:
+            result.error_message = str(e)
+            return result
+        except Exception as e:
+            result.error_message = f"Unexpected error: {str(e)}"
+            return result
+
+    def _check_linked_url(self, linked_url) -> LinkedURLCheckResult:
+        """Check a linked URL and return the result."""
+        start_time = datetime.now()
+        try:
+            response = self.session.get(
+                linked_url.url,
+                timeout=self.timeout,
+                allow_redirects=True
+            )
+            
+            content_length = response.headers.get('content-length')
+            if not content_length:
+                content_length = len(response.content)
+            
+            result = LinkedURLCheckResult(
+                url=linked_url.url,
+                name=linked_url.name,
+                status='ok' if response.status_code == 200 else 'error',
+                status_code=response.status_code,
+                redirect_url=str(response.url) if response.url != linked_url.url else None,
+                last_modified=parse_http_date(response.headers.get('last-modified')) if response.headers.get('last-modified') else None,
+                content_length=int(content_length) if content_length else None,
+                response_time=(datetime.now() - start_time).total_seconds(),
+                type=getattr(linked_url, 'type', None)
+            )
+            
             return result
             
         except requests.TooManyRedirects as e:
@@ -228,7 +312,7 @@ class URLChecker:
                 status='redirect',
                 redirect_url=e.response.url if hasattr(e, 'response') else None,
                 error_message="Too many redirects",
-                type=linked_url.type
+                type=getattr(linked_url, 'type', None)
             )
         except requests.Timeout:
             return LinkedURLCheckResult(
@@ -236,7 +320,7 @@ class URLChecker:
                 name=linked_url.name,
                 status='error',
                 error_message="Request timed out",
-                type=linked_url.type
+                type=getattr(linked_url, 'type', None)
             )
         except requests.ConnectionError:
             return LinkedURLCheckResult(
@@ -244,7 +328,7 @@ class URLChecker:
                 name=linked_url.name,
                 status='error',
                 error_message="Connection error",
-                type=linked_url.type
+                type=getattr(linked_url, 'type', None)
             )
         except Exception as e:
             return LinkedURLCheckResult(
@@ -252,14 +336,24 @@ class URLChecker:
                 name=linked_url.name,
                 status='error',
                 error_message=str(e),
-                type=linked_url.type
+                type=getattr(linked_url, 'type', None)
             )
 
     def _check_api(self, api_config) -> APICheckResult:
-        """Check an API endpoint for availability and data freshness."""
+        """Check an API endpoint."""
+        # Support both dictionary and object access for api_config
+        if isinstance(api_config, dict):
+            url = api_config['url']
+            expected_fields = api_config.get('expected_fields', [])
+            date_field = api_config.get('date_field')
+        else:
+            url = api_config.url
+            expected_fields = getattr(api_config, 'expected_fields', [])
+            date_field = getattr(api_config, 'date_field', None)
+
         try:
             response = self.session.get(
-                api_config.url,
+                url,
                 timeout=self.timeout,
                 allow_redirects=True
             )
@@ -290,9 +384,9 @@ class URLChecker:
                 )
             
             # Check required fields
-            if hasattr(api_config, 'expected_fields'):
+            if expected_fields:
                 missing_fields = []
-                for field in api_config.expected_fields:
+                for field in expected_fields:
                     if not self._get_nested_value(data, field, check_exists_only=True):
                         missing_fields.append(field)
                 
@@ -300,15 +394,15 @@ class URLChecker:
                     return APICheckResult(
                         status='error',
                         missing_fields=missing_fields,
-                        error_message="Missing required fields"
+                        error_message=f"Missing required fields: {', '.join(missing_fields)}"
                     )
             
             # All checks passed
             result = APICheckResult(status='ok')
             
             # Check last update field if specified
-            if hasattr(api_config, 'date_field'):
-                last_update_value = self._get_nested_value(data, api_config.date_field)
+            if date_field:
+                last_update_value = self._get_nested_value(data, date_field)
                 if last_update_value:
                     try:
                         # Try parsing with different date formats
@@ -419,3 +513,6 @@ class URLChecker:
             if check_exists_only:
                 return False
             return None
+
+def parse_http_date(date_str):
+    return parsedate_to_datetime(date_str)

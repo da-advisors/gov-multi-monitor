@@ -1,0 +1,195 @@
+{
+  "source_yaml": "034_baccalaureate_and_beyond_longitudinal_study.yaml",
+  "source_url": "https://nces.ed.gov/surveys/b&b/",
+  "name": "Baccalaureate and Beyond Longitudinal Study",
+  "timestamp": "Tue, 11 Feb 2025 03:46:24 GMT",
+  "num_links": 37,
+  "links": [
+    {
+      "url": "https://nces.ed.gov",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys",
+      "text": "Surveys & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/lsb/#postsecondary-studies",
+      "text": "LSB",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/index.asp",
+      "text": "Baccalaureate and Beyond Longitudinal Study (B&B)",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/index.asp",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/index.asp",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/about.asp",
+      "text": "Survey Design",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/availabledata.asp",
+      "text": "Available Data",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab/TablesLibrary",
+      "text": "DataLab Tables Library",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/tablesaddl.asp",
+      "text": "User-Requested Tables",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/getpubcats.asp?sid=015",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/bibliography/",
+      "text": "Bibliography",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/training/datauser",
+      "text": "Distance Learning Training Module",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/contact.asp",
+      "text": "Contact",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019241",
+      "text": "Four years after college, what percentage of graduates enroll in additional education?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019241",
+      "text": "Four years after college, what percentage of graduates were employed full time?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019241",
+      "text": "Four years after college, what percentage of graduates owned a home or had a retirement account?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2019241",
+      "text": "What percentage of college graduates' parents did not earn a bachelor's degree or higher?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "What percentage of college graduates completed their bachelor's degree in 48 months or less?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "One year after college, what percentage of graduates enroll in additional education?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "One year after college, what was the median salary of men and women employed full time?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubs2021/2021241.pdf",
+      "text": "Ten years after college, what percentage of graduates owned a home or had a retirement account?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "Ten years after college, what percentage of graduated completed another degree?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "What percentage of graduates were employed full time ten years?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/b&b/",
+      "text": "Ten years after college, what percentage of graduates were working in the same state as their bachelor's degree institution?",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/datalab",
+      "text": "DataLab",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024483",
+      "text": "2019/20 Baccalaureate and Beyond Longitudinal Study (B&B:16/20) Restricted-Use Data File",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022241",
+      "text": "First Look",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2022251",
+      "text": "First Look",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps",
+      "text": "Beginning PostsecondaryStudents",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas",
+      "text": "National PostsecondaryStudent Aid Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS \u2013 National Postsecondary Student Aid StudyNPSAS:AC \u2013 National Postsecondary Student Aid Study: Administrative CollectionBPS \u2013 Beginning Postsecondary Students Longitudinal StudyB&B \u2013 Baccalaureate and Beyond Longitudinal StudyPETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/npsas/",
+      "text": "NPSAS:AC \u2013 National Postsecondary Student Aid Study: Administrative Collection",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/bps/",
+      "text": "BPS \u2013 Beginning Postsecondary Students Longitudinal Study",
+      "title": ""
+    },
+    {
+      "url": "https://nces.ed.gov/surveys/pets/",
+      "text": "PETS \u2013 Postsecondary Education Transcript Studies",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}

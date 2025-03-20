@@ -1,0 +1,265 @@
+{
+  "source_yaml": "085_national_longitudinal_study_of_adolescent_to_adult_health.yaml",
+  "source_url": "https://addhealth.cpc.unc.edu/",
+  "name": "National Longitudinal Study of Adolescent to Adult Health (Add Health)",
+  "timestamp": "Thu, 06 Feb 2025 17:31:20 GMT",
+  "num_links": 51,
+  "links": [
+    {
+      "url": "https://addhealth.cpc.unc.edu/#content",
+      "text": "Skip to content",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/",
+      "text": "Add Health",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/about/",
+      "text": "About",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/about#additional-add-health-data",
+      "text": "Add Health Data",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/about#directors",
+      "text": "Current Directors",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/about#acknowledgement",
+      "text": "Acknowledgment",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/about#funders",
+      "text": "Funders",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/about/contact-us/",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/",
+      "text": "Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/study-design/",
+      "text": "Study Design",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/user-guides/",
+      "text": "User Guides",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/codebooks/",
+      "text": "Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth-navigator.cpc.unc.edu/",
+      "text": "Add Health Navigator",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/codebook-explorer/",
+      "text": "Codebook Explorer",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/add-health-contextual-variable-inventory/",
+      "text": "Contextual Variable Inventory",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/restricted-use-datasets-index/",
+      "text": "Restricted-Use Datasets Index",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/documentation/frequently-asked-questions/",
+      "text": "Frequently Asked Questions",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/data#public-use",
+      "text": "Public-Use Data",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/data#restricted-use",
+      "text": "Restricted-Use Data",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/ancillary-studies/",
+      "text": "Ancillary Studies",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/addhealth/data#new-data-releases",
+      "text": "New Data Releases",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/ah-events/",
+      "text": "Events",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/participants/",
+      "text": "Participants",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/home/",
+      "text": "Home Page",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/featured-page-2/",
+      "text": "Home Page",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/user-guides/",
+      "text": "User Guides",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/user-guides/",
+      "text": "Detailed documentation designed to help users understand the study design, data sets, and guidelines for analyzing the data.",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/codebooks/",
+      "text": "Codebooks",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/codebooks/",
+      "text": "PDF codebooks for coding responses and documenting the layout and code definitions of the data files.",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth-navigator.cpc.unc.edu/",
+      "text": "Add Health Navigator",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth-navigator.cpc.unc.edu/",
+      "text": "Metadata discovery tool to explore and create custom codebooks, as well as provide a wave to wave variable comparison for Waves I-V.",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data#public-use",
+      "text": "Public-Use Data Sets",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data#public-use",
+      "text": "Access and download the public use codebooks and data sets which contain a reduced sample size (Waves I-V).",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data#restricted-use",
+      "text": "Restricted-Use Data Sets",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data#restricted-use",
+      "text": "Access the data sets available via restricted-use contract, renew contract, add researchers, and transfer or terminate contract. Data linkages are not allowable with a restricted-use contract.",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/ancillary-studies/",
+      "text": "Ancillary Studies",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/ancillary-studies/",
+      "text": "Submit an application to add new contextual or biological data to the Add Health data sets, including data linkages.",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/contact-us",
+      "text": "Contact us",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/user-guides/",
+      "text": "User Guides",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/codebooks/",
+      "text": "Codebook PDFs",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth-navigator.cpc.unc.edu/",
+      "text": "Add Health Navigator",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/",
+      "text": "Data Access",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/data/ancillary-studies",
+      "text": "Ancillary Studies",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/participants",
+      "text": "Participants",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/about#funders",
+      "text": "Funders",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/frequently-asked-questions/",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://www.unc.edu/about/privacy-statement/",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/accessibility/",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://addhealth.cpc.unc.edu/email-signup",
+      "text": "Sign up for emails",
+      "title": ""
+    }
+  ],
+  "linked_urls": []
+}
