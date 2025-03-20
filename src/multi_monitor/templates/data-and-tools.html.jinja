@@ -1,0 +1,58 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('static', filename='styles/data-and-tools.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <div class="summary__wrapper">
+    <div class="summary">
+      <p>
+        We are <span>currently</span> monitoring <a href="#">{{ 124 }} data collections</a> publicly published by the U.S. government, totaling some <a href="#">12,892 different data resources</a>.
+      </p>
+      <p>
+        At this time, 🔴 <a href="#">12 collections</a> are completely unavailable, 🟠 <a href="#">22 are partially unavailable</a>, and 🟡 <a href="#">36 have not been updated as expected</a>.
+      </p>
+    </div>
+  </div>
+
+  <div class="status-updates__wrapper">
+    <div class="status-updates">
+      <h1 class="status-updates__heading">Latest collection status changes</h1>
+      <a class="status-updates__see-all" href="#">See all status updates ></a>
+      <div class="status-updates__items">
+        <div class="status-update">
+          <h2 class="status-update__heading">
+            <span class="status-update__title">Workplace Fatality Investigations Data</span>
+            <br />
+            <span class="status-update__source">Occupational Safety and Health Administration</span>
+          </h2>
+          <p class="status-update__status">
+            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
+          </p>
+        </div>
+        <div class="status-update">
+          <h2 class="status-update__heading">
+            <span class="status-update__title">Workplace Fatality Investigations Data</span>
+            <br />
+            <span class="status-update__source">Occupational Safety and Health Administration</span>
+          </h2>
+          <p class="status-update__status">
+            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
+          </p>
+        </div>
+        <div class="status-update">
+          <h2 class="status-update__heading">
+            <span class="status-update__title">Workplace Fatality Investigations Data</span>
+            <br />
+            <span class="status-update__source">Occupational Safety and Health Administration</span>
+          </h2>
+          <p class="status-update__status">
+            🟠 <a href="#">{{ 4 }} resources offline</a> as of {{ "February 13, 2025, 9:14 AM Eastern" }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock main %}

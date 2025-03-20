@@ -24,10 +24,11 @@ def cli():
 
 
 @cli.command()
-def web():
+@click.option("--debug", is_flag=True, help="Enable debug mode")
+def web(debug: bool = False):
     """Start the application's web server."""
     webapp = create_webapp()
-    webapp.run()
+    webapp.run(debug=debug)
 
 
 @cli.command()

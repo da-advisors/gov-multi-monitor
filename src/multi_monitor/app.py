@@ -1,5 +1,6 @@
 from flask import Flask, g, render_template
 from pathlib import Path
+import sys
 from typing import Optional
 from werkzeug.local import LocalProxy
 
@@ -30,7 +31,7 @@ def create_app():
     db = LocalProxy(get_db)
 
     # START API ROUTES
-    @app.route("/resources/_data")
+    @app.route("/api/resources/_data")
     def get_resources_data():
         results = db._read_query(
             """
@@ -39,7 +40,7 @@ def create_app():
         )
         return results
 
-    @app.route("/resources/<resource_id>/status_history")
+    @app.route("/api/resources/<resource_id>/status_history")
     def get_resource_status_history(resource_id: str):
         results = db._read_query(
             f"""
@@ -53,24 +54,9 @@ def create_app():
 
     # END API ROUTES
 
-    @app.route("/")
-    def view_landing():
-        results = db._read_query(
-            """
-            SELECT count(*) as data_resources_count FROM resources
-            """
-        )
-
-        data_resources_count = results[0]["data_resources_count"]
-
-        return render_template(
-            "multi_page/landing_page.html.jinja",
-            data_collections_count=100,
-            data_resources_count=data_resources_count,
-            unavailable_collections_count=1,
-            partially_unavailable_collections_count=2,
-            stale_collections_count=3,
-        )
+    @app.route("/data-and-tools")
+    def view_data_and_tools():
+        return render_template("data-and-tools.html.jinja")
 
     @app.route("/status/")
     def list_statuses():
@@ -104,4 +90,6 @@ def create_app():
 
 if __name__ == "__main__":
     app = create_app()
-    app.run()
+
+    debug_mode = "--debug" in sys.argv
+    app.run(debug=debug_mode)
