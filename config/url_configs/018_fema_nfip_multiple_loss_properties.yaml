@@ -17,22 +17,6 @@ api_config:
     - NfipMultipleLossProperties[0].county
     - NfipMultipleLossProperties[0].communityName
 linked_urls:
-  - url: https://www.fema.gov/openfema-data-page/nfip-multiple-loss-properties-v1
-    name: English
-  - url: https://www.fema.gov/es/node/689954
-    name: Español
-  - url: https://www.fema.gov/fr/node/689954
-    name: Français
-  - url: https://www.fema.gov/ht/node/689954
-    name: Kreyòl
-  - url: https://www.fema.gov/vi/node/689954
-    name: Tiếng Việt
-  - url: https://www.fema.gov/zh-hans/node/689954
-    name: 简体中文
-  - url: https://www.fema.gov/ko/node/689954
-    name: 한국어
-  - url: https://www.fema.gov/
-    name: [No text]
   - url: https://www.disasterassistance.gov
     name: Apply for Assistance
   - url: https://www.fema.gov/disaster/current

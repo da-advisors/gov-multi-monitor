@@ -19,20 +19,6 @@ api_config:
     - NfipCommunityStatusBook[0].county
     - NfipCommunityStatusBook[0].lastRefresh
 linked_urls:
-  - url: https://www.fema.gov/openfema-data-page/nfip-community-status-book-v1
-    name: English
-  - url: https://www.fema.gov/es/node/691937
-    name: Español
-  - url: https://www.fema.gov/fr/node/691937
-    name: Français
-  - url: https://www.fema.gov/ht/node/691937
-    name: Kreyòl
-  - url: https://www.fema.gov/vi/node/691937
-    name: Tiếng Việt
-  - url: https://www.fema.gov/zh-hans/node/691937
-    name: 简体中文
-  - url: https://www.fema.gov/ko/node/691937
-    name: 한국어
   - url: https://www.fema.gov/
     name: [No text]
   - url: https://www.disasterassistance.gov
@@ -379,27 +365,3 @@ linked_urls:
     name: https://www.fema.gov/api/open/v1/OpenFemaDataSets?$filter=name%20eq%20%27NfipCommunityStatusBook%27
   - url: https://www.fema.gov/api/open/v1/OpenFemaDataSetFields?$filter=openFemaDataSet%20eq%20%27NfipCommunityStatusBook%27%20and%20datasetVersion%20eq%201
     name: https://www.fema.gov/api/open/v1/OpenFemaDataSetFields?$filter=openFemaDataSet%20eq%20%27NfipCommunityStatusBook%27%20and%20datasetVersion%20eq%201
-  - url: https://www.fema.gov/about/newsletters
-    name: Newsletter
-  - url: https://dhs.gov
-    name: U.S. Department of Homeland Security
-  - url: https://www.fema.gov/accessibility
-    name: Accessibility
-  - url: https://www.fema.gov/about/offices/equal-rights/civil-rights
-    name: Civil Rights
-  - url: https://www.fema.gov/foia
-    name: FOIA
-  - url: https://www.fema.gov/about/organization/equal-rights/no-fear-act
-    name: No FEAR Act
-  - url: https://www.fema.gov/about/website-information/plug-ins
-    name: Plug-Ins
-  - url: https://www.fema.gov/about/privacy-policy
-    name: Privacy
-  - url: https://www.fema.gov/about/organization/security/disaster-fraud
-    name: Report Disaster Fraud
-  - url: https://www.fema.gov/about/website-information
-    name: Website Information
-  - url: https://usa.gov
-    name: USA.gov
-  - url: https://www.oig.dhs.gov/
-    name: Inspector General

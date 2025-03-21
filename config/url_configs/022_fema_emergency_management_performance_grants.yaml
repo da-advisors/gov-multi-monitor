@@ -15,22 +15,6 @@ api_config:
     - metadata.count
     - EmergencyManagementPerformanceGrants[0].state
 linked_urls:
-  - url: https://www.fema.gov/openfema-data-page/emergency-management-performance-grants-v2
-    name: English
-  - url: https://www.fema.gov/es/node/688649
-    name: Español
-  - url: https://www.fema.gov/fr/node/688649
-    name: Français
-  - url: https://www.fema.gov/ht/node/688649
-    name: Kreyòl
-  - url: https://www.fema.gov/vi/node/688649
-    name: Tiếng Việt
-  - url: https://www.fema.gov/zh-hans/node/688649
-    name: 简体中文
-  - url: https://www.fema.gov/ko/node/688649
-    name: 한국어
-  - url: https://www.fema.gov/
-    name: [No text]
   - url: https://www.disasterassistance.gov
     name: Apply for Assistance
   - url: https://www.fema.gov/disaster/current
