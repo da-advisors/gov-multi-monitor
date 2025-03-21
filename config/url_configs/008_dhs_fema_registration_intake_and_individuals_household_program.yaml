@@ -1,5 +1,5 @@
 url: https://www.fema.gov/openfema-data-page/registration-intake-and-individuals-household-program-ri-ihp-v2
-name: FEMA Registration Intake and IHP
+name: FEMA Registration Intake and Individual Household Program
 expected_update_frequency: daily
 tags:
   - fema
