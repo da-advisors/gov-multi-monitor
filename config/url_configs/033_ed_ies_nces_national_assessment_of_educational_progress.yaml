@@ -1,5 +1,7 @@
 url: https://nces.ed.gov/nationsreportcard/
 name: National Assessment of Educational Progress
+description: The National Assessment of Educational Progress (NAEP), also known as The Nation’s Report Card, is the largest ongoing, nationally representative assessment of education in the United States. Since 1969, NAEP has served as a vital measure of student achievement, providing valuable insights into academic performance and learning experiences across various subjects. Its results offer a comprehensive view of educational progress at the national level, across states, and in 27 urban districts.
+omb_control_number: 1850-0928
 expected_update_frequency: null
 tags:
   - ed
