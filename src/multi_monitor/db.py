@@ -44,7 +44,8 @@ class MonitorDB:
                 description TEXT,
                 metadata JSON,             -- Flexible metadata
                 tags JSON,                 -- Collection tags
-                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                omb_control_number TEXT    -- OMB reference, for external reference data
             )
         """)
 
@@ -55,6 +56,7 @@ class MonitorDB:
                 name TEXT NOT NULL,
                 type TEXT NOT NULL,        -- 'url' or 'api_field'
                 url TEXT,                  -- NULL for api_fields
+                description TEXT,          -- Optional explanation of the resource
                 metadata JSON,             -- Flexible metadata
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
             )
@@ -66,7 +68,7 @@ class MonitorDB:
                 id VARCHAR PRIMARY KEY,    -- UUID
                 collection_id VARCHAR NOT NULL,
                 resource_id VARCHAR NOT NULL,
-                is_primary BOOLEAN,        -- Is this the primary resource for collection
+                is_primary BOOLEAN,        -- Is this the primary resource for collection (at most 1 per collection)
                 created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
                 end_date TIMESTAMP,        -- When removed from collection
                 metadata JSON,             -- Including config_source, end_reason
@@ -170,7 +172,8 @@ class MonitorDB:
         name: str,
         description: Optional[str] = None,
         metadata: Optional[Dict] = None,
-        tags: Optional[List[str]] = None
+        tags: Optional[List[str]] = None,
+        omb_control_number: Optional[str] = None
     ) -> str:
         """Create a new collection.
         
@@ -179,15 +182,16 @@ class MonitorDB:
             description: Optional description
             metadata: Optional additional metadata
             tags: Optional list of tags
+            omb_control_number: Optional OMB reference number for data collection authorities
             
         Returns:
             Collection ID (UUID)
         """
         collection_id = str(uuid.uuid4())
         self.conn.execute("""
-            INSERT INTO collections (id, name, description, metadata, tags)
+            INSERT INTO collections (id, name, description, metadata, tags, omb_control_number)
             VALUES (?, ?, ?, ?, ?)
-        """, [collection_id, name, description, metadata, tags])
+        """, [collection_id, name, description, metadata, tags, omb_control_number])
         return collection_id
     
     def add_resource(
@@ -224,7 +228,7 @@ class MonitorDB:
     def add_resource_to_collection(
         self,
         collection_id: str,
-        resource_id: str,
+        resource_ids: str,
         is_primary: bool = False,
         metadata: Optional[Dict] = None
     ) -> str:
@@ -247,6 +251,57 @@ class MonitorDB:
             VALUES (?, ?, ?, ?, ?)
         """, [relationship_id, collection_id, resource_id, is_primary, metadata])
         return relationship_id
+        
+    def add_resources_to_collection(
+        self,
+        collection_id: str,
+        resource_ids: List[str]
+    ) -> List[str]:
+        """Add multiple resources to a collection at once. Note that primary resources cannot be designated with this method.
+        
+        Args:
+            collection_id: Collection ID
+            resource_ids: List of Resource IDs to be associated with the collection
+            
+        Returns:
+            List of Collection-Resource relationship IDs (UUID)
+        """
+        relationship_ids = []
+        for resource in resource_ids:
+            relation_id = add_resource_to_collection(collection_id=collection_id, resource_id=resource, is_primary=False, metadata=None)
+            relationship_ids.append(relation_id)
+        return relationship_ids
+
+    def designate_collection_resource_as_primary(
+        self,
+        collection_id: str,
+        resource_id: str,
+        add_resource_if_missing: bool = False,
+        replace_existing_primary: bool = True
+    ) -> str:
+        """
+        WARNING: NOT YET IMPLEMENTED. 
+        
+        Designate an existing resource associated with a collection to be marked as the primary for that collection. A primary resource is
+        an optional designation for each collection that can be used for some automation checks and status reporting. Each collection can have
+        at most one designated primary resource.
+
+        By default, this method will throw an error if the resource id provided is not yet associated with the given collection. It will also
+        default to replacing an existing primary resource designation.
+
+        Args:
+            collection_id: Collection ID
+            resource_id: Resource ID for the resource to be marked as the new primary
+            add_resource_if_missing: If True, add a new association between the given Collection-Resource when one doesn't yet exist, before 
+              designating as primary. Otherwise, the function with throw an error if there is not yet such an existing relationship. (Defaults to False)
+            replace_existing_primary: If True, any existing primary resource flag for the collection will be removed when the new relationship
+              is set as the primary. The old primary resource will remain associated as a non-primary resource. Otherwise, the function will throw an error
+              if a different resource is already designated as the primary. (Defaults to True)
+            
+        Returns:
+            Collection-Resource relationship ID (UUID) corresponding to the relationship now marked as the primary for that collection-resource pair.
+        """
+        pass
     
     def add_archived_url(
         self,
