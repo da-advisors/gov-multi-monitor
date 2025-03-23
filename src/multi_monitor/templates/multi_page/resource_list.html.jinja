@@ -4,41 +4,46 @@
         <title>Data Sources | America's Essential Data</title>
         <link rel="stylesheet"
               href="{{ url_for('static', filename='styles/resources.css') }}" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
-      <header class="flex-grid">
-        <h1 class="resource-list__title">All tracked resources</h1>
-        <div class="resource-list__stats">Showing {{ resources|length }} of {{ total_resources }} resources</div>
-      </header>
+      {% include "_shared/header.html.jinja" %}
 
-      <main class="resource-list__items flex-grid">
-          {% for resource in resources %}
-              {% include "multi_page/resource_preview.html.jinja" %}
-          {% endfor %}
-      </main>
+      <div class="content-wrapper">
+        <header class="flex-grid">
+          <h1 class="resource-list__title">All tracked resources</h1>
+          <div class="resource-list__stats">Showing {{ resources|length }} of {{ total_resources }} resources</div>
+        </header>
 
-      {% if total_pages > 1 %}
-      <nav class="pagination flex-grid flex-grid__item-full">
-          <div class="pagination__controls flex-grid">
-              {% if current_page > 1 %}
-              <a href="{{ url_for('list_resources', page=current_page-1) }}" class="pagination__prev">Previous</a>
-              {% endif %}
+        <main class="resource-list__items flex-grid">
+            {% for resource in resources %}
+                {% include "multi_page/resource_preview.html.jinja" %}
+            {% endfor %}
+        </main>
 
-              <div class="pagination__pages">
-                  {% for p in range(1, total_pages + 1) %}
-                      {% if p == current_page %}
-                      <span class="pagination__page pagination__page--current">{{ p }}</span>
-                      {% else %}
-                      <a href="{{ url_for('list_resources', page=p) }}" class="pagination__page">{{ p }}</a>
-                      {% endif %}
-                  {% endfor %}
-              </div>
+        {% if total_pages > 1 %}
+        <nav class="pagination flex-grid flex-grid__item-full">
+            <div class="pagination__controls flex-grid">
+                {% if current_page > 1 %}
+                <a href="{{ url_for('list_resources', page=current_page-1) }}" class="pagination__prev">Previous</a>
+                {% endif %}
 
-              {% if current_page < total_pages %}
-              <a href="{{ url_for('list_resources', page=current_page+1) }}" class="pagination__next">Next</a>
-              {% endif %}
-          </div>
-      </nav>
-      {% endif %}
+                <div class="pagination__pages">
+                    {% for p in range(1, total_pages + 1) %}
+                        {% if p == current_page %}
+                        <span class="pagination__page pagination__page--current">{{ p }}</span>
+                        {% else %}
+                        <a href="{{ url_for('list_resources', page=p) }}" class="pagination__page">{{ p }}</a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+
+                {% if current_page < total_pages %}
+                <a href="{{ url_for('list_resources', page=current_page+1) }}" class="pagination__next">Next</a>
+                {% endif %}
+            </div>
+        </nav>
+        {% endif %}
+      </div>
     </body>
 </html>

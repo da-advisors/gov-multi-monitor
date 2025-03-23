@@ -1,4 +1,6 @@
+@import url("./__normalize.css");
 @import url("./_variables.css");
+@import url("./_navigation.css");
 
 body {
   background-color: var(--surface--page-background);
@@ -14,21 +16,10 @@ body {
   flex-direction: column;
   align-items: center;
 
-  padding: var(--spacing--2);
-
   text-align: left;
-}
 
-@media (min-width: 768px) {
-  body {
-    padding: var(--spacing--3);
-  }
-}
-
-@media (min-width: 1024px) {
-  body {
-    padding: var(--spacing--4);
-  }
+  padding: 0;
+  margin: 0;
 }
 
 /* Typography */
@@ -68,7 +59,8 @@ h6 {
 .flex-grid {
   display: flex;
   flex-direction: column;
-  align-items: space-between;
+  align-items: stretch;
+  justify-content: space-between;
   gap: var(--spacing--4);
   max-width: 600px;
 
@@ -120,66 +112,6 @@ h6 {
   .flex-grid {
     max-width: 1500px;
   }
-}
-
-/* Site header */
-
-.site-header__wrapper {
-  margin: 0 auto;
-  padding: var(--spacing--4) var(--spacing--8);
-  max-width: 1200px;
-
-  display: flex;
-  align-items: center;
-  gap: var(--spacing--8);
-}
-
-.site-header__nav {
-  display: flex;
-  flex-grow: 1;
-  justify-content: end;
-}
-
-.site-header__nav-links {
-  padding: initial;
-  list-style: none;
-
-  display: flex;
-  align-items: center;
-  gap: var(--spacing--4);
-
-  font-family: var(--font-family--heading);
-  font-weight: var(--font-weight--heading);
-}
-
-.site-header__nav-link-item.current-page a {
-  color: var(--color--blue-medium);
-  border-block-end: 2px solid currentColor;
-}
-
-.site-header__nav-link-item a {
-  color: var(--color--text-primary);
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.site-header__nav-link-item a:hover {
-  color: var(--color--blue-light);
-  border-block-end: 2px solid currentColor;
-}
-
-.site-header__nav-link-item .link-button {
-  padding: var(--spacing--2) var(--spacing--4);
-  border-radius: 2em;
-
-  background-color: var(--color--red-medium);
-  color: var(--color--text-inverse);
-}
-
-.site-header__nav-links .link-button:hover {
-  background-color: var(--color--red-light);
-  color: var(--color--text-inverse);
-  border-block-end: unset;
 }
 
 /* Site footer */
