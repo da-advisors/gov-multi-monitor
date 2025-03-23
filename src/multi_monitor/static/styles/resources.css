@@ -16,6 +16,15 @@
   align-items: stretch;
 }
 
+.resource-list__stats {
+  display: flex;
+  align-items: flex-end;
+  white-space: nowrap;
+  padding: var(--spacing--4) 0;
+  font-size: var(--font-size--sm);
+  font-style: italic;
+}
+
 .resource-detail,
 .resource-detail__status-history,
 .resource-preview {
