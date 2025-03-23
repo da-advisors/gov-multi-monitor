@@ -14,6 +14,8 @@
   flex-direction: column;
   gap: var(--spacing--8);
   align-items: stretch;
+
+  padding: var(--spacing--2);
 }
 
 .resource-list__stats {
@@ -85,18 +87,67 @@
   }
 }
 
+/* Resource detail status history table */
+.resource-detail__status-history {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.resource-detail__status-history-items {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--spacing--4) 0;
+  background-color: var(--surface--primary);
+  border-radius: var(--radius--small);
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 .resource-detail__status-history-table-header {
+  background-color: var(--color--gray-lighter);
+  color: var(--color--text-primary);
+  font-family: var(--font-family--heading);
   font-weight: var(--font-weight--heading);
+  text-transform: uppercase;
+}
+
+.resource-detail__status-history-items th,
+.resource-detail__status-history-items td {
+  padding: var(--spacing--4);
+  text-align: left;
+  border-bottom: 1px solid var(--color--gray-lighter);
 }
 
 .resource-detail__status-history-date {
-  text-align: end;
+  white-space: nowrap;
+  width: 18%;
 }
 
 .resource-detail__status-history-status {
   min-width: max-content;
   text-align: start;
   text-transform: uppercase;
+  width: 12%;
+}
+
+.resource-detail__status-history-response-time,
+.resource-detail__status-history-content-length {
+  text-align: right;
+  white-space: nowrap;
+  width: 15%;
+}
+
+/* Make the table responsive */
+@media (max-width: 768px) {
+  .resource-detail__status-history-items {
+    display: block;
+    overflow-x: auto;
+  }
+
+  .resource-detail__status-history-response-time,
+  .resource-detail__status-history-content-length {
+    text-align: left;
+  }
 }
 
 /* Status key/legend styling */
@@ -124,13 +175,10 @@
 
 .status-key__item {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: var(--spacing--2);
-  flex-wrap: wrap;
-}
-
-.status-key__indicator {
-  font-size: 1.2em;
+  margin-bottom: var(--spacing--2);
 }
 
 .status-key__indicator--ok {
@@ -150,22 +198,26 @@
 }
 
 .status-key__label {
-  font-weight: var(--font-weight--semi-bold);
-  white-space: nowrap;
+  font-weight: var(--font-weight--medium);
+  margin-right: var(--spacing--2);
 }
 
-.status-key__description {
-  font-size: var(--font-size--sm);
-  color: var(--color--text-secondary);
-  flex: 1 1 100%;
-  margin-left: calc(var(--spacing--2) + 1em); /* Indent to align with indicator and label */
+.status-key__count {
+  color: var(--color--text-secondary, #6c757d);
+  margin-left: var(--spacing--2);
+  font-style: italic;
 }
 
 /* For mobile, make it a simple stacked layout */
-@media (max-width: 767px) {
-  .status-key__list {
-    display: flex;
+@media (max-width: 768px) {
+  .status-key__item {
     flex-direction: column;
-    gap: var(--spacing--3);
+    align-items: flex-start;
+  }
+
+  .status-key__description,
+  .status-key__count {
+    margin-top: var(--spacing--1);
+    margin-left: calc(var(--spacing--4) + 8px); /* Indent under the indicator */
   }
 }

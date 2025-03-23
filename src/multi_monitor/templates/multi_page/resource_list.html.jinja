@@ -9,8 +9,7 @@
     <body>
       {% include "_shared/header.html.jinja" %}
 
-      <div class="content-wrapper">
-        <header class="flex-grid">
+        <header class="resource-list__header flex-grid">
           <h1 class="resource-list__title">All tracked resources</h1>
           <div class="resource-list__stats">Showing {{ resources|length }} of {{ total_resources }} resources</div>
         </header>
@@ -44,6 +43,5 @@
             </div>
         </nav>
         {% endif %}
-      </div>
     </body>
 </html>

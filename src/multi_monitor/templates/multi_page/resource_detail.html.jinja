@@ -46,21 +46,33 @@
                                     <span class="status-key__indicator status-key__indicator--ok">●</span>
                                     <span class="status-key__label">OK</span>
                                     <span class="status-key__description">Resource is available and functioning normally</span>
+                                    {% if status_counts and status_counts.OK %}
+                                        <span class="status-key__count">({{ status_counts.OK }} occurrences)</span>
+                                    {% endif %}
                                 </li>
                                 <li class="status-key__item">
                                     <span class="status-key__indicator status-key__indicator--error">●</span>
                                     <span class="status-key__label">ERROR</span>
                                     <span class="status-key__description">Resource is unavailable or not functioning correctly</span>
+                                    {% if status_counts and status_counts.ERROR %}
+                                        <span class="status-key__count">({{ status_counts.ERROR }} occurrences)</span>
+                                    {% endif %}
                                 </li>
                                 <li class="status-key__item">
                                     <span class="status-key__indicator status-key__indicator--redirect">●</span>
                                     <span class="status-key__label">REDIRECT</span>
                                     <span class="status-key__description">Resource has been moved to a different URL</span>
+                                    {% if status_counts and status_counts.REDIRECT %}
+                                        <span class="status-key__count">({{ status_counts.REDIRECT }} occurrences)</span>
+                                    {% endif %}
                                 </li>
                                 <li class="status-key__item">
                                     <span class="status-key__indicator status-key__indicator--content-stripped">●</span>
                                     <span class="status-key__label">CONTENT_STRIPPED</span>
                                     <span class="status-key__description">Resource exists but expected content is missing</span>
+                                    {% if status_counts and status_counts.CONTENT_STRIPPED %}
+                                        <span class="status-key__count">({{ status_counts.CONTENT_STRIPPED }} occurrences)</span>
+                                    {% endif %}
                                 </li>
                             </ul>
                         </div>
@@ -70,6 +82,9 @@
                                 <tr>
                                     <th class="resource-detail__status-history-date">Checked at</th>
                                     <th class="resource-detail__status-history-status">Status</th>
+                                    <th class="resource-detail__status-history-message">Details</th>
+                                    <th class="resource-detail__status-history-response-time">Response Time</th>
+                                    <th class="resource-detail__status-history-content-length">Content Length</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -79,6 +94,44 @@
                                         <td class="resource-detail__status-history-status">
                                             <span class="status-key__indicator status-key__indicator--{{ status.status|lower|replace('_', '-') }}">●</span>
                                             {{ status.status }}
+                                        </td>
+                                        <td class="resource-detail__status-history-message">
+                                            {% if status.error_message %}
+                                                {{ status.error_message }}
+                                            {% elif status.status_code %}
+                                                HTTP {{ status.status_code }}
+                                                {% if status.status|lower == 'ok' %}
+                                                    - Resource is available and functioning normally
+                                                {% endif %}
+                                            {% elif status.status|lower == 'ok' %}
+                                                Resource is available and functioning normally
+                                            {% elif status.status|lower == 'error' %}
+                                                Resource is unavailable or not functioning correctly
+                                            {% elif status.status|lower == 'redirect' %}
+                                                {% if status.redirect_url %}
+                                                    Redirected to <a href="{{ status.redirect_url }}" target="_blank">{{ status.redirect_url }}</a>
+                                                {% else %}
+                                                    Resource has been moved to a different URL
+                                                {% endif %}
+                                            {% elif status.status|lower == 'content_stripped' %}
+                                                Resource exists but expected content is missing
+                                            {% else %}
+                                                No additional details available
+                                            {% endif %}
+                                        </td>
+                                        <td class="resource-detail__status-history-response-time">
+                                            {% if status.response_time %}
+                                                {{ "%.2f"|format(status.response_time) }}s
+                                            {% else %}
+                                                -
+                                            {% endif %}
+                                        </td>
+                                        <td class="resource-detail__status-history-content-length">
+                                            {% if status.content_length %}
+                                                {{ status.content_length|filesizeformat }}
+                                            {% else %}
+                                                -
+                                            {% endif %}
                                         </td>
                                     </tr>
                                 {% endfor %}
