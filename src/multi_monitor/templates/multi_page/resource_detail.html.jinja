@@ -6,7 +6,7 @@
               href="{{ url_for('static', filename='styles/resources.css') }}" />
     </head>
     <body>
-        <div class="resource-detail__wrapper">
+        <div class="resource-detail__wrapper flex-grid">
             <div class="resource-detail__heading">
                 <h1 class="resource-detail__title">{{ resource.name }}</h1>
                 <a href={{ url_for("list_resources") }}>Back to all resources</a>

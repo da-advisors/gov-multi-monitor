@@ -9,6 +9,34 @@ body {
   font-weight: var(--font-weight--body);
 
   line-height: 1.6;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: var(--spacing--2);
+
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: var(--spacing--3);
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    padding: var(--spacing--4);
+  }
+}
+
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+  width: 100%;
+  display: block;
+  text-align: left;
 }
 
 h1 {
@@ -34,6 +62,66 @@ h5 {
 h6 {
   font-size: var(--font-size--h6);
 }
+
+/* Flex Grid */
+
+.flex-grid {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing--4);
+  max-width: 600px;
+
+  overflow: hidden;
+}
+
+.flex-grid__item {
+  flex: 1;
+}
+
+@media (min-width: 768px) {
+  .flex-grid {
+    flex-direction: row;
+    max-width: 900px;
+    gap: var(--spacing--4);
+    width: 100%;
+  }
+
+  .flex-grid__item-2-of-3 {
+    flex: 2;
+  }
+
+  .flex-grid__item-3-of-4 {
+    flex: 3;
+  }
+
+  .flex-grid__item-4-of-5 {
+    flex: 4;
+  }
+
+  .flex-grid__item-5-of-8 {
+    flex: 5;
+  }
+
+  .flex-grid__item-6-of-8 {
+    flex: 6;
+  }
+
+  .flex-grid__item-7-of-8 {
+    flex: 7;
+  }
+
+  .flex-grid__item-full {
+    flex: 1 0 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .flex-grid {
+    max-width: 1500px;
+  }
+}
+
+/* Site header */
 
 .site-header__wrapper {
   margin: 0 auto;
@@ -92,6 +180,8 @@ h6 {
   color: var(--color--text-inverse);
   border-block-end: unset;
 }
+
+/* Site footer */
 
 .site-footer {
   padding: var(--spacing--4) var(--spacing--8);
