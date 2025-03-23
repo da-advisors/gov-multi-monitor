@@ -34,6 +34,34 @@
             <section class="resource-detail__status-history">
                 {% if status_history %}
                     <h2 class="resource-detail__status-history-title">Status history</h2>
+
+                    <!-- Status key/legend -->
+                    <div class="resource-detail__status-key">
+                        <span class="status-key__title">Status types:</span>
+                        <ul class="status-key__list">
+                            <li class="status-key__item">
+                                <span class="status-key__indicator status-key__indicator--ok">●</span>
+                                <span class="status-key__label">OK</span>
+                                <span class="status-key__description">Resource is available and functioning normally</span>
+                            </li>
+                            <li class="status-key__item">
+                                <span class="status-key__indicator status-key__indicator--error">●</span>
+                                <span class="status-key__label">ERROR</span>
+                                <span class="status-key__description">Resource is unavailable or not functioning correctly</span>
+                            </li>
+                            <li class="status-key__item">
+                                <span class="status-key__indicator status-key__indicator--redirect">●</span>
+                                <span class="status-key__label">REDIRECT</span>
+                                <span class="status-key__description">Resource has been moved to a different URL</span>
+                            </li>
+                            <li class="status-key__item">
+                                <span class="status-key__indicator status-key__indicator--content-stripped">●</span>
+                                <span class="status-key__label">CONTENT_STRIPPED</span>
+                                <span class="status-key__description">Resource exists but expected content is missing</span>
+                            </li>
+                        </ul>
+                    </div>
+
                     <table class="resource-detail__status-history-items">
                         <thead class="resource-detail__status-history-table-header">
                             <tr>
@@ -45,7 +73,10 @@
                             {% for status in status_history %}
                                 <tr>
                                     <td class="resource-detail__status-history-date">{{ status.checked_at }}</td>
-                                    <td class="resource-detail__status-history-status">{{ status.status }}</td>
+                                    <td class="resource-detail__status-history-status">
+                                        <span class="status-key__indicator status-key__indicator--{{ status.status|lower|replace('_', '-') }}">●</span>
+                                        {{ status.status }}
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </tbody>

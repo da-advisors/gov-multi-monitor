@@ -83,4 +83,76 @@
 .resource-detail__status-history-status {
   min-width: max-content;
   text-align: start;
+  text-transform: uppercase;
+}
+
+/* Status key/legend styling */
+.resource-detail__status-key {
+  margin-bottom: var(--spacing--4);
+  padding: var(--spacing--3);
+  background-color: var(--surface--secondary);
+  border-radius: var(--radius--small);
+}
+
+.status-key__title {
+  font-weight: var(--font-weight--heading);
+  margin-bottom: var(--spacing--2);
+  display: block;
+}
+
+.status-key__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: var(--spacing--2);
+}
+
+.status-key__item {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing--2);
+  flex-wrap: wrap;
+}
+
+.status-key__indicator {
+  font-size: 1.2em;
+}
+
+.status-key__indicator--ok {
+  color: var(--color--green-light);
+}
+
+.status-key__indicator--error {
+  color: var(--color--red-medium);
+}
+
+.status-key__indicator--redirect {
+  color: var(--color--yellow-light);
+}
+
+.status-key__indicator--content-stripped {
+  color: var(--color--red-medium);
+}
+
+.status-key__label {
+  font-weight: var(--font-weight--semi-bold);
+  white-space: nowrap;
+}
+
+.status-key__description {
+  font-size: var(--font-size--sm);
+  color: var(--color--text-secondary);
+  flex: 1 1 100%;
+  margin-left: calc(var(--spacing--2) + 1em); /* Indent to align with indicator and label */
+}
+
+/* For mobile, make it a simple stacked layout */
+@media (max-width: 767px) {
+  .status-key__list {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing--3);
+  }
 }
