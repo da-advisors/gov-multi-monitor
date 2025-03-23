@@ -68,6 +68,8 @@ h6 {
 .flex-grid {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: var(--spacing--4);
   max-width: 600px;
 
