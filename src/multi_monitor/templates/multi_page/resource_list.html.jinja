@@ -21,8 +21,8 @@
         </main>
 
         {% if total_pages > 1 %}
-        <nav class="pagination flex-grid flex-grid__item-full">
-            <div class="pagination__controls flex-grid">
+        <nav class="pagination">
+            <div class="pagination__controls">
                 {% if current_page > 1 %}
                 <a href="{{ url_for('list_resources', page=current_page-1) }}" class="pagination__prev">Previous</a>
                 {% endif %}
