@@ -56,7 +56,29 @@ def create_app():
 
     @app.route("/data-and-tools")
     def view_data_and_tools():
-        return render_template("data-and-tools.html.jinja")
+        statuses = [
+            dict(
+                dataset="Workplace Fatality Investigations Data",
+                source="Occupational Safety and Health Administration",
+                status_type="resources_offline",
+                count=4,
+                updated_at="February 13, 2025 9:14 AM EST",
+            ),
+            dict(
+                dataset="Demographic and Health Survey STATCompiler",
+                source="U.S. Agency for International Development",
+                status_type="source_offline",
+                updated_at="February 12, 2025 12:30 AM EST",
+            ),
+            dict(
+                dataset="American Community Survey",
+                source="U.S. Census Bureau",
+                status_type="resources_not_updated",
+                count=2,
+                updated_at="February 12, 2025 10:20 PM EST",
+            ),
+        ]
+        return render_template("data-and-tools.html.jinja", statuses=statuses)
 
     @app.route("/status/")
     def list_statuses():

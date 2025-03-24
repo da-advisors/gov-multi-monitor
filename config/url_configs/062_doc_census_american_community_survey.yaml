@@ -1,5 +1,7 @@
 url: https://www.census.gov/programs-surveys/acs
 name: American Community Survey
+description: The American Community Survey (ACS) is an ongoing nationwide survey conducted by the Census Bureau that collects vital information about the social, economic, housing, and demographic characteristics of our nation’s population. Replacing the long form of the decennial census, the ACS is distributed to approximately 3.5 million addresses annually, providing detailed data throughout the year. Since 2005, it has generated estimates for areas with populations of 65,000 or more and, through 5-year accumulations, for smaller geographic areas such as census tracts and block groups. This data plays a crucial role in informing policy decisions and guiding the distribution of trillions of dollars in federal funds each year.
+omb_control_number: 0607-0810
 expected_update_frequency: null
 tags:
   - cb
