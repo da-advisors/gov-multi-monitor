@@ -2,3 +2,10 @@ url: https://www.fbi.gov/how-we-can-help-you/more-fbi-services-and-information/u
 name: Law Enforcement Officers Killed and Assaulted
 description: Law Enforcement Officers Killed and Assaulted is published each year by the FBI to provide information about officers who were killed, feloniously or accidentally, and officers who were assaulted while performing their duties. The FBI collects these data through the Uniform Crime Reporting (UCR) Program’s Law Enforcement Officers Killed and Assaulted (LEOKA) data collection.
 omb_control_number: 1110-0006
+linked_urls:
+  - url: https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/downloads
+    name: Crime Data Explorer Documents and Downloads
+  - url: https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/le/leoka
+    name: Crime Data Explorer Preliminary Statistics and Monthly Infographic
+  - url: https://cde.ucr.cjis.gov/LATEST/webapp/#/pages/docApi
+    name: FBI Crime Data API

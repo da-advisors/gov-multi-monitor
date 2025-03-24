@@ -2,3 +2,8 @@ url: https://www.census.gov/programs-surveys/ahs.html
 name: American Housing Survey
 description: The American Housing Survey (AHS), sponsored by HUD and conducted by the U.S. Census Bureau, has been the most comprehensive national housing survey in the United States since its inception in 1973, providing current information on the size, composition, and quality of the nation’s housing and measuring changes in our housing stock as it ages. The AHS is a longitudinal housing unit survey conducted biennially in odd-numbered years, with samples redrawn in 1985 and 2015.
 omb_control_number: 2528-0017
+linked_urls:
+  - url: https://www.census.gov/programs-surveys/ahs/data.html
+    name: Data
+  - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/codebooks.html
+    name: Public Use File Codebooks
