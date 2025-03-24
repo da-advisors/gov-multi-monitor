@@ -9,7 +9,9 @@
 <html lang="en">
 
   <head>
-    <title>{{ safe_title() }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}America's Essential Data{% endblock %}</title>
     <meta name="og:title" content="{{ safe_title() }}" />
     <meta name="og:site_name" content="{{ SITE_NAME }}" />
 
@@ -44,7 +46,6 @@
     <meta name="keywords"
           content="federal datasets, government data, open data, data availability, dataset tracking, public data, data monitoring, data removal, dataset changes, transparency, open government, FOIA, government transparency, data archive, federal data tracking, missing datasets, government information, digital preservation, data retention, public records, dataset updates, open access data, data censorship, freedom of information, federal records, government accountability" />
 
-    <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet"
           href="{{ url_for('static', filename='styles/__normalize.css') }}" />
     <link rel="stylesheet"
@@ -55,9 +56,8 @@
   </head>
 
   <body>
-    <header class="site-header">
-      {% include "_shared/header.html.jinja" %}
-    </header>
+    <!-- Include the header directly - no need for a wrapper since the template already has the site-header class -->
+    {% include "_shared/header.html.jinja" %}
 
     <main class="site-content">
       {% block main %}

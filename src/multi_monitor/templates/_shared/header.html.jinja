@@ -1,23 +1,54 @@
-<div class="site-header__wrapper">
-  <a class="site-header__logo" href="{{ url_for('view_data_and_tools') }}">
-    <img alt=""
-         class="site-header__logo-mark"
-         height="48"
-         width="441"
-         src="{{ url_for('static', filename='images/aed-logo.svg') }}" />
-  </a>
+<header class="site-header">
+  <div class="site-header__wrapper">
+    <!-- Logo that links to data-and-tools -->
+    <a href="{{ url_for('view_data_and_tools') }}" class="site-header__logo">
+      <span class="site-header__logo-text">America's Essential Data</span>
+    </a>
 
-  <nav class="site-header__nav">
-    <ul class="site-header__nav-links">
-      <li class="site-header__nav-link-item">
-        <a href="#">Stories</a>
+    <!-- Mobile menu toggle button -->
+    <button class="site-header__mobile-toggle" aria-label="Toggle navigation menu">
+      <span class="site-header__mobile-toggle-icon"></span>
+    </button>
+
+    <!-- Navigation menu -->
+    <nav class="site-header__nav">
+      <ul class="site-header__nav-links">
+        <li class="site-header__nav-link-item {{ 'current-page' if request.path == '/data-and-tools' }}">
+          <a href="{{ url_for('view_data_and_tools') }}">Data & Tools</a>
+        </li>
+        <li class="site-header__nav-link-item {{ 'current-page' if '/resources' in request.path }}">
+          <a href="{{ url_for('list_resources') }}">Resources</a>
+        </li>
+        <!-- Add more navigation items here as needed -->
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Mobile accordion menu (hidden by default) -->
+<div class="mobile-menu">
+  <nav class="mobile-menu__nav">
+    <ul class="mobile-menu__nav-links">
+      <li class="mobile-menu__nav-link-item {{ 'current-page' if request.path == '/data-and-tools' }}">
+        <a href="{{ url_for('view_data_and_tools') }}">Data & Tools</a>
       </li>
-      <li class="site-header__nav-link-item current-page">
-        <a href="#">Data &amp; Tools</a>
+      <li class="mobile-menu__nav-link-item {{ 'current-page' if '/resources' in request.path }}">
+        <a href="{{ url_for('list_resources') }}">Resources</a>
       </li>
-      <li class="site-header__nav-link-item">
-        <a class="link-button" href="#">Share Your Story</a>
-      </li>
+      <!-- Add more navigation items here as needed -->
     </ul>
   </nav>
 </div>
+
+<!-- JavaScript for mobile accordion menu -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const mobileToggle = document.querySelector('.site-header__mobile-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+    mobileToggle.addEventListener('click', function() {
+      mobileToggle.classList.toggle('active');
+      mobileMenu.classList.toggle('active');
+    });
+  });
+</script>
