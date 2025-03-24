@@ -6,6 +6,15 @@ from werkzeug.local import LocalProxy
 
 from .db import MonitorDB
 
+# Add this class near the top of the file, before create_app()
+class DotDict:
+    """Class that converts a dictionary to an object with dot notation access"""
+    def __init__(self, data):
+        for key, value in data.items():
+            if isinstance(value, dict):
+                value = DotDict(value)
+            setattr(self, key, value)
+
 
 def get_db() -> Optional[MonitorDB]:
     """Returns a MonitorDB instance for the database located in <repo>/data."""
@@ -85,13 +94,38 @@ def create_app():
         return render_template("index.html.jinja", tags=None, results=None)
 
     @app.route("/resources/")
-    def list_resources():
-        results = get_resources_data()
-        return render_template("multi_page/resource_list.html.jinja", resources=results)
+    @app.route("/resources/<int:page>")
+    def list_resources(page=1):
+        # Default to page 1 if not specified
+        page = max(1, page)  # Ensure page is at least 1
+        per_page = 50  # Number of resources per page
+
+        # Get all resources
+        all_resources_raw = get_resources_data()
+
+        # Convert to dot notation objects
+        all_resources = [DotDict(resource) for resource in all_resources_raw]
+
+        # Calculate pagination
+        total_resources = len(all_resources)
+        total_pages = (total_resources + per_page - 1) // per_page  # Ceiling division
+
+        # Slice the resources for the current page
+        start_idx = (page - 1) * per_page
+        end_idx = min(start_idx + per_page, total_resources)
+        current_resources = all_resources[start_idx:end_idx]
+
+        return render_template(
+            "multi_page/resource_list.html.jinja",
+            resources=current_resources,
+            current_page=page,
+            total_pages=total_pages,
+            total_resources=total_resources
+        )
 
     @app.route("/resources/<resource_id>")
     def view_resource(resource_id: str):
-        # TODO: Make as safer executition string.
+        # TODO: Make as safer execution string.
         results = db._read_query(
             f"""
         SELECT * FROM resources
@@ -99,12 +133,27 @@ def create_app():
         """
         )
 
-        status_history = get_resource_status_history(resource_id)
+        status_history_raw = get_resource_status_history(resource_id)
+
+        # Convert dictionaries to dot-accessible objects
+        resource = DotDict(results[0])
+        status_history = [DotDict(status) for status in status_history_raw]
+
+        # Calculate status counts
+        status_counts = {}
+        if status_history:
+            for status in status_history:
+                status_type = status.status
+                if status_type in status_counts:
+                    status_counts[status_type] += 1
+                else:
+                    status_counts[status_type] = 1
 
         return render_template(
             "multi_page/resource_detail.html.jinja",
-            resource=results[0],
+            resource=resource,
             status_history=status_history,
+            status_counts=DotDict(status_counts)  # Make status_counts dot-accessible too
         )
 
     return app
