@@ -1,3 +1,6 @@
 url: https://www.atsdr.cdc.gov/place-health/php/eji/index.html
 name: Environmental Justice Index
 description: The Environmental Justice Index (EJI) is the first national, place-based tool designed to measure the cumulative impacts of environmental burden on human health. By delivering a single rank for each community, the EJI helps identify and map areas most at risk for health impacts related to environmental injustice. It utilizes data from multiple federal sources, including the U.S. Census Bureau, the Environmental Protection Agency, the Mine Safety and Health Administration, the Geological Survey, OpenStreetMap, the Department of Transportation, and the Centers for Disease Control and Prevention. The EJI assesses every census tract by ranking cumulative environmental injustices based on 36 environmental, social, and health factors.
+linked_urls:
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-data-download.html
+    name: Data Download
