@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{ result.name }} - URL Status Details</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        .section h2 {
+            margin-top: 0;
+            color: #2c3e50;
+            font-size: 1.5em;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            background: #e9ecef;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #495057;
+        }
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
+        }
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .status-content_stripped {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .url-link {
+            word-break: break-all;
+            color: #007bff;
+            text-decoration: none;
+        }
+        .url-link:hover {
+            text-decoration: underline;
+        }
+        .linked-urls {
+            margin-top: 20px;
+        }
+        .linked-url-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: white;
+            border-radius: 4px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .linked-url-name {
+            font-weight: 500;
+            margin-bottom: 8px;
+        }
+        .linked-url-details {
+            margin-left: 15px;
+            font-size: 0.95em;
+        }
+        .archived-content {
+            margin-top: 15px;
+        }
+        .archived-link {
+            display: inline-block;
+            margin: 5px 10px 5px 0;
+            padding: 5px 10px;
+            background: #e9ecef;
+            border-radius: 4px;
+            color: #495057;
+            text-decoration: none;
+        }
+        .archived-link:hover {
+            background: #dee2e6;
+        }
+        .api-details {
+            margin-top: 15px;
+        }
+        .api-field {
+            margin: 5px 0;
+        }
+        .api-field-label {
+            font-weight: 500;
+            color: #495057;
+        }
+        .comments {
+            white-space: pre-wrap;
+            font-style: italic;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="../index.html" class="back-link">← Back to Overview</a>
+        
+        <h1>{{ result.name }}</h1>
+        <div class="timestamp">
+            Last checked on {{ timestamp.strftime("%Y-%m-%d %H:%M:%S") }}
+        </div>
+
+        <!-- Primary URL Section -->
+        <div class="section">
+            <h2>Primary URL</h2>
+            <p>
+                <a href="{{ result.url }}" target="_blank" class="url-link">{{ result.url }}</a>
+            </p>
+            <p>
+                Status: 
+                <span class="status-{{ result.status|lower }}">
+                    {% if result.status == 'content_stripped' %}
+                        Content Stripped
+                    {% else %}
+                        {{ result.status }}
+                    {% endif %}
+                </span>
+                {% if result.redirect_url %}
+                <br>
+                <span class="status-redirect">Redirects to: <a href="{{ result.redirect_url }}" target="_blank" class="url-link">{{ result.redirect_url }}</a></span>
+                {% endif %}
+            </p>
+            {% if result.last_modified %}
+            <p>Last Modified: {{ result.last_modified }}</p>
+            {% endif %}
+            {% if result.error_message %}
+            <p class="status-error">Error: {{ result.error_message }}</p>
+            {% endif %}
+            {% if result.tags %}
+            <p>
+                Tags:
+                {% for tag in result.tags %}
+                <span class="tag">{{ tag }}</span>
+                {% endfor %}
+            </p>
+            {% endif %}
+        </div>
+
+        <!-- API Section -->
+        {% if result.api_result %}
+        <div class="section">
+            <h2>API Status</h2>
+            <div class="api-details">
+                <p class="status-{{ result.api_result.status|lower }}">
+                    Status: {{ result.api_result.status }}
+                </p>
+                {% if result.api_result.last_update %}
+                <div class="api-field">
+                    <span class="api-field-label">Last Update:</span>
+                    {{ result.api_result.last_update }}
+                </div>
+                {% endif %}
+                {% if result.api_result.missing_fields %}
+                <div class="api-field">
+                    <span class="api-field-label">Missing Fields:</span>
+                    {{ result.api_result.missing_fields|join(', ') }}
+                </div>
+                {% endif %}
+                {% if result.api_result.error_message %}
+                <div class="api-field status-error">
+                    <span class="api-field-label">Error:</span>
+                    {{ result.api_result.error_message }}
+                </div>
+                {% endif %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Linked URLs Section -->
+        {% if result.linked_url_results %}
+        <div class="section">
+            <h2>Linked URLs</h2>
+            <div class="linked-urls">
+                {% for linked in result.linked_url_results %}
+                <div class="linked-url-item">
+                    <div class="linked-url-name">{{ linked.name }}</div>
+                    <div class="linked-url-details">
+                        <p><a href="{{ linked.url }}" target="_blank" class="url-link">{{ linked.url }}</a></p>
+                        <p class="status-{{ linked.status|lower }}">
+                            Status: {{ linked.status }}
+                            {% if linked.status == 'ERROR' and linked.last_success %}
+                            <span class="last-success">
+                                Last successful check: {{ linked.last_success.strftime("%Y-%m-%d") }}
+                            </span>
+                            {% endif %}
+                        </p>
+                        {% if linked.last_modified %}
+                        <p>Last modified: {{ linked.last_modified }}</p>
+                        {% endif %}
+                        {% if linked.error_message %}
+                        <p class="status-error">Error: {{ linked.error_message }}</p>
+                        {% endif %}
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Archived Content Section -->
+        {% if result.archived_content %}
+        <div class="section">
+            <h2>Archived Content</h2>
+            <div class="archived-content">
+                {% for archived in result.archived_content %}
+                <a href="{{ archived.url }}" target="_blank" class="archived-link">
+                    {% if archived.name %}
+                        {{ archived.name }}
+                    {% else %}
+                        Snapshot {{ loop.index }}
+                    {% endif %}
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Comments Section (for future manual curation) -->
+        {% if result.comments %}
+        <div class="section">
+            <h2>Comments</h2>
+            <div class="comments">
+                {{ result.comments }}
+            </div>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>

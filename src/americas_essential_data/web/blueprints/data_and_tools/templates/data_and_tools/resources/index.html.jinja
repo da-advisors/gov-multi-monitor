@@ -1,0 +1,15 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/resources.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <h1 class="resource-list__title">All tracked resources</h1>
+  <div class="resource-list__items">
+    {% for resource in resources %}
+      {% include "data_and_tools/resources/_partials/resource_preview.html.jinja" %}
+    {% endfor %}
+  </div>
+{% endblock main %}

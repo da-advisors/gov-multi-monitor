@@ -1,0 +1,24 @@
+<div class="site-header__wrapper">
+  <a class="site-header__logo"
+     href="{{ url_for('data-and-tools.index') }}">
+    <img alt=""
+         class="site-header__logo-mark"
+         height="48"
+         width="441"
+         src="{{ url_for('static', filename='images/aed-logo.svg') }}" />
+  </a>
+
+  <nav class="site-header__nav">
+    <ul class="site-header__nav-links">
+      <li class="site-header__nav-link-item">
+        <a href="#">Stories</a>
+      </li>
+      <li class="site-header__nav-link-item current-page">
+        <a href="{{ url_for('data-and-tools.index') }}">Data &amp; Tools</a>
+      </li>
+      <li class="site-header__nav-link-item">
+        <a class="link-button" href="#">Share Your Story</a>
+      </li>
+    </ul>
+  </nav>
+</div>

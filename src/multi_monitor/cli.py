@@ -9,6 +9,7 @@ from rich.console import Console
 from rich.table import Table
 import sys
 
+# from .app import create_app as create_webapp
 from .app import create_app as create_webapp
 from .checker import URLChecker
 from .config import MonitorConfig

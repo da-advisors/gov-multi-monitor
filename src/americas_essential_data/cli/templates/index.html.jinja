@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Status Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            flex-grow: 1;
+            min-width: 200px;
+        }
+        .tag-filter {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            background: #e9ecef;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #495057;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort) {
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort):after {
+            content: '';
+            float: right;
+            margin-top: 7px;
+            border-width: 0 4px 4px;
+            border-style: solid;
+            border-color: #404040 transparent;
+            visibility: hidden;
+            opacity: 0;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        th[aria-sort="ascending"]:not(.no-sort):after {
+            border-bottom: none;
+            border-width: 4px 4px 0;
+        }
+        th[aria-sort]:not(.no-sort):after {
+            visibility: visible;
+            opacity: 0.4;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
+        }
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .status-content_stripped {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .name-link {
+            color: inherit;
+            text-decoration: none;
+        }
+        .name-link:hover {
+            text-decoration: underline;
+        }
+        .hidden {
+            display: none !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>URL Status Report</h1>
+        <div class="timestamp">
+            Generated on {{ timestamp.strftime("%Y-%m-%d %H:%M:%S") }}
+        </div>
+        <div class="controls">
+            <input type="text" class="search-box" placeholder="Search by name..." id="searchInput">
+            <select class="tag-filter" id="tagFilter">
+                <option value="">All Tags</option>
+                {% for tag in tags %}
+                <option value="{{ tag }}">{{ tag }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Tags</th>
+                    <th>Status</th>
+                    <th>Linked URLs</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for result in results %}
+                <tr class="result-row" data-tags="{{ result.tags|join(',') }}">
+                    <td>
+                        <a href="details/{{ result.name|lower|replace(' ', '_') }}.html" class="name-link">
+                            {{ result.name }}
+                        </a>
+                    </td>
+                    <td>
+                        {% for tag in result.tags %}
+                        <span class="tag">{{ tag }}</span>
+                        {% endfor %}
+                    </td>
+                    <td class="status-{{ result.status|lower }}">
+                        {% if result.status == 'content_stripped' %}
+                            Content Stripped
+                        {% elif result.status == 'redirect' %}
+                            Redirect
+                            {% if result.redirect_url %}
+                            <br><small>→ {{ result.redirect_url }}</small>
+                            {% endif %}
+                        {% else %}
+                            {{ result.status }}
+                        {% endif %}
+                    </td>
+                    <td>
+                        {% if result.linked_url_results %}
+                            {% set ok_count = result.linked_url_results|selectattr('status', 'equalto', 'ok')|list|length %}
+                            {% set total = result.linked_url_results|length %}
+                            {{ ok_count }}/{{ total }} OK
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        // Initialize table sorting
+        const table = document.getElementById('resultsTable');
+        new Tablesort(table);
+        
+        // Set default sort on Name column (first column, ascending)
+        const nameHeader = table.querySelector('th');  // First th element
+        const event = new Event('click');
+        nameHeader.dispatchEvent(event);
+
+        // Set up filtering
+        const searchInput = document.getElementById('searchInput');
+        const tagFilter = document.getElementById('tagFilter');
+        const rows = document.querySelectorAll('.result-row');
+
+        function filterTable() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedTag = tagFilter.value.toLowerCase();
+
+            rows.forEach(row => {
+                const name = row.cells[0].textContent.toLowerCase();
+                const tags = row.getAttribute('data-tags').toLowerCase();
+
+                const matchesSearch = name.includes(searchTerm);
+                const matchesTag = !selectedTag || tags.includes(selectedTag);
+
+                if (!matchesSearch || !matchesTag) {
+                    row.classList.add('hidden');
+                } else {
+                    row.classList.remove('hidden');
+                }
+            });
+        }
+
+        searchInput.addEventListener('input', filterTable);
+        tagFilter.addEventListener('change', filterTable);
+    </script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+
+:root {
+  /** BASE TOKENS **/
+  /**
+   * !!! DO NOT USE THESE VARIABLES DIRECTLY !!!
+   * Instead, use the more semantic variables located in `variables.css`.
+   */
+
+  /* Colors */
+  /**
+   * Consider `-50` as the "base" hue for each color family, with lower numbers as darker shades, and higher numbers as lighter tints.
+   * (Calculated with https://www.colors.tools/color-theme/)
+   */
+
+  /* Reds */
+  --__token__color--red-10: #240101;
+  --__token__color--red-20: #480303;
+  --__token__color--red-30: #6c0505;
+  --__token__color--red-40: #900707;
+  --__token__color--red-50: #b50909;
+  --__token__color--red-60: #c33737;
+  --__token__color--red-70: #d16666;
+  --__token__color--red-80: #df9595;
+  --__token__color--red-90: #edc3c3;
+
+  /* Greens */
+  --__token__color--green-10: #041308;
+  --__token__color--green-20: #092810;
+  --__token__color--green-30: #0e3c18;
+  --__token__color--green-40: #135020;
+  --__token__color--green-50: #186429;
+  --__token__color--green-60: #438151;
+  --__token__color--green-70: #6f9e7a;
+  --__token__color--green-80: #9bbca2;
+  --__token__color--green-90: #c7d9cb;
+
+  /* Blues */
+  --__token__color--blue-10: #08131b;
+  --__token__color--blue-20: #112637;
+  --__token__color--blue-30: #1a3952;
+  --__token__color--blue-40: #234c6e;
+  --__token__color--blue-50: #2c608a;
+  --__token__color--blue-60: #547ea0;
+  --__token__color--blue-70: #7c9cb6;
+  --__token__color--blue-80: #a4bacc;
+  --__token__color--blue-90: #ccd8e2;
+
+  /* Yellows */
+  --__token__color--yellow-10: #322601;
+  --__token__color--yellow-20: #664d02;
+  --__token__color--yellow-30: #997304;
+  --__token__color--yellow-40: #cc9a05;
+  --__token__color--yellow-50: #ffc107;
+  --__token__color--yellow-60: #ffcc36;
+  --__token__color--yellow-70: #ffd865;
+  --__token__color--yellow-80: #ffe494;
+  --__token__color--yellow-90: #fff0c3;
+
+  /* Grays */
+  --__token__color--gray-05: #0e0e0e;
+  --__token__color--gray-10: #171717;
+  --__token__color--gray-20: #303030;
+  --__token__color--gray-30: #484848;
+  --__token__color--gray-40: #606060;
+  --__token__color--gray-50: #787878;
+  --__token__color--gray-60: #919191;
+  --__token__color--gray-70: #ababab;
+  --__token__color--gray-80: #c4c4c4;
+  --__token__color--gray-90: #dedede;
+  --__token__color--gray-95: #fafafa;
+
+  /**
+   * Font families
+   */
+  --__token__font-family--macos: system-ui;
+  --__token__font-family--windows: "Segoe UI";
+  --__token__font-family--android: Roboto;
+
+  --__token__font-family--sans-serif: "Public Sans",
+    var(--__token__font-family--macos), var(--__token__font-family--windows),
+    var(--__token__font-family--android), sans-serif;
+  --__token__font-family--serif: "Merriweather", serif;
+
+  /**
+   * Font sizes
+   */
+  --__token__font-size--base: 16px;
+
+  /**
+   * Spacing
+   */
+  --__token__spacing--base: 4px;
+
+  /**
+   * Radius
+   */
+  --__token__radius--base: 4px;
+}

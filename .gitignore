@@ -1,3 +1,8 @@
+# General
+.DS_Store
+Thumbs.db
+[Dd]esktop.ini
+
 # Python
 __pycache__/
 *.py[cod]
