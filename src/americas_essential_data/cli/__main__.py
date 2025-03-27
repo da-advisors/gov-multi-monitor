@@ -7,7 +7,7 @@ from pathlib import Path
 from rich.console import Console
 import sys
 
-from americas_essential_data import web
+import americas_essential_data.web.app as webapp
 from americas_essential_data.resource_monitor.config import MonitorConfig
 from .check_urls import check_urls
 from .generate_multipage_status_report import generate_multipage_status_report
@@ -22,12 +22,13 @@ def cli():
     pass
 
 
-@cli.command()
+@cli.command("web")
 @click.option("--debug", is_flag=True, help="Enable debug mode")
 def web(debug: bool = False):
     """Start the web application server."""
-    webapp = web.create_webapp()
-    webapp.run(debug=debug)
+
+    app = webapp.create_app()
+    app.run(debug=debug)
 
 
 @cli.command()

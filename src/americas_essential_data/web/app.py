@@ -31,6 +31,19 @@ def create_app():
     """Creates a Flask instance for our web app."""
     app = Flask(__name__)
 
+    SITE_NAME = "America's Essential Data"
+
+    @app.context_processor
+    def context_vars():
+        return dict(SITE_NAME=SITE_NAME)
+
+    @app.template_filter("safe_title")
+    def safe_title(title: str):
+        if title:
+            return f"{title.strip()} | {SITE_NAME}"
+
+        return SITE_NAME
+
     from .blueprints.data_and_tools.blueprint import data_and_tools
 
     app.register_blueprint(data_and_tools)

@@ -51,6 +51,7 @@
 
   --font-weight--heading: 600;
   --font-weight--body: 400;
+  --font-weight--body-bold: 600;
 
   /**
    * NOTE: Font sizes are scaled based on minor thirds
