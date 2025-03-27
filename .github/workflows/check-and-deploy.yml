@@ -2,17 +2,17 @@ name: Check URLs and Deploy Status Page
 
 on:
   schedule:
-    - cron: '0 */2 * * *'  # Run every 2 hours
-  workflow_dispatch:  # Allow manual trigger
+    - cron: "0 */2 * * *" # Run every 2 hours
+  workflow_dispatch: # Allow manual trigger
   push:
-    branches: [ main ]
+    branches: [main]
     paths:
-      - 'config/urls.yaml'
-      - 'src/**'
-      - '.github/workflows/**'
+      - "config/urls.yaml"
+      - "src/**"
+      - ".github/workflows/**"
 
 permissions:
-  contents: write  # Need write to push DB updates
+  contents: write # Need write to push DB updates
   pages: write
   id-token: write
 
@@ -22,22 +22,22 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-          cache: 'pip'
-      
+          python-version: "3.11"
+          cache: "pip"
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install duckdb  # Install duckdb explicitly
           pip install -e .
-      
+
       - name: Download previous database
         run: |
           mkdir -p data
@@ -50,26 +50,26 @@ jobs:
             cp data/monitor.db data/monitor.db.new
             mv data/monitor.db.new data/monitor.db
           fi
-      
+
       - name: Run URL checks
         env:
           PYTHONPATH: /home/runner/work/gov-multi-monitor/gov-multi-monitor/src
-          PYTHONUNBUFFERED: 1  # Ensure we see output immediately
-          LOGLEVEL: DEBUG  # Set logging to debug level
+          PYTHONUNBUFFERED: 1 # Ensure we see output immediately
+          LOGLEVEL: DEBUG # Set logging to debug level
         run: |
           # Set up debug logging
           python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
-          python -m multi_monitor check --verbose
-      
+          python -m americas_essential_data.cli check --verbose
+
       - name: Generate status page
         run: |
           # Create docs directory if it doesn't exist
           mkdir -p docs
           # Generate the multi-page report
-          python -m multi_monitor generate-multi-page --output-dir docs/status
+          python -m americas_essential_data.cli generate-multi-page --output-dir docs/status
           # Create a redirect from index.html to status/index.html
           echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
-      
+
       - name: Upload database as release asset
         uses: softprops/action-gh-release@v1
         with:
@@ -78,17 +78,17 @@ jobs:
           name: Latest Database
           body: |
             Latest monitoring database from ${{ github.sha }}
-            
+
             This release is automatically updated with each successful check.
-          
+
       - name: Setup Pages
         uses: actions/configure-pages@v4
-      
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: 'docs'
-      
+          path: "docs"
+
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
