@@ -235,8 +235,12 @@ def generate_page(config: str, output: str, template: str = None):
 @click.option(
     "--output-dir", default="docs/status", help="Output directory for HTML files"
 )
-def generate_multi_page(config: str, output_dir: str):
+@click.option("--verbose", is_flag=True, help="Show detailed output")
+def generate_multi_page(config: str, output_dir: str, verbose: bool = False):
     """Generate a multi-page status report."""
+    if verbose:
+        logging.basicConfig(level=logging.DEBUG)
+
     try:
         config_path = Path(config)
         cfg = MonitorConfig.from_yaml(config_path)
@@ -254,6 +258,9 @@ def generate_multi_page(config: str, output_dir: str):
         results = []
         all_tags = set()
         for url_config in cfg.urls:
+            if verbose:
+                console.print(f"Checking [bold]{url_config.name or url_config.url}[/bold]...")
+                
             result = checker.check_url(url_config)
             result.name = url_config.name or url_config.url  # Ensure we have a name
             result.tags = url_config.tags

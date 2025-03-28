@@ -51,7 +51,7 @@ jobs:
             mv data/monitor.db.new data/monitor.db
           fi
       
-      - name: Run URL checks
+      - name: (disabled) Run URL checks
         env:
           PYTHONPATH: /home/runner/work/gov-multi-monitor/gov-multi-monitor/src
           PYTHONUNBUFFERED: 1  # Ensure we see output immediately
@@ -59,14 +59,14 @@ jobs:
         run: |
           # Set up debug logging
           python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
-          python -m multi_monitor check --verbose
+          # don't do this: python -m multi_monitor check --verbose
       
-      - name: Generate status page
+      - name: Run URL checks and Generate status page
         run: |
           # Create docs directory if it doesn't exist
           mkdir -p docs
-          # Generate the multi-page report
-          python -m multi_monitor generate-multi-page --output-dir docs/status
+          # Generate the multi-page report - also runs the checking!
+          python -m multi_monitor generate-multi-page --output-dir docs/status --verbose
           # Create a redirect from index.html to status/index.html
           echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
       
