@@ -60,8 +60,8 @@ class URLConfig:
 
     url: str
     name: Optional[str] = None
-    description: Optional[str] = None
-    omb_control_number: Optional[str] = None
+    description: Optional[str] = None  # Description of the resource
+    omb_control_number: Optional[str] = None  # OMB Control Number if applicable
     expected_content: Optional[str] = None
     tags: List[str] = None
     expected_update_frequency: Optional[str] = (

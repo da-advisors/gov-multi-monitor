@@ -1,17 +1,22 @@
 from typing import Optional
 from rich.table import Table
+from rich.console import Console
 
 from americas_essential_data.resource_monitor.check_history import CheckHistory
 from americas_essential_data.resource_monitor.url_checker import URLChecker
 from americas_essential_data.resource_monitor.config import MonitorConfig
 
 
-def check_urls(config: MonitorConfig, url: Optional[str]):
+def check_urls(config: MonitorConfig, url: Optional[str], verbose: bool = False, console: Optional[Console] = None):
     """Check URLs and record their status."""
 
     # Initialize checker and history
     url_checker = URLChecker()
     check_history = CheckHistory(config.history_file)
+
+    # Use provided console or create a new one if not provided
+    if console is None:
+        console = Console()
 
     # Create main results table
     table = Table(title="URL Check Results")
@@ -28,6 +33,9 @@ def check_urls(config: MonitorConfig, url: Optional[str]):
     urls = [u for u in config.urls if not url or u.url == url]
 
     for url_config in urls:
+        if verbose:
+            console.print(f"Checking [bold]{url_config.name or url_config.url}[/bold]...")
+        
         result = url_checker.check_url(url_config)
         check_history.add_result(result)
 
