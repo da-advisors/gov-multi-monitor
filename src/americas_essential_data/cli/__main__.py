@@ -8,7 +8,7 @@ from rich.console import Console
 import sys
 
 import americas_essential_data.web.app as webapp
-from americas_essential_data.resource_monitor.config import MonitorConfig
+from americas_essential_data.resource_monitor.config import MonitorConfig, URLConfig
 from .check_urls import check_urls
 from .generate_multipage_status_report import generate_multipage_status_report
 from .generate_single_status_page import generate_single_status_page
@@ -86,13 +86,26 @@ def generate_page(config: str, output: str, template: Optional[str] = None):
 @click.option(
     "--output-dir", default="docs/status", help="Output directory for HTML files"
 )
-def generate_multi_page(config: str, output_dir: str):
+@click.option("--verbose", is_flag=True, help="Show detailed output")
+def generate_multi_page(config: str, output_dir: str, verbose: bool = False):
     """Generate a multi-page status report."""
+    if verbose:
+        logging.basicConfig(level=logging.DEBUG)
+
     try:
         monitor_config = MonitorConfig.from_yaml(Path(config))
         output_path = Path(output_dir)
 
-        generate_multipage_status_report(monitor_config, output_path)
+        def on_begin_check_url(url_config: URLConfig):
+            console.print(
+                f"Checking [bold]{url_config.name or url_config.url}[/bold]..."
+            )
+
+        generate_multipage_status_report(
+            monitor_config,
+            output_path,
+            on_begin_check_url=on_begin_check_url if verbose else None,
+        )
 
         console.print(f"Multi-page status report generated in: {output_path}")
     except Exception as e:

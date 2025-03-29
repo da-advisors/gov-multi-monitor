@@ -1,14 +1,20 @@
 from datetime import datetime
 from pathlib import Path
+from typing import Callable, Optional
 
 import jinja2
 
 from americas_essential_data.resource_monitor.check_history import CheckHistory
-from americas_essential_data.resource_monitor.config import MonitorConfig
+from americas_essential_data.resource_monitor.config import MonitorConfig, URLConfig
 from americas_essential_data.resource_monitor.url_checker import URLChecker
 
 
-def generate_multipage_status_report(config: MonitorConfig, output_path: Path):
+def generate_multipage_status_report(
+    config: MonitorConfig,
+    output_path: Path,
+    *,
+    on_begin_check_url: Optional[Callable[[URLConfig], None]],
+):
     # Initialize checker and history
     checker = URLChecker()
     history = CheckHistory(config.history_file)
@@ -20,7 +26,10 @@ def generate_multipage_status_report(config: MonitorConfig, output_path: Path):
     # Get results for all URLs
     results = []
     all_tags = set()
-    for url_config in config.urls[:1]:
+    for url_config in config.urls:
+        if on_begin_check_url is not None:
+            on_begin_check_url(url_config)
+
         result = checker.check_url(url_config)
         result.name = url_config.name or url_config.url  # Ensure we have a name
         result.tags = url_config.tags
