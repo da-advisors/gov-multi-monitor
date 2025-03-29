@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+      {%- filter safe_title -%}
+        {%- block title -%}{%- endblock -%}
+        {%- endfilter -%}
+      </title>
+      <meta name="og:title" content="{{ self.title() |safe_title }}" />
+      <meta name="og:site_name" content="{{ SITE_NAME }}" />
+
+      <meta name="og:type"
+            content="{{ 'website' if request.endpoint == 'data-and-tools.index' else 'article' }}" />
+      <meta name="og:url" content="{{ request.url }}" />
+      <meta name="theme-color" content="#2d618b">
+
+      <!-- START FAVICONS -->
+      <link rel="icon"
+            type="image/png"
+            href="{{ url_for('static', filename='favicons/favicon-96x96.png') }}"
+            sizes="96x96" />
+      <link rel="icon"
+            type="image/svg+xml"
+            href="{{ url_for('static', filename='favicons/favicon.svg') }}" />
+      <link rel="shortcut icon"
+            href="{{ url_for('static', filename='favicons/favicon.ico') }}" />
+      <link rel="apple-touch-icon"
+            sizes="180x180"
+            href="{{ url_for('static', filename='favicons/apple-touch-icon.png') }}" />
+      <meta name="apple-mobile-web-app-title" content="{{ SITE_NAME }}" />
+      <link rel="manifest"
+            href="{{ url_for('static', filename='favicons/site.webmanifest') }}" />
+      <!-- END FAVICONS -->
+
+      {% if description %}
+        <meta name="description" content="{{ description }}" />
+        <meta name="og:description" content="{{ description }}" />
+      {% endif %}
+
+      <meta name="keywords"
+            content="federal datasets, government data, open data, data availability, dataset tracking, public data, data monitoring, data removal, dataset changes, transparency, open government, FOIA, government transparency, data archive, federal data tracking, missing datasets, government information, digital preservation, data retention, public records, dataset updates, open access data, data censorship, freedom of information, federal records, government accountability" />
+
+      <link rel="stylesheet"
+            href="{{ url_for('static', filename='styles/__normalize.css') }}" />
+      <link rel="stylesheet"
+            href="{{ url_for('static', filename='styles/_base.css') }}" />
+      <link rel="stylesheet"
+            href="{{ url_for('static', filename='styles/_navigation.css') }}" />
+
+      {% block head %}
+      {% endblock head %}
+    </head>
+
+    <body>
+      {#
+      Include the header directly - no need for a wrapper since the template
+      already has the site-header class
+      #}
+      {% include "_shared/header.html.jinja" %}
+
+      <main class="site-content">
+        {% block main -%}
+        {% endblock main %}
+      </main>
+
+      <footer class="site-footer">
+        {% include "_shared/footer.html.jinja" %}
+      </footer>
+    </body>
+
+  </html>

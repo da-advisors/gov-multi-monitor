@@ -1,7 +1,7 @@
 [project]
-name = "multi-monitor"
+name = "americas_essential_data"
 version = "0.1.0"
-description = "Monitor multiple URLs for availability and content updates"
+description = "Packages related to America's Essential Data"
 requires-python = ">=3.10"
 # !!! IF YOU MODIFY DEPENDENCIES IN THIS FILE,
 # !!! PLEASE RUN pip freeze TO MAKE CORRESPONDING UPDATES TO REQUIREMENTS.TXT

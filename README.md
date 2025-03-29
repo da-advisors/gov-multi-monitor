@@ -1,4 +1,4 @@
-# Government Sites Multi-Monitor
+# America's Essential Data
 
 Monitor multiple URLs for availability and content updates. Features include:
 
@@ -113,31 +113,31 @@ linked_urls:
 Run a check of all URLs:
 
 ```bash
-python -m multi_monitor.cli check
+python -m americas_essential_data.cli check
 ```
 
 Generate the main status page:
 
 ```bash
-python -m multi_monitor.cli generate-page
+python -m americas_essential_data.cli generate-page
 ```
 
 View recent status changes:
 
 ```bash
-python -m multi_monitor.cli status
+python -m americas_essential_data.cli status
 ```
 
 Run the web app:
 
 ```bash
-python -m multi_monitor.app
+python -m americas_essential_data.cli web --debug
 ```
 
 OR
 
 ```bash
-python -m multi_monitor.cli web
+python -m americas_essential_data.web --debug
 ```
 
 ## Data Storage

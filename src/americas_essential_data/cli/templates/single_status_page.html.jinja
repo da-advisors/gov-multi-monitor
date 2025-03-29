@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>URL Status Report</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/tablesort.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tablesort/5.2.1/sorts/tablesort.date.min.js"></script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .timestamp {
+            font-size: 0.9em;
+            color: #6c757d;
+            margin-bottom: 30px;
+        }
+        .controls {
+            margin-bottom: 20px;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .search-box {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            flex-grow: 1;
+            min-width: 200px;
+        }
+        .tag-filter {
+            padding: 8px 12px;
+            border: 1px solid #ced4da;
+            border-radius: 4px;
+            min-width: 150px;
+        }
+        .tag {
+            display: inline-block;
+            padding: 2px 8px;
+            margin: 2px;
+            background: #e9ecef;
+            border-radius: 12px;
+            font-size: 0.85em;
+            color: #495057;
+        }
+        .archived-link {
+            display: inline-block;
+            margin: 2px 4px;
+            font-size: 0.9em;
+        }
+        .archived-link:not(:last-child):after {
+            content: ';';
+            margin-left: 4px;
+            color: #6c757d;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+            background: white;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        th {
+            background-color: #f8f9fa;
+            font-weight: 600;
+            color: #495057;
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort) {
+            cursor: pointer;
+        }
+        th[role=columnheader]:not(.no-sort):after {
+            content: '';
+            float: right;
+            margin-top: 7px;
+            border-width: 0 4px 4px;
+            border-style: solid;
+            border-color: #404040 transparent;
+            visibility: hidden;
+            opacity: 0;
+            -ms-user-select: none;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+        th[aria-sort="ascending"]:not(.no-sort):after {
+            border-bottom: none;
+            border-width: 4px 4px 0;
+        }
+        th[aria-sort]:not(.no-sort):after {
+            visibility: visible;
+            opacity: 0.4;
+        }
+        tr:hover {
+            background-color: #f8f9fa;
+        }
+        .status-ok {
+            color: #28a745;
+            font-weight: 500;
+        }
+        .status-error {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .status-redirect {
+            color: #ffc107;
+            font-weight: 500;
+        }
+        .status-content_stripped {
+            color: #dc3545;
+            font-weight: 500;
+        }
+        .linked-urls {
+            margin-left: 20px;
+            padding: 10px;
+            border-left: 3px solid #dee2e6;
+            margin-bottom: 10px;
+        }
+        .linked-url-item {
+            margin-bottom: 12px;
+        }
+        .linked-url-name {
+            font-weight: 500;
+            color: #495057;
+            margin-bottom: 4px;
+        }
+        .linked-url-details {
+            margin-left: 20px;
+            color: #6c757d;
+            font-size: 0.95em;
+        }
+        .linked-url-error {
+            color: #dc3545;
+        }
+        .linked-url-url {
+            font-family: monospace;
+            word-break: break-all;
+            color: #6c757d;
+        }
+        .last-success {
+            font-style: italic;
+            margin-left: 5px;
+        }
+        .linked-url-status {
+            margin-left: 12px;
+            font-size: 0.9em;
+        }
+        .linked-url-modified {
+            margin-left: 12px;
+            color: #6c757d;
+            font-size: 0.9em;
+        }
+        .hidden {
+            display: none;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>URL Status Report</h1>
+      <div class="timestamp">Generated on {{ timestamp.strftime("%Y-%m-%d %H:%M:%S") }}</div>
+      <div class="controls">
+        <input type="text"
+               class="search-box"
+               placeholder="Search by name or URL..."
+               id="searchInput">
+        <select class="tag-filter" id="tagFilter">
+          <option value="">All Tags</option>
+          {% for tag in tags %}<option value="{{ tag }}">{{ tag }}</option>{% endfor %}
+        </select>
+      </div>
+      <table id="resultsTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>URL</th>
+            <th>Tags</th>
+            <th>Status</th>
+            <th>Last Modified</th>
+            <th>API Status</th>
+            <th>Archived Content</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for result in results %}
+            <tr class="result-row" data-tags="{{ result.tags|join(',') }}">
+              <td>{{ result.name }}</td>
+              <td>
+                <a href="{{ result.url }}" target="_blank">{{ result.url }}</a>
+              </td>
+              <td>
+                {% for tag in result.tags %}<span class="tag">{{ tag }}</span>{% endfor %}
+              </td>
+              <td class="status-{{ result.status|lower }}">
+                {% if result.status == 'content_stripped' %}
+                  Content Stripped
+                {% else %}
+                  {{ result.status }}
+                {% endif %}
+              </td>
+              <td>{{ result.last_modified or 'N/A' }}</td>
+              <td>
+                {% if result.api_result %}
+                  <div class="status-{{ result.api_result.status|lower }}">
+                    {{ result.api_result.status }}
+                    {% if result.api_result.last_update %}
+                      <br>
+                      <small>Last Update: {{ result.api_result.last_update }}</small>
+                    {% endif %}
+                    {% if result.api_result.missing_fields %}
+                      <br>
+                      <small>Missing Fields: {{ result.api_result.missing_fields|join(", ") }}</small>
+                    {% endif %}
+                    {% if result.api_result.error_message %}
+                      <br>
+                      <small class="status-error">{{ result.api_result.error_message }}</small>
+                    {% endif %}
+                  </div>
+                {% else %}
+                  N/A
+                {% endif %}
+              </td>
+              <td>
+                {% if result.archived_content %}
+                  {% for archived in result.archived_content %}
+                    <a href="{{ archived.url }}" target="_blank" class="archived-link">
+                      {% if archived.name %}
+                        {{ archived.name }}
+                      {% else %}
+                        Snapshot {{ loop.index }}
+                      {% endif %}
+                    </a>
+                  {% endfor %}
+                {% else %}
+                  N/A
+                {% endif %}
+              </td>
+            </tr>
+            {% if result.linked_url_results %}
+              <tr>
+                <td colspan="7">
+                  <div class="linked-urls">
+                    {% for linked in result.linked_url_results %}
+                      <div class="linked-url-item">
+                        <div class="linked-url-name">{{ linked.name }}</div>
+                        <div class="linked-url-details">
+                          <div class="linked-url-url">{{ linked.url }}</div>
+                          <div class="status-{{ linked.status|lower }}">
+                            Status: {{ linked.status }}
+                            {% if linked.status == 'ERROR' and linked.last_success %}
+                              <span class="last-success">Last successful check: {{ linked.last_success.strftime("%Y-%m-%d") }}</span>
+                            {% endif %}
+                          </div>
+                          {% if linked.last_modified %}
+                            <span class="linked-url-modified">Last modified: {{ linked.last_modified }}</span>
+                          {% endif %}
+                        </div>
+                      </div>
+                    {% endfor %}
+                  </div>
+                </td>
+              </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+
+    <script>
+        // Initialize table sorting
+        new Tablesort(document.getElementById('resultsTable'));
+
+        // Set up filtering
+        const searchInput = document.getElementById('searchInput');
+        const tagFilter = document.getElementById('tagFilter');
+        const rows = document.querySelectorAll('.result-row');
+
+        function filterTable() {
+            const searchTerm = searchInput.value.toLowerCase();
+            const selectedTag = tagFilter.value.toLowerCase();
+
+            rows.forEach(row => {
+                const name = row.cells[0].textContent.toLowerCase();
+                const url = row.cells[1].textContent.toLowerCase();
+                const tags = row.getAttribute('data-tags').toLowerCase();
+
+                const matchesSearch = name.includes(searchTerm) || url.includes(searchTerm);
+                const matchesTag = !selectedTag || tags.includes(selectedTag);
+
+                // Handle both the main row and its linked URLs row
+                if (matchesSearch && matchesTag) {
+                    row.classList.remove('hidden');
+                    // Show linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.remove('hidden');
+                    }
+                } else {
+                    row.classList.add('hidden');
+                    // Hide linked URL row if it exists
+                    const linkedRow = row.nextElementSibling;
+                    if (linkedRow && linkedRow.querySelector('.linked-urls')) {
+                        linkedRow.classList.add('hidden');
+                    }
+                }
+            });
+        }
+
+        searchInput.addEventListener('input', filterTable);
+        tagFilter.addEventListener('change', filterTable);
+    </script>
+  </body>
+</html>
