@@ -1,0 +1,90 @@
+@import url("./_tokens.css");
+
+:root {
+  --color--red-darkest: var(--__token__color--red-10);
+  --color--red-dark: var(--__token__color--red-30);
+  --color--red-medium: var(--__token__color--red-50);
+  --color--red-light: var(--__token__color--red-70);
+  --color--red-lightest: var(--__token__color--red-90);
+
+  --color--blue-darkest: var(--__token__color--blue-10);
+  --color--blue-dark: var(--__token__color--blue-30);
+  --color--blue-medium: var(--__token__color--blue-50);
+  --color--blue-light: var(--__token__color--blue-70);
+  --color--blue-lightest: var(--__token__color--blue-90);
+
+  --color--green-darkest: var(--__token__color--green-10);
+  --color--green-dark: var(--__token__color--green-30);
+  --color--green-medium: var(--__token__color--green-50);
+  --color--green-light: var(--__token__color--green-70);
+  --color--green-lightest: var(--__token__color--green-90);
+
+  --color--yellow-darkest: var(--__token__color--yellow-10);
+  --color--yellow-dark: var(--__token__color--yellow-30);
+  --color--yellow-medium: var(--__token__color--yellow-50);
+  --color--yellow-light: var(--__token__color--yellow-70);
+  --color--yellow-lightest: var(--__token__color--yellow-90);
+
+  --color--gray-darkest: var(--__token__color--gray-05);
+  --color--gray-darker: var(--__token__color--gray-10);
+  --color--gray-dark: var(--__token__color--gray-30);
+  --color--gray-medium: var(--__token__color--gray-50);
+  --color--gray-light: var(--__token__color--gray-70);
+  --color--gray-lighter: var(--__token__color--gray-90);
+  --color--gray-lightest: var(--__token__color--gray-95);
+
+  --color--text-primary: var(--color--gray-darkest);
+  --color--text-inverse: var(--color--gray-lightest);
+
+  --surface--page-background: #f5f5f5;
+  --surface--primary: white;
+  --surface--active: #f8f9fa;
+
+  --color--status-ok: var(--color--green-medium);
+  --color--status-content-stripped: var(--color--red-medium);
+  --color--status-error: var(--color--red-medium);
+  --color--status-warning: var(--color--yellow-medium);
+
+  /* Fonts */
+  --font-family--heading: var(--__token__font-family--sans-serif);
+  --font-family--body: var(--__token__font-family--serif);
+
+  --font-weight--heading: 600;
+  --font-weight--body: 400;
+  --font-weight--body-bold: 600;
+
+  /**
+   * NOTE: Font sizes are scaled based on minor thirds
+   * (i.e., 1.2x between each size increment).
+   */
+  --font-size--body: var(--__token__font-size--base);
+  --font-size--h0: calc(2.281 * var(--__token__font-size--base));
+  --font-size--h1: calc(2.027 * var(--__token__font-size--base));
+  --font-size--h2: calc(1.802 * var(--__token__font-size--base));
+  --font-size--h3: calc(1.602 * var(--__token__font-size--base));
+  --font-size--h4: calc(1.424 * var(--__token__font-size--base));
+  --font-size--h5: calc(1.266 * var(--__token__font-size--base));
+  --font-size--h6: calc(1.125 * var(--__token__font-size--base));
+  --font-size--sm: calc(0.889 * var(--__token__font-size--base));
+  --font-size--xs: calc(0.79 * var(--__token__font-size--base));
+
+  /* Spacing */
+  --spacing--0_5: calc(var(--__token__spacing--base) * 0.5);
+  --spacing--1: var(--__token__spacing--base);
+  --spacing--2: calc(2 * var(--__token__spacing--base));
+  --spacing--3: calc(3 * var(--__token__spacing--base));
+  --spacing--4: calc(4 * var(--__token__spacing--base));
+  --spacing--5: calc(5 * var(--__token__spacing--base));
+  --spacing--6: calc(6 * var(--__token__spacing--base));
+  --spacing--7: calc(7 * var(--__token__spacing--base));
+  --spacing--8: calc(8 * var(--__token__spacing--base));
+  --spacing--9: calc(9 * var(--__token__spacing--base));
+  --spacing--10: calc(10 * var(--__token__spacing--base));
+
+  /* Radius */
+  --radius--none: 0;
+  --radius--small: var(--__token__radius--base);
+  --radius--medium: calc(2 * var(--__token__radius--base));
+  --radius--large: calc(4 * var(--__token__radius--base));
+  --radius--round: 50%;
+}

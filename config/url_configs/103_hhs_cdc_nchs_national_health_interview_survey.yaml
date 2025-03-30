@@ -2,3 +2,6 @@ url: https://www.cdc.gov/nchs/nhis/index.html
 name: National Health Interview Survey
 description: The National Health Interview Survey (NHIS), conducted by the CDC's National Center for Health Statistics (NCHS), is the nation’s largest and longest-running health survey, monitoring the health of the U.S. population since 1957. NHIS collects and analyzes data on a wide range of health topics, with a focus on both adults and children. Each year, approximately 27,000 adults participate in confidential, face-to-face interviews, often providing health information about children in their households.
 omb_control_number: 0920-0214
+linked_urls:
+  - url: https://www.cdc.gov/nchs/nhis/products/data-query-systems.html#cdc_report_pub_study_section_3-final-data
+    name: Interactive Data Query Systems

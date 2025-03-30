@@ -1,0 +1,35 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block title %}
+  Data &amp; Tools
+{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/index.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <div class="summary__wrapper">
+    <section class="summary">
+      <p>
+        We are <span>currently</span> monitoring <a href="#">{{ 124 }} data collections</a> publicly published by the U.S. government, totaling some <a href="#">12,892 different data resources</a>.
+      </p>
+      <p>
+        At this time, 🔴 <a href="#">12 collections</a> are completely unavailable, 🟠 <a href="#">22 are partially unavailable</a>, and 🟡 <a href="#">36 have not been updated as expected</a>.
+      </p>
+    </section>
+  </div>
+
+  <div class="status-updates__wrapper">
+    <section class="status-updates">
+      <h1 class="status-updates__heading">Latest collection status changes</h1>
+      <a class="status-updates__see-all" href="#">See all status updates ></a>
+      <div class="status-updates__items">
+        {% for status in statuses %}
+          {% include "data_and_tools/index/_partials/status-update.html.jinja" %}
+        {% endfor %}
+      </div>
+    </section>
+  </div>
+{% endblock main %}

@@ -1,0 +1,24 @@
+<article class="resource-preview">
+  <header class="resource-preview__heading">
+    <h2 class="resource-preview__title">{{ resource.name }}</h2>
+    <span class="resource-preview__detail-link"><a href="{{ url_for('data-and-tools.view_resource', resource_id=resource.id) }}">See more</a></span>
+  </header>
+  <table class="resource-preview__metadata">
+    <tbody>
+      <tr>
+        <th class="resource-preview__field-header">URL</th>
+        <td>
+          <a href="{{ resource.url }}">{{ resource.url }}</a>
+        </td>
+      </tr>
+      <tr>
+        <th class="resource-preview__field-header">Type</th>
+        <td>{{ resource.type }}</td>
+      </tr>
+      <tr>
+        <th class="resource-preview__field-header">Created at</th>
+        <td>{{ resource.created_at }}</td>
+      </tr>
+    </tbody>
+  </table>
+</article>

@@ -1,0 +1,60 @@
+<header class="site-header">
+  <div class="site-header__wrapper">
+    <!-- Logo that links to data-and-tools -->
+    <a href="{{ url_for('data-and-tools.index') }}"
+       class="site-header__logo">
+      <img alt="Logo"
+           class="site-header__logo-mark"
+           src="{{ url_for('static', filename='images/aed-mark.svg') }}"
+           height="24"
+           width="21" />
+      <span class="site-header__logo-text">{{ SITE_NAME }}</span>
+    </a>
+
+    <!-- Small screen menu toggle button -->
+    <button class="site-header__nav-toggle" aria-label="Toggle navigation menu">
+      <span class="site-header__nav-toggle-icon"></span>
+    </button>
+
+    <!-- Large screen navigation menu -->
+    <nav class="site-header__nav--large">
+      <ul class="site-header__nav-links--large">
+        <li class="site-header__nav-link-item--large {{ 'current-page' if request.path == url_for("data-and-tools.index") }}">
+          <a href="{{ url_for('data-and-tools.index') }}">Data & Tools</a>
+        </li>
+        <li class="site-header__nav-link-item--large {{ 'current-page' if url_for("data-and-tools.resources_index") in request.path }}">
+          <a href="{{ url_for('data-and-tools.resources_index') }}">Resources</a>
+        </li>
+        {# Add more navigation items here as needed #}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- Small screen navigation menu -->
+<div class="site-header__nav-wrapper">
+  <nav class="site-header__nav">
+    <ul class="site-header__nav-links">
+      <li class="site-header__nav-link-item {{ 'current-page' if request.path == url_for("data-and-tools.index") }}">
+        <a href="{{ url_for('data-and-tools.index') }}">Data & Tools</a>
+      </li>
+      <li class="site-header__nav-link-item {{ 'current-page' if url_for("data-and-tools.resources_index") in request.path }}">
+        <a href="{{ url_for('data-and-tools.resources_index') }}">Resources</a>
+      </li>
+      {# Add more navigation items here as needed #}
+    </ul>
+  </nav>
+</div>
+
+<!-- JavaScript for collapsible menu -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const navMenuToggle = document.querySelector('.site-header__nav-toggle');
+    const navMenu = document.querySelector('.site-header__nav-wrapper');
+
+    navMenuToggle.addEventListener('click', function() {
+      navMenuToggle.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+  });
+</script>

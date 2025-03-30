@@ -1,3 +1,20 @@
 url: https://www.usaspending.gov/
 name: USAspending
 description: USAspending.gov is the official source for spending data for the U.S. Government. Its mission is to show the American public what the federal government spends every year and how it spends the money. You can follow the money from the Congressional appropriations to the federal agencies and down to local communities and businesses.
+linked_urls:
+  - url: https://onevoicecrm.my.site.com/usaspending/s/database-download
+    name: SQL Database Downloads
+  - url: https://www.usaspending.gov/download_center/dataset_metadata
+    name: Dataset Metadata
+  - url: https://www.usaspending.gov/download_center/custom_award_data
+    name: Custom Award Data
+  - url: https://www.usaspending.gov/download_center/award_data_archive
+    name: Award Data Archive
+  - url: https://www.usaspending.gov/download_center/custom_account_data
+    name: Custom Account Data
+  - url: https://www.usaspending.gov/data-dictionary
+    name: Data Dictionary
+  - url: https://api.usaspending.gov/
+    name: USAspending API
+  - url: https://github.com/fedspendingtransparency/usaspending-website/tree/master
+    name: USAspending GitHub
