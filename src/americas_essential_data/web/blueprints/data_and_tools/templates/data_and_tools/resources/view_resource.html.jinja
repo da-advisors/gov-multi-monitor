@@ -1,0 +1,144 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block title %}
+  {{ resource.name }}
+{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/resources.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <div class="resource-detail__wrapper flex-grid">
+    <header class="resource-detail__heading">
+      <h1 class="resource-detail__title">{{ resource.name }}</h1>
+      <a href={{ url_for("data-and-tools.resources_index") }}>Back to all resources</a>
+    </header>
+    <section class="resource-detail">
+      <table class="resource-detail__metadata">
+        <tbody>
+          <tr>
+            <th class="resource-detail__field-header">URL</th>
+            <td>
+              <a href="{{ resource.url }}">{{ resource.url }}</a>
+            </td>
+          </tr>
+          <tr>
+            <th class="resource-detail__field-header">Type</th>
+            <td>{{ resource.type }}</td>
+          </tr>
+          <tr>
+            <th class="resource-detail__field-header">Created at</th>
+            <td>{{ resource.created_at }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="resource-detail__status-history">
+      {% if status_history %}
+        <h2 class="resource-detail__status-history-title">Status history</h2>
+
+        <!-- Status key/legend -->
+        <div class="resource-detail__status-key">
+          <span class="status-key__title">Status types:</span>
+          <ul class="status-key__list">
+            <li class="status-key__item">
+              <span class="status-key__indicator status-key__indicator--ok">●</span>
+              <span class="status-key__label">OK</span>
+              <span class="status-key__description">Resource is available and functioning normally</span>
+              {% if status_counts and status_counts.OK %}
+                <span class="status-key__count">({{ status_counts.OK }} occurrences)</span>
+              {% endif %}
+            </li>
+            <li class="status-key__item">
+              <span class="status-key__indicator status-key__indicator--error">●</span>
+              <span class="status-key__label">ERROR</span>
+              <span class="status-key__description">Resource is unavailable or not functioning correctly</span>
+              {% if status_counts and status_counts.ERROR %}
+                <span class="status-key__count">({{ status_counts.ERROR }} occurrences)</span>
+              {% endif %}
+            </li>
+            <li class="status-key__item">
+              <span class="status-key__indicator status-key__indicator--redirect">●</span>
+              <span class="status-key__label">REDIRECT</span>
+              <span class="status-key__description">Resource has been moved to a different URL</span>
+              {% if status_counts and status_counts.REDIRECT %}
+                <span class="status-key__count">({{ status_counts.REDIRECT }} occurrences)</span>
+              {% endif %}
+            </li>
+            <li class="status-key__item">
+              <span class="status-key__indicator status-key__indicator--content-stripped">●</span>
+              <span class="status-key__label">CONTENT_STRIPPED</span>
+              <span class="status-key__description">Resource exists but expected content is missing</span>
+              {% if status_counts and status_counts.CONTENT_STRIPPED %}
+                <span class="status-key__count">({{ status_counts.CONTENT_STRIPPED }} occurrences)</span>
+              {% endif %}
+            </li>
+          </ul>
+        </div>
+
+        <table class="resource-detail__status-history-items">
+          <thead class="resource-detail__status-history-table-header">
+            <tr>
+              <th class="resource-detail__status-history-date">Checked at</th>
+              <th class="resource-detail__status-history-status">Status</th>
+              <th class="resource-detail__status-history-message">Details</th>
+              <th class="resource-detail__status-history-response-time">Response Time</th>
+              <th class="resource-detail__status-history-content-length">Content Length</th>
+            </tr>
+          </thead>
+          <tbody>
+            {% for status in status_history %}
+              <tr>
+                <td class="resource-detail__status-history-date">{{ status.checked_at }}</td>
+                <td class="resource-detail__status-history-status">
+                  <span class="status-key__indicator status-key__indicator--{{ status.status|lower|replace('_', '-') }}">●</span>
+                  {{ status.status }}
+                </td>
+                <td class="resource-detail__status-history-message">
+                  {% if status.error_message %}
+                    {{ status.error_message }}
+                  {% elif status.status_code %}
+                    HTTP {{ status.status_code }}
+                    {% if status.status|lower == 'ok' %}- Resource is available and functioning normally{% endif %}
+                  {% elif status.status|lower == 'ok' %}
+                    Resource is available and functioning normally
+                  {% elif status.status|lower == 'error' %}
+                    Resource is unavailable or not functioning correctly
+                  {% elif status.status|lower == 'redirect' %}
+                    {% if status.redirect_url %}
+                      Redirected to <a href="{{ status.redirect_url }}" target="_blank">{{ status.redirect_url }}</a>
+                    {% else %}
+                      Resource has been moved to a different URL
+                    {% endif %}
+                  {% elif status.status|lower == 'content_stripped' %}
+                    Resource exists but expected content is missing
+                  {% else %}
+                    No additional details available
+                  {% endif %}
+                </td>
+                <td class="resource-detail__status-history-response-time">
+                  {% if status.response_time %}
+                    {{ "%.2f"|format(status.response_time) }}s
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+                <td class="resource-detail__status-history-content-length">
+                  {% if status.content_length %}
+                    {{ status.content_length|filesizeformat }}
+                  {% else %}
+                    -
+                  {% endif %}
+                </td>
+              </tr>
+            {% endfor %}
+          </tbody>
+        </table>
+      {% else %}
+        <h2 class="resource-detail__status-history-title">No history recorded (yet!)</h2>
+      {% endif %}
+    </section>
+  </div>
+{% endblock main %}

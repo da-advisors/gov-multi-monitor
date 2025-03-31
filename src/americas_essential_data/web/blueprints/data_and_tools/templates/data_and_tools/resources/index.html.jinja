@@ -1,0 +1,51 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block title %}
+  Data Sources
+{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/resources.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <header class="resource-list__header flex-grid">
+    <h1 class="resource-list__title">All tracked resources</h1>
+    <span class="resource-list__stats">Showing {{ resources|length }} of {{ total_resources }} resources</span>
+  </header>
+
+  <section class="resource-list__items flex-grid">
+    {% for resource in resources %}
+      {% include "data_and_tools/resources/_partials/resource_preview.html.jinja" %}
+    {% endfor %}
+  </section>
+
+  {% if total_pages > 1 %}
+    <footer class="resource-list__footer">
+      <nav class="pagination">
+        {% if current_page > 1 %}
+          <a href="{{ url_for('data-and-tools.resources_index', page=current_page-1) }}"
+             class="pagination__prev">Previous</a>
+        {% endif %}
+
+        <ol class="pagination__pages">
+          {% for p in range(1, total_pages + 1) %}
+            {% if p == current_page %}
+              <li class="pagination__page pagination__page--current">{{ p }}</li>
+            {% else %}
+              <li class="pagination__page">
+                <a href="{{ url_for('data-and-tools.resources_index', page=p) }}">{{ p }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        {% if current_page < total_pages %}
+          <a href="{{ url_for('data-and-tools.resources_index', page=current_page+1) }}"
+             class="pagination__next">Next</a>
+        {% endif %}
+      </nav>
+    </footer>
+  {% endif %}
+{% endblock main %}
