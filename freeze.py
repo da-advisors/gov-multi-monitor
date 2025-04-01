@@ -6,6 +6,7 @@ import logging
 import os
 import shutil
 from flask import render_template
+from pathlib import Path
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -81,6 +82,7 @@ def data_and_tools_view_resource():
             for resource in resources:
                 resource_id = resource['id']
                 logging.info(f"Generating page for resource: {resource_id}")
+                # The URL structure should match your blueprint route
                 yield {'resource_id': resource_id}
         except Exception as e:
             logging.error(f"Error generating resource detail pages: {e}")
@@ -156,8 +158,8 @@ def manually_build_resource_pages():
                             status_history=status_history
                         )
 
-                    # Write the file
-                    output_path = os.path.join('build', 'data-and-tools', 'resources', f"{resource_id}.html")
+                    # Create a directory for this resource and save as index.html
+                    output_path = os.path.join('build', 'data-and-tools', 'resources', resource_id, 'index.html')
                     os.makedirs(os.path.dirname(output_path), exist_ok=True)
 
                     with open(output_path, 'w') as f:
@@ -251,10 +253,12 @@ if __name__ == '__main__':
         logging.info("Freezing routes automatically...")
         freezer.freeze()
 
-        # Check if resources were generated properly
-        resource_pages = list(os.path.join('build', 'data-and-tools', 'resources').glob('*.html'))
-        if len(resource_pages) < 2:  # Just index.html or nothing
-            logging.warning("Few or no resource pages generated automatically. Trying manual approach...")
+        # Check if resources were generated properly - look for index.html files in subdirectories
+        resource_dirs = [d for d in Path(os.path.join('build', 'data-and-tools', 'resources')).iterdir()
+                        if d.is_dir() and (d / 'index.html').exists()]
+
+        if len(resource_dirs) < 1:  # No resource detail pages found
+            logging.warning("No resource detail pages generated automatically. Trying manual approach...")
             total_pages = manually_build_all_pages()
             logging.info(f"Manually built {total_pages} pages")
 
