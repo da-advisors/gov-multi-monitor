@@ -6,7 +6,11 @@
 
 {% block head %}
   <link rel="stylesheet"
-        href="{{ url_for('data-and-tools.static', filename='styles/resources.css') }}" />
+        href="{{ url_for('static', filename='styles/normalize.css', _external=False) }}" />
+  <link rel="stylesheet"
+        href="{{ url_for('static', filename='styles/base.css', _external=False) }}" />
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/resources.css', _external=False) }}" />
 {% endblock head %}
 
 {% block main %}
@@ -25,7 +29,7 @@
     <footer class="resource-list__footer">
       <nav class="pagination">
         {% if current_page > 1 %}
-          <a href="{{ url_for('data-and-tools.resources_index', page=current_page-1) }}"
+          <a href="{{ url_for('data-and-tools.resources_index', page=current_page-1, _external=False) }}"
              class="pagination__prev">Previous</a>
         {% endif %}
 
@@ -35,14 +39,14 @@
               <li class="pagination__page pagination__page--current">{{ p }}</li>
             {% else %}
               <li class="pagination__page">
-                <a href="{{ url_for('data-and-tools.resources_index', page=p) }}">{{ p }}</a>
+                <a href="{{ url_for('data-and-tools.resources_index', page=p, _external=False) }}">{{ p }}</a>
               </li>
             {% endif %}
           {% endfor %}
         </ol>
 
         {% if current_page < total_pages %}
-          <a href="{{ url_for('data-and-tools.resources_index', page=current_page+1) }}"
+          <a href="{{ url_for('data-and-tools.resources_index', page=current_page+1, _external=False) }}"
              class="pagination__next">Next</a>
         {% endif %}
       </nav>
