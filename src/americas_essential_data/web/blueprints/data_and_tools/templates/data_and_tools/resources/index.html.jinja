@@ -17,7 +17,7 @@
     <span class="resource-list__stats">Showing {{ resources|length }} of {{ total_resources }} resources</span>
   </header>
 
-  <section class="resource-list__items flex-grid">
+  <section class="resource-list__items page-wrapper">
     {% for resource in resources %}
       {% include "data_and_tools/resources/_partials/resource_preview.html.jinja" %}
     {% endfor %}

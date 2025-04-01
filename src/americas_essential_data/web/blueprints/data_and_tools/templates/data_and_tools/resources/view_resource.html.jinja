@@ -10,10 +10,12 @@
         href="/static/styles/normalize.css" />
   <link rel="stylesheet"
         href="/static/styles/base.css" />
+  <link rel="stylesheet"
+        href="/static/styles/resource.css" />
 {% endblock head %}
 
 {% block main %}
-  <div class="resource-detail__wrapper flex-grid">
+  <div class="resource-detail__wrapper page-wrapper">
     <header class="resource-detail__heading">
       <h1 class="resource-detail__title">{{ resource.name }}</h1>
       {# Use relative URLs for navigation #}

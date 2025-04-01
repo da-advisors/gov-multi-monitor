@@ -7,6 +7,7 @@ import os
 import shutil
 from flask import render_template
 from pathlib import Path
+import traceback
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -265,7 +266,7 @@ def process_css_files():
     else:
         logging.warning("normalize.css source not found!")
 
-    # 2. Create base.css by combining files
+    # 2. Create base.css
     create_base_css()
 
     # 3. Create resources.css
@@ -303,36 +304,242 @@ def process_css_files():
 
 
 def create_base_css():
-    """Create the base.css file by combining partials."""
+    """Create the base.css file with all variables flattened to their final values."""
     output_file = os.path.join("build", "static", "styles", "base.css")
 
-    # List of files to combine in order
-    source_files = [
-        os.path.join(app.root_path, "static", "styles", "__normalize.css"),
-        os.path.join(app.root_path, "static", "styles", "_variables.css"),
-        os.path.join(app.root_path, "static", "styles", "_navigation.css"),
-        os.path.join(app.root_path, "static", "styles", "_base.css"),
-    ]
+    # Get the file paths
+    css_dir = os.path.join(app.root_path, "static", "styles")
+    tokens_path = os.path.join(css_dir, "_tokens.css")
+    variables_path = os.path.join(css_dir, "_variables.css")
+    navigation_path = os.path.join(css_dir, "_navigation.css")
+    resources_path = os.path.join(css_dir, "_resources.css")
+    normalize_path = os.path.join(css_dir, "__normalize.css")
+    base_path = os.path.join(css_dir, "_base.css")
 
-    combined_content = []
+    # Import missing token values that aren't in the files
+    additional_tokens = {
+        "--__token__font-family--sans-serif": "'Public Sans', -apple-system, BlinkMacSystemFont, sans-serif",
+        "--__token__font-family--serif": "'Merriweather', Georgia, serif",
+        "--__token__font-size--base": "16px",
+        "--__token__spacing--base": "0.25rem",
+        "--__token__radius--base": "4px"
+    }
 
-    # Read and combine each file
-    for file_path in source_files:
-        if os.path.exists(file_path):
-            logging.info(f"Adding {os.path.basename(file_path)} to base.css")
-            with open(file_path, "r") as f:
-                combined_content.append(f"/* {os.path.basename(file_path)} */")
+    try:
+        import re
+
+        # Step 1: Collect all CSS variables with their values
+        all_variables = {}
+        all_variables.update(additional_tokens)  # Start with our defaults
+
+        # Extract Google Font imports
+        font_imports = []
+        if os.path.exists(tokens_path):
+            with open(tokens_path, 'r') as f:
+                tokens_content = f.read()
+                for line in tokens_content.split('\n'):
+                    if '@import url(' in line and 'fonts.googleapis.com' in line:
+                        font_imports.append(line)
+                    elif '--__token__' in line and ':' in line:
+                        try:
+                            # Use regex to properly extract variable name and value
+                            var_match = re.search(r'(--__token__[a-zA-Z0-9_-]+)\s*:\s*([^;]+);', line)
+                            if var_match:
+                                var_name = var_match.group(1)
+                                var_value = var_match.group(2).strip()
+                                all_variables[var_name] = var_value
+                        except Exception as e:
+                            logging.warning(f"Error parsing token variable: {line} - {e}")
+
+        # Now process the variables CSS file (which references tokens)
+        if os.path.exists(variables_path):
+            with open(variables_path, 'r') as f:
+                variables_content = f.read()
+                for line in variables_content.split('\n'):
+                    if '--' in line and ':' in line and '@import' not in line and 'root' not in line:
+                        try:
+                            # Use regex to properly extract variable name and value
+                            var_match = re.search(r'(--[a-zA-Z0-9_-]+)\s*:\s*([^;]+);', line)
+                            if var_match:
+                                var_name = var_match.group(1)
+                                var_value = var_match.group(2).strip()
+                                all_variables[var_name] = var_value
+                        except Exception as e:
+                            logging.warning(f"Error parsing variable: {line} - {e}")
+
+        # Step 2: Recursively resolve all variable references
+        def resolve_variable_references(variables):
+            """Resolve all variable references until no more can be resolved."""
+            made_changes = True
+            max_iterations = 10  # Safety limit to prevent infinite loops
+            iterations = 0
+
+            while made_changes and iterations < max_iterations:
+                made_changes = False
+                iterations += 1
+
+                for var_name, var_value in variables.items():
+                    if 'var(' in var_value:
+                        new_value = var_value
+                        # Find all variable references in this value
+                        var_refs = re.findall(r'var\((--[^)]+)\)', var_value)
+
+                        for ref in var_refs:
+                            if ref in variables:
+                                # Replace this reference with its value
+                                new_value = new_value.replace(f'var({ref})', variables[ref])
+                                made_changes = True
+
+                        variables[var_name] = new_value
+
+            return variables, iterations
+
+        # Resolve all variable references
+        resolved_variables, iterations = resolve_variable_references(all_variables)
+        logging.info(f"Resolved CSS variables in {iterations} iterations")
+
+        # Step 3: Combine everything into one file with resolved variables
+        combined_content = []
+
+        # Add font imports first
+        for import_line in font_imports:
+            combined_content.append(import_line)
+
+        # Add normalize.css (no variables to resolve)
+        if os.path.exists(normalize_path):
+            with open(normalize_path, 'r') as f:
+                combined_content.append(f"/* normalize.css */")
                 combined_content.append(f.read())
-        else:
-            logging.warning(f"CSS partial not found: {file_path}")
 
-    # Write the combined file
-    if combined_content:
-        with open(output_file, "w") as f:
-            f.write("\n\n".join(combined_content))
-        logging.info(f"Created base.css at {output_file}")
-    else:
-        logging.error("No content found for base.css!")
+        # Add the CSS custom properties root with all resolved variables
+        vars_content = [":root {"]
+        for var_name, var_value in sorted(resolved_variables.items()):
+            if var_name.startswith('--') and not var_name.startswith('--__token__'):
+                vars_content.append(f"  {var_name}: {var_value};")
+        vars_content.append("}")
+
+        combined_content.append(f"/* All variables with resolved values */")
+        combined_content.append('\n'.join(vars_content))
+
+        # Function to replace variable references in CSS content
+        def replace_var_references(content):
+            """Replace all var() references with their final values."""
+            for var_name, var_value in resolved_variables.items():
+                # Use regex to match exact var(...) patterns
+                pattern = re.compile(r'var\(' + re.escape(var_name) + r'\)')
+                content = pattern.sub(var_value, content)
+            return content
+
+        # Process and add each CSS file with variables resolved
+        css_files = [
+            ("navigation.css", navigation_path),
+            ("resources.css", resources_path),
+            ("base.css", base_path)
+        ]
+
+        for file_name, file_path in css_files:
+            if os.path.exists(file_path):
+                with open(file_path, 'r') as f:
+                    css_content = f.read()
+
+                    # Remove imports and root blocks since we already have all variables
+                    processed_lines = []
+                    skip_line = False
+                    root_block_depth = 0
+
+                    for line in css_content.split('\n'):
+                        # Skip @import lines
+                        if '@import' in line:
+                            continue
+
+                        # Track :root block
+                        if ':root' in line and '{' in line:
+                            root_block_depth += 1
+                            skip_line = True
+                            continue
+
+                        # Count braces to track nested blocks
+                        if '{' in line:
+                            root_block_depth += line.count('{')
+                        if '}' in line:
+                            root_block_depth -= line.count('}')
+                            # If we're exiting the root block, skip this line too
+                            if root_block_depth == 0 and skip_line:
+                                skip_line = False
+                                continue
+
+                        # Only include lines that aren't in a :root block
+                        if not skip_line:
+                            processed_lines.append(line)
+
+                    css_content = '\n'.join(processed_lines)
+
+                    # Replace variable references with actual values
+                    css_content = replace_var_references(css_content)
+                    combined_content.append(f"/* {file_name} (with variables resolved) */")
+                    combined_content.append(css_content)
+
+        # Write the combined file
+        os.makedirs(os.path.dirname(output_file), exist_ok=True)
+        with open(output_file, 'w') as f:
+            f.write('\n\n'.join(combined_content))
+
+        logging.info(f"Created flattened base.css at {output_file}")
+
+        # Also create a standalone normalize.css for templates that reference it directly
+        if os.path.exists(normalize_path):
+            normalize_output = os.path.join("build", "static", "styles", "normalize.css")
+            shutil.copy2(normalize_path, normalize_output)
+            logging.info(f"Created standalone normalize.css at {normalize_output}")
+
+        return True
+    except Exception as e:
+        logging.error(f"Error creating flattened base.css: {e}")
+        traceback_info = traceback.format_exc()
+        logging.error(f"Traceback: {traceback_info}")
+
+        # Create minimal fallback CSS as emergency solution
+        try:
+            with open(output_file, 'w') as f:
+                f.write("""
+/* Emergency fallback CSS */
+:root {
+  --color--blue-dark: #1a3952;
+  --color--text-primary: #171717;
+  --color--text-inverse: #fafafa;
+  --surface--page-background: #f5f5f5;
+  --surface--primary: white;
+  --spacing--4: 1rem;
+  --spacing--2: 0.5rem;
+  --font-size--body: 16px;
+}
+
+body {
+  font-family: -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #171717;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.site-header {
+  background-color: #1a3952;
+  color: white;
+  padding: 1rem;
+}
+
+.site-header a {
+  color: white;
+  text-decoration: none;
+}
+""")
+            logging.info("Created emergency fallback CSS")
+        except Exception as fallback_error:
+            logging.error(f"Failed to create emergency CSS: {fallback_error}")
+
+        return False
 
 
 def fix_static_urls():
