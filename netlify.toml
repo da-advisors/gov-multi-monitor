@@ -1,3 +1,10 @@
-   [build]
-     command = "python freeze.py"
-     publish = "build"
+[build]
+  command = """
+    pwd &&
+    ls -la &&
+    pip list &&
+    pip install -e . &&
+    pip list &&
+    python freeze.py
+  """
+  publish = "build"

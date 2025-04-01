@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 """Script to freeze specific routes from the Flask application into static HTML files."""
+import sys
+import os
+sys.path.insert(0, os.path.abspath('.'))
 from flask_frozen import Freezer
 from americas_essential_data.web.app import create_app, db_instance
 import logging
-import os
 import shutil
 from flask import render_template
 from pathlib import Path
