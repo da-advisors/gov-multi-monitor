@@ -5,7 +5,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}America's Essential Data{% endblock %}</title>
+    <title>{% block title %}{% endblock %} | {{ SITE_NAME }}</title>
     <meta name="og:title" content="{{ self.title() |safe_title }}" />
     <meta name="og:site_name" content="{{ SITE_NAME }}" />
 
@@ -41,11 +41,9 @@
           content="federal datasets, government data, open data, data availability, dataset tracking, public data, data monitoring, data removal, dataset changes, transparency, open government, FOIA, government transparency, data archive, federal data tracking, missing datasets, government information, digital preservation, data retention, public records, dataset updates, open access data, data censorship, freedom of information, federal records, government accountability" />
 
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='styles/normalize.css', _external=False) }}" />
+          href="/static/styles/normalize.css" />
     <link rel="stylesheet"
-          href="{{ url_for('static', filename='styles/base.css', _external=False) }}" />
-    <link rel="stylesheet"
-          href="{{ url_for('static', filename='styles/_navigation.css') }}" />
+          href="/static/styles/base.css" />
 
     {% block head %}
     {% endblock head %}

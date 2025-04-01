@@ -5,13 +5,11 @@
 {% endblock title %}
 
 {% block head %}
-  {# Use relative URLs for static assets #}
+  {# Use absolute URLs for static assets #}
   <link rel="stylesheet"
-        href="{{ url_for('static', filename='styles/normalize.css', _external=False) }}" />
+        href="/static/styles/normalize.css" />
   <link rel="stylesheet"
-        href="{{ url_for('static', filename='styles/base.css', _external=False) }}" />
-  <link rel="stylesheet"
-        href="{{ url_for('data-and-tools.static', filename='styles/resources.css', _external=False) }}" />
+        href="/static/styles/base.css" />
 {% endblock head %}
 
 {% block main %}
