@@ -10,10 +10,11 @@ dependencies = [
     "atoma==0.0.17",  # For parsing RSS/Atom feeds (may help with last-modified detection)
     "beautifulsoup4==4.13.3",  # For parsing HTML
     "click==8.1.8",  # For CLI options parsing/routing
-    "duckdb==1.2.1",  # For DuckDB support
+    "duckdb==1.2.1",  # For DuckDB support (local/legacy db)
     "flask==3.1.0",  # For the Flask web server
     "jinja2==3.1.6",  # For HTML templating
     "pandas==2.2.3",  # For data management
+    "psycopg==3.2.6", # For PostgreSQL database support (deployed/prod db)
     "pyarrow==19.0.1",  # To support Apache Arrow format
     "pyyaml==6.0.2",  # For config files
     "requests==2.32.3",  # For making HTTP requests
