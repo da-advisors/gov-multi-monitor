@@ -5,3 +5,37 @@ omb_control_number: 0935-0118
 linked_urls:
   - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files.jsp
     name: Download Data Files, Documentation, and Codebooks
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/about_meps/survey_back.jsp
+    name: Survey Background
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/about_meps/releaseschedule.jsp
+    name: Data Release Schedule
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/survey_comp/household.jsp
+    name: Household Component
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/survey_comp/Insurance.jsp
+    name: Insurance/Employer Component
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/survey_comp/mpc.jsp
+    name: Medical Provider Component
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/survey_comp/survey_questionnaires.jsp
+    name: Survey Questionnaires
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/data_overview.jsp
+    name: Data Overview
+    resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/data_tools.jsp
+    name: MEPS Data Tools (HC/IC)
+    resource_type: Supporting Documentation Page
+  - url: https://github.com/HHS-AHRQ/MEPS
+    name: MEPS GitHub
+    resource_type: Supporting Documentation Page
+  - url: https://datatools.ahrq.gov/meps-hc/#varExp
+    name: MEPS-HC Variable Explorer Tool
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/onsite_datacenter.jsp
+    name: Restricted Data Files Available through the AHRQ Data Center
+    resource_type: Supporting Documentation Page
