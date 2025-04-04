@@ -4,5 +4,580 @@ description: The Office of Personnel Management is the focal point for providing
 linked_urls:
   - url: https://www.opm.gov/data/datasets/Index.aspx?tag=FedScope
     name: Raw Datasets
+    resource_type: Data Listings Page
   - url: https://www.fedscope.opm.gov/datadefn/index.asp
     name: Data Definitions
+    resource_type: Supporting Documentation Page
+  - url: https://www.fedscope.opm.gov/download_Data%20Release%20Policy.pdf
+    name: Data Release Policy
+    resource_type: Supporting Documentation Page
+  - url: https://www.fedscope.opm.gov/fedshelp/index.asp
+    name: FedScope Cube Interfaces
+    resource_type: Supporting Documentation Page
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D
+    name: Status Data - Employment Data Cube Current Month
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2B-%2BCurrent%2BMonth&action=view&mode=dashboard&subView=model00000185985349dc_00000000
+    name: Status Data - Employment Cube Dashboards/Maps Current Month
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/employment.aspx
+    name: Status Data - Employment Data Cube Quarter Months
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABpu3eKwh42o1OwW6CQBD9mR3Ug2Z2EAsHDiwLkYOgwqWnhuJqmsJiFjz4983CwfbW9zKZycx7L_OUxaasinOSyXAYe6MyuQSiL19yLgN3J4X~thXoCY8LN8DAE37i7tItEK0c602ic7w~RtU_BEqbXo9Kj0DptW8vyoAnYIu67hS4cnGsm_~6poaPpLu3~bNTelyAJ4HS_3z5K3_pgLAySl_AcPmuarMe_7XtK2t3ZBlv4iLPk7jKijyPDkn4D6sjTuEVkXFE5BwZY8g8ZITMkrHopnTzBEIga47aFjA49INNjB~GzNmnR21GZQADBuQDuQikONAnUDAv_GvBJgC5Vv4LfOI0zQ9NNb8x4wcrtG_w
+    name: Status Data - Employment Trend Data Cube Current 5 Year-to-Year
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Year%2Bto%2BYear%2529&action=view&mode=dashboard
+    name: Status Data - Employment Trend Cube Dashboards/Maps Current 5 Year-to-Year
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABsjwN_f142o2OTY_CQAyG~8wU9aDpFDDMgQPOQOQgqHDfsDiazfJhhvHgv98AJu7e9m2aNO3bp3WKfFOU_TlOVTjY3uhULYHoy423KvASIZQUnkIKEtpywkD4QeCrhAPRyhl34_gs98eo3IdASd13VncWKLn2zUUb8HfgYVe1Gly1OFb1d3XTw0fc3pv_2erOLsBXQMl9nvy1v11AWBrdXYBweXpUxmqztv36Va5GiKMKuZF5lsWyTPMsiw5x_G_AszuFV0TGEZFzZIwh85ERsjEYi266q59ACDQioqYBFId_GLnyYcx84UUDFAwoAHIRSHOgTyAxN~i7wSYBuaP9l~gUUzU~NOX8xqwfpFR1AQ%3D%3D
+    name: Status Data - Employment Trend Data Cube Current 5 Quarter-to-Quarter
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Quarter%2Bto%2BQuarter%2529&action=view&mode=dashboard
+    name: Status Data - Employment Trend Cube Dashboards/Maps Current 5 Quarter-to-Quarter
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABxL0_5Ml42pVOwW6CQBD9mR3UQ83sA9Jy4LDsQvQgqHBvqK6mKYJZ8eDfN0BS22PfyySTN2%7EejFcWy7Iq9unaxLe_c3Zt5gR8AkGWSB0pE%7EiB5lAlrBVn0gSIXiUbAhbesJuqvV5tVbWKCdmha3vb9oTs1DVH6yhMKOC2vljyzWxbH77qs729p5dr0z0utu1nFBpCdp0mf_1PF4ErZ9sjgeelvRIYLEMCvxD4R4gWQ5pnSr3URZ6nuloXea42afz%7EJC%7EZxSdmIZlZShZCsAhZgMVAIdTZtocHgQlDlmoa4mjT3YYD_u7cdGp3r11vHXEkCG8EnwlWEj4I0STIpyBGEPzB%7Egty5NhND401vTHhG9f3c1Q%3D
+    name: Status Data - Employment Trend Data Cube Sep 2015 - Sep 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Sep%2B2015%2B-%2BSep%2B2019%2529&action=view&mode=dashboard&subView=model00000185985349dc_00000000
+    name: Status Data - Employment Trend Cube Dashboards/Maps Sep 2015 - Sep 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABxEBrC9V42pVOy26DQAz8mTVJDo28ZkngwGGBReEQSAL3ipJNVJWXFnLI31eA1LTHzsiSNR6PbeXZNi_yi0oifxg7o5NoDUSfKiYRk3LEbk_C7%7EeB59qCKykirsTOlUC0saZdJS%7Eh4SSLgw8UV1076nYEim9dfdUGnAAEtmWjwY5Wp7L6Ku96eFdNX3fPRrfjCpwIKO6XyV%7E7ywWEhdHtFQjXue6BkJAjEL4B4Y8gNlOaFeXhNszSVIVFkqWpPCr%7E%7E0lWcPZviIwjIufIGEPmICNkExmTd91WTyAEmrJkXQN6x26YDoQPY5ZT50dpRm0APQbkAtkIpDnQB5C3CPwlsBlA9mT%7EBT5z7paH5lreWPANuxtzOQ%3D%3D
+    name: Status Data - Employment Trend Data Cube Sep 2010 - Sep 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Sep%2B2010%2B-%2BSep%2B2014%2529&action=view&mode=dashboard&subView=model00000185985349dc_00000000
+    name: Status Data - Employment Trend Cube Dashboards/Maps Sep 2010 - Sep 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABxKWjF3542pVOwW6DMAz9mZi2h1WOgYocOAABtYdCW7hPjKbVNAgo0EP%7EfgpI63bce7JkPT8%7E2ymLbVkVl%7EQgw3HqjTrINRB9UswFBpw8joEnd0EgM_F7rnClt%7EOyNAaijWN30_iS7E9RtQ_BsqbXk9ITUHbr26sy4Mfgoa47Ba5cnermq76r8T3thrZ%7EdkpPK%7EAlUDYsk7%7E2lwsIK6P0FQjXpRqAkBB9IHwDwh9BbGyaI8tkmxR5nibVocjz6JiG%7E09y4nN4Q2QcETlHxhgyHxkhs2QsuivdPIEQyGZFbQsojv1oDyQPY5ZT50dtJmUABQMKgFwEUhzoA0gsAn8JbAaQa_2%7EwGfO3fLQXMsbC74BlqxzLA%3D%3D
+    name: Status Data - Employment Trend Data Cube Sep 2005 - Sep 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Sep%2B2005%2B-%2BSep%2B2009%2529&action=view&mode=dashboard&subView=model00000185985349dc_00000000
+    name: Status Data - Employment Trend Cube Dashboards/Maps Sep 2005 - Sep 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABuwvODpp42pVOwW6DMAz9mZi2h1WOEyY4cEgIqBwGXeGy08RoOlVjMBH_X1NAW7fd9p4s2c%7EPTw7qal831SkrTOLmcbKF2QLRVcsoirlOBXKUEQpleIYm5CKWRut7CUS7wN9m6pQejqo5JEB5Nw6zHWag%7EDL2ZztBqEHi0L5bEGZzbLu39tW6Z9V11rnrOLgNhAYo%7E1g3v_03FxA2kx3OQLjNn4DQEwjvgPBrljufFZg63adVWWZpU1RlqR6y5L85gX5MLoiMIyLnyBhDFiIjZJ6MfeeBP%7EZhqu8BY9PO9o%7EEgCIggUCWA70AxavAbwJbACS8%7EQf4wqVbf1lq%7EWDFJ1yrbck%3D
+    name: Dynamics Data - Accessions Trend Data Cube FY 2020 - FY 2024
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BAccessions%2BDashboards%2FAccessions%2BTrend%2B%2528FY%2B2020%2B-%2BFY%2B2024%2529&action=view&mode=dashboard
+    name: Dynamics Data - Accessions Trend Cube Dashboards/Maps FY 2020 - FY 2024
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABuzCqAvR42pVOTU_DQBD9Mzu0PdjMvoXiHjhs_Ug5CLVw8WSQbk0jggH_fwwQrXrzvUwy8_bNyzhFvi3K~BSnUTCMXW~TaE3AVRnDPnae1sq4SrGGgnb9xPd95SU7n4CNM93G5hQejqY8BISk7trRtiMhuXTN2fbk7cnltnq3pKLVsarfqlc7PJu6tsNw7dphRV5ESD6WzW~7zUXgsrftmcDr5InAYOkR_I7AX7PeTFlOVITbMM_yOCzTPMvMQxz8N8fZPwYXZiGZWUoWQrDwWIDFRCG_8whMmMJM0xDrqBrtH0kQ7gmKCVYSXgh6EeRNEDMIarL~gJw5d8svcy0fLPgEJQttrQ%3D%3D
+    name: Dynamics Data - Accessions Trend Data Cube FY 2015 - FY 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BAccessions%2BDashboards%2FAccessions%2BTrend%2B%2528FY%2B2015%2B-%2BFY%2B2019%2529&action=view&mode=dashboard
+    name: Dynamics Data - Accessions Trend Cube Dashboards/Maps FY 2015 - FY 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABuyg3qUN42pVOwW6DMAz9mZi2h1WOCRkcOIQkqBwGXeGy08RoOlVjMAH~rwnQ1m23vSdL9vPzk72y2JdVcbKZicepH1xmtkB0JS2FiqS0obgXgRWhSUik0kgdIpcKgWjnzbdWnfThqKpDDJQ2fTe5bgJKL317dgMECQjs6ncHvtkc6_atfnXjs2oaN47Xvhs3EBig9GPd~LbfXEBYDa47A_E2fQJCQo5AeAeEX7PYzVmeKfVeF3ludZUVea4ebPzfHC95jC_IjCMi58gYQxYgI2QzGfvOA0KgOUy1LWBk6sn9kRhQCOQjkONAL0DRKvCbwBYA_bP9B~jCpVt~WWr9YMUniC9t4g%3D%3D
+    name: Dynamics Data - Accessions Trend Data Cube FY 2010 - FY 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BAccessions%2BDashboards%2FAccessions%2BTrend%2B%2528FY%2B2010%2B-%2BFY%2B2014%2529&action=view&mode=dashboard
+    name: Dynamics Data - Accessions Trend Cube Dashboards/Maps FY 2010 - FY 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABu2HICIN42pVOwU6DQBD9mR3aHmxmH0XgwGHZXdIehFq4eDJIt6axgin8fwwQrXrzvUwy8_bNy3hlsS6r4mB3JumH7up2ZknA2Y_k0huVylBHG3sfqiyy8CNjZBjDZiEBK2_8teqgt3tVbRNC1nTt4NqBkJ26y9FdKUhpw2397sg3i33dvNWvrn9WTeP6~ty1~YICQ8g_5s1v_81F4Orq2iOBl9kTgcEcEPiOwF9zvBqzPFPqtS7y3OpqV_S5erDJf3O89DE5MQvJzFKyEIJFwAIsRgrxnUdgwhimLhfi2NSD_yMJQkTwmeAk4YUQz4K8CWICwR~tPyAnTt38y1TzBzM_AeMmbiQ%3D
+    name: Dynamics Data - Accessions Trend Data Cube FY 2005 - FY 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BAccessions%2BDashboards%2FAccessions%2BTrend%2B%2528FY%2B2005%2B-%2BFY%2B2009%2529&action=view&mode=dashboard
+    name: Dynamics Data - Accessions Trend Cube Dashboards/Maps FY 2005 - FY 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv3dM77542pVOwW6DMAz9GZu2h1WOAa05cIAkqD0MusKlpylr06kagwr4f00BTe1223uyZD8%7EPzmoynVVlwez08kwdr3b6SUyX2PJmeFYylCrSD9HKemNyFiQkkJpEyHzKvC3Jj2o7T6ttwlyfura0bUjcn7pmrPrMc4wotZ_OQz1Ym9Pn%7EbDDW_Vu9nejteuHRYYa_T8Nq9__x9syFT3rj0j0zI%7EIpMnMj0h088crXxYoCu1VmVRGFXvyqJIX0zy76Age00uRCCISAgCAIKYgAk8Ae6B6K99Wto0SFLb0f2RAHmDHBKyE8jvyHIWxF2ACcihtz9ATJy6_Zmp5hdmfANkKW%7Ev
+    name: Dynamics Data - Separations Trend Data Cube FY 2020 - FY 2024
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BSeparations%2BDashboards%2FSeparations%2BTrend%2B%2528FY2020%2B-%2BFY%2B2024%2529&action=view&mode=dashboard
+    name: Dynamics Data - Separations Trend Cube Dashboards/Maps FY 2020 - FY 2024
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv6ePmJp42pVOQW6DQAz8jE2SQyOvFyI4cFjYReFQSAOXnqptsqmiUoiA~6sCVCXtrTOyZI~HI3tVua3q8mhyHQ9j17tcr5H5GpJvRCgCtVPCJyOjROosldpPDCU7Qci88aZbo47p~qDqfYycnbp2dO2InF265ux6DBL0qbVfDqVeHezp03644a1yN9vb8dq1wwoDjZzdltVv~4MNmeretWdkWmevyMQkAmR6QqafOdpMYZ6u0m1aFoVJ67wsCvVs4n8HeclLfCECQURCEAAQBARMMBHgHohMyFOaahqkSNvR~ZEAOUSWhOwE8jtytAjiLsAMZDnZHyBmzt3yzFzLCwu_AVRTb_0%3D
+    name: Dynamics Data - Separations Trend Data Cube FY 2015 - FY 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BSeparations%2BDashboards%2FSeparations%2BTrend%2B%2528FY2015%2B-%2BFY%2B2019%2529&action=view&mode=dashboard
+    name: Dynamics Data - Separations Trend Cube Dashboards/Maps FY 2015 - FY 2019
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv4ldgp142pVOwW6CQBD9mR3UQ83sg1U4cAB2iR4KVrj01FBdG1MKBvj~NEAabW99L5PMvHnzMk6Rr4syP5q9Dvuh7exeLwm4GqmiTZAoX_vAg_~HasNbTwdBbCL4W0PAyhlvTXRMdoeo3IWE9NQ2g20GQnpp67PtSMXkcVN9WXL14lCdPqsP278V9lZ11XBtm35BShPS27z67X_wEbjsbHMm8DJ9JTBYMoGfCPwze6sxzNFFsk7yLDNJuc_zLHo24b_DnPglvDALycxSshCChWIBFiOFuAcSmDCmRXVNHOhqsH8kQfAJLhOsJLwTglmQd0FMILij~QFy4tTNz0w1vzDjG3wAb~w%3D
+    name: Dynamics Data - Separations Trend Data Cube FY 2010 - FY 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BSeparations%2BDashboards%2FSeparations%2BTrend%2B%2528FY2010%2B-%2BFY%2B2014%2529&action=view&mode=dashboard
+    name: Dynamics Data - Separations Trend Cube Dashboards/Maps FY 2010 - FY 2014
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv9rMvcF42pVOQW6DQAz8jE2SQyOvYRM4cFjYRcmhkAYuPVXbZFNFpRAB~1cFqEraW2dkyR6PR~bKYl1WxdHsddwPbef2eonMVxOQkYFKhJbbgEIZCl9xsNlkyt8mUhAyr7zx1qhjujuoahcjZ6e2GVwzIGeXtj67DmWCATX2y6GvFwd7_rQfrn8r3c12dri2Tb9AqZGz27z67X_wIVPVueaMTMvsFZmYSCLTEzL9zNFqDPN0ma7TIs9NWu2LPFfPJv53kJe8xBciEEQkBAEAgSRggpEA90BkQh7TVF0jRdoO7o8EyCGyT8hOIL8jR7Mg7gJMQPZH_wPExKmbn5lqfmHGNxVvb8I%3D
+    name: Dynamics Data - Separations Trend Data Cube FY 2005 - FY 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BSeparations%2BDashboards%2FSeparations%2BTrend%2B%2528FY2005%2B-%2BFY%2B2009%2529&action=view&mode=dashboard
+    name: Dynamics Data - Separations Trend Cube Dashboards/Maps FY 2005 - FY 2009
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.opm.gov/data/datasets/Files/721/cf6137df-539e-4f18-8a91-21740000ce46.pdf
+    name: FedScope Employment Cube (September 2024) [PDF] (posted 2/25/2025)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/721/550993be-94ba-476c-9d66-7f7e8871b07b.zip
+    name: FedScope Employment Cube (September 2024) [zip] (posted 2/25/2025)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/722/e8455624-c73b-44f1-88f6-d914a3db6af5.pdf
+    name: FedScope Employment Cube (June 2024) [PDF] (posted 2/25/2025)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/722/e5d6a529-b70f-4f13-87f0-863a80079d43.zip
+    name: FedScope Employment Cube (June 2024) [zip] (posted 2/25/2025)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/716/79db2ca5-cb09-4e0e-bbde-4e4c15ee1d78.pdf
+    name: FedScope Employment Cube (March 2024) [PDF] (posted 10/4/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/716/3679c569-8492-46db-934a-eb3882647abb.zip
+    name: FedScope Employment Cube (March 2024) [zip] (posted 10/4/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/713/553cad7d-65c2-42ce-92f3-71004332a41d.pdf
+    name: FedScope Employment Cube (December 2023) [PDF] (posted 8/6/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/713/f49dcdc9-6985-4466-b20e-a1b1ec5ed259.zip
+    name: FedScope Employment Cube (December 2023) [zip] (posted 8/6/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/691/22b20f93-3b90-472a-91f4-95040b72610a.pdf
+    name: FedScope Employment Cube (September 2023) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/691/41bdfdda-0ebe-4e19-81f8-5a98d55389b4.zip
+    name: FedScope Employment Cube (September 2023) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/690/e03bd465-ad8c-4484-abc1-6c0e4ee0862f.pdf
+    name: FedScope Employment Cube (June 2023) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/690/b83f99d3-51bb-4da5-bda8-9000b9bac0bb.zip
+    name: FedScope Employment Cube (June 2023) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/652/f17bf96e-e96f-429e-9606-eac534ce6c9b.pdf
+    name: FedScope Separations Cube (FY 2020 - FY 2024) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/652/21d85c40-bd35-4f20-9359-281a31af39b1.zip
+    name: FedScope Separations Cube (FY 2020 - FY 2024) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/649/d36b1361-3eff-4f8b-856a-9fb70c1253d5.pdf
+    name: FedScope Accessions Cube (FY 2020 - FY 2024) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/649/8caf0a70-9c09-4eb2-844f-71a4f21addfa.zip
+    name: FedScope Accessions Cube (FY 2020 - FY 2024) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/685/418b7d2b-b9f9-4578-bd76-437ef1cb7b33.pdf
+    name: FedScope Employment Cube (March 2023) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/685/ebe0b16d-5fdb-4c11-8e52-3d86f5bf20ae.zip
+    name: FedScope Employment Cube (March 2023) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/679/17b24898-3fa4-442c-bad6-97191d955ea7.pdf
+    name: FedScope Employment Cube (December 2022) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/679/c6a26e54-68b5-46fc-9a02-21a82843a41c.zip
+    name: FedScope Employment Cube (December 2022) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/667/c103eb80-cb48-4a86-9ce8-7fb1f7a0b4b0.pdf
+    name: FedScope Employment Cube (September 2022) [PDF] (posted 6/20/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/667/fab0e970-bb13-434e-b1df-e867705c7f4e.zip
+    name: FedScope Employment Cube (September 2022) [zip] (posted 6/20/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/663/b7f3aab9-6ae4-4ff8-ba49-6a840729bba0.pdf
+    name: FedScope Employment Cube (June 2022) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/663/738ebe0d-095b-45cb-a2de-9b8816828473.zip
+    name: FedScope Employment Cube (June 2022) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/660/18dd9b69-79fd-4b30-a10d-8c1dd6078975.pdf
+    name: FedScope Employment Cube (March 2022) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/660/a8e46059-4bd2-44b4-aac8-15cee4c18122.zip
+    name: FedScope Employment Cube (March 2022) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/657/0f550349-6ae5-4cf4-9a35-e1823e9aa396.pdf
+    name: FedScope Employment Cube (December 2021) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/657/6ed9dc0d-6a72-4930-a927-c818fcd18b78.zip
+    name: FedScope Employment Cube (December 2021) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/633/a82e8b10-7ea6-4a65-a10b-b7486a18e156.pdf
+    name: FedScope Employment Cube (September 2021) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/633/074d44a6-a8a2-4e35-9b2e-969f2cc8363f.zip
+    name: FedScope Employment Cube (September 2021) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/630/738885b2-ba69-4067-b4a1-d4e0fd30da25.pdf
+    name: FedScope Employment Cube (June 2021) [PDF] (posted 8/28/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/630/9a772b04-cab4-4b89-b62a-a3859371cb13.zip
+    name: FedScope Employment Cube (June 2021) [zip] (posted 8/28/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/627/e32b131a-c725-4e5a-bdd3-2a235e6b415f.pdf
+    name: FedScope Employment Cube (March 2021) [PDF] (posted 6/15/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/627/50a78d22-bf49-4051-b789-aaec9ab47372.zip
+    name: FedScope Employment Cube (March 2021) [zip] (posted 6/15/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/624/49983784-9540-4427-8e54-87d3a993047a.pdf
+    name: FedScope Employment Cube (December 2020) [PDF] (posted 12/15/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/624/1c47e9bd-e815-46fd-b877-7233e1ead5e8.zip
+    name: FedScope Employment Cube (December 2020) [zip] (posted 12/15/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/621/57b3baf1-23d5-43e2-8a47-533c899cb777.pdf
+    name: FedScope Employment Cube (September 2020) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/621/07f71358-8972-478e-a2cb-fd02f135b7af.zip
+    name: FedScope Employment Cube (September 2020) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/618/382a065c-d897-42e0-8ad2-69a100ae6f82.pdf
+    name: FedScope Employment Cube (June 2020) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/618/2a0c6f3f-cb86-4418-8bb8-edccefae01d5.zip
+    name: FedScope Employment Cube (June 2020) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/612/57a908e5-54cd-4e17-bd1b-5fd072d6514e.pdf
+    name: FedScope Employment Cube (March 2020) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/612/9f7eab79-e539-45fe-8e8a-00663e3ec190.zip
+    name: FedScope Employment Cube (March 2020) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/610/33e99f89-08df-43f4-99d2-3e4a0fefedf6.pdf
+    name: FedScope Accessions Cube (FY 2015 - FY 2019) [PDF] (posted 11/9/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/610/fd567924-edea-478f-bc5a-24e19efd7243.zip
+    name: FedScope Accessions Cube (FY 2015 - FY 2019) [zip] (posted 11/9/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/611/0e9d0a58-7601-4215-99c6-fc63274f7511.pdf
+    name: FedScope Separations Cube (FY 2015 - FY 2019) [PDF] (posted 11/9/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/611/004f4b85-fe4f-4e7d-bd7b-2d23033570cb.zip
+    name: FedScope Separations Cube (FY 2015 - FY 2019) [zip] (posted 11/9/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/603/15ca98a4-b755-4f4b-9b51-0d5f3c7db997.pdf
+    name: FedScope Employment Cube (December 2019) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/603/19ea8b9d-9997-46d7-97de-8640c47d0f85.zip
+    name: FedScope Employment Cube (December 2019) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/600/725e326a-2a99-49a7-8067-de16fa0b97ee.pdf
+    name: FedScope Employment Cube (September 2019) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/600/52da12cd-055e-4e9b-af36-60b2ed9e7d98.zip
+    name: FedScope Employment Cube (September 2019) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/593/6fd24c1d-d9d5-440d-8c11-c9ca17c1378e.pdf
+    name: FedScope Employment Cube (June 2019) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/593/ee801733-d485-4f16-86bd-362dc05a4692.zip
+    name: FedScope Employment Cube (June 2019) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/579/e9e99a47-9151-44a1-8890-802c1e1fc621.pdf
+    name: FedScope Employment Cube (March 2019) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/579/212c8df7-57b8-4f96-a7d2-da30c21772f0.zip
+    name: FedScope Employment Cube (March 2019) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/556/6cc1c7c5-7fb2-4859-b5ce-a8efd5dbf423.pdf
+    name: FedScope Employment Cube (December 2018) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/556/b4850157-143b-42ce-af8b-08f90e69fc69.zip
+    name: FedScope Employment Cube (December 2018) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/549/f035a56e-50e7-4b69-889c-99974162e599.pdf
+    name: FedScope Employment Cube (September 2018) [PDF] (posted 2/18/2023)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/549/4a840c61-0c6d-41ac-8ffc-a6419b6484e0.zip
+    name: FedScope Employment Cube (September 2018) [zip] (posted 2/18/2023)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/546/2fce294b-3011-4196-bf2e-5e1606464237.pdf
+    name: FedScope Employment Cube (June 2018) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/546/593228ac-b8d1-47e6-83f5-4f001ccd81f3.zip
+    name: FedScope Employment Cube (June 2018) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/543/e80dcc30-0dd2-443f-9b2f-0825abef4b76.pdf
+    name: FedScope Employment Cube (March 2018) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/543/ffc317b6-0eef-4294-b638-88833e73126c.zip
+    name: FedScope Employment Cube (March 2018) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/539/02794fbf-bf44-45f0-94d9-fc0ad0d69dad.pdf
+    name: FedScope Employment Cube (December 2017) [PDF] (posted 12/16/2021)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/539/1385f533-ebb2-436a-a5b1-e029dc2de710.zip
+    name: FedScope Employment Cube (December 2017) [zip] (posted 12/16/2021)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/533/2763fd0d-e5e3-46cb-9dba-b332df7662a7.pdf
+    name: FedScope Accessions Cube (FY 2010 - FY 2014) [PDF] (posted 3/12/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/533/7b4b44af-b3c8-4515-afe3-904668d61e1e.zip
+    name: FedScope Accessions Cube (FY 2010 - FY 2014) [zip] (posted 3/12/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/534/2b6a400f-e594-46e1-87ac-b30b0c90e1ea.pdf
+    name: FedScope Separations Cube (FY 2010 - FY 2014) [PDF] (posted 3/12/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/534/67e6daee-26da-4b46-8d28-331a62375d64.zip
+    name: FedScope Separations Cube (FY 2010 - FY 2014) [zip] (posted 3/12/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/531/fa737483-1439-4032-b268-47c753331f15.pdf
+    name: FedScope Accessions Cube (FY 2005 - FY 2009) [PDF] (posted 3/12/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/531/dd9c7250-b3ba-4adf-9628-fcb046dd0868.zip
+    name: FedScope Accessions Cube (FY 2005 - FY 2009) [zip] (posted 3/12/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/532/d4909bca-1957-4127-a75d-94353d72fe6f.pdf
+    name: FedScope Separations Cube (FY 2005 - FY 2009) [PDF] (posted 3/12/2024)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/532/f61ffa3e-00ce-45bc-aebf-eb9244d3a113.zip
+    name: FedScope Separations Cube (FY 2005 - FY 2009) [zip] (posted 3/12/2024)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/522/b018ca00-c1fa-419e-96b4-f18e34064b28.pdf
+    name: FedScope Employment Cube (September 2017) [PDF] (posted 5/22/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/522/e4af5225-d9fc-46fa-98f9-b360ed26840d.zip
+    name: FedScope Employment Cube (September 2017) [zip] (posted 5/22/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/519/34923ff5-c373-4c24-a5dc-d8598c2c6850.pdf
+    name: FedScope Employment Cube (June 2017) [PDF] (posted 5/22/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/519/568cc614-2995-4237-9300-4264c5e1defe.zip
+    name: FedScope Employment Cube (June 2017) [zip] (posted 5/22/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/494/7df8f014-ff45-4627-b3cd-54026df9dd2f.pdf
+    name: FedScope Employment Cube (March 2017) [PDF] (posted 5/22/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/494/6905e88c-a3b7-4441-81bd-eb163e9ce035.zip
+    name: FedScope Employment Cube (March 2017) [zip] (posted 5/22/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/491/e57db095-3923-4e5f-90db-d657c6dd4bd8.pdf
+    name: FedScope Employment Cube (December 2016) [PDF] (posted 5/22/2020)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/491/f763c796-2f49-4ec4-b3cf-356b618d37ce.zip
+    name: FedScope Employment Cube (December 2016) [zip] (posted 5/22/2020)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/490/fac44a8f-dc3d-403d-8ddc-2d457c1f91a2.pdf
+    name: FedScope Employment Cube (September 2016) [PDF] (posted 6/28/2017)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/490/ae0351fd-58d1-47d5-b1aa-2ca3bf977d30.zip
+    name: FedScope Employment Cube (September 2016) [zip] (posted 6/28/2017)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/489/1b77c452-db93-4a73-ab9c-4f50ba6a5ecd.pdf
+    name: FedScope Employment Cube (June 2016) [PDF] (posted 6/28/2017)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/489/13994571-5b95-4532-9faa-1e4a3bdbae19.zip
+    name: FedScope Employment Cube (June 2016) [zip] (posted 6/28/2017)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/425/c67840f5-b958-4886-a6b4-de337b1c353f.pdf
+    name: FedScope Employment Cube (March 2016) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/425/fdb8db0d-ce56-4966-9572-9692e6e0fa5e.zip
+    name: FedScope Employment Cube (March 2016) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/422/56568d93-b2da-499e-8996-831b95287de7.pdf
+    name: FedScope Employment Cube (December 2015) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/422/944a9e54-69b5-4b74-8395-4f6eca37e650.zip
+    name: FedScope Employment Cube (December 2015) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/413/b117c71f-de41-407f-b177-8f5102a119de.pdf
+    name: FedScope Employment Cube (September 2015) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/413/de1dd3f7-0c39-46ab-a1c6-848be284358b.zip
+    name: FedScope Employment Cube (September 2015) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/410/edded182-3c10-4f20-80be-c923281bb531.pdf
+    name: FedScope Employment Cube (June 2015) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/410/c65725bf-f3de-4e7d-8d0f-3af49e527670.zip
+    name: FedScope Employment Cube (June 2015) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/400/33c09697-fb68-49fb-bbd8-6b0738dfa6d0.pdf
+    name: FedScope Employment Cube (March 2015) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/400/69b1781a-c3d3-4e91-a463-c7c9010fa763.zip
+    name: FedScope Employment Cube (March 2015) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/397/5197798b-0269-47c9-a8b3-8693a70e370f.pdf
+    name: FedScope Employment Cube (December 2014) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/397/123a2080-61a4-4dd6-9715-ace27eb4709d.zip
+    name: FedScope Employment Cube (December 2014) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/381/6ca26576-75f4-4214-ab38-af39415f21ce.pdf
+    name: FedScope Employment Cube (September 2014) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/381/30a3741c-a24d-4f97-9a0e-e45f2ee13773.zip
+    name: FedScope Employment Cube (September 2014) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/371/e1e2100f-dcc2-4650-817c-4d5eb42dcdcb.pdf
+    name: FedScope Employment Cube (June 2014) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/371/b3659009-9b44-408f-8f02-1a350a4095e1.zip
+    name: FedScope Employment Cube (June 2014) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/347/31f33276-2bf5-469d-a7c0-acee9aa0640f.pdf
+    name: FedScope Employment Cube (March 2014) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/347/fdef568f-a2b5-43f3-91f2-9583d781e5bf.zip
+    name: FedScope Employment Cube (March 2014) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/340/cdffa1b9-b33e-45b6-9263-ef7a399f1f67.pdf
+    name: FedScope Employment Cube (December 2013) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/340/feaa22b3-0653-4987-8c9e-50d4a883a410.zip
+    name: FedScope Employment Cube (December 2013) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/331/d070ad8c-3e24-437a-958e-8ad2b2282af4.pdf
+    name: FedScope Employment Cube (September 2013) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/331/499b1fa1-c354-4c96-b20c-fc18a82bacb8.zip
+    name: FedScope Employment Cube (September 2013) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/324/694b0f7b-c242-477d-8173-d8d1d84d83aa.pdf
+    name: FedScope Employment Cube (June 2013) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/324/b08a9cbd-228f-4242-857d-130b82e87084.zip
+    name: FedScope Employment Cube (June 2013) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/321/24899974-f9a3-4b86-b05b-72329a2a9388.pdf
+    name: FedScope Employment Cube (March 2013) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/321/7ee98c27-bff3-4e34-bda4-056b81764be0.zip
+    name: FedScope Employment Cube (March 2013) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/318/c5a1ccf2-1246-495a-bb82-95c54f823047.pdf
+    name: FedScope Employment Cube (December 2012) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/318/4f0937d5-1f69-43aa-9749-6eb052c8f20e.zip
+    name: FedScope Employment Cube (December 2012) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/253/9d398d9e-57b3-4051-9352-a66b9080aa49.pdf
+    name: FedScope Employment Cube (September 2012) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/253/2b43e513-cbfa-4eb5-ae9a-20e718ef1f4e.zip
+    name: FedScope Employment Cube (September 2012) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/252/8fe0c644-8229-4427-a183-f758f8a4a942.pdf
+    name: FedScope Employment Cube (June 2012) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/252/07cbede7-76b4-4db0-a8c5-d53d44b17d11.zip
+    name: FedScope Employment Cube (June 2012) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/251/e8a50f63-d56b-440f-b88c-d5dc4c8954b0.pdf
+    name: FedScope Employment Cube (March 2012) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/251/a77d0cba-1554-4ef3-b5aa-30157d8fb017.zip
+    name: FedScope Employment Cube (March 2012) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/234/fee4f5ab-dbfe-429e-bb1e-61736b01cd4d.pdf
+    name: FedScope Employment Cube (December 2011) [PDF] (posted 11/13/2019)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/234/d0da4be0-9659-4198-be46-b18b725b078b.zip
+    name: FedScope Employment Cube (December 2011) [zip] (posted 11/13/2019)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/235/219821be-924f-4d46-a961-09459e00fc92.pdf
+    name: FedScope Employment Cube (September 2011) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/235/caac291b-001d-4568-a8be-96215c319fd4.zip
+    name: FedScope Employment Cube (September 2011) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/238/83784781-eca5-45f6-8c10-904931a8f980.pdf
+    name: FedScope Employment Cube (June 2011) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/238/05f11d11-b73c-4689-8037-f5077eca2ac4.zip
+    name: FedScope Employment Cube (June 2011) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/241/8b27cc48-0027-47cb-a768-e317a3bdc14e.pdf
+    name: FedScope Employment Cube (March 2011) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/241/2c0379b4-74d4-4a14-a4a5-37591d2b9c5f.zip
+    name: FedScope Employment Cube (March 2011) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/169/f448bc43-71a5-4f49-871b-b513d3f74a65.pdf
+    name: FedScope Employment Cube (December 2010) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/169/ecf4b47c-0f1a-4f8d-9b06-b352e041eefa.zip
+    name: FedScope Employment Cube (December 2010) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/172/bc2f2bf7-7e3c-4f86-9f00-587d83430fdc.pdf
+    name: FedScope Employment Cube (September 2010) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/172/c21d50d7-9b48-432c-a03e-96d5fb93f5fa.zip
+    name: FedScope Employment Cube (September 2010) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/175/670e25b9-5a7f-4a0e-851b-b0855ae94324.pdf
+    name: FedScope Employment Cube (June 2010) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/175/fa31ae93-1b79-4ca0-b7d1-d1d66ab4b3db.zip
+    name: FedScope Employment Cube (June 2010) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/178/08f53f18-6701-4254-87ba-d507cc85c144.pdf
+    name: FedScope Employment Cube (March 2010) [PDF] (posted 8/28/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/178/2a8f51c9-c0ba-4349-8c3d-055074b8794d.zip
+    name: FedScope Employment Cube (March 2010) [zip] (posted 8/28/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/181/30d36480-0864-4514-8bca-2070d0c44c7a.pdf
+    name: FedScope Employment Cube (December 2009) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/181/6e6d2997-5e31-48f9-8723-db439c48e3af.zip
+    name: FedScope Employment Cube (December 2009) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/26/3d62900f-338e-48d7-b5c8-3c9ee9e470fd.pdf
+    name: FedScope Employment Cube (September 2009) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/26/f0a8eef6-a0b5-4015-a2f4-6597f1ca3ae7.zip
+    name: FedScope Employment Cube (September 2009) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/38/9a5000e1-9b09-4244-9898-19ab50db2029.pdf
+    name: FedScope Employment Cube (September 2008) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/38/3653d805-eb0a-4e70-b96d-39b7c58347f0.zip
+    name: FedScope Employment Cube (September 2008) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/50/995e1c31-d314-4673-82ba-9d6fb428297b.pdf
+    name: FedScope Employment Cube (September 2007) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/50/7b7655fd-b4d0-4e15-9e97-33956b8aca09.zip
+    name: FedScope Employment Cube (September 2007) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/53/667f0956-1575-4873-8ad7-e28d96b36e09.pdf
+    name: FedScope Employment Cube (September 2006) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/53/b9945224-54e1-45e3-9780-b6b36b845b4b.zip
+    name: FedScope Employment Cube (September 2006) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/56/aa3773fd-0b74-4bdb-9bb0-64524f5af3d9.pdf
+    name: FedScope Employment Cube (September 2005) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/56/f00a1a8f-d865-4214-8051-049f66d322be.zip
+    name: FedScope Employment Cube (September 2005) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/59/7004d8da-38dc-4031-9dc0-47e5889a90c1.pdf
+    name: FedScope Employment Cube (September 2004) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/59/b5c2a4f7-5ac5-44f7-bd3c-0f2cfb000e21.zip
+    name: FedScope Employment Cube (September 2004) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/62/71ae0b8b-ab3e-4556-a928-80642e7da18a.pdf
+    name: FedScope Employment Cube (September 2003) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/62/ecdd5c00-aeda-45ff-bd74-975714ee10a6.zip
+    name: FedScope Employment Cube (September 2003) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/65/af211ef2-e638-434f-8bc5-4660cb47f59c.pdf
+    name: FedScope Employment Cube (September 2002) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/65/a5e33b42-51aa-41f0-8d1c-0dcde6c6ff2a.zip
+    name: FedScope Employment Cube (September 2002) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/68/2ff70a68-5372-4d48-ba4e-0ef0ff79e6d7.pdf
+    name: FedScope Employment Cube (September 2001) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/68/22fb81c4-51bb-4309-a9e5-de7fc891d299.zip
+    name: FedScope Employment Cube (September 2001) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/71/19b8c288-6bff-48cb-aa97-5f5874b78736.pdf
+    name: FedScope Employment Cube (September 2000) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/71/f74f444b-b84b-4a75-b7d5-83726b80a320.zip
+    name: FedScope Employment Cube (September 2000) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/74/18c0a857-0416-4e93-925c-c55d6c769b37.pdf
+    name: FedScope Employment Cube (September 1999) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/74/70967261-28e6-4598-ad8a-69f0f6b04532.zip
+    name: FedScope Employment Cube (September 1999) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
+  - url: https://www.opm.gov/data/datasets/Files/77/822ec2d3-df36-4a79-8ee8-657a269c08f9.pdf
+    name: FedScope Employment Cube (September 1998) [PDF] (posted 8/26/2016)
+    resource_type: Data File (PDF)
+  - url: https://www.opm.gov/data/datasets/Files/77/25455df4-0c25-49f3-a460-147b3aa596c8.zip
+    name: FedScope Employment Cube (September 1998) [zip] (posted 8/26/2016)
+    resource_type: Data File (Other)
