@@ -3,4 +3,444 @@ name: AirToxScreen
 description: The Air Toxics Screening Assessment (AirToxScreen) is EPA's ongoing review of air toxics in the United States, developed as a screening tool for state, local and Tribal air agencies to help identify which pollutants, emission sources and places they may wish to study further to better understand any possible risks to public health from air toxics. AirToxScreen gives a snapshot of outdoor air quality with respect to emissions of air toxics. It suggests the long-term risks to human health if air toxics emissions are steady over time. AirToxScreen estimates the cancer risks from breathing air toxics over many years. It also estimates chronic noncancer hazards for some pollutants, including diesel particulate matter (PM). AirToxScreen calculates these air toxics concentrations and risks at the  census tract level (for 2017, 2018, and 2019 AirToxScreen versions) or the census block level (for the 2020 AirToxScreen version and beyond). It only includes outdoor sources of pollutants.
 linked_urls:
   - url: https://experience.arcgis.com/experience/a0deb771dbcd40d0a46fbe83adc51747/
-    name: Mapping Tool
+    name: 2020 AirToxScreen Mapping Tool
+  - url: https://experience.arcgis.com/experience/a2eea9c204004158a85a18371d6883bc
+    name: 2017-2019 AirToxScreen Mapping Tool
+  - url: https://archive.epa.gov/
+    name: EPA Archive for Assessments Prior to 2005
+  - url: https://www.epa.gov/AirToxScreen/2020-airtoxscreen-emissions-update-document
+    name: 2020 AirToxScreen Emissions Update Document
+  - url: https://www.epa.gov/system/files/documents/2024-05/airtoxscreen_2020-tsd.pdf
+    name: 2020 AirToxScreen Technical Support Document (TSD) (pdf)
+  - url: https://www.epa.gov/air-emissions-inventories/2020-national-emissions-inventory-nei-technical-support-document-tsd
+    name: 2020 NEI Technical Support Document
+  - url: https://www.epa.gov/system/files/other-files/2024-06/2020-airtoxscreen-supplemental-data-files.zip
+    name: 2020 Supplemental Data Files (zip)
+  - url: https://www.epa.gov/system/files/other-files/2024-05/point_fac_2020_mapapp.xlsx
+    name: 2020 AirToxScreen emissions by facility (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2024-05/railyards_2020_mapapp.xlsx
+    name: 2020 AirToxScreen emissions by railyard (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2024-05/airport_runway_2020_mapapp.xlsx
+    name: 2020 AirToxScreen emissions by airport runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2024-05/airport_nonrunway_2020_mapapp.xlsx
+    name: 2020 AirToxScreen emissions by airport non-runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2024-05/airtoxscreen_2020_emissions_county_sourcegroup.zip
+    name: 2020 AirToxScreen emissions by county (zip)
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/BySource/
+    name: 2020 Nationwide Cancer Risk Results - Block-level cancer risk by region and source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region1_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 1 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region2_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 2 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region3_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 3 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 4a Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 4b Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 5a Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 5b Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 6a Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 6b Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region7_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 7 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region8_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 8 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region9_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 9 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region10_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 10 Block-level cancer risk by source group
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/
+    name: 2020 Nationwide Cancer Risk Results - Block-level cancer risk by region and pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region1_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 1 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region2_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 2 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region3_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 3 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 4a Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 4b Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 5a Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 5b Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6a_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 6a Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6b_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 6b Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region7_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 7 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region8_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 8 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region9_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 9 Block-level cancer risk by pollutant
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region10_CancerRisk_by_block_poll.xlsx
+    name: 2020 Region 10 Block-level cancer risk by pollutant
+  - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_county_srcgrp.xlsx
+    name: 2020 Nationwide Cancer Risk Results - County average cancer risk by source group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_county_poll.xlsx
+    name: 2020 Nationwide Cancer Risk Results - County average cancer risk by pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_state_srcgrp.xlsx
+    name: 2020 Nationwide Cancer Risk Results - State average cancer risk by source group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_state_poll.xlsx
+    name: 2020 Nationwide Cancer Risk Results - State average cancer risk by pollutant (xlsx)
+  - url: https://www.epa.gov/AirToxScreen/2020-airtoxscreen-national-concentration-summaries
+    name: 2020 National Concentration Summaries - Download a smaller subset of AirToxScreen results
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/
+    name: 2020 National Concentration Summaries by Region - Ambient concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region1_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 1 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region2_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 2 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region3_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 3 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region4a_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 4a Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region4b_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 4b Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region5a_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 5a Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region5b_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 5b Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region6a_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 6a Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region6b_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 6b Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region7_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 7 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region8_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 8 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region9_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 9 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region10_2020ATS_Ambient_Concentrations.xlsx
+    name: 2020 Region 10 Ambient Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/
+    name: 2020 National Concentration Summaries by Region - Exposure concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region1_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 1 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region2_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 2 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region3_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 3 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region4a_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 4a Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region4b_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 4b Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region5a_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 5a Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region5b_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 5b Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region6a_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 6a Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region6b_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 6b Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region7_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 7 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region8_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 8 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region9_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 9 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region10_2020ATS_Exposure_Concentrations.xlsx
+    name: 2020 Region 10 Exposure Concentrations
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/
+    name: 2020 Pollutant-Specific Results - Pollutant-specific files by region
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region1/
+    name: 2020 Region 1 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region2/
+    name: 2020 Region 2 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region3/
+    name: 2020 Region 3 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region4/
+    name: 2020 Region 4 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region5/
+    name: 2020 Region 5 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region6/
+    name: 2020 Region 6 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region7/
+    name: 2020 Region 7 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region8/
+    name: 2020 Region 8 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region9/
+    name: 2020 Region 9 Pollutant-specific files
+  - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region10/
+    name: 2020 Region 10 Pollutant-specific files
+  - url: https://www.epa.gov/system/files/documents/2024-08/2020-airtoxscreen-risk-drivers.pdf
+    name: 2020 AirToxScreen Risk Drivers (pdf)
+  - url: https://www.epa.gov/system/files/other-files/2022-12/2019%20AirToxScreen%20Supplemental%20Data%20files.zip
+    name: 2019 Supplemental Data Files (zip)
+  - url: https://www.epa.gov/AirToxScreen/2019-airtoxscreen-assessment-results
+    name: 2019 Air Toxics Assessment
+  - url: https://www.epa.gov/system/files/documents/2022-12/point_fac_2019_emissions.xlsx
+    name: 2019 AirToxScreen emissions by facility (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/railyards_2019_emissions.xlsx
+    name: 2019 AirToxScreen emissions by railyard (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/airport_runway_2019_emissions.xlsx
+    name: 2019 AirToxScreen emissions by airport runway (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/airport_nonrunway_2019_emissions.xlsx
+    name: 2019 AirToxScreen emissions by airport non-runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2023-06/AirToxScreen_2019_Emissions_County_Sourcegroup.zip
+    name: 2019 AirToxScreen emissions by county (zip)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_CancerRisk_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Cancer Risk by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_CancerRisk_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Cancer Risk by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_RespHI_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Respiratory Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_RespHI_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Respiratory Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_NeurHI_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Neurological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_NeurHI_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Neurological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_LiverHI_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Liver Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_LiverHI_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Liver Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_KidneyHI_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Kidney Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_KidneyHI_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Kidney Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_ImmuHI_by_tract_srcgrp.xlsx
+    name: 2019 AirToxScreen National Immunological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_ImmuHI_by_tract_poll.xlsx
+    name: 2019 AirToxScreen National Immunological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_allHI_byTract.xlsx
+    name: 2019 AirToxScreen National All Hazard Indexes (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_Toxics_Ambient_Concentrations.xlsx
+    name: 2019 AirToxScreen National Ambient Concentrations (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2019_Toxics_Exposure_Concentrations.xlsx
+    name: 2019 AirToxScreen National Exposure Concentrations (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2023-01/2019%20AirToxScreen%20Risk%20Drivers.pdf
+    name: 2019 AirToxScreen Risk Drivers (pdf)
+  - url: https://www.epa.gov/system/files/documents/2022-12/airtoxscreen_2019_explanation_of_data.pdf
+    name: 2019 AirToxScreen Explanation of Data Elements (pdf)
+  - url: https://www.epa.gov/system/files/documents/2023-01/Emissions%20Updates_2019_AirToxScreen.pdf
+    name: 2019 AirToxScreen Emissions Update Document (pdf)
+  - url: https://www.epa.gov/system/files/documents/2023-02/AirToxScreen_2018%20TSD.pdf
+    name: 2018 Technical Support Document (pdf)
+  - url: https://www.epa.gov/system/files/other-files/2022-10/2018%20AirToxScreen%20Supplemental%20Data%20files.zip
+    name: 2018 Supplemental Data Files (zip)
+  - url: https://www.epa.gov/system/files/documents/2022-10/EtO%20sterilizer%202018%20emissions%20calcs.pdf
+    name: 2018 Ethylene Oxide emissions calculations from commercial sterilizers (pdf)
+  - url: https://www.epa.gov/AirToxScreen/2018-airtoxscreen-assessment-results
+    name: 2018 Air Toxics Assessment
+  - url: https://www.epa.gov/system/files/documents/2022-08/AirToxScreen%20Risk%20Drivers.pdf
+    name: 2018 AirToxScreen Risk Drivers (pdf)
+  - url: https://www.epa.gov/system/files/documents/2022-09/Updates_to_Emissions_2018AirToxScreen.pdf
+    name: 2018 AirToxScreen Emissions Update Document (pdf)
+  - url: https://www.epa.gov/system/files/documents/2022-08/point_fac_2018_emissions.xlsx
+    name: 2018 AirToxScreen emissions by facility (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/railyards_2018_emissions.xlsx
+    name: 2018 AirToxScreen emissions by railyard (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/airport_runway_2018_emissions.xlsx
+    name: 2018 AirToxScreen emissions by airport runway (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/airport_nonrunway_2018_emissions.xlsx
+    name: 2018 AirToxScreen emissions by airport non-runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-12/AirtoxScreen_2018_Emissions_County_Sourcegroup.zip
+    name: 2018 AirToxScreen emissions by county (zip)
+  - url: https://www.epa.gov/system/files/documents/2022-12/2018_National_CancerRisk_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Cancer Risk by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018%20National_CancerRisk_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Cancer Risk by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_RespHI_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Respiratory Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-09/2018_National_RespHI_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Respiratory Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_NeurHI_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Neurological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_NeurHI_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Neurological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_LiverHI_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Liver Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_LiverHI_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Liver Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_KidneyHI_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Kidney Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_KidneyHI_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Kidney Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_ImmuHI_by_tract_srcgrp.xlsx
+    name: 2018 AirToxScreen National Immunological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_ImmuHI_by_tract_poll.xlsx
+    name: 2018 AirToxScreen National Immunological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-08/2018_National_AllHI_by_tract.xlsx
+    name: 2018 AirToxScreen National All Hazard Indexes (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-09/2018_Toxics_Ambient_Concentrations.xlsx
+    name: 2018 AirToxScreen National Ambient Concentrations (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-09/2018_Toxics_Exposure_Concentrations.xlsx
+    name: 2018 AirToxScreen National Exposure Concentrations (xlsx)
+  - url: https://www.epa.gov/system/files/documents/2022-03/airtoxscreen_2017tsd.pdf
+    name: 2017 AirToxScreen Technical Support Document (pdf)
+  - url: https://www.epa.gov/system/files/other-files/2022-04/2017-airtoxscreen-supplemental-data-files.zip
+    name: 2017 AirToxScreen Supplemental Data files (zip)
+  - url: https://www.epa.gov/AirToxScreen/2017-airtoxscreen-assessment-results
+    name: 2017 Air Toxics Assessment
+  - url: https://www.epa.gov/sites/default/files/2021-02/documents/nei2017_tsd_full_jan2021.pdf
+    name: January 2021 Release of 2017 NEI Technical Support Document (TSD) (pdf)
+  - url: https://www.epa.gov/system/files/documents/2022-01/2017-nei-qa-summary-info_1.pdf
+    name: 2017 NEI Quality Assurance Summary (pdf)
+  - url: https://www.epa.gov/system/files/documents/2022-03/2017airtoxscreen-emissions-updates.pdf
+    name: 2017 AirToxScreen Emissions Update Document (pdf)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/point_fac_2017_emissions.xlsx
+    name: 2017 AirToxScreen emissions by facility (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/railyards_2017_emissions.xlsx
+    name: 2017 AirToxScreen emissions by railyard (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/airport_runway_2017_emissions.xlsx
+    name: 2017 AirToxScreen emissions by airport runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/airport_nonrunway_2017_emissions.xlsx
+    name: 2017 AirToxScreen emissions by airport non-runway (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-06/AirToxScreen_2017_Emissions_County_Sourcegroup.zip
+    name: 2017 AirToxScreen emissions by county (zip)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_cancerrisk_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Cancer Risk by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_cancerrisk_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Cancer Risk by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_resphi_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Respiratory Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_resphi_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Respiratory Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_neurhi_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Neurological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_neurhi_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Neurological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_liverhi_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Liver Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_liverhi_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Liver Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_kidneyhi_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Kidney Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_kidneyhi_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Kidney Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_immuhi_by_tract_srcgrp.xlsx
+    name: 2017 AirToxScreen National Immunological Hazard Index by Source Group (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_immuhi_by_tract_poll.xlsx
+    name: 2017 AirToxScreen National Immunological Hazard Index by Pollutant (xlsx)
+  - url: https://www.epa.gov/system/files/other-files/2022-03/national_allhi_by_tract.xlsx
+    name: 2017 AirToxScreen National All Hazard Indexes (xlsx)
+  - url: https://www.epa.gov/national-air-toxics-assessment/2014-nata-assessment-results
+    name: 2014 Air Toxics Assessment
+  - url: https://www.epa.gov/sites/default/files/2020-07/documents/nata_2014_summary_of_results.pdf
+    name: 2014 NATA Summary of Results (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-09/documents/2014_nata_technical_support_document.pdf
+    name: 2014 NATA Technical Support Document (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-09/2014_nata_supplemental_data_files_0.zip
+    name: 2014 NATA Supplemental Data Files (zip)
+  - url: https://www.epa.gov/sites/default/files/2018-09/documents/2014_nata_technical_support_document.pdf
+    name: 2014 NATA Technical Support Document (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-08/documents/2014_nata_updates_to_emissions.pdf
+    name: 2014 NATA Emissions Update document (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-08/documents/explanation_of_data_elements_in_2014_nata_files.pdf
+    name: 2014 NATA Explanation of Data Elements in NATA Files (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-07/documents/nei2014v2_tsd_05jul2018.pdf
+    name: 2014, Version 2 NEI Technical Support Document (TSD) (pdf)
+  - url: https://www.epa.gov/sites/default/files/2016-12/documents/nei2014v1_tsd.pdf
+    name: 2014, Version 1 NEI Technical Support Document (TSD) (pdf)
+  - url: https://www.epa.gov/sites/default/files/2018-08/emissions_facilitytotal_2014nata.zip
+    name: 2014 NATA emissions by facility (zip)
+  - url: https://www.epa.gov/sites/default/files/2018-08/emissions_county_sourcegroup_2014nata.zip
+    name: 2014 NATA emissions by county (zip)
+  - url: https://www.epa.gov/sites/default/files/2018-08/emissions_facility_releasepts_2014nata.zip
+    name: 2014 NATA emissions by facility release points (zip)
+  - url: https://www.epa.gov/sites/default/files/2018-08/emissions_airport_releasepts_2014nata.zip
+    name: 2014 NATA emissions by airport release points (zip)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_cancerrisk_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl cancer risk by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_cancerrisk_by_tract_poll.xlsx
+    name: 2014 NATA natl cancer risk by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_resphi_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl respiratory hazard index by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_resphi_by_tract_poll.xlsx
+    name: 2014 NATA natl respiratory hazard index by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_neurhi_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl neurological hazard index by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_neurhi_by_tract_poll.xlsx
+    name: 2014 NATA natl neurological hazard index by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_liverhi_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl liver hazard index by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_liverhi_by_tract_poll.xlsx
+    name: 2014 NATA natl liver hazard index by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_kidnhi_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl kidney hazard index by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_kidnhi_by_tract_poll.xlsx
+    name: 2014 NATA natl kidney hazard index by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_immuhi_by_tract_srcgrp.xlsx
+    name: 2014 NATA natl immunological hazard index by source group (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_immuhi_by_tract_poll.xlsx
+    name: 2014 NATA natl immunological hazard index by pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2018-08/nata2014v2_national_allhi.xlsx
+    name: 2014 NATA all hazard indexes (xlsx)
+  - url: https://www.epa.gov/national-air-toxics-assessment/2011-nata-assessment-results
+    name: 2011 Air Toxics Assessment
+  - url: https://www.epa.gov/sites/default/files/2016-06/2011-nata-supplemental-data.zip
+    name: 2011 NATA Supplemental Data Files (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/documents/2011-nata-tsd.pdf
+    name: 2011 NATA Technical Support Document (pdf)
+  - url: https://www.epa.gov/sites/default/files/2017-05/documents/errata_and_updates_2011nata.pdf
+    name: 2011 NATA Errata and Emissions Update Sheet (pdf)
+  - url: https://www.epa.gov/sites/default/files/2015-12/documents/2011-nata-file-explanations.pdf
+    name: 2011 NATA Explanation of Data Elements in NATA Files (pdf)
+  - url: https://www.epa.gov/sites/default/files/2015-10/documents/nei2011v2_tsd_14aug2015.pdf
+    name: 2011 NEI Technical Support Document, version 2 (pdf)
+  - url: https://www.epa.gov/sites/default/files/2015-10/documents/nei2011v2_tsd_appendix_a_24aug2015.pdf
+    name: Appendices for 2011 NEI v2 TSD (pdf)
+  - url: https://www.epa.gov/national-air-toxics-assessment/2011-nata-assessment-methods
+    name: 2011 NATA Assessment Methods
+  - url: https://www.epa.gov/sites/default/files/2016-08/state_emis_county_5aug16.zip
+    name: 2011 NATA emissions by county (zip file) (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/emis_facility_23nov15.zip
+    name: 2011 NATA emissions by facility (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/emis_facility_release_regions1_5_23nov15.zip
+    name: 2011 NATA emissions facility release regions 1 through 5 (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/emis_facility_release_regions6_10_23nov15.zip
+    name: 2011 NATA emissions facility release regions 6 through 10 (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/2011nata_national_cancerrisk_by_tract_poll.xlsx
+    name: 2011 NATA natl cancer risk by tract pollutants (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2015-12/2011nata_national_cancerrisk_by_tract_source.xlsx
+    name: 2011 NATA natl cancer risk by tract source (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2015-12/2011nata_national_resp_by_tract_poll.xlsx
+    name: 2011 NATA natl respiratory risk by tract pollutant (xlsx)
+  - url: https://www.epa.gov/sites/default/files/2015-12/2011nata_national_resp_by_tract_source.xlsx
+    name: 2011 NATA natl respiratory risk by tract source (xlsx)
+  - url: https://www.epa.gov/national-air-toxics-assessment/2005-nata-assessment-results
+    name: 2005 Air Toxics Assessment
+  - url: https://www.epa.gov/sites/production/files/2015-11/documents/nei_point_2005_9-10.pdf
+    name: Compiling the 2005 NEI point source inventory (pdf)
+  - url: https://www.epa.gov/sites/production/files/2015-11/documents/nei2002_qa_augmentation_0206.pdf
+    name: Quality Assurance and Data Augmentation for Point Sources (pdf)
+  - url: https://www.epa.gov/sites/production/files/2015-11/2005_nata_comments.zip
+    name: 2005 NATA Summary of Comments (ZIP)
+  - url: https://www.epa.gov/sites/production/files/2015-10/2005nata_dpm.zip
+    name: 2005 NATA Inventory Adjustments (ZIP)
+  - url: https://www.epa.gov/sites/production/files/2015-11/2005nata_dpm.zip
+    name: Summary of DPM Emissions (ZIP)
+  - url: https://www.epa.gov/sites/production/files/2015-10/2005nata-pie-charts.ppt
+    name: 2005 NATA Air Toxics Pie Charts (PPT)
+  - url: https://www.epa.gov/sites/default/files/2015-11/cancer_risk05_v4_county.xls
+    name: 2005 NATA US Cancer Risks County (xls)
+  - url: https://www.epa.gov/sites/default/files/2015-11/neurological_risk05_v4_county.xls
+    name: 2005 NATA US Neurological Risk County (xls)
+  - url: https://www.epa.gov/sites/default/files/2015-11/respiratory_risk05_v4_county.xls
+    name: 2005 NATA US Respiratory Risk County (xls)
+  - url: https://www.epa.gov/sites/default/files/2015-12/us_nata05_v4_srcrisk_bytract.zip
+    name: 2005 NATA US Cancer Risks Tract (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/us_nata05_v4_srcneur_bytract.zip
+    name: 2005 NATA US Neurological Risk Tract (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/us_nata05_v4_srcresp_bytract.zip
+    name: 2005 NATA US Respiratory Risk Tract (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/nata05_v4_nonpoint_risks_bytract.zip
+    name: 2005 NATA Nonpoint Risks - Tract (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/nata05_v4_onroad_mobile_risks_bytract.zip
+    name: 2005 NATA Onroad Mobile Risks - Tract (zip)
+  - url: https://www.epa.gov/sites/default/files/2015-12/nata05_v4_nonroad_mobile_risks_bytract.zip
+    name: 2005 NATA Onroad Mobile Risks - Tract (zip)
+  - url: https://archive.epa.gov/nata2002/web/html/index.html
+    name: 2002 Air Toxics Assessment EPA Web Archive
+  - url: https://archive.epa.gov/airtoxics/nata1999/web/html/index.html
+    name: 1999 Air Toxics Assessment EPA Web Archive
+  - url: https://archive.epa.gov/airtoxics/nata/web/html/index-2.html
+    name: 1996 Air Toxics Assessment EPA Web Archive
