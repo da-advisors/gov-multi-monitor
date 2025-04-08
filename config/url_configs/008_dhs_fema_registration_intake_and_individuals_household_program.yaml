@@ -2,11 +2,6 @@ url: https://www.fema.gov/openfema-data-page/registration-intake-and-individuals
 name: FEMA Registration Intake and Individual Household Program
 description: The Registration Intake and Individual Household Program dataset contains aggregated data from Housing Assistance Program reporting authority within FEMA’s Recovery Directorate to share data on registrations and Individuals and Households Program (IHP) for declarations starting from disaster declaration number 4116, segmented by city where registration is valid. Additional core data elements include valid call center registrations, valid web registrations, valid mobile registrations, IHP eligible, IHP amount, HA eligible, HA amount, ONA eligible, and ONA amount.
 expected_update_frequency: daily
-tags:
-  - fema
-  - api
-  - individual-assistance
-  - disaster-recovery
 api_config:
   url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms
   method: GET
@@ -16,3 +11,31 @@ api_config:
   expected_fields:
     - metadata.count
     - RegistrationIntakeIndividualsHouseholdPrograms
+linked_urls:
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.csv
+    name: Full Data (csv)
+    resource_type: Data File (CSV)
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.json
+    name: Full Data (json)
+    resource_type: Data File (JSON)
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.jsona
+    name: Full Data (jsona)
+    resource_type: Data File (Other)
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.jsonl
+    name: Full Data (jsonl)
+    resource_type: Data File (Other)
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.parquet
+    name: Full Data (parquet)
+    resource_type: Data File (Other)
+  - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms
+    name: API Endpoint
+    resource_type: API Endpoint
+  - url: https://www.fema.gov/api/open/v1/OpenFemaDataSets?$filter=name%20eq%20%27RegistrationIntakeIndividualsHouseholdPrograms%27
+    name: Metadata API
+    resource_type: API Endpoint
+  - url: https://www.fema.gov/api/open/v1/OpenFemaDataSetFields?$filter=openFemaDataSet%20eq%20%27RegistrationIntakeIndividualsHouseholdPrograms%27%20and%20datasetVersion%20eq%202
+    name: Metadata API
+    resource_type: API Endpoint
+  - url: https://www.fema.gov/about/openfema/faq
+    name: OpenFEMA Frequently Asked Questions
+    resource_type: Supporting Documentation Page
