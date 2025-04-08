@@ -4,3 +4,637 @@ description: The Environmental Justice Index (EJI) is the first national, place-
 linked_urls:
   - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-data-download.html
     name: Data Download
+    resource_type: Data Repository or Listings page
+  - url: https://www.atsdr.cdc.gov/place-health/media/pdfs/2024/10/EJI_2024_Technical_Documentation.pdf
+    name: 2024 EJI Technical Documentation
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/media/pdfs/2024/07/EJI-2022-Documentation-508.pdf
+    name: 2022 EJI Technical Documentation
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-frequently-asked-questions-faqs.html
+    name: EJI Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-explorer.html
+    name: EJI Explorer
+    resource_type: Interactive Dashboard/Data Explorer
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-indicators.html
+    name: EJI Indicators
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-indicators-social-vulnerability-module.html
+    name: EJI Indicators - Social Vulnerability Module
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-indicators-environmental-burden-module.html
+    name: EJI Indicators - Environmental Burden Module
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/media/pdfs/2024/10/EJI-Fact-Sheet-2024-v9-2.pdf
+    name: EJI Fact Sheet
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/using-the-environmental-justice-index.html
+    name: Using the Environmental Justice Index - A Resource for State, Local, and Tribal Government
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-explorer-map-glossary.html
+    name: EJI Explorer Map Glossary
+    resource_type: Supporting Documentation Page
+  - url: https://www.atsdr.cdc.gov/place-health/php/eji/community-engagement.html
+    name: EJI Community Engagement
+    resource_type: Supporting Documentation Page
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_United_States_CSV.zip
+    name: 2024 EJI Data in the United States (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Alabama_CSV.zip
+    name: 2024 EJI Data in Alabama (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Arizona_CSV.zip
+    name: 2024 EJI Data in Arizona (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Arkansas_CSV.zip
+    name: 2024 EJI Data in Arkansas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_California_CSV.zip
+    name: 2024 EJI Data in California (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Colorado_CSV.zip
+    name: 2024 EJI Data in Colorado (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Connecticut_CSV.zip
+    name: 2024 EJI Data in Connecticut (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Delaware_CSV.zip
+    name: 2024 EJI Data in Delaware (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_District_of_Columbia_CSV.zip
+    name: 2024 EJI Data in District of Columbia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Florida_CSV.zip
+    name: 2024 EJI Data in Florida (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Georgia_CSV.zip
+    name: 2024 EJI Data in Georgia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Idaho_CSV.zip
+    name: 2024 EJI Data in Idaho (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Illinois_CSV.zip
+    name: 2024 EJI Data in Illinois (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Indiana_CSV.zip
+    name: 2024 EJI Data in Indiana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Iowa_CSV.zip
+    name: 2024 EJI Data in Iowa (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Kansas_CSV.zip
+    name: 2024 EJI Data in Kansas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Kentucky_CSV.zip
+    name: 2024 EJI Data in Kentucky (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Louisiana_CSV.zip
+    name: 2024 EJI Data in Louisiana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Maine_CSV.zip
+    name: 2024 EJI Data in Maine (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Maryland_CSV.zip
+    name: 2024 EJI Data in Maryland (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Massachusetts_CSV.zip
+    name: 2024 EJI Data in Massachusetts (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Michigan_CSV.zip
+    name: 2024 EJI Data in Michigan (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Minnesota_CSV.zip
+    name: 2024 EJI Data in Minnesota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Mississippi_CSV.zip
+    name: 2024 EJI Data in Mississippi (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Missouri_CSV.zip
+    name: 2024 EJI Data in Missouri (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Montana_CSV.zip
+    name: 2024 EJI Data in Montana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Nebraska_CSV.zip
+    name: 2024 EJI Data in Nebraska (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Nevada_CSV.zip
+    name: 2024 EJI Data in Nevada (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_New_Hampshire_CSV.zip
+    name: 2024 EJI Data in New Hampshire (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_New_Jersey_CSV.zip
+    name: 2024 EJI Data in New Jersey (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_New_Mexico_CSV.zip
+    name: 2024 EJI Data in New Mexico (csv)
+    resource_type: Data File (Other
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_New_York_CSV.zip
+    name: 2024 EJI Data in New York (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_North_Carolina_CSV.zip
+    name: 2024 EJI Data in North Carolina (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_North_Dakota_CSV.zip
+    name: 2024 EJI Data in North Dakota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Ohio_CSV.zip
+    name: 2024 EJI Data in Ohio (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Oklahoma_CSV.zip
+    name: 2024 EJI Data in Oklahoma (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Oregon_CSV.zip
+    name: 2024 EJI Data in Oregon (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Pennsylvania_CSV.zip
+    name: 2024 EJI Data in Pennsylvania (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Rhode_Island_CSV.zip
+    name: 2024 EJI Data in Rhode Island (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_South_Carolina_CSV.zip
+    name: 2024 EJI Data in South Carolina (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_South_Dakota_CSV.zip
+    name: 2024 EJI Data in South Dakota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Tennessee_CSV.zip
+    name: 2024 EJI Data in Tennessee (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Texas_CSV.zip
+    name: 2024 EJI Data in Texas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Utah_CSV.zip
+    name: 2024 EJI Data in Utah (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Vermont_CSV.zip
+    name: 2024 EJI Data in Vermont (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Virginia_CSV.zip
+    name: 2024 EJI Data in Virginia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Washington_CSV.zip
+    name: 2024 EJI Data in Washington (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_West_Virginia_CSV.zip
+    name: 2024 EJI Data in West Virginia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Wisconsin_CSV.zip
+    name: 2024 EJI Data in Wisconsin (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Wyoming_CSV.zip
+    name: 2024 EJI Data in Wyoming (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_United_States_GDB.zip
+    name: 2024 EJI Data in the United States (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Alabama_GDB.zip
+    name: 2024 EJI Data in Alabama (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Arizona_GDB.zip
+    name: 2024 EJI Data in Arizona (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Arkansas_GDB.zip
+    name: 2024 EJI Data in Arkansas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_California_GDB.zip
+    name: 2024 EJI Data in California (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Colorado_GDB.zip
+    name: 2024 EJI Data in Colorado (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Connecticut_GDB.zip
+    name: 2024 EJI Data in Connecticut (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Delaware_GDB.zip
+    name: 2024 EJI Data in Delaware (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_District_of_Columbia_GDB.zip
+    name: 2024 EJI Data in the District of Columbia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Florida_GDB.zip
+    name: 2024 EJI Data in Florida (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Georgia_GDB.zip
+    name: 2024 EJI Data in Georgia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Idaho_GDB.zip
+    name: 2024 EJI Data in Idaho (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Illinois_GDB.zip
+    name: 2024 EJI Data in Illinois (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Indiana_GDB.zip
+    name: 2024 EJI Data in Indiana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Iowa_GDB.zip
+    name: 2024 EJI Data in Iowa (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Kansas_GDB.zip
+    name: 2024 EJI Data in Kansas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Kentucky_GDB.zip
+    name: 2024 EJI Data in Kentucky (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Louisiana_GDB.zip
+    name: 2024 EJI Data in Louisiana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Maine_GDB.zip
+    name: 2024 EJI Data in Maine (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Maryland_GDB.zip
+    name: 2024 EJI Data in Maryland (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Massachusetts_GDB.zip
+    name: 2024 EJI Data in Massachusetts (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Michigan_GDB.zip
+    name: 2024 EJI Data in Michigan (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Minnesota_GDB.zip
+    name: 2024 EJI Data in Minnesota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Mississippi_GDB.zip
+    name: 2024 EJI Data in Mississippi (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Missouri_GDB.zip
+    name: 2024 EJI Data in Missouri (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Montana_GDB.zip
+    name: 2024 EJI Data in Montana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Nebraska_GDB.zip
+    name: 2024 EJI Data in Nebraska (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Nevada_GDB.zip
+    name: 2024 EJI Data in Nevada (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_New_Hampshire_GDB.zip
+    name: 2024 EJI Data in New Hampshire (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_New_Jersey_GDB.zip
+    name: 2024 EJI Data in New Jersey (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_New_Mexico_GDB.zip
+    name: 2024 EJI Data in New Mexico (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_New_York_GDB.zip
+    name: 2024 EJI Data in New York (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_North_Carolina_GDB.zip
+    name: 2024 EJI Data in North Carolina (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_North_Dakota_GDB.zip
+    name: 2024 EJI Data in North Dakota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Ohio_GDB.zip
+    name: 2024 EJI Data in Ohio (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Oklahoma_GDB.zip
+    name: 2024 EJI Data in Oklahoma (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Oregon_GDB.zip
+    name: 2024 EJI Data in Oregon (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Pennsylvania_GDB.zip
+    name: 2024 EJI Data in Pennsylvania (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Rhode_Island_GDB.zip
+    name: 2024 EJI Data in Rhode Island (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_South_Carolina_GDB.zip
+    name: 2024 EJI Data in South Carolina (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_South_Dakota_GDB.zip
+    name: 2024 EJI Data in South Dakota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Tennessee_GDB.zip
+    name: 2024 EJI Data in Tennessee (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Texas_GDB.zip
+    name: 2024 EJI Data in Texas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Utah_GDB.zip
+    name: 2024 EJI Data in Utah (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Vermont_GDB.zip
+    name: 2024 EJI Data in Vermont (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Virginia_GDB.zip
+    name: 2024 EJI Data in Virginia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Washington_GDB.zip
+    name: 2024 EJI Data in Washington (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_West_Virginia_GDB.zip
+    name: 2024 EJI Data in West Virginia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Wisconsin_GDB.zip
+    name: 2024 EJI Data in Wisconsin (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2024/2024_DBS/EJI_2024_Wyoming_GDB.zip
+    name: 2024 EJI Data in Wyoming (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_United_States_CSV.zip
+    name: 2022 EJI Data in the United States (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Alabama_CSV.zip
+    name: 2022 EJI Data in Alabama (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Arizona_CSV.zip
+    name: 2022 EJI Data in Arizona (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Arkansas_CSV.zip
+    name: 2022 EJI Data in Arkansas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_California_CSV.zip
+    name: 2022 EJI Data in California (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Colorado_CSV.zip
+    name: 2022 EJI Data in Colorado (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Connecticut_CSV.zip
+    name: 2022 EJI Data in Connecticut (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Delaware_CSV.zip
+    name: 2022 EJI Data in Delaware (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_District_of_Columbia_CSV.zip
+    name: 2022 EJI Data in District of Columbia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Florida_CSV.zip
+    name: 2022 EJI Data in Florida (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Georgia_CSV.zip
+    name: 2022 EJI Data in Georgia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Idaho_CSV.zip
+    name: 2022 EJI Data in Idaho (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Illinois_CSV.zip
+    name: 2022 EJI Data in Illinois (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Indiana_CSV.zip
+    name: 2022 EJI Data in Indiana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Iowa_CSV.zip
+    name: 2022 EJI Data in Iowa (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Kansas_CSV.zip
+    name: 2022 EJI Data in Kansas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Kentucky_CSV.zip
+    name: 2022 EJI Data in Kentucky (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Louisiana_CSV.zip
+    name: 2022 EJI Data in Louisiana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Maine_CSV.zip
+    name: 2022 EJI Data in Maine (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Maryland_CSV.zip
+    name: 2022 EJI Data in Maryland (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Massachusetts_CSV.zip
+    name: 2022 EJI Data in Massachusetts (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Michigan_CSV.zip
+    name: 2022 EJI Data in Michigan (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Minnesota_CSV.zip
+    name: 2022 EJI Data in Minnesota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Mississippi_CSV.zip
+    name: 2022 EJI Data in Mississippi (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Missouri_CSV.zip
+    name: 2022 EJI Data in Missouri (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Montana_CSV.zip
+    name: 2022 EJI Data in Montana (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Nebraska_CSV.zip
+    name: 2022 EJI Data in Nebraska (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Nevada_CSV.zip
+    name: 2022 EJI Data in Nevada (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_New_Hampshire_CSV.zip
+    name: 2022 EJI Data in New Hampshire (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_New_Jersey_CSV.zip
+    name: 2022 EJI Data in New Jersey (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_New_Mexico_CSV.zip
+    name: 2022 EJI Data in New Mexico (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_New_York_CSV.zip
+    name: 2022 EJI Data in New York (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_North_Carolina_CSV.zip
+    name: 2022 EJI Data in North Carolina (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_North_Dakota_CSV.zip
+    name: 2022 EJI Data in North Dakota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Ohio_CSV.zip
+    name: 2022 EJI Data in Ohio (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Oklahoma_CSV.zip
+    name: 2022 EJI Data in Oklahoma (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Oregon_CSV.zip
+    name: 2022 EJI Data in Oregon (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Pennsylvania_CSV.zip
+    name: 2022 EJI Data in Pennsylvania (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Rhode_Island_CSV.zip
+    name: 2022 EJI Data in Rhode Island (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_South_Carolina_CSV.zip
+    name: 2022 EJI Data in South Carolina (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_South_Dakota_CSV.zip
+    name: 2022 EJI Data in South Dakota (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Tennessee_CSV.zip
+    name: 2022 EJI Data in Tennessee (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Texas_CSV.zip
+    name: 2022 EJI Data in Texas (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Utah_CSV.zip
+    name: 2022 EJI Data in Utah (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Vermont_CSV.zip
+    name: 2022 EJI Data in Vermont (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Virginia_CSV.zip
+    name: 2022 EJI Data in Virginia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Washington_CSV.zip
+    name: 2022 EJI Data in Washington (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_West_Virginia_CSV.zip
+    name: 2022 EJI Data in West Virginia (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Wisconsin_CSV.zip
+    name: 2022 EJI Data in Wisconsin (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Wyoming_CSV.zip
+    name: 2022 EJI Data in Wyoming (csv)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_United_States_GDB.zip
+    name: 2022 EJI Data in the United States (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Alabama_GDB.zip
+    name: 2022 EJI Data in Alabama (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Arizona_GDB.zip
+    name: 2022 EJI Data in Arizona (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Arkansas_GDB.zip
+    name: 2022 EJI Data in Arkansas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_California_GDB.zip
+    name: 2022 EJI Data in California (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Colorado_GDB.zip
+    name: 2022 EJI Data in Colorado (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Connecticut_GDB.zip
+    name: 2022 EJI Data in Connecticut (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Delaware_GDB.zip
+    name: 2022 EJI Data in Delaware (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_District_of_Columbia_GDB.zip
+    name: 2022 EJI Data in District of Columbia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Florida_GDB.zip
+    name: 2022 EJI Data in Florida (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Georgia_GDB.zip
+    name: 2022 EJI Data in Georgia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Idaho_GDB.zip
+    name: 2022 EJI Data in Idaho (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Illinois_GDB.zip
+    name: 2022 EJI Data in Illinois (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Indiana_GDB.zip
+    name: 2022 EJI Data in Indiana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Iowa_GDB.zip
+    name: 2022 EJI Data in Iowa (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Kansas_GDB.zip
+    name: 2022 EJI Data in Kansas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Kentucky_GDB.zip
+    name: 2022 EJI Data in Kentucky (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Louisiana_GDB.zip
+    name: 2022 EJI Data in Louisiana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Maine_GDB.zip
+    name: 2022 EJI Data in Maine (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Maryland_GDB.zip
+    name: 2022 EJI Data in Maryland (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Massachusetts_GDB.zip
+    name: 2022 EJI Data in Massachusetts (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Michigan_GDB.zip
+    name: 2022 EJI Data in Michigan (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Minnesota_GDB.zip
+    name: 2022 EJI Data in Minnesota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Mississippi_GDB.zip
+    name: 2022 EJI Data in Mississippi (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Missouri_GDB.zip
+    name: 2022 EJI Data in Missouri (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Montana_GDB.zip
+    name: 2022 EJI Data in Montana (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Nebraska_GDB.zip
+    name: 2022 EJI Data in Nebraska (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Nevada_GDB.zip
+    name: 2022 EJI Data in Nevada (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_New_Hampshire_GDB.zip
+    name: 2022 EJI Data in New Hampshire (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_New_Jersey_GDB.zip
+    name: 2022 EJI Data in New Jersey (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_New_Mexico_GDB.zip
+    name: 2022 EJI Data in New Mexico (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_New_York_GDB.zip
+    name: 2022 EJI Data in New York (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_North_Carolina_GDB.zip
+    name: 2022 EJI Data in North Carolina (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_North_Dakota_GDB.zip
+    name: 2022 EJI Data in North Dakota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Ohio_GDB.zip
+    name: 2022 EJI Data in Ohio (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Oklahoma_GDB.zip
+    name: 2022 EJI Data in Oklahoma (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Oregon_GDB.zip
+    name: 2022 EJI Data in Oregon (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Pennsylvania_GDB.zip
+    name: 2022 EJI Data in Pennsylvania (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Rhode_Island_GDB.zip
+    name: 2022 EJI Data in Rhode Island (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_South_Carolina_GDB.zip
+    name: 2022 EJI Data in South Carolina (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_South_Dakota_GDB.zip
+    name: 2022 EJI Data in South Dakota (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Tennessee_GDB.zip
+    name: 2022 EJI Data in Tennessee (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Texas_GDB.zip
+    name: 2022 EJI Data in Texas (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Utah_GDB.zip
+    name: 2022 EJI Data in Utah (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Vermont_GDB.zip
+    name: 2022 EJI Data in Vermont (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Virginia_GDB.zip
+    name: 2022 EJI Data in Virginia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Washington_GDB.zip
+    name: 2022 EJI Data in Washington (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_West_Virginia_GDB.zip
+    name: 2022 EJI Data in West Virginia (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Wisconsin_GDB.zip
+    name: 2022 EJI Data in Wisconsin (gdb)
+    resource_type: Data File (Other)
+  - url: eji.cdc.gov/Documents/Data/2022/2022_DBS/EJI_2022_Wyoming_GDB.zip
+    name: 2022 EJI Data in Wyoming (gdb)
+    resource_type: Data File (Other)
