@@ -1,0 +1,703 @@
+linked_urls:
+  - url: https://www.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://bjs.ojp.gov/
+    name: [No text]
+    resource_type: 
+  - url: https://bjs.ojp.gov/about
+    name: About BJS
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs-director
+    name: The BJS Director
+    resource_type: 
+  - url: https://bjs.ojp.gov/about/staff-directory
+    name: Staff Directory
+    resource_type: 
+  - url: https://bjs.ojp.gov/about/activities-programs
+    name: Activities & Programs
+    resource_type: 
+    name: Statistical Programs
+    resource_type: 
+  - url: https://bjs.ojp.gov/about/principles-and-practices
+    name: Principles and Practices
+    resource_type: 
+    name: BJS Statistical Principles and Practices
+    resource_type: 
+  - url: https://bjs.ojp.gov/reviews-bjs-programs
+    name: Reviews of BJS Programs
+    resource_type: 
+  - url: https://bjs.ojp.gov/about-bjs-website
+    name: About the BJS Website
+    resource_type: 
+    name: About BJS Website
+    resource_type: 
+  - url: https://bjs.ojp.gov/about/job-opportunities
+    name: Job Opportunities
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics
+    name: Topics
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/corrections
+    name: Corrections
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/costs-crime
+    name: Costs of Crime
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/courts
+    name: Courts
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/crime
+    name: Crime
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/federal-justice-system
+    name: Federal Justice System
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/forensic-sciences
+    name: Forensic Sciences
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/law-enforcement
+    name: Law Enforcement
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/recidivism-and-reentry
+    name: Recidivism and Reentry
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/tribal-crime-and-justice
+    name: Tribal Crime and Justice
+    resource_type: 
+  - url: https://bjs.ojp.gov/topics/victims
+    name: Victims of Crime
+    resource_type: 
+  - url: https://bjs.ojp.gov/library
+    name: Publications
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats
+    name: Just the Stats
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list
+    name: Search Publications
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/forthcoming
+    name: Forthcoming Publications
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list/research
+    name: Research and Third-party Reports
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/data-corrections
+    name: Product Corrections
+    resource_type: 
+  - url: https://bjs.ojp.gov/data
+    name: Data
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs-statistical-coverage-crime-and-justice-process
+    name: Statistical Coverage of Crime and the Justice Process
+    resource_type: 
+  - url: https://bjs.ojp.gov/data-collections/search
+    name: Search Data Collections
+    resource_type: 
+  - url: https://bjs.ojp.gov/data/data-analysis-tools
+    name: Data Analysis Tools
+    resource_type: 
+  - url: https://bjs.ojp.gov/data/national-archive-criminal-justice-data
+    name: National Archive of Criminal Justice Data
+    resource_type: 
+  - url: https://bjs.ojp.gov/data/data-collection-process
+    name: Data Collection Process
+    resource_type: 
+  - url: https://bjs.ojp.gov/standard-application-process
+    name: The Standard Application Process
+    resource_type: 
+  - url: https://bjs.ojp.gov/data/topic
+    name: Data by Topic
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding
+    name: Funding & Awards
+    resource_type: 
+  - url: https://bjs.ojp.gov/apply-become-bjs-peer-reviewer
+    name: Apply to Become a BJS Peer Reviewer
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding/current
+    name: Current Funding Opportunities
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding/expired
+    name: Expired  Funding
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding/awards/list
+    name: Awards: Listing of Funded Projects
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding/human-subjects-and-confidentiality-requirements
+    name: Human Subjects and Confidentiality Requirements
+    resource_type: 
+  - url: https://bjs.ojp.gov/funding/guidance-applicants-and-awardees
+    name: Guidance for Applicants and Award Recipients
+    resource_type: 
+  - url: https://bjs.ojp.gov/technology-and-publishing-requirements-bjs-contractors-and-grantees
+    name: Technology and Publishing Requirements
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs
+    name: Programs
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/dicra
+    name: Death in Custody Reporting Act
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/federal-justice-statistics-program
+    name: Federal Justice Statistics Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/lecs
+    name: Law Enforcement Core Statistics (LECS)
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/ncrp
+    name: National Corrections Reporting Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/ncvs
+    name: National Crime Victimization Survey
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/national-criminal-history-improvement-program
+    name: National Criminal History Improvement Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/national-incident-based-reporting-system-nibrs
+    name: National Incident-Based Reporting System (NIBRS)
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/national-prisoner-statistics
+    name: National Prisoner Statistics Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/NPRSP
+    name: National Prison Rape Statistics Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/nics-improvement-amendments-act
+    name: NICS Act Record Improvement Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/nscs
+    name: National Survey of Crime and Safety (NSCS)
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/state-justice-statistics-program
+    name: State Justice Statistics Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/programs/vssrp
+    name: Victim Services Statistical Research Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/recidivism-program
+    name: National Recidivism and Reentry Data Program
+    resource_type: 
+  - url: https://bjs.ojp.gov/news
+    name: News
+    resource_type: 
+  - url: https://bjs.ojp.gov/subscribe
+    name: JUSTSTATS
+    resource_type: 
+    name: Subscribe
+    resource_type: 
+  - url: https://bjs.ojp.gov/press-releases
+    name: Press Releases
+    resource_type: 
+  - url: https://bjs.ojp.gov/announcements
+    name: Announcements
+    resource_type: 
+  - url: https://bjs.ojp.gov/featured
+    name: Featured Content
+    resource_type: 
+  - url: https://bjs.ojp.gov/events
+    name: Events
+    resource_type: 
+  - url: https://bjs.ojp.gov/events/on-demand
+    name: On-Demand Events
+    resource_type: 
+  - url: https://bjs.ojp.gov/blogs
+    name: BJS Blogs
+    resource_type: 
+  - url: https://bjs.ojp.gov/resources
+    name: Resources
+    resource_type: 
+  - url: https://bjs.ojp.gov/frequently-asked-questions
+    name: FAQs
+    resource_type: 
+  - url: https://bjs.ojp.gov/glossary
+    name: Glossary
+    resource_type: 
+  - url: https://bjs.ojp.gov/related-links
+    name: Related Links
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/multimedia/list
+    name: Multimedia
+    resource_type: 
+  - url: https://bjs.ojp.gov/month-review
+    name: Month in Review
+    resource_type: 
+  - url: https://bjs.ojp.gov/contact-us
+    name: Contact Us
+    resource_type: 
+  - url: https://bjs.ojp.gov/saml_login
+    name: Sign In
+    resource_type: 
+  - url: https://reddit.com/submit?url=https%3A//bjs.ojp.gov/data-collection/ncvs&title=National%20Crime%20Victimization%20Survey%20%28NCVS%29
+    name: Reddit
+    resource_type: 
+  - url: https://pinterest.com/pin/create/button?url=https%3A//bjs.ojp.gov/data-collection/ncvs&media=https%3A//bjs.ojp.gov/sites/g/files/xyckuh236/files/images/2021-02/OGimage_0.png&description=National%20Crime%20Victimization%20Survey%20%28NCVS%29
+    name: Pinterest
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/methods-counting-high-frequency-repeat-victimizations-national-crime
+    name: Methods for Counting High-Frequency Repeat Victimizations in the National Crime Victimization Survey
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2007
+    name: Criminal Victimization, 2007
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2016-revised
+    name: Criminal Victimization, 2016: Revised
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvs23_bsq.pdf
+    name: 2023 PDF (223 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_bsq.pdf
+    name: 2022 PDF (373.8 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_bsq.pdf
+    name: 2020-2021 PDF (329.73 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q1q2.pdf
+    name: 2019 Q1 and Q2 PDF (284.96 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q3q4.pdf
+    name: 2019 Q3 and Q4 PDF (323.89 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs18_bsq.pdf
+    name: 2018 PDF (296.37 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs17_bsq.pdf
+    name: 2017 PDF (89.6 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs16_bsq.pdf
+    name: 2016 PDF (89.59 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs15_bsq.pdf
+    name: 2015 PDF (88.14 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs1_2014.pdf
+    name: 2012-2014 PDF (87.7 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs109.pdf
+    name: 2009-2011 PDF (271.38 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs108.pdf
+    name: 2008 PDF (295.86 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs107.pdf
+    name: 2007 PDF (334.55 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs104.pdf
+    name: 2004 PDF (212.81 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs1.pdf
+    name: 2001 PDF (2.15 MB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvs23_cir.pdf
+    name: 2023 PDF (381.43 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_cir.pdf
+    name: 2022 PDF (689.17 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_cir.pdf
+    name: 2020-2021 PDF (277.15 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q1q2.pdf
+    name: 2019 Q1 and Q2 PDF (572.32 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q3q4.pdf
+    name: 2019 Q3 and Q4 PDF (587.71 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs18_cir.pdf
+    name: 2018 PDF (1.02 MB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs17_cir.pdf
+    name: 2017 PDF (181.19 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs16_cir.pdf
+    name: 2016 PDF (181.21 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs15_cir.pdf
+    name: 2015 PDF (187.33 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs2_2014.pdf
+    name: 2012-2014 PDF (186.99 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs209.pdf
+    name: 2009-2011 PDF (729.48 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs208.pdf
+    name: 2008 PDF (647.17 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs207.pdf
+    name: 2007 PDF (647.62 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs204.pdf
+    name: 2004 PDF (197.9 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs2.pdf
+    name: 2001 PDF (558.14 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvs_1_bsq_span.pdf
+    name: Basic Screen Questionnaire – Spanish (213.18 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvs_2_cir_span.pdf
+    name: Crime Incident Report – Spanish (749.45 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvs500_2023.pdf
+    name: 2023 PDF (254.94 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2022.pdf
+    name: 2022 PDF (354.68 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/ncvs500_2020.pdf
+    name: 2020-2021 PDF (236.42 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2019.pdf
+    name: 2019 PDF (230.06 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2018.pdf
+    name: 2018 PDF (210.43 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2017.pdf
+    name: 2017 PDF (213.3 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2016.pdf
+    name: 2016 PDF (213.28 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2011.pdf
+    name: 2012-2015 PDF (94.73 KB)
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2023
+    name: [No text]
+    resource_type: 
+    name: Trends and Patterns in Firearm Violence, 1993-2023
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Trends%20and%20Patterns%20in%20Firearm%20Violence
+    name: Trends and Patterns in Firearm Violence
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2023
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2023
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization
+    name: Criminal Victimization
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/socio-emotional-consequences-violent-crime-2022
+    name: [No text]
+    resource_type: 
+    name: Socio-Emotional Consequences of Violent Crime, 2022
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2023-and-indicator-2-incidence
+    name: [No text]
+    resource_type: 
+    name: Report on Indicators of School Crime and Safety: 2023 and Indicator 2: Incidence of Nonfatal Victimization at School and Away From School
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety
+    name: Indicators of School Crime and Safety
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/new-measure-prevalence-national-crime-victimization-survey
+    name: [No text]
+    resource_type: 
+    name: A New Measure of Prevalence for the National Crime Victimization Survey
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/crimes-involving-juveniles-1993-2022
+    name: [No text]
+    resource_type: 
+    name: Crimes Involving Juveniles, 1993–2022
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting-0
+    name: [No text]
+    resource_type: 
+    name: The National Crime Victimization Survey and National Incident-Based Reporting System: A complementary picture of crime in 2022
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=NCVS%20and%20NIBRS%20Comparisons
+    name: NCVS and NIBRS Comparisons
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/victims-identity-theft-2021
+    name: [No text]
+    resource_type: 
+    name: Victims of Identity Theft, 2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Identity%20Theft
+    name: Identity Theft
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2022
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2022
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2022-and-indicator-2-incidence
+    name: [No text]
+    resource_type: 
+    name: Report on Indicators of School Crime and Safety: 2022 and Indicator 2: Incidence of Victimization at School and Away From School
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/violent-victimization-race-or-hispanic-origin-2008-2021
+    name: [No text]
+    resource_type: 
+    name: Violent Victimization by Race or Hispanic Origin, 2008–2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/update-ncvs-instrument-redesign-operational-pilot-test-and-split-sample
+    name: [No text]
+    resource_type: 
+    name: Update on the NCVS Instrument Redesign: Operational Pilot Test and Split Sample
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-22-largest-us-states-2017-2019
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization in the 22 Largest U.S. States, 2017–2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting
+    name: [No text]
+    resource_type: 
+    name: The National Crime Victimization Survey and National Incident-Based Reporting System: A complementary picture of crime in 2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/carjacking-victimization-1995-2021
+    name: [No text]
+    resource_type: 
+    name: Carjacking Victimization, 1995–2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Carjackings%20in%20the%20United%20States
+    name: Carjackings in the United States
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2021
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/indicators-workplace-violence-2019
+    name: [No text]
+    resource_type: 
+    name: Indicators of Workplace Violence, 2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Violence%20in%20the%20Workplace
+    name: Violence in the Workplace
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2021
+    name: [No text]
+    resource_type: 
+    name: Report on Indicators of School Crime and Safety: 2021
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/incidence-victimization-school-and-away-school
+    name: [No text]
+    resource_type: 
+    name: Incidence of Victimization at School and Away From School
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2018
+    name: [No text]
+    resource_type: 
+    name: Trends and Patterns in Firearm Violence, 1993–2018
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2020-supplemental-statistical-tables
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2020 – Supplemental Statistical Tables
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/nations-two-crime-measures-2011-2020
+    name: [No text]
+    resource_type: 
+    name: The Nation’s Two Crime Measures, 2011–2020
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Nation%E2%80%99s%20Two%20Crime%20Measures
+    name: Nation’s Two Crime Measures
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/stalking-victimization-2019
+    name: [No text]
+    resource_type: 
+    name: Stalking Victimization, 2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Stalking%20Victimization
+    name: Stalking Victimization
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/crime-against-persons-disabilities-2009-2019-statistical-tables
+    name: [No text]
+    resource_type: 
+    name: Crime Against Persons with Disabilities, 2009–2019 – Statistical Tables
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Crime%20Against%20People%20with%20Disabilities
+    name: Crime Against People with Disabilities
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2020
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2020
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/hate-crime-victimization-2005-2019
+    name: [No text]
+    resource_type: 
+    name: Hate Crime Victimization, 2005-2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/list?series_filter=Hate%20Crime
+    name: Hate Crime
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2020
+    name: [No text]
+    resource_type: 
+    name: Report on Indicators of School Crime and Safety, 2020
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/financial-fraud-united-states-2017
+    name: [No text]
+    resource_type: 
+    name: Financial Fraud in the United States, 2017
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/stalking-victimization-2016
+    name: [No text]
+    resource_type: 
+    name: Stalking Victimization, 2016
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/victims-identity-theft-2018
+    name: [No text]
+    resource_type: 
+    name: Victims of Identity Theft, 2018
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/race-and-ethnicity-violent-crime-offenders-and-arrestees-2018
+    name: [No text]
+    resource_type: 
+    name: Race and Ethnicity of Violent Crime Offenders and Arrestees, 2018
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/classification-urban-suburban-and-rural-areas-national-crime-victimization
+    name: [No text]
+    resource_type: 
+    name: Classification of Urban, Suburban, and Rural Areas in the National Crime Victimization Survey
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/violent-victimization-race-or-ethnicity-2005-2019
+    name: [No text]
+    resource_type: 
+    name: Violent Victimization by Race or Ethnicity, 2005-2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2019
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2019
+    name: [No text]
+    resource_type: 
+    name: Indicators of School Crime and Safety: 2019
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2018-supplemental-tables
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2018 - Supplemental Tables
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/criminal-victimization-2018
+    name: [No text]
+    resource_type: 
+    name: Criminal Victimization, 2018
+    resource_type: 
+  - url: https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2018
+    name: [No text]
+    resource_type: 
+    name: Indicators of School Crime and Safety: 2018
+    resource_type: 
+  - url: https://www.icpsr.umich.edu/web/NACJD/series/95
+    name: Codebooks and Datasets
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/manual2019.pdf
+    name: NCVS CAPI Interviewing Manual for Field Representatives
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/ncvstd16.pdf
+    name: National Crime Victimization Survey, 2016: Technical Documentation
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/ncvstd13.pdf
+    name: National Crime Victimization Survey, 2013: Technical Documentation
+    resource_type: 
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/ncvsslaug.pdf
+    name: National Crime Victimization Survey: State-Level Analysis User’s Guide
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/NCVS_Variance_User_Guide%2011.06.14.pdf
+    name: User's Guide to National Crime Victimization Survey (NCVS) Direct Variance Estimation
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_C_SAS.pdf
+    name: Direct Variance User's Guide Appendix C - Examples in SAS
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_D_SUDAAN.pdf
+    name: Direct Variance User's Guide Appendix D - Examples in SUDAAN
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_E_SPSS.pdf
+    name: Direct Variance User's Guide Appendix E - Examples in SPSS
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_F_Stata.pdf
+    name: Direct Variance User's Guide Appendix F  - Examples in STATA
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide.pdf
+    name: User's Guide to The National Crime Victimization Survey (NCVS) Generalized Variance Functions (GVF)
+    resource_type: 
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide_Appendices.pdf
+    name: GVF User's Guide Appendices
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/samplesize.xlsx
+    name: Participation rates
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/personpop.xlsx
+    name: Population counts (Person)
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/householdpop.xlsx
+    name: Population counts (Household)
+    resource_type: 
+  - url: https://bjs.ojp.gov/data-collection/ncvs
+    name: Top
+    resource_type: 
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/bjs_data_protection_guidelines.pdf
+    name: BJS Data Protection Guidelines
+    resource_type: 
+  - url: https://bjs.ojp.gov/bjs-data-quality-guidelines
+    name: BJS Data Quality Guidelines
+    resource_type: 
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/scientificintegrity.pdf
+    name: Scientific Integrity Statement
+    resource_type: 
+  - url: https://bjs.ojp.gov/document/BJSdatareleasepolicy.pdf
+    name: BJS Data Release Policy
+    resource_type: 
+  - url: https://www.icpsr.umich.edu/web/pages/NACJD/index.html
+    name: National Archive of Criminal Justice Data
+    resource_type: 
+  - url: https://www.ojp.gov/ncjrs/new-ojp-resources
+    name: National Criminal Justice Reference Service
+    resource_type: 
+  - url: https://www.fbi.gov/
+    name: Federal Bureau of Investigation
+    resource_type: 
+  - url: https://www.ojp.gov/program/civil-rights-office/filing-civil-rights-complaint
+    name: File a Civil Rights Complaint
+    resource_type: 
+  - url: https://bja.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://bjs.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://bjs.ojp.gov/data-collection/ https:/nij.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://ojjdp.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://ovc.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://smart.ojp.gov
+    name: [No text]
+    resource_type: 
+  - url: https://www.justice.gov/accessibility/accessibility-information
+    name: Accessibility
+    resource_type: 
+  - url: https://www.justice.gov/open/plain-writing-act
+    name: Plain Language
+    resource_type: 
+  - url: https://www.justice.gov/doj/privacy-policy
+    name: Privacy Policy
+    resource_type: 
+  - url: https://www.justice.gov/legalpolicies
+    name: Legal Policies and Disclaimer
+    resource_type: 
+  - url: https://www.justice.gov/jmd/eeo-program-status-report
+    name: No FEAR Act
+    resource_type: 
+  - url: https://www.ojp.gov/program/freedom-information-act/foia-overview
+    name: Freedom of Information Act
+    resource_type: 
+  - url: https://www.usa.gov/
+    name: USA.gov
+    resource_type: 
+  - url: https://www.justice.gov/
+    name: Justice.gov
+    resource_type: 

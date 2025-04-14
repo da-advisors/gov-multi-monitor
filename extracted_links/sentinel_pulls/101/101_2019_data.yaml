@@ -1,0 +1,403 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: [No text]
+    resource_type: 
+    name: Census.gov
+    resource_type: 
+  - url: https://www.census.gov/partners
+    name: Partners
+    resource_type: 
+  - url: https://www.census.gov/topics/research.html
+    name: Researchers
+    resource_type: 
+    name: Research
+    resource_type: 
+  - url: https://www.census.gov/schools
+    name: Educators
+    resource_type: 
+  - url: https://www.census.gov/surveyhelp
+    name: Survey Respondents
+    resource_type: 
+    name: Survey Help
+    resource_type: 
+  - url: https://www.census.gov/newsroom.html
+    name: News
+    resource_type: 
+  - url: https://www.census.gov/naics
+    name: NAICS Codes
+    resource_type: 
+  - url: https://www.census.gov/careers
+    name: Jobs
+    resource_type: 
+  - url: https://www.census.gov/about-us
+    name: About Us
+    resource_type: 
+  - url: https://www.census.gov/about/contact-us.html
+    name: Contact Us
+    resource_type: 
+    name: Contact
+    resource_type: 
+  - url: https://www.census.gov/help
+    name: Help
+    resource_type: 
+    name: Support
+    resource_type: 
+  - url: https://www.census.gov/topics.html
+    name: Topics
+    resource_type: 
+    name: View All Topics and Subtopics
+    resource_type: 
+  - url: https://www.census.gov/data
+    name: Data & Maps
+    resource_type: 
+    name: View all data resources
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys.html
+    name: Surveys & Programs
+    resource_type: 
+    name: View all Surveys & Programs
+    resource_type: 
+    name: Our Surveys & Programs
+    resource_type: 
+  - url: https://www.census.gov/library.html
+    name: Resource Library
+    resource_type: 
+    name: View all library resources
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: QuickFacts U.S. Data Finder
+    resource_type: 
+  - url: https://data.census.gov/advanced
+    name: Advanced Data Search
+    resource_type: 
+  - url: https://www.census.gov/idb
+    name: International Database (IDB)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs
+    name: American Community Survey (ACS)
+    resource_type: 
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: Census Records & Genealogy
+    resource_type: 
+  - url: https://www.census.gov/about/index.html
+    name: Index A to Z
+    resource_type: 
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: Age and Sex
+    resource_type: 
+  - url: https://www.census.gov/businessandeconomy
+    name: Business and Economy
+    resource_type: 
+  - url: https://www.census.gov/topics/education.html
+    name: Education
+    resource_type: 
+  - url: https://www.census.gov/disasters
+    name: Emergency Management / Disasters
+    resource_type: 
+  - url: https://www.census.gov/topics/employment.html
+    name: Employment
+    resource_type: 
+  - url: https://www.census.gov/topics/families.html
+    name: Families and Living Arrangements
+    resource_type: 
+  - url: https://www.census.gov/geography
+    name: Geography
+    resource_type: 
+  - url: https://www.census.gov/topics/health.html
+    name: Health
+    resource_type: 
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: Hispanic Origin
+    resource_type: 
+  - url: https://www.census.gov/topics/housing.html
+    name: Housing
+    resource_type: 
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: Income and Poverty
+    resource_type: 
+  - url: https://www.census.gov/topics/international-trade.html
+    name: International Trade
+    resource_type: 
+  - url: https://www.census.gov/topics/population/migration.html
+    name: Migration/Geographic Mobility
+    resource_type: 
+  - url: https://www.census.gov/topics/population.html
+    name: Population
+    resource_type: 
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: Population Estimates
+    resource_type: 
+  - url: https://www.census.gov/govs
+    name: Public Sector
+    resource_type: 
+  - url: https://www.census.gov/topics/population/race.html
+    name: Race
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: Redistricting
+    resource_type: 
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: Voting and Registration
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: Explore data on data.census.gov
+    resource_type: 
+  - url: https://www.census.gov/academy
+    name: Census Academy
+    resource_type: 
+    name: Training (Census Academy)
+    resource_type: 
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: Combining Data
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools.html
+    name: Data Tools and Apps
+    resource_type: 
+  - url: https://www.census.gov/data/datasets.html
+    name: Datasets
+    resource_type: 
+  - url: https://www.census.gov/developers/
+    name: Developers
+    resource_type: 
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: Experimental Data Products
+    resource_type: 
+  - url: https://www.census.gov/interactive-maps
+    name: Interactive Maps
+    resource_type: 
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: Mapping Files
+    resource_type: 
+  - url: https://www.census.gov/data/profile.html
+    name: Profiles
+    resource_type: 
+  - url: https://www.census.gov/data/related-sites.html
+    name: Related Sites
+    resource_type: 
+  - url: https://www.census.gov/data/software.html
+    name: Software
+    resource_type: 
+  - url: https://www.census.gov/data/tables.html
+    name: Tables
+    resource_type: 
+  - url: https://www.census.gov/data/training-workshops.html
+    name: Training and Workshops
+    resource_type: 
+  - url: https://www.census.gov/library/visualizations.html
+    name: Visualizations
+    resource_type: 
+    name: Infographics and Visualizations
+    resource_type: 
+  - url: https://www.census.gov/2020census
+    name: 2020 Census
+    resource_type: 
+  - url: https://www.census.gov/2026test
+    name: 2026 Census Test
+    resource_type: 
+  - url: https://www.census.gov/2030census
+    name: 2030 Census
+    resource_type: 
+  - url: https://www.census.gov/AHS
+    name: American Housing Survey (AHS)
+    resource_type: 
+    name: Within American Housing Survey (AHS)
+    resource_type: 
+    name: Within American Housing Survey (AHS)(AHS)
+    resource_type: 
+  - url: https://www.census.gov/abs
+    name: Annual Business Survey (ABS)
+    resource_type: 
+  - url: https://www.census.gov/aies
+    name: Annual Integrated Economic Survey (AIES)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: County Business Patterns (CBP)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: Current Population Survey (CPS)
+    resource_type: 
+  - url: https://www.census.gov/EconomicCensus
+    name: Economic Census
+    resource_type: 
+  - url: https://www.census.gov/householdpulse
+    name: Household Pulse Survey
+    resource_type: 
+  - url: https://www.census.gov/internationalprograms
+    name: International Programs
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: Metro and Micro Areas
+    resource_type: 
+  - url: https://www.census.gov/popest
+    name: Population Estimates
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: Population Projections
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: Small Area Income and Poverty
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: Statistics of U.S. Businesses
+    resource_type: 
+  - url: https://www.census.gov/sipp/
+    name: Survey of Income and Program Participation (SIPP)
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: Glossary
+    resource_type: 
+  - url: https://www.census.gov/AmericaCounts
+    name: America Counts: Stories
+    resource_type: 
+    name: America Counts
+    resource_type: 
+  - url: https://www.census.gov/library/audio.html
+    name: Audio
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: Blogs
+    resource_type: 
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: By the Numbers
+    resource_type: 
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: Facts for Features
+    resource_type: 
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: Fact Sheets
+    resource_type: 
+  - url: https://www.census.gov/library/photos.html
+    name: Photos
+    resource_type: 
+  - url: https://www.census.gov/library/publications.html
+    name: Publications
+    resource_type: 
+  - url: https://www.census.gov/library/spotlights.html
+    name: Spotlights
+    resource_type: 
+  - url: https://www.census.gov/newsroom/stories.html
+    name: Stats for Stories
+    resource_type: 
+  - url: https://www.census.gov/library/video.html
+    name: Videos
+    resource_type: 
+  - url: https://www.census.gov/library/working-papers.html
+    name: Working Papers
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/data.html
+    name: Data
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/data/2019.html
+    name: 2019
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/data/2019/ahs-2019-public-use-file--puf-.html
+    name: AHS 2019 Public Use File (PUF)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/about.html
+    name: About
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/stories.html
+    name: America Counts: Stories
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/news.html
+    name: News
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/operations-and-administration.html
+    name: Operations and Administration
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/research.html
+    name: Research
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/tech-documentation.html
+    name: Technical Documentation
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/users.html
+    name: User Corner
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/visualizations.html
+    name: Visualizations
+    resource_type: 
+  - url: https://www.hud.gov/
+    name: Sponsored By:
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20SAS.zip
+    name: AHS 2019 National PUF v1.1 SAS [157 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20CSV.zip
+    name: AHS 2019 National PUF v1.1 CSV [139 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20Version%20Control.pdf
+    name: AHS 2019 National PUF Version Control  [<1.0MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20Flat%20SAS.zip
+    name: AHS 2019 National PUF v1.1 Flat SAS [180 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20Flat%20CSV.zip
+    name: AHS 2019 National PUF v1.1 Flat CSV [152 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/2019%20AHS%20Table%20Specifications%20and%20PUF%20Estimates%20for%20User%20Verification.xlsx
+    name: AHS 2019 Table Specifications and PUF Estimates for User Verification [<1.0MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Value%20Labels%20Package.zip
+    name: AHS 2019 Value Labels Package [<1.0MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/help-guides/2015-later/puf_start.html
+    name: Getting Started with the PUF: 2015 to 2023
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/def-errors-changes/appendix-archive-2019.html
+    name: 2019 Definitions, Accuracy, Historical Changes, and Questionnaires
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/codebooks.html
+    name: PUF Codebooks
+    resource_type: 
+  - url: https://www.census.gov/directorsblog
+    name: Director’s Blog
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: Deputy Director’s Blog
+    resource_type: 
+  - url: https://www.census.gov/randomsamplings
+    name: Random Samplings
+    resource_type: 
+  - url: https://www.census.gov/researchmatters
+    name: Research Matters
+    resource_type: 
+  - url: https://www.census.gov/quality/
+    name: Information Quality
+    resource_type: 
+  - url: https://www.census.gov/datalinkage
+    name: Data Linkage Infrastructure
+    resource_type: 
+  - url: https://www.census.gov/privacy
+    name: Data Protection and Privacy Policy
+    resource_type: 
+  - url: https://www.census.gov/section508
+    name: Accessibility
+    resource_type: 
+  - url: https://www.census.gov/foia
+    name: FOIA
+    resource_type: 
+  - url: https://www.oig.doc.gov
+    name: Inspector General
+    resource_type: 
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: No FEAR Act
+    resource_type: 
+  - url: https://www.commerce.gov/
+    name: U.S. Department of Commerce
+    resource_type: 
+  - url: https://www.usa.gov/
+    name: USA.gov
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Metropolitan%20PUF%20v1.0%20SAS.zip
+    name: AHS 2019 Metropolitan PUF v1.0 SAS [52 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Metropolitan%20PUF%20v1.0%20CSV.zip
+    name: AHS 2019 Metropolitan PUF v1.0 CSV [46 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Metropolitan%20PUF%20v1.0%20Flat%20SAS.zip
+    name: AHS 2019 Metropolitan PUF v1.0 Flat SAS [61 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20Metropolitan%20PUF%20v1.0%20Flat%20CSV.zip
+    name: AHS 2019 Metropolitan PUF v1.0 Flat CSV [51 MB]
+    resource_type: 

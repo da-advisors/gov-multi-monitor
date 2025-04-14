@@ -1,0 +1,1447 @@
+{
+  "source_url": "https://bjs.ojp.gov/data-collection/ncvs#8-0",
+  "timestamp": "Tue, 08 Apr 2025 23:12:35 GMT",
+  "num_links": 288,
+  "links": [
+    {
+      "url": "https://bjs.ojp.gov/data-collection/ncvs#main-content",
+      "text": "Skip to main content",
+      "title": ""
+    },
+    {
+      "url": "https://www.ojp.gov",
+      "text": "[No text]",
+      "title": "Office of Justice Programs"
+    },
+    {
+      "url": "https://bjs.ojp.gov/",
+      "text": "[No text]",
+      "title": "Home"
+    },
+    {
+      "url": "https://bjs.ojp.gov/about",
+      "text": "About BJS",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs-director",
+      "text": "The BJS Director",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/staff-directory",
+      "text": "Staff Directory",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/activities-programs",
+      "text": "Activities & Programs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/principles-and-practices",
+      "text": "Principles and Practices",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/reviews-bjs-programs",
+      "text": "Reviews of BJS Programs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about-bjs-website",
+      "text": "About the BJS Website",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/job-opportunities",
+      "text": "Job Opportunities",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics",
+      "text": "Topics",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/corrections",
+      "text": "Corrections",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/costs-crime",
+      "text": "Costs of Crime",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/courts",
+      "text": "Courts",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/crime",
+      "text": "Crime",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/federal-justice-system",
+      "text": "Federal Justice System",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/forensic-sciences",
+      "text": "Forensic Sciences",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/law-enforcement",
+      "text": "Law Enforcement",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/recidivism-and-reentry",
+      "text": "Recidivism and Reentry",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/tribal-crime-and-justice",
+      "text": "Tribal Crime and Justice",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/topics/victims",
+      "text": "Victims of Crime",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library",
+      "text": "Publications",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats",
+      "text": "Just the Stats",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list",
+      "text": "Search Publications",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/forthcoming",
+      "text": "Forthcoming Publications",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list/research",
+      "text": "Research and Third-party Reports",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/data-corrections",
+      "text": "Product Corrections",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data",
+      "text": "Data",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs-statistical-coverage-crime-and-justice-process",
+      "text": "Statistical Coverage of Crime and the Justice Process",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data-collections/search",
+      "text": "Search Data Collections",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data/data-analysis-tools",
+      "text": "Data Analysis Tools",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data/national-archive-criminal-justice-data",
+      "text": "National Archive of Criminal Justice Data",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data/data-collection-process",
+      "text": "Data Collection Process",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/standard-application-process",
+      "text": "The Standard Application Process",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data/topic",
+      "text": "Data by Topic",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding",
+      "text": "Funding & Awards",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/apply-become-bjs-peer-reviewer",
+      "text": "Apply to Become a BJS Peer Reviewer",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding/current",
+      "text": "Current Funding Opportunities",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding/expired",
+      "text": "Expired  Funding",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding/awards/list",
+      "text": "Awards: Listing of Funded Projects",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding/human-subjects-and-confidentiality-requirements",
+      "text": "Human Subjects and Confidentiality Requirements",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/funding/guidance-applicants-and-awardees",
+      "text": "Guidance for Applicants and Award Recipients",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/technology-and-publishing-requirements-bjs-contractors-and-grantees",
+      "text": "Technology and Publishing Requirements",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs",
+      "text": "Programs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/dicra",
+      "text": "Death in Custody Reporting Act",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/federal-justice-statistics-program",
+      "text": "Federal Justice Statistics Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/lecs",
+      "text": "Law Enforcement Core Statistics (LECS)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/ncrp",
+      "text": "National Corrections Reporting Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/ncvs",
+      "text": "National Crime Victimization Survey",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/national-criminal-history-improvement-program",
+      "text": "National Criminal History Improvement Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/national-incident-based-reporting-system-nibrs",
+      "text": "National Incident-Based Reporting System (NIBRS)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/national-prisoner-statistics",
+      "text": "National Prisoner Statistics Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/NPRSP",
+      "text": "National Prison Rape Statistics Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/nics-improvement-amendments-act",
+      "text": "NICS Act Record Improvement Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/nscs",
+      "text": "National Survey of Crime and Safety (NSCS)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/state-justice-statistics-program",
+      "text": "State Justice Statistics Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/programs/vssrp",
+      "text": "Victim Services Statistical Research Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/recidivism-program",
+      "text": "National Recidivism and Reentry Data Program",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/news",
+      "text": "News",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/subscribe",
+      "text": "JUSTSTATS",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/press-releases",
+      "text": "Press Releases",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/announcements",
+      "text": "Announcements",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/featured",
+      "text": "Featured Content",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats",
+      "text": "Just the Stats",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/events",
+      "text": "Events",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/events/on-demand",
+      "text": "On-Demand Events",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/blogs",
+      "text": "BJS Blogs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/resources",
+      "text": "Resources",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/frequently-asked-questions",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/glossary",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/related-links",
+      "text": "Related Links",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/multimedia/list",
+      "text": "Multimedia",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/month-review",
+      "text": "Month in Review",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/contact-us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/saml_login",
+      "text": "Sign In",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/sharer/sharer.php?u=https%3A//bjs.ojp.gov/data-collection/ncvs",
+      "text": "Facebook",
+      "title": "Share on Facebook"
+    },
+    {
+      "url": "https://twitter.com/intent/tweet?url=https%3A//bjs.ojp.gov/data-collection/ncvs&text=National%20Crime%20Victimization%20Survey%20%28NCVS%29",
+      "text": "X",
+      "title": "Share on X"
+    },
+    {
+      "url": "https://www.linkedin.com/shareArticle?mini=true&url=https%3A//bjs.ojp.gov/data-collection/ncvs&title=National%20Crime%20Victimization%20Survey%20%28NCVS%29",
+      "text": "LinkedIn",
+      "title": "Share on LinkedIn"
+    },
+    {
+      "url": "https://reddit.com/submit?url=https%3A//bjs.ojp.gov/data-collection/ncvs&title=National%20Crime%20Victimization%20Survey%20%28NCVS%29",
+      "text": "Reddit",
+      "title": "Share on Reddit"
+    },
+    {
+      "url": "https://pinterest.com/pin/create/button?url=https%3A//bjs.ojp.gov/data-collection/ncvs&media=https%3A//bjs.ojp.gov/sites/g/files/xyckuh236/files/images/2021-02/OGimage_0.png&description=National%20Crime%20Victimization%20Survey%20%28NCVS%29",
+      "text": "Pinterest",
+      "title": "Share on Pinterest"
+    },
+    {
+      "url": "https://bjs.ojp.gov/cdn-cgi/l/email-protection#f5ca979a918cc89d81818586d0c6b4dada979f86db9a9f85db929a83da91948194d8969a99999096819c9a9bda9b968386d3949885ce8680979f909681c8bb94819c9a9b9499d0c7c5b6879c9890d0c7c5a39c96819c989c8f94819c9a9bd0c7c5a6808783908cd0c7c5d0c7cdbbb6a3a6d0c7cc",
+      "text": "Email",
+      "title": "Share on Email"
+    },
+    {
+      "url": "https://bjs.ojp.gov/",
+      "text": "Home",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/methods-counting-high-frequency-repeat-victimizations-national-crime",
+      "text": "Methods for Counting High-Frequency Repeat Victimizations in the National Crime Victimization Survey",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2007",
+      "text": "Criminal Victimization, 2007",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2016-revised",
+      "text": "Criminal Victimization, 2016: Revised",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvs23_bsq.pdf",
+      "text": "2023 PDF (223 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs22_bsq.pdf",
+      "text": "2022 PDF (373.8 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs20_bsq.pdf",
+      "text": "2020-2021 PDF (329.73 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q1q2.pdf",
+      "text": "2019 Q1 and Q2 PDF (284.96 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q3q4.pdf",
+      "text": "2019 Q3 and Q4 PDF (323.89 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs18_bsq.pdf",
+      "text": "2018 PDF (296.37 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs17_bsq.pdf",
+      "text": "2017 PDF (89.6 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs16_bsq.pdf",
+      "text": "2016 PDF (89.59 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs15_bsq.pdf",
+      "text": "2015 PDF (88.14 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs1_2014.pdf",
+      "text": "2012-2014 PDF (87.7 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs109.pdf",
+      "text": "2009-2011 PDF (271.38 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs108.pdf",
+      "text": "2008 PDF (295.86 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs107.pdf",
+      "text": "2007 PDF (334.55 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs104.pdf",
+      "text": "2004 PDF (212.81 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs1.pdf",
+      "text": "2001 PDF (2.15 MB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvs23_cir.pdf",
+      "text": "2023 PDF (381.43 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs22_cir.pdf",
+      "text": "2022 PDF (689.17 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs20_cir.pdf",
+      "text": "2020-2021 PDF (277.15 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q1q2.pdf",
+      "text": "2019 Q1 and Q2 PDF (572.32 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q3q4.pdf",
+      "text": "2019 Q3 and Q4 PDF (587.71 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs18_cir.pdf",
+      "text": "2018 PDF (1.02 MB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs17_cir.pdf",
+      "text": "2017 PDF (181.19 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs16_cir.pdf",
+      "text": "2016 PDF (181.21 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs15_cir.pdf",
+      "text": "2015 PDF (187.33 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs2_2014.pdf",
+      "text": "2012-2014 PDF (186.99 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs209.pdf",
+      "text": "2009-2011 PDF (729.48 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs208.pdf",
+      "text": "2008 PDF (647.17 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs207.pdf",
+      "text": "2007 PDF (647.62 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs204.pdf",
+      "text": "2004 PDF (197.9 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs2.pdf",
+      "text": "2001 PDF (558.14 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvs_1_bsq_span.pdf",
+      "text": "Basic Screen Questionnaire \u2013 Spanish (213.18 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvs_2_cir_span.pdf",
+      "text": "Crime Incident Report \u2013 Spanish (749.45 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvs500_2023.pdf",
+      "text": "2023 PDF (254.94 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2022.pdf",
+      "text": "2022 PDF (354.68 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/ncvs500_2020.pdf",
+      "text": "2020-2021 PDF (236.42 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2019.pdf",
+      "text": "2019 PDF (230.06 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2018.pdf",
+      "text": "2018 PDF (210.43 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2017.pdf",
+      "text": "2017 PDF (213.3 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2016.pdf",
+      "text": "2016 PDF (213.28 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/content/pub/pdf/ncvs500_2011.pdf",
+      "text": "2012-2015 PDF (94.73 KB)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2023",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2023",
+      "text": "Trends and Patterns in Firearm Violence, 1993-2023",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Trends%20and%20Patterns%20in%20Firearm%20Violence",
+      "text": "Trends and Patterns in Firearm Violence",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2023",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2023",
+      "text": "Criminal Victimization, 2023",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/socio-emotional-consequences-violent-crime-2022",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/socio-emotional-consequences-violent-crime-2022",
+      "text": "Socio-Emotional Consequences of Violent Crime, 2022",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats",
+      "text": "Just the Stats",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2023-and-indicator-2-incidence",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2023-and-indicator-2-incidence",
+      "text": "Report on Indicators of School Crime and Safety: 2023 and Indicator 2: Incidence of Nonfatal Victimization at School and Away From School",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/new-measure-prevalence-national-crime-victimization-survey",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/new-measure-prevalence-national-crime-victimization-survey",
+      "text": "A New Measure of Prevalence for the National Crime Victimization Survey",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/crimes-involving-juveniles-1993-2022",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/crimes-involving-juveniles-1993-2022",
+      "text": "Crimes Involving Juveniles, 1993\u20132022",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting-0",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting-0",
+      "text": "The National Crime Victimization Survey and National Incident-Based Reporting System: A complementary picture of crime in 2022",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=NCVS%20and%20NIBRS%20Comparisons",
+      "text": "NCVS and NIBRS Comparisons",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/victims-identity-theft-2021",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/victims-identity-theft-2021",
+      "text": "Victims of Identity Theft, 2021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Identity%20Theft",
+      "text": "Identity Theft",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2022",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2022",
+      "text": "Criminal Victimization, 2022",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2022-and-indicator-2-incidence",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2022-and-indicator-2-incidence",
+      "text": "Report on Indicators of School Crime and Safety: 2022 and Indicator 2: Incidence of Victimization at School and Away From School",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/violent-victimization-race-or-hispanic-origin-2008-2021",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/violent-victimization-race-or-hispanic-origin-2008-2021",
+      "text": "Violent Victimization by Race or Hispanic Origin, 2008\u20132021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats",
+      "text": "Just the Stats",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/update-ncvs-instrument-redesign-operational-pilot-test-and-split-sample",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/update-ncvs-instrument-redesign-operational-pilot-test-and-split-sample",
+      "text": "Update on the NCVS Instrument Redesign: Operational Pilot Test and Split Sample",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-22-largest-us-states-2017-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-22-largest-us-states-2017-2019",
+      "text": "Criminal Victimization in the 22 Largest U.S. States, 2017\u20132019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/national-crime-victimization-survey-and-national-incident-based-reporting",
+      "text": "The National Crime Victimization Survey and National Incident-Based Reporting System: A complementary picture of crime in 2021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=NCVS%20and%20NIBRS%20Comparisons",
+      "text": "NCVS and NIBRS Comparisons",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/carjacking-victimization-1995-2021",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/carjacking-victimization-1995-2021",
+      "text": "Carjacking Victimization, 1995\u20132021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Carjackings%20in%20the%20United%20States",
+      "text": "Carjackings in the United States",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Just%20the%20Stats",
+      "text": "Just the Stats",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2021",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2021",
+      "text": "Criminal Victimization, 2021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-workplace-violence-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-workplace-violence-2019",
+      "text": "Indicators of Workplace Violence, 2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Violence%20in%20the%20Workplace",
+      "text": "Violence in the Workplace",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2021",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2021",
+      "text": "Report on Indicators of School Crime and Safety: 2021",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/incidence-victimization-school-and-away-school",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/incidence-victimization-school-and-away-school",
+      "text": "Incidence of Victimization at School and Away From School",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2018",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/trends-and-patterns-firearm-violence-1993-2018",
+      "text": "Trends and Patterns in Firearm Violence, 1993\u20132018",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Trends%20and%20Patterns%20in%20Firearm%20Violence",
+      "text": "Trends and Patterns in Firearm Violence",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2020-supplemental-statistical-tables",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2020-supplemental-statistical-tables",
+      "text": "Criminal Victimization, 2020 \u2013 Supplemental Statistical Tables",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/nations-two-crime-measures-2011-2020",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/nations-two-crime-measures-2011-2020",
+      "text": "The Nation\u2019s Two Crime Measures, 2011\u20132020",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Nation%E2%80%99s%20Two%20Crime%20Measures",
+      "text": "Nation\u2019s Two Crime Measures",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=NCVS%20and%20NIBRS%20Comparisons",
+      "text": "NCVS and NIBRS Comparisons",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/stalking-victimization-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/stalking-victimization-2019",
+      "text": "Stalking Victimization, 2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Stalking%20Victimization",
+      "text": "Stalking Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/crime-against-persons-disabilities-2009-2019-statistical-tables",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/crime-against-persons-disabilities-2009-2019-statistical-tables",
+      "text": "Crime Against Persons with Disabilities, 2009\u20132019 \u2013 Statistical Tables",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Crime%20Against%20People%20with%20Disabilities",
+      "text": "Crime Against People with Disabilities",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2020",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2020",
+      "text": "Criminal Victimization, 2020",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/hate-crime-victimization-2005-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/hate-crime-victimization-2005-2019",
+      "text": "Hate Crime Victimization, 2005-2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Hate%20Crime",
+      "text": "Hate Crime",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2020",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/report-indicators-school-crime-and-safety-2020",
+      "text": "Report on Indicators of School Crime and Safety, 2020",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/financial-fraud-united-states-2017",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/financial-fraud-united-states-2017",
+      "text": "Financial Fraud in the United States, 2017",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/stalking-victimization-2016",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/stalking-victimization-2016",
+      "text": "Stalking Victimization, 2016",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Stalking%20Victimization",
+      "text": "Stalking Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/victims-identity-theft-2018",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/victims-identity-theft-2018",
+      "text": "Victims of Identity Theft, 2018",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Identity%20Theft",
+      "text": "Identity Theft",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/race-and-ethnicity-violent-crime-offenders-and-arrestees-2018",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/race-and-ethnicity-violent-crime-offenders-and-arrestees-2018",
+      "text": "Race and Ethnicity of Violent Crime Offenders and Arrestees, 2018",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/classification-urban-suburban-and-rural-areas-national-crime-victimization",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/classification-urban-suburban-and-rural-areas-national-crime-victimization",
+      "text": "Classification of Urban, Suburban, and Rural Areas in the National Crime Victimization Survey",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/violent-victimization-race-or-ethnicity-2005-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/violent-victimization-race-or-ethnicity-2005-2019",
+      "text": "Violent Victimization by Race or Ethnicity, 2005-2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2019",
+      "text": "Criminal Victimization, 2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2019",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2019",
+      "text": "Indicators of School Crime and Safety: 2019",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2018-supplemental-tables",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2018-supplemental-tables",
+      "text": "Criminal Victimization, 2018 - Supplemental Tables",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2018",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/criminal-victimization-2018",
+      "text": "Criminal Victimization, 2018",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Criminal%20Victimization",
+      "text": "Criminal Victimization",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2018",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/indicators-school-crime-and-safety-2018",
+      "text": "Indicators of School Crime and Safety: 2018",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/library/publications/list?series_filter=Indicators%20of%20School%20Crime%20and%20Safety",
+      "text": "Indicators of School Crime and Safety",
+      "title": ""
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/web/NACJD/series/95",
+      "text": "Codebooks and Datasets",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/manual2019.pdf",
+      "text": "NCVS CAPI Interviewing Manual for Field Representatives",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/ncvs-participant#materials",
+      "text": "NCVS Participant Materials",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/ncvstd16.pdf",
+      "text": "National Crime Victimization Survey, 2016: Technical Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/ncvstd13.pdf",
+      "text": "National Crime Victimization Survey, 2013: Technical Documentation",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/ncvsslaug.pdf",
+      "text": "National Crime Victimization Survey: State-Level Analysis User\u2019s Guide",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/NCVS_Variance_User_Guide%2011.06.14.pdf",
+      "text": "User's Guide to National Crime Victimization Survey (NCVS) Direct Variance Estimation",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_C_SAS.pdf",
+      "text": "Direct Variance User's Guide Appendix C - Examples in SAS",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_D_SUDAAN.pdf",
+      "text": "Direct Variance User's Guide Appendix D - Examples in SUDAAN",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_E_SPSS.pdf",
+      "text": "Direct Variance User's Guide Appendix E - Examples in SPSS",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_F_Stata.pdf",
+      "text": "Direct Variance User's Guide Appendix F  - Examples in STATA",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide.pdf",
+      "text": "User's Guide to The National Crime Victimization Survey (NCVS) Generalized Variance Functions (GVF)",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide_Appendices.pdf",
+      "text": "GVF User's Guide Appendices",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs.ojp.gov/samplesize.xlsx",
+      "text": "Participation rates",
+      "title": "NCVS Sample Size"
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs.ojp.gov/personpop.xlsx",
+      "text": "Population counts (Person)",
+      "title": "NCVS Person Population"
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs.ojp.gov/householdpop.xlsx",
+      "text": "Population counts (Household)",
+      "title": "NCVS Household Population"
+    },
+    {
+      "url": "https://bjs.ojp.gov/data-collection/ncvs",
+      "text": "Top",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about",
+      "text": "About BJS",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/activities-programs",
+      "text": "Statistical Programs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about-bjs-website",
+      "text": "About BJS Website",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/contact-us",
+      "text": "Contact Us",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/bjs_data_protection_guidelines.pdf",
+      "text": "BJS Data Protection Guidelines",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/bjs-data-quality-guidelines",
+      "text": "BJS Data Quality Guidelines",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/about/principles-and-practices",
+      "text": "BJS Statistical Principles and Practices",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/scientificintegrity.pdf",
+      "text": "Scientific Integrity Statement",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/document/BJSdatareleasepolicy.pdf",
+      "text": "BJS Data Release Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.icpsr.umich.edu/web/pages/NACJD/index.html",
+      "text": "National Archive of Criminal Justice Data",
+      "title": ""
+    },
+    {
+      "url": "https://www.ojp.gov/ncjrs/new-ojp-resources",
+      "text": "National Criminal Justice Reference Service",
+      "title": ""
+    },
+    {
+      "url": "https://www.fbi.gov/",
+      "text": "Federal Bureau of Investigation",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/frequently-asked-questions",
+      "text": "FAQs",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/glossary",
+      "text": "Glossary",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/related-links",
+      "text": "Related Links",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/subscribe",
+      "text": "Subscribe",
+      "title": ""
+    },
+    {
+      "url": "https://www.ojp.gov/program/civil-rights-office/filing-civil-rights-complaint",
+      "text": "File a Civil Rights Complaint",
+      "title": ""
+    },
+    {
+      "url": "https://www.facebook.com/BJSgov/",
+      "text": "Facebook",
+      "title": ""
+    },
+    {
+      "url": "https://twitter.com/BJSgov",
+      "text": "X",
+      "title": ""
+    },
+    {
+      "url": "https://www.youtube.com/channel/UC4sChTMpog0vHNL1HvkTKzQ",
+      "text": "YouTube",
+      "title": ""
+    },
+    {
+      "url": "https://www.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bja.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://bjs.ojp.gov/data-collection/ https:/nij.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://ojjdp.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://ovc.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://smart.ojp.gov",
+      "text": "[No text]",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/accessibility/accessibility-information",
+      "text": "Accessibility",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/open/plain-writing-act",
+      "text": "Plain Language",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/doj/privacy-policy",
+      "text": "Privacy Policy",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/legalpolicies",
+      "text": "Legal Policies and Disclaimer",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/jmd/eeo-program-status-report",
+      "text": "No FEAR Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.ojp.gov/program/freedom-information-act/foia-overview",
+      "text": "Freedom of Information Act",
+      "title": ""
+    },
+    {
+      "url": "https://www.usa.gov/",
+      "text": "USA.gov",
+      "title": ""
+    },
+    {
+      "url": "https://www.justice.gov/",
+      "text": "Justice.gov",
+      "title": ""
+    }
+  ]
+}
