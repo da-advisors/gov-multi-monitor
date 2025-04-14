@@ -9,3 +9,165 @@ linked_urls:
     name: Variables
   - url: https://bjs.ojp.gov/national-crime-victimization-survey-ncvs-api#1-0
     name: API
+  - url: https://bjs.ojp.gov/document/ncvs23_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2023 PDF (223 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2022 PDF (373.8 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2020-2021 PDF (329.73 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q1q2.pdf
+    name: NCVS Basic Screen Questionnaire 2019 Q1 and Q2 PDF (284.96 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_bsq_q3q4.pdf
+    name: NCVS Basic Screen Questionnaire 2019 Q3 and Q4 PDF (323.89 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs18_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2018 PDF (296.37 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs17_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2017 PDF (89.6 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs16_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2016 PDF (89.59 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs15_bsq.pdf
+    name: NCVS Basic Screen Questionnaire 2015 PDF (88.14 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs1_2014.pdf
+    name: NCVS Basic Screen Questionnaire 2012-2014 PDF (87.7 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs109.pdf
+    name: NCVS Basic Screen Questionnaire 2009-2011 PDF (271.38 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs108.pdf
+    name: NCVS Basic Screen Questionnaire 2008 PDF (295.86 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs107.pdf
+    name: NCVS Basic Screen Questionnaire 2007 PDF (334.55 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs104.pdf
+    name: NCVS Basic Screen Questionnaire 2004 PDF (212.81 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs1.pdf
+    name: NCVS Basic Screen Questionnaire 2001 PDF (2.15 MB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/document/ncvs23_cir.pdf
+    name: NCVS Crime Incident Report 2023 PDF (381.43 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_cir.pdf
+    name: NCVS Crime Incident Report 2022 PDF (689.17 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_cir.pdf
+    name: NCVS Crime Incident Report 2020-2021 PDF (277.15 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q1q2.pdf
+    name: NCVS Crime Incident Report 2019 Q1 and Q2 PDF (572.32 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs19_cir_q3q4.pdf
+    name: NCVS Crime Incident Report 2019 Q3 and Q4 PDF (587.71 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs18_cir.pdf
+    name: NCVS Crime Incident Report 2018 PDF (1.02 MB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs17_cir.pdf
+    name: NCVS Crime Incident Report 2017 PDF (181.19 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs16_cir.pdf
+    name: NCVS Crime Incident Report 2016 PDF (181.21 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs15_cir.pdf
+    name: NCVS Crime Incident Report 2015 PDF (187.33 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs2_2014.pdf
+    name: NCVS Crime Incident Report 2012-2014 PDF (186.99 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs209.pdf
+    name: NCVS Crime Incident Report 2009-2011 PDF (729.48 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs208.pdf
+    name: NCVS Crime Incident Report 2008 PDF (647.17 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs207.pdf
+    name: NCVS Crime Incident Report 2007 PDF (647.62 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs204.pdf
+    name: NCVS Crime Incident Report 2004 PDF (197.9 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs2.pdf
+    name: NCVS Crime Incident Report 2001 PDF (558.14 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/document/ncvs_1_bsq_span.pdf
+    name: Basic Screen Questionnaire – Spanish (213.18 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/document/ncvs_2_cir_span.pdf
+    name: Crime Incident Report – Spanish (749.45 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/document/ncvs500_2023.pdf
+    name: NCVS Control Card 2023 PDF (254.94 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2022.pdf
+    name: NCVS Control Card 2022 PDF (354.68 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/ncvs500_2020.pdf
+    name: NCVS Control Card 2020-2021 PDF (236.42 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2019.pdf
+    name: NCVS Control Card 2019 PDF (230.06 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2018.pdf
+    name: NCVS Control Card 2018 PDF (210.43 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2017.pdf
+    name: NCVS Control Card 2017 PDF (213.3 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2016.pdf
+    name: NCVS Control Card 2016 PDF (213.28 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2011.pdf
+    name: NCVS Control Card 2012-2015 PDF (94.73 KB)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/samplesize.xlsx
+    name: Participation Rates
+    resource_type: Data File (Excel)
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/personpop.xlsx
+    name: Population Counts (Person)
+    resource_type: Data File (Excel)
+  - url: https://bjs.ojp.gov/bjs.ojp.gov/householdpop.xlsx
+    name: Population Counts (Household)
+    resource_type: Data File (Excel)
+  - url: https://bjs.ojp.gov/document/manual2019.pdf
+    name: NCVS CAPI Interviewing Manual for Field Representatives
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/document/ncvstd16.pdf
+    name: National Crime Victimization Survey, 2016 Technical Documentation
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/ncvstd13.pdf
+    name: National Crime Victimization Survey, 2013 Technical Documentation
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/document/ncvsslaug.pdf
+    name: National Crime Victimization Survey State-Level Analysis User’s Guide
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/NCVS_Variance_User_Guide%2011.06.14.pdf
+    name: User's Guide to National Crime Victimization Survey (NCVS) Direct Variance Estimation
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_C_SAS.pdf
+    name: Direct Variance User's Guide Appendix C - Examples in SAS
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_D_SUDAAN.pdf
+    name: Direct Variance User's Guide Appendix D - Examples in SUDAAN
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_E_SPSS.pdf
+    name: Direct Variance User's Guide Appendix E - Examples in SPSS
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/Variance_Guide_Appendix_F_Stata.pdf
+    name: Direct Variance User's Guide Appendix F  - Examples in STATA
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide.pdf
+    name: User's Guide to The National Crime Victimization Survey (NCVS) Generalized Variance Functions (GVF)
+    resource_type: Supporting Documentation Page
+  - url: https://bjs.ojp.gov/redirect-legacy/content/pub/pdf/GVF_Users_Guide_Appendices.pdf
+    name: GVF User's Guide Appendices
+    resource_type: Supporting Documentation Page
