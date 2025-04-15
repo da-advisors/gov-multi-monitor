@@ -4,8 +4,9 @@ description: The American Community Survey (ACS) is an ongoing nationwide survey
 omb_control_number: 0607-0810
 expected_update_frequency: null
 tags:
-  - cb
-  - census
+  - Demographics
+  - Housing
+  - Economics
 linked_urls:
   - url: https://www.census.gov/programs-surveys/acs/news/data-releases/2023/release.html
     name: 2019-2023 American Community Survey 5-year estimates are now available, including the Public Use Microdata Sample (PUMS) and Variance Replicate Estimate (VRE) Tables.
