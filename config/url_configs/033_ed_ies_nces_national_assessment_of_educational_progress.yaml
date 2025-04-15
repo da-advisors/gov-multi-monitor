@@ -4,8 +4,9 @@ description: The National Assessment of Educational Progress (NAEP), also known 
 omb_control_number: 1850-0928
 expected_update_frequency: null
 tags:
-  - ed
-  - education
+  - Education
+  - Schools
+  - Demographics
 linked_urls:
   - url: https://nces.ed.gov/nationsreportcard/assessments/
     name: Assessments

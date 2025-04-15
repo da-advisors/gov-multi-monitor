@@ -2,10 +2,32 @@ url: https://www.nass.usda.gov/AgCensus/
 name: Census of Agriculture
 description: The Census of Agriculture, conducted once every five years, looks at land use and ownership, producer characteristics, production practices, income, and expenditures. The Census of Agriculture is a complete count of U.S. farms and ranches and the people who operate them. Even small plots of land – whether rural or urban – count if $1,000 or more of agricultural products were produced and sold, or normally would have been sold, during the census year.
 omb_control_number: 0535-0226
+tags:
+  - Agriculture
+  - Economics
+  - Labor
 linked_urls:
   - url: https://www.nass.usda.gov/Publications/AgCensus/2022/index.php
     name: Reports and Publications
+    resource_type: Data Repository or Listings page
   - url: https://quickstats.nass.usda.gov/
     name: Quick Stats
+    resource_type: Interactive Dashboard/Data Explorer
   - url: https://quickstats.nass.usda.gov/api
     name: Quick Stats API
+    resource_type: API Endpoint
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/usv1.txt
+    name: 2022 U.S. Summary and State Data (txt)
+    resource_type: Data File (Other)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/usv1.pdf
+    name: 2022 U.S. Summary and State Data (pdf)
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/usappxa.pdf
+    name: 2022 Appendix A - Census of Agriculture Methodology
+    resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/usappxb.pdf
+    name: 2022 Appendix B - General Explanation and Report Form
+    resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/v1index.pdf
+    name: 2022 Index
+    resource_type: Supporting Documentation Page

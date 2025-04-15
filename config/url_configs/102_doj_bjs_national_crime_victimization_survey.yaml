@@ -2,13 +2,19 @@ url: https://bjs.ojp.gov/data-collection/ncvs
 name: National Crime Victimization Survey (NCVS)
 description: The National Crime Victimization Survey (NCVS) is the nation's primary source of information on criminal victimization. Each year, data are obtained from a nationally representative sample of about 240,000 persons in about 150,000 households. Persons are interviewed on the frequency, characteristics, and consequences of criminal victimization in the United States.
 omb_control_number: 1121-0111
+tags:
+  - Justice
+  - Crime
 linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/series/95/studies
     name: Studies
+    resource_type: Data Repository or Listings page
   - url: https://www.icpsr.umich.edu/web/NACJD/series/95/variables
     name: Variables
+    resource_type: Supporting Documentation Page
   - url: https://bjs.ojp.gov/national-crime-victimization-survey-ncvs-api#1-0
     name: API
+    resource_type: API Endpoint
   - url: https://bjs.ojp.gov/document/ncvs23_bsq.pdf
     name: NCVS Basic Screen Questionnaire 2023 PDF (223 KB)
     resource_type: Supporting Documentation Page

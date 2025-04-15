@@ -2,6 +2,9 @@ url: https://www.fema.gov/openfema-data-page/registration-intake-and-individuals
 name: Registration Intake and Individuals Household Program (RI-IHP) - v2
 description: The Registration Intake and Individual Household Program dataset contains aggregated data from Housing Assistance Program reporting authority within FEMA’s Recovery Directorate to share data on registrations and Individuals and Households Program (IHP) for declarations starting from disaster declaration number 4116, segmented by city where registration is valid. Additional core data elements include valid call center registrations, valid web registrations, valid mobile registrations, IHP eligible, IHP amount, HA eligible, HA amount, ONA eligible, and ONA amount.
 expected_update_frequency: daily
+tags:
+  - Disaster
+  - Housing
 api_config:
   url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms
   method: GET

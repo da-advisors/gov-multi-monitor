@@ -1,6 +1,9 @@
 url: https://datagateway.nrcs.usda.gov/
 name: Geospatial Data Gateway (GDG)
 description: USDA conducts multiple geospatial surveys that contribute to US and global geospatial systems essential to transportation and logistics, defense, water management, forestry, and agriculture, among other sectors. The most significant survey is the National Agriculture Imagery Program (NAIP), which acquires aerial imagery during the agricultural growing seasons in the United States. Branch. This "leaf-on" imagery is used as a base layer for GIS programs and is used to maintain the Common Land Unit (CLU) boundaries. USDA is also the primary source for data on forestry biomass, snow cover, and land management and ownership boundaries.
+tags:
+  - Agriculture
+  - Environment
 linked_urls:
   - url: https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx
     name: Direct Data and NAIP Download
