@@ -1,0 +1,56 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block title %}
+  {{ collection.name }}
+{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/collections.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <div class="collection-detail__wrapper flex-grid">
+    <header class="collection-detail__heading">
+      <h1 class="collection-detail__title">{{ collection.name }}</h1>
+      <a href={{ url_for("data-and-tools.collections_index") }}>Back to all collections</a>
+    </header>
+    <section class="collection-detail">
+      {% if collection.description %}
+        <p>{{ collection.description }}</p>
+      {% endif %}
+      <table class="collection-detail__metadata">
+        <tbody>
+          {% if collection.primary_url%}
+          <tr>
+            <th class="collection-preview__field-header">Primary URL</th>
+            <td>
+              <a href="{{ collection.primary_url }}">{{ collection.primary_url }}</a>
+            </td>
+          </tr>
+          {% endif %}
+          {% if collection.omb_control_number%}
+          <tr>
+            <th class="collection-detail__field-header">OMB Control Number</th>
+            <td>{{ collection.omb_control_number }}</td>
+          </tr>
+          {% endif %}
+          <tr>
+            <th class="collection-detail__field-header">Created at</th>
+            <td>{{ collection.created_at }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section class="collection-detail__resources-list">
+      {% if resource_list %}
+        <h2 class="collection-detail__resources-list-title">View {resources_list|length} associated resources</h2>
+          <section class="resource-list__items flex-grid">
+            {% for resource in resource_list %}
+              {% include "data_and_tools/resources/_partials/resource_preview.html.jinja" %}
+            {% endfor %}
+          </section>
+      {% endif %}
+    </section>
+  </div>
+{% endblock main %}

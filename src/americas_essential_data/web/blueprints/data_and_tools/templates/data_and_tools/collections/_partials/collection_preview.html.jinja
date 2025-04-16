@@ -1,0 +1,32 @@
+<article class="collection-preview">
+  <header class="collection-preview__heading">
+    <h2 class="collection-preview__title">{{ collection.name }}</h2>
+    <span class="collection-preview__detail-link"><a href="{{ url_for('data-and-tools.view_collection', collection_id=collection.id) }}">See more</a></span>
+  </header>
+  <table class="collection-preview__metadata">
+    <tbody>
+      {% if collection.primary_url %}
+      <tr>
+        <th class="collection-preview__field-header">Primary URL</th>
+        <td>
+          <a href="{{ collection.primary_url }}">{{ collection.primary_url }}</a>
+        </td>
+      </tr>
+      {% endif %}
+      <tr>
+        <th class="collection-preview__field-header">Resources included</th>
+        <td>{{ collection.linked_resources_count }}</td>
+      </tr>
+      <tr>
+        <th class="collection-preview__field-header">Created at</th>
+        <td>{{ collection.created_at }}</td>
+      </tr>
+      {% if collection.latest_status %}
+        <tr>
+          <th class="collection-preview__field-header">Latest status</th>
+          <td>{{ collection.latest_status }}, checked at {{ collection.latest_status_timestamp }}</td>
+        </tr>
+      {% endif %}
+    </tbody>
+  </table>
+</article>
