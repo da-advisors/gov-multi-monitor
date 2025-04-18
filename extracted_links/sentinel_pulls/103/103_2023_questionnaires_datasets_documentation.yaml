@@ -1,0 +1,324 @@
+linked_urls:
+  - url: https://www.cdc.gov
+    name: [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/about/index.html
+    name: National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/index.html
+    name: National Health Interview Survey
+    resource_type: 
+    name: For Everyone
+    resource_type: 
+    name: National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2023-nhis.html
+    name: Search
+    resource_type: 
+    name: searchclose search
+    resource_type: 
+    name: Menu
+    resource_type: 
+    name: [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/about/index.html
+    name: About NHIS
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/index.html
+    name: About the Data
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/products/index.html
+    name: Publications
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/early-release/index.html
+    name: Early Release Program
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/health-insurance/index.html
+    name: Health Insurance
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/teen/index.html
+    name: NHIS-Teen
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/nhpi/index.html
+    name: NHIS Native Hawaiian and Pacific Islander Survey
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis-participants/index.html
+    name: NHIS Participants
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/site.html
+    name: View All
+    resource_type: 
+    name: View AllNational Health Interview Survey
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-508.pdf
+    name: Survey description document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS-2023-discrimination-and-vigilance-measures.pdf
+    name: Additional information regarding discrimination and vigilance measures
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS2023-imputation-techdoc-508.pdf
+    name: Imputed income technical document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/2023-NHIS-PRICSSA-508.pdf
+    name: Preferred reporting items for complex sample survey analysis
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/Checksum-filelist.pdf
+    name: Data files and metadata
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/industry-occupation-supplement.xlsx
+    name: Industry and occupation supplement
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/index.html
+    name: National Center for Health Statistics Research Data Center
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/restricted-nchs-variables/nhis.html
+    name: Restricted-use variable access
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/geocodes/geowt_nhis.htm
+    name: Restricted-use geography data
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/data/b1/NHIS_HUD_Summary_2011.pdf
+    name: Geocode technical documentation
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/EnglishQuest-508.pdf
+    name: Survey questionnaire (English)
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/SpanishQuest-508.pdf
+    name: Survey questionnaire (Spanish)
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/Sponsored-Content-508.pdf
+    name: NHIS sponsored content
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/nhisflow-q1-508.pdf
+    name: NHIS instrument flowchart, Q1
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/nhisflow-q2-q4-508.pdf
+    name: NHIS instrument flowchart, Q2-Q4
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf
+    name: Survey brochure
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/advance-letter-2023-508.pdf
+    name: Advance letter
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/frmanual-508.pdf
+    name: Field Representative Manual
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-summary.pdf
+    name: Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-codebook.pdf
+    name: Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-nofreq-codebook.pdf
+    name: Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23.zip
+    name: ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.sas
+    name: SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.sps
+    name: SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.do
+    name: Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-summary.pdf
+    name: Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-codebook.pdf
+    name: Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-nofreq-codebook.pdf
+    name: Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/child23.zip
+    name: ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/child23csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.sas
+    name: SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.sps
+    name: SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.do
+    name: Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/nhis/2023/NHIS-PairWeights-README.txt
+    name: Readme document
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/data/series/sr_02/sr02-207.pdf
+    name: Detailed report with sample analyses
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/final_pair_weight2023csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/final_pair_weight2023.zip
+    name: SAS data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adultinc-summary.pdf
+    name: Sample adult summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/childinc-summary.pdf
+    name: Sample child summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23.zip
+    name: ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.sas
+    name: SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.sps
+    name: SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.do
+    name: Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/childinc23.zip
+    name: ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/childinc23csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.sas
+    name: SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.sps
+    name: SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.do
+    name: Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-paradata-508.pdf
+    name: Paradata Survey description document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-summary.pdf
+    name: Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-codebook.pdf
+    name: Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-nofreq-codebook.pdf
+    name: Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/paradata23csv.zip
+    name: CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/paradata23.zip
+    name: ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.sas
+    name: SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.sps
+    name: SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.do
+    name: Stata input statements
+    resource_type: 
+  - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/data-questionnaires-documentation.htm
+    name: CDC Archive
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html
+    name: 2024 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2022-nhis.html
+    name: 2022 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2021-nhis.html
+    name: 2021 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2020-nhis.html
+    name: 2020 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2019-nhis.html
+    name: 2019 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/products/nchs_listservs.htm
+    name: Subscribe now
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/index.htm
+    name: National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: Contact Us
+    resource_type: 
+    name: Contact CDC
+    resource_type: 
+  - url: https://www.cdc.gov/about/
+    name: About CDC
+    resource_type: 
+  - url: https://www.cdc.gov/media/
+    name: Pressroom
+    resource_type: 
+  - url: https://www.cdc.gov/about/organization/
+    name: Organization
+    resource_type: 
+  - url: https://www.cdc.gov/budget/
+    name: Budget & Funding
+    resource_type: 
+  - url: https://jobs.cdc.gov/index.html
+    name: Careers & Jobs
+    resource_type: 
+  - url: https://www.cdc.gov/other/accessibility.html
+    name: Accessibility
+    resource_type: 
+  - url: https://www.cdc.gov/other/privacy.html
+    name: Privacy
+    resource_type: 
+  - url: https://www.cdc.gov/Other/policies.html
+    name: Web Policies
+    resource_type: 
+  - url: https://www.cdc.gov/foia/
+    name: FOIA
+    resource_type: 
+  - url: https://oig.hhs.gov/
+    name: OIG
+    resource_type: 
+  - url: https://www.cdc.gov/oeeowe/no-fear-act/
+    name: No Fear Act
+    resource_type: 
+  - url: https://www.cdc.gov/other/nondiscrimination.html
+    name: Nondiscrimination
+    resource_type: 
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+    name: Vulnerability Disclosure Policy
+    resource_type: 
+  - url: https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc
+    name: Languages
+    resource_type: 
+  - url: https://www.cdc.gov/spanish/
+    name: EspaÃ±ol
+    resource_type: 
+  - url: https://www.cdc.gov/other/language-assistance.html
+    name: Language Assistance
+    resource_type: 
+  - url: https://archive.cdc.gov/
+    name: CDC Archive
+    resource_type: 
+  - url: https://stacks.cdc.gov/
+    name: Public Health Publications
+    resource_type: 
+  - url: https://www.cdc.gov/
+    name: [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/rss
+    name: [No text]
+    resource_type: 
+  - url: https://hhs.gov
+    name: HHS.gov
+    resource_type: 
+  - url: https://usa.gov
+    name: USA.gov
+    resource_type: 

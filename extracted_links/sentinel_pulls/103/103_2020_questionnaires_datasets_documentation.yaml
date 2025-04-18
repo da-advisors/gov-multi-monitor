@@ -1,0 +1,372 @@
+linked_urls:
+  - url: https://www.cdc.gov
+    name: 2020 [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/about/index.html
+    name: 2020 National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/index.html
+    name: 2020 National Health Interview Survey
+    resource_type: 
+    name: 2020 For Everyone
+    resource_type: 
+    name: 2020 National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2020-nhis.html
+    name: 2020 Search
+    resource_type: 
+    name: 2020 searchclose search
+    resource_type: 
+    name: 2020 Menu
+    resource_type: 
+    name: 2020 [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/about/index.html
+    name: 2020 About NHIS
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/index.html
+    name: 2020 About the Data
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/products/index.html
+    name: 2020 Publications
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/early-release/index.html
+    name: 2020 Early Release Program
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/health-insurance/index.html
+    name: 2020 Health Insurance
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/teen/index.html
+    name: 2020 NHIS-Teen
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/nhpi/index.html
+    name: 2020 NHIS Native Hawaiian and Pacific Islander Survey
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis-participants/index.html
+    name: 2020 NHIS Participants
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/site.html
+    name: 2020 View All
+    resource_type: 
+    name: 2020 View AllNational Health Interview Survey
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-508.pdf
+    name: 2020 Survey description document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/nonresponse-report-508.pdf
+    name: 2020 Weighting procedures and nonresponse bias evaluation
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/weighting-analysis-reference-508.pdf
+    name: 2020 Weighting and analysis reference table
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/industry-occupation-codes-2017-2018.xlsx
+    name: 2020 Industry and occupation appendix
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/filelist.pdf
+    name: 2020 File record length and size summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/checksum.pdf
+    name: 2020 Checksum
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/index.html
+    name: 2020 National Center for Health Statistics Research Data Center
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/restricted-nchs-variables/nhis.html
+    name: 2020 Restricted-use variable access
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/geocodes/geowt_nhis.htm
+    name: 2020 Restricted-use geography data
+    resource_type: 
+  - url: https://www.cdc.gov/rdc/data/b1/NHIS_HUD_Summary_2011.pdf
+    name: 2020 Geocode technical documentation
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/EnglishQuest-508.pdf
+    name: 2020 Survey questionnaire – English
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/SpanishQuest-508.pdf
+    name: 2020 Survey questionnaire – Spanish
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/Sponsored-Content.pdf
+    name: 2020 NHIS sponsored content
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/2020-Q1-Q2-Instrument-Flowchart-508.pdf
+    name: 2020 NHIS instrument flowchart, Q1-Q2
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/2020-Q3-Q4-Instrument-Flowchart-508.pdf
+    name: 2020 NHIS instrument flowchart, Q3-Q4
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/NHIS-Adult-Child-Questionnaires-brochure-508.pdf
+    name: 2020 Survey brochure
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/advance-letter-2020.pdf
+    name: 2020 Advance better
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/followback-advance-letter-2020-508.pdf
+    name: 2020 Advance better for reinterview
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2020/frmanual-508.pdf
+    name: 2020 Field Representative Manual
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adult-summary.pdf
+    name: 2020 Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adult-codebook.pdf
+    name: 2020 Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adult-nofreq-codebook.pdf
+    name: 2020 Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adult20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adult20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adult.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adult.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adult.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adultlong-summary.pdf
+    name: 2020 Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adultlong-codebook.pdf
+    name: 2020 Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultlong20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultlong20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultlong.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultlong.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultlong.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adultpart-summary.pdf
+    name: 2020 Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adultpart-codebook.pdf
+    name: 2020 Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultpart20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultpart20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultpart.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultpart.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultpart.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/child-summary.pdf
+    name: 2020 Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/child-codebook.pdf
+    name: 2020 Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/child-nofreq-codebook.pdf
+    name: 2020 Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/child20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/child20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/child.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/child.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/child.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/NHIS-PairWeights-README.txt
+    name: 2020 Readme document
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/data/series/sr_02/sr02-207.pdf
+    name: 2020 Detailed report with example analyses
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/FinalPairWeight20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/FinalPairWeight20.zip
+    name: 2020 SAS data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/NHIS2020-imputation-techdoc-508.pdf
+    name: 2020 Imputed income technical document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/adultinc-summary.pdf
+    name: 2020 Sample adult summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/childinc-summary.pdf
+    name: 2020 Sample child summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultinc20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/adultinc20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultinc.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultinc.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/Adultinc.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/childinc20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/childinc20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/childinc.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/childinc.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/childinc.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/srvydesc-paradata-508.pdf
+    name: 2020 Paradata Survey description document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/paradata-summary.pdf
+    name: 2020 Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/paradata-codebook.pdf
+    name: 2020 Codebook
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2020/paradata-nofreq-codebook.pdf
+    name: 2020 Codebook for restricted-use variables
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/paradata20.zip
+    name: 2020 ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2020/paradata20csv.zip
+    name: 2020 CSV data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/paradata.sas
+    name: 2020 SAS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/paradata.sps
+    name: 2020 SPSS input statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2020/paradata.do
+    name: 2020 Stata input statements
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html
+    name: 2020 2024 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2023-nhis.html
+    name: 2020 2023 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2022-nhis.html
+    name: 2020 2022 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2021-nhis.html
+    name: 2020 2021 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/2019-nhis.html
+    name: 2020 2019 NHIS Questionnaires, Datasets, and Documentation
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/products/nchs_listservs.htm
+    name: 2020 Subscribe now
+    resource_type: 
+  - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/data-questionnaires-documentation.htm
+    name: 2020 CDC Archive
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/index.htm
+    name: 2020 National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: 2020 Contact Us
+    resource_type: 
+    name: 2020 Contact CDC
+    resource_type: 
+  - url: https://www.cdc.gov/about/
+    name: 2020 About CDC
+    resource_type: 
+  - url: https://www.cdc.gov/media/
+    name: 2020 Pressroom
+    resource_type: 
+  - url: https://www.cdc.gov/about/organization/
+    name: 2020 Organization
+    resource_type: 
+  - url: https://www.cdc.gov/budget/
+    name: 2020 Budget & Funding
+    resource_type: 
+  - url: https://jobs.cdc.gov/index.html
+    name: 2020 Careers & Jobs
+    resource_type: 
+  - url: https://www.cdc.gov/other/accessibility.html
+    name: 2020 Accessibility
+    resource_type: 
+  - url: https://www.cdc.gov/other/privacy.html
+    name: 2020 Privacy
+    resource_type: 
+  - url: https://www.cdc.gov/Other/policies.html
+    name: 2020 Web Policies
+    resource_type: 
+  - url: https://www.cdc.gov/foia/
+    name: 2020 FOIA
+    resource_type: 
+  - url: https://oig.hhs.gov/
+    name: 2020 OIG
+    resource_type: 
+  - url: https://www.cdc.gov/oeeowe/no-fear-act/
+    name: 2020 No Fear Act
+    resource_type: 
+  - url: https://www.cdc.gov/other/nondiscrimination.html
+    name: 2020 Nondiscrimination
+    resource_type: 
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+    name: 2020 Vulnerability Disclosure Policy
+    resource_type: 
+  - url: https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc
+    name: 2020 Languages
+    resource_type: 
+  - url: https://www.cdc.gov/spanish/
+    name: 2020 EspaÃ±ol
+    resource_type: 
+  - url: https://www.cdc.gov/other/language-assistance.html
+    name: 2020 Language Assistance
+    resource_type: 
+  - url: https://archive.cdc.gov/
+    name: 2020 CDC Archive
+    resource_type: 
+  - url: https://stacks.cdc.gov/
+    name: 2020 Public Health Publications
+    resource_type: 
+  - url: https://www.cdc.gov/
+    name: 2020 [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/rss
+    name: 2020 [No text]
+    resource_type: 
+  - url: https://hhs.gov
+    name: 2020 HHS.gov
+    resource_type: 
+  - url: https://usa.gov
+    name: 2020 USA.gov
+    resource_type: 

@@ -1,0 +1,344 @@
+linked_urls:
+  - url: https://www.cdc.gov
+    name: 2014 NHPI NHIS [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/about/index.html
+    name: 2014 NHPI NHIS National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/index.html
+    name: 2014 NHPI NHIS National Health Interview Survey
+    resource_type: 
+    name: 2014 NHPI NHIS For Everyone
+    resource_type: 
+    name: 2014 NHPI NHIS National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/nhpi/nhpi-nhis-data.html
+    name: 2014 NHPI NHIS Search
+    resource_type: 
+    name: 2014 NHPI NHIS searchclose search
+    resource_type: 
+    name: 2014 NHPI NHIS Menu
+    resource_type: 
+    name: 2014 NHPI NHIS [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/about/index.html
+    name: 2014 NHPI NHIS About NHIS
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/documentation/index.html
+    name: 2014 NHPI NHIS About the Data
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/products/index.html
+    name: 2014 NHPI NHIS Publications
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/early-release/index.html
+    name: 2014 NHPI NHIS Early Release Program
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/health-insurance/index.html
+    name: 2014 NHPI NHIS Health Insurance
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/teen/index.html
+    name: 2014 NHPI NHIS NHIS-Teen
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/nhpi/index.html
+    name: 2014 NHPI NHIS NHIS Native Hawaiian and Pacific Islander Survey
+    resource_type: 
+    name: 2014 NHPI NHIS Native Hawaiian and Pacific Islander National Health Interview Survey
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis-participants/index.html
+    name: 2014 NHPI NHIS NHIS Participants
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/nhis/site.html
+    name: 2014 NHPI NHIS View All
+    resource_type: 
+    name: 2014 NHPI NHIS View AllNational Health Interview Survey
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/srvydesc.pdf
+    name: 2014 NHPI NHIS Survey Description Document
+    resource_type: 
+    name: 2014 NHPI NHIS 2014 NHPI NHIS Survey Description Document
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHPI/2014/english/
+    name: 2014 NHPI NHIS Survey Questionnaire (
+    resource_type: 
+    name: 2014 NHPI NHIS English
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHPI/2014/spanish/
+    name: 2014 NHPI NHIS Survey Questionnaire (
+    resource_type: 
+    name: 2014 NHPI NHIS Spanish
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/readme.pdf
+    name: 2014 NHPI NHIS Readme File
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/update_notices/NHPI/2014/nhpi14log.pdf
+    name: 2014 NHPI NHIS Notices for Data Users
+    resource_type: 
+  - url: https://www.census.gov/about/adrm/fsrdc.html
+    name: 2014 NHPI NHIS Restricted NHPI NHIS data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/familyxx_summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/familyxx_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/familyxx_freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/familyxx.zip
+    name: 2014 NHPI NHIS ASCII data file
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FAMILYXX.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FAMILYXX.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/familyxx.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/househld_summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/househld_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/househld_freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/househld.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/HOUSEHLD.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/HOUSEHLD.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/househld.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/Injpoiep_Summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/Injpoiep_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/Injpoiep_Freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/injpoiep.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/INJPOIEP.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/INJPOIEP.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/injpoiep.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/personsx_summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/personsx_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/personsx_freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/personsx.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/PERSONSX.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/PERSONSX.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/personsx.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samchild_summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samchild_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samchild_freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/samchild.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/SAMCHILD.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/SAMCHILD.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/samchild.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samadult_summary.pdf
+    name: 2014 NHPI NHIS Variable summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samadult_layout.pdf
+    name: 2014 NHPI NHIS Variable layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/samadult_freq.pdf
+    name: 2014 NHPI NHIS Variable frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/samadult.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/SAMADULT.sas
+    name: 2014 NHPI NHIS Sample SAS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/SAMADULT.sps
+    name: 2014 NHPI NHIS Sample SPSS statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/samadult.do
+    name: 2014 NHPI NHIS Sample Stata statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/Paradata_Summary.pdf
+    name: 2014 NHPI NHIS Variable Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/Paradata_Layout.pdf
+    name: 2014 NHPI NHIS Variable Layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/paradata_freq.pdf
+    name: 2014 NHPI NHIS Variable Frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/paradata.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/PARADATA.sas
+    name: 2014 NHPI NHIS Sample SAS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/PARADATA.sps
+    name: 2014 NHPI NHIS Sample SPSS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/paradata.do
+    name: 2014 NHPI NHIS Sample STATA Statements
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs
+    name: 2014 NHPI NHIS American Community Survey
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/fmlydisb_summary.pdf
+    name: 2014 NHPI NHIS Variable Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/fmlydisb_layout.pdf
+    name: 2014 NHPI NHIS Variable Layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/fmlydisb_freq.pdf
+    name: 2014 NHPI NHIS Variable Frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/fmlydisb.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FMLYDISB.sas
+    name: 2014 NHPI NHIS Sample SAS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FMLYDISB.sps
+    name: 2014 NHPI NHIS Sample SPSS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/fmlydisb.do
+    name: 2014 NHPI NHIS Sample STATA Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/funcdisb_summary.pdf
+    name: 2014 NHPI NHIS Variable Summary
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/funcdisb_layout.pdf
+    name: 2014 NHPI NHIS Variable Layout
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHPI/2014/funcdisb_freq.pdf
+    name: 2014 NHPI NHIS Variable Frequencies
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/nhpi/2014/funcdisb.zip
+    name: 2014 NHPI NHIS ASCII data
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FUNCDISB.sas
+    name: 2014 NHPI NHIS Sample SAS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/FUNCDISB.sps
+    name: 2014 NHPI NHIS Sample SPSS Statements
+    resource_type: 
+  - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHPI/2014/funcdisb.do
+    name: 2014 NHPI NHIS Sample STATA Statements
+    resource_type: 
+  - url: https://www.cdc.gov/nchs/index.htm
+    name: 2014 NHPI NHIS National Center for Health Statistics
+    resource_type: 
+  - url: https://www.cdc.gov/cdc-info/index.html
+    name: 2014 NHPI NHIS Contact Us
+    resource_type: 
+    name: 2014 NHPI NHIS Contact CDC
+    resource_type: 
+  - url: https://www.cdc.gov/about/
+    name: 2014 NHPI NHIS About CDC
+    resource_type: 
+  - url: https://www.cdc.gov/media/
+    name: 2014 NHPI NHIS Pressroom
+    resource_type: 
+  - url: https://www.cdc.gov/about/organization/
+    name: 2014 NHPI NHIS Organization
+    resource_type: 
+  - url: https://www.cdc.gov/budget/
+    name: 2014 NHPI NHIS Budget & Funding
+    resource_type: 
+  - url: https://jobs.cdc.gov/index.html
+    name: 2014 NHPI NHIS Careers & Jobs
+    resource_type: 
+  - url: https://www.cdc.gov/other/accessibility.html
+    name: 2014 NHPI NHIS Accessibility
+    resource_type: 
+  - url: https://www.cdc.gov/other/privacy.html
+    name: 2014 NHPI NHIS Privacy
+    resource_type: 
+  - url: https://www.cdc.gov/Other/policies.html
+    name: 2014 NHPI NHIS Web Policies
+    resource_type: 
+  - url: https://www.cdc.gov/foia/
+    name: 2014 NHPI NHIS FOIA
+    resource_type: 
+  - url: https://oig.hhs.gov/
+    name: 2014 NHPI NHIS OIG
+    resource_type: 
+  - url: https://www.cdc.gov/oeeowe/no-fear-act/
+    name: 2014 NHPI NHIS No Fear Act
+    resource_type: 
+  - url: https://www.cdc.gov/other/nondiscrimination.html
+    name: 2014 NHPI NHIS Nondiscrimination
+    resource_type: 
+  - url: https://www.hhs.gov/vulnerability-disclosure-policy/index.html
+    name: 2014 NHPI NHIS Vulnerability Disclosure Policy
+    resource_type: 
+  - url: https://wwwn.cdc.gov/pubs/other-languages?Sort=Lang%3A%3Aasc
+    name: 2014 NHPI NHIS Languages
+    resource_type: 
+  - url: https://www.cdc.gov/spanish/
+    name: 2014 NHPI NHIS EspaÃ±ol
+    resource_type: 
+  - url: https://www.cdc.gov/other/language-assistance.html
+    name: 2014 NHPI NHIS Language Assistance
+    resource_type: 
+  - url: https://archive.cdc.gov/
+    name: 2014 NHPI NHIS CDC Archive
+    resource_type: 
+  - url: https://stacks.cdc.gov/
+    name: 2014 NHPI NHIS Public Health Publications
+    resource_type: 
+  - url: https://www.cdc.gov/
+    name: 2014 NHPI NHIS [No text]
+    resource_type: 
+  - url: https://www.cdc.gov/rss
+    name: 2014 NHPI NHIS [No text]
+    resource_type: 
+  - url: https://hhs.gov
+    name: 2014 NHPI NHIS HHS.gov
+    resource_type: 
+  - url: https://usa.gov
+    name: 2014 NHPI NHIS USA.gov
+    resource_type: 
