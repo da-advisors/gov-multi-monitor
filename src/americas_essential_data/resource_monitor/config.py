@@ -1,6 +1,6 @@
 """Configuration for URL monitoring."""
 
-from dataclasses import dataclass
+from dataclasses import dataclass, fields
 from pathlib import Path
 from typing import List, Optional, Dict, Any
 import yaml
@@ -24,6 +24,7 @@ class LinkedURL:
     name: str
     description: Optional[str] = None
     type: Optional[str] = None  # e.g. pdf, excel, csv
+    resource_type: Optional[str] = None  # New field added to handle resource_type in YAML
     expected_update_frequency: Optional[str] = None
     archived_content: List[ArchivedContent] = (
         None  # List of archived versions of the content
@@ -118,7 +119,9 @@ class MonitorConfig:
                     url_data["api_config"] = APIConfig(**url_data["api_config"])
                 if "linked_urls" in url_data:
                     url_data["linked_urls"] = [
-                        LinkedURL(**linked_url_data)
+                        # Filter out unknown fields before passing to LinkedURL constructor
+                        LinkedURL(**{k: v for k, v in linked_url_data.items() 
+                                    if k in [f.name for f in fields(LinkedURL)]})
                         for linked_url_data in url_data["linked_urls"]
                     ]
                 if "archived_content" in url_data:
@@ -151,7 +154,9 @@ class MonitorConfig:
                                 )
                             if "linked_urls" in url_data:
                                 url_data["linked_urls"] = [
-                                    LinkedURL(**linked_url_data)
+                                    # Filter out unknown fields before passing to LinkedURL constructor
+                                    LinkedURL(**{k: v for k, v in linked_url_data.items() 
+                                                if k in [f.name for f in fields(LinkedURL)]})
                                     for linked_url_data in url_data["linked_urls"]
                                 ]
                             if "archived_content" in url_data:
