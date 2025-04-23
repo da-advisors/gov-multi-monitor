@@ -1,0 +1,739 @@
+url: https://www.census.gov/topics/public-sector/voting.html
+name: Voting and Registration
+omb_control_number: 0607-0466
+tags:
+  - Elections or Voting
+  - Demographics
+linked_urls:
+  - url: https://www.census.gov/topics/public-sector/voting/data/tables.html
+    name: Voting and Registration Tables
+    resource_type: Data Repository or Listings page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2020.pdf
+    name: 2020 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2018.pdf
+    name: 2018 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2016.pdf
+    name: 2016 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2014.pdf
+    name: 2014 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2012.pdf
+    name: 2012 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2010.pdf
+    name: 2010 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2008.pdf
+    name: 2008 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2006.pdf
+    name: 2006 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2004.pdf
+    name: 2004 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2002.pdf
+    name: 2002 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-2000.pdf
+    name: 2000 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1998.pdf
+    name: 1998  Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1996.pdf
+    name: 1996  Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1994.pdf
+    name: 1994 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1992.pdf
+    name: 1992 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1990.pdf
+    name: 1990 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1988.pdf
+    name: 1988 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1986.pdf
+    name: 1986 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1984.pdf
+    name: 1984 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1982.pdf
+    name: 1982 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1980.pdf
+    name: 1980 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1978.pdf
+    name: 1978 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1976.pdf
+    name: 1976 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1974.pdf
+    name: 1974 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1972.pdf
+    name: 1972 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1970.pdf
+    name: 1970 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1968.pdf
+    name: 1968 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1966.pdf
+    name: 1966 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/demo/technical-documentation/voting/questionnaires/Nov_questionnaire-1964.pdf
+    name: 1964 Questionnaire
+    resource_type: Supporting Documentation Page
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote01.xlsx
+    name: Table A-1.  Reported Voting and Registration by Race, Hispanic Origin, Sex and Age Groups November 1964 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote02.xlsx
+    name: Table A-2. Reported Voting and Registration by Region, Educational Attainment and Labor Force Status for the Population 18 and Over November 1964 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote03a.xlsx
+    name: Table A-3a.  Reported Voting for Total and Citizen Voting-Age Populations, by State for Congressional Elections 1974 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote03b.xlsx
+    name: Table A-3b.  Reported Registration for Total and Citizen Voting-Age Populations, by State for Congressional Elections 1974 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote04.xlsx
+    name: Table A-4.  Reported Voting and Registration for Total and Citizen Voting-Age Population for Congressional Elections 1978-2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a5a.xlsx
+    name: Table A-5a.  Reported Voting and Registration for Total and Citizen Voting-Age Population, by State for Presidential Elections 1972-2020
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a5b.xlsx
+    name: Table A-5b.  Reported Voting and Registration for Total and Citizen Voting-Age Population, by State for Presidential Elections 1972-2020
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a6.xlsx
+    name: Table A-6.  Reported Voting and Registration for Total and Citizen Voting-Age Population, By Race and Hispanic Origin Presidential Elections 1980-2020
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote07.xlsx
+    name: Table A-7.  Reported Voting Rates in Congressional Election Years by Selected Characteristics November 1966 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote08.xlsx
+    name: Table A-8.  Reported Registration Rates in Congressional Election Years by Selected Characteristics November 1966 to 2022
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a9.xlsx
+    name: Table A-9.  Reported Voting Rates of Total Voting-Age Population in Presidential Election Years, by Selected Characteristics November 1964 to 2020
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a10.xlsx
+    name: Table A-10.  Reported Registration Rates of Total Voting-Age Population in Presidential Election Years, by Selected Characteristics November 1968 to 2020
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote01_2022.xlsx
+    name: November 2022 Reported Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote01a_2022.xlsx
+    name: November 2022 Margins of Error for Estimates of Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_1.xlsx
+    name: November 2022 All Races
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_2.xlsx
+    name: November 2022 White Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_3.xlsx
+    name: November 2022 White Alone Not Hispanic
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_4.xlsx
+    name: November 2022 Black Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_5.xlsx
+    name: November 2022 Asian Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_6.xlsx
+    name: November 2022 Hispanic or Latino
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_7.xlsx
+    name: November 2022 White Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_8.xlsx
+    name: November 2022 Black Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_9.xlsx
+    name: November 2022 Asian Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote03_2022.xlsx
+    name: November 2022 Reported Voting and Registration by Age, for the United States, Regions, and Divisions
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04a_2022.xlsx
+    name: November 2022 Reported Voting and Registration of the Total Voting-Age Population, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04b_2022.xlsx
+    name: November 2022 Reported Voting and Registration of the Total Voting-Age Population, by Sex, Race and Hispanic Origin, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04c_2022.xlsx
+    name: November 2022 Reported Voting and Registration of the Total Voting-Age Population, by Age, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_1.xlsx
+    name: November 2022 18 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_2.xlsx
+    name: November 2022 18 to 24 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_3.xlsx
+    name: November 2022 25 to 44 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_4.xlsx
+    name: November 2022 45 to 64 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_5.xlsx
+    name: November 2022 65 to 74 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_6.xlsx
+    name: November 2022 75 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote06_2022.xlsx
+    name: November 2022 Reported Voting and Registration by Sex, Employment Status, Class of Worker and Disability Status
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote07_2022.xlsx
+    name: November 2022 Reported Voting and Registration of Family Members, by Age and Family Income
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote08_2022.xlsx
+    name: November 2022 Reported Voting and Registration, by Duration of Residence, and Tenure
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote09_2022.xlsx
+    name: November 2022 Reported Voting and Registration, by Marital Status, Age, and Sex
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote10_2022.xlsx
+    name: November 2022 Reasons For Not Voting, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote11_2022.xlsx
+    name: November 2022 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, and Region of Origin
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote12_2022.xlsx
+    name: November 2022 Method of Registration, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote13_2022.xlsx
+    name: November 2022 Reported Voting and Registration, by Sex, Veteran Status, and Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote14_2022.xlsx
+    name: November 2022 Method of Voting, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table01.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_1.xlsx
+    name: November 2020 All Races
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_2.xlsx
+    name: November 2020 White Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_3.xlsx
+    name: November 2020 White Alone Not Hispanic
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_4.xlsx
+    name: November 2020 Black Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_5.xlsx
+    name: November 2020 Asian Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_6.xlsx
+    name: November 2020 Hispanic or Latino
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_7.xlsx
+    name: November 2020 White Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_8.xlsx
+    name: November 2020 Black Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_9.xlsx
+    name: November 2020 Asian Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table03.xlsx
+    name: November 2020 Reported Voting and Registration by Age, for the United States, Regions, and Divisions
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04a.xlsx
+    name: November 2020 Reported Voting and Registration for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04b.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex, Race and Hispanic Origin, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04c.xlsx
+    name: November 2020 Reported Voting and Registration, by Age, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_1.xlsx
+    name: November 2020 18 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_2.xlsx
+    name: November 2020 18 to 24 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_3.xlsx
+    name: November 2020 25 to 44 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_4.xlsx
+    name: November 2020 45 to 64 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_5.xlsx
+    name: November 2020 65 to 74 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_6.xlsx
+    name: November 2020 75 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table06.xlsx
+    name: November 2020 Reported Voting and Registration by Sex, Employment Status, Class of Worker and Disability Status
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table07.xlsx
+    name: November 2020 Reported Voting and Registration of Family Members, by Age and Family Income
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table08.xlsx
+    name: November 2020 Reported Voting and Registration, by Duration of Residence, and Tenure
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table09.xlsx
+    name: November 2020 Reported Voting and Registration, by Marital Status, Age, and Sex
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table10.xlsx
+    name: November 2020 Reasons For Not Voting, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table11.xlsx
+    name: November 2020 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, and Region of Origin
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table12.xlsx
+    name: November 2020 Method of Registration, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table13.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex, Veteran Status, and Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table14.xlsx
+    name: November 2020 Method of Voting, By Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table01.xlsx
+    name: November 2018 Reported Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_1.xlsx
+    name: November 2018 All Races
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_2.xlsx
+    name: November 2018 White Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_3.xlsx
+    name: November 2018 White Non-Hispanic Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_4.xlsx
+    name: November 2018 Black Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_5.xlsx
+    name: November 2018 Asian Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_6.xlsx
+    name: November 2018 Hispanic
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_7.xlsx
+    name: November 2018 White Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_8.xlsx
+    name: November 2018 Black Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table02_9.xlsx
+    name: November 2018 Asian Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table03.xlsx
+    name: November 2018 Reported Voting and Registration, by Age, for the United States, Regions, and Divisions
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table04a.xlsx
+    name: November 2018 Reported Voting and Registration, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table04b.xlsx
+    name: November 2018 Reported Voting and Registration by Sex, Race and Hispanic Origin, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table04c.xlsx
+    name: November 2018 Reported Voting and Registration by Age, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_1.xlsx
+    name: November 2018 18 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_2.xlsx
+    name: November 2018 18 to 24 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_3.xlsx
+    name: November 2018 25 to 44 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_4.xlsx
+    name: November 2018 45 to 64 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_5.xlsx
+    name: November 2018 65 to 74 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table05_6.xlsx
+    name: November 2018 75 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table06.xlsx
+    name: November 2018 Reported Voting and Registration, by Sex, Employment Status, Class of Worker, and Disability Status
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table07.xlsx
+    name: November 2018 Reported Voting and Registration of Family Members, by Age and Family Income
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table08.xlsx
+    name: November 2018 Reported Voting and Registration, by Duration of Residence, and Tenure (All races)
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table09.xlsx
+    name: November 2018 Reported Voting and Registration, by Marital Status, Age, and Sex
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table10.xlsx
+    name: November 2018 Reasons for Not Voting, by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table11.xlsx
+    name: November 2018 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, Hispanic Origin, and Region of Birth
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table12.xlsx
+    name: November 2018 Method of Registration by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table13.xlsx
+    name: November 2018 Reported Voting and Registration, by Sex, Veteran Status, and Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/583/table14.xlsx
+    name: November 2018 Method of Voting by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/table01.xlsx
+    name: 2018 Number of Votes Cast, Citizen Voting-Age Population and Voting Rates for Congressional Districts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/table02a.xlsx
+    name: 2018 Characteristics (Age) of the Citizen Voting-Age Population for Congressional Districts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/table02b.xlsx
+    name: 2018 Characteristics (Sex and Poverty) of the Citizen Voting-Age Population for Congressional Districts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/table02c.xlsx
+    name: 2018 Characteristics (Educational Attainment) of the Citizen Voting-Age Population for Congressional Districts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/table02d.xlsx
+    name: 2018 Characteristics (Race and Hispanic Origin) of the Citizen Voting-Age Population for Congressional Districts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/UnitedStates.xlsx
+    name: 2016 United States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Alabama.xlsx
+    name: 2016 Alabama
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Alaska.xlsx
+    name: 2016 Alaska
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Arizona.xlsx
+    name: 2016 Arizona
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Arkansas.xlsx
+    name: 2016 Arkansas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/California.xlsx
+    name: 2016 California
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Colorado.xlsx
+    name: 2016 Colorado
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Connecticut.xlsx
+    name: 2016 Connecticut
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Delaware.xlsx
+    name: 2016 Delaware
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/DistrictofColumbia.xlsx
+    name: 2016 District of Columbia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Florida.xlsx
+    name: 2016 Florida
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Georgia.xlsx
+    name: 2016 Georgia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Hawaii.xlsx
+    name: 2016 Hawaii
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Idaho.xlsx
+    name: 2016 Idaho
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Illinois.xlsx
+    name: 2016 Illinois
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Indiana.xlsx
+    name: 2016 Indiana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Iowa.xlsx
+    name: 2016 Iowa
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Kansas.xlsx
+    name: 2016 Kansas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Kentucky.xlsx
+    name: 2016 Kentucky
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Louisiana.xlsx
+    name: 2016 Louisiana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Maine.xlsx
+    name: 2016 Maine
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Maryland.xlsx
+    name: 2016 Maryland
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Massachusetts.xlsx
+    name: 2016 Massachusetts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Michigan.xlsx
+    name: 2016 Michigan
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Minnesota.xlsx
+    name: 2016 Minnesota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Mississippi.xlsx
+    name: 2016 Mississippi
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Missouri.xlsx
+    name: 2016 Missouri
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Montana.xlsx
+    name: 2016 Montana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Nebraska.xlsx
+    name: 2016 Nebraska
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Nevada.xlsx
+    name: 2016 Nevada
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewHampshire.xlsx
+    name: 2016 New Hampshire
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewJersey.xlsx
+    name: 2016 New Jersey
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewMexico.xlsx
+    name: 2016 New Mexico
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewYork.xlsx
+    name: 2016 New York
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NorthCarolina.xlsx
+    name: 2016 North Carolina
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NorthDakota.xlsx
+    name: 2016 North Dakota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Ohio.xlsx
+    name: 2016 Ohio
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Oklahoma.xlsx
+    name: 2016 Oklahoma
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Oregon.xlsx
+    name: 2016 Oregon
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Pennsylvania.xlsx
+    name: 2016 Pennsylvania
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/RhodeIsland.xlsx
+    name: 2016 Rhode Island
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/SouthCarolina.xlsx
+    name: 2016 South Carolina
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/SouthDakota.xlsx
+    name: 2016 South Dakota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Tennessee.xlsx
+    name: 2016 Tennessee
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Texas.xlsx
+    name: 2016 Texas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Utah.xlsx
+    name: 2016 Utah
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Vermont.xlsx
+    name: 2016 Vermont
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Virginia.xlsx
+    name: 2016 Virginia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Washington.xlsx
+    name: 2016 Washington
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/WestVirginia.xlsx
+    name: 2016 West Virginia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Wisconsin.xlsx
+    name: 2016 Wisconsin
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Wyoming.xlsx
+    name: 2016 Wyoming
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/PuertoRico.xlsx
+    name: 2016 Puerto Rico
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table01.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_1.xlsx
+    name: November 2016 All Races
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_2.xlsx
+    name: November 2016 White Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_3.xlsx
+    name: November 2016 White Non-Hispanic Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_4.xlsx
+    name: November 2016 Black Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_5.xlsx
+    name: November 2016 Asian Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_6.xlsx
+    name: November 2016 Hispanic
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_7.xlsx
+    name: November 2016 White Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_8.xlsx
+    name: November 2016 Black Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_9.xlsx
+    name: November 2016 Asian Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table03.xlsx
+    name: November 2016 Reported Voting and Registration, by Age, for the United States, Regions, and Divisions
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04a.xlsx
+    name: November 2016 Reported Voting and Registration, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04b.xlsx
+    name: November 2016 Reported Voting and Registration by Sex, Race and Hispanic Origin, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04c.xlsx
+    name: November 2016 Reported Voting and Registration by Age, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_1.xlsx
+    name: November 2016 18 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_2.xlsx
+    name: November 2016 18 to 24 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_3.xlsx
+    name: November 2016 25 to 44 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_4.xlsx
+    name: November 2016 45 to 64 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_5.xlsx
+    name: November 2016 65 to 74 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_6.xlsx
+    name: November 2016 75 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table06.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex, Employment Status, Class of Worker, and Disability Status
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table07.xlsx
+    name: November 2016 Reported Voting and Registration of Family Members, by Age and Family Income
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table08.xlsx
+    name: November 2016 Reported Voting and Registration, by Duration of Residence, and Tenure(All races)
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table09.xlsx
+    name: November 2016 Reported Voting and Registration, by Marital Status, Age, and Sex
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table10.xlsx
+    name: November 2016 Reasons for Not Voting, by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table11.xlsx
+    name: November 2016 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, Hispanic Origin, and Region of Birth
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table12.xlsx
+    name: November 2016 Method of Registration by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table13.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex, Veteran Status, and Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table01.xls
+    name: November 2014 Reported Voting and Registration, by Sex and Single Years of Age
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_1.xls
+    name: November 2014 All Races
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_2.xls
+    name: November 2014 White Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_3.xls
+    name: November 2014 White Non-Hispanic Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_4.xls
+    name: November 2014 Black Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_5.xls
+    name: November 2014 Asian Alone
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_6.xls
+    name: November 2014 Hispanic
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_7.xls
+    name: November 2014 White Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_8.xls
+    name: November 2014 Black Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_9.xls
+    name: November 2014 Asian Alone or in Combination
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table03.xls
+    name: November 2014 Reported Voting and Registration, by Age, for the United States, Regions, and Divisions
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04a.xls
+    name: November 2014 Reported Voting and Registration, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04b.xls
+    name: November 2014 Reported Voting and Registration by Sex, Race and Hispanic Origin, for States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04c.xls
+    name: November 2014 Reported Voting and Registration by Age, for States (Table revised October 2015)
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_1.xls
+    name: November 2014 18 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_2.xls
+    name: November 2014 18 to 24 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_3.xls
+    name: November 2014 25 to 44 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_4.xls
+    name: November 2014 45 to 64 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_5.xls
+    name: November 2014 65 to 74 years
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_6.xls
+    name: November 2014 75 years and over
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table06.xls
+    name: November 2014 Reported Voting and Registration, by Sex, Employment Status, Class of Worker, and Disability Status
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table07.xls
+    name: November 2014 Reported Voting and Registration of Family Members, by Age and Family Income
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table08.xls
+    name: November 2014 Reported Voting and Registration, by Duration of Residence, and Tenure(All races)
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table09.xls
+    name: November 2014 Reported Voting and Registration, by Marital Status, Age, and Sex
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table10.xls
+    name: November 2014 Reasons for Not Voting, by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table11.xls
+    name: November 2014 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, Hispanic Origin, and Region of Birth
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table12.xls
+    name: November 2014 Method of Registration by Selected Characteristics
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table13.xls
+    name: November 2014 Reported Voting and Registration, by Sex, Veteran Status, and Age
+    resource_type: Data File (Excel)

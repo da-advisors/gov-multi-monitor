@@ -1,0 +1,436 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: November 2020 [No text]
+    resource_type: Data File (Excel)
+    name: November 2020 Census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/partners
+    name: November 2020 Partners
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/research.html
+    name: November 2020 Researchers
+    resource_type: Data File (Excel)
+    name: November 2020 Research
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/schools
+    name: November 2020 Educators
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/surveyhelp
+    name: November 2020 Survey Respondents
+    resource_type: Data File (Excel)
+    name: November 2020 Survey Help
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom.html
+    name: November 2020 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/naics
+    name: November 2020 NAICS Codes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/careers
+    name: November 2020 Jobs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about-us
+    name: November 2020 About Us
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/contact-us.html
+    name: November 2020 Contact Us
+    resource_type: Data File (Excel)
+    name: November 2020 Contact
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/help
+    name: November 2020 Help
+    resource_type: Data File (Excel)
+    name: November 2020 Support
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics.html
+    name: November 2020 Topics
+    resource_type: Data File (Excel)
+    name: November 2020 View All Topics and Subtopics
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data
+    name: November 2020 Data & Maps
+    resource_type: Data File (Excel)
+    name: November 2020 View all data resources
+    resource_type: Data File (Excel)
+    name: November 2020 Data
+    resource_type: Data File (Excel)
+    name: November 2020 Within Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys.html
+    name: November 2020 Surveys & Programs
+    resource_type: Data File (Excel)
+    name: November 2020 View all Surveys & Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library.html
+    name: November 2020 Resource Library
+    resource_type: Data File (Excel)
+    name: November 2020 View all library resources
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: November 2020 QuickFacts U.S. Data Finder
+    resource_type: Data File (Excel)
+  - url: https://data.census.gov/advanced
+    name: November 2020 Advanced Data Search
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/idb
+    name: November 2020 International Database (IDB)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs
+    name: November 2020 American Community Survey (ACS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: November 2020 Census Records & Genealogy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/index.html
+    name: November 2020 Index A to Z
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: November 2020 Age and Sex
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/businessandeconomy
+    name: November 2020 Business and Economy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/education.html
+    name: November 2020 Education
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/disasters
+    name: November 2020 Emergency Management / Disasters
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/employment.html
+    name: November 2020 Employment
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/families.html
+    name: November 2020 Families and Living Arrangements
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geography
+    name: November 2020 Geography
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/health.html
+    name: November 2020 Health
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: November 2020 Hispanic Origin
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/housing.html
+    name: November 2020 Housing
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: November 2020 Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/international-trade.html
+    name: November 2020 International Trade
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/migration.html
+    name: November 2020 Migration/Geographic Mobility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population.html
+    name: November 2020 Population
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: November 2020 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/govs
+    name: November 2020 Public Sector
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/race.html
+    name: November 2020 Race
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: November 2020 Redistricting
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: November 2020 Voting and Registration
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: November 2020 Explore data on data.census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/academy
+    name: November 2020 Census Academy
+    resource_type: Data File (Excel)
+    name: November 2020 Training (Census Academy)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: November 2020 Combining Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools.html
+    name: November 2020 Data Tools and Apps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/datasets.html
+    name: November 2020 Datasets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/developers/
+    name: November 2020 Developers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: November 2020 Experimental Data Products
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/interactive-maps
+    name: November 2020 Interactive Maps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: November 2020 Mapping Files
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/profile.html
+    name: November 2020 Profiles
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/related-sites.html
+    name: November 2020 Related Sites
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/software.html
+    name: November 2020 Software
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables.html
+    name: November 2020 Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/training-workshops.html
+    name: November 2020 Training and Workshops
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/visualizations.html
+    name: November 2020 Visualizations
+    resource_type: Data File (Excel)
+    name: November 2020 Infographics and Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2020census
+    name: November 2020 2020 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2026test
+    name: November 2020 2026 Census Test
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2030census
+    name: November 2020 2030 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AHS
+    name: November 2020 American Housing Survey (AHS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/abs
+    name: November 2020 Annual Business Survey (ABS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/aies
+    name: November 2020 Annual Integrated Economic Survey (AIES)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: November 2020 County Business Patterns (CBP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: November 2020 Current Population Survey (CPS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/EconomicCensus
+    name: November 2020 Economic Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/householdpulse
+    name: November 2020 Household Pulse Survey
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/internationalprograms
+    name: November 2020 International Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: November 2020 Metro and Micro Areas
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/popest
+    name: November 2020 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: November 2020 Population Projections
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: November 2020 Small Area Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: November 2020 Statistics of U.S. Businesses
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/sipp/
+    name: November 2020 Survey of Income and Program Participation (SIPP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: November 2020 Glossary
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AmericaCounts
+    name: November 2020 America Counts: Stories
+    resource_type: Data File (Excel)
+    name: November 2020 America Counts
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/audio.html
+    name: November 2020 Audio
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: November 2020 Blogs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: November 2020 By the Numbers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: November 2020 Facts for Features
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: November 2020 Fact Sheets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/photos.html
+    name: November 2020 Photos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications.html
+    name: November 2020 Publications
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/spotlights.html
+    name: November 2020 Spotlights
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/stories.html
+    name: November 2020 Stats for Stories
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/video.html
+    name: November 2020 Videos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/working-papers.html
+    name: November 2020 Working Papers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/errata-notes.html
+    name: November 2020 Errata Notes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/news.html
+    name: November 2020 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/visualizations.html
+    name: November 2020 Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table01.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex and Single Years of Age: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_1.xlsx
+    name: November 2020 All Races [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_2.xlsx
+    name: November 2020 White Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_3.xlsx
+    name: November 2020 White Alone Not Hispanic 	 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_4.xlsx
+    name: November 2020 Black Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_5.xlsx
+    name: November 2020 Asian Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_6.xlsx
+    name: November 2020 Hispanic or Latino [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_7.xlsx
+    name: November 2020 White Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_8.xlsx
+    name: November 2020 Black Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table02_9.xlsx
+    name: November 2020 Asian Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table03.xlsx
+    name: November 2020 Reported Voting and Registration by Age, for the United States, Regions, and Divisions: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04a.xlsx
+    name: November 2020 Reported Voting and Registration for States: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04b.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex, Race and Hispanic Origin, for States: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table04c.xlsx
+    name: November 2020 Reported Voting and Registration, by Age, for States: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_1.xlsx
+    name: November 2020 18 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_2.xlsx
+    name: November 2020 18 to 24 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_3.xlsx
+    name: November 2020 25 to 44 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_4.xlsx
+    name: November 2020 45 to 64 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_5.xlsx
+    name: November 2020 65 to 74 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table05_6.xlsx
+    name: November 2020 75 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table06.xlsx
+    name: November 2020 Reported Voting and Registration by Sex, Employment Status, Class of Worker and Disability Status: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table07.xlsx
+    name: November 2020 Reported Voting and Registration of Family Members, by Age and Family Income: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table08.xlsx
+    name: November 2020 Reported Voting and Registration, by Duration of Residence, and Tenure: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table09.xlsx
+    name: November 2020 Reported Voting and Registration, by Marital Status, Age, and Sex: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table10.xlsx
+    name: November 2020 Reasons For Not Voting, By Selected Characteristics: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table11.xlsx
+    name: November 2020 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, and Region of Origin: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table12.xlsx
+    name: November 2020 Method of Registration, By Selected Characteristics: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table13.xlsx
+    name: November 2020 Reported Voting and Registration, by Sex, Veteran Status, and Age: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/585/table14.xlsx
+    name: November 2020 Method of Voting, By Selected Characteristics: November 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/2015/demo/geographic-mobility/cps-2015-5yr.html
+    name: November 2020 TableGeographical Mobility: 2010 to 2015November 2017This table package contains 5-year migration data by selected characteristics using 2015 CPS-ASEC data.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1959/demo/geographic-mobility/p20-104.html
+    name: November 2020 TableMobility of the Population of the U.S.: April 1958 to 1959September 30, 1960This page contains tables related to the mobility of the population of the U.S. during April 1958 to 1959.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1960/demo/geographic-mobility/p20-113.html
+    name: November 2020 TableMobility of the Population of the U.S.: March 1959 to 1960January 22, 1962This report analyzes migration in the U.S. between 1959 and 1960 using the Current Population Survey and provides detailed tables.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/time-series/demo/voting-and-registration/voting-historical-time-series.html
+    name: November 2020 [No text]
+    resource_type: Data File (Excel)
+    name: November 2020 Historical Reported Voting Rates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/directorsblog
+    name: November 2020 Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: November 2020 Deputy Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/randomsamplings
+    name: November 2020 Random Samplings
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/researchmatters
+    name: November 2020 Research Matters
+    resource_type: Data File (Excel)
+  - url: http://x.com/uscensusbureau/
+    name: November 2020 [No text]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/quality/
+    name: November 2020 Information Quality
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/datalinkage
+    name: November 2020 Data Linkage Infrastructure
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/privacy
+    name: November 2020 Data Protection and Privacy Policy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/section508
+    name: November 2020 Accessibility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/foia
+    name: November 2020 FOIA
+    resource_type: Data File (Excel)
+  - url: https://www.oig.doc.gov
+    name: November 2020 Inspector General
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: November 2020 No FEAR Act
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/
+    name: November 2020 U.S. Department of Commerce
+    resource_type: Data File (Excel)
+  - url: https://www.usa.gov/
+    name: November 2020 USA.gov
+    resource_type: Data File (Excel)
