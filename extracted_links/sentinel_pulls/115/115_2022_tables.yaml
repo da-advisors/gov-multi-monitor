@@ -1,0 +1,490 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: [No text]
+    resource_type: Data File (Excel)
+    name: Census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/partners
+    name: Partners
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/research.html
+    name: Researchers
+    resource_type: Data File (Excel)
+    name: Research
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/schools
+    name: Educators
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/surveyhelp
+    name: Survey Respondents
+    resource_type: Data File (Excel)
+    name: Survey Help
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom.html
+    name: News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/naics
+    name: NAICS Codes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/careers
+    name: Jobs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about-us
+    name: About Us
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/contact-us.html
+    name: Contact Us
+    resource_type: Data File (Excel)
+    name: Contact
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/help
+    name: Help
+    resource_type: Data File (Excel)
+    name: Support
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics.html
+    name: Topics
+    resource_type: Data File (Excel)
+    name: View All Topics and Subtopics
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data
+    name: Data & Maps
+    resource_type: Data File (Excel)
+    name: View all data resources
+    resource_type: Data File (Excel)
+    name: Data
+    resource_type: Data File (Excel)
+    name: Within Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys.html
+    name: Surveys & Programs
+    resource_type: Data File (Excel)
+    name: View all Surveys & Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library.html
+    name: Resource Library
+    resource_type: Data File (Excel)
+    name: View all library resources
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: QuickFacts U.S. Data Finder
+    resource_type: Data File (Excel)
+  - url: https://data.census.gov/advanced
+    name: Advanced Data Search
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/idb
+    name: International Database (IDB)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs
+    name: American Community Survey (ACS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: Census Records & Genealogy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/index.html
+    name: Index A to Z
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: Age and Sex
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/businessandeconomy
+    name: Business and Economy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/education.html
+    name: Education
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/disasters
+    name: Emergency Management / Disasters
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/employment.html
+    name: Employment
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/families.html
+    name: Families and Living Arrangements
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geography
+    name: Geography
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/health.html
+    name: Health
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: Hispanic Origin
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/housing.html
+    name: Housing
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/international-trade.html
+    name: International Trade
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/migration.html
+    name: Migration/Geographic Mobility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population.html
+    name: Population
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/govs
+    name: Public Sector
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/race.html
+    name: Race
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: Redistricting
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: Voting and Registration
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: Explore data on data.census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/academy
+    name: Census Academy
+    resource_type: Data File (Excel)
+    name: Training (Census Academy)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: Combining Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools.html
+    name: Data Tools and Apps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/datasets.html
+    name: Datasets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/developers/
+    name: Developers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: Experimental Data Products
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/interactive-maps
+    name: Interactive Maps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: Mapping Files
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/profile.html
+    name: Profiles
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/related-sites.html
+    name: Related Sites
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/software.html
+    name: Software
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables.html
+    name: Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/training-workshops.html
+    name: Training and Workshops
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/visualizations.html
+    name: Visualizations
+    resource_type: Data File (Excel)
+    name: Infographics and Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2020census
+    name: 2020 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2026test
+    name: 2026 Census Test
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2030census
+    name: 2030 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AHS
+    name: American Housing Survey (AHS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/abs
+    name: Annual Business Survey (ABS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/aies
+    name: Annual Integrated Economic Survey (AIES)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: County Business Patterns (CBP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: Current Population Survey (CPS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/EconomicCensus
+    name: Economic Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/householdpulse
+    name: Household Pulse Survey
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/internationalprograms
+    name: International Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: Metro and Micro Areas
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/popest
+    name: Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: Population Projections
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: Small Area Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: Statistics of U.S. Businesses
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/sipp/
+    name: Survey of Income and Program Participation (SIPP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: Glossary
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AmericaCounts
+    name: America Counts: Stories
+    resource_type: Data File (Excel)
+    name: America Counts
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/audio.html
+    name: Audio
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: Blogs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: By the Numbers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: Facts for Features
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: Fact Sheets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/photos.html
+    name: Photos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications.html
+    name: Publications
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/spotlights.html
+    name: Spotlights
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/stories.html
+    name: Stats for Stories
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/video.html
+    name: Videos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/working-papers.html
+    name: Working Papers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/errata-notes.html
+    name: Errata Notes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/news.html
+    name: News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/visualizations.html
+    name: Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote01_2022.xlsx
+    name: Reported Voting and Registration, by Sex and Single Years of Age: November 2022 [< 1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote01a_2022.xlsx
+    name: Margins of Error for Estimates of Voting and Registration, by Sex and Single Years of Age: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_1.xlsx
+    name: All Races [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_2.xlsx
+    name: White Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_3.xlsx
+    name: White Alone Not Hispanic 	 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_4.xlsx
+    name: Black Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_5.xlsx
+    name: Asian Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_6.xlsx
+    name: Hispanic or Latino [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_7.xlsx
+    name: White Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_8.xlsx
+    name: Black Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote02_2022_9.xlsx
+    name: Asian Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote03_2022.xlsx
+    name: Reported Voting and Registration by Age, for the United States, Regions, and Divisions: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04a_2022.xlsx
+    name: Reported Voting and Registration of the Total Voting-Age Population, for States: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04b_2022.xlsx
+    name: Reported Voting and Registration of the Total Voting-Age Population, by Sex, Race and Hispanic Origin, for States: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote04c_2022.xlsx
+    name: Reported Voting and Registration of the Total Voting-Age Population, by Age, for States: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_1.xlsx
+    name: 18 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_2.xlsx
+    name: 18 to 24 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_3.xlsx
+    name: 25 to 44 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_4.xlsx
+    name: 45 to 64 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_5.xlsx
+    name: 65 to 74 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote05_2022_6.xlsx
+    name: 75 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote06_2022.xlsx
+    name: Reported Voting and Registration by Sex, Employment Status, Class of Worker and Disability Status: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote07_2022.xlsx
+    name: Reported Voting and Registration of Family Members, by Age and Family Income: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote08_2022.xlsx
+    name: Reported Voting and Registration, by Duration of Residence, and Tenure: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote09_2022.xlsx
+    name: Reported Voting and Registration, by Marital Status, Age, and Sex: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote10_2022.xlsx
+    name: Reasons For Not Voting, By Selected Characteristics: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote11_2022.xlsx
+    name: Reported Voting and Registration Among Native and Naturalized Citizens, by Race, and Region of Origin: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote12_2022.xlsx
+    name: Method of Registration, By Selected Characteristics: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote13_2022.xlsx
+    name: Reported Voting and Registration, by Sex, Veteran Status, and Age: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/586/vote14_2022.xlsx
+    name: Method of Voting, By Selected Characteristics: November 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/2020/demo/fertility/women-fertility.html
+    name: TableFertility of Women in the United States: 2020February 16, 2023View and download Fertility tables from 2020.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1959/demo/geographic-mobility/p20-104.html
+    name: TableMobility of the Population of the U.S.: April 1958 to 1959September 30, 1960This page contains tables related to the mobility of the population of the U.S. during April 1958 to 1959.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1960/demo/geographic-mobility/p20-113.html
+    name: TableMobility of the Population of the U.S.: March 1959 to 1960January 22, 1962This report analyzes migration in the U.S. between 1959 and 1960 using the Current Population Survey and provides detailed tables.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/time-series/demo/voting-and-registration/voting-historical-time-series.html
+    name: [No text]
+    resource_type: Data File (Excel)
+    name: Historical Reported Voting Rates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/directorsblog
+    name: Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: Deputy Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/randomsamplings
+    name: Random Samplings
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/researchmatters
+    name: Research Matters
+    resource_type: Data File (Excel)
+  - url: http://x.com/uscensusbureau/
+    name: [No text]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/quality/
+    name: Information Quality
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/datalinkage
+    name: Data Linkage Infrastructure
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/privacy
+    name: Data Protection and Privacy Policy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/section508
+    name: Accessibility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/foia
+    name: FOIA
+    resource_type: Data File (Excel)
+  - url: https://www.oig.doc.gov
+    name: Inspector General
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: No FEAR Act
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/
+    name: U.S. Department of Commerce
+    resource_type: Data File (Excel)
+  - url: https://www.usa.gov/
+    name: USA.gov
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote01.xlsx
+    name: Table A-1.  Reported Voting and Registration by Race, Hispanic Origin, Sex and Age Groups: November 1964 to 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote02.xlsx
+    name: Table A-2. Reported Voting and Registration by Region, Educational Attainment and Labor Force Status for the Population 18 and Over: November 1964 to 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote03a.xlsx
+    name: Table A-3a.  Reported Voting for Total and Citizen Voting-Age Populations, by State for Congressional Elections:  1974 to 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote03b.xlsx
+    name: Table A-3b.  Reported Registration for Total and Citizen Voting-Age Populations, by State for Congressional Elections:  1974 to 2022 [<1.0]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote04.xlsx
+    name: Table A-4.  Reported Voting and Registration for Total and Citizen Voting-Age Population for Congressional Elections: 1978-2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a5a.xlsx
+    name: Table A-5a.  Reported Voting and Registration for Total and Citizen Voting-Age Population, by State for Presidential Elections:  1972-2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a5b.xlsx
+    name: Table A-5b.  Reported Voting and Registration for Total and Citizen Voting-Age Population, by State for Presidential Elections:  1972-2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a6.xlsx
+    name: Table A-6.  Reported Voting and Registration for Total and Citizen Voting-Age Population, By Race and Hispanic Origin: Presidential Elections 1980-2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote07.xlsx
+    name: Table A-7.  Reported Voting Rates in Congressional Election Years by Selected Characteristics:  November 1966 to 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/hst_vote08.xlsx
+    name: Table A-8.  Reported Registration Rates in Congressional Election Years by Selected Characteristics:  November 1966 to 2022 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a9.xlsx
+    name: Table A-9.  Reported Voting Rates of Total Voting-Age Population in Presidential Election Years, by Selected Characteristics:  November 1964 to 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/time-series/voting-historical-time-series/a10.xlsx
+    name: Table A-10.  Reported Registration Rates of Total Voting-Age Population in Presidential Election Years, by Selected Characteristics:  November 1968 to 2020 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/time-series/demo/voting-and-registration/p20-586.html
+    name: [No text]
+    resource_type: Data File (Excel)
+    name: Voting and Registration in the Election of November 2022
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting/data/tables.html
+    name: [No text]
+    resource_type: Data File (Excel)
+    name: Voting and Registration Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/visualizations/time-series/demo/voting-historical-time-series.html
+    name: [No text]
+    resource_type: Data File (Excel)
+    name: Historical Reported Voting Rates
+    resource_type: Data File (Excel)

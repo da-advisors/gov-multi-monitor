@@ -1,0 +1,609 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: November 2016 [No text]
+    resource_type: Data File (Excel)
+    name: November 2016 Census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/partners
+    name: November 2016 Partners
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/research.html
+    name: November 2016 Researchers
+    resource_type: Data File (Excel)
+    name: November 2016 Research
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/schools
+    name: November 2016 Educators
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/surveyhelp
+    name: November 2016 Survey Respondents
+    resource_type: Data File (Excel)
+    name: November 2016 Survey Help
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom.html
+    name: November 2016 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/naics
+    name: November 2016 NAICS Codes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/careers
+    name: November 2016 Jobs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about-us
+    name: November 2016 About Us
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/contact-us.html
+    name: November 2016 Contact Us
+    resource_type: Data File (Excel)
+    name: November 2016 Contact
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/help
+    name: November 2016 Help
+    resource_type: Data File (Excel)
+    name: November 2016 Support
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics.html
+    name: November 2016 Topics
+    resource_type: Data File (Excel)
+    name: November 2016 View All Topics and Subtopics
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data
+    name: November 2016 Data & Maps
+    resource_type: Data File (Excel)
+    name: November 2016 View all data resources
+    resource_type: Data File (Excel)
+    name: November 2016 Data
+    resource_type: Data File (Excel)
+    name: November 2016 Within Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys.html
+    name: November 2016 Surveys & Programs
+    resource_type: Data File (Excel)
+    name: November 2016 View all Surveys & Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library.html
+    name: November 2016 Resource Library
+    resource_type: Data File (Excel)
+    name: November 2016 View all library resources
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: November 2016 QuickFacts U.S. Data Finder
+    resource_type: Data File (Excel)
+  - url: https://data.census.gov/advanced
+    name: November 2016 Advanced Data Search
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/idb
+    name: November 2016 International Database (IDB)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs
+    name: November 2016 American Community Survey (ACS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: November 2016 Census Records & Genealogy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/index.html
+    name: November 2016 Index A to Z
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: November 2016 Age and Sex
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/businessandeconomy
+    name: November 2016 Business and Economy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/education.html
+    name: November 2016 Education
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/disasters
+    name: November 2016 Emergency Management / Disasters
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/employment.html
+    name: November 2016 Employment
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/families.html
+    name: November 2016 Families and Living Arrangements
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geography
+    name: November 2016 Geography
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/health.html
+    name: November 2016 Health
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: November 2016 Hispanic Origin
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/housing.html
+    name: November 2016 Housing
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: November 2016 Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/international-trade.html
+    name: November 2016 International Trade
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/migration.html
+    name: November 2016 Migration/Geographic Mobility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population.html
+    name: November 2016 Population
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: November 2016 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/govs
+    name: November 2016 Public Sector
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/race.html
+    name: November 2016 Race
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: November 2016 Redistricting
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: November 2016 Voting and Registration
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: November 2016 Explore data on data.census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/academy
+    name: November 2016 Census Academy
+    resource_type: Data File (Excel)
+    name: November 2016 Training (Census Academy)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: November 2016 Combining Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools.html
+    name: November 2016 Data Tools and Apps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/datasets.html
+    name: November 2016 Datasets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/developers/
+    name: November 2016 Developers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: November 2016 Experimental Data Products
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/interactive-maps
+    name: November 2016 Interactive Maps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: November 2016 Mapping Files
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/profile.html
+    name: November 2016 Profiles
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/related-sites.html
+    name: November 2016 Related Sites
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/software.html
+    name: November 2016 Software
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables.html
+    name: November 2016 Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/training-workshops.html
+    name: November 2016 Training and Workshops
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/visualizations.html
+    name: November 2016 Visualizations
+    resource_type: Data File (Excel)
+    name: November 2016 Infographics and Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2020census
+    name: November 2016 2020 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2026test
+    name: November 2016 2026 Census Test
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2030census
+    name: November 2016 2030 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AHS
+    name: November 2016 American Housing Survey (AHS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/abs
+    name: November 2016 Annual Business Survey (ABS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/aies
+    name: November 2016 Annual Integrated Economic Survey (AIES)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: November 2016 County Business Patterns (CBP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: November 2016 Current Population Survey (CPS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/EconomicCensus
+    name: November 2016 Economic Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/householdpulse
+    name: November 2016 Household Pulse Survey
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/internationalprograms
+    name: November 2016 International Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: November 2016 Metro and Micro Areas
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/popest
+    name: November 2016 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: November 2016 Population Projections
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: November 2016 Small Area Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: November 2016 Statistics of U.S. Businesses
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/sipp/
+    name: November 2016 Survey of Income and Program Participation (SIPP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: November 2016 Glossary
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AmericaCounts
+    name: November 2016 America Counts: Stories
+    resource_type: Data File (Excel)
+    name: November 2016 America Counts
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/audio.html
+    name: November 2016 Audio
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: November 2016 Blogs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: November 2016 By the Numbers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: November 2016 Facts for Features
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: November 2016 Fact Sheets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/photos.html
+    name: November 2016 Photos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications.html
+    name: November 2016 Publications
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/spotlights.html
+    name: November 2016 Spotlights
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/stories.html
+    name: November 2016 Stats for Stories
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/video.html
+    name: November 2016 Videos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/working-papers.html
+    name: November 2016 Working Papers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/errata-notes.html
+    name: November 2016 Errata Notes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/news.html
+    name: November 2016 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/visualizations.html
+    name: November 2016 Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs/
+    name: November 2016 //www.census.gov/programs-surveys/acs/
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html
+    name: November 2016 //www.census.gov/programs-surveys/acs/technical- documentation/code-lists.html
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/UnitedStates.xlsx
+    name: November 2016 United States
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Alabama.xlsx
+    name: November 2016 Alabama
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Alaska.xlsx
+    name: November 2016 Alaska
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Arizona.xlsx
+    name: November 2016 Arizona
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Arkansas.xlsx
+    name: November 2016 Arkansas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/California.xlsx
+    name: November 2016 California
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Colorado.xlsx
+    name: November 2016 Colorado
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Connecticut.xlsx
+    name: November 2016 Connecticut
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Delaware.xlsx
+    name: November 2016 Delaware
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/DistrictofColumbia.xlsx
+    name: November 2016 District of Columbia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Florida.xlsx
+    name: November 2016 Florida
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Georgia.xlsx
+    name: November 2016 Georgia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Hawaii.xlsx
+    name: November 2016 Hawaii
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Idaho.xlsx
+    name: November 2016 Idaho
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Illinois.xlsx
+    name: November 2016 Illinois
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Indiana.xlsx
+    name: November 2016 Indiana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Iowa.xlsx
+    name: November 2016 Iowa
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Kansas.xlsx
+    name: November 2016 Kansas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Kentucky.xlsx
+    name: November 2016 Kentucky
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Louisiana.xlsx
+    name: November 2016 Louisiana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Maine.xlsx
+    name: November 2016 Maine
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Maryland.xlsx
+    name: November 2016 Maryland
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Massachusetts.xlsx
+    name: November 2016 Massachusetts
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Michigan.xlsx
+    name: November 2016 Michigan
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Minnesota.xlsx
+    name: November 2016 Minnesota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Mississippi.xlsx
+    name: November 2016 Mississippi
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Missouri.xlsx
+    name: November 2016 Missouri
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Montana.xlsx
+    name: November 2016 Montana
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Nebraska.xlsx
+    name: November 2016 Nebraska
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Nevada.xlsx
+    name: November 2016 Nevada
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewHampshire.xlsx
+    name: November 2016 New Hampshire
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewJersey.xlsx
+    name: November 2016 New Jersey
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewMexico.xlsx
+    name: November 2016 New Mexico
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NewYork.xlsx
+    name: November 2016 New York
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NorthCarolina.xlsx
+    name: November 2016 North Carolina
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/NorthDakota.xlsx
+    name: November 2016 North Dakota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Ohio.xlsx
+    name: November 2016 Ohio
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Oklahoma.xlsx
+    name: November 2016 Oklahoma
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Oregon.xlsx
+    name: November 2016 Oregon
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Pennsylvania.xlsx
+    name: November 2016 Pennsylvania
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/RhodeIsland.xlsx
+    name: November 2016 Rhode Island
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/SouthCarolina.xlsx
+    name: November 2016 South Carolina
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/SouthDakota.xlsx
+    name: November 2016 South Dakota
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Tennessee.xlsx
+    name: November 2016 Tennessee
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Texas.xlsx
+    name: November 2016 Texas
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Utah.xlsx
+    name: November 2016 Utah
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Vermont.xlsx
+    name: November 2016 Vermont
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Virginia.xlsx
+    name: November 2016 Virginia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Washington.xlsx
+    name: November 2016 Washington
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/WestVirginia.xlsx
+    name: November 2016 West Virginia
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Wisconsin.xlsx
+    name: November 2016 Wisconsin
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/Wyoming.xlsx
+    name: November 2016 Wyoming
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/demo/tables/voting/PuertoRico.xlsx
+    name: November 2016 Puerto Rico
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting/data/tables.html
+    name: November 2016 [No text]
+    resource_type: Data File (Excel)
+    name: November 2016 Voting and Registration Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/directorsblog
+    name: November 2016 Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: November 2016 Deputy Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/randomsamplings
+    name: November 2016 Random Samplings
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/researchmatters
+    name: November 2016 Research Matters
+    resource_type: Data File (Excel)
+  - url: http://x.com/uscensusbureau/
+    name: November 2016 [No text]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/quality/
+    name: November 2016 Information Quality
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/datalinkage
+    name: November 2016 Data Linkage Infrastructure
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/privacy
+    name: November 2016 Data Protection and Privacy Policy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/section508
+    name: November 2016 Accessibility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/foia
+    name: November 2016 FOIA
+    resource_type: Data File (Excel)
+  - url: https://www.oig.doc.gov
+    name: November 2016 Inspector General
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: November 2016 No FEAR Act
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/
+    name: November 2016 U.S. Department of Commerce
+    resource_type: Data File (Excel)
+  - url: https://www.usa.gov/
+    name: November 2016 USA.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs/random-samplings/2017/05/voting_in_america.html
+    name: November 2016 Random Samplings BlogVoting in America:  A Look at the 2016 Presidential ElectionMay 10, 2017Since 1964, the U.S. Census Bureau has fielded the Voting and Registration Supplement to the Current Population Survey every two years. Today, the Census Bureau released a series of tabulations and data products alongside a public use data file for the November 2016 presidential election.
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table01.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex and Single Years of Age: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_1.xlsx
+    name: November 2016 All Races [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_2.xlsx
+    name: November 2016 White Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_3.xlsx
+    name: November 2016 White Non-Hispanic Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_4.xlsx
+    name: November 2016 Black Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_5.xlsx
+    name: November 2016 Asian Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_6.xlsx
+    name: November 2016 Hispanic [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_7.xlsx
+    name: November 2016 White Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_8.xlsx
+    name: November 2016 Black Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table02_9.xlsx
+    name: November 2016 Asian Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table03.xlsx
+    name: November 2016 Reported Voting and Registration, by Age, for the United States, Regions, and Divisions: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04a.xlsx
+    name: November 2016 Reported Voting and Registration, for States: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04b.xlsx
+    name: November 2016 Reported Voting and Registration by Sex, Race and Hispanic Origin, for States: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table04c.xlsx
+    name: November 2016 Reported Voting and Registration by Age, for States: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_1.xlsx
+    name: November 2016 18 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_2.xlsx
+    name: November 2016 18 to 24 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_3.xlsx
+    name: November 2016 25 to 44 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_4.xlsx
+    name: November 2016 45 to 64 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_5.xlsx
+    name: November 2016 65 to 74 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table05_6.xlsx
+    name: November 2016 75 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table06.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex, Employment Status, Class of Worker, and Disability Status: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table07.xlsx
+    name: November 2016 Reported Voting and Registration of Family Members, by Age and Family Income: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table08.xlsx
+    name: November 2016 Reported Voting and Registration, by Duration of Residence, and Tenure: November 2016 (All races) [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table09.xlsx
+    name: November 2016 Reported Voting and Registration, by Marital Status, Age, and Sex: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table10.xlsx
+    name: November 2016 Reasons for Not Voting, by Selected Characteristics: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table11.xlsx
+    name: November 2016 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, Hispanic Origin, and Region of Birth: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table12.xlsx
+    name: November 2016 Method of Registration by Selected Characteristics: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/580/table13.xlsx
+    name: November 2016 Reported Voting and Registration, by Sex, Veteran Status, and Age: November 2016 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cps/technical-documentation/complete.html
+    name: November 2016 Technical DocumentationComplete Technical DocumentationIn-depth documentation of the CPS and its supplements.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/2020/demo/fertility/women-fertility.html
+    name: November 2016 TableFertility of Women in the United States: 2020February 16, 2023View and download Fertility tables from 2020.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1959/demo/geographic-mobility/p20-104.html
+    name: November 2016 TableMobility of the Population of the U.S.: April 1958 to 1959September 30, 1960This page contains tables related to the mobility of the population of the U.S. during April 1958 to 1959.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1960/demo/geographic-mobility/p20-113.html
+    name: November 2016 TableMobility of the Population of the U.S.: March 1959 to 1960January 22, 1962This report analyzes migration in the U.S. between 1959 and 1960 using the Current Population Survey and provides detailed tables.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications/2018/demo/p20-582.html
+    name: November 2016 [No text]
+    resource_type: Data File (Excel)
+    name: November 2016 Characteristics of Voters in the Presidential Election of 2016
+    resource_type: Data File (Excel)

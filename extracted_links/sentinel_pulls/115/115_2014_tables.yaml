@@ -1,0 +1,438 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: November 2014 [No text]
+    resource_type: Data File (Excel)
+    name: November 2014 Census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/partners
+    name: November 2014 Partners
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/research.html
+    name: November 2014 Researchers
+    resource_type: Data File (Excel)
+    name: November 2014 Research
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/schools
+    name: November 2014 Educators
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/surveyhelp
+    name: November 2014 Survey Respondents
+    resource_type: Data File (Excel)
+    name: November 2014 Survey Help
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom.html
+    name: November 2014 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/naics
+    name: November 2014 NAICS Codes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/careers
+    name: November 2014 Jobs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about-us
+    name: November 2014 About Us
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/contact-us.html
+    name: November 2014 Contact Us
+    resource_type: Data File (Excel)
+    name: November 2014 Contact
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/help
+    name: November 2014 Help
+    resource_type: Data File (Excel)
+    name: November 2014 Support
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics.html
+    name: November 2014 Topics
+    resource_type: Data File (Excel)
+    name: November 2014 View All Topics and Subtopics
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data
+    name: November 2014 Data & Maps
+    resource_type: Data File (Excel)
+    name: November 2014 View all data resources
+    resource_type: Data File (Excel)
+    name: November 2014 Data
+    resource_type: Data File (Excel)
+    name: November 2014 Within Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys.html
+    name: November 2014 Surveys & Programs
+    resource_type: Data File (Excel)
+    name: November 2014 View all Surveys & Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library.html
+    name: November 2014 Resource Library
+    resource_type: Data File (Excel)
+    name: November 2014 View all library resources
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: November 2014 QuickFacts U.S. Data Finder
+    resource_type: Data File (Excel)
+  - url: https://data.census.gov/advanced
+    name: November 2014 Advanced Data Search
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/idb
+    name: November 2014 International Database (IDB)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/acs
+    name: November 2014 American Community Survey (ACS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: November 2014 Census Records & Genealogy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/index.html
+    name: November 2014 Index A to Z
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: November 2014 Age and Sex
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/businessandeconomy
+    name: November 2014 Business and Economy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/education.html
+    name: November 2014 Education
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/disasters
+    name: November 2014 Emergency Management / Disasters
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/employment.html
+    name: November 2014 Employment
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/families.html
+    name: November 2014 Families and Living Arrangements
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geography
+    name: November 2014 Geography
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/health.html
+    name: November 2014 Health
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: November 2014 Hispanic Origin
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/housing.html
+    name: November 2014 Housing
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: November 2014 Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/international-trade.html
+    name: November 2014 International Trade
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/migration.html
+    name: November 2014 Migration/Geographic Mobility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population.html
+    name: November 2014 Population
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: November 2014 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/govs
+    name: November 2014 Public Sector
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/population/race.html
+    name: November 2014 Race
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: November 2014 Redistricting
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: November 2014 Voting and Registration
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: November 2014 Explore data on data.census.gov
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/academy
+    name: November 2014 Census Academy
+    resource_type: Data File (Excel)
+    name: November 2014 Training (Census Academy)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: November 2014 Combining Data
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools.html
+    name: November 2014 Data Tools and Apps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/datasets.html
+    name: November 2014 Datasets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/developers/
+    name: November 2014 Developers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: November 2014 Experimental Data Products
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/interactive-maps
+    name: November 2014 Interactive Maps
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: November 2014 Mapping Files
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/profile.html
+    name: November 2014 Profiles
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/related-sites.html
+    name: November 2014 Related Sites
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/software.html
+    name: November 2014 Software
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables.html
+    name: November 2014 Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/training-workshops.html
+    name: November 2014 Training and Workshops
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/visualizations.html
+    name: November 2014 Visualizations
+    resource_type: Data File (Excel)
+    name: November 2014 Infographics and Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2020census
+    name: November 2014 2020 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2026test
+    name: November 2014 2026 Census Test
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/2030census
+    name: November 2014 2030 Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AHS
+    name: November 2014 American Housing Survey (AHS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/abs
+    name: November 2014 Annual Business Survey (ABS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/aies
+    name: November 2014 Annual Integrated Economic Survey (AIES)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: November 2014 County Business Patterns (CBP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: November 2014 Current Population Survey (CPS)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/EconomicCensus
+    name: November 2014 Economic Census
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/householdpulse
+    name: November 2014 Household Pulse Survey
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/internationalprograms
+    name: November 2014 International Programs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: November 2014 Metro and Micro Areas
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/popest
+    name: November 2014 Population Estimates
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: November 2014 Population Projections
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: November 2014 Small Area Income and Poverty
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: November 2014 Statistics of U.S. Businesses
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/sipp/
+    name: November 2014 Survey of Income and Program Participation (SIPP)
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: November 2014 Glossary
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/AmericaCounts
+    name: November 2014 America Counts: Stories
+    resource_type: Data File (Excel)
+    name: November 2014 America Counts
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/audio.html
+    name: November 2014 Audio
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: November 2014 Blogs
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: November 2014 By the Numbers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: November 2014 Facts for Features
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: November 2014 Fact Sheets
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/photos.html
+    name: November 2014 Photos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications.html
+    name: November 2014 Publications
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/spotlights.html
+    name: November 2014 Spotlights
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/stories.html
+    name: November 2014 Stats for Stories
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/video.html
+    name: November 2014 Videos
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/working-papers.html
+    name: November 2014 Working Papers
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/errata-notes.html
+    name: November 2014 Errata Notes
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/news.html
+    name: November 2014 News
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/visualizations.html
+    name: November 2014 Visualizations
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table01.xls
+    name: November 2014 Reported Voting and Registration, by Sex and Single Years of Age: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_1.xls
+    name: November 2014 All Races [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_2.xls
+    name: November 2014 White Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_3.xls
+    name: November 2014 White Non-Hispanic Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_4.xls
+    name: November 2014 Black Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_5.xls
+    name: November 2014 Asian Alone [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_6.xls
+    name: November 2014 Hispanic [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_7.xls
+    name: November 2014 White Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_8.xls
+    name: November 2014 Black Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table02_9.xls
+    name: November 2014 Asian Alone or in Combination [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table03.xls
+    name: November 2014 Reported Voting and Registration, by Age, for the United States, Regions, and Divisions: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04a.xls
+    name: November 2014 Reported Voting and Registration, for States: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04b.xls
+    name: November 2014 Reported Voting and Registration by Sex, Race and Hispanic Origin, for States: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table04c.xls
+    name: November 2014 Reported Voting and Registration by Age, for States: November 2014 (Table revised October 2015) [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_1.xls
+    name: November 2014 18 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_2.xls
+    name: November 2014 18 to 24 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_3.xls
+    name: November 2014 25 to 44 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_4.xls
+    name: November 2014 45 to 64 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_5.xls
+    name: November 2014 65 to 74 years [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table05_6.xls
+    name: November 2014 75 years and over [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table06.xls
+    name: November 2014 Reported Voting and Registration, by Sex, Employment Status, Class of Worker, and Disability Status: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table07.xls
+    name: November 2014 Reported Voting and Registration of Family Members, by Age and Family Income: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table08.xls
+    name: November 2014 Reported Voting and Registration, by Duration of Residence, and Tenure: November 2014 (All races) [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table09.xls
+    name: November 2014 Reported Voting and Registration, by Marital Status, Age, and Sex: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table10.xls
+    name: November 2014 Reasons for Not Voting, by Selected Characteristics: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table11.xls
+    name: November 2014 Reported Voting and Registration Among Native and Naturalized Citizens, by Race, Hispanic Origin, and Region of Birth: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table12.xls
+    name: November 2014 Method of Registration by Selected Characteristics: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www2.census.gov/programs-surveys/cps/tables/p20/577/table13.xls
+    name: November 2014 Reported Voting and Registration, by Sex, Veteran Status, and Age: November 2014 [<1.0 MB]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/2012/demo/voting-and-registration/p20-568.html
+    name: November 2014 TableVoting and Registration in the Election of November 2012May 2013The P20 reports and detailed tables are released every two years following national level elections.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1954/demo/geographic-mobility/p20-57.html
+    name: November 2014 TableMobility of the Population of the U.S. April 1953 to April 1954April 25, 1995This page contains tables related to the mobility of the population of the U.S. during April 1953 to 1955.
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/data/tables/1955/demo/geographic-mobility/p20-61.html
+    name: November 2014 TableMobility of the Population of the U.S.: April 1954 to April 1955October 28, 1955This page contains tables related to the mobility of the population of the U.S. during: April 1954 to 1955
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/topics/public-sector/voting/data/tables.html
+    name: November 2014 [No text]
+    resource_type: Data File (Excel)
+    name: November 2014 Voting and Registration Tables
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/library/publications/2015/demo/p20-577.html
+    name: November 2014 [No text]
+    resource_type: Data File (Excel)
+    name: November 2014 Congressional Elections and the American Electorate: 1978–2014
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/directorsblog
+    name: November 2014 Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: November 2014 Deputy Director’s Blog
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/randomsamplings
+    name: November 2014 Random Samplings
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/researchmatters
+    name: November 2014 Research Matters
+    resource_type: Data File (Excel)
+  - url: http://x.com/uscensusbureau/
+    name: November 2014 [No text]
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/quality/
+    name: November 2014 Information Quality
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/datalinkage
+    name: November 2014 Data Linkage Infrastructure
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/privacy
+    name: November 2014 Data Protection and Privacy Policy
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/section508
+    name: November 2014 Accessibility
+    resource_type: Data File (Excel)
+  - url: https://www.census.gov/foia
+    name: November 2014 FOIA
+    resource_type: Data File (Excel)
+  - url: https://www.oig.doc.gov
+    name: November 2014 Inspector General
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: November 2014 No FEAR Act
+    resource_type: Data File (Excel)
+  - url: https://www.commerce.gov/
+    name: November 2014 U.S. Department of Commerce
+    resource_type: Data File (Excel)
+  - url: https://www.usa.gov/
+    name: November 2014 USA.gov
+    resource_type: Data File (Excel)
