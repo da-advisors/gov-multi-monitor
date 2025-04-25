@@ -1,5 +1,6 @@
 url: https://www.census.gov/topics/public-sector/voting.html
 name: Voting and Registration
+description: The U.S. Census Bureau conducts the Current Population Survey’s (CPS) November Voting and Registration Supplement following each national election to ask eligible respondents about their voting and registration behavior.
 omb_control_number: 0607-0466
 tags:
   - Elections or Voting
