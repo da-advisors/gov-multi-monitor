@@ -15,70 +15,70 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/understanding-results/
     name: Understanding Results
     resource_type: Supporting Documentation Page
-  - url: opm.gov/fevs/public-data-file/2023/FEVS2023_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2023/FEVS2023_PRDF_CSV.zip
     name: 2023 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2022/FEVS2022_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2022/FEVS2022_PRDF_CSV.zip
     name: 2022 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2021/FEVS2021_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2021/FEVS2021_PRDF_CSV.zip
     name: 2021 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2020/FEVS2020_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2020/FEVS2020_PRDF_CSV.zip
     name: 2020 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2019/FEVS2019_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2019/FEVS2019_PRDF_CSV.zip
     name: 2019 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2018/FEVS2018_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2018/FEVS2018_PRDF_CSV.zip
     name: 2018 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2017/FEVS2017_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2017/FEVS2017_PRDF_CSV.zip
     name: 2017 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2016/FEVS2016_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2016/FEVS2016_PRDF_CSV.zip
     name: 2016 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_CSV.zip
     name: 2015 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_LGBT_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_LGBT_CSV.zip
     name: 2015 LGBT Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_trend_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2015/FEVS2015_PRDF_trend_CSV.zip
     name: 2015 Trend Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_CSV.zip
     name: 2014 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_LGBT_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_LGBT_CSV.zip
     name: 2014 LGBT Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_trend_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2014/FEVS2014_PRDF_trend_CSV.zip
     name: 2014 Trend Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2013/FEVS2013_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2013/FEVS2013_PRDF_CSV.zip
     name: 2013 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2013/FEVS2013_PRDF_LGBT_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2013/FEVS2013_PRDF_LGBT_CSV.zip
     name: 2013 LGBT Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2012/FEVS2012_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2012/FEVS2012_PRDF_CSV.zip
     name: 2012 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2012/FEVS2012_PRDF_LGBT_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2012/FEVS2012_PRDF_LGBT_CSV.zip
     name: 2012 LGBT Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2011/FEVS2011_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2011/FEVS2011_PRDF_CSV.zip
     name: 2011 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2010/FEVS2010_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2010/FEVS2010_PRDF_CSV.zip
     name: 2010 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2008/FEVS2008_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2008/FEVS2008_PRDF_CSV.zip
     name: 2008 Basic Public Release Data File
     resource_type: Data File (Other)
-  - url: opm.gov/fevs/public-data-file/2006/FEVS2006_PRDF_CSV.zip
+  - url: https://www.opm.gov/fevs/public-data-file/2006/FEVS2006_PRDF_CSV.zip
     name: 2006 Basic Public Release Data File
     resource_type: Data File (Other)
   - url: https://www.opm.gov/fevs/reports/data-reports
