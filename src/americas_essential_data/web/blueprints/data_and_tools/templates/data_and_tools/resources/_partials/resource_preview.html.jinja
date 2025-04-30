@@ -19,6 +19,12 @@
         <th class="resource-preview__field-header">Created at</th>
         <td>{{ resource.created_at }}</td>
       </tr>
+      {% if resource.latest_status %}
+        <tr>
+          <th class="resource-preview__field-header">Latest status</th>
+          <td>{{ resource.latest_status }}, checked at {{ resource.latest_status_timestamp }}</td>
+        </tr>
+      {% endif %}
     </tbody>
   </table>
 </article>
