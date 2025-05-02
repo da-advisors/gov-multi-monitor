@@ -288,3 +288,198 @@ linked_urls:
   - url: https://www.census.gov/content/dam/Census/programs-surveys/ahs/tech-documentation/2015/spanish_fr_booklet.pdf
     name: 2015 AHS Spanish Language Items Booklet [<1.0 MB]
     resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2023National.pdf
+    name: AHS Mini Codebook 2023 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2023Metro.pdf
+    name: AHS Mini Codebook 2023 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2021National.pdf
+    name: AHS Mini Codebook 2021 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2021Metro.pdf
+    name: AHS Mini Codebook 2021 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2019National.pdf
+    name: AHS Mini Codebook 2019 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2019Metro.pdf
+    name: AHS Mini Codebook 2019 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2017National.pdf
+    name: AHS Mini Codebook 2017 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2017Metro.pdf
+    name: AHS Mini Codebook 2017 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2015National.pdf
+    name: AHS Mini Codebook 2015 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2015Metro.pdf
+    name: AHS Mini Codebook 2015 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2013National.pdf
+    name: AHS Mini Codebook 2013 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2013Metro.pdf
+    name: AHS Mini Codebook 2013 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2011National.pdf
+    name: AHS Mini Codebook 2011 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2011Metro.pdf
+    name: AHS Mini Codebook 2011 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2009National.pdf
+    name: AHS Mini Codebook 2009 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2009Metro.pdf
+    name: AHS Mini Codebook 2009 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2007National.pdf
+    name: AHS Mini Codebook 2007 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2007Metro.pdf
+    name: AHS Mini Codebook 2007 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2005National.pdf
+    name: AHS Mini Codebook 2005 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2004Metro.pdf
+    name: AHS Mini Codebook 2004 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2003National.pdf
+    name: AHS Mini Codebook 2003 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2002Metro.pdf
+    name: AHS Mini Codebook 2002 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2001National.pdf
+    name: AHS Mini Codebook 2001 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1999National.pdf
+    name: AHS Mini Codebook 1999 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1998Metro.pdf
+    name: AHS Mini Codebook 1998 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1997National.pdf
+    name: AHS Mini Codebook 1997 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1996Metro.pdf
+    name: AHS Mini Codebook 1996 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1995National.pdf
+    name: AHS Mini Codebook 1995 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1995Metro.pdf
+    name: AHS Mini Codebook 1995 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1994Metro.pdf
+    name: AHS Mini Codebook 1994 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1993National.pdf
+    name: AHS Mini Codebook 1993 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1993Metro.pdf
+    name: AHS Mini Codebook 1993 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1992Metro.pdf
+    name: AHS Mini Codebook 1992 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1991National.pdf
+    name: AHS Mini Codebook 1991 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1991Metro.pdf
+    name: AHS Mini Codebook 1991 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1990Metro.pdf
+    name: AHS Mini Codebook 1990 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1989National.pdf
+    name: AHS Mini Codebook 1989 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1989Metro.pdf
+    name: AHS Mini Codebook 1989 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1988Metro.pdf
+    name: AHS Mini Codebook 1988 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1987National.pdf
+    name: AHS Mini Codebook 1987 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1987Metro.pdf
+    name: AHS Mini Codebook 1987 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1986Metro.pdf
+    name: AHS Mini Codebook 1986 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1985National.pdf
+    name: AHS Mini Codebook 1985 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1985Metro.pdf
+    name: AHS Mini Codebook 1985 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1984Metro.pdf
+    name: AHS Mini Codebook 1984 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1983National.pdf
+    name: AHS Mini Codebook 1983 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1983Metro.pdf
+    name: AHS Mini Codebook 1983 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1982Metro.pdf
+    name: AHS Mini Codebook 1982 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1981National.pdf
+    name: AHS Mini Codebook 1981 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1981Metro.pdf
+    name: AHS Mini Codebook 1981 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1980National.pdf
+    name: AHS Mini Codebook 1980 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1980Metro.pdf
+    name: AHS Mini Codebook 1980 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1979National.pdf
+    name: AHS Mini Codebook 1979 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1979Metro.pdf
+    name: AHS Mini Codebook 1979 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1978National.pdf
+    name: AHS Mini Codebook 1978 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1978Metro.pdf
+    name: AHS Mini Codebook 1978 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1977National.pdf
+    name: AHS Mini Codebook 1977 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1977Metro.pdf
+    name: AHS Mini Codebook 1977 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1976National.pdf
+    name: AHS Mini Codebook 1976 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1976Metro.pdf
+    name: AHS Mini Codebook 1976 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1975National.pdf
+    name: AHS Mini Codebook 1975 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1975Metro.pdf
+    name: AHS Mini Codebook 1975 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1974National.pdf
+    name: AHS Mini Codebook 1974 National Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1974Metro.pdf
+    name: AHS Mini Codebook 1974 Metro Variables
+    resource_type: Supporting Documentation Page
+  - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_1973National.pdf
+    name: AHS Mini Codebook 1973 National Variables
+    resource_type: Supporting Documentation Page
