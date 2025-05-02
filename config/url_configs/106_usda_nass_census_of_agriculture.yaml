@@ -16,6 +16,9 @@ linked_urls:
   - url: https://quickstats.nass.usda.gov/api
     name: Quick Stats API
     resource_type: API Endpoint
+  - url: https://agcensus.library.cornell.edu/
+    name: Census of Agriculture Archive
+    resource_type: Data Repository or Listings page
   - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_US/usv1.txt
     name: 2022 U.S. Summary and State Data (txt)
     resource_type: Data File (Other)
@@ -31,3 +34,72 @@ linked_urls:
   - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/v1index.pdf
     name: 2022 Index
     resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_State_Level/
+    name: 2022 State-Level Data
+    resource_type: Data Repository or Listings page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_2_County_Level/
+    name: 2022 County-Level Data
+    resource_type: Data Repository or Listings page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Outlying_Areas/Puerto_Rico/prv1.pdf
+    name: 2022 Puerto Rico Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Outlying_Areas/guam.pdf
+    name: 2022 Guam Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Outlying_Areas/usvi.pdf
+    name: 2022 U.S. Virgin Islands Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Outlying_Areas/AmericanSamoa.pdf
+    name: 2022 American Samoa Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Outlying_Areas/cnmi.pdf
+    name: 2022 Northern Mariana Islands Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Congressional_District_Profiles/cdp.csv
+    name: 2022 Congressional Districts Data
+    resource_type: Data File (CSV)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2022/Online_Resources/Demographic_Profiles/cpd99000.pdf
+    name: 2022 Demographic Profile
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_US/usv1.txt
+    name: 2017 U.S. Summary and State Data (txt)
+    resource_type: Data File (Other)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_US/usv1.pdf
+    name: 2017 U.S. Summary and State Data (pdf)
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_US/usappxa.pdf
+    name: 2017 Appendix A - Census of Agriculture Methodology
+    resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_US/usappxb.pdf
+    name: 2017 Appendix B - General Explanation and Report Form
+    resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/v1index.pdf
+    name: 2017 Index
+    resource_type: Supporting Documentation Page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_1_State_Level/
+    name: 2017 State-Level Data
+    resource_type: Data Repository or Listings page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Volume_1,_Chapter_2_County_Level/
+    name: 2017 County-Level Data
+    resource_type: Data Repository or Listings page
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Outlying_Areas/Puerto_Rico/prv1.pdf
+    name: 2017 Puerto Rico Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Outlying_Areas/guam.pdf
+    name: 2017 Guam Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Outlying_Areas/usvi.pdf
+    name: 2017 U.S. Virgin Islands Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Outlying_Areas/AmericanSamoa.pdf
+    name: 2017 American Samoa Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Full_Report/Outlying_Areas/cnmi.pdf
+    name: 2017 Northern Mariana Islands Data
+    resource_type: Data File (PDF)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Congressional_District_Profiles/cdp.csv
+    name: 2017 Congressional Districts Data
+    resource_type: Data File (CSV)
+  - url: https://www.nass.usda.gov/Publications/AgCensus/2017/Online_Resources/Demographic_Profiles/cpd99000.pdf
+    name: 2017 Demographic Profile
+    resource_type: Data File (PDF)
