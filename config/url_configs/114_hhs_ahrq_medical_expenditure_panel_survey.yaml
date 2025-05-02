@@ -42,3 +42,1302 @@ linked_urls:
   - url: https://www.meps.ahrq.gov/mepsweb/data_stats/onsite_datacenter.jsp
     name: Restricted Data Files Available through the AHRQ Data Center
     resource_type: Supporting Documentation Page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID_matrix.xlsx
+    name: Public Use Files (xlsx matrix)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID.xlsx
+    name: Public Use Files (xlsx list)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID.csv
+    name: Public Use Files (csv list)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239B
+    name: Event File - Dental Visits (2022 HC-239B)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239E
+    name: Event File - Emergency Room Visits (2022 HC-239E)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239H
+    name: Event File - Home Health (2022 HC-239H)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239D
+    name: Event File - Hospital Inpatient Stays (2022 HC-239D)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239G
+    name: Event File - Office-Based Medical Provider Visits (2022 HC-239G)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239C
+    name: Event File - Other Medical Expenses (2022 HC-239C)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239F
+    name: Event File - Outpatient Visits (2022 HC-239F)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239A
+    name: Event File - Prescribed Medicines (2022 HC-239A)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-240
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2022 HC-240)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-243
+    name: Full-Year Consolidated File (2022 HC-243)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-237
+    name: Jobs File (2022 HC-237)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239I
+    name: Linkage Condition-Event Link (2022 HC-239I)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-241
+    name: Medical Conditions (2022 HC-241)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-242
+    name: Person Round Plan (2022 HC-242)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229B
+    name: Event File - Dental Visits (2021 HC-229B)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229E
+    name: Event File - Emergency Room Visits (2021 HC-229E)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229H
+    name: Event File - Home Health (2021 HC-229H)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229D
+    name: Event File - Hospital Inpatient Stays (2021 HC-229D)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229G
+    name: Event File - Office-Based Medical Provider Visits (2021 HC-229G)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229C
+    name: Event File - Other Medical Expenses (2021 HC-229C)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229F
+    name: Event File - Outpatient Visits (2021 HC-229F)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229A
+    name: Event File - Prescribed Medicines (2021 HC-229A)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-230
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2021 HC-230)
+    resource_type: Data Repository or Listings page
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-233
+    name: Full-Year Consolidated File (2021 HC-233)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-227
+    name: Jobs File (2021 HC-227)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229I
+    name: Linkage Condition-Event Link (2021 HC-229I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-231
+    name: Medical Conditions (2021 HC-231)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-232
+    name: Person Round Plan (2021 HC-232)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220B
+    name: Event File - Dental Visits (2020 HC-220B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220E
+    name: Event File - Emergency Room Visits (2020 HC-220E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220H
+    name: Event File - Home Health (2020 HC-220H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220D
+    name: Event File - Hospital Inpatient Stays (2020 HC-220D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220G
+    name: Event File - Office-Based Medical Provider Visits (2020 HC-220G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220C
+    name: Event File - Other Medical Expenses (2020 HC-220C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220F
+    name: Event File - Outpatient Visits (2020 HC-220F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220A
+    name: Event File - Prescribed Medicines (2020 HC-220A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-221
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2020 HC-221)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-224
+    name: Full-Year Consolidated File (2020 HC-224)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-218
+    name: Jobs File (2020 HC-218)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220I
+    name: Linkage Condition-Event Link (2020 HC-220I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-220I
+    name: Linkage RX-Event Link (2020 HC-220I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-222
+    name: Medical Conditions (2020 HC-222)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-223
+    name: Person Round Plan (2020 HC-223)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213B
+    name: Event File - Dental Visits (2019 HC-213B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213E
+    name: Event File - Emergency Room Visits (2019 HC-213E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213H
+    name: Event File - Home Health (2019 HC-213H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213D
+    name: Event File - Hospital Inpatient Stays (2019 HC-213D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213G
+    name: Event File - Office-Based Medical Provider Visits (2019 HC-213G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213C
+    name: Event File - Other Medical Expenses (2019 HC-213C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213F
+    name: Event File - Outpatient Visits (2019 HC-213F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213A
+    name: Event File - Prescribed Medicines (2019 HC-213A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-216
+    name: Full-Year Consolidated File (2019 HC-216)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-211
+    name: Jobs File (2019 HC-211)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213I
+    name: Linkage Condition-Event Link (2019 HC-213I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-213I
+    name: Linkage RX-Event Link (2019 HC-213I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-214
+    name: Medical Conditions (2019 HC-214)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-215
+    name: Person Round Plan (2019 HC-215)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-205
+    name: Point-In-Time (1996-2019) (2019 HC-205)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206B
+    name: Event File - Dental Visits (2018 HC-206B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206E
+    name: Event File - Emergency Room Visits (2018 HC-206E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206H
+    name: Event File - Home Health (2018 HC-206H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206D
+    name: Event File - Hospital Inpatient Stays (2018 HC-206D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206G
+    name: Event File - Office-Based Medical Provider Visits (2018 HC-206G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206C
+    name: Event File - Other Medical Expenses (2018 HC-206C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206F
+    name: Event File - Outpatient Visits (2018 HC-206F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206A
+    name: Event File - Prescribed Medicines (2018 HC-206A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-209
+    name: Full-Year Consolidated File (2018 HC-209)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-203
+    name: Jobs File (2018 HC-203)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206I
+    name: Linkage Condition-Event Link (2018 HC-206I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-206I
+    name: Linkage RX-Event Link (2018 HC-206I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-207
+    name: Medical Conditions (2018 HC-207)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-208
+    name: Person Round Plan (2018 HC-208)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-196
+    name: Point-In-Time (1996-2019) (2018 HC-196)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197B
+    name: Event File - Dental Visits (2017 HC-197B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197E
+    name: Event File - Emergency Room Visits (2017 HC-197E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197H
+    name: Event File - Home Health (2017 HC-197H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197D
+    name: Event File - Hospital Inpatient Stays (2017 HC-197D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197G
+    name: Event File - Office-Based Medical Provider Visits (2017 HC-197G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197C
+    name: Event File - Other Medical Expenses (2017 HC-197C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197F
+    name: Event File - Outpatient Visits (2017 HC-197F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197A
+    name: Event File - Prescribed Medicines (2017 HC-197A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-198
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2017 HC-198)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-201
+    name: Full-Year Consolidated File (2017 HC-201)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-195
+    name: Jobs File (2017 HC-195)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197I
+    name: Linkage Condition-Event Link (2017 HC-197I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-197I
+    name: Linkage RX-Event Link (2017 HC-197I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-199
+    name: Medical Conditions (2017 HC-199)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-200
+    name: Person Round Plan (2017 HC-200)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-186
+    name: Point-In-Time (1996-2019) (2017 HC-186)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188B
+    name: Event File - Dental Visits (2016 HC-188B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188E
+    name: Event File - Emergency Room Visits (2016 HC-188E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188H
+    name: Event File - Home Health (2016 HC-188H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188D
+    name: Event File - Hospital Inpatient Stays (2016 HC-188D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188G
+    name: Event File - Office-Based Medical Provider Visits (2016 HC-188G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188C
+    name: Event File - Other Medical Expenses (2016 HC-188C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188F
+    name: Event File - Outpatient Visits (2016 HC-188F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188A
+    name: Event File - Prescribed Medicines (2016 HC-188A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-189
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2016 HC-189)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-192
+    name: Full-Year Consolidated File (2016 HC-192)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-185
+    name: Jobs File (2016 HC-185)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188I
+    name: Linkage Condition-Event Link (2016 HC-188I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-188I
+    name: Linkage RX-Event Link (2016 HC-188I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-190
+    name: Medical Conditions (2016 HC-190)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-187
+    name: Medical Organizations Survey (2015-2016) (2016 HC-187)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-191
+    name: Person Round Plan (2016 HC-191)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-177
+    name: Point-In-Time (1996-2019) (2016 HC-177)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178B
+    name: Event File - Dental Visits (2015 HC-178B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178E
+    name: Event File - Emergency Room Visits (2015 HC-178E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178H
+    name: Event File - Home Health (2015 HC-178H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178D
+    name: Event File - Hospital Inpatient Stays (2015 HC-178D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178G
+    name: Event File - Office-Based Medical Provider Visits (2015 HC-178G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178C
+    name: Event File - Other Medical Expenses (2015 HC-178C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178F
+    name: Event File - Outpatient Visits (2015 HC-178F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178A
+    name: Event File - Prescribed Medicines (2015 HC-178A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-181
+    name: Full-Year Consolidated File (2015 HC-181)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-176
+    name: Jobs File (2015 HC-176)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178I
+    name: Linkage Condition-Event Link (2015 HC-178I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-178I
+    name: Linkage RX-Event Link (2015 HC-178I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-180
+    name: Medical Conditions (2015 HC-180)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-182
+    name: Medical Organizations Survey (2015-2016) (2015 HC-182)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-179
+    name: Person Round Plan (2015 HC-179)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-167
+    name: Point-In-Time (1996-2019) (2015 HC-167)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168B
+    name: Event File - Dental Visits (2014 HC-168B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168E
+    name: Event File - Emergency Room Visits (2014 HC-168E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168H
+    name: Event File - Home Health (2014 HC-168H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168D
+    name: Event File - Hospital Inpatient Stays (2014 HC-168D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168G
+    name: Event File - Office-Based Medical Provider Visits (2014 HC-168G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168C
+    name: Event File - Other Medical Expenses (2014 HC-168C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168F
+    name: Event File - Outpatient Visits (2014 HC-168F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168A
+    name: Event File - Prescribed Medicines (2014 HC-168A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-171
+    name: Full-Year Consolidated File (2014 HC-171)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-166
+    name: Jobs File (2014 HC-166)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168I
+    name: Linkage Condition-Event Link (2014 HC-168I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-168I
+    name: Linkage RX-Event Link (2014 HC-168I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-170
+    name: Medical Conditions (2014 HC-170)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-169
+    name: Person Round Plan (2014 HC-169)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-159
+    name: Point-In-Time (1996-2019) (2014 HC-159)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-173
+    name: Preventive Self-Administered Questionnaire (2014) (2014 HC-173)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160B
+    name: Event File - Dental Visits (2013 HC-160B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160E
+    name: Event File - Emergency Room Visits (2013 HC-160E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160H
+    name: Event File - Home Health (2013 HC-160H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160D
+    name: Event File - Hospital Inpatient Stays (2013 HC-160D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160G
+    name: Event File - Office-Based Medical Provider Visits (2013 HC-160G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160C
+    name: Event File - Other Medical Expenses (2013 HC-160C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160F
+    name: Event File - Outpatient Visits (2013 HC-160F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160A
+    name: Event File - Prescribed Medicines (2013 HC-160A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-163
+    name: Full-Year Consolidated File (2013 HC-163)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-158
+    name: Jobs File (2013 HC-158)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160I
+    name: Linkage Condition-Event Link (2013 HC-160I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-160I
+    name: Linkage RX-Event Link (2013 HC-160I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-162
+    name: Medical Conditions (2013 HC-162)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-161
+    name: Person Round Plan (2013 HC-161)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-151
+    name: Point-In-Time (1996-2019) (2013 HC-151)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2013 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152B
+    name: Event File - Dental Visits (2012 HC-152B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152E
+    name: Event File - Emergency Room Visits (2012 HC-152E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152H
+    name: Event File - Home Health (2012 HC-152H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152D
+    name: Event File - Hospital Inpatient Stays (2012 HC-152D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152G
+    name: Event File - Office-Based Medical Provider Visits (2012 HC-152G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152C
+    name: Event File - Other Medical Expenses (2012 HC-152C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152F
+    name: Event File - Outpatient Visits (2012 HC-152F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152A
+    name: Event File - Prescribed Medicines (2012 HC-152A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-155
+    name: Full-Year Consolidated File (2012 HC-155)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-150
+    name: Jobs File (2012 HC-150)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152I
+    name: Linkage Condition-Event Link (2012 HC-152I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-152I
+    name: Linkage RX-Event Link (2012 HC-152I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-154
+    name: Medical Conditions (2012 HC-154)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-153
+    name: Person Round Plan (2012 HC-153)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-143
+    name: Point-In-Time (1996-2019) (2012 HC-143)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2012 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144B
+    name: Event File - Dental Visits (2011 HC-144B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144E
+    name: Event File - Emergency Room Visits (2011 HC-144E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144H
+    name: Event File - Home Health (2011 HC-144H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144D
+    name: Event File - Hospital Inpatient Stays (2011 HC-144D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144G
+    name: Event File - Office-Based Medical Provider Visits (2011 HC-144G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144C
+    name: Event File - Other Medical Expenses (2011 HC-144C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144F
+    name: Event File - Outpatient Visits (2011 HC-144F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144A
+    name: Event File - Prescribed Medicines (2011 HC-144A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-147
+    name: Full-Year Consolidated File (2011 HC-147)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-142
+    name: Jobs File (2011 HC-142)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144I
+    name: Linkage Condition-Event Link (2011 HC-144I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-144I
+    name: Linkage RX-Event Link (2011 HC-144I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-146
+    name: Medical Conditions (2011 HC-146)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-145
+    name: Person Round Plan (2011 HC-145)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-134
+    name: Point-In-Time (1996-2019) (2011 HC-134)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2011 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135B
+    name: Event File - Dental Visits (2010 HC-135B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135E
+    name: Event File - Emergency Room Visits (2010 HC-135E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135H
+    name: Event File - Home Health (2010 HC-135H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135D
+    name: Event File - Hospital Inpatient Stays (2010 HC-135D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135G
+    name: Event File - Office-Based Medical Provider Visits (2010 HC-135G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135C
+    name: Event File - Other Medical Expenses (2010 HC-135C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135F
+    name: Event File - Outpatient Visits (2010 HC-135F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135A
+    name: Event File - Prescribed Medicines (2010 HC-135A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-138
+    name: Full-Year Consolidated File (2010 HC-138)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-133
+    name: Jobs File (2010 HC-133)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135I
+    name: Linkage Condition-Event Link (2010 HC-135I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-135I
+    name: Linkage RX-Event Link (2010 HC-135I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-137
+    name: Medical Conditions (2010 HC-137)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-136
+    name: Person Round Plan (2010 HC-136)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-125
+    name: Point-In-Time (1996-2019) (2010 HC-125)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2010 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126B
+    name: Event File - Dental Visits (2009 HC-126B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126E
+    name: Event File - Emergency Room Visits (2009 HC-126E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126H
+    name: Event File - Home Health (2009 HC-126H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126D
+    name: Event File - Hospital Inpatient Stays (2009 HC-126D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126G
+    name: Event File - Office-Based Medical Provider Visits (2009 HC-126G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126C
+    name: Event File - Other Medical Expenses (2009 HC-126C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126F
+    name: Event File - Outpatient Visits (2009 HC-126F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126A
+    name: Event File - Prescribed Medicines (2009 HC-126A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-129
+    name: Full-Year Consolidated File (2009 HC-129)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-124
+    name: Jobs File (2009 HC-124)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126I
+    name: Linkage Condition-Event Link (2009 HC-126I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-126I
+    name: Linkage RX-Event Link (2009 HC-126I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-128
+    name: Medical Conditions (2009 HC-128)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-127
+    name: Person Round Plan (2009 HC-127)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-117
+    name: Point-In-Time (1996-2019) (2009 HC-117)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2009 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118B
+    name: Event File - Dental Visits (2008 HC-118B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118E
+    name: Event File - Emergency Room Visits (2008 HC-118E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118H
+    name: Event File - Home Health (2008 HC-118H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118D
+    name: Event File - Hospital Inpatient Stays (2008 HC-118D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118G
+    name: Event File - Office-Based Medical Provider Visits (2008 HC-118G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118C
+    name: Event File - Other Medical Expenses (2008 HC-118C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118F
+    name: Event File - Outpatient Visits (2008 HC-118F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118A
+    name: Event File - Prescribed Medicines (2008 HC-118A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-121
+    name: Full-Year Consolidated File (2008 HC-121)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-116
+    name: Jobs File (2008 HC-116)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118I
+    name: Linkage Condition-Event Link (2008 HC-118I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-118I
+    name: Linkage RX-Event Link (2008 HC-118I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-120
+    name: Medical Conditions (2008 HC-120)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-119
+    name: Person Round Plan (2008 HC-119)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-109
+    name: Point-In-Time (1996-2019) (2008 HC-109)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2008 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110B
+    name: Event File - Dental Visits (2007 HC-110B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110E
+    name: Event File - Emergency Room Visits (2007 HC-110E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110H
+    name: Event File - Home Health (2007 HC-110H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110D
+    name: Event File - Hospital Inpatient Stays (2007 HC-110D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110G
+    name: Event File - Office-Based Medical Provider Visits (2007 HC-110G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110C
+    name: Event File - Other Medical Expenses (2007 HC-110C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110F
+    name: Event File - Outpatient Visits (2007 HC-110F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110A
+    name: Event File - Prescribed Medicines (2007 HC-110A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-113
+    name: Full-Year Consolidated File (2007 HC-113)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-108
+    name: Jobs File (2007 HC-108)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110I
+    name: Linkage Condition-Event Link (2007 HC-110I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-110I
+    name: Linkage RX-Event Link (2007 HC-110I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-112
+    name: Medical Conditions (2007 HC-112)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-111
+    name: Person Round Plan (2007 HC-111)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-101
+    name: Point-In-Time (1996-2019) (2007 HC-101)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2007 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102B
+    name: Event File - Dental Visits (2006 HC-102B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102E
+    name: Event File - Emergency Room Visits (2006 HC-102E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102H
+    name: Event File - Home Health (2006 HC-102H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102D
+    name: Event File - Hospital Inpatient Stays (2006 HC-102D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102G
+    name: Event File - Office-Based Medical Provider Visits (2006 HC-102G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102C
+    name: Event File - Other Medical Expenses (2006 HC-102C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102F
+    name: Event File - Outpatient Visits (2006 HC-102F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102A
+    name: Event File - Prescribed Medicines (2006 HC-102A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-105
+    name: Full-Year Consolidated File (2006 HC-105)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-100
+    name: Jobs File (2006 HC-100)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102I
+    name: Linkage Condition-Event Link (2006 HC-102I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-102I
+    name: Linkage RX-Event Link (2006 HC-102I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-104
+    name: Medical Conditions (2006 HC-104)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-103
+    name: Person Round Plan (2006 HC-103)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-093
+    name: Point-In-Time (1996-2019) (2006 HC-093)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2006 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094B
+    name: Event File - Dental Visits (2005 HC-094B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094E
+    name: Event File - Emergency Room Visits (2005 HC-094E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094H
+    name: Event File - Home Health (2005 HC-094H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094D
+    name: Event File - Hospital Inpatient Stays (2005 HC-094D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094G
+    name: Event File - Office-Based Medical Provider Visits (2005 HC-094G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094C
+    name: Event File - Other Medical Expenses (2005 HC-094C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094F
+    name: Event File - Outpatient Visits (2005 HC-094F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094A
+    name: Event File - Prescribed Medicines (2005 HC-094A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-097
+    name: Full-Year Consolidated File (2005 HC-097)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-091
+    name: Jobs File (2005 HC-091)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094I
+    name: Linkage Condition-Event Link (2005 HC-094I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-094I
+    name: Linkage RX-Event Link (2005 HC-094I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-096
+    name: Medical Conditions (2005 HC-096)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-095
+    name: Person Round Plan (2005 HC-095)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-084
+    name: Point-In-Time (1996-2019) (2005 HC-084)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2005 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085B
+    name: Event File - Dental Visits (2004 HC-085B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085E
+    name: Event File - Emergency Room Visits (2004 HC-085E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085H
+    name: Event File - Home Health (2004 HC-085H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085D
+    name: Event File - Hospital Inpatient Stays (2004 HC-085D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085G
+    name: Event File - Office-Based Medical Provider Visits (2004 HC-085G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085C
+    name: Event File - Other Medical Expenses (2004 HC-085C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085F
+    name: Event File - Outpatient Visits (2004 HC-085F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085A
+    name: Event File - Prescribed Medicines (2004 HC-085A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-089
+    name: Full-Year Consolidated File (2004 HC-089)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-083
+    name: Jobs File (2004 HC-083)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085I
+    name: Linkage Condition-Event Link (2004 HC-085I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-085I
+    name: Linkage RX-Event Link (2004 HC-085I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-087
+    name: Medical Conditions (2004 HC-087)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-088
+    name: Person Round Plan (2004 HC-088)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-075
+    name: Point-In-Time (1996-2019) (2004 HC-075)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2004 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077B
+    name: Event File - Dental Visits (2003 HC-077B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077E
+    name: Event File - Emergency Room Visits (2003 HC-077E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077H
+    name: Event File - Home Health (2003 HC-077H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077D
+    name: Event File - Hospital Inpatient Stays (2003 HC-077D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077G
+    name: Event File - Office-Based Medical Provider Visits (2003 HC-077G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077C
+    name: Event File - Other Medical Expenses (2003 HC-077C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077F
+    name: Event File - Outpatient Visits (2003 HC-077F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077A
+    name: Event File - Prescribed Medicines (2003 HC-077A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-079
+    name: Full-Year Consolidated File (2003 HC-079)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-074
+    name: Jobs File (2003 HC-074)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077I
+    name: Linkage Condition-Event Link (2003 HC-077I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-077I
+    name: Linkage RX-Event Link (2003 HC-077I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-078
+    name: Medical Conditions (2003 HC-078)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-076
+    name: Person Round Plan (2003 HC-076)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-064
+    name: Point-In-Time (1996-2019) (2003 HC-064)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2003 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067B
+    name: Event File - Dental Visits (2002 HC-067B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067E
+    name: Event File - Emergency Room Visits (2002 HC-067E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067H
+    name: Event File - Home Health (2002 HC-067H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067D
+    name: Event File - Hospital Inpatient Stays (2002 HC-067D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067G
+    name: Event File - Office-Based Medical Provider Visits (2002 HC-067G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067C
+    name: Event File - Other Medical Expenses (2002 HC-067C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067F
+    name: Event File - Outpatient Visits (2002 HC-067F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067A
+    name: Event File - Prescribed Medicines (2002 HC-067A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-070
+    name: Full-Year Consolidated File (2002 HC-070)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-063
+    name: Jobs File (2002 HC-063)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067I
+    name: Linkage Condition-Event Link (2002 HC-067I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-067I
+    name: Linkage RX-Event Link (2002 HC-067I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-069
+    name: Medical Conditions (2002 HC-069)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-066
+    name: Person Round Plan (2002 HC-066)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-053
+    name: Point-In-Time (1996-2019) (2002 HC-053)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2002 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059B
+    name: Event File - Dental Visits (2001 HC-059B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059E
+    name: Event File - Emergency Room Visits (2001 HC-059E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059H
+    name: Event File - Home Health (2001 HC-059H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059D
+    name: Event File - Hospital Inpatient Stays (2001 HC-059D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059G
+    name: Event File - Office-Based Medical Provider Visits (2001 HC-059G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059C
+    name: Event File - Other Medical Expenses (2001 HC-059C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059F
+    name: Event File - Outpatient Visits (2001 HC-059F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059A
+    name: Event File - Prescribed Medicines (2001 HC-059A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-060
+    name: Full-Year Consolidated File (2001 HC-060)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-056
+    name: Jobs File (2001 HC-056)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059I
+    name: Linkage Condition-Event Link (2001 HC-059I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-059I
+    name: Linkage RX-Event Link (2001 HC-059I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-061
+    name: Medical Conditions (2001 HC-061)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-057
+    name: Person Round Plan (2001 HC-057)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-034
+    name: Point-In-Time (1996-2019) (2001 HC-034)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2001 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051B
+    name: Event File - Dental Visits (2000 HC-051B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051E
+    name: Event File - Emergency Room Visits (2000 HC-051E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051H
+    name: Event File - Home Health (2000 HC-051H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051D
+    name: Event File - Hospital Inpatient Stays (2000 HC-051D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051G
+    name: Event File - Office-Based Medical Provider Visits (2000 HC-051G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051C
+    name: Event File - Other Medical Expenses (2000 HC-051C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051F
+    name: Event File - Outpatient Visits (2000 HC-051F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051A
+    name: Event File - Prescribed Medicines (2000 HC-051A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-050
+    name: Full-Year Consolidated File (2000 HC-050)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-040
+    name: Jobs File (2000 HC-040)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051I
+    name: Linkage Condition-Event Link (2000 HC-051I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-051I
+    name: Linkage RX-Event Link (2000 HC-051I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-052
+    name: Medical Conditions (2000 HC-052)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-047
+    name: Person Round Plan (2000 HC-047)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-022
+    name: Point-In-Time (1996-2019) (2000 HC-022)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (2000 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033B
+    name: Event File - Dental Visits (1999 HC-033B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033E
+    name: Event File - Emergency Room Visits (1999 HC-033E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033H
+    name: Event File - Home Health (1999 HC-033H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033D
+    name: Event File - Hospital Inpatient Stays (1999 HC-033D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033G
+    name: Event File - Office-Based Medical Provider Visits (1999 HC-033G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033C
+    name: Event File - Other Medical Expenses (1999 HC-033C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033F
+    name: Event File - Outpatient Visits (1999 HC-033F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033A
+    name: Event File - Prescribed Medicines (1999 HC-033A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-038
+    name: Full-Year Consolidated File (1999 HC-038)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-032
+    name: Jobs File (1999 HC-032)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033I
+    name: Linkage Condition-Event Link (1999 HC-033I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-033I
+    name: Linkage RX-Event Link (1999 HC-033I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-037
+    name: Medical Conditions (1999 HC-037)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-047
+    name: Person Round Plan (1999 HC-047)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-013
+    name: Point-In-Time (1996-2019) (1999 HC-013)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-044
+    name: Supplemental - FYC Variables (1996-1999) (1999 HC-044)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (1999 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026B
+    name: Event File - Dental Visits (1998 HC-026B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026E
+    name: Event File - Emergency Room Visits (1998 HC-026E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026H
+    name: Event File - Home Health (1998 HC-026H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026D
+    name: Event File - Hospital Inpatient Stays (1998 HC-026D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026G
+    name: Event File - Office-Based Medical Provider Visits (1998 HC-026G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026C
+    name: Event File - Other Medical Expenses (1998 HC-026C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026F
+    name: Event File - Outpatient Visits (1998 HC-026F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026A
+    name: Event File - Prescribed Medicines (1998 HC-026A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-028
+    name: Full-Year Consolidated File (1998 HC-028)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-025
+    name: Jobs File (1998 HC-025)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026I
+    name: Linkage Condition-Event Link (1998 HC-026I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-026I
+    name: Linkage RX-Event Link (1998 HC-026I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-027
+    name: Medical Conditions (1998 HC-027)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-047
+    name: Person Round Plan (1998 HC-047)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-009
+    name: Point-In-Time (1996-2019) (1998 HC-009)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-043
+    name: Supplemental - FYC Variables (1996-1999) (1998 HC-043)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (1998 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016B
+    name: Event File - Dental Visits (1997 HC-016B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016E
+    name: Event File - Emergency Room Visits (1997 HC-016E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016H
+    name: Event File - Home Health (1997 HC-016H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016D
+    name: Event File - Hospital Inpatient Stays (1997 HC-016D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016G
+    name: Event File - Office-Based Medical Provider Visits (1997 HC-016G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016C
+    name: Event File - Other Medical Expenses (1997 HC-016C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016F
+    name: Event File - Outpatient Visits (1997 HC-016F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016A
+    name: Event File - Prescribed Medicines (1997 HC-016A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-020
+    name: Full-Year Consolidated File (1997 HC-020)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-019
+    name: Jobs File (1997 HC-019)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016I
+    name: Linkage Condition-Event Link (1997 HC-016I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-016I
+    name: Linkage RX-Event Link (1997 HC-016I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-018
+    name: Medical Conditions (1997 HC-018)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-047
+    name: Person Round Plan (1997 HC-047)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-005
+    name: Point-In-Time (1996-2019) (1997 HC-005)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-042
+    name: Supplemental - FYC Variables (1996-1999) (1997 HC-042)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (1997 HC-068)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010B
+    name: Event File - Dental Visits (1996 HC-010B)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010E
+    name: Event File - Emergency Room Visits (1996 HC-010E)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010H
+    name: Event File - Home Health (1996 HC-010H)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010D
+    name: Event File - Hospital Inpatient Stays (1996 HC-010D)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010G
+    name: Event File - Office-Based Medical Provider Visits (1996 HC-010G)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010C
+    name: Event File - Other Medical Expenses (1996 HC-010C)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010F
+    name: Event File - Outpatient Visits (1996 HC-010F)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010A
+    name: Event File - Prescribed Medicines (1996 HC-010A)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-012
+    name: Full-Year Consolidated File (1996 HC-012)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-007
+    name: Jobs File (1996 HC-007)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010I
+    name: Linkage Condition-Event Link (1996 HC-010I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-010I
+    name: Linkage RX-Event Link (1996 HC-010I)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-006R
+    name: Medical Conditions (1996 HC-006R)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-024
+    name: Person Round Plan (1996 HC-024)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-001
+    name: Point-In-Time (1996-2019) (1996 HC-001)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-041
+    name: Supplemental - FYC Variables (1996-1999) (1996 HC-041)
+    resource_type: Data Repository or Listings page
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-068
+    name: Supplemental - Multum Lexicon Addendum to PMED Event Files (1996-2013) (1996 HC-068)
+    resource_type: Data Repository or Listings page
