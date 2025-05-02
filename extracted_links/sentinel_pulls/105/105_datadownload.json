@@ -1,0 +1,279 @@
+[
+  {
+    "source_url": "https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx",
+    "timestamp": "Fri, 02 May 2025 10:46:38 GMT",
+    "num_links": 54,
+    "links": [
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/auth/GDGHome_Login.aspx?rtn=GDGHome",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/auth/GDGHome_Logout.aspx?rtn=GDGHome",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_CheckOrder.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_StatusMaps.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_News.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_DataPolicyAbstract.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_FAQ.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_Help.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome_Contact.aspx",
+        "text": "[No text]",
+        "title": ""
+      },
+      {
+        "url": "https://datagateway.nrcs.usda.gov/GDGHome.aspx",
+        "text": "Home",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.box.com/s/urcawz4cmwmk43wksalkn68jsyj4oj9g",
+        "text": "state postal code",
+        "title": ""
+      },
+      {
+        "url": "https://www.census.gov/library/reference/code-lists/ansi.html#cou",
+        "text": "county FIPS",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/Gateway/file/233114244545",
+        "text": "1 degree blocks",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.box.com/v/naip",
+        "text": "National Ag. Imagery Program County Mosaic",
+        "title": ""
+      },
+      {
+        "url": "https://www.fsa.usda.gov/Assets/USDA-FSA-Public/usdafiles/APFO/status-maps/pdfs/NAIP_Coverage_2018.pdf",
+        "text": "NAIP Coverage",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/36737227068",
+        "text": "NAIP Seamlines",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/36248804882",
+        "text": "Naipseamlines & MDOQAPFO",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.box.com/v/soils",
+        "text": "Soil Geographic Databases",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/elevation",
+        "text": "1 and 2 Meter LiDAR Bare Earth and Hillshade",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/elevation",
+        "text": "Alaska IFSAR (Interferometric Synthetic Aperture Radar)",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/elevation/file/233114244545",
+        "text": "1 Degree Blocks",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/217838085465",
+        "text": "Federal, State, Tribal, etc. Protected Areas Land Ownership",
+        "title": ""
+      },
+      {
+        "url": "https://www.usgs.gov/core-science-systems/ngp/national-hydrography/",
+        "text": "National Hydrography Dataset",
+        "title": ""
+      },
+      {
+        "url": "https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/",
+        "text": "Direct NHD Download",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.box.com/v/huc",
+        "text": "Watershed Boundary Dataset and Lines for HUC2-12",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/18295535273",
+        "text": "Digital Raster Graphic County Mosaic by NRCS",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/274740491673",
+        "text": "Public Land Survey System (PLSS) Townships and Sections by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/193682379243",
+        "text": "1991-2020 Monthly and Annual Average Precipitation and Temperature Rasters by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/209093436354",
+        "text": "1991-2020 Monthly and Annual Average Precipitation Vectors and Minimum and Maximum Temperature Vectors",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22218793639",
+        "text": "1981-2010 Monthly Average Precipitation and Temperature by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22218786527",
+        "text": "1961-1990 Monthly Average Precipitation by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22222129604",
+        "text": "1971-2000 Monthly Average Precipitation and Temperature by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22222601427",
+        "text": "National Land Cover Dataset by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22218925171",
+        "text": "Cropland Data Layer by State",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21997633520",
+        "text": "Digital Ortho County Mosaic of 7.5' quads by NRCS",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21919864878",
+        "text": "ErMapper Ortho Mosaic by NRCS",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/22487667381",
+        "text": "DOQ Multi-County Mosaic by NRCS",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21943779736",
+        "text": "Digital Ortho Quad County Mosaic-Natural Color",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21928123333",
+        "text": "Digital Ortho Quad County Mosaic-Color Infrared",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21919635648",
+        "text": "Digital Ortho HiRes Mosaic-Natural Color - Most Recent",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/21913204928",
+        "text": "Digital Ortho HiRes Mosaic-Color Infrared - Most Recent",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.box.com/v/gateway/folder/22451256226",
+        "text": "US\u00a0Pacific Basin including Hawaii imagery",
+        "title": ""
+      },
+      {
+        "url": "https://nrcs.app.box.com/v/gateway/folder/223269937366",
+        "text": "Puerto Rico and US Virgin Islands",
+        "title": ""
+      },
+      {
+        "url": "https://www.nrcs.usda.gov/",
+        "text": "NRCS|",
+        "title": ""
+      },
+      {
+        "url": "https://www.usda.gov/",
+        "text": "USDA |",
+        "title": ""
+      },
+      {
+        "url": "https://www.usda.gov/ogc/office-information-affairs/foia-division",
+        "text": "FOIA |",
+        "title": ""
+      },
+      {
+        "url": "https://www.nrcs.usda.gov/wps/portal/nrcs/detailfull/national/about/?cid=nrcsdev11_000886",
+        "text": "Accessibility Statement |",
+        "title": ""
+      },
+      {
+        "url": "https://www.usda.gov/privacy-policy",
+        "text": "Privacy Policy |",
+        "title": ""
+      },
+      {
+        "url": "https://www.usda.gov/non-discrimination-statement",
+        "text": "Non-Discrimination Statement |",
+        "title": ""
+      },
+      {
+        "url": "https://www.usda.gov/ocio/guidelines-and-compliance-resources/information-quality-activities",
+        "text": "Info Quality |",
+        "title": ""
+      },
+      {
+        "url": "https://www.firstgov.gov/",
+        "text": "USA.gov |",
+        "title": ""
+      },
+      {
+        "url": "https://www.whitehouse.gov/",
+        "text": "White House",
+        "title": ""
+      }
+    ]
+  }
+]

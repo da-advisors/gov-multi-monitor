@@ -7,3 +7,111 @@ tags:
 linked_urls:
   - url: https://datagateway.nrcs.usda.gov/GDGHome_DirectDownLoad.aspx
     name: Direct Data and NAIP Download
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/13527468681
+    name: Data Gateway
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/naip
+    name: National Agriculture Imagery Program County Mosaic Data
+    resource_type: Data Repository or Listings page
+  - url: https://www.fpacbc.usda.gov/geospatial-services/customer-services/naip-coverage-map
+    name: National Agriculture Imagery Program Coverage Map Data
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/36737227068
+    name: National Agriculture Imagery Program Seamlines Data
+    resource_type: Data Repository or Listings page
+
+
+  - url: https://nrcs.app.box.com/v/gateway/folder/36248804882
+    name: Naipseamlines & MDOQAPFO
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.box.com/v/soils
+    name: Soil Geographic Databases
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/elevation
+    name: 1 and 2 Meter LiDAR Bare Earth and Hillshade
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/elevation
+    name: Alaska IFSAR (Interferometric Synthetic Aperture Radar)
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/elevation/file/233114244545
+    name: 1 Degree Blocks
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/217838085465
+    name: Federal, State, Tribal, etc. Protected Areas Land Ownership
+    resource_type: Data Repository or Listings page
+  - url: https://prd-tnm.s3.amazonaws.com/index.html?prefix=StagedProducts/Hydrography/
+    name: Direct National Hydrography Dataset Download
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.box.com/v/huc
+    name: Watershed Boundary Dataset and Lines for HUC2-12
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/18295535273
+    name: Digital Raster Graphic County Mosaic by NRCS
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/274740491673
+    name: Public Land Survey System (PLSS) Townships and Sections by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/193682379243
+    name: 1991-2020 Monthly and Annual Average Precipitation and Temperature Rasters by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/209093436354
+    name: 1991-2020 Monthly and Annual Average Precipitation Vectors and Minimum and Maximum Temperature Vectors
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22218793639
+    name: 1981-2010 Monthly Average Precipitation and Temperature by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22218786527
+    name: 1961-1990 Monthly Average Precipitation by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22222129604
+    name: 1971-2000 Monthly Average Precipitation and Temperature by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22222601427
+    name: National Land Cover Dataset by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22218925171
+    name: Cropland Data Layer by State
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21997633520
+    name: Digital Ortho County Mosaic of 7.5' quads by NRCS
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21919864878
+    name: ErMapper Ortho Mosaic by NRCS
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/22487667381
+    name: DOQ Multi-County Mosaic by NRCS
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21943779736
+    name: Digital Ortho Quad County Mosaic-Natural Color
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21928123333
+    name: Digital Ortho Quad County Mosaic-Color Infrared
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21919635648
+    name: Digital Ortho HiRes Mosaic-Natural Color - Most Recent
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/21913204928
+    name: Digital Ortho HiRes Mosaic-Color Infrared - Most Recent
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.box.com/v/gateway/folder/22451256226
+    name: USPacific Basin including Hawaii imagery
+    resource_type: Data Repository or Listings page
+  - url: https://nrcs.app.box.com/v/gateway/folder/223269937366
+    name: Puerto Rico and US Virgin Islands
+    resource_type: Data Repository or Listings page
+  - url: https://datagateway.nrcs.usda.gov/GDGOrder.aspx
+    name: Order Data by County/Countries
+    resource_type: Supporting Documentation Page
+  - url: https://datagateway.nrcs.usda.gov/GDGOrder.aspx?order=QuickState
+    name: Order Data by State
+    resource_type: Supporting Documentation Page
+  - url: https://datagateway.nrcs.usda.gov/GDGOrder.aspx?order=GazOrder
+    name: Order Data by Place
+    resource_type: Supporting Documentation Page
+  - url: https://datagateway.nrcs.usda.gov/GDGOrder.aspx?order=MBROrder
+    name: Order Data by Bounding Rectangle
+    resource_type: Supporting Documentation Page
+  - url: https://datagateway.nrcs.usda.gov/GDGOrder.aspx?order=iMapOrder
+    name: Order Data by Interactive Map
+    resource_type: Supporting Documentation Page
