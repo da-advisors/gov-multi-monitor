@@ -1,0 +1,532 @@
+linked_urls:
+  - url: https://www.census.gov/en.html
+    name: [No text]
+    resource_type: 
+    name: Census.gov
+    resource_type: 
+  - url: https://www.census.gov/partners.html
+    name: Partners
+    resource_type: 
+  - url: https://www.census.gov/topics/research.html
+    name: Researchers
+    resource_type: 
+    name: Research
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/sis.html
+    name: Educators
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/surveyhelp.html
+    name: Survey Respondents
+    resource_type: 
+    name: Survey Help
+    resource_type: 
+  - url: https://www.census.gov/newsroom.html
+    name: News
+    resource_type: 
+  - url: https://www.census.gov/library/reference/code-lists/naics.html
+    name: NAICS Codes
+    resource_type: 
+  - url: https://www.census.gov/about/census-careers.html
+    name: Jobs
+    resource_type: 
+  - url: https://www.census.gov/about.html
+    name: About Us
+    resource_type: 
+  - url: https://www.census.gov/about/contact-us.html
+    name: Contact Us
+    resource_type: 
+    name: Contact
+    resource_type: 
+  - url: https://www.census.gov/about/faqs.html
+    name: Help
+    resource_type: 
+    name: Support
+    resource_type: 
+  - url: https://www.census.gov/topics.html
+    name: Topics
+    resource_type: 
+    name: View All Topics and Subtopics
+    resource_type: 
+  - url: https://www.census.gov/data.html
+    name: Data & Maps
+    resource_type: 
+    name: View all data resources
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys.html
+    name: Surveys & Programs
+    resource_type: 
+    name: View all Surveys & Programs
+    resource_type: 
+    name: Our Surveys & Programs
+    resource_type: 
+  - url: https://www.census.gov/library.html
+    name: Resource Library
+    resource_type: 
+    name: View all library resources
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/quickfacts.html
+    name: QuickFacts U.S. Data Finder
+    resource_type: 
+  - url: https://data.census.gov/advanced
+    name: Advanced Data Search
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/idb.html
+    name: International Database (IDB)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs.html
+    name: American Community Survey (ACS)
+    resource_type: 
+  - url: https://www.census.gov/about/history/census-records-family-history.html
+    name: Census Records & Genealogy
+    resource_type: 
+  - url: https://www.census.gov/about/index.html
+    name: Index A to Z
+    resource_type: 
+  - url: https://www.census.gov/topics/population/age-and-sex.html
+    name: Age and Sex
+    resource_type: 
+  - url: https://www.census.gov/topics/business-economy.html
+    name: Business and Economy
+    resource_type: 
+  - url: https://www.census.gov/topics/education.html
+    name: Education
+    resource_type: 
+  - url: https://www.census.gov/topics/preparedness.html
+    name: Emergency Management / Disasters
+    resource_type: 
+  - url: https://www.census.gov/topics/employment.html
+    name: Employment
+    resource_type: 
+  - url: https://www.census.gov/topics/families.html
+    name: Families and Living Arrangements
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/geography.html
+    name: Geography
+    resource_type: 
+  - url: https://www.census.gov/topics/health.html
+    name: Health
+    resource_type: 
+  - url: https://www.census.gov/topics/population/hispanic-origin.html
+    name: Hispanic Origin
+    resource_type: 
+  - url: https://www.census.gov/topics/housing.html
+    name: Housing
+    resource_type: 
+  - url: https://www.census.gov/topics/income-poverty.html
+    name: Income and Poverty
+    resource_type: 
+  - url: https://www.census.gov/topics/international-trade.html
+    name: International Trade
+    resource_type: 
+  - url: https://www.census.gov/topics/population/migration.html
+    name: Migration/Geographic Mobility
+    resource_type: 
+  - url: https://www.census.gov/topics/population.html
+    name: Population
+    resource_type: 
+  - url: https://www.census.gov/topics/population/population-estimates.html
+    name: Population Estimates
+    resource_type: 
+  - url: https://www.census.gov/topics/public-sector.html
+    name: Public Sector
+    resource_type: 
+  - url: https://www.census.gov/topics/population/race.html
+    name: Race
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/decennial-census/about/rdo/summary-files.html
+    name: Redistricting
+    resource_type: 
+  - url: https://www.census.gov/topics/public-sector/voting.html
+    name: Voting and Registration
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/data-cedsci.html
+    name: Explore data on data.census.gov
+    resource_type: 
+  - url: https://www.census.gov/data/academy.html
+    name: Census Academy
+    resource_type: 
+    name: Training (Census Academy)
+    resource_type: 
+  - url: https://www.census.gov/about/what/admin-data.html
+    name: Combining Data
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools.html
+    name: Data Tools and Apps
+    resource_type: 
+  - url: https://www.census.gov/data/datasets.html
+    name: Datasets
+    resource_type: 
+  - url: https://www.census.gov/data/developers.html
+    name: Developers
+    resource_type: 
+  - url: https://www.census.gov/data/experimental-data-products.html
+    name: Experimental Data Products
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/geography/data/interactive-maps.html
+    name: Interactive Maps
+    resource_type: 
+  - url: https://www.census.gov/geographies/mapping-files.html
+    name: Mapping Files
+    resource_type: 
+  - url: https://www.census.gov/data/profile.html
+    name: Profiles
+    resource_type: 
+  - url: https://www.census.gov/data/related-sites.html
+    name: Related Sites
+    resource_type: 
+  - url: https://www.census.gov/data/software.html
+    name: Software
+    resource_type: 
+  - url: https://www.census.gov/data/tables.html
+    name: Tables
+    resource_type: 
+  - url: https://www.census.gov/data/training-workshops.html
+    name: Training and Workshops
+    resource_type: 
+  - url: https://www.census.gov/library/visualizations.html
+    name: Visualizations
+    resource_type: 
+    name: Infographics and Visualizations
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2020/2020-census-main.html
+    name: 2020 Census
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2030/planning-management/plan/research-and-testing/2026-census-test.html
+    name: 2026 Census Test
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/decennial-census/decade/2030/2030-census-main.html
+    name: 2030 Census
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/ahs.html
+    name: American Housing Survey (AHS)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/abs.html
+    name: Annual Business Survey (ABS)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/aies.html
+    name: Annual Integrated Economic Survey (AIES)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/cbp.html
+    name: County Business Patterns (CBP)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/cps.html
+    name: Current Population Survey (CPS)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/economic-census.html
+    name: Economic Census
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/household-pulse-survey.html
+    name: Household Pulse Survey
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/international-programs.html
+    name: International Programs
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/metro-micro.html
+    name: Metro and Micro Areas
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/popest.html
+    name: Population Estimates
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/popproj.html
+    name: Population Projections
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/saipe.html
+    name: Small Area Income and Poverty
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/susb.html
+    name: Statistics of U.S. Businesses
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/sipp.html
+    name: Survey of Income and Program Participation (SIPP)
+    resource_type: 
+  - url: https://www.census.gov/data/data-tools/glossary.html
+    name: Glossary
+    resource_type: 
+  - url: https://www.census.gov/library/stories.html
+    name: America Counts: Stories
+    resource_type: 
+    name: America Counts
+    resource_type: 
+  - url: https://www.census.gov/library/audio.html
+    name: Audio
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs.html
+    name: Blogs
+    resource_type: 
+  - url: https://www.census.gov/library/by-the-numbers.html
+    name: By the Numbers
+    resource_type: 
+  - url: https://www.census.gov/newsroom/facts-for-features.html
+    name: Facts for Features
+    resource_type: 
+  - url: https://www.census.gov/library/fact-sheets.html
+    name: Fact Sheets
+    resource_type: 
+  - url: https://www.census.gov/library/photos.html
+    name: Photos
+    resource_type: 
+  - url: https://www.census.gov/library/publications.html
+    name: Publications
+    resource_type: 
+  - url: https://www.census.gov/library/spotlights.html
+    name: Spotlights
+    resource_type: 
+  - url: https://www.census.gov/newsroom/stories.html
+    name: Stats for Stories
+    resource_type: 
+  - url: https://www.census.gov/library/video.html
+    name: Videos
+    resource_type: 
+  - url: https://www.census.gov/library/working-papers.html
+    name: Working Papers
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs
+    name: American Community Survey (ACS)
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation.html
+    name: Technical Documentation
+    resource_type: 
+    name: Within Technical Documentation
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html
+    name: Code Lists, Definitions, and Accuracy
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/data-suppression.html
+    name: Data Release Rules
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/errata.html
+    name: Errata Notes
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html
+    name: Table & Geography Changes
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/table-shells.html
+    name: Table Shells and Table List
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/technical-documentation/user-notes.html
+    name: User Notes
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2023_ACS_Code_Lists.xlsx
+    name: 2023 Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2023_Instructions_for_Stat_Testing_ACS.pdf
+    name: 2023 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2023_ACSSubjectDefinitions.pdf
+    name: 2023 Subject Definitions   [1.4 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2023_ACS_Accuracy_Document_Worked_Examples.pdf
+    name: 2023 Worked Examples for Approximating Margins of Error
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2023GQ_Definitions.pdf
+    name: 2023 Group Quarters Definitions   [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/statistical-testing-tool.html
+    name: Statistical Testing Tool
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2023.pdf
+    name: 2023 ACS 1-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2023.pdf
+    name: 2023 PRCS 1-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2023.pdf
+    name: 2019-2023 ACS 5-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2023.pdf
+    name: 2019-2023 PRCS 5-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2023.html
+    name: 2023 Comparison Guidance
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/jam_values/2023_Jam_Values.xlsx
+    name: Jam Values [1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/library/video/2019/prb-acs.html
+    name: Population Reference Bureau: The American Community Survey
+    resource_type: 
+  - url: https://www.census.gov/library/video/2019/prb-acs-reliability.html
+    name: Population Reference Bureau: Assessing ACS Reliability
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/share-your-acs-data-story.html
+    name: Share Your ACS Data Story
+    resource_type: 
+    name: Share Your ACS Data StoryTell us your story about how you use data from the American Community Survey.
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/contact.html
+    name: Contact UsLearn how to contact the American Community Survey if you have questions about completing the survey, finding data, or using data.
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/news/email-updates.html
+    name: Email UpdatesSign up to receive email updates about the American Community Survey and other topics from the Census Bureau.
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs/director.html
+    name: Director’s Blog
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs/deputy-director.html
+    name: Deputy Director’s Blog
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs/random-samplings.html
+    name: Random Samplings
+    resource_type: 
+  - url: https://www.census.gov/newsroom/blogs/research-matters.html
+    name: Research Matters
+    resource_type: 
+  - url: http://x.com/uscensusbureau/
+    name: [No text]
+    resource_type: 
+  - url: https://www.census.gov/about/policies/quality.html
+    name: Information Quality
+    resource_type: 
+  - url: https://www.census.gov/about/adrm/linkage.html
+    name: Data Linkage Infrastructure
+    resource_type: 
+  - url: https://www.census.gov/about/policies/privacy.html
+    name: Data Protection and Privacy Policy
+    resource_type: 
+  - url: https://www.census.gov/about/policies/section-508.html
+    name: Accessibility
+    resource_type: 
+  - url: https://www.census.gov/about/policies/foia.html
+    name: FOIA
+    resource_type: 
+  - url: https://www.oig.doc.gov
+    name: Inspector General
+    resource_type: 
+  - url: https://www.commerce.gov/cr/reports-and-resources/no-fear-act
+    name: No FEAR Act
+    resource_type: 
+  - url: https://www.commerce.gov/
+    name: U.S. Department of Commerce
+    resource_type: 
+  - url: https://www.usa.gov/
+    name: USA.gov
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2022_ACS_Code_Lists.xlsx
+    name: 2022 Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2022_Instructions_for_Stat_Testing_ACS.pdf
+    name: 2022 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2022_ACSSubjectDefinitions.pdf
+    name: 2022 Subject Definitions   [1.4 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2022_ACS_Accuracy_Document_Worked_Examples.pdf
+    name: 2022 Worked Examples for Approximating Margins of Error
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2022GQ_Definitions.pdf
+    name: 2022 Group Quarters Definitions   [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2022.pdf
+    name: 2022 ACS 1-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2022.pdf
+    name: 2022 PRCS 1-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2022.pdf
+    name: 2018-2022 ACS 5-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2022.pdf
+    name: 2018-2022 PRCS 5-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2022.html
+    name: 2022 Comparison Guidance
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/jam_values/2022_Jam_Values.xlsx
+    name: Jam Values [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2021_ACS_Code_Lists.pdf
+    name: 2021 Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2021_HispanicOriginAndRace_CodeList.xlsx
+    name: 2021 Supplement: Hispanic Origin and Race Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2021_Instructions_for_Stat_Testing_ACS.pdf
+    name: 2021 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2021_ACSSubjectDefinitions.pdf
+    name: 2021 Subject Definitions   [1.4 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2021_ACS_Accuracy_Document_Worked_Examples.pdf
+    name: 2021 Worked Examples for Approximating Margins of Error
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2021GQ_Definitions.pdf
+    name: 2021 Group Quarters Definitions   [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2021.html
+    name: 2021 Comparison Guidance
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2021.pdf
+    name: 2021 ACS 1-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2021.pdf
+    name: 2021 PRCS 1-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2021.pdf
+    name: 2017-2021  ACS Multiyear Accuracy (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2021.pdf
+    name: 2017-2021 PRCS Multiyear Accuracy (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/data/experimental-data.html
+    name: Experimental Data ProductAmerican Community Survey Experimental DataExplore resources to help you understand the 2020 American Community Survey 1-year Experimental Data Release.
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2020_ACS_Code_Lists.pdf
+    name: 2020 Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2020_HispanicOriginAndRace_CodeList.xlsx
+    name: 2020 Supplement: Hispanic Origin and Race Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2020_ACSSubjectDefinitions.pdf
+    name: 2020 Subject Definitions   [1.4 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2020GQ_Definitions.pdf
+    name: 2020 Group Quarters Definitions   [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2020.html
+    name: 2020 Comparison Guidance
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2020_Instructions_for_Stat_Testing_ACS.pdf
+    name: 2020 Instructions for Applying Statistical Testing
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2020_ACS_Accuracy_Document_Worked_Examples.pdf
+    name: 2020 Worked Examples for Approximating Margins of Error
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/data/experimental-data/1-year.html
+    name: 2020 ACS 1-Year Experimental Data Tables [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2020.pdf
+    name: 2016-2020 ACS Multiyear Accuracy (US)
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2020.pdf
+    name: 2016-2020 PRCS Multiyear Accuracy (Puerto Rico)
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2019_ACS_Code_Lists.pdf
+    name: 2019 Code List [1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2019_ACSSubjectDefinitions.pdf
+    name: 2019 Subject Definitions   [1.4 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2019GQ_Definitions.pdf
+    name: 2019 Group Quarters Definitions   [<1.0 MB]
+    resource_type: 
+  - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2019.html
+    name: 2019 Comparison Guidance
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2019_Instructions_for_Stat_Testing_ACS.pdf
+    name: 2019 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2019_ACS_Accuracy_Document_Worked_Examples.pdf
+    name: 2019 Worked Examples for Approximating Margins of Error
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2019.pdf
+    name: 2019 ACS 1-year Accuracy of the Data (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2019.pdf
+    name: 2019 PRCS 1-year Accuracy of the Data (Puerto Rico) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2019.pdf
+    name: 2015-2019 ACS Multiyear Accuracy (US) [<1.0 MB]
+    resource_type: 
+  - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2019.pdf
+    name: 2015-2019 PRCS Multiyear Accuracy (Puerto Rico) [<1.0 MB]
+    resource_type: 
