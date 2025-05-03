@@ -1,7 +1,3 @@
-@import url("./__normalize.css");
-@import url("./_variables.css");
-@import url("./_navigation.css");
-
 body {
   background-color: var(--surface--page-background);
   color: var(--color--text-primary);
@@ -61,6 +57,26 @@ h5 {
 
 h6 {
   font-size: var(--font-size--h6);
+}
+
+/* Layout Utilities */
+
+.page-wrapper {
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .page-wrapper {
+    max-width: 900px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .page-wrapper {
+    max-width: 1500px;
+  }
 }
 
 /* Flex Grid */
