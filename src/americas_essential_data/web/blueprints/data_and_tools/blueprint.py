@@ -30,8 +30,8 @@ def resources_index(page=1):
     page = max(1, page)  # Ensure page is at least 1
     per_page = 50  # Number of resources per page
 
-    # Get all resources
-    all_resources_raw = ResourceRepository(db_instance).all()
+    # Get all resources from the view that includes joined preview information
+    all_resources_raw = ResourceRepository(db_instance).all_previews()
 
     # Convert to dot notation objects
     all_resources = [DotDict(resource) for resource in all_resources_raw]
