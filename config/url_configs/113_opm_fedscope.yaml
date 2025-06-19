@@ -8,9 +8,11 @@ linked_urls:
   - url: https://www.opm.gov/data/datasets/Index.aspx?tag=FedScope
     name: Raw Datasets
     resource_type: Data Listings Page
+    key_resource: True
   - url: https://www.fedscope.opm.gov/datadefn/index.asp
     name: Data Definitions
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.fedscope.opm.gov/download_Data%20Release%20Policy.pdf
     name: Data Release Policy
     resource_type: Supporting Documentation Page
@@ -20,24 +22,30 @@ linked_urls:
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABnsT72MN42oVOsW6DQAz9mTNph0Y_wyVhYIDjUBiANLBXlFzSqsBFcB3y9xUwpFWGvidL9vN7lp2yWJdVcVRpHIzWDDqNn4DocyNI4jZU6PncQ0%7EtfIHRZiO5UKREtAWiZ2fKqvAo94ew2gdASWN6q3sLlJxNe9IDiAg87OtOgxuvDnXzVV%7E0_Ka6a2tune7tCkQMlFyXzV%7E73QWEL0Aov4dhmTLT248p68SlXMsiz5Ws0iLPw0wF%7E_Wc6DU4IzKOiJwjYwyZQEbIJjIWXnTf3IAQ6ASEYdsC_pkZ7eMpQJ8B7YBcBNIc6B3IXwR_F9gMIHey%7EwKfOXfLO3MtTyz4AbZLbJc%3D
     name: Status Data - Employment Data Cube Current Month
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2B-%2BCurrent%2BMonth&action=view&mode=dashboard&subView=model00000185985349dc_00000000
     name: Status Data - Employment Cube Dashboards/Maps Current Month
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/employment.aspx
     name: Status Data - Employment Data Cube Quarter Months
     resource_type: Interactive Dashboard/Data Explorer
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABpu3eKwh42o1OwW6CQBD9mR3Ug2Z2EAsHDiwLkYOgwqWnhuJqmsJiFjz4983CwfbW9zKZycx7L_OUxaasinOSyXAYe6MyuQSiL19yLgN3J4X~thXoCY8LN8DAE37i7tItEK0c602ic7w~RtU_BEqbXo9Kj0DptW8vyoAnYIu67hS4cnGsm_~6poaPpLu3~bNTelyAJ4HS_3z5K3_pgLAySl_AcPmuarMe_7XtK2t3ZBlv4iLPk7jKijyPDkn4D6sjTuEVkXFE5BwZY8g8ZITMkrHopnTzBEIga47aFjA49INNjB~GzNmnR21GZQADBuQDuQikONAnUDAv_GvBJgC5Vv4LfOI0zQ9NNb8x4wcrtG_w
     name: Status Data - Employment Trend Data Cube Current 5 Year-to-Year
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Year%2Bto%2BYear%2529&action=view&mode=dashboard
     name: Status Data - Employment Trend Cube Dashboards/Maps Current 5 Year-to-Year
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABsjwN_f142o2OTY_CQAyG~8wU9aDpFDDMgQPOQOQgqHDfsDiazfJhhvHgv98AJu7e9m2aNO3bp3WKfFOU_TlOVTjY3uhULYHoy423KvASIZQUnkIKEtpywkD4QeCrhAPRyhl34_gs98eo3IdASd13VncWKLn2zUUb8HfgYVe1Gly1OFb1d3XTw0fc3pv_2erOLsBXQMl9nvy1v11AWBrdXYBweXpUxmqztv36Va5GiKMKuZF5lsWyTPMsiw5x_G_AszuFV0TGEZFzZIwh85ERsjEYi266q59ACDQioqYBFId_GLnyYcx84UUDFAwoAHIRSHOgTyAxN~i7wSYBuaP9l~gUUzU~NOX8xqwfpFR1AQ%3D%3D
     name: Status Data - Employment Trend Data Cube Current 5 Quarter-to-Quarter
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BEmployment%2BDashboards%2FEmployment%2BTrend%2B%2528Quarter%2Bto%2BQuarter%2529&action=view&mode=dashboard
     name: Status Data - Employment Trend Cube Dashboards/Maps Current 5 Quarter-to-Quarter
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABxL0_5Ml42pVOwW6CQBD9mR3UQ83sA9Jy4LDsQvQgqHBvqK6mKYJZ8eDfN0BS22PfyySTN2%7EejFcWy7Iq9unaxLe_c3Zt5gR8AkGWSB0pE%7EiB5lAlrBVn0gSIXiUbAhbesJuqvV5tVbWKCdmha3vb9oTs1DVH6yhMKOC2vljyzWxbH77qs729p5dr0z0utu1nFBpCdp0mf_1PF4ErZ9sjgeelvRIYLEMCvxD4R4gWQ5pnSr3URZ6nuloXea42afz%7EJC%7EZxSdmIZlZShZCsAhZgMVAIdTZtocHgQlDlmoa4mjT3YYD_u7cdGp3r11vHXEkCG8EnwlWEj4I0STIpyBGEPzB%7Egty5NhND401vTHhG9f3c1Q%3D
     name: Status Data - Employment Trend Data Cube Sep 2015 - Sep 2019
     resource_type: Interactive Dashboard/Data Explorer
@@ -59,9 +67,11 @@ linked_urls:
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABuwvODpp42pVOwW6DMAz9mZi2h1WOEyY4cEgIqBwGXeGy08RoOlVjMBH_X1NAW7fd9p4s2c%7EPTw7qal831SkrTOLmcbKF2QLRVcsoirlOBXKUEQpleIYm5CKWRut7CUS7wN9m6pQejqo5JEB5Nw6zHWag%7EDL2ZztBqEHi0L5bEGZzbLu39tW6Z9V11rnrOLgNhAYo%7E1g3v_03FxA2kx3OQLjNn4DQEwjvgPBrljufFZg63adVWWZpU1RlqR6y5L85gX5MLoiMIyLnyBhDFiIjZJ6MfeeBP%7EZhqu8BY9PO9o%7EEgCIggUCWA70AxavAbwJbACS8%7EQf4wqVbf1lq%7EWDFJ1yrbck%3D
     name: Dynamics Data - Accessions Trend Data Cube FY 2020 - FY 2024
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BAccessions%2BDashboards%2FAccessions%2BTrend%2B%2528FY%2B2020%2B-%2BFY%2B2024%2529&action=view&mode=dashboard
     name: Dynamics Data - Accessions Trend Cube Dashboards/Maps FY 2020 - FY 2024
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABuzCqAvR42pVOTU_DQBD9Mzu0PdjMvoXiHjhs_Ug5CLVw8WSQbk0jggH_fwwQrXrzvUwy8_bNyzhFvi3K~BSnUTCMXW~TaE3AVRnDPnae1sq4SrGGgnb9xPd95SU7n4CNM93G5hQejqY8BISk7trRtiMhuXTN2fbk7cnltnq3pKLVsarfqlc7PJu6tsNw7dphRV5ESD6WzW~7zUXgsrftmcDr5InAYOkR_I7AX7PeTFlOVITbMM_yOCzTPMvMQxz8N8fZPwYXZiGZWUoWQrDwWIDFRCG_8whMmMJM0xDrqBrtH0kQ7gmKCVYSXgh6EeRNEDMIarL~gJw5d8svcy0fLPgEJQttrQ%3D%3D
     name: Dynamics Data - Accessions Trend Data Cube FY 2015 - FY 2019
     resource_type: Interactive Dashboard/Data Explorer
@@ -83,9 +93,11 @@ linked_urls:
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv3dM77542pVOwW6DMAz9GZu2h1WOAa05cIAkqD0MusKlpylr06kagwr4f00BTe1223uyZD8%7EPzmoynVVlwez08kwdr3b6SUyX2PJmeFYylCrSD9HKemNyFiQkkJpEyHzKvC3Jj2o7T6ttwlyfura0bUjcn7pmrPrMc4wotZ_OQz1Ym9Pn%7EbDDW_Vu9nejteuHRYYa_T8Nq9__x9syFT3rj0j0zI%7EIpMnMj0h088crXxYoCu1VmVRGFXvyqJIX0zy76Age00uRCCISAgCAIKYgAk8Ae6B6K99Wto0SFLb0f2RAHmDHBKyE8jvyHIWxF2ACcihtz9ATJy6_Zmp5hdmfANkKW%7Ev
     name: Dynamics Data - Separations Trend Data Cube FY 2020 - FY 2024
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/?perspective=dashboard&pathRef=.public_folders%2FFSe%2B-%2BSeparations%2BDashboards%2FSeparations%2BTrend%2B%2528FY2020%2B-%2BFY%2B2024%2529&action=view&mode=dashboard
     name: Dynamics Data - Separations Trend Cube Dashboards/Maps FY 2020 - FY 2024
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.fedscope.opm.gov/ibmcognos/bi/v1/disp?b_action=powerPlayService&m_encoding=UTF-8&BZ=1AAABv6ePmJp42pVOQW6DQAz8jE2SQyOvFyI4cFjYReFQSAOXnqptsqmiUoiA~6sCVCXtrTOyZI~HI3tVua3q8mhyHQ9j17tcr5H5GpJvRCgCtVPCJyOjROosldpPDCU7Qci88aZbo47p~qDqfYycnbp2dO2InF265ux6DBL0qbVfDqVeHezp03644a1yN9vb8dq1wwoDjZzdltVv~4MNmeretWdkWmevyMQkAmR6QqafOdpMYZ6u0m1aFoVJ67wsCvVs4n8HeclLfCECQURCEAAQBARMMBHgHohMyFOaahqkSNvR~ZEAOUSWhOwE8jtytAjiLsAMZDnZHyBmzt3yzFzLCwu_AVRTb_0%3D
     name: Dynamics Data - Separations Trend Data Cube FY 2015 - FY 2019
     resource_type: Interactive Dashboard/Data Explorer
@@ -107,15 +119,19 @@ linked_urls:
   - url: https://www.opm.gov/data/datasets/Files/721/cf6137df-539e-4f18-8a91-21740000ce46.pdf
     name: FedScope Employment Cube (September 2024) [PDF] (posted 2/25/2025)
     resource_type: Data File (PDF)
+    key_resource: True
   - url: https://www.opm.gov/data/datasets/Files/721/550993be-94ba-476c-9d66-7f7e8871b07b.zip
     name: FedScope Employment Cube (September 2024) [zip] (posted 2/25/2025)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.opm.gov/data/datasets/Files/722/e8455624-c73b-44f1-88f6-d914a3db6af5.pdf
     name: FedScope Employment Cube (June 2024) [PDF] (posted 2/25/2025)
     resource_type: Data File (PDF)
+    key_resource: True
   - url: https://www.opm.gov/data/datasets/Files/722/e5d6a529-b70f-4f13-87f0-863a80079d43.zip
     name: FedScope Employment Cube (June 2024) [zip] (posted 2/25/2025)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.opm.gov/data/datasets/Files/716/79db2ca5-cb09-4e0e-bbde-4e4c15ee1d78.pdf
     name: FedScope Employment Cube (March 2024) [PDF] (posted 10/4/2024)
     resource_type: Data File (PDF)

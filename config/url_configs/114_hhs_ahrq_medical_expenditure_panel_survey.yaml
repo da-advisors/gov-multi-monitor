@@ -45,54 +45,99 @@ linked_urls:
   - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID_matrix.xlsx
     name: Public Use Files (xlsx matrix)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID.xlsx
     name: Public Use Files (xlsx list)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data/pufs/PUFID.csv
     name: Public Use Files (csv list)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239B
-    name: Event File - Dental Visits (2022 HC-239B)
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-247
+    name: Full Year Population Characteristics File (2023 HC-247)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239E
-    name: Event File - Emergency Room Visits (2022 HC-239E)
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-246
+    name: Jobs File (2023 HC-246)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239H
-    name: Event File - Home Health (2022 HC-239H)
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=NHIS%20Link
+    name: MEPS-NHIS Link Files (1996 - 2023)
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-245
+    name: MEPS Panel 24 Four-Year Longitudinal Data File (2022 HC-245)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239D
-    name: Event File - Hospital Inpatient Stays (2022 HC-239D)
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-244
+    name: MEPS Panel 26 Longitudinal Data File (2022 HC-244)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239G
-    name: Event File - Office-Based Medical Provider Visits (2022 HC-239G)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239C
-    name: Event File - Other Medical Expenses (2022 HC-239C)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239F
-    name: Event File - Outpatient Visits (2022 HC-239F)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239A
-    name: Event File - Prescribed Medicines (2022 HC-239A)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-240
-    name: Food Security (2016, 2017, 2020, 2021, 2022) (2022 HC-240)
-    resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-243
     name: Full-Year Consolidated File (2022 HC-243)
     resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-237
-    name: Jobs File (2022 HC-237)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239I
-    name: Linkage Condition-Event Link (2022 HC-239I)
-    resource_type: Data Repository or Listings page
-  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-241
-    name: Medical Conditions (2022 HC-241)
-    resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-242
     name: Person Round Plan (2022 HC-242)
     resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-241
+    name: Medical Conditions (2022 HC-241)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-240
+    name: Food Security (2016, 2017, 2020, 2021, 2022) (2022 HC-240)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239I
+    name: Linkage Condition - Event Link (2022 HC-239I)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239H
+    name: Event File - Home Health (2022 HC-239H)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239G
+    name: Event File - Office-Based Medical Provider Visits (2022 HC-239G)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239F
+    name: Event File - Outpatient Visits (2022 HC-239F)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239E
+    name: Event File - Emergency Room Visits (2022 HC-239E)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239D
+    name: Event File - Hospital Inpatient Stays (2022 HC-239D)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239C
+    name: Event File - Other Medical Expenses (2022 HC-239C)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239B
+    name: Event File - Dental Visits (2022 HC-239B)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-239A
+    name: Event File - Prescribed Medicines (2022 HC-239A)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-237
+    name: Jobs File (2022 HC-237)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-036BRR
+    name: Replicate File for BRR Variance Estimation (1996-2022 HC-036BRR)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-036
+    name: Pooled Linkage File for Common Variance Structure (1996-2022 HC-036)
+    resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_detail.jsp?cboPufNumber=HC-229B
     name: Event File - Dental Visits (2021 HC-229B)
     resource_type: Data Repository or Listings page

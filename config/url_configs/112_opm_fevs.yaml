@@ -9,18 +9,22 @@ linked_urls:
   - url: https://www.opm.gov/fevs/public-data-file/
     name: Public Data File
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/opm-fevs-dashboard/
     name: OPM FEVS Dashboard
     resource_type: Interactive Dashboard/Data Explorer
   - url: https://www.opm.gov/fevs/reports/understanding-results/
     name: Understanding Results
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.opm.gov/fevs/public-data-file/2023/FEVS2023_PRDF_CSV.zip
     name: 2023 Basic Public Release Data File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.opm.gov/fevs/public-data-file/2022/FEVS2022_PRDF_CSV.zip
     name: 2022 Basic Public Release Data File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.opm.gov/fevs/public-data-file/2021/FEVS2021_PRDF_CSV.zip
     name: 2021 Basic Public Release Data File
     resource_type: Data File (Other)
@@ -83,19 +87,24 @@ linked_urls:
     resource_type: Data File (Other)
   - url: https://www.opm.gov/fevs/reports/data-reports
     name: Data Reports
-    resource_type:
+    resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-agency/2023/2023-agency-report.pdf
     name: 2023 Agency Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-agency/2023/2023-agency-report-excel.xlsx
     name: 2023 Agency Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-agency/2022/2022-agency-report-excel.xlsx
     name: 2022 Agency Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-agency/2022/2022-agency-report.pdf
     name: 2022 Agency Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-agency/2021/2021-agency-report.pdf
     name: 2021 Agency Report
     resource_type: Report Document
@@ -149,10 +158,10 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2012FILES/2012_Report_by_Agency_PDF.zip
     name: 2012 Agency Report
-    resource_type:
+    resource_type: Report Document
   - url: https://www.opm.gov/fevs/archive/2011FILES/2011_Report_by_Agency_XLS.zip
     name: 2011 Agency Report
-    resource_type:
+    resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2010FILES/2010_Report_by_Agency_pt1.pdf
     name: 2010 Agency Report Part 1
     resource_type: Report Document
@@ -204,15 +213,19 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2023/2023-demographic-report.pdf
     name: 2023 Demographic Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2023/2023-demographic-report-excel.xlsx
     name: 2023 Demographic Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2022/2022-demographic-report.pdf
     name: 2022 Demographic Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2022/2022-demographic-report-excel.xlsx
     name: 2022 Demographic Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2021/2021-demographic-report.pdf
     name: 2021 Demographic Report
     resource_type: Report Document
@@ -233,7 +246,7 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2019/2019-demographic-report/
     name: 2019 Demographic Report
-    resource_type:
+    resource_type: Data File (PDF)
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-by-demographics/2018/2018-demographic-report-part-1.pdf
     name: 2018 Demographic Report Part 1
     resource_type: Report Document
@@ -263,10 +276,10 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2012FILES/2012_Report_by_Demographics_PDF.zip
     name: 2012 Demographic Report
-    resource_type:
+    resource_type: Report Document
   - url: https://www.opm.gov/fevs/archive/2011FILES/2011_Report_by_Demographics_XLS.zip
     name: 2011 Demographic Report
-    resource_type:
+    resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2010FILES/2010_Report_by_Demographics_pt1.pdf
     name: 2010 Demographic Report Part 1
     resource_type: Report Document
@@ -318,15 +331,19 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2023/2023-unweighted-demographics-report.xlsx
     name: 2023 Unweighted Demographics Report
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2023/2023-unweighted-demographics-report-excel.xlsx
     name: 2023 Unweighted Demographics Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2022/2022-unweighted-demographics-report-excel.xlsx
     name: 2022 Unweighted Demographics Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2022/2022-unweighted-demographics-report.pdf
     name: 2022 Unweighted Demographics Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2021/2021-unweighted-demographics-report.pdf
     name: 2021 Unweighted Demographics Report
     resource_type: Report Document
@@ -341,7 +358,7 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2019/2019-unweighted-demographics-report/
     name: 2019 Unweighted Demographics Report
-    resource_type:
+    resource_type: Report Document
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/report-on-demographic-questions-by-agency/2018/2018-unweighted-demographics-report.pdf
     name: 2018 Unweighted Demographics Report
     resource_type: Report Document
@@ -362,10 +379,10 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2012FILES/2012_UnweightedDemographicReport_PDF.zip
     name: 2012 Unweighted Demographics Report
-    resource_type:
+    resource_type: Report Document
   - url: https://www.opm.gov/fevs/archive/2011FILES/2011_UnweightedDemographicReport_XLS.zip
     name: 2011 Unweighted Demographics Report
-    resource_type:
+    resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/archive/2010FILES/2010_Report_by_Demographics_by_Agency.pdf
     name: 2010 Unweighted Demographics Report
     resource_type: Report Document
@@ -381,12 +398,15 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/response-rate-by-agency/2024/2024-response-rate-by-agency-excel.xlsx
     name: 2024 Response Rate by Agency (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/response-rate-by-agency/2023/2023-response-rate-by-agency-excel.xlsx
     name: 2023 Response Rate by Agency (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/response-rate-by-agency/2022/2022-response-rate-by-agency-excel.xlsx
     name: 2022 Response Rate by Agency (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/data-reports/response-rate-by-agency/2021/2021-response-rate-by-agency.pdf
     name: 2021 Response Rate by Agency
     resource_type: Report Document
@@ -417,12 +437,15 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2024/2024-ee-report-excel.xlsx
     name: 2024 EE Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2023/2023-ee-report-excel.xlsx
     name: 2023 EE Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2022/2022-ee-report-excel.xlsx
     name: 2022 EE Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2021/2021-ee-report.pdf
     name: 2021 EE Report
     resource_type: Report Document
@@ -437,7 +460,7 @@ linked_urls:
     resource_type: Data File (Excel)
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2019/2019-ee-report/
     name: 2019 EE Report
-    resource_type:
+    resource_type: Report Document
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-engagement-index-results-by-agency/2018/2018-ee-report.xls
     name: 2018 EE Report
     resource_type: Data File (Excel)
@@ -450,12 +473,15 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/global-satisfaction-index-results-by-agency/2024/2024-gs-report-excel.xlsx
     name: 2024 GS Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/global-satisfaction-index-results-by-agency/2023/2023-gs-report-excel.xlsx
     name: 2023 GS Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/global-satisfaction-index-results-by-agency/2022/2022-gs-report-excel.xlsx
     name: 2022 GS Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/global-satisfaction-index-results-by-agency/2021/2021-gs-report.pdf
     name: 2021 GS Report
     resource_type: Report Document
@@ -483,12 +509,15 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/performance-confidence-index-results-by-agency/2024/2024-pc-report-excel.xlsx
     name: 2024 PC Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/performance-confidence-index-results-by-agency/2023/2023-pc-report-excel.xlsx
     name: 2023 PC Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/performance-confidence-index-results-by-agency/2022/2022-pc-report-excel.xlsx
     name: 2022 PC Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/performance-confidence-index-results-by-agency/2021/2021-pc-report.pdf
     name: 2021 PC Report
     resource_type: Report Document
@@ -498,18 +527,23 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-experience-index-results-by-agency/2024/2024-exi-report-excel.xlsx
     name: 2024 EXI Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/data-reports/index-results-by-agency/employee-experience-index-results-by-agency/2023/2023-exi-report-excel.xlsx
     name: 2023 EXI Report (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/technical-reports/
     name: Technical Reports
-    resource_type:
+    resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/technical-reports/technical-report/technical-report/2023/2023-technical-report.pdf
     name: 2023 Technical Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/technical-reports/technical-report/technical-report/2022/2022-technical-report.pdf
     name: 2022 Technical Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/technical-reports/technical-report/technical-report/2021/2021-technical-report.pdf
     name: 2021 Technical Report
     resource_type: Report Document
@@ -545,34 +579,44 @@ linked_urls:
     resource_type: Report Document
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/
     name: Government Wide Reports
-    resource_type:
+    resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2024/2024-governmentwide-management-report.pdf
     name: 2024 Governmentwide Management Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2023/2023-governmentwide-management-report.pdf
     name: 2023 Governmentwide Management Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2023/appendix-a.xlsx
     name: 2023 Governmentwide Management Report Appendix-A
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2023/appendix-c.xlsx
     name: 2023 Governmentwide Management Report Appendix-C
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2023/appendix-d.xlsx
     name: 2023 Governmentwide Management Report Appendix-D
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2022/2022-governmentwide-management-report.pdf
     name: 2022 Governmentwide Management Report
     resource_type: Report Document
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2022/appendix-a.xlsx
     name: 2022 Governmentwide Management Report Appendix-A
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2022/appendix-c.xlsx
     name: 2022 Governmentwide Management Report Appendix-C
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2022/appendix-d.xlsx
     name: 2022 Governmentwide Management Report Appendix-D
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-management-report/2021/2021-governmentwide-management-report.pdf
     name: 2021 Governmentwide Management Report
     resource_type: Report Document
@@ -645,12 +689,14 @@ linked_urls:
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-all-levels-all-index-all-items-reports/2023/2023-governmentwide-all-levels-all-index-all-items-reports-excel.xlsx
     name: 2023 Governmentwide All Levels- All Index-All Items Reports (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/governmentwide-reports/governmentwide-reports/governmentwide-all-levels-all-index-all-items-reports/2022/2022-governmentwide-all-levels-all-index-all-items-reports-excel.xlsx
     name: 2022 Governmentwide All Levels- All Index-All Items Reports (Excel)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www.opm.gov/fevs/reports/special-reports/
     name: Special Reports
-    resource_type:
+    resource_type: Supporting Documentation Page
   - url: https://www.opm.gov/fevs/reports/special-reports/report-the-key-to-unlocking-engagement-2016.pdf
     name: 2016 Report - The Key to Unlocking Engagement
     resource_type: Report Document

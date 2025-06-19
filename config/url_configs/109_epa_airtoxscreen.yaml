@@ -6,224 +6,333 @@ tags:
 linked_urls:
   - url: https://experience.arcgis.com/experience/a0deb771dbcd40d0a46fbe83adc51747/
     name: 2020 AirToxScreen Mapping Tool
+    key_resource: True
   - url: https://experience.arcgis.com/experience/a2eea9c204004158a85a18371d6883bc
     name: 2017-2019 AirToxScreen Mapping Tool
+    key_resource: True
   - url: https://archive.epa.gov/
     name: EPA Archive for Assessments Prior to 2005
   - url: https://www.epa.gov/AirToxScreen/2020-airtoxscreen-emissions-update-document
     name: 2020 AirToxScreen Emissions Update Document
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2024-05/airtoxscreen_2020-tsd.pdf
     name: 2020 AirToxScreen Technical Support Document (TSD) (pdf)
+    key_resource: True
   - url: https://www.epa.gov/air-emissions-inventories/2020-national-emissions-inventory-nei-technical-support-document-tsd
     name: 2020 NEI Technical Support Document
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-06/2020-airtoxscreen-supplemental-data-files.zip
     name: 2020 Supplemental Data Files (zip)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-05/point_fac_2020_mapapp.xlsx
     name: 2020 AirToxScreen emissions by facility (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-05/railyards_2020_mapapp.xlsx
     name: 2020 AirToxScreen emissions by railyard (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-05/airport_runway_2020_mapapp.xlsx
     name: 2020 AirToxScreen emissions by airport runway (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-05/airport_nonrunway_2020_mapapp.xlsx
     name: 2020 AirToxScreen emissions by airport non-runway (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2024-05/airtoxscreen_2020_emissions_county_sourcegroup.zip
     name: 2020 AirToxScreen emissions by county (zip)
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/BySource/
     name: 2020 Nationwide Cancer Risk Results - Block-level cancer risk by region and source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region1_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 1 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region2_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 2 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region3_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 3 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 4a Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 4b Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 5a Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 5b Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 6a Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 6b Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region7_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 7 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region8_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 8 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region9_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 9 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region10_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 10 Block-level cancer risk by source group
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/
     name: 2020 Nationwide Cancer Risk Results - Block-level cancer risk by region and pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region1_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 1 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region2_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 2 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region3_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 3 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 4a Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region4b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 4b Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 5a Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region5b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 5b Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6a_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 6a Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region6b_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 6b Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region7_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 7 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region8_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 8 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region9_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 9 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Cancer/ByPollutant/Region10_CancerRisk_by_block_poll.xlsx
     name: 2020 Region 10 Block-level cancer risk by pollutant
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_county_srcgrp.xlsx
     name: 2020 Nationwide Cancer Risk Results - County average cancer risk by source group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_county_poll.xlsx
     name: 2020 Nationwide Cancer Risk Results - County average cancer risk by pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_state_srcgrp.xlsx
     name: 2020 Nationwide Cancer Risk Results - State average cancer risk by source group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2025-01/national_cancerrisk_by_state_poll.xlsx
     name: 2020 Nationwide Cancer Risk Results - State average cancer risk by pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/AirToxScreen/2020-airtoxscreen-national-concentration-summaries
     name: 2020 National Concentration Summaries - Download a smaller subset of AirToxScreen results
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/
     name: 2020 National Concentration Summaries by Region - Ambient concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region1_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 1 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region2_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 2 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region3_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 3 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region4a_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 4a Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region4b_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 4b Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region5a_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 5a Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region5b_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 5b Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region6a_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 6a Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region6b_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 6b Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region7_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 7 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region8_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 8 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region9_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 9 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Ambient%20Concentrations/Region10_2020ATS_Ambient_Concentrations.xlsx
     name: 2020 Region 10 Ambient Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/
     name: 2020 National Concentration Summaries by Region - Exposure concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region1_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 1 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region2_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 2 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region3_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 3 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region4a_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 4a Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region4b_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 4b Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region5a_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 5a Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region5b_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 5b Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region6a_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 6a Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region6b_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 6b Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region7_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 7 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region8_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 8 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region9_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 9 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Exposure%20Concentrations/Region10_2020ATS_Exposure_Concentrations.xlsx
     name: 2020 Region 10 Exposure Concentrations
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/
     name: 2020 Pollutant-Specific Results - Pollutant-specific files by region
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region1/
     name: 2020 Region 1 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region2/
     name: 2020 Region 2 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region3/
     name: 2020 Region 3 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region4/
     name: 2020 Region 4 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region5/
     name: 2020 Region 5 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region6/
     name: 2020 Region 6 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region7/
     name: 2020 Region 7 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region8/
     name: 2020 Region 8 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region9/
     name: 2020 Region 9 Pollutant-specific files
+    key_resource: True
   - url: https://gaftp.epa.gov/rtrmodeling_public/AirToxScreen/2020/Pollutant%20Summaries/Region10/
     name: 2020 Region 10 Pollutant-specific files
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2024-08/2020-airtoxscreen-risk-drivers.pdf
     name: 2020 AirToxScreen Risk Drivers (pdf)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2022-12/2019%20AirToxScreen%20Supplemental%20Data%20files.zip
     name: 2019 Supplemental Data Files (zip)
+    key_resource: True
   - url: https://www.epa.gov/AirToxScreen/2019-airtoxscreen-assessment-results
     name: 2019 Air Toxics Assessment
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/point_fac_2019_emissions.xlsx
     name: 2019 AirToxScreen emissions by facility (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/railyards_2019_emissions.xlsx
     name: 2019 AirToxScreen emissions by railyard (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/airport_runway_2019_emissions.xlsx
     name: 2019 AirToxScreen emissions by airport runway (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/airport_nonrunway_2019_emissions.xlsx
     name: 2019 AirToxScreen emissions by airport non-runway (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/other-files/2023-06/AirToxScreen_2019_Emissions_County_Sourcegroup.zip
     name: 2019 AirToxScreen emissions by county (zip)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_CancerRisk_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Cancer Risk by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_CancerRisk_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Cancer Risk by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_RespHI_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Respiratory Hazard Index by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_RespHI_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Respiratory Hazard Index by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_NeurHI_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Neurological Hazard Index by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_NeurHI_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Neurological Hazard Index by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_LiverHI_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Liver Hazard Index by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_LiverHI_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Liver Hazard Index by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_KidneyHI_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Kidney Hazard Index by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_KidneyHI_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Kidney Hazard Index by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_ImmuHI_by_tract_srcgrp.xlsx
     name: 2019 AirToxScreen National Immunological Hazard Index by Source Group (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_ImmuHI_by_tract_poll.xlsx
     name: 2019 AirToxScreen National Immunological Hazard Index by Pollutant (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_National_allHI_byTract.xlsx
     name: 2019 AirToxScreen National All Hazard Indexes (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_Toxics_Ambient_Concentrations.xlsx
     name: 2019 AirToxScreen National Ambient Concentrations (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/2019_Toxics_Exposure_Concentrations.xlsx
     name: 2019 AirToxScreen National Exposure Concentrations (xlsx)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2023-01/2019%20AirToxScreen%20Risk%20Drivers.pdf
     name: 2019 AirToxScreen Risk Drivers (pdf)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2022-12/airtoxscreen_2019_explanation_of_data.pdf
     name: 2019 AirToxScreen Explanation of Data Elements (pdf)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2023-01/Emissions%20Updates_2019_AirToxScreen.pdf
     name: 2019 AirToxScreen Emissions Update Document (pdf)
+    key_resource: True
   - url: https://www.epa.gov/system/files/documents/2023-02/AirToxScreen_2018%20TSD.pdf
     name: 2018 Technical Support Document (pdf)
   - url: https://www.epa.gov/system/files/other-files/2022-10/2018%20AirToxScreen%20Supplemental%20Data%20files.zip

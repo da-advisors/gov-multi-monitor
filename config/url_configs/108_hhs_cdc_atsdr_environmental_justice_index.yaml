@@ -9,18 +9,22 @@ linked_urls:
   - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-data-download.html
     name: Data Download
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.atsdr.cdc.gov/place-health/media/pdfs/2024/10/EJI_2024_Technical_Documentation.pdf
     name: 2024 EJI Technical Documentation
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.atsdr.cdc.gov/place-health/media/pdfs/2024/07/EJI-2022-Documentation-508.pdf
     name: 2022 EJI Technical Documentation
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-frequently-asked-questions-faqs.html
     name: EJI Frequently Asked Questions
     resource_type: Supporting Documentation Page
   - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-explorer.html
     name: EJI Explorer
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.atsdr.cdc.gov/place-health/php/eji/eji-indicators.html
     name: EJI Indicators
     resource_type: Supporting Documentation Page
@@ -45,6 +49,7 @@ linked_urls:
   - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_United_States_CSV.zip
     name: 2024 EJI Data in the United States (csv)
     resource_type: Data File (Other)
+    key_resource: True
   - url: eji.cdc.gov/Documents/Data/2024/2024_CSV/EJI_2024_Alabama_CSV.zip
     name: 2024 EJI Data in Alabama (csv)
     resource_type: Data File (Other)
@@ -345,6 +350,7 @@ linked_urls:
   - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_United_States_CSV.zip
     name: 2022 EJI Data in the United States (csv)
     resource_type: Data File (Other)
+    key_resource: True
   - url: eji.cdc.gov/Documents/Data/2022/2022_CSV/EJI_2022_Alabama_CSV.zip
     name: 2022 EJI Data in Alabama (csv)
     resource_type: Data File (Other)
