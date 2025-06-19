@@ -10,24 +10,31 @@ linked_urls:
   - url: https://usda.library.cornell.edu/apidoc/index.html
     name: USDA ESMIS API
     resouce_type: API Endpoint
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/31980h23m/q524mk569/pnpr1425.pdf
     name: Data Released on Apr 04, 2025 (PDF)
     resource_type: Data File (PDF)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/31980h23m/cc08kb91p/pnpr1425.txt
     name: Data Released on Apr 04, 2025 (TXT)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/31980h23m/h415r6645/pnpr1425.zip
     name: Data Released on Apr 04, 2025 (ZIP)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/kp78jd76c/q811nh25r/pnpr1325.pdf
     name: Data Released on Mar 28, 2025 (PDF)
     resource_type: Data File (PDF)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/kp78jd76c/00001x16n/pnpr1325.txt
     name: Data Released on Mar 28, 2025 (TXT)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/kp78jd76c/kh04gm14n/pnpr1325.zip
     name: Data Released on Mar 28, 2025 (ZIP)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://downloads.usda.library.cornell.edu/usda-esmis/files/5t34sj58c/p2678s62j/t722k602h/pnpr1225.pdf
     name: Data Released on Mar 21, 2025 (PDF)
     resource_type: Data File (PDF)

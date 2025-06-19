@@ -9,27 +9,35 @@ linked_urls:
   - url: https://www.cdc.gov/nchs/nhis/products/data-query-systems.html#cdc_report_pub_study_section_3-final-data
     name: Interactive Data Query Systems
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/ER_Biannual/index_biannual.html
     name: Interactive Biannual Early Release Estimates
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/ER_Quarterly/index_quarterly.html
     name: Interactive Quarterly Early Release Estimates
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/SHS_child/index.html
     name: Interactive Summary Health Statistics for Children
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/NHIS_teen/index.html
     name: Interactive Summary Health Statistics for Teens
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/SHS_adult/index.html
     name: Interactive Summary Health Statistics for Adults
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://wwwn.cdc.gov/NHISDataQueryTool/SHS_adult3yr/index.html
     name: Interactive Summary Health Statistics for Adults, by Detailed Race and Ethnicity
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.cdc.gov/nchs/nhis/documentation/index.html
     name: Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://archive.cdc.gov/www_cdc_gov/nchs/nhis/pre1997.htm
     name: 1996 and Earlier Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page
@@ -39,354 +47,471 @@ linked_urls:
   - url: https://www.cdc.gov/nchs/nhis/documentation/2024-nhis.html
     name: 2024 Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2024/EnglishQuest.pdf
     name: 2024 Survey questionnaire (English)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2024/SpanishQuest.pdf
     name: 2024 Survey questionnaire (Spanish)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2024/Sponsored-Content-508.pdf
     name: 2024 NHIS sponsored content
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2024/nhisflow-508.pdf
     name: 2024 NHIS instrument flowchart
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf
     name: 2024 Survey brochure
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2024/frmanual-508.pdf
     name: 2024 Field representative manual
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/nhis/documentation/2023-nhis.html
     name: 2023 Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-508.pdf
     name: 2023 Survey description document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS-2023-discrimination-and-vigilance-measures.pdf
     name: 2023 Additional information regarding discrimination and vigilance measures
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/NHIS2023-imputation-techdoc-508.pdf
     name: 2023 Imputed income technical document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/2023-NHIS-PRICSSA-508.pdf
     name: 2023 Preferred reporting items for complex sample survey analysis
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/Checksum-filelist.pdf
     name: 2023 Data files and metadata
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/industry-occupation-supplement.xlsx
     name: 2023 Industry and occupation supplement
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/EnglishQuest-508.pdf
     name: 2023 Survey questionnaire (English)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/SpanishQuest-508.pdf
     name: 2023 Survey questionnaire (Spanish)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/Sponsored-Content-508.pdf
     name: 2023 NHIS sponsored content
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/nhisflow-q1-508.pdf
     name: 2023 NHIS instrument flowchart, Q1
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/nhisflow-q2-q4-508.pdf
     name: 2023 NHIS instrument flowchart, Q2-Q4
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf
     name: 2023 Survey brochure
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/advance-letter-2023-508.pdf
     name: 2023 Advance letter
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2023/frmanual-508.pdf
     name: 2023 Field Representative Manual
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-summary.pdf
     name: 2023 Sample Adult Interview Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-codebook.pdf
     name: 2023 Sample Adult Interview Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adult-nofreq-codebook.pdf
     name: 2023 Sample Adult Interview Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23.zip
     name: 2023 Sample Adult Interview ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adult23csv.zip
     name: 2023 Sample Adult Interview CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.sas
     name: 2023 Sample Adult Interview SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.sps
     name: 2023 Sample Adult Interview SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adult.do
     name: 2023 Sample Adult Interview Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-summary.pdf
     name: 2023 Sample Child Interview Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-codebook.pdf
     name: 2023 Sample Child Interview Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/child-nofreq-codebook.pdf
     name: 2023 Sample Child Interview Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/child23.zip
     name: 2023 Sample Child Interview ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/child23csv.zip
     name: 2023 Sample Child Interview CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.sas
     name: 2023 Sample Child Interview SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.sps
     name: 2023 Sample Child Interview SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/child.do
     name: 2023 Sample Child Interview Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/nhis/2023/NHIS-PairWeights-README.txt
     name: 2023 Parent-Child Pair Data Readme document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/data/series/sr_02/sr02-207.pdf
     name: 2023 Parent-Child Pair Data Detailed report with sample analyses
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/final_pair_weight2023csv.zip
     name: 2023 Parent-Child Pair Data CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/final_pair_weight2023.zip
     name: 2023 Parent-Child Pair Data SAS data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/adultinc-summary.pdf
     name: 2023 Imputed Income Sample adult summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/childinc-summary.pdf
     name: 2023 Imputed Income Sample child summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23.zip
     name: 2023 Imputed Income Sample Adult ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/adultinc23csv.zip
     name: 2023 Imputed Income Sample Adult CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.sas
     name: 2023 Imputed Income Sample Adult SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.sps
     name: 2023 Imputed Income Sample Adult SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/Adultinc.do
     name: 2023 Imputed Income Sample Adult Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/childinc23.zip
     name: 2023 Imputed Income Sample Child ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/childinc23csv.zip
     name: 2023 Imputed Income Sample Child CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.sas
     name: 2023 Imputed Income Sample Child SAS input statements
     resource_type:  Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.sps
     name: 2023 Imputed Income Sample Child SPSS input statements
     resource_type:  Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/childinc.do
     name: 2023 Imputed Income Sample Child Stata input statements
     resource_type:  Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/srvydesc-paradata-508.pdf
     name: 2023 Paradata Survey description document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-summary.pdf
     name: 2023 Paradata Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-codebook.pdf
     name: 2023 Paradata Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2023/paradata-nofreq-codebook.pdf
     name: 2023 Paradata Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/paradata23csv.zip
     name: 2023 Paradata CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2023/paradata23.zip
     name: 2023 Paradata ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.sas
     name: 2023 Paradata SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.sps
     name: 2023 Paradata SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2023/paradata.do
     name: 2023 Paradata Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.cdc.gov/nchs/nhis/documentation/2022-nhis.html
     name: 2022 Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/srvydesc-508.pdf
     name: 2022 Survey description document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/NHIS2022-imputation-techdoc-508.pdf
     name: 2022 Imputed income technical document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/2022-NHIS-PRICSSA-508.pdf
     name: 2022 Preferred reporting items for complex sample survey analysis
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/Checksum-filelist.pdf
     name: 2022 Data files metadata
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/EnglishQuest-508.pdf
     name: 2022 Survey questionnaire (English)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/SpanishQuest-508.pdf
     name: 2022 Survey questionnaire (Spanish)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/Sponsored-Content-508.pdf
     name: 2022 NHIS sponsored content
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/nhisflow-q1q2-508.pdf
     name: 2022 NHIS instrument flowchart, Q1-Q2
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/nhisflow-q3q4-508.pdf
     name: 2022 NHIS instrument flowchart, Q3-Q4
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/data/nhis/Sample-Questionnaire-Brochure.pdf
     name: 2022 Survey brochure
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/advance-letter-2022.pdf
     name: 2022 Advance letter
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Survey_Questionnaires/NHIS/2022/frmanual-508.pdf
     name: 2022 Field Representative Manual
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/adult-summary.pdf
     name: 2022 Sample Adult Interview Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/adult-codebook.pdf
     name: 2022 Sample Adult Interview Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/adult-nofreq-codebook.pdf
     name: 2022 Sample Adult Interview Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adult22.zip
     name: 2022 Sample Adult Interview ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adult22csv.zip
     name: 2022 Sample Adult Interview CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adult.sas
     name: 2022 Sample Adult Interview SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adult.sps
     name: 2022 Sample Adult Interview SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adult.do
     name: 2022 Sample Adult Interview Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/child-summary.pdf
     name: 2022 Sample Child Interview Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/child-codebook.pdf
     name: 2022 Sample Child Interview Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/child-nofreq-codebook.pdf
     name: 2022 Sample Child Interview Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/child22.zip
     name: 2022 Sample Child Interview ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/child22csv.zip
     name: 2022 Sample Child Interview CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/child.sas
     name: 2022 Sample Child Interview SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/child.sps
     name: 2022 Sample Child Interview SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/child.do
     name: 2022 Sample Child Interview Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/NHIS-PairWeights-README.txt
     name: 2022 Parent-Child Pair Data Readme document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.cdc.gov/nchs/data/series/sr_02/sr02-207.pdf
     name: 2022 Parent-Child Pair Data Detailed report with example analyses
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/FinalPairWeight22csv.zip
     name: 2022 Parent-Child Pair Data CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/FinalPairWeight22.zip
     name: 2022 Parent-Child Pair Data SAS data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/adultinc-summary.pdf
     name: 2022 Imputed Income Sample adult summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/childinc-summary.pdf
     name: 2022 Imputed Income Sample child summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adultinc22.zip
     name: 2022 Imputed Income Sample Adult ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/adultinc22csv.zip
     name: 2022 Imputed Income Sample Adult CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adultinc.sas
     name: 2022 Imputed Income Sample Adult SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adultinc.sps
     name: 2022 Imputed Income Sample Adult SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/Adultinc.do
     name: 2022 Imputed Income Sample Adult Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/childinc22.zip
     name: 2022 Imputed Income Sample Child ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/childinc22csv.zip
     name: 2022 Imputed Income Sample Child CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/childinc.sas
     name: 2022 Imputed Income Sample Child SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/childinc.sps
     name: 2022 Imputed Income Sample Child SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/childinc.do
     name: 2022 Imputed Income Sample Child Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/srvydesc-paradata-508.pdf
     name: 2022 Paradata Survey description document
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/paradata-summary.pdf
     name: 2022 Paradata Summary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/paradata-codebook.pdf
     name: 2022 Paradata Codebook
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Dataset_Documentation/NHIS/2022/paradata-nofreq-codebook.pdf
     name: 2022 Paradata Codebook for restricted-use variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/paradata22.zip
     name: 2022 Paradata ASCII data file
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Datasets/NHIS/2022/paradata22csv.zip
     name: 2022 Paradata CSV data file
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/paradata.sas
     name: 2022 Paradata SAS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/paradata.sps
     name: 2022 Paradata SPSS input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://ftp.cdc.gov/pub/Health_Statistics/NCHS/Program_Code/NHIS/2022/paradata.do
     name: 2022 Paradata Stata input statements
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.cdc.gov/nchs/nhis/documentation/2021-nhis.html
     name: 2021 Questionnaires, Datasets, and Documentation
     resource_type: Data Repository or Listings page

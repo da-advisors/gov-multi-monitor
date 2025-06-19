@@ -12,6 +12,7 @@ linked_urls:
   - url: https://www.census.gov/programs-surveys/acs/data.html
     name: American Community Survey Data
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/about/what/admin-data.html
     name: Combining Data
     resource_type: Supporting Documentation Page
@@ -21,6 +22,7 @@ linked_urls:
   - url: https://www.census.gov/data/datasets.html
     name: Datasets
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/microdata.html
     name: Microdata
     resource_type: Supporting Documentation Page
@@ -33,42 +35,53 @@ linked_urls:
   - url: https://www.census.gov/programs-surveys/acs/technical-documentation.html
     name: Technical Documentation
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/methodology.html
     name: Research & Methodology
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/technical-documentation/table-and-geography-changes.html
     name: Table & Geography Changes
     resource_type: Supporting Documentation Page
   - url: https://www.census.gov/data/developers/data-sets.html
     name: American Community Survey APIs
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/acs-1year.html
     name: American Community Survey 1-Year Data (2005-2023) API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/ACS-supplemental-data.html
     name: American Community Survey 1-Year Supplemental Data (2014 - 2023) API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/acs-3year.html
     name: American Community Survey 3-Year Data (2007-2013) API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/acs-5year.html
     name: American Community Survey 5-Year Data (2009-2023) API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/acs-migration-flows.html
     name: American Community Survey Migration Flows API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/data/developers/data-sets/language-stats.html
     name: Language Statistics ACS (2013) API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/news/data-releases.html
     name: Data Releases
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/news/data-releases/2024/release-schedule.html
     name: 2024 Data Releases Schedule
     resource_type: Supporting Documentation Page
   - url: https://www.census.gov/programs-surveys/acs/technical-documentation/code-lists.html
     name: Code Lists, Definitions, and Accuracy
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/data/data-tables.html
     name: Data Tables
     resource_type: Supporting Documentation Page
@@ -81,15 +94,19 @@ linked_urls:
   - url: https://www2.census.gov/programs-surveys/acs/data/pums/2023/1-Year/
     name: 2023 ACS 1-Year Public Use Microdata Sample
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/data/pums/2023/5-Year/
     name: 2023 ACS 5-Year Public Use Microdata Sample
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/data/pums/2022/1-Year/
     name: 2022 ACS 1-Year Public Use Microdata Sample
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/data/pums/2022/5-Year/
     name: 2022 ACS 5-Year Public Use Microdata Sample
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/data/pums/2021/1-Year/
     name: 2021 ACS 1-Year Public Use Microdata Sample
     resource_type: Data Repository or Listings page
@@ -138,69 +155,91 @@ linked_urls:
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2023_ACS_Code_Lists.xlsx
     name: 2023 Code List
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2023_Instructions_for_Stat_Testing_ACS.pdf
     name: 2023 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2023_ACSSubjectDefinitions.pdf
     name: 2023 Subject Definitions
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2023_ACS_Accuracy_Document_Worked_Examples.pdf
     name: 2023 Worked Examples for Approximating Margins of Error
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2023GQ_Definitions.pdf
     name: 2023 Group Quarters Definitions
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2023.pdf
     name: 2023 ACS 1-year Accuracy of the Data (US)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2023.pdf
     name: 2023 PRCS 1-year Accuracy of the Data (Puerto Rico)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2023.pdf
     name: 2019-2023 ACS 5-year Accuracy of the Data (US)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2023.pdf
     name: 2019-2023 PRCS 5-year Accuracy of the Data (Puerto Rico)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2023.html
     name: 2023 Comparison Guidance
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/jam_values/2023_Jam_Values.xlsx
     name: 2023 Jam Values
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2022_ACS_Code_Lists.xlsx
     name: 2022 Code List
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/statistical_testing/2022_Instructions_for_Stat_Testing_ACS.pdf
     name: 2022 Instructions for Applying Statistical Testing to ACS 1-year and 5-year Data
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/subject_definitions/2022_ACSSubjectDefinitions.pdf
     name: 2022 Subject Definitions
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/2022_ACS_Accuracy_Document_Worked_Examples.pdf
     name: 2022 Worked Examples for Approximating Margins of Error
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/group_definitions/2022GQ_Definitions.pdf
     name: 2022 Group Quarters Definitions
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/ACS_Accuracy_of_Data_2022.pdf
     name: 2022 ACS 1-year Accuracy of the Data (US)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/PRCS_Accuracy_of_Data_2022.pdf
     name: 2022 PRCS 1-year Accuracy of the Data (Puerto Rico)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearACSAccuracyofData2022.pdf
     name: 2018-2022 ACS 5-year Accuracy of the Data (US)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/accuracy/MultiyearPRCSAccuracyofData2022.pdf
     name: 2018-2022 PRCS 5-year Accuracy of the Data (Puerto Rico)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/acs/guidance/comparing-acs-data/2022.html
     name: 2022 Comparison Guidance
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/jam_values/2022_Jam_Values.xlsx
     name: 2022 Jam Values
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/acs/tech_docs/code_lists/2021_ACS_Code_Lists.pdf
     name: 2021 Code List
     resource_type: Supporting Documentation Page

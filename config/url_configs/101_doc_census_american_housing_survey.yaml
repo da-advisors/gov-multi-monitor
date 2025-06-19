@@ -9,15 +9,19 @@ linked_urls:
   - url: https://www.census.gov/programs-surveys/ahs/data.html
     name: Data
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/codebooks.html
     name: Public Use File Codebooks
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/ahs/about/methodology.html
     name: Methodology
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/data/data-tools/ahs-table-creator.html
     name: American Housing Survey Table Creator
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://www.census.gov/programs-surveys/ahs/tech-documentation/user-notes/ahs-table-creator-release-notes.html
     name: American Housing Survey Table Creator Release Notes
     resource_type: Supporting Documentation Page
@@ -33,105 +37,139 @@ linked_urls:
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20v1.1%20SAS.zip
     name: AHS 2023 National PUF v1.1 SAS [140 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20v1.1%20CSV.zip
     name: AHS 2023 National PUF v1.1 CSV [124 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20Version%20Control.pdf
     name: AHS 2023 National PUF Version Control [<1MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20v1.1%20Flat%20SAS.zip
     name: AHS 2023 National PUF v1.1 Flat SAS [161 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20National%20PUF%20v1.1%20Flat%20CSV.zip
     name: AHS 2023 National PUF v1.1 Flat CSV [136 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Table%20Specifications%20and%20PUF%20Estimates%20for%20User%20Verification.xlsx
     name: AHS 2023 Table Specifications and PUF Estimates for User Verification [<1.0MB]
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Value%20Labels%20Package.zip
     name: AHS 2023 Value Labels Package [<1.0MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Metropolitan%20PUF%20v1.1%20SAS.zip
     name: AHS 2023 Metropolitan PUF v1.1 SAS [22MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Metropolitan%20PUF%20v1.1%20CSV.zip
     name: AHS 2023 Metropolitan PUF v1.1 CSV [20MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Metropolitan%20PUF%20Version%20Control.pdf
     name: AHS 2023 Metropolitan PUF Version Control [<1MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Metropolitan%20PUF%20v1.1%20Flat%20SAS.zip
     name: AHS 2023 Metropolitan PUF v1.1 Flat SAS [27MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/AHS%202023%20Metropolitan%20PUF%20v1.1%20Flat%20CSV.zip
     name: AHS 2023 Metropolitan PUF v1.1 Flat CSV [22MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023%20AHS%20Definitions.pdf
     name: 2023 AHS Definitions  [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023%20AHS%20National%20Sample%20Design,%20Weighting,%20and%20Error%20Estimation.pdf
     name: 2023 AHS National Sample Design, Weighting, and Error Estimation [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023%20AHS%20Metropolitan%20Sample%20Design,%20Weighting,%20and%20Error%20Estimation.pdf
     name: 2023 AHS Metropolitan Sample Design, Weighting, and Error Estimation [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023%20AHS%20Historical%20Changes.pdf
     name: 2023 AHS Historical Changes [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023__AHS_Items_Booklet.pdf
     name: 2023 AHS Items Booklet [1.9 MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2023/2023%20AHS%20Items%20Booklet_Spanish.pdf
     name: 2023 Spanish Language Items Booklet [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20SAS.zip
     name: AHS 2021 National PUF v1.0 SAS [160 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20CSV.zip
     name: AHS 2021 National PUF v1.0 CSV [142 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20SAS.zip
     name: AHS 2021 National PUF v1.0 Flat SAS [187 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20National%20PUF%20v1.0%20Flat%20CSV.zip
     name: AHS 2021 National PUF v1.0 Flat CSV [154 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Table%20Specifications%20and%20PUF%20Estimates%20for%20User%20Verification.xlsx
     name: AHS 2021 Table Specifications and PUF Estimates for User Verification [<1.0MB]
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20Value%20Labels%20Package.zip
     name: AHS 2021 Value Labels Package [<1.0MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20Metropolitan%20PUF%20v1.0%20SAS.zip
     name: AHS 2021 Metropolitan PUF v1.0 SAS [47.6 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20Metropolitan%20PUF%20v1.0%20CSV.zip
     name: AHS 2021 Metropolitan PUF v1.0 CSV [42.5 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20Metropolitan%20PUF%20v1.0%20Flat%20SAS.zip
     name: AHS 2021 Metropolitan PUF v1.0 Flat SAS [57.6 MB]
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/AHS%202021%20Metropolitan%20PUF%20v1.0%20Flat%20CSV.zip
     name: AHS 2021 Metropolitan PUF v1.0 Flat CSV [46.7 MB]
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Definitions.pdf
     name: 2021 AHS Definitions  [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20National%20Sample%20Design,%20Weighting,%20and%20Error%20Estimation.pdf
     name: 2021 AHS National Sample Design, Weighting, and Error Estimation [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Metropolitan%20Sample%20Design,%20Weighting,%20and%20Error%20Estimation.pdf
     name: 2021 AHS Metropolitan Sample Design, Weighting, and Error Estimation [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Historical%20Changes.pdf
     name: 2021 AHS Historical Changes [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Items%20Booklet.pdf
     name: 2021 AHS Items Booklet [1.9 MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2021/2021%20AHS%20Spanish%20Language%20Items%20Booklet.pdf
     name: 2021 Spanish Language Items Booklet [<1.0MB]
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www2.census.gov/programs-surveys/ahs/2019/AHS%202019%20National%20PUF%20v1.1%20SAS.zip
     name: AHS 2019 National PUF v1.1 SAS [157 MB]
     resource_type: Data File (Other)
@@ -291,15 +329,19 @@ linked_urls:
   - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2023National.pdf
     name: AHS Mini Codebook 2023 National Variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2023Metro.pdf
     name: AHS Mini Codebook 2023 Metro Variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2021National.pdf
     name: AHS Mini Codebook 2021 National Variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2021Metro.pdf
     name: AHS Mini Codebook 2021 Metro Variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.census.gov/data-tools/demo/data/uccb/ahsdict/minicodebooks/ahs_mini_2019National.pdf
     name: AHS Mini Codebook 2019 National Variables
     resource_type: Supporting Documentation Page

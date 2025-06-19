@@ -11,42 +11,50 @@ linked_urls:
   - url: https://www.usaspending.gov/data/data-sources-download.pdf
     name: Data Sources (pdf)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.usaspending.gov/training-videos
     name: Training Videos
     resource_type: Supporting Documentation Page
   - url: https://www.usaspending.gov/data/about-the-data-download.pdf
     name: About the Data (pdf)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.usaspending.gov/data-dictionary
     name: Data Dictionary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://files.usaspending.gov/docs/Data_Dictionary_Crosswalk.xlsx
     name: Data Dictionary (xlsx)
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.usaspending.gov/submission-statistics?tab=submissions&fy=2025&period=5
     name: About These Statistics
     resource_type: Supporting Documentation Page
   - url: https://api.usaspending.gov/
     name: API Endpoints
     resource_type: API Endpoint
+    key_resource: True
   - url: https://github.com/fedspendingtransparency/usaspending-website/tree/master
     name: USAspending GitHub
-    resource_type:
+    resource_type: Supporting Documentation Page
   - url: https://github.com/fedspendingtransparency/usaspending-website/wiki
     name: Release Notes of the Latest Changes
     resource_type: Supporting Documentation Page
   - url: https://files.usaspending.gov/docs/USAspending-data-catalog.json
     name: Dataset Metadata (JSON)
     resource_type: Data File (JSON)
+    key_resource: True
   - url: https://onevoicecrm.my.site.com/usaspending/s/database-download
     name: Database Download
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://files.usaspending.gov/database_download/usaspending-db-setup.pdf
     name: Database Archive - Recommended Download and Restoration Proces (pdf)
     resource_type: Supporting Documentation Page
   - url: https://files.usaspending.gov/docs/Custom+Account+Data+Dictionary.xlsx
     name: Custom Account Data Dictionary
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://www.usaspending.gov/search
     name: Search Award Data
     resource_type: Interactive Dashboard/Data Explorer
@@ -80,24 +88,31 @@ linked_urls:
   - url: https://www.usaspending.gov/download_center/award_data_archive
     name: Award Data Archive
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY(All)_All_Contracts_Delta_20250324.zip
     name: Award Data - All Contracts Delta File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY(All)_All_Assistance_Delta_20250324.zip
     name: Award Data - All Financial Assistance Delta File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY2025_All_Contracts_Full_20250324.zip
     name: FY25 Award Data - All Contracts Full File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY2025_All_Assistance_Full_20250324.zip
     name: FY25 Award Data - All Financial Assistance Full File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY2024_All_Contracts_Full_20250324.zip
     name: FY24 Award Data - All Contracts Full File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY2024_All_Assistance_Full_20250324.zip
     name: FY24 Award Data - All Financial Assistance Full File
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://files.usaspending.gov/award_data_archive/FY2023_All_Contracts_Full_20250324.zip
     name: FY23 Award Data - All Contracts Full File
     resource_type: Data File (Other)

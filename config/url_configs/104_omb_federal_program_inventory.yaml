@@ -8,12 +8,16 @@ linked_urls:
   - url: https://fpi.omb.gov/assets/files/all-program-data.csv
     name: Data
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://fpi.omb.gov/about/about-the-data
     name: About the Data
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://fpi.omb.gov/search?f=eyJjb2RlcyI6eyIwIjoiIn0sImEiOlsicDAiXSwiYyI6WyJwMCJdLCJ0IjpbIjAiXSwicCI6WyIwIl19&s=od
     name: Program Search
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
   - url: https://fpi.omb.gov/category
     name: Explore Programs by Category
     resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True

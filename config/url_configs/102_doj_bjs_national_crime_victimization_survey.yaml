@@ -11,15 +11,19 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/series/95/variables
     name: Variables
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/national-crime-victimization-survey-ncvs-api#1-0
     name: API
     resource_type: API Endpoint
+    key_resource: True
   - url: https://bjs.ojp.gov/document/ncvs23_bsq.pdf
     name: NCVS Basic Screen Questionnaire 2023 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_bsq.pdf
     name: NCVS Basic Screen Questionnaire 2022 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_bsq.pdf
     name: NCVS Basic Screen Questionnaire 2020-2021 PDF
     resource_type: Supporting Documentation Page
@@ -62,9 +66,11 @@ linked_urls:
   - url: https://bjs.ojp.gov/document/ncvs23_cir.pdf
     name: NCVS Crime Incident Report 2023 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/content/pub/pdf/ncvs22_cir.pdf
     name: NCVS Crime Incident Report 2022 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/content/pub/pdf/ncvs20_cir.pdf
     name: NCVS Crime Incident Report 2020-2021 PDF
     resource_type: Supporting Documentation Page
@@ -113,9 +119,11 @@ linked_urls:
   - url: https://bjs.ojp.gov/document/ncvs500_2023.pdf
     name: NCVS Control Card 2023 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/content/pub/pdf/ncvs500_2022.pdf
     name: NCVS Control Card 2022 PDF
     resource_type: Supporting Documentation Page
+    key_resource: True
   - url: https://bjs.ojp.gov/sites/g/files/xyckuh236/files/media/survey/ncvs500_2020.pdf
     name: NCVS Control Card 2020-2021 PDF
     resource_type: Supporting Documentation Page
@@ -137,12 +145,15 @@ linked_urls:
   - url: https://bjs.ojp.gov/bjs.ojp.gov/samplesize.xlsx
     name: Participation Rates
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://bjs.ojp.gov/bjs.ojp.gov/personpop.xlsx
     name: Population Counts (Person)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://bjs.ojp.gov/bjs.ojp.gov/householdpop.xlsx
     name: Population Counts (Household)
     resource_type: Data File (Excel)
+    key_resource: True
   - url: https://bjs.ojp.gov/document/manual2019.pdf
     name: NCVS CAPI Interviewing Manual for Field Representatives
     resource_type: Supporting Documentation Page
@@ -284,6 +295,7 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38963/datadocumentation
     name: National Crime Victimization Survey, Concatenated File, [United States], 1992-2023 (ICPSR 38963)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/36830/datadocumentation
     name: National Crime Victimization Survey, Historical Trends, [United States], 1973-2014 (ICPSR 36830)
     resource_type: Data Repository or Listings page
@@ -302,9 +314,11 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/37923/datadocumentation
     name: National Crime Victimization Survey, Identity Theft Supplement, [United States], 2018 (ICPSR 37923)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38501/datadocumentation
     name: National Crime Victimization Survey, Identity Theft Supplement, [United States], 2021 (ICPSR 38501)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/4414/datadocumentation
     name: National Crime Victimization Survey Longitudinal File, 1995-1999 (ICPSR 4414)
     resource_type: Data Repository or Listings page
@@ -350,9 +364,11 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/37816/datadocumentation
     name: National Crime Victimization Survey, School Crime Supplement, [United States], 2019 (ICPSR 37816)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38666/datadocumentation
     name: National Crime Victimization Survey, School Crime Supplement, [United States], 2022 (ICPSR 38666)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/20080/datadocumentation
     name: National Crime Victimization Survey, Stalking Victimization Supplement, 2006 (ICPSR 20080)
     resource_type: Data Repository or Listings page
@@ -428,9 +444,11 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38603/datadocumentation
     name: National Crime Victimization Survey, [United States], 2022 (ICPSR 38603)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38962/datadocumentation
     name: National Crime Victimization Survey, [United States], 2023 (ICPSR 38962)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/30581/datadocumentation
     name: National Crime Victimization Survey, Workplace Risk Supplement, 2002 (ICPSR 30581)
     resource_type: Data Repository or Listings page
@@ -458,9 +476,11 @@ linked_urls:
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38320/datadocumentation
     name: Police-Public Contact Survey, 2020 (ICPSR 38320)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/38872/datadocumentation
     name: Police-Public Contact Survey, 2022 (ICPSR 38872)
     resource_type: Data Repository or Listings page
+    key_resource: True
   - url: https://www.icpsr.umich.edu/web/NACJD/studies/32741/datadocumentation
     name: Protective Behaviors of Student Victims of Bullying, A Rare Events Analysis of the 2009 School Crime Supplement to the National Crime Victimization Survey (ICPSR 32741)
     resource_type: Data Repository or Listings page

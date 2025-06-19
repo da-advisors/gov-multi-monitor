@@ -18,21 +18,27 @@ linked_urls:
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.csv
     name: Full Data (csv)
     resource_type: Data File (CSV)
+    key_resource: True
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.json
     name: Full Data (json)
     resource_type: Data File (JSON)
+    key_resource: True
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.jsona
     name: Full Data (jsona)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.jsonl
     name: Full Data (jsonl)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms.parquet
     name: Full Data (parquet)
     resource_type: Data File (Other)
+    key_resource: True
   - url: https://www.fema.gov/api/open/v2/RegistrationIntakeIndividualsHouseholdPrograms
     name: API Endpoint
     resource_type: API Endpoint
+    key_resource: True
   - url: https://www.fema.gov/api/open/v1/OpenFemaDataSets?$filter=name%20eq%20%27RegistrationIntakeIndividualsHouseholdPrograms%27
     name: Metadata API
     resource_type: API Endpoint
