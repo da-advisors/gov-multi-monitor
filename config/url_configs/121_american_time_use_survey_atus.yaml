@@ -1,0 +1,745 @@
+url: https://www.bls.gov/tus/
+name: American Time Use Survey (ATUS)
+description: The American Time Use Survey (ATUS) provides nationally representative estimates of how, where, and with whom Americans spend their time, and is the only federal survey providing data on the full range of nonmarket activities. These activities include work, childcare, housework, watching television, volunteering, and socializing.
+omb_control_number: 1220-0175
+tags:
+  - Demographics
+  - Economics
+  - Employment, Labor, or Workforce
+linked_urls:
+  - url: https://www.bls.gov/tus/other-documentation/howto.htm
+    name: How to use ATUS microdata files
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/data/datafiles-2024.htm
+    name: American Time Use Survey—2024 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bls.gov/tus/data/datafiles-2023.htm
+    name: American Time Use Survey—2023 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bls.gov/tus/data/datafiles-2022.htm
+    name: American Time Use Survey—2022 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles-2021.htm
+    name: American Time Use Survey—2021 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles-2020.htm
+    name: American Time Use Survey—2020 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles-2019.htm
+    name: American Time Use Survey—2019 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles-2018.htm
+    name: American Time Use Survey—2018 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2017.htm
+    name: American Time Use Survey—2017 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2016.htm
+    name: American Time Use Survey—2016 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2015.htm
+    name: American Time Use Survey—2015 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2014.htm
+    name: American Time Use Survey—2014 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2013.htm
+    name: American Time Use Survey—2013 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2012.htm
+    name: American Time Use Survey—2012 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2011.htm
+    name: American Time Use Survey—2011 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2010.htm
+    name: American Time Use Survey—2010 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2009.htm
+    name: American Time Use Survey—2009 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2008.htm
+    name: American Time Use Survey—2008 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2007.htm
+    name: American Time Use Survey—2007 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2006.htm
+    name: American Time Use Survey—2006 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2005.htm
+    name: American Time Use Survey—2005 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2004.htm
+    name: American Time Use Survey—2004 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles_2003.htm
+    name: American Time Use Survey—2003 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/data/datafiles-0324.htm
+    name: American Time Use Survey—2003-2024 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bls.gov/tus/data/datafiles-0323.htm
+    name: American Time Use Survey—2003-2023 Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bls.gov/tus/modules/wbdatafiles.htm
+    name: American Time Use Survey—Well-Being Module Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/modules/lvdatafiles.htm
+    name: American Time Use Survey—Leave Module Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/modules/ehdatafiles.htm
+    name: American Time Use Survey—Eating & Health Module Microdata files
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bls.gov/tus/datafiles/atusresp-2024.zip
+    name: ATUS 2024 Respondent file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrost-2024.zip
+    name: ATUS 2024 Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusact-2024.zip
+    name: ATUS 2024 Activity file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atussum-2024.zip
+    name: ATUS 2024 Activity summary file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswho-2024.zip
+    name: ATUS 2024 Who file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrostec-2024.zip
+    name: ATUS 2024 Eldercare Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscps-2024.zip
+    name: ATUS-CPS 2024 file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscase-2024.zip
+    name: ATUS 2024 Case history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscall-2024.zip
+    name: ATUS 2024 Call history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgts-2024.zip
+    name: ATUS 2024 Replicate weights
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusresp-2023.zip
+    name: ATUS 2023 Respondent file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrost-2023.zip
+    name: ATUS 2023 Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusact-2023.zip
+    name: ATUS 2023 Activity file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atussum-2023.zip
+    name: ATUS 2023 Activity summary file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswho-2023.zip
+    name: ATUS 2023 Who file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrostec-2023.zip
+    name: ATUS 2023 Eldercare Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscps-2023.zip
+    name: ATUS-CPS 2023 file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscase-2023.zip
+    name: ATUS 2023 Case history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscall-2023.zip
+    name: ATUS 2023 Call history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgts-2023.zip
+    name: ATUS 2023 Replicate weights
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusresp-0324.zip
+    name: ATUS 2003–2024 Respondent file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrost-0324.zip
+    name: ATUS 2003–2024 Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusact-0324.zip
+    name: ATUS 2003–2024 Activity file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atussum-0324.zip
+    name: ATUS 2003–2024 Activity summary file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswho-0324.zip
+    name: ATUS 2003–2024 Who file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscps-0324.zip
+    name: ATUS-CPS 2003–2024 file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrostec-1124.zip
+    name: ATUS 2011–2024 Eldercare Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgts-0324.zip
+    name: ATUS 2003–2024 Replicate weights file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgtspan-1920.zip
+    name: ATUS 2019–2020 Pandemic Replicate weights file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscase-0524.zip
+    name: ATUS 2005–2024 Case history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusresp-0323.zip
+    name: ATUS 2003–2023 Respondent file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrost-0323.zip
+    name: ATUS 2003–2023 Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusact-0323.zip
+    name: ATUS 2003–2023 Activity file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atussum-0323.zip
+    name: ATUS 2003–2023 Activity summary file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswho-0323.zip
+    name: ATUS 2003–2023 Who file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscps-0323.zip
+    name: ATUS-CPS 2003–2023 file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atusrostec-1123.zip
+    name: ATUS 2011–2023 Eldercare Roster file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgts-0323.zip
+    name: ATUS 2003–2023 Replicate weights file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuswgtspan-1920.zip
+    name: ATUS 2019–2020 Pandemic Replicate weights file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/datafiles/atuscase-0523.zip
+    name: ATUS 2005–2023 Case history file
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://www.bls.gov/tus/database.htm
+    name: ATUS Database
+    resource_type: Interactive Dashboard/Data Explorer
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-sex.htm
+    name: Average hours per day spent in selected activities by sex and day, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/civ-pop-by-sex-and-day.htm
+    name: Percent of the population engaging in selected activities, averages per day by sex and day, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-emp.htm
+    name: Average hours per day spent in selected activities by employment status and sex, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-work.htm
+    name: Average hours per day spent in selected activities on days worked by employment status and sex, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-age.htm
+    name: Average hours per day spent in selected activities by age, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-agem.htm
+    name: Average hours per day spent in selected activities by age, men, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-agew.htm
+    name: Average hours per day spent in selected activities by age, women, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/emp-by-ftpt-job-edu-h.htm
+    name: Average hours employed people spent working on days worked by day of week, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/emp-by-ftpt-job-edu-p.htm
+    name: Percent of employed people who worked by day of week, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/work-by-ftpt-job-edu-h.htm
+    name: Average hours employed people spent working at home and at their workplace on days worked at these locations, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/work-by-ftpt-job-edu-p.htm
+    name: Percent of employed people who worked at home and at their workplace on days worked, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm
+    name: Average hours per day spent in selected household activities, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-hldp.htm
+    name: Percent of the population engaging in selected household activities, averages per day by sex, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-by-parent.htm
+    name: Average hours per day parents spent caring for and helping household children as their main activity, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-leisure.htm
+    name: Average hours per day spent in selected leisure and sports activities by age, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/charts/american-time-use/activity-leisure-by-sex.htm
+    name: Average hours per day spent in selected leisure and sports activities by sex, employment status, and day, annual averages
+    resource_type: Data table
+    key_resource: False
+  - url: https://www.bls.gov/tus/atususersguide.pdf
+    name: American Time Use Survey User’s Guide
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/other-documentation/freqvariables.pdf
+    name: Frequently Used Variables American Time Use Survey (ATUS) June 2025
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/questionnaires/tuquestionnaire.pdf
+    name: ATUS 2011-2024 Current Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/questionnaires/tuquestionnaire0310.pdf
+    name: ATUS 2003-2010 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/ehmquestionnaire2223.pdf
+    name: ATUS Eating & Health Module 2022-2023 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/ehmquestionnaire1416.pdf
+    name: ATUS Eating & Health Module 2014-16 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/ehmquestionnaire0608.pdf
+    name: ATUS Eating & Health Module 2006-08 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/wbmquestionnaire.pdf
+    name: ATUS Well-Being Module Questionnaire (2010, 2012, 2013 and 2021)
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/lvmquestionnaire.pdf
+    name: ATUS 2011 Leave Module Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/questionnaires/lvmquestionnaire1718.pdf
+    name: ATUS 2017-18 Leave and Job Flexibilities Module Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/other-documentation/changes.pdf
+    name: Changes Between 2003 - 2024 Data Files American Time Use Survey (ATUS) June 2025
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk24.pdf
+    name: ATUS Interview Data Dictionary 2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk23.pdf
+    name: ATUS Interview Data Dictionary 2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk22.pdf
+    name: ATUS Interview Data Dictionary 2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk21.pdf
+    name: ATUS Interview Data Dictionary 2021
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk20.pdf
+    name: ATUS Interview Data Dictionary 2020
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk19.pdf
+    name: ATUS Interview Data Dictionary 2019
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk18.pdf
+    name: ATUS Interview Data Dictionary 2018
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk17.pdf
+    name: ATUS Interview Data Dictionary 2017
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk16.pdf
+    name: ATUS Interview Data Dictionary 2016
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk15.pdf
+    name: ATUS Interview Data Dictionary 2015
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk14.pdf
+    name: ATUS Interview Data Dictionary 2014
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk13.pdf
+    name: ATUS Interview Data Dictionary 2013
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk12.pdf
+    name: ATUS Interview Data Dictionary 2012
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk11.pdf
+    name: ATUS Interview Data Dictionary 2011
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk10.pdf
+    name: ATUS Interview Data Dictionary 2010
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk09.pdf
+    name: ATUS Interview Data Dictionary 2009
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk08.pdf
+    name: ATUS Interview Data Dictionary 2008
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk07.pdf
+    name: ATUS Interview Data Dictionary 2007
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk06.pdf
+    name: ATUS Interview Data Dictionary 2006
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk05.pdf
+    name: ATUS Interview Data Dictionary 2005
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk04.pdf
+    name: ATUS Interview Data Dictionary 2004
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebook.pdf
+    name: ATUS Interview Data Dictionary 2003
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk24.pdf
+    name: ATUS-CPS Data Dictionary 2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk23.pdf
+    name: ATUS-CPS Data Dictionary 2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk22.pdf
+    name: ATUS-CPS Data Dictionary 2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk21.pdf
+    name: ATUS-CPS Data Dictionary 2021
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk20.pdf
+    name: ATUS-CPS Data Dictionary 2020
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk19.pdf
+    name: ATUS-CPS Data Dictionary 2019
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk18.pdf
+    name: ATUS-CPS Data Dictionary 2018
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk17.pdf
+    name: ATUS-CPS Data Dictionary 2017
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk16.pdf
+    name: ATUS-CPS Data Dictionary 2016
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk15.pdf
+    name: ATUS-CPS Data Dictionary 2015
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk14.pdf
+    name: ATUS-CPS Data Dictionary 2014
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk13.pdf
+    name: ATUS-CPS Data Dictionary 2013
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk12.pdf
+    name: ATUS-CPS Data Dictionary 2012
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk11.pdf
+    name: ATUS-CPS Data Dictionary 2011
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk10.pdf
+    name: ATUS-CPS Data Dictionary 2010
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk09.pdf
+    name: ATUS-CPS Data Dictionary 2009
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk08.pdf
+    name: ATUS-CPS Data Dictionary 2008
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk07.pdf
+    name: ATUS-CPS Data Dictionary 2007
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk06.pdf
+    name: ATUS-CPS Data Dictionary 2006
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk05.pdf
+    name: ATUS-CPS Data Dictionary 2005
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk04.pdf
+    name: ATUS-CPS Data Dictionary 2004
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebook.pdf
+    name: ATUS-CPS Data Dictionary 2003
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk24.pdf
+    name: ATUS Survey Methodology Data Dictionary 2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk23.pdf
+    name: ATUS Survey Methodology Data Dictionary 2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk22.pdf
+    name: ATUS Survey Methodology Data Dictionary 2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk21.pdf
+    name: ATUS Survey Methodology Data Dictionary 2021
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk20.pdf
+    name: ATUS Survey Methodology Data Dictionary 2020
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk19.pdf
+    name: ATUS Survey Methodology Data Dictionary 2019
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk18.pdf
+    name: ATUS Survey Methodology Data Dictionary 2018
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk17.pdf
+    name: ATUS Survey Methodology Data Dictionary 2017
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk16.pdf
+    name: ATUS Survey Methodology Data Dictionary 2016
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk15.pdf
+    name: ATUS Survey Methodology Data Dictionary 2015
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk14.pdf
+    name: ATUS Survey Methodology Data Dictionary 2014
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk13.pdf
+    name: ATUS Survey Methodology Data Dictionary 2013
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk12.pdf
+    name: ATUS Survey Methodology Data Dictionary 2012
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk11.pdf
+    name: ATUS Survey Methodology Data Dictionary 2011
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk10.pdf
+    name: ATUS Survey Methodology Data Dictionary 2010
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk09.pdf
+    name: ATUS Survey Methodology Data Dictionary 2009
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk08.pdf
+    name: ATUS Survey Methodology Data Dictionary 2008
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk07.pdf
+    name: ATUS Survey Methodology Data Dictionary 2007
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk06.pdf
+    name: ATUS Survey Methodology Data Dictionary 2006
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk05.pdf
+    name: ATUS Survey Methodology Data Dictionary 2005
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk04.pdf
+    name: ATUS Survey Methodology Data Dictionary 2004
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebook.pdf
+    name: ATUS Survey Methodology Data Dictionary 2003
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk10.pdf
+    name: ATUS Trips Data Dictionary 2010
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk09.pdf
+    name: ATUS Trips Data Dictionary 2009
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk08.pdf
+    name: ATUS Trips Data Dictionary 2008
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk07.pdf
+    name: ATUS Trips Data Dictionary 2007
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk06.pdf
+    name: ATUS Trips Data Dictionary 2006
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atustrcodebk05.pdf
+    name: ATUS Trips Data Dictionary 2005
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/ehmintcodebk2223.pdf
+    name: ATUS Eating & Health Module Data Dictionary 2022-2023
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/ehmintcodebk1416.pdf
+    name: ATUS Eating & Health Module Data Dictionary 2014-2016
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/ehmintcodebk.pdf
+    name: ATUS Eating & Health Module Data Dictionary 2006-2008
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/wbmintcodebk21.pdf
+    name: ATUS Well-Being Module Data Dictionary 2021
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/wbmintcodebk.pdf
+    name: ATUS Well-Being Module Data Dictionary 2010, 2012, and 2013
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/lvmintcodebk1718.pdf
+    name: ATUS Leave Module Data Dictionary 2017-2018
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/lvmintcodebk.pdf
+    name: ATUS Leave Module Data Dictionary 2011
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk0324.pdf
+    name: ATUS Multi-Year Interview Data Dictionary 2003-2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk0323.pdf
+    name: ATUS Multi-Year Interview Data Dictionar 2003-2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atusintcodebk0322.pdf
+    name: ATUS Multi-Year Interview Data Dictionar2003-2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk0324.pdf
+    name: ATUS-CPS Multi-Year Data Dictionary 2003-2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk0323.pdf
+    name: ATUS-CPS Multi-Year Data Dictionary 2003-2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atuscpscodebk0322.pdf
+    name: ATUS-CPS Multi-Year Data Dictionary 2003-2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk0524.pdf
+    name: ATUS Multi-Year Survey Methodology Dictionary 2005-2024
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk0523.pdf
+    name: ATUS Multi-Year Survey Methodology Dictionary 2005-2023
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bls.gov/tus/dictionaries/atussmcodebk0522.pdf
+    name: ATUS Multi-Year Survey Methodology Dictionary 2005-2022
+    resource_type: Supporting Documentation Page
+    key_resource: False
