@@ -14,9 +14,6 @@ linked_urls:
     name: Current Population Survey, November 2024 Voting Supplement File
     resource_type: Supporting Documentation Page
     key_resource: True
-
-fill in 2024 data
-
   - url: https://www2.census.gov/programs-surveys/cps/techdocs/cpsnov22.pdf
     name: Current Population Survey, November 2022 Voting Supplement File
     resource_type: Supporting Documentation Page
