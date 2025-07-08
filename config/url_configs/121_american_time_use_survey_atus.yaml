@@ -284,23 +284,19 @@ linked_urls:
     resource_type: Interactive Dashboard/Data Explorer
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-sex.htm
-    name: Average hours per day spent in selected activities by sex and day, annual
-      averages
+    name: Average hours per day spent in selected activities by sex and day, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/civ-pop-by-sex-and-day.htm
-    name: Percent of the population engaging in selected activities, averages per day
-      by sex and day, annual averages
+    name: Percent of the population engaging in selected activities, averages per day by sex and day, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-emp.htm
-    name: Average hours per day spent in selected activities by employment status and
-      sex, annual averages
+    name: Average hours per day spent in selected activities by employment status and sex, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-work.htm
-    name: Average hours per day spent in selected activities on days worked by employment
-      status and sex, annual averages
+    name: Average hours per day spent in selected activities on days worked by employment status and sex, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-age.htm
@@ -316,8 +312,7 @@ linked_urls:
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/emp-by-ftpt-job-edu-h.htm
-    name: Average hours employed people spent working on days worked by day of week,
-      annual averages
+    name: Average hours employed people spent working on days worked by day of week, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/emp-by-ftpt-job-edu-p.htm
@@ -325,13 +320,11 @@ linked_urls:
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/work-by-ftpt-job-edu-h.htm
-    name: Average hours employed people spent working at home and at their workplace
-      on days worked at these locations, annual averages
+    name: Average hours employed people spent working at home and at their workplace on days worked at these locations, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/work-by-ftpt-job-edu-p.htm
-    name: Percent of employed people who worked at home and at their workplace on days
-      worked, annual averages
+    name: Percent of employed people who worked at home and at their workplace on days worked, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-hldh.htm
@@ -339,23 +332,19 @@ linked_urls:
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-hldp.htm
-    name: Percent of the population engaging in selected household activities, averages
-      per day by sex, annual averages
+    name: Percent of the population engaging in selected household activities, averages per day by sex, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-by-parent.htm
-    name: Average hours per day parents spent caring for and helping household children
-      as their main activity, annual averages
+    name: Average hours per day parents spent caring for and helping household children as their main activity, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-leisure.htm
-    name: Average hours per day spent in selected leisure and sports activities by age,
-      annual averages
+    name: Average hours per day spent in selected leisure and sports activities by age, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/charts/american-time-use/activity-leisure-by-sex.htm
-    name: Average hours per day spent in selected leisure and sports activities by sex,
-      employment status, and day, annual averages
+    name: Average hours per day spent in selected leisure and sports activities by sex, employment status, and day, annual averages
     resource_type: Data table
     key_resource: False
   - url: https://www.bls.gov/tus/atususersguide.pdf
@@ -399,8 +388,7 @@ linked_urls:
     resource_type: Supporting Documentation Page
     key_resource: False
   - url: https://www.bls.gov/tus/other-documentation/changes.pdf
-    name: 'Changes Between 2003 - 2024 Data Files: American Time Use Survey (ATUS) June
-      2025'
+    name: Changes Between 2003 - 2024 Data Files American Time Use Survey (ATUS) June 2025
     resource_type: Supporting Documentation Page
     key_resource: True
   - url: https://www.bls.gov/tus/dictionaries/atusintcodebk24.pdf
