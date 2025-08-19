@@ -1,0 +1,2538 @@
+{
+  "source_urls": [
+    "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables"
+  ],
+  "data": [
+    {
+      "source_url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables",
+      "links": [
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables#skipNavTarget",
+          "name": "Skip to main content",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/",
+          "name": "[No text]",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/contact/newsroom",
+          "name": "CMS Newsroom",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/contact/newsroom",
+          "name": "Newsroom",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms",
+          "name": "About CMS",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research",
+          "name": "Data & Research",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/original-part-a-b",
+          "name": "Original Medicare (Part A and B) Eligibility and Enrollment",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare-participation",
+          "name": "Annual Medicare Participation Announcement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/providers-suppliers",
+          "name": "Providers & suppliers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/managed-care-eligibility-enrollment",
+          "name": "Medicare Managed Care Eligibility and Enrollment",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/part-d-enrollment-eligibility",
+          "name": "Part D Eligibility and Enrollment",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/health-plans",
+          "name": "Health plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/determination-process",
+          "name": "Coverage Determination Process",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare-coverage-database/search.aspx",
+          "name": "Medicare Coverage Database",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/approved-facilities-trials-registries",
+          "name": "Approved facilities, trials, & registries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/telehealth",
+          "name": "Telehealth",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/summary-notice",
+          "name": "Medicare Summary Notice",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage-contracting",
+          "name": "Prescription drug coverage contracting",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/evidence",
+          "name": "Coverage with evidence development",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/investigational-device-exemption-ide-studies",
+          "name": "Investigational device exemption studies",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/prescription-drug-coverage",
+          "name": "Prescription drug coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/prescription-drug-claims-data",
+          "name": "Drug coverage claims data",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/dental",
+          "name": "Dental coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/preventive-services-coverage",
+          "name": "Preventive Services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/center",
+          "name": "Medicare Coverage Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/end-stage-renal-disease-center",
+          "name": "End Stage Renal Disease (ESRD) Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coverage/ambulances-services-center",
+          "name": "Ambulances Services Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/manuals",
+          "name": "Manuals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/transmittals",
+          "name": "Transmittals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/guidance",
+          "name": "CMS Records Schedule",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/fee-for-service-payment-regulations",
+          "name": "Medicare Fee-for-Service payment regulations",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/regulations-and-guidance/administrative-simplification/nationalprovidentstand",
+          "name": "National Provider Identifier Standard (NPI)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/advisory-committees",
+          "name": "Advisory committees",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/legislation",
+          "name": "Legislation",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/promoting-interoperability-programs",
+          "name": "Promoting Interoperability Programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/cms-rulemaking",
+          "name": "CMS rulemaking",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/cms-hearing-officer",
+          "name": "CMS Hearing Officer",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/office-attorney-advisor",
+          "name": "Office of the Attorney Advisor (OAA)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/provider-reimbursement-review-board",
+          "name": "Provider Reimbursement Review Board (PRRB)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/geographic-classification-review-board",
+          "name": "Medicare Geographic Classification Review Board (MGCRB)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/physician-self-referral",
+          "name": "Physician Self-Referral",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/files/document/medqtrlycompnlarchive072019003pdf",
+          "name": "Quarterly provider updates",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing",
+          "name": "E-Prescribing",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/place-of-service-codes",
+          "name": "Place of service codes",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/icd-10-codes",
+          "name": "ICD-10 codes",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/healthcare-common-procedure-system",
+          "name": "Healthcare Common Procedure Coding System (HCPCS)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/outpatient-code-editor",
+          "name": "Integrated Outpatient Code Editor",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/ncci-medicare",
+          "name": "National Correct Coding Initiative (NCCI) edits",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/ncci-medicaid",
+          "name": "NCCI for Medicaid",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/electronic-billing",
+          "name": "Electronic billing",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/medicare-administrative-contractors-macs",
+          "name": "Medicare Administrative Contractors (MACs)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/provider-customer-service-program",
+          "name": "Provider Customer Service Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/skilled-nursing-facility-snf-consolidated-billing",
+          "name": "Skilled Nursing Facility (SNF) consolidated billing",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/roster-billing",
+          "name": "Roster billing",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/therapy-services",
+          "name": "Therapy services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/claims-public-health-emergencies",
+          "name": "Medicare claims & public health emergencies",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coding-billing/guide-medical-technology-companies-other-interested-parties",
+          "name": "Guide for Medical Technology Companies and Other Interested Parties",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/fee-for-service-providers/part-b-drugs/average-drug-sales-price",
+          "name": "Medicare Part B Drug Average Sales Price",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/fee-for-service-providers",
+          "name": "All Fee-For-Service-Providers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/fee-schedules",
+          "name": "Fee schedules",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/prospective-payment-systems",
+          "name": "Prospective Payment Systems",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/opioid-treatment-program",
+          "name": "Opioid Treatment Programs (OTP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/covidvax-provider",
+          "name": "Covid-19 Vaccine Toolkit",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/bankruptcy",
+          "name": "Bankruptcy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/sustainable-growth-rates-conversion-factors",
+          "name": "Sustainable Growth Rates & Conversion Factors",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/payment/medicare-advantage-rates-statistics",
+          "name": "Medicare Advantage Rates & Statistics",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/about",
+          "name": "Qualified Medicare beneficiary program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/resources",
+          "name": "Resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/about/qualified-medicare-beneficiary-program",
+          "name": "Qualified Medicare beneficiary program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/spotlight",
+          "name": "Spotlight",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/events",
+          "name": "Events",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicaid-chip/medicare-coordination/financial-alignment",
+          "name": "Financial alignment initiative",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicaid-chip/medicare-coordination/avoidable-hospitalizations",
+          "name": "Initiative to reduce avoidable hospitalizations",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/reports-guidance",
+          "name": "Reports & Guidance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/pace",
+          "name": "Program of All-Inclusive Care for the Elderly (PACE)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/center-program-integrity/reporting-fraud",
+          "name": "Reporting Fraud",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/plans",
+          "name": "Resources for Medicare-Medicaid plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/states",
+          "name": "Resources for state Medicaid agencies",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/medicaid-coordination/healthcare-fraud-prevention-partnership",
+          "name": "Healthcare Fraud Prevention Partnership",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/information-systems/clinical-templates",
+          "name": "Clinical Templates",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/appeals-grievances/fee-for-service",
+          "name": "Original Medicare appeals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/appeals-grievances/managed-care",
+          "name": "Managed Care appeals & grievances",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/appeals-grievances/prescription-drug",
+          "name": "Medicare Prescription drug appeals & grievances",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/appeals-grievances/ombudsman-center",
+          "name": "Ombudsman Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/appeals-grievances/appeals-decision-search-part-c-d",
+          "name": "Appeals Decision Search (Part C & Part D)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/value-based-programs",
+          "name": "Value-based programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/initiatives/hospital-quality-initiative/person-family-engagement",
+          "name": "Person & Family Engagement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/quality-improvement-organizations",
+          "name": "Quality improvement organizations",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/nursing-home-improvement",
+          "name": "Nursing home quality improvement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/inpatient-rehabilitation-facility",
+          "name": "Inpatient Rehabilitation Facility (IRF) Quality Reporting Program (QRP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/home-health",
+          "name": "Home Health Quality Reporting Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/end-stage-renal-disease-esrd-quality-incentive-program",
+          "name": "ESRD Quality Incentive Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/meaningful-measures-initiative/cms-quality-strategy",
+          "name": "CMS National Quality Strategy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/hospice",
+          "name": "Hospice Quality Reporting Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/long-term-care-hospital",
+          "name": "Long-Term Care Hospital (LTCH) Quality Reporting Program (QRP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/appropriate-use-criteria-program",
+          "name": "Appropriate Use Criteria Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/measures",
+          "name": "Quality measures",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/advantage-quality-improvement-program",
+          "name": "Medicare Advantage quality improvement program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/physician-compare-initiative",
+          "name": "Physician compare initiative",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/initiatives",
+          "name": "Quality initiatives",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/part-c-d-performance-data",
+          "name": "Part C and D Performance Data",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/snf-quality-reporting-program",
+          "name": "Skilled Nursing Facility (SNF) Quality Reporting Program (QRP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-group-qsog",
+          "name": "Quality, Safety & Oversight Group (QSOG)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information",
+          "name": "Quality, safety & oversight general information",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance",
+          "name": "Certification & compliance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/nursing-homes",
+          "name": "Nursing Homes",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/enforcement",
+          "name": "Enforcement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/life-safety-code-health-care-facilities-code-requirements",
+          "name": "Life Safety Code & Health Care Facilities Code Requirements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/hospitals",
+          "name": "Hospitals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/rural-emergency-hospitals",
+          "name": "Rural emergency hospitals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/termination-notices",
+          "name": "Termination Notices",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/ambulatory-surgery-centers",
+          "name": "Ambulatory Surgery Centers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/community-mental-health-centers",
+          "name": "Community Mental Health Centers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/critical-access-hospitals",
+          "name": "Critical Access Hospitals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/end-stage-renal-disease-facility-providers",
+          "name": "End Stage Renal Disease Facility Providers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/home-health-agencies",
+          "name": "Home Health Agencies",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/hospices",
+          "name": "Hospices",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/intermediate-care-facilities",
+          "name": "Intermediate Care Facilities for Individuals with Intellectual Disabilities (ICFs/IID)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/organ-transplant-program",
+          "name": "Organ Transplant Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/psychiatric-hospitals",
+          "name": "Psychiatric Hospitals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/psychiatric-residential-treatment-facility-providers",
+          "name": "Psychiatric Residential Treatment Facility Providers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/inpatient-rehabilitation-facilities",
+          "name": "Inpatient Rehabilitation Facilities",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/outpatient-rehabilitation-providers",
+          "name": "Outpatient Rehabilitation Providers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/comprehensive-outpatient-rehabilitation-facilities",
+          "name": "Comprehensive Outpatient Rehabilitation Facilities",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/religious-nonmedical-health-care-institutions",
+          "name": "Religious Nonmedical Health Care Institutions",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/certification-compliance/rural-health-clinics",
+          "name": "Rural Health Clinics",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-emergency-preparedness",
+          "name": "Emergency preparedness",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/clinical-laboratory-improvement-amendments",
+          "name": "Clinical Laboratory Improvement Amendments (CLIA)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/quality-safety-oversight-general-information/accreditation-advanced-diagnostic-imaging-suppliers",
+          "name": "Accreditation programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/conditions-coverage-participation",
+          "name": "Conditions for coverage & participation",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-safety-standards/guidance-for-laws-regulations/home-health-agencies",
+          "name": "Home Health Agencies",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/employers-plan-sponsors/creditable-coverage",
+          "name": "Creditable coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/audits-compliance/part-a-cost-report",
+          "name": "Part A cost report audit",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/audits-compliance/part-c-d",
+          "name": "Part C/Part D compliance & audits",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/forms-notices/cms-forms",
+          "name": "CMS forms",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/forms-notices/cms-forms-list",
+          "name": "CMS forms list",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/forms-notices/beneficiary-notices-initiative",
+          "name": "Beneficiary Notices Initiative (BNI)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/plan-payment",
+          "name": "Plan payment",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/plan-payment-data",
+          "name": "Plan payment data",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/medical-loss-ratio",
+          "name": "Medical loss ratio",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/coverage-gap-discount-program",
+          "name": "Coverage Gap Discount Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/managed-care-marketing",
+          "name": "Managed care marketing",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/medicare-advantage-application",
+          "name": "Medicare Advantage application",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/medigap",
+          "name": "Medigap (Medicare supplement health insurance)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/medical-savings-account",
+          "name": "Medical Savings Account (MSA)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/private-fee-for-service-plans",
+          "name": "Private Fee-for-Service Plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/health-plans/prepayment",
+          "name": "Health Care Prepayment Plans (HCPPs)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/health-plans/cost",
+          "name": "Cost plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/enrollment-renewal/special-needs-plans",
+          "name": "Special needs plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/network-adequacy",
+          "name": "Network adequacy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/health-drug-plans/medicare-prescription-payment-plan",
+          "name": "Medicare Prescription Payment Plan",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/overview",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/mandatory-insurer-reporting-group-health-plans",
+          "name": "Mandatory Insurer Reporting for Group Health Plans (GHP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/mandatory-insurer-reporting",
+          "name": "Mandatory insurer reporting (NGHP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/workers-comp-set-aside-arrangements",
+          "name": "Workers' comp Medicare set aside arrangements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/attorney-services",
+          "name": "Attorney services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/beneficiary-services",
+          "name": "Beneficiary services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/coba-trading-partners",
+          "name": "COBA Trading Partners",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/employer-services",
+          "name": "Employer services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/insurer-services",
+          "name": "Insurer services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/prescription-drug-assistance-programs",
+          "name": "Prescription drug assistance programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/coordination-benefits-recovery/provider-services",
+          "name": "Provider services",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/settlements/jimmo",
+          "name": "Jimmo Settlement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/settlements/ryan",
+          "name": "Ryan Settlement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.medicaid.gov",
+          "name": "Visit Medicaid.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.medicaid.gov/about-us/beneficiary-resources/index.html#statemenu",
+          "name": "View Medicaid maps",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "http://www.medicaid.gov/chip/index.html",
+          "name": "Visit CHIP.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicaid-chip/medicare-coordination/integrated-care-resources",
+          "name": "Integrated care resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicaid-chip/medicare-coordination/integrity-institute",
+          "name": "Medicaid Integrity Institute",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/about/oversight",
+          "name": "Marketplace oversight",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/about/affordable-care-act",
+          "name": "Affordable Care Act",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/about/overview-exchanges",
+          "name": "Overview of the exchanges",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/about/exchange-coverage-maps",
+          "name": "Exchange coverage maps",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/about/medicare",
+          "name": "Medicare and the Marketplace",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/patient-bill-of-rights",
+          "name": "Patient\u2019s Bill of Rights",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/medical-loss-ratio",
+          "name": "Medical loss ratio",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/annual-limits",
+          "name": "Annual limits",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/review-insurance-rates",
+          "name": "Review of insurance rates",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/market-rating-reforms",
+          "name": "Market rating",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/self-funded-non-federal-governmental-plans",
+          "name": "Self-funded, non-federal governmental plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/grandfathered-plans",
+          "name": "Grandfathered plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/health-reimbursement-arrangements",
+          "name": "Health Reimbursement Arrangements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/coverage-young-adults",
+          "name": "Coverage for young adults",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/student-health-plans",
+          "name": "Student health plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/mental-health-parity-addiction-equity",
+          "name": "Mental health parity and addiction equity",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/prevention",
+          "name": "Prevention",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/consumer-protections-enforcement",
+          "name": "Consumer protections & enforcement",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/private-health-insurance/pre-existing-condition-plan",
+          "name": "Pre-existing condition insurance plan",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/glossary/qualifying-health-coverage",
+          "name": "Qualifying Health Coverage (QHC)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/information-partners",
+          "name": "Information for Partners",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/outreach-education",
+          "name": "Assister outreach & education",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/applications-forms-notices",
+          "name": "Applications, forms, & notices",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/programs-procedures",
+          "name": "Assister programs & procedures",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/technical-resources",
+          "name": "Assister technical resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/in-person-assisters/training-webinars",
+          "name": "Assister training & webinars",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/resources",
+          "name": "Resources for Agent & Brokers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/registration-training",
+          "name": "Registration & training",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/open-enrollment",
+          "name": "Open enrollment",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/direct-enrollment-partners",
+          "name": "Direct enrollment partners",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/general-resources",
+          "name": "General resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.youtube.com/playlist?list=PLaV7m2-zFKpgUK9AqdbnOdW69-WwodvRj",
+          "name": "Video Learning Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.agentbrokerfaq.cms.gov/s/",
+          "name": "Agent & Broker FAQ",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/files/document/agent/broker-help-desks.pdf",
+          "name": "Marketplace help desk & call centers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://data.healthcare.gov/ffm_ab_registration_lists",
+          "name": "Registration Completion List",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://data.healthcare.gov/ab-registration-tracker/",
+          "name": "Marketplace Registration Tracker",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://data.healthcare.gov/ab-suspension-and-termination-list",
+          "name": "AB Suspension & Termination List",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://localhelp.healthcare.gov/",
+          "name": "Find local help",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://data.healthcare.gov/issuer-partner-lookup",
+          "name": "Issuer and direct enrollment partner directory",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/help-on-demand",
+          "name": "Help on demand",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/agents-brokers/shop-resources",
+          "name": "SHOP Resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/qualified-health-plan-certification",
+          "name": "Qualified health plan certification",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/summary-benefits-coverage",
+          "name": "Summary of benefits & coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/insurance-programs",
+          "name": "Insurance programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/premium-stabilization-programs",
+          "name": "Premium stabilization programs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/insurance-market-reforms",
+          "name": "Health insurance market reforms",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/health-plans-issuers/minimum-essential-coverage",
+          "name": "Minimum essential coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace-private-insurance/health-plans-issuers/drug-data-pricing-rebate-review",
+          "name": "Drug Data, Pricing & Rebate Review",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/small-businesses/other-coverage",
+          "name": "Coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/small-businesses/choose-and-enroll/shop-marketplace-overview",
+          "name": "Regulation & guidance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/small-businesses/choose-and-enroll/qualify-for-shop-marketplace",
+          "name": "Small business tax credit & premium assistance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/small-businesses/choose-and-enroll/appeal-a-shop-decision",
+          "name": "Appeals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/employers-sponsors/small-business-health-options-program-shop",
+          "name": "Small Business Health Options Program (SHOP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/employers-sponsors/early-retiree-reinsurance-program",
+          "name": "Early retiree reinsurance program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/employer-initiatives",
+          "name": "Employer initiatives",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/states/state-marketplace-resources",
+          "name": "Planning & establishing a Marketplace",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/states/territory-cooperative-agreements",
+          "name": "Territory cooperative agreements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/states/early-innovator-program",
+          "name": "Early innovator program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/states/state-flexibility-stabilize-market",
+          "name": "State flexibility to stabilize the Market",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/states/creating-competitive-marketplace",
+          "name": "Exchange establishment grants",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/coverage/pre-existing-conditions",
+          "name": "Pre-existing condition insurance plan",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/about-us",
+          "name": "About Us",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/data",
+          "name": "Data resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/letters",
+          "name": "Letters",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/regulations-guidance",
+          "name": "Regulations & Guidance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/resources/training",
+          "name": "Training resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace-private-insurance/resources/marketplace-coverage-transitions",
+          "name": "Marketplace Coverage Transitions",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/burden-reduction",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/fraud",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/e-health",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiativess/flu",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/health-equity/c2c",
+          "name": "Coverage to Care",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/health-equity/minority-health",
+          "name": "Minority health",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/health-equity/c2c/es",
+          "name": "Cobertura de atenci\u00f3n",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/health-equity/grants-awards",
+          "name": "Grants & awards",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/health-tech-ecosystem",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/healthplan-price-transparency/health-plan-price-transparency",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/hospital-price-transparency",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/overview",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/about",
+          "name": "About",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/key-concepts",
+          "name": "Key Concepts",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation-center/model-data",
+          "name": "Model Data",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation-center/value-based-care-spotlight",
+          "name": "Value-Based Care Spotlight",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/models",
+          "name": "Innovation Models",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/where-innovation-happening",
+          "name": "Where Innovation is Happening",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/innovation/evaluation-research-reports",
+          "name": "Evaluations & Research Reports",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medicare/quality/value-based-programs/quality-payment-program/lookup-tools",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/quick-guide/dates-and-deadlines",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/maternal-health",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/outreach-and-education/reach-out/find-tools-to-help-you-help-others/open-enrollment-outreach-and-media-materials",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/medicare-open-enrollment-partner-resources",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/medicare-prescription-drug-affordability/medicare-prescription-drug-affordability",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/medicare-prescription-drug-affordability/overview/medicare-drug-price-negotiation-program",
+          "name": "Medicare Drug Price Negotiation Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/medicare-prescription-drug-affordability/overview/medicare-inflation-rebate-program",
+          "name": "Medicare Inflation Rebate Program",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/medicare-prescription-drug-affordability/overview/medicare-part-d-improvements",
+          "name": "Medicare Part D Improvements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/nosurprises",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/nursing-home-careers",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/open-payments",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/key-initiatives/opioids",
+          "name": "Overview",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/priorities/your-patient-rights/emergency-room-rights",
+          "name": "Emergency Room Rights",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/medical-bill-rights",
+          "name": "Medical bill rights",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://cmsnationaltrainingprogram.cms.gov/resources",
+          "name": "National Training Program resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://cmsnationaltrainingprogram.cms.gov/?q=global-search&combine=classroom%20modules",
+          "name": "Class modules",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/partner-with-cms",
+          "name": "Partner with CMS",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/national-medicare-education-program-nmep",
+          "name": "National Medicare Education Program (NMEP)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/low-income-subsidy-lis",
+          "name": "Low-Income Subsidy (LIS) outreach",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/marketplace/assisters-navigators/enrollment/champion",
+          "name": "Become a champion for coverage",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/faith-based",
+          "name": "Faith-Based Partners",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/rural-health",
+          "name": "Rural Health Partners",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/american-indian-alaska-native",
+          "name": "American Indian/Alaska Native",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/center",
+          "name": "Partnering with CMS Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/medicare-learning-network/resources-training",
+          "name": "Resources & training",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/medicare-learning-network/newsletter",
+          "name": "Newsletter",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/medicare-learning-network/partnerships",
+          "name": "Partnerships",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/medicare-learning-networkr-mln/provider-compliance",
+          "name": "Compliance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/about",
+          "name": "About Open Door Forums",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/ambulance",
+          "name": "Ambulance",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/cms-open-door-forums/end-stage-renal-disease-esrd-dialysis-facility-care-compare-dfcc-medicaregov",
+          "name": "End-Stage Renal Disease (ESRD) Dialysis Facility Care Compare",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/home-health-hospice-durable-medical-equipment-dme",
+          "name": "Home Health, Hospice & Durable Medical Equipment (DME)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/hospitals",
+          "name": "Hospital",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/long-term-services-supports",
+          "name": "Long-Term Services & Supports",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/physicians-nurses-allied-health-professionals",
+          "name": "Physicians, Nurses and Allied Health Professionals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/rural-health",
+          "name": "Rural Health",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/skilled-nursing-facilities-snf",
+          "name": "Skilled Nursing Facilities (SNFs)/Long-Term Care",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/open-door-forums/special",
+          "name": "Special Open Door forums",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/medicare",
+          "name": "Medicare",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/medicaid",
+          "name": "Medicaid",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/chip",
+          "name": "CHIP",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/look-up-topics/american-indian-alaska-native-center",
+          "name": "American Indian/Alaska Native Center",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/quality-of-care",
+          "name": "Quality of care",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/special-populations",
+          "name": "Special populations",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/fraud-abuse",
+          "name": "Fraud & abuse",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/states",
+          "name": "States",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/privacy",
+          "name": "Privacy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/health-conditions-campaigns",
+          "name": "Health conditions & campaigns",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/partner-outreach-resources/new-medicare-card",
+          "name": "New Medicare Card",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/look-up-topics/hipaa-administrative-simplification-resources-and-faqs",
+          "name": "HIPAA Administrative Simplification",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/learn/attend-events",
+          "name": "Attend events",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/learn/find-resources",
+          "name": "Find resources",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/learn/get-training",
+          "name": "Get training",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/learn/find-tools-to-help-you-help-others",
+          "name": "Find tools to help you help others",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/learn/get-digital-media",
+          "name": "Get digital media",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/find-provider-type/physicians-other-health-professionals",
+          "name": "Physicians & other health professionals",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/find-provider-type/facilities",
+          "name": "Facilities",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/find-provider-type/health-drug-plans",
+          "name": "Health & drug plans",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/training-education/find-provider-type/employers-unions",
+          "name": "Employers & unions",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey",
+          "name": "Medicare Current Beneficiary Survey (MCBS)",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey-mcbs/announcements",
+          "name": "Announcements",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/questionnaires",
+          "name": "Questionnaires",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks",
+          "name": "Data Documentation and Codebooks",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables",
+          "name": "Data Tables",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-briefs-tutorials",
+          "name": "Data Briefs and Tutorials",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/bibliography",
+          "name": "Bibliography",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://data.cms.gov/medicare-current-beneficiary-survey-mcbs",
+          "name": "https://data.cms.gov/medicare-current-beneficiary-survey-mcbs",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables/mcbs-usual-source-care-and-telemedicine-use-spring-2021",
+          "name": "MCBS Usual Source of Care and Telemedicine Use in Spring 2021",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community-0",
+          "name": "MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Metropolitan Residence Status PUF 2022",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community",
+          "name": "MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Metropolitan Residence Status PUF 2021",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community-dual",
+          "name": "MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Dual Eligibility Status PUF 2021",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-oral-health-and-access-dental-care-among-medicare-beneficiaries-living-community-2020",
+          "name": "MCBS PUF on Oral Health and Access to Dental Care Among Medicare Beneficiaries Living in the Community in 2020",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-diabetes-prevalence-among-medicare-beneficiaries-living-community-2020",
+          "name": "MCBS PUF on Diabetes Prevalence Among Medicare Beneficiaries Living in the Community in 2020",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-characteristics-medicare-beneficiaries-low-income-subsidy-enrollment-status-2021",
+          "name": "MCBS PUF on Characteristics of Medicare Beneficiaries by Low Income Subsidy Enrollment Status in 2021",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-2020-puf-use-preventive-care-services-among-medicare-beneficiaries",
+          "name": "MCBS 2020 PUF on Use of Preventive Care Services Among Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2024-medicare-beneficiaries-knowledge-their-right-file-complaint-or-appeal-preliminary-estimates-puf",
+          "name": "2024 Medicare Beneficiaries\u2019 Knowledge of Their Right to File a Complaint or an Appeal Preliminary Estimates PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2024-internet-access-and-use-among-medicare-beneficiaries-preliminary-estimates-puf",
+          "name": "2024 Internet Access and Use Among Medicare Beneficiaries Preliminary Estimates PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-socio-demographic-and-health-characteristics-medicare-beneficiaries-early-release-puf",
+          "name": "2023 Socio-demographic and Health Characteristics of Medicare Beneficiaries Early Release PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-socio-demographic-and-health-characteristics-medicare-beneficiaries-dual-enrollment-status-puf",
+          "name": "2023 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Dual Enrollment Status PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-medicare-beneficiaries-knowledge-their-right-file-complaint-or-appeal-early-release-puf",
+          "name": "2023 Medicare Beneficiaries\u2019 Knowledge of Their Right to File a Complaint or an Appeal Early Release PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-mcbs-early-puf-internet-access-and-use-among-medicare-beneficiaries",
+          "name": "2023 MCBS Early PUF on Internet Access and Use Among Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-financial-well-being-medicare-beneficiaries-puf",
+          "name": "2023 Financial Well-being of Medicare Beneficiaries PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-use-preventive-care-services-among-medicare-beneficiaries-puf",
+          "name": "2022 Use of Preventive Care Services Among Medicare Beneficiaries PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-socio-demographic-and-health-characteristics-medicare-beneficiaries-sex-puf",
+          "name": "2022 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Sex PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-socio-demographic-and-health-characteristics-medicare-beneficiaries-dual-eligibility-status-puf",
+          "name": "2022 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Dual Eligibility Status PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-oral-health-and-access-dental-care-among-medicare-beneficiaries-puf",
+          "name": "2022 Oral Health and Access to Dental Care Among Medicare Beneficiaries PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-oecd-paris/mcbs-patient-reported-outcomes-among-medicare-beneficiaries-puf",
+          "name": "2022 OECD-PaRIS / MCBS Patient-Reported Outcomes Among Medicare Beneficiaries PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-mcbs-puf-financial-well-being-medicare-beneficiaries",
+          "name": "2022 MCBS PUF on Financial Well-Being of Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-mcbs-early-puf-internet-access-and-use-among-medicare-beneficiaries",
+          "name": "2022 MCBS Early PUF on Internet Access and Use Among Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-diabetes-prevalence-and-self-management-among-medicare-beneficiaries-puf",
+          "name": "2022 Diabetes Prevalence and Self-management Among Medicare Beneficiaries PUF",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2021-mcbs-puf-financial-well-being-medicare-beneficiaries",
+          "name": "2021 MCBS PUF on Financial Well-Being of Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables/2020-medicare-current-beneficiary-survey-annual-chartbook-and-slides",
+          "name": "2020 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables/2020-mcbs-financial-well-being-medicare-beneficiaries",
+          "name": "2020 MCBS Financial Well-Being of Medicare Beneficiaries",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2019-medicare-current-beneficiary-survey-annual-chartbook-and-slides",
+          "name": "2019 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2018-medicare-current-beneficiary-survey-annual-chartbook-and-slides",
+          "name": "2018 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2017-medicare-current-beneficiary-survey-annual-chartbook-and-slides",
+          "name": "2017 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2016chartbook",
+          "name": "2016 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2015chartbook",
+          "name": "2015 Medicare Current Beneficiary Survey Annual Chartbook and Slides",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2013hhc",
+          "name": "2013 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2013cnp",
+          "name": "2013 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2012_hhc",
+          "name": "2012 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2012cnp",
+          "name": "2012 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2011_hhc",
+          "name": "2011 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2011charandperc",
+          "name": "2011 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2010-char-and_perc",
+          "name": "2010 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2009_hhc",
+          "name": "2009 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253280",
+          "name": "2009 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2008healthandhealthcare",
+          "name": "2008 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253279",
+          "name": "2008 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253266",
+          "name": "2007 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253278",
+          "name": "2007 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253265",
+          "name": "2006 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253277",
+          "name": "2006 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253263",
+          "name": "2005 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253276",
+          "name": "2005 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253262",
+          "name": "2004 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253275",
+          "name": "2004 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253261",
+          "name": "2003 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253274",
+          "name": "2003 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253260",
+          "name": "2002 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253273",
+          "name": "2002 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253259",
+          "name": "2001 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253272",
+          "name": "2001 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253258",
+          "name": "2000 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253271",
+          "name": "2000 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253257",
+          "name": "1999 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253270",
+          "name": "1999 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253256",
+          "name": "1998 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253269",
+          "name": "1998 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253255",
+          "name": "1997 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253268",
+          "name": "1997 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253254",
+          "name": "1996 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253267",
+          "name": "1996 Characteristics and Perceptions of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253253",
+          "name": "1995 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253252",
+          "name": "1994 Health and Health Care of the Medicare Population",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/rss/30746",
+          "name": "Subscribe to Data Tables",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/web-policies-important-links/help",
+          "name": "Help with File Formats and Plug-Ins",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.medicare.gov/",
+          "name": "Medicare.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.medicaid.gov/",
+          "name": "Medicaid.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.insurekidsnow.gov/",
+          "name": "InsureKidsNow.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.healthcare.gov/",
+          "name": "HealthCare.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.hhs.gov/",
+          "name": "HHS.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.hhs.gov/open/index.html",
+          "name": "HHS.gov/Open",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/About-CMS/About-CMS",
+          "name": "About Us",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/About-CMS/Career-Information/CareersatCMS/index",
+          "name": "Careers",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/newsroom",
+          "name": "Newsroom",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/acronyms",
+          "name": "Acronyms",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/web-policies-important-links/about-website/archive",
+          "name": "Archive",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/contacts",
+          "name": "Contacts",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/glossary",
+          "name": "Glossary",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/web-policies-important-links/web-policies/privacy",
+          "name": "Privacy Policy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.medicare.gov/about-us/plain-writing",
+          "name": "Plain Language",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/CMSNondiscriminationNotice",
+          "name": "Nondiscrimination & Accessibility",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://developer.cms.gov/",
+          "name": "Developer Information",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/about-cms/information-systems/privacy/vulnerability-disclosure-policy",
+          "name": "Vulnerability Disclosure Policy",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/freedom-information-act-foia-service-center",
+          "name": "Freedom of Information Act",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/About-CMS/Agency-Information/Aboutwebsite/NoFearAct",
+          "name": "No Fear Act",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.oig.hhs.gov",
+          "name": "Inspector General",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.usa.gov/",
+          "name": "USA.gov",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "http://www.hhs.gov",
+          "name": "[No text]",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.linkedin.com/company/centers-for-medicare-&-medicaid-services/",
+          "name": "Linkedin link",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.youtube.com/user/CMSHHSgov",
+          "name": "Youtube link",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.facebook.com/medicare",
+          "name": "Facebook link",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://twitter.com/cmsgov",
+          "name": "Twitter link",
+          "resource_type": "",
+          "key_resource": ""
+        },
+        {
+          "url": "https://www.cms.gov/Outreach-and-Education/Outreach/CMSFeeds/index",
+          "name": "RSS Feed link",
+          "resource_type": "",
+          "key_resource": ""
+        }
+      ]
+    }
+  ]
+}

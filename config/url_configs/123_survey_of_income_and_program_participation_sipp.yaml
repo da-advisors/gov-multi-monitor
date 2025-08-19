@@ -1,7 +1,659 @@
-url:
+url: https://www.census.gov/programs-surveys/sipp.html
 name: Survey of Income and Program Participation (SIPP)
 linked_urls:
-  - url:
-    name:
-    resource_type:
-    key_resource:
+  - url: "https://www.census.gov/programs-surveys/sipp/guidance.html"
+    name: Guidance for Data Users
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.census.gov/programs-surveys/sipp/tech-documentation.html"
+    name: Technical Documentation
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.census.gov/data-tools/demo/uccb/sippdict"
+    name: Online Codebook
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.census.gov/programs-surveys/sipp/tech-documentation/user-notes/2024-usernotes.html"
+    name: User Notes
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/2024/2024_SIPP_PU_Instrument_Specifications.pdf"
+    name: "2024 SIPP Instrument Specifications"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2024/2024_SIPP_Crosswalk_2024_to_2023.xlsx"
+    name: "2024 SIPP Crosswalks - 2024 to 2023"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2024/2024_SIPP_Crosswalk_2023_to_2024.xlsx"
+    name: "2024 SIPP Crosswalks - 2023 to 2024"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/2024/2024_SIPP_Release_Notes.pdf"
+    name: "2024 SIPP Release Notes"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_sas.zip"
+    name: "2024 SIPP SAS-formatted data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_dta.zip"
+    name: "2024 SIPP Stata-formatted data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_csv.zip"
+    name: "2024 SIPP pipe-delimited text data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2024/2024_SIPP_Data_Dictionary.pdf"
+    name: "2024 SIPP Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_schema.json"
+    name: "2024 SIPP Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/2024_sipp_python_input_example.py"
+    name: "2024 SIPP Python Pandas Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/2024_sipp_r_input_example.R"
+    name: "2024 SIPP R Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/pu2024_validate.xlsx"
+    name: "2024 SIPP Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/rw2024_sas.zip"
+    name: "2024 SIPP SAS-formatted replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/rw2024_dta.zip"
+    name: "2024 SIPP Stata-formatted replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/rw2024_csv.zip"
+    name: "2024 SIPP pipe-delimited replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2024/rw2024_dictionary.txt"
+    name: "2024 SIPP Replicate Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/rw2024_schema.json"
+    name: "2024 SIPP Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/rw2024_validate.xlsx"
+    name: "2024 SIPP Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr4_sas.zip"
+    name: "2024 SIPP SAS-formatted 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr4_dta.zip"
+    name: "2024 SIPP Stata-formatted 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr4_csv.zip"
+    name: "2024 SIPP pipe-delimited 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2024/lgtwgt2024_dictionary.txt"
+    name: "2024 SIPP Longitudinal Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr4_schema.json"
+    name: "2024 SIPP Longitudinal Weight Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr4_validate.xlsx"
+    name: "2024 SIPP Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr3_sas.zip"
+    name: "2024 SIPP SAS-formatted 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr3_dta.zip"
+    name: "2024 SIPP Stata-formatted 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr3_csv.zip"
+    name: "2024 SIPP pipe-delimited 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr3_schema.json"
+    name: "2024 SIPP 3-year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr3_validate.xlsx"
+    name: "2024 SIPP 3-year Longitudinal Weights  Input Validation Summary Statistics"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr2_sas.zip"
+    name: "2024 SIPP SAS-formatted 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr2_dta.zip"
+    name: "2024 SIPP Stata-formatted 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr2_csv.zip"
+    name: "2024 SIPP pipe-delimited 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr2_schema.json"
+    name: "2024 SIPP 2-year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtwgt2024yr2_validate.xlsx"
+    name: "2024 SIPP 2-year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr4_sas.zip"
+    name: "2024 SIPP SAS-formatted 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr4_dta.zip"
+    name: "2024 SIPP Stata-formatted 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr4_csv.zip"
+    name: "2024 SIPP pipe-delimited 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2024/lgtrw2024_dictionary.txt"
+    name: "2024 SIPP 4-year Longitudinal Replicate Weights Longitudinal Replicate Weight Data Dictionary"
+    resource_type:  Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr4_schema.json"
+    name: "2024 SIPP 4-year Longitudinal Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type:  Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr4_validate.xlsx"
+    name: "2024 SIPP 4-year Longitudinal Replicate Weights Input Validation Summary Statistics"
+    resource_type:  Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr3_sas.zip"
+    name: "2024 SIPP SAS-formatted 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr3_dta.zip"
+    name: "2024 SIPP Stata-formatted 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr3_csv.zip"
+    name: "2024 SIPP pipe-delimited 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr3_schema.json"
+    name: "2024 SIPP 3-year Longitudinal Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr3_validate.xlsx"
+    name: "2024 SIPP 3-year Longitudinal Replicate Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr2_sas.zip"
+    name: "2024 SIPP SAS-formatted 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr2_dta.zip"
+    name: "2024 SIPP Stata-formatted 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr2_csv.zip"
+    name: "2024 SIPP pipe-delimited 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr2_schema.json"
+    name: "2024 SIPP 2-year Longitudinal Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2024/lgtrw2024yr2_validate.xlsx"
+    name: "2024 SIPP 2-year Longitudinal Replicate Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/questionnaires/2023/2023_SIPP_PU_Instrument_Specifications.pdf"
+    name: "2023 SIPP Instrument Specifications"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2023/2023_SIPP_Crosswalk_2023_to_2022.xlsx"
+    name: "2023 SIPP Crosswalks - 2023 to 2022"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2023/2023_SIPP_Crosswalk_2022_to_2023.xlsx"
+    name: "2023 SIPP Crosswalks - 2022 to 2023"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/2023/2023_SIPP_Release_Notes.pdf"
+    name: "2023 SIPP Release Notes"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/pu2023_sas.zip"
+    name: "2023 SIPP SAS-formatted data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/pu2023_dta.zip"
+    name: "2023 SIPP Stata-formatted data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/pu2023_csv.zip"
+    name: "2023 SIPP pipe-delimited text data"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2023/2023_SIPP_Data_Dictionary.pdf"
+    name: "2023 SIPP Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/pu2023_schema.json"
+    name: "2023 SIPP Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/2023_sipp_python_input_example.py"
+    name: "2023 SIPP Python Pandas Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/2023_sipp_r_input_example.R"
+    name: "2023 SIPP R Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/pu2023_validate.xlsx"
+    name: "2023 SIPP Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_sas.zip"
+    name: "2023 SIPP SAS-formatted replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_dta.zip"
+    name: "2023 SIPP Stata-formatted replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_csv.zip"
+    name: "2023 SIPP pipe-delimited replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_dictionary.txt"
+    name: "2023 SIPP Replicate Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_schema.json"
+    name: "2023 SIPP Replicate Weight Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/rw2023_validate.xlsx"
+    name: "2023 SIPP Replicate Weight Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr4_sas.zip"
+    name: "2023 SIPP SAS-formatted 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr4_dta.zip"
+    name: "2023 SIPP Stata-formatted 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr4_csv.zip"
+    name: "2023 SIPP pipe-delimited 4-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2023/lgtwgt2023_dictionary.txt"
+    name: "2023 SIPP 4-year Longitudinal Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr4_schema.json"
+    name: "2023 SIPP 4-year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr4_validate.xlsx"
+    name: "2023 SIPP 4-year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr3_sas.zip"
+    name: "2023 SIPP SAS-formatted 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr3_dta.zip"
+    name: "2023 SIPP Stata-formatted 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr3_csv.zip"
+    name: "2023 SIPP pipe-delimited 3-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr3_schema.json"
+    name: "2023 SIPP 3-year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr3_validate.xlsx"
+    name: "2023 SIPP 3-year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr2_sas.zip"
+    name: "2023 SIPP SAS-formatted 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr2_dta.zip"
+    name: "2023 SIPP Stata-formatted 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr2_csv.zip"
+    name: "2023 SIPP pipe-delimited 2-year longitudinal weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr2_schema.json"
+    name: "2023 SIPP 2-year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtwgt2023yr2_validate.xlsx"
+    name: "2023 SIPP 2-year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr4_sas.zip"
+    name: "2023 SIPP SAS-formatted 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr4_dta.zip"
+    name: "2023 SIPP Stata-formatted 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr4_csv.zip"
+    name: "2023 SIPP pipe-delimited 4-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/longitudinal-replicate-weight-record-layouts/2023/lgtrw2023_dictionary.txt"
+    name: "2023 SIPP 4-year Longitudinal Replicate Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr4_schema.json"
+    name: "2023 SIPP 4-year Longitudinal Replicate Weight Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr4_validate.xlsx"
+    name: "2023 SIPP 4-year Longitudinal Replicate Weight Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr3_sas.zip"
+    name: "2023 SIPP SAS-formatted 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr3_dta.zip"
+    name: "2023 SIPP Stata-formatted 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr3_csv.zip"
+    name: "2023 SIPP pipe-delimited 3-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr3_schema.json"
+    name: "2023 SIPP 3-year Longitudinal Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr3_validate.xlsx"
+    name: "2023 SIPP 3-year Longitudinal Replicate Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr2_sas.zip"
+    name: "2023 SIPP SAS-formatted 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr2_dta.zip"
+    name: "2023 SIPP Stata-formatted 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr2_csv.zip"
+    name: "2023 SIPP pipe-delimited 2-year longitudinal replicate weights"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr2_schema.json"
+    name: "2023 SIPP 2-year Longitudinal Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2023/lgtrw2023yr2_validate.xlsx"
+    name: "2023 SIPP 2-year Longitudinal Replicate Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www2.census.gov/programs-surveys/sipp/questionnaires/2022/2022_SIPP_Instrument_Specifications.pdf"
+    name: "2022 SIPP Instrument Specifications"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/2022/2022_SIPP_Release_Notes.pdf"
+    name: "2022 SIPP Release Notes"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/methodology/2022_SIPP_Users_Guide_SEP23.pdf"
+    name: "2022 SIPP Users' Guide"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2022/2022_SIPP_Crosswalk_2021_to_2022.xlsx"
+    name: "2022 SIPP Crosswalks - 2021 to 2022"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/complete-documents/2022/2022_SIPP_Crosswalk_2022_to_2021.xlsx"
+    name: "2022 SIPP Crosswalks - 2022 to 2021"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/2022/SIPP_Variable_Name_Change_Summary_2014_2022.xlsx"
+    name: "2014-2022 SIPP Variable Name Change Summary"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022_sas.zip"
+    name: "2022 SIPP Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022.sas7bdat.gz"
+    name: "2022 SIPP GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022_dta.zip"
+    name: "2022 SIPP Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022.dta.gz"
+    name: "2022 SIPP GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022_csv.zip"
+    name: "2022 SIPP Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022.csv.gz"
+    name: "2022 SIPP GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2022/2022_SIPP_Data_Dictionary.pdf"
+    name: "2022 SIPP Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022_schema.json"
+    name: "2022 SIPP Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/2022_sipp_python_input_example.py"
+    name: "2022 SIPP Python Pandas Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/2022_sipp_r_input_example.R"
+    name: "2022 SIPP R Input Example"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/pu2022_validate.xlsx"
+    name: "2022 SIPP Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_sas.zip"
+    name: "2022 SIPP Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022.sas7bdat.gz"
+    name: "2022 SIPP Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_dta.zip"
+    name: "2022 SIPP Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022.dta.gz"
+    name: "2022 SIPP Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_csv.zip"
+    name: "2022 SIPP Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022.csv.gz"
+    name: "2022 SIPP Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_dictionary.txt"
+    name: "2022 SIPP Replicate Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_schema.json"
+    name: "2022 SIPP Replicate Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/rw2022_validate.xlsx"
+    name: "2022 SIPP Replicate Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3_sas.zip"
+    name: "2022 SIPP 3-Year Longitudinal Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3.sas7bdat.gz"
+    name: "2022 SIPP 3-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3_dta.zip"
+    name: "2022 SIPP 3-Year Longitudinal Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3.dta.gz"
+    name: "2022 SIPP 3-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3_csv.zip"
+    name: "2022 SIPP 3-Year Longitudinal Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3.csv.gz"
+    name: "2022 SIPP 3-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/data-dictionaries/2022/lgtwgt2022_dictionary.txt"
+    name: "2022 SIPP 3-Year Longitudinal Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3_schema.json"
+    name: "2022 SIPP 3-Year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr3_validate.xlsx"
+    name: "2022 SIPP 3-Year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2_sas.zip"
+    name: "2022 SIPP 2-Year Longitudinal Weights Windows/Mac  (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2.sas7bdat.gz"
+    name: "2022 SIPP 2-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2_dta.zip"
+    name: "2022 SIPP 2-Year Longitudinal Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2.dta.gz"
+    name: "2022 SIPP 2-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2_csv.zip"
+    name: "2022 SIPP 2-Year Longitudinal Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2.csv.gz"
+    name: "2022 SIPP 2-Year Longitudinal Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2_schema.json"
+    name: "2022 SIPP 2-Year Longitudinal Weights Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtwgt2022yr2_validate.xlsx"
+    name: "2022 SIPP 2-Year Longitudinal Weights Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3_sas.zip"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3.sas7bdat.gz"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3_dta.zip"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3.dta.gz"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3_csv.zip"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3.csv.gz"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weights GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/tech-documentation/longitudinal-replicate-weight-record-layouts/2022/lgtrw2022_dictionary.txt"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weight Data Dictionary"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3_schema.json"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weight Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr3_validate.xlsx"
+    name: "2022 SIPP 3-Year Longitudinal Replicate Weight Input Validation Summary Statistics"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2_sas.zip"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2.sas7bdat.gz"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2_dta.zip"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight  Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2.dta.gz"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2_csv.zip"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight Windows/Mac (.zip)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2.csv.gz"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight GNU/Linux (.gz)"
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2_schema.json"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight Schema for Pipe-Delimited Text File"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www2.census.gov/programs-surveys/sipp/data/datasets/2022/lgtrw2022yr2_validate.xlsx"
+    name: "2022 SIPP 2-Year Longitudinal Replicate Weight Input Validation Summary Statistics"
+    resource_type: Supporting Documentation Page
+    key_resource: False

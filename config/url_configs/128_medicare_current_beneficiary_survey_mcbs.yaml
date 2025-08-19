@@ -1,0 +1,755 @@
+url: https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey
+name: Medicare Current Beneficiary Survey (MCBS)
+linked_urls:
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/questionnaires/2024-questionnaires-1"
+    name: 2024 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/questionnaires/2023-questionnaires"
+    name: 2023 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2022-questionnaires"
+    name: 2022 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2021-winter-supplemental-covid-19-questionnaires"
+    name: "2021 Winter Supplemental COVID-19 Questionnaires"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2021-questionnaires"
+    name: 2021 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2020-summer-supplemental-covid-19-questionnaires"
+    name: "2020 Summer Supplemental Covid-19 Questionnaires"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2020-questionnaires"
+    name: 2020 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsquestionnaires/2020-fall-supplemental-covid-19-questionnaires"
+    name: "2020 Fall Supplemental COVID-19 Questionnaires"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2019_questionnaires"
+    name: 2019 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2018_questionnaires"
+    name: 2018 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2017_questionnaires"
+    name: 2017 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2016_questionnaires"
+    name: 2016 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2015_questionnaires"
+    name: 2015 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2014_questionnaires"
+    name: 2014 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2013_questionnaires"
+    name: 2013 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2012_questionnaires"
+    name: 2012 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/2011-questionnaires"
+    name: 2011 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253249"
+    name: 2010 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253248"
+    name: 2009 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253247"
+    name: 2008 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253246"
+    name: 2007 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253245"
+    name: 2006 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253244"
+    name: 2005 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253243"
+    name: 2004 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253242"
+    name: 2003 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253241"
+    name: 2002 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253240"
+    name: 2001 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253239"
+    name: 2000 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253238"
+    name: 1999 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253237"
+    name: 1998 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253236"
+    name: 1997 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253235"
+    name: 1996 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253234"
+    name: 1995 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253233"
+    name: 1994 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253232"
+    name: 1993 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253231"
+    name: 1992 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/questionnaires-items/cms1253230"
+    name: 1991 Questionnaires
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/data-quality-impacts-transition-person-phone-data-collection-medicare-current-beneficiary-survey"
+    name: "Data Quality Impacts of the Transition from In-person to Phone Data Collection for the Medicare Current Beneficiary Survey Working Paper"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2023-mcbs-survey-file-early-release"
+    name: 2023 MCBS Survey File – Early Release
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/mcbs-methodology-report-year-agnostic-0"
+    name: MCBS Methodology Report (year agnostic)
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2023-mcbs-survey-file"
+    name: 2023 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-mcbs-cost-supplement-variable-crosswalk-2015-2022"
+    name: "2022 MCBS Cost Supplement Variable Crosswalk 2015-2022"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-mcbs-methodology-report"
+    name: 2022 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-mcbs-survey-file"
+    name: 2022 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-mcbs-cost-supplement-file"
+    name: 2022 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-mcbs-survey-file-variable-crosswalk-2015-2022"
+    name: "2022 MCBS Survey File Variable Crosswalk 2015-2022"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2022-oecd-paris/mcbs"
+    name: "2022 OECD-PaRIS / MCBS"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2021-mcbs-methodology-report"
+    name: 2021 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2021-mcbs-survey-file"
+    name: 2021 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2021-mcbs-frequently-asked-questions"
+    name: 2021 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-documentation-codebooks/2021-mcbs-cost-supplement-file"
+    name: 2021 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2020-mcbs-frequently-asked-questions"
+    name: 2020 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2020-mcbs-cost-supplement-file"
+    name: 2020 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2020-mcbs-methodology-report"
+    name: 2020 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2020-mcbs-survey-file"
+    name: 2020 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2019-mcbs-methodology-report"
+    name: 2019 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2019-mcbs-survey-file"
+    name: 2019 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2019-mcbs-cost-supplement-file"
+    name: 2019 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2019-mcbs-frequently-asked-questions"
+    name: 2019 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2018-mcbs-frequently-asked-questions"
+    name: 2018 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2018-mcbs-cost-supplement-file"
+    name: 2018 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2018-mcbs-survey-file"
+    name: 2018 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks/2018-mcbs-methodology-report"
+    name: 2018 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbscodebooks/2017-mcbs-cost-supplement-file"
+    name: 2017 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2017_mcbs_methods_report"
+    name: 2017 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2017surveyfile"
+    name: 2017 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2017_mcbs_faq"
+    name: 2017 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2016surveyfile"
+    name: 2016 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2016_cost_supplement"
+    name: 2016 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2016_mcbs_faq"
+    name: 2016 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2016_mcbs_methods_report"
+    name: 2016 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2015_cost_supplement"
+    name: 2015 MCBS Cost Supplement File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2015surveyfile"
+    name: 2015 MCBS Survey File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2015_mcbs_faq"
+    name: 2015 MCBS Frequently Asked Questions
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2015_mcbs_methods_report"
+    name: 2015 MCBS Methodology Report
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2013_segment_overview"
+    name: 2013 Medicare Current Beneficiary Survey (MCBS) Segment Overview
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2013_cost_and_use"
+    name: 2013 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2013_access_to_care"
+    name: 2013 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2012-access-to-care"
+    name: 2012 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2012costanduse"
+    name: 2012 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2011-cost-and-use"
+    name: 2011 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2011-access-to-care"
+    name: 2011 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2010-cost-and-use"
+    name: 2010 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2010_access_to_care"
+    name: 2010 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253171"
+    name: 2009 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/2009_cost_and_use"
+    name: 2009 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253185"
+    name: 2008 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253170"
+    name: 2008 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253184"
+    name: 2007 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253169"
+    name: 2007 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253183"
+    name: 2006 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253168"
+    name: 2006 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253182"
+    name: 2005 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253167"
+    name: 2005 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253181"
+    name: 2004 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253166"
+    name: 2004 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253180"
+    name: 2003 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253164"
+    name: 2003 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253179"
+    name: 2002 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253163"
+    name: 2002 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253162"
+    name: 2001 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253178"
+    name: 2001 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253161"
+    name: 2000 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253177"
+    name: 2000 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253160"
+    name: 1999 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253176"
+    name: 1999 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253175"
+    name: 1998 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253159"
+    name: 1998 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253174"
+    name: 1997 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253158"
+    name: 1997 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253157"
+    name: 1996 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253173"
+    name: 1996 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/1995_cost_and_use"
+    name: 1995 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253146"
+    name: 1995 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/1994_cost_and_use"
+    name: 1994 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253145"
+    name: 1994 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253144"
+    name: 1993 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/1993_cost_and_use"
+    name: 1993 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/1992_cost_and_use"
+    name: 1992 Cost and Use
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253928"
+    name: 1992 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/codebooks-items/cms1253929"
+    name: 1991 Access to Care
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community-0"
+    name: "2022 MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Metropolitan Residence Status PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community"
+    name: "2021 MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Metropolitan Residence Status PUF"
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-socio-demographic-and-health-characteristics-medicare-beneficiaries-living-community-dual"
+    name: "2021 MCBS Socio-demographic and Health Characteristics of Medicare Beneficiaries Living in the Community by Dual Eligibility Status PUF"
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-oral-health-and-access-dental-care-among-medicare-beneficiaries-living-community-2020"
+    name: 2020 MCBS PUF on Oral Health and Access to Dental Care Among Medicare Beneficiaries Living in the Community
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-diabetes-prevalence-among-medicare-beneficiaries-living-community-2020"
+    name: 2020 MCBS PUF on Diabetes Prevalence Among Medicare Beneficiaries Living in the Community
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-puf-characteristics-medicare-beneficiaries-low-income-subsidy-enrollment-status-2021"
+    name: 2021 MCBS PUF on Characteristics of Medicare Beneficiaries by Low Income Subsidy Enrollment Status
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/mcbs-2020-puf-use-preventive-care-services-among-medicare-beneficiaries"
+    name: 2020 MCBS PUF on Use of Preventive Care Services Among Medicare Beneficiaries
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2024-medicare-beneficiaries-knowledge-their-right-file-complaint-or-appeal-preliminary-estimates-puf"
+    name: 2024 Medicare Beneficiaries’ Knowledge of Their Right to File a Complaint or an Appeal Preliminary Estimates PUF
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2024-internet-access-and-use-among-medicare-beneficiaries-preliminary-estimates-puf"
+    name: 2024 Internet Access and Use Among Medicare Beneficiaries Preliminary Estimates PUF
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-socio-demographic-and-health-characteristics-medicare-beneficiaries-early-release-puf"
+    name: "2023 Socio-demographic and Health Characteristics of Medicare Beneficiaries Early Release PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-socio-demographic-and-health-characteristics-medicare-beneficiaries-dual-enrollment-status-puf"
+    name: "2023 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Dual Enrollment Status PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-medicare-beneficiaries-knowledge-their-right-file-complaint-or-appeal-early-release-puf"
+    name: 2023 Medicare Beneficiaries’ Knowledge of Their Right to File a Complaint or an Appeal Early Release PUF
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-mcbs-early-puf-internet-access-and-use-among-medicare-beneficiaries"
+    name: 2023 MCBS Early PUF on Internet Access and Use Among Medicare Beneficiaries
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2023-financial-well-being-medicare-beneficiaries-puf"
+    name: "2023 Financial Well-being of Medicare Beneficiaries PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-use-preventive-care-services-among-medicare-beneficiaries-puf"
+    name: 2022 Use of Preventive Care Services Among Medicare Beneficiaries PUF
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-socio-demographic-and-health-characteristics-medicare-beneficiaries-sex-puf"
+    name: "2022 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Sex PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-socio-demographic-and-health-characteristics-medicare-beneficiaries-dual-eligibility-status-puf"
+    name: "2022 Socio-demographic and Health Characteristics of Medicare Beneficiaries by Dual Eligibility Status PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-oral-health-and-access-dental-care-among-medicare-beneficiaries-puf"
+    name: 2022 Oral Health and Access to Dental Care Among Medicare Beneficiaries PUF
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-oecd-paris/mcbs-patient-reported-outcomes-among-medicare-beneficiaries-puf"
+    name: "2022 OECD-PaRIS / MCBS Patient-Reported Outcomes Among Medicare Beneficiaries PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-mcbs-puf-financial-well-being-medicare-beneficiaries"
+    name: "2022 MCBS PUF on Financial Well-Being of Medicare Beneficiaries"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-mcbs-early-puf-internet-access-and-use-among-medicare-beneficiaries"
+    name: 2022 MCBS Early PUF on Internet Access and Use Among Medicare Beneficiaries
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2022-diabetes-prevalence-and-self-management-among-medicare-beneficiaries-puf"
+    name: "2022 Diabetes Prevalence and Self-management Among Medicare Beneficiaries PUF"
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.cms.gov/data-research/research/medicare-current-beneficiary-survey/data-tables/2021-mcbs-puf-financial-well-being-medicare-beneficiaries"
+    name: "2021 MCBS PUF on Financial Well-Being of Medicare Beneficiaries"
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables/2020-medicare-current-beneficiary-survey-annual-chartbook-and-slides"
+    name: 2020 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables/2020-mcbs-financial-well-being-medicare-beneficiaries"
+    name: "2020 MCBS Financial Well-Being of Medicare Beneficiaries"
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2019-medicare-current-beneficiary-survey-annual-chartbook-and-slides"
+    name: 2019 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2018-medicare-current-beneficiary-survey-annual-chartbook-and-slides"
+    name: 2018 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systemsresearchmcbsdata-tables/2017-medicare-current-beneficiary-survey-annual-chartbook-and-slides"
+    name: 2017 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2016chartbook"
+    name: 2016 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2015chartbook"
+    name: 2015 Medicare Current Beneficiary Survey Annual Chartbook and Slides
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2013hhc"
+    name: 2013 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2013cnp"
+    name: 2013 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2012_hhc"
+    name: 2012 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2012cnp"
+    name: 2012 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2011_hhc"
+    name: 2011 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2011charandperc"
+    name: 2011 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2010-char-and_perc"
+    name: 2010 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2009_hhc"
+    name: 2009 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253280"
+    name: 2009 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/2008healthandhealthcare"
+    name: 2008 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253279"
+    name: 2008 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253266"
+    name: 2007 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253278"
+    name: 2007 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253265"
+    name: 2006 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253277"
+    name: 2006 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253263"
+    name: 2005 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253276"
+    name: 2005 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253262"
+    name: 2004 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253275"
+    name: 2004 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253261"
+    name: 2003 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253274"
+    name: 2003 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253260"
+    name: 2002 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253273"
+    name: 2002 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253259"
+    name: 2001 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253272"
+    name: 2001 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253258"
+    name: 2000 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253271"
+    name: 2000 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253257"
+    name: 1999 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253270"
+    name: 1999 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253256"
+    name: 1998 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253269"
+    name: 1998 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253255"
+    name: 1997 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253268"
+    name: 1997 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253254"
+    name: 1996 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253267"
+    name: 1996 Characteristics and Perceptions of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253253"
+    name: 1995 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False
+  - url: "https://www.cms.gov/research-statistics-data-and-systems/research/mcbs/data-tables-items/cms1253252"
+    name: 1994 Health and Health Care of the Medicare Population
+    resource_type: Data File (Excel)
+    key_resource: False

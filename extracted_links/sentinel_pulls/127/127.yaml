@@ -1,6 +1,6 @@
-url: https://hifld-geoplatform.hub.arcgis.com/pages/a6a99fd33af64ed9bc51e55760123a82
-name: Homeland Infrastructure Foundation-Level Data (HIFLD) Open
-linked_urls:
+sheet_url: "https://docs.google.com/spreadsheets/d/1cWsUQB8rdpaigqU2DRQXsgBlAJUyRWg2Idhe36Eahhc/edit?usp=sharing"
+tab_name: "127"
+
   - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/249971f133504bcaac56e6d2e98c4b67/explore?location=32.943663%2C-100.273352%2C2.93"
     name: 119th Congressional Districts
     resource_type: Data File (Other)

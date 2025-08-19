@@ -1,6 +1,6 @@
-url: https://www.bls.gov/cpi/
-name: Consumer Price Index (CPI)
-linked_urls:
+sheet_url: "https://docs.google.com/spreadsheets/d/1cWsUQB8rdpaigqU2DRQXsgBlAJUyRWg2Idhe36Eahhc/edit?usp=sharing"
+tab_name: "122"
+
   - url: "https://www.bls.gov/news.release/cpi.nr0.htm"
     name: CPI News Release (HTML)
     resource_type: Report Document

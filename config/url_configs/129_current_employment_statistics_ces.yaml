@@ -1,0 +1,339 @@
+url: https://www.bls.gov/ces/
+name: Current Employment Statistics (CES)
+linked_urls:
+  - url: "https://www.bls.gov/news.release/empsit.nr0.htm"
+    name: "Employment Situation Summary (HTML)"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/pdf/empsit.pdf"
+    name: "Employment Situation Summary (PDF)"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/feed/empsit.rss"
+    name: "Employment Situation Summary (RSS)"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/charts/employment-situation/"
+    name: "Employment Situation Summary Charts"
+    resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.a.htm"
+    name: "Employment Situation Summary Table A. Household data, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.b.htm"
+    name: "Employment Situation Summary Table B. Establishment data, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.faq.htm"
+    name: "Employment Situation Frequently Asked Questions"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.tn.htm"
+    name: "Employment Situation Technical Note"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t01.htm"
+    name: "Table A-1. Employment status of the civilian population by sex and age"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t02.htm"
+    name: "Table A-2. Employment status of the civilian population by race, sex, and age"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t03.htm"
+    name: "Table A-3. Employment status of the Hispanic or Latino population by sex and age"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t04.htm"
+    name: "Table A-4. Employment status of the civilian population 25 years and over by educational attainment"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t05.htm"
+    name: "Table A-5. Employment status of the civilian population 18 years and over by veteran status, period of service, and sex, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t06.htm"
+    name: "Table A-6. Employment status of the civilian population by sex, age, and disability status, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t07.htm"
+    name: "Table A-7. Employment status of the civilian population by nativity and sex, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t08.htm"
+    name: "Table A-8. Employed people by class of worker and part-time status"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t09.htm"
+    name: "Table A-9. Selected employment indicators"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t10.htm"
+    name: "Table A-10. Selected unemployment indicators, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t11.htm"
+    name: "Table A-11. Unemployed people by reason for unemployment"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t12.htm"
+    name: "Table A-12. Unemployed people by duration of unemployment"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t13.htm"
+    name: "Table A-13. Employed and unemployed people by occupation, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t14.htm"
+    name: "Table A-14. Unemployed people by industry and class of worker, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t15.htm"
+    name: "Table A-15. Alternative measures of labor underutilization"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t16.htm"
+    name: "Table A-16. People not in the labor force and multiple jobholders by sex, not seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t17.htm"
+    name: "Table B-1. Employees on nonfarm payrolls by industry sector and selected industry detail"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t18.htm"
+    name: "Table B-2. Average weekly hours and overtime of all employees on private nonfarm payrolls by industry sector, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t19.htm"
+    name: "Table B-3. Average hourly and weekly earnings of all employees on private nonfarm payrolls by industry sector, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t20.htm"
+    name: "Table B-4. Indexes of aggregate weekly hours and payrolls for all employees on private nonfarm payrolls by industry sector, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t21.htm"
+    name: "Table B-5. Employment of women on nonfarm payrolls by industry sector, seasonally adjusted"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t22.htm"
+    name: "Table B-6. Employment of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t23.htm"
+    name: "Table B-7. Average weekly hours and overtime of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t24.htm"
+    name: "Table B-8. Average hourly and weekly earnings of production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.t25.htm"
+    name: "Table B-9. Indexes of aggregate weekly hours and payrolls for production and nonsupervisory employees on private nonfarm payrolls by industry sector, seasonally adjusted(1)"
+    resource_type: Data Table
+    key_resource: True
+  - url: "https://www.bls.gov/cps/cpsatabs.htm"
+    name: "Access to historical data for the "A" tables of the Employment Situation News Release"
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: "https://www.bls.gov/ces/data/employment-situation-table-download.htm"
+    name: "Access to historical data for the "B" tables of the Employment Situation News Release"
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/empsit.htm"
+    name: "HTML version of the entire news release"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/archives/empsit_08012025.htm"
+    name: "July 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/archives/empsit_08012025.pdf"
+    name: "July 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/archives/empsit_07032025.htm"
+    name: "June 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/archives/empsit_07032025.pdf"
+    name: "June 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: True
+  - url: "https://www.bls.gov/news.release/archives/empsit_06062025.htm"
+    name: "May 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_06062025.pdf"
+    name: "May 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_05022025.htm"
+    name: "April 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_05022025.pdf"
+    name: "April 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_04042025.htm"
+    name: "March 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_04042025.pdf"
+    name: "March 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_03072025.htm"
+    name: "February 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_03072025.pdf"
+    name: "February 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_02072025.htm"
+    name: "January 2025 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_02072025.pdf"
+    name: "January 2025 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_01102025.htm"
+    name: "December 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_01102025.pdf"
+    name: "December 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_12062024.htm"
+    name: "November 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_12062024.pdf"
+    name: "November 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_11012024.htm"
+    name: "October 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_11012024.pdf"
+    name: "October 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_10042024.htm"
+    name: "September 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_10042024.pdf"
+    name: "September 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_09062024.htm"
+    name: "August 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_09062024.pdf"
+    name: "August 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_08022024.htm"
+    name: "July 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_08022024.pdf"
+    name: "July 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_07052024.htm"
+    name: "June 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_07052024.pdf"
+    name: "June 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_06072024.htm"
+    name: "May 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_06072024.pdf"
+    name: "May 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_05032024.htm"
+    name: "April 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_05032024.pdf"
+    name: "April 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_04052024.htm"
+    name: "March 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_04052024.pdf"
+    name: "March 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_03082024.htm"
+    name: "February 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_03082024.pdf"
+    name: "February 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_02022024.htm"
+    name: "January 2024 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_02022024.pdf"
+    name: "January 2024 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_01052024.htm"
+    name: "December 2023 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_01052024.pdf"
+    name: "December 2023 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_12082023.htm"
+    name: "November 2023 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_12082023.pdf"
+    name: "November 2023 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_11032023.htm"
+    name: "October 2023 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_11032023.pdf"
+    name: "October 2023 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_10062023.htm"
+    name: "September 2023 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_10062023.pdf"
+    name: "September 2023 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_09012023.htm"
+    name: "August 2023 Employment Situation"
+    resource_type: Report Document
+    key_resource: False
+  - url: "https://www.bls.gov/news.release/archives/empsit_09012023.pdf"
+    name: "August 2023 Employment Situation (PDF)"
+    resource_type: Report Document
+    key_resource: False
