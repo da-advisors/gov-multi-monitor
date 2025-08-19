@@ -1,6 +1,10 @@
 url: https://hifld-geoplatform.hub.arcgis.com/pages/a6a99fd33af64ed9bc51e55760123a82
 name: Homeland Infrastructure Foundation-Level Data (HIFLD) Open
 linked_urls:
+  - url: "https://geoplatform.maps.arcgis.com/sharing/rest/content/items/41b4ff18bb094ba996dec75916de3bf3/data"
+    name: HIFLD Open Crosswalk Spreadsheet of Affected Layers
+    resource_type: Data Repository or Listings page
+    key_resource: True
   - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/249971f133504bcaac56e6d2e98c4b67/explore?location=32.943663%2C-100.273352%2C2.93"
     name: 119th Congressional Districts
     resource_type: Data File (Other)
