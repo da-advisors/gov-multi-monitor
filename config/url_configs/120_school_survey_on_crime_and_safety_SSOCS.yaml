@@ -1,0 +1,275 @@
+url: https://nces.ed.gov/surveys/ssocs/
+name: School Survey on Crime and Safety (SSOCS)
+linked_urls:
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2020_Questionnaire.pdf
+    name: 2019–20 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2018_Questionnaire.pdf
+    name: 2017–18 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2016_Questionnaire.pdf
+    name: 2015–16 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2010_Questionnaire.pdf
+    name: 2009–10 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2008_Questionnaire.pdf
+    name: 2007–08 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2006_Questionnaire.pdf
+    name: 2005–06 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2004_Questionnaire.pdf
+    name: 2003–04 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/SSOCS_2000_Questionnaire.pdf
+    name: 1999–2000 Questionnaire
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024054
+    name: 2019-2020 Public Use Data File User's Manual
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/pubs2024/2024054.pdf
+    name: 2019-2020 Public Use Data File User's Manual (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2024055
+    name: 2019-2020 Public Use Data Files
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://nces.ed.gov/pubs2024/data/2024055.zip
+    name: 2019-2020 Public Use Data Files (Zip File)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2020054
+    name: 2017-18 Public-Use Data File User's Manual
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/pubs2020/2020054.pdf
+    name: 2017-18 Public-Use Data File User's Manual (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://nces.ed.gov/pubs2020/data/2020054.zip
+    name: 2017-18 Public-Use Data File (Zip File)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018107
+    name: 2015-16 Public-Use Data File User's Manual
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2018/2018107.pdf
+    name: 2015-16 Public-Use Data File User's Manual (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2018109
+    name: 2015-16 Public-Use Data Files and Codebook
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2018/data/2018109.zip
+    name: 2015-16 Public-Use Data Files and Codebook (Zip File)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015060
+    name: 2009-10 Public-Use Data Files and Codebook
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2015/2015060.pdf
+    name: 2009-10 Public-Use Data File Codebook (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2015/data/2015060_data.zip
+    name: 2009-10 Public-Use Data Files (Zip File)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015061
+    name: 2009-10 Public-Use Data File's User's Manual
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2015/2015061.pdf
+    name: 2009-10 Public-Use Data File's User's Manual (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2015177
+    name: 2009-10 Survey Documentation
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubs2015/2015177.pdf
+    name: 2009-10 Survey Documentation (PDF)
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/pu_ssocs08_sas.zip
+    name: 2007-08 SAS data file (version 9)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/pu_ssocs08_spss.zip
+    name: 2007-08 SPSS data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/pu_ssocs08_stata.zip
+    name: 2007-08 STATA file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/pu_ssocs08_ASCII.txt
+    name: 2007-08 ASCII data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010334
+    name: 2007-08 Public-use data file codebook
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010307
+    name: 2007-08 Survey Documentation
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2005_06_ssocs06_sas7bdat.zip
+    name: 2005–06 SAS data file (version 9)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/ssocs06_SAS_Setup_File.zip
+    name: 2005–06 SAS setup file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/ssocs06_spss.zip
+    name: 2005–06 SPSS data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/ssocs06_stata.zip
+    name: 2005–06 STATA file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/SSOCS06_ASCII.txt
+    name: 2005–06 ASCII data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2009312
+    name: 2005–06 Public-use data file codebook
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/ssocs06_methodology.pdf
+    name: 2005–06 Methodology and technical notes
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2010320
+    name: 2005–06 Survey Documentation
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2003_04_ssocs_puf_sas7bdat.zip
+    name: 2003–04 SAS data file (version 9)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/2003_04_labels.txt
+    name: 2003–04 Variable labels
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2003_04_formats_sas7bcat.zip
+    name: 2003–04 Formats library
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2003_04_ssocs_puf_sav.zip
+    name: 2003–04 SPSS for Windows data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/2003_04_ssocs_puf.txt
+    name: 2003–04 ASCII data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2003_04_ssocs_puf_read_sas.zip
+    name: 2003–04 SAS setup file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/2003_04_ssocs_puf_read_sps.zip
+    name: 2003–04 SPSS setup file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/2003_04_readme.txt
+    name: 2003–04 Readme File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2007335
+    name: 2003–04 Data File User’s Manual
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2007333
+    name: 2003–04 Public-Use Data File Codebook
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/pubsearch/pubsinfo.asp?pubid=2004306
+    name: 1999–2000 SSOCS CD-ROM with complete data files, manuals, and codebook
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs_sas7bdat.zip
+    name: 1999–2000 SAS data file (version 8)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_formats_sas7bcat.zip
+    name: 1999–2000 Formats library (version 8)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs_sd2.zip
+    name: 1999–2000 SAS data file (version 6.08-6.12)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_fmt_sd2.zip
+    name: 1999–2000 Formats library (version 6.08-6.12)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_formats_sc2.zip
+    name: 1999–2000 Formats catalog (version 6.08-6.12)
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs1_sav.zip
+    name: 1999–2000 SPSS for Windows data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs_sys.zip
+    name: 1999–2000 SPSS for DOS data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs2_por.zip
+    name: 1999–2000 SPSS portable data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_ssocs_dta.zip
+    name: 1999–2000 STATA data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/1999_00_ssocs-ff.txt
+    name: 1999–2000 Fixed format ASCII data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/1999_00_ssocs-cd.txt
+    name: 1999–2000 Comma-delimited ASCII data file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/1999_00_layout.txt
+    name: 1999–2000 ASCII layout file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_pub_sas.zip
+    name: 1999–2000 SAS setup file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/zip/1999_00_pub_sps.zip
+    name: 1999–2000 SPSS setup file
+    resource_type: Data File (Other)
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/data/txt/1999_00_readme.txt
+    name: 1999–2000 Readme File
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/1999_00_ssocsgde.pdf
+    name: 1999–2000 Public-use Data File User’s Manual
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: https://nces.ed.gov/surveys/ssocs/pdf/1999_00_ssocsddd.pdf
+    name: 1999–2000 Detailed Data Documentation
+    resource_type: Supporting Documentation Page
+    key_resource: False
