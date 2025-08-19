@@ -1,0 +1,2447 @@
+url: https://hifld-geoplatform.hub.arcgis.com/pages/a6a99fd33af64ed9bc51e55760123a82
+name: Homeland Infrastructure Foundation-Level Data (HIFLD) Open
+linked_urls:
+  - url: "https://geoplatform.maps.arcgis.com/sharing/rest/content/items/41b4ff18bb094ba996dec75916de3bf3/data"
+    name: HIFLD Open Crosswalk Spreadsheet of Affected Layers
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/249971f133504bcaac56e6d2e98c4b67/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: 119th Congressional Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/249971f133504bcaac56e6d2e98c4b67/info/metadata/metadata.xml?format=default&output=html"
+    name: 119th Congressional Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8f63577e618044a98472a2a8d8f449e1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: 2020 Census Blocks
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8f63577e618044a98472a2a8d8f449e1/info/metadata/metadata.xml?format=default&output=html"
+    name: 2020 Census Blocks Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/650c07e542fa43b6a327c7f683681712/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: 3D Hydrography Program (3DHP) Layers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/650c07e542fa43b6a327c7f683681712/info/metadata/metadata.xml?format=default&output=html"
+    name: 3D Hydrography Program (3DHP) Layers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e97f9385ce22445a8741ecedad1ac777/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Above Ground LNG Storage Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e97f9385ce22445a8741ecedad1ac777/info/metadata/metadata.xml?format=default&output=html"
+    name: Above Ground LNG Storage Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c65cc7b0bd5b4c2b81da97b96a759b00/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Address Ranges
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c65cc7b0bd5b4c2b81da97b96a759b00/info/metadata/metadata.xml?format=default&output=html"
+    name: Address Ranges Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e49b2f0c103f47ae8293135341f4260e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Administrative Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e49b2f0c103f47ae8293135341f4260e/info/metadata/metadata.xml?format=default&output=html"
+    name: Administrative Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d4ec6e75c4e8495397562ac7c5f49f1c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Agricultural Minerals Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d4ec6e75c4e8495397562ac7c5f49f1c/info/metadata/metadata.xml?format=default&output=html"
+    name: Agricultural Minerals Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/77bbc99e9bb94f738cc1cbfcc8abdf4b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Airport Area (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/77bbc99e9bb94f738cc1cbfcc8abdf4b/info/metadata/metadata.xml?format=default&output=html"
+    name: Airport Area (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/87e5f0c3378a4d8393ccf26beecd6fc9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Airspace Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/87e5f0c3378a4d8393ccf26beecd6fc9/info/metadata/metadata.xml?format=default&output=html"
+    name: Airspace Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b6da38d535cc4c998015ee470eadbf27/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Alternative Fueling Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b6da38d535cc4c998015ee470eadbf27/info/metadata/metadata.xml?format=default&output=html"
+    name: Alternative Fueling Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4aefa0fa0d37483da992f4a64ddb26a9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Indian / Alaska Native / Native Hawaiian (AIANNH) Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4aefa0fa0d37483da992f4a64ddb26a9/info/metadata/metadata.xml?format=default&output=html"
+    name: American Indian / Alaska Native / Native Hawaiian (AIANNH) Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/75c9d8cb606b455c8d2d2a57581df9b2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Red Cross Chapter
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/75c9d8cb606b455c8d2d2a57581df9b2/info/metadata/metadata.xml?format=default&output=html"
+    name: American Red Cross Chapter Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/42778f5eae7a4e4c80d98fe82c1d4099/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Red Cross Counties / Chapters / Regions / Divisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/42778f5eae7a4e4c80d98fe82c1d4099/info/metadata/metadata.xml?format=default&output=html"
+    name: American Red Cross Counties / Chapters / Regions / Divisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a0adc1fc93e74c0b9d9ccfb5b7e2d64f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Red Cross Divisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a0adc1fc93e74c0b9d9ccfb5b7e2d64f/info/metadata/metadata.xml?format=default&output=html"
+    name: American Red Cross Divisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f34333da2b524e9e930015b198ab427a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Red Cross Headquarters
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f34333da2b524e9e930015b198ab427a/info/metadata/metadata.xml?format=default&output=html"
+    name: American Red Cross Headquarters Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2b3c091f71624ab3b816a9c98665cf9f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: American Red Cross Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2b3c091f71624ab3b816a9c98665cf9f/info/metadata/metadata.xml?format=default&output=html"
+    name: American Red Cross Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ca30b4a021c54ca6815f2d4b938b7b39/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Amtrak Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ca30b4a021c54ca6815f2d4b938b7b39/info/metadata/metadata.xml?format=default&output=html"
+    name: Amtrak Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/887d7630920448afabfa5dbd62470b87/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Antenna Structure Registration (ASR)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/887d7630920448afabfa5dbd62470b87/info/metadata/metadata.xml?format=default&output=html"
+    name: Antenna Structure Registration (ASR) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d2ce672fda1f44089af659b629d11458/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Aquifers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d2ce672fda1f44089af659b629d11458/info/metadata/metadata.xml?format=default&output=html"
+    name: Aquifers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ebb0c70c33164a1097b47536c9850e72/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Aviation Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ebb0c70c33164a1097b47536c9850e72/info/metadata/metadata.xml?format=default&output=html"
+    name: Aviation Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4b8ff8882084495da2ecdb3b65c9e83f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Bathymetric Contours
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4b8ff8882084495da2ecdb3b65c9e83f/info/metadata/metadata.xml?format=default&output=html"
+    name: Bathymetric Contours Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5acdb8d21f434ea9942c75650aaa0f9d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Berths Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5acdb8d21f434ea9942c75650aaa0f9d/info/metadata/metadata.xml?format=default&output=html"
+    name: Berths Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/eaa9a012cf714dbe9909e81a7259a717/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Biodiesel Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/eaa9a012cf714dbe9909e81a7259a717/info/metadata/metadata.xml?format=default&output=html"
+    name: Biodiesel Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e333a51c2e0e4803b108d75110bb9acd/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Border Crossings - Natural Gas"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e333a51c2e0e4803b108d75110bb9acd/info/metadata/metadata.xml?format=default&output=html"
+    name: "Border Crossings - Natural Gas Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b396cb0b838c4e70b19326d5ea2d4413/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Bridge Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b396cb0b838c4e70b19326d5ea2d4413/info/metadata/metadata.xml?format=default&output=html"
+    name: Bridge Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a302e129f8304f26999ada1fa8810d10/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Broadband Radio Service (BRS) and Educational Broadband Service (EBS) Transmitters
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a302e129f8304f26999ada1fa8810d10/info/metadata/metadata.xml?format=default&output=html"
+    name: Broadband Radio Service (BRS) and Educational Broadband Service (EBS) Transmitters Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/fe974ebbdbc04ec1a99621bc76f4ac6e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Building Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/fe974ebbdbc04ec1a99621bc76f4ac6e/info/metadata/metadata.xml?format=default&output=html"
+    name: Building Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0f3f59a569c2444eb17e1fee33e36ade/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Built Up Areas Point (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0f3f59a569c2444eb17e1fee33e36ade/info/metadata/metadata.xml?format=default&output=html"
+    name: Built Up Areas Point (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a36253bb6ad54aca9392dd6e37fd639c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Cable Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a36253bb6ad54aca9392dd6e37fd639c/info/metadata/metadata.xml?format=default&output=html"
+    name: Cable Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1a0f383efb1740b89eea5f0d33404997/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Canada and US Border
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1a0f383efb1740b89eea5f0d33404997/info/metadata/metadata.xml?format=default&output=html"
+    name: Canada and US Border Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d95e8b9fdaef4e2fa7eda08bffe881de/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Caution Area Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d95e8b9fdaef4e2fa7eda08bffe881de/info/metadata/metadata.xml?format=default&output=html"
+    name: Caution Area Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/25ee0275484a4281ae00fb41cd05ab1e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Cellular Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/25ee0275484a4281ae00fb41cd05ab1e/info/metadata/metadata.xml?format=default&output=html"
+    name: Cellular Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/53c703338f6a429a877c43147c95a503/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Census Block Groups
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/53c703338f6a429a877c43147c95a503/info/metadata/metadata.xml?format=default&output=html"
+    name: Census Block Groups Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8060421f4db8425db5f1faa231bcc2ce/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Census Designated Places
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8060421f4db8425db5f1faa231bcc2ce/info/metadata/metadata.xml?format=default&output=html"
+    name: Census Designated Places Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5fb690e74a8647d19b02ee4f1f62cf91/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Census Tracts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5fb690e74a8647d19b02ee4f1f62cf91/info/metadata/metadata.xml?format=default&output=html"
+    name: Census Tracts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/004fac3baff540bc9263341f3e06a51e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Child Care Centers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/004fac3baff540bc9263341f3e06a51e/info/metadata/metadata.xml?format=default&output=html"
+    name: Child Care Centers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f9626ea7d93c494da82c1c983914cf07/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Coastlines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f9626ea7d93c494da82c1c983914cf07/info/metadata/metadata.xml?format=default&output=html"
+    name: Coastlines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0d7bedf9d582472e9ff7a6874589b545/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Colleges and Universities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/bc7ef39f9d2a4605b9d5aad0e050af11/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Colleges and Universities Campuses
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/bc7ef39f9d2a4605b9d5aad0e050af11/info/metadata/metadata.xml?format=default&output=html"
+    name: Colleges and Universities Campuses Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0d7bedf9d582472e9ff7a6874589b545/info/metadata/metadata.xml?format=default&output=html"
+    name: Colleges and Universities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/edac45f5d3104dfd9e1d4a015f4d43bf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Combined Statistical Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/edac45f5d3104dfd9e1d4a015f4d43bf/info/metadata/metadata.xml?format=default&output=html"
+    name: Combined Statistical Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/bff68c19237844c3a6c81c42d3ea55c2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Consolidated Cities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/bff68c19237844c3a6c81c42d3ea55c2/info/metadata/metadata.xml?format=default&output=html"
+    name: Consolidated Cities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5a82d05eda074afcb68f7799af9fede1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Construction Minerals Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5a82d05eda074afcb68f7799af9fede1/info/metadata/metadata.xml?format=default&output=html"
+    name: Construction Minerals Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/db7622e5ebdd40428fcafbd1615d621a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Control Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/db7622e5ebdd40428fcafbd1615d621a/info/metadata/metadata.xml?format=default&output=html"
+    name: Control Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ce19fc14d80243b6aa03d25b5c969f90/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Conveyor Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ce19fc14d80243b6aa03d25b5c969f90/info/metadata/metadata.xml?format=default&output=html"
+    name: Conveyor Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4194c7e6fcb04d4e8e4b2e1470267f9a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: County Subdivisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4194c7e6fcb04d4e8e4b2e1470267f9a/info/metadata/metadata.xml?format=default&output=html"
+    name: County Subdivisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4352a24980e0476cad426912a1821a60/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Courthouses
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4352a24980e0476cad426912a1821a60/info/metadata/metadata.xml?format=default&output=html"
+    name: Courthouses Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e920d0966d124c379cac1dc887ee6f01/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Crane Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e920d0966d124c379cac1dc887ee6f01/info/metadata/metadata.xml?format=default&output=html"
+    name: Crane Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/665d4ed3e0c74f4d8897792e608187b6/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Crushed Stone Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/665d4ed3e0c74f4d8897792e608187b6/info/metadata/metadata.xml?format=default&output=html"
+    name: Crushed Stone Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0bffc3251b314121bcac4df3b4087233/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Dam Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0bffc3251b314121bcac4df3b4087233/info/metadata/metadata.xml?format=default&output=html"
+    name: Dam Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/da1f10bd983b463886dfdb7a6fc20217/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Data Coverage Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/da1f10bd983b463886dfdb7a6fc20217/info/metadata/metadata.xml?format=default&output=html"
+    name: Data Coverage Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a40949b810674b64b5b8a982486b70ab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Data Quality Assessment Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a40949b810674b64b5b8a982486b70ab/info/metadata/metadata.xml?format=default&output=html"
+    name: Data Quality Assessment Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/eb8b1bef0afb41718d0c31ae673e2bd9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Daymark Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/eb8b1bef0afb41718d0c31ae673e2bd9/info/metadata/metadata.xml?format=default&output=html"
+    name: Daymark Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/91c69b0350084f95a69234d7c424851e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Deep Ocean Assessment and Reporting of Tsunamis (DART) Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/91c69b0350084f95a69234d7c424851e/info/metadata/metadata.xml?format=default&output=html"
+    name: Deep Ocean Assessment and Reporting of Tsunamis (DART) Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e69d87f2273947198d28d9d8214ab1a0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Depth Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e69d87f2273947198d28d9d8214ab1a0/info/metadata/metadata.xml?format=default&output=html"
+    name: Depth Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a600e72a409646cc9b617d104ecb5c60/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Dialysis Centers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a600e72a409646cc9b617d104ecb5c60/info/metadata/metadata.xml?format=default&output=html"
+    name: Dialysis Centers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e2000854cef445bfbf98a44b923fcfab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Distance Marks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e2000854cef445bfbf98a44b923fcfab/info/metadata/metadata.xml?format=default&output=html"
+    name: Distance Marks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/02013eaa0e1e4cc59658fe9e1c7ac703/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Docks
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/02013eaa0e1e4cc59658fe9e1c7ac703/info/metadata/metadata.xml?format=default&output=html"
+    name: Docks Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2b43916830f845d4906c6966852755d9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Dry Docks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2b43916830f845d4906c6966852755d9/info/metadata/metadata.xml?format=default&output=html"
+    name: Dry Docks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a3cbbd16713443d7a81b4ab21ba654cc/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Dumping Ground Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a3cbbd16713443d7a81b4ab21ba654cc/info/metadata/metadata.xml?format=default&output=html"
+    name: Dumping Ground Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/304240ec10464f18994ee7e0193eb0b5/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Dynamic Buoys (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/304240ec10464f18994ee7e0193eb0b5/info/metadata/metadata.xml?format=default&output=html"
+    name: Dynamic Buoys (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/42e8e0c7a3194ab0a42604e5a2cb63ef/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Electric Holding Company Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/42e8e0c7a3194ab0a42604e5a2cb63ef/info/metadata/metadata.xml?format=default&output=html"
+    name: Electric Holding Company Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7d35521e3b2c48ab8048330e14a4d2d1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Electric Planning Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7d35521e3b2c48ab8048330e14a4d2d1/info/metadata/metadata.xml?format=default&output=html"
+    name: Electric Planning Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4ee07fd24c0b47578c5b11017a7eb3ac/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Electric Retail Service Territories
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4ee07fd24c0b47578c5b11017a7eb3ac/info/metadata/metadata.xml?format=default&output=html"
+    name: Electric Retail Service Territories Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/465e995e304949a2a495442268d79989/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Elementary School Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/465e995e304949a2a495442268d79989/info/metadata/metadata.xml?format=default&output=html"
+    name: Elementary School Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ac15f202160d4d92be92d6ac74a86c72/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Environmental Protection Agency (EPA) Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ac15f202160d4d92be92d6ac74a86c72/info/metadata/metadata.xml?format=default&output=html"
+    name: Environmental Protection Agency (EPA) Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/205d84e34d7f4dbc8ddc9d7902151ca7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Environmental Protection Agency (EPA) Facility Registry Service (FRS) Power Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/205d84e34d7f4dbc8ddc9d7902151ca7/info/metadata/metadata.xml?format=default&output=html"
+    name: Environmental Protection Agency (EPA) Facility Registry Service (FRS) Power Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c670540796584c72b4f59b676ccabe6a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Environmental Protection Agency (EPA) Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c670540796584c72b4f59b676ccabe6a/info/metadata/metadata.xml?format=default&output=html"
+    name: Environmental Protection Agency (EPA) Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d8ca357a88684344b220d3a26e380f2a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Disaster Debris Recovery Data
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d8ca357a88684344b220d3a26e380f2a/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Disaster Debris Recovery Data Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/477c87e78f5b4453b810520394277483/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Emergency Response (ER) Risk Management Plan (RMP) Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/477c87e78f5b4453b810520394277483/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Emergency Response (ER) Risk Management Plan (RMP) Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4b9bac25263047c19e617d7bd7b30701/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "EPA Facility Registry Service (FRS) - Integrated Compliance Information System (ICIS) Wastewater Treatment Plants"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4b9bac25263047c19e617d7bd7b30701/info/metadata/metadata.xml?format=default&output=html"
+    name: "EPA Facility Registry Service (FRS) - Integrated Compliance Information System (ICIS) Wastewater Treatment Plants Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2c4a0b5f85b945f8a67125e6a93fa7fe/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "EPA Facility Registry Service (FRS) - Toxic Release Inventory (TRI)"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2c4a0b5f85b945f8a67125e6a93fa7fe/info/metadata/metadata.xml?format=default&output=html"
+    name: "EPA Facility Registry Service (FRS) - Toxic Release Inventory (TRI) Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6fb542c0b9e44082a53300b73577329c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "EPA Facility Registry Service (FRS) - Toxic Substances Control Act (TSCA)"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6fb542c0b9e44082a53300b73577329c/info/metadata/metadata.xml?format=default&output=html"
+    name: "EPA Facility Registry Service (FRS) - Toxic Substances Control Act (TSCA) Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dd7efeee3db54e739b0945c670476153/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Facility Registry Service (FRS) Interests
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dd7efeee3db54e739b0945c670476153/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Facility Registry Service (FRS) Interests Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3aebce44127c461baf28c2f3f0b3485b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Region Boundaries Exclusive Economic Zone (EEZ)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3aebce44127c461baf28c2f3f0b3485b/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Region Boundaries Exclusive Economic Zone (EEZ) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b180839412b64226a35422ea6a1a5b06/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Resource Conservation and Recovery Act Treatment Storage and Disposal (RCRATSD) Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b180839412b64226a35422ea6a1a5b06/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Resource Conservation and Recovery Act Treatment Storage and Disposal (RCRATSD) Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e2442b425b114b7588bdb27ba128af95/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: EPA Superfund Enterprise Management System (SEMS) Sites
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e2442b425b114b7588bdb27ba128af95/info/metadata/metadata.xml?format=default&output=html"
+    name: EPA Superfund Enterprise Management System (SEMS) Sites Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dec12c48c6194c87b2741a3d00ed9dd2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Ethanol Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dec12c48c6194c87b2741a3d00ed9dd2/info/metadata/metadata.xml?format=default&output=html"
+    name: Ethanol Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a7edefb7a17c4b419be9ab5b09fca930/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: FDIC Insured Banks
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a7edefb7a17c4b419be9ab5b09fca930/info/metadata/metadata.xml?format=default&output=html"
+    name: FDIC Insured Banks Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5bf7382e78c74360a39402ea190542d3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Federal Aviation Administration (FAA) Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5bf7382e78c74360a39402ea190542d3/info/metadata/metadata.xml?format=default&output=html"
+    name: Federal Aviation Administration (FAA) Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6622aa77740944a29a31ddfd8e913317/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Federal Emergency Management Agency (FEMA) Regional Offices
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6622aa77740944a29a31ddfd8e913317/info/metadata/metadata.xml?format=default&output=html"
+    name: Federal Emergency Management Agency (FEMA) Regional Offices Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5f6207ccb91d4ae48124018ffaec04bf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Federal Emergency Management Agency (FEMA) Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5f6207ccb91d4ae48124018ffaec04bf/info/metadata/metadata.xml?format=default&output=html"
+    name: Federal Emergency Management Agency (FEMA) Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c9cdba84fe9c4362be630dc9549f2680/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: FERC Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c9cdba84fe9c4362be630dc9549f2680/info/metadata/metadata.xml?format=default&output=html"
+    name: FERC Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e58b19e244b4439b90cbecd3a87a30f8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Ferrous Metal Mines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e58b19e244b4439b90cbecd3a87a30f8/info/metadata/metadata.xml?format=default&output=html"
+    name: Ferrous Metal Mines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7fbf1229a9674bdbbaba55d2c195b6fe/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Ferrous Metal Processing Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7fbf1229a9674bdbbaba55d2c195b6fe/info/metadata/metadata.xml?format=default&output=html"
+    name: Ferrous Metal Processing Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/86ada48e39724f5ba76ae945d4a199a7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Ferry Routes
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/86ada48e39724f5ba76ae945d4a199a7/info/metadata/metadata.xml?format=default&output=html"
+    name: Ferry Routes Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d3b67f8a5bf24011889d1c8daab7091a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Ferry Terminals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d3b67f8a5bf24011889d1c8daab7091a/info/metadata/metadata.xml?format=default&output=html"
+    name: Ferry Terminals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b0aaa5d6f376467884cab24f7139a2bf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Fire and Emergency Medical Service (EMS) Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b0aaa5d6f376467884cab24f7139a2bf/info/metadata/metadata.xml?format=default&output=html"
+    name: Fire and Emergency Medical Service (EMS) Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/eb101ed5db914dcaa2d63cbfb1f7d030/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Floating Docks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/eb101ed5db914dcaa2d63cbfb1f7d030/info/metadata/metadata.xml?format=default&output=html"
+    name: Floating Docks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5e8049c4caf44be3b945e92c253d378a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Floodwalls (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5e8049c4caf44be3b945e92c253d378a/info/metadata/metadata.xml?format=default&output=html"
+    name: Floodwalls (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f4090ae7ec7e45f0a58fe0d57685c0dd/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS) Program District Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f4090ae7ec7e45f0a58fe0d57685c0dd/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS) Program District Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9ed802d7a4754f99abb9ae543de0892e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS) Projects (Points)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9ed802d7a4754f99abb9ae543de0892e/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS) Projects (Points) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dbe9f24159944da48273e76a0ce374a7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS) Public Munitions Response Sites (MRS)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dbe9f24159944da48273e76a0ce374a7/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS) Public Munitions Response Sites (MRS) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/48beb981677d4524b0e8190764e69b59/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS) Public Properties
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/48beb981677d4524b0e8190764e69b59/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS) Public Properties Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/18895cb6980e4b72bb4c16e682c9f17a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS) Public Property Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/18895cb6980e4b72bb4c16e682c9f17a/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS) Public Property Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7a28fd152c4e469aa5bfd4237deb01e4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Formerly Used Defense Sites (FUDS)Â Program Division Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7a28fd152c4e469aa5bfd4237deb01e4/info/metadata/metadata.xml?format=default&output=html"
+    name: Formerly Used Defense Sites (FUDS)Â Program Division Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4d5f2501704c48259eb2a9e9972415d0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: FWS HQ ES Coastal Barrier Resources System
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4d5f2501704c48259eb2a9e9972415d0/info/metadata/metadata.xml?format=default&output=html"
+    name: FWS HQ ES Coastal Barrier Resources System Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0637d09a674045b9bca7ee159d1fe163/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: FWS HQ ES Critical Habitat
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0637d09a674045b9bca7ee159d1fe163/info/metadata/metadata.xml?format=default&output=html"
+    name: FWS HQ ES Critical Habitat Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1bf9c8a974b942ee983da509525f35a3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: GSA Inventory of Owned and Leased Properties (IOLP) Buildings
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1bf9c8a974b942ee983da509525f35a3/info/metadata/metadata.xml?format=default&output=html"
+    name: GSA Inventory of Owned and Leased Properties (IOLP) Buildings Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/78a6f90b4a704baaabe8bdc3b8b07935/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: GSA Inventory of Owned and Leased Properties (IOLP) Leases
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/78a6f90b4a704baaabe8bdc3b8b07935/info/metadata/metadata.xml?format=default&output=html"
+    name: GSA Inventory of Owned and Leased Properties (IOLP) Leases Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e15de4b200c04e2798cd5925e0843119/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Harbor Administrative Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e15de4b200c04e2798cd5925e0843119/info/metadata/metadata.xml?format=default&output=html"
+    name: Harbor Administrative Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5edba0249c4946a1912d112529e2580c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Harbor Facility Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5edba0249c4946a1912d112529e2580c/info/metadata/metadata.xml?format=default&output=html"
+    name: Harbor Facility Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/14bb216500b1401ebb083d908ed6cd6d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Harbor Facility Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/14bb216500b1401ebb083d908ed6cd6d/info/metadata/metadata.xml?format=default&output=html"
+    name: Harbor Facility Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/54e0b1b174a449c98f80bb3429cc69d4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: HIFLDEvents layer view
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/54e0b1b174a449c98f80bb3429cc69d4/info/metadata/metadata.xml?format=default&output=html	"
+    name: HIFLDEvents layer view Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/81331b0cc8374b7b8a4275b99a69110d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Historic Perimeters Combined 2000-2018 GeoMAC"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/81331b0cc8374b7b8a4275b99a69110d/info/metadata/metadata.xml?format=default&output=html"
+    name: "Historic Perimeters Combined 2000-2018 GeoMAC Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9684368c7ad043f7827fd328a10cca81/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Historical Holocene Volcano Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9684368c7ad043f7827fd328a10cca81/info/metadata/metadata.xml?format=default&output=html"
+    name: Historical Holocene Volcano Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/695a166489a040dc9337d5ebc4bc234b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Historical Significant Earthquake Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/695a166489a040dc9337d5ebc4bc234b/info/metadata/metadata.xml?format=default&output=html"
+    name: Historical Significant Earthquake Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3ed5925b69db4374aec43a054b444214/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Historical Significant Volcanic Event Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3ed5925b69db4374aec43a054b444214/info/metadata/metadata.xml?format=default&output=html"
+    name: Historical Significant Volcanic Event Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2f5b366a88fc4efe996fe8b4c262d801/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Historical Tsunami Event Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2f5b366a88fc4efe996fe8b4c262d801/info/metadata/metadata.xml?format=default&output=html"
+    name: Historical Tsunami Event Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/caa9a672e1914ecdab3f04540fa86b90/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Historical Tsunami Observations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/caa9a672e1914ecdab3f04540fa86b90/info/metadata/metadata.xml?format=default&output=html"
+    name: Historical Tsunami Observations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9e318142490c4884bf74932af437c6c2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Hospitals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9e318142490c4884bf74932af437c6c2/info/metadata/metadata.xml?format=default&output=html"
+    name: Hospitals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/029e60ce925143b7a50ae62970772d15/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Hulke Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/029e60ce925143b7a50ae62970772d15/info/metadata/metadata.xml?format=default&output=html"
+    name: Hulke Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/fad7e689a60c479b9df688bb2b9efa7b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Hydrocarbon Gas Liquid Pipelines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/fad7e689a60c479b9df688bb2b9efa7b/info/metadata/metadata.xml?format=default&output=html"
+    name: Hydrocarbon Gas Liquid Pipelines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7701937009b94d1d8d5ab4c7472802e9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Incorporated Places
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7701937009b94d1d8d5ab4c7472802e9/info/metadata/metadata.xml?format=default&output=html"
+    name: Incorporated Places Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/50f80920d36e435d9a34db2bd0fd3ad8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Independent Systems Operators
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/50f80920d36e435d9a34db2bd0fd3ad8/info/metadata/metadata.xml?format=default&output=html"
+    name: Independent Systems Operators Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7f6d222fcb774ea999090a007ac7b0ab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Interim Risk Management (IRM) Project Boundary
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7f6d222fcb774ea999090a007ac7b0ab/info/metadata/metadata.xml?format=default&output=html"
+    name: Interim Risk Management (IRM) Project Boundary Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/cbff2fcccd6d4eaaad2ed8e2f8656288/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Interim Risk Management (IRM) Property Boundary
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/cbff2fcccd6d4eaaad2ed8e2f8656288/info/metadata/metadata.xml?format=default&output=html"
+    name: Interim Risk Management (IRM) Property Boundary Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/622ee547acc34bf08156673cef457c63/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Interim Risk Management (IRM) Property Point
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/622ee547acc34bf08156673cef457c63/info/metadata/metadata.xml?format=default&output=html"
+    name: Interim Risk Management (IRM) Property Point Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/952000e800d44215811d9f4bd4414111/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Intermodal Freight Facilities Air-to-Truck"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/952000e800d44215811d9f4bd4414111/info/metadata/metadata.xml?format=default&output=html"
+    name: "Intermodal Freight Facilities Air-to-Truck Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/722e79137ab540b49e56ca2e8f649b8c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Intermodal Freight Facilities Marine Roll-on/Roll-off"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/722e79137ab540b49e56ca2e8f649b8c/info/metadata/metadata.xml?format=default&output=html"
+    name: "Intermodal Freight Facilities Marine Roll-on/Roll-off Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e73709b48eba49b294ec1a98f1019e4e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Intermodal Freight Facilities Pipeline Terminals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e73709b48eba49b294ec1a98f1019e4e/info/metadata/metadata.xml?format=default&output=html"
+    name: Intermodal Freight Facilities Pipeline Terminals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/73cf88f11d0f451089c5e023ef6aee6d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Intermodal Freight Facilities Rail TOFC/COFC
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/73cf88f11d0f451089c5e023ef6aee6d/info/metadata/metadata.xml?format=default&output=html"
+    name: Intermodal Freight Facilities Rail TOFC/COFC Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/916434aa879b4d25be8a8013d9cc0af5/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Intermodal Passenger Connectivity Database (IPCD)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/916434aa879b4d25be8a8013d9cc0af5/info/metadata/metadata.xml?format=default&output=html"
+    name: Intermodal Passenger Connectivity Database (IPCD) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f47e9f3d03ca4d70b58ad66fa85c37a3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Isolated Danger Buoy Point (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f47e9f3d03ca4d70b58ad66fa85c37a3/info/metadata/metadata.xml?format=default&output=html"
+    name: Isolated Danger Buoy Point (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/35fbb75b66d747aba65bcc7efff9008c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lakes (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/35fbb75b66d747aba65bcc7efff9008c/info/metadata/metadata.xml?format=default&output=html"
+    name: Lakes (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/cca991aa70894b8c84deef312ab2124b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Mobile Broadcast Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/cca991aa70894b8c84deef312ab2124b/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Mobile Broadcast Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/76ebce3edeec4eb7ba0f19025263e925/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Mobile Commercial Transmission Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/76ebce3edeec4eb7ba0f19025263e925/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Mobile Commercial Transmission Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/70287337e8d8448797ee3cd243a5c117/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Mobile Private Transmission Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/70287337e8d8448797ee3cd243a5c117/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Mobile Private Transmission Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/fcf3d3eea8a243fb984580f96fd20933/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Region Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/fcf3d3eea8a243fb984580f96fd20933/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Region Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6373c1c78b354664ac2428876ece7651/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Region Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6373c1c78b354664ac2428876ece7651/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Region Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dc0737d7144140a98a71524c92968577/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Land Surface Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dc0737d7144140a98a71524c92968577/info/metadata/metadata.xml?format=default&output=html"
+    name: Land Surface Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/72c275a9e75845dfba08ed7ae1aa0d05/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Landmark Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/72c275a9e75845dfba08ed7ae1aa0d05/info/metadata/metadata.xml?format=default&output=html"
+    name: Landmark Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3909b168fd474aee9b3f453ab2dfba16/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Landmark Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3909b168fd474aee9b3f453ab2dfba16/info/metadata/metadata.xml?format=default&output=html"
+    name: Landmark Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0b537bc511d9408b9c343fa7c890e0d0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lateral Beacons (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0b537bc511d9408b9c343fa7c890e0d0/info/metadata/metadata.xml?format=default&output=html"
+    name: Lateral Beacons (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/42a80492e29c47acb0b12e42916a09a4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lateral Buoys (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/42a80492e29c47acb0b12e42916a09a4/info/metadata/metadata.xml?format=default&output=html"
+    name: Lateral Buoys (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8513e7fd6f0f4ec4bbf3eaf7c6cfc36f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Levee Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8513e7fd6f0f4ec4bbf3eaf7c6cfc36f/info/metadata/metadata.xml?format=default&output=html"
+    name: Levee Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/767e2a6a0c1d4e1ebd20400d7e81d3e2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Levee Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/767e2a6a0c1d4e1ebd20400d7e81d3e2/info/metadata/metadata.xml?format=default&output=html"
+    name: Levee Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c5b31fc4a0124a5fa63861277ebfb1e9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Liquified Natural Gas (LNG) Import and Export Terminals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c5b31fc4a0124a5fa63861277ebfb1e9/info/metadata/metadata.xml?format=default&output=html"
+    name: Liquified Natural Gas (LNG) Import and Export Terminals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/874798faedc74358bac9bbe1867af3c7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Local Emergency Operations Center (EOC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/874798faedc74358bac9bbe1867af3c7/info/metadata/metadata.xml?format=default&output=html"
+    name: Local Emergency Operations Center (EOC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0d79b978d71b4654bddb6ca0f4b7f830/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Local Law Enforcement Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0d79b978d71b4654bddb6ca0f4b7f830/info/metadata/metadata.xml?format=default&output=html"
+    name: Local Law Enforcement Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/003cb563461a4129a5042f340dabea58/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Local Roads
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/003cb563461a4129a5042f340dabea58/info/metadata/metadata.xml?format=default&output=html"
+    name: Local Roads Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f0e5320548054b3ab62db2401d4ceb0e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lock Basins (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f0e5320548054b3ab62db2401d4ceb0e/info/metadata/metadata.xml?format=default&output=html"
+    name: Lock Basins (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/be749b1427e04128a9bae1126e42fc50/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lock Gate Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/be749b1427e04128a9bae1126e42fc50/info/metadata/metadata.xml?format=default&output=html"
+    name: Lock Gate Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/49cb944a846744699204cc00543a5f41/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lock Gate Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/49cb944a846744699204cc00543a5f41/info/metadata/metadata.xml?format=default&output=html"
+    name: Lock Gate Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/685da518cb2d4029a690d57435e03b3c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Lock Traffic Signal Stations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/685da518cb2d4029a690d57435e03b3c/info/metadata/metadata.xml?format=default&output=html"
+    name: Lock Traffic Signal Stations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/eb2a4d762b7f45fd9236ea774757a111/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Locks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/eb2a4d762b7f45fd9236ea774757a111/info/metadata/metadata.xml?format=default&output=html"
+    name: Locks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/491d4f7ffe5e45e98899ce457aa4ac62/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Metropolitan Divisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/491d4f7ffe5e45e98899ce457aa4ac62/info/metadata/metadata.xml?format=default&output=html"
+    name: Metropolitan Divisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/af62daf9ca2d4721bb8d2f1ded91521e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Metropolitan Statistical Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/af62daf9ca2d4721bb8d2f1ded91521e/info/metadata/metadata.xml?format=default&output=html"
+    name: Metropolitan Statistical Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1ceab4c3babb4f058ec6c773574a6ae5/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mexico and US Border
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1ceab4c3babb4f058ec6c773574a6ae5/info/metadata/metadata.xml?format=default&output=html"
+    name: Mexico and US Border Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8e38478c4d0b464f86c3fbe1ccdf9909/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Micropolitan Statistical Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8e38478c4d0b464f86c3fbe1ccdf9909/info/metadata/metadata.xml?format=default&output=html"
+    name: Micropolitan Statistical Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e4ada760e7de4c0682463b125c3bb7a9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Microwave Service Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e4ada760e7de4c0682463b125c3bb7a9/info/metadata/metadata.xml?format=default&output=html"
+    name: Microwave Service Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/793047ab311c45f891865223d3bd6107/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Military Installations, Ranges, and Training Areas (MIRTA) DoD Sites - Boundaries"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/793047ab311c45f891865223d3bd6107/info/metadata/metadata.xml?format=default&output=html"
+    name: "Military Installations, Ranges, and Training Areas (MIRTA) DoD Sites - Boundaries Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/de61396f603346b8a18784eee07fd767/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Military Installations, Ranges, and Training Areas (MIRTA) DoD Sites - Points"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/de61396f603346b8a18784eee07fd767/info/metadata/metadata.xml?format=default&output=html"
+    name: "Military Installations, Ranges, and Training Areas (MIRTA) DoD Sites - Points Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/be32bfd235b34b16b241a5043e1de880/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mines and Mineral Resources
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/be32bfd235b34b16b241a5043e1de880/info/metadata/metadata.xml?format=default&output=html"
+    name: Mines and Mineral Resources Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/636e283fc23645dfaeebdac5d9254776/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Miscellaneous Industrial Mineral Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/636e283fc23645dfaeebdac5d9254776/info/metadata/metadata.xml?format=default&output=html"
+    name: Miscellaneous Industrial Mineral Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4cdbccc5c538452aa91ceee277c460f9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mobile Home Parks
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4cdbccc5c538452aa91ceee277c460f9/info/metadata/metadata.xml?format=default&output=html"
+    name: Mobile Home Parks Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9249befdb1ae4dd192028b2747c640e9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mooring Facility Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9249befdb1ae4dd192028b2747c640e9/info/metadata/metadata.xml?format=default&output=html"
+    name: Mooring Facility Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/baa681a314664d239b5360fab6b2e0cc/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mooring Facility Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/baa681a314664d239b5360fab6b2e0cc/info/metadata/metadata.xml?format=default&output=html"
+    name: Mooring Facility Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dfe88fba3f714afc844587fddabdfef0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Mooring Facility Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dfe88fba3f714afc844587fddabdfef0/info/metadata/metadata.xml?format=default&output=html"
+    name: Mooring Facility Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a9b05a595ff94f3fa3888d1240545740/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Bridge Inventory (NBI)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a9b05a595ff94f3fa3888d1240545740/info/metadata/metadata.xml?format=default&output=html"
+    name: National Bridge Inventory (NBI) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/12f298a6c5364bd682fdf60ecd564f19/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Forests
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/12f298a6c5364bd682fdf60ecd564f19/info/metadata/metadata.xml?format=default&output=html"
+    name: National Forests Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f156ccabb57d434cbb1a5c38aedf224e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Inventory of Dams (NID)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f156ccabb57d434cbb1a5c38aedf224e/info/metadata/metadata.xml?format=default&output=html"
+    name: National Inventory of Dams (NID) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/bcaf5fdb3db24c78afee52d4c8a02748/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Shelter System Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/bcaf5fdb3db24c78afee52d4c8a02748/info/metadata/metadata.xml?format=default&output=html"
+    name: National Shelter System Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/946f18c42b9840eba96667ad3a75704d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Transit Map Agencies
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/946f18c42b9840eba96667ad3a75704d/info/metadata/metadata.xml?format=default&output=html"
+    name: National Transit Map Agencies Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f59a9eecd62240f59de4d1c3e4c335c7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Transit Map Routes
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f59a9eecd62240f59de4d1c3e4c335c7/info/metadata/metadata.xml?format=default&output=html"
+    name: National Transit Map Routes Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/621384382e364b6d98c368248e042814/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Transit Map Stops
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/621384382e364b6d98c368248e042814/info/metadata/metadata.xml?format=default&output=html"
+    name: National Transit Map Stops Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/02bfe3163c1842bfb2b5728807288853/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: National Tunnel Inventory
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/02bfe3163c1842bfb2b5728807288853/info/metadata/metadata.xml?format=default&output=html"
+    name: National Tunnel Inventory Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3039af74880b4e8ea616b8fcdc2cc52d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Natural Gas Interstate and Intrastate Pipelines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3039af74880b4e8ea616b8fcdc2cc52d/info/metadata/metadata.xml?format=default&output=html"
+    name: Natural Gas Interstate and Intrastate Pipelines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/976a331c0f2a49308becb566ffa2392a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Natural Gas Processing Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/976a331c0f2a49308becb566ffa2392a/info/metadata/metadata.xml?format=default&output=html"
+    name: Natural Gas Processing Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dfbff0ff802d4a64b13af1f81fac54cf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Natural Gas Service Territories
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dfbff0ff802d4a64b13af1f81fac54cf/info/metadata/metadata.xml?format=default&output=html"
+    name: Natural Gas Service Territories Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a707cbd158a64e1ea009457fbc9b5d68/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Natural Gas Trading Hubs
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a707cbd158a64e1ea009457fbc9b5d68/info/metadata/metadata.xml?format=default&output=html"
+    name: Natural Gas Trading Hubs Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9c30ae9428e4417493f7135f3bc09c56/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Natural Gas Underground Storage
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9c30ae9428e4417493f7135f3bc09c56/info/metadata/metadata.xml?format=default&output=html"
+    name: Natural Gas Underground Storage Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4fa3f08188804678b90b9ae4d8ce3720/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Nautical Navigation Aids (NAVAID) Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4fa3f08188804678b90b9ae4d8ce3720/info/metadata/metadata.xml?format=default&output=html"
+    name: Nautical Navigation Aids (NAVAID) Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/13887a675e154f9db84d69b675cd48da/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Nautical Publication Information Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/13887a675e154f9db84d69b675cd48da/info/metadata/metadata.xml?format=default&output=html"
+    name: Nautical Publication Information Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7e38427643334e43ba998c1cfce945cb/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Navigable Waterway Network Lines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7e38427643334e43ba998c1cfce945cb/info/metadata/metadata.xml?format=default&output=html"
+    name: Navigable Waterway Network Lines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6bdd4d6080724d3abfb390337d685d41/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Navigable Waterway Network Node Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6bdd4d6080724d3abfb390337d685d41/info/metadata/metadata.xml?format=default&output=html"
+    name: Navigable Waterway Network Node Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d8c957e14d994931b7baebdff5de8dad/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Navigation Lights (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d8c957e14d994931b7baebdff5de8dad/info/metadata/metadata.xml?format=default&output=html"
+    name: Navigation Lights (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f71cd02a8b4743f88450e558d80496c0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Navigation System of Marks Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f71cd02a8b4743f88450e558d80496c0/info/metadata/metadata.xml?format=default&output=html"
+    name: Navigation System of Marks Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b25fb3a402354ff6a058b9305c829f98/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: NCUA Insured Credit Unions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b25fb3a402354ff6a058b9305c829f98/info/metadata/metadata.xml?format=default&output=html"
+    name: NCUA Insured Credit Unions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6b2af23c67f04f4cb01d88c61aaf558a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: NERC Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6b2af23c67f04f4cb01d88c61aaf558a/info/metadata/metadata.xml?format=default&output=html"
+    name: NERC Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ee47fbb73fc04d609510f340e1c1952c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: NERC Reliability Coordinators
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ee47fbb73fc04d609510f340e1c1952c/info/metadata/metadata.xml?format=default&output=html"
+    name: NERC Reliability Coordinators Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3ddcbfa84a5841c8920efea554846604/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Nonferrous Metal Mines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3ddcbfa84a5841c8920efea554846604/info/metadata/metadata.xml?format=default&output=html"
+    name: Nonferrous Metal Mines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/125e3e76d833455daf75284f9871e6cf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Nonferrous Metal Processing Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/125e3e76d833455daf75284f9871e6cf/info/metadata/metadata.xml?format=default&output=html"
+    name: Nonferrous Metal Processing Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/66eccd071c8043cfb14c78e8d1c9d9f1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: North America Political Divisions Polygons
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/66eccd071c8043cfb14c78e8d1c9d9f1/info/metadata/metadata.xml?format=default&output=html"
+    name: North America Political Divisions Polygons Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/70a1dfb3a6c7492894e97dd35d3e5428/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: North American Rail Network Lines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/70a1dfb3a6c7492894e97dd35d3e5428/info/metadata/metadata.xml?format=default&output=html"
+    name: North American Rail Network Lines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6d86661a4f7b45c2a2c155ff5d1fbe23/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: North American Rail Network Nodes
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6d86661a4f7b45c2a2c155ff5d1fbe23/info/metadata/metadata.xml?format=default&output=html"
+    name: North American Rail Network Nodes Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/af605485726d4954b58af81d1360a12c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Northeast Petroleum Reserves
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/af605485726d4954b58af81d1360a12c/info/metadata/metadata.xml?format=default&output=html"
+    name: Northeast Petroleum Reserves Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e6a9378b1182422d93a72f0c5a8d3c58/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Notice Marks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e6a9378b1182422d93a72f0c5a8d3c58/info/metadata/metadata.xml?format=default&output=html"
+    name: Notice Marks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/426ab97fbcec4f4d872340b4d8630170/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Nursing Homes
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/426ab97fbcec4f4d872340b4d8630170/info/metadata/metadata.xml?format=default&output=html"
+    name: Nursing Homes Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4646c9036366420d9ee8e002464a3167/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Obstruction Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4646c9036366420d9ee8e002464a3167/info/metadata/metadata.xml?format=default&output=html"
+    name: Obstruction Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a4a0cc0439bd4dbb97c9b1fcbb12096a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Obstruction Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a4a0cc0439bd4dbb97c9b1fcbb12096a/info/metadata/metadata.xml?format=default&output=html"
+    name: Obstruction Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a763f36d41ec4702a1fe4be022d1bdab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Obstruction Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a763f36d41ec4702a1fe4be022d1bdab/info/metadata/metadata.xml?format=default&output=html"
+    name: Obstruction Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d6403a49d5cd428ebe67a1fa7fd69a40/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Oil and Natural Gas Platforms
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d6403a49d5cd428ebe67a1fa7fd69a40/info/metadata/metadata.xml?format=default&output=html"
+    name: Oil and Natural Gas Platforms Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/eb03e987f5524504838f6a4501fe5453/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Outer Continental Shelf (OCS) Drilling Platforms
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/eb03e987f5524504838f6a4501fe5453/info/metadata/metadata.xml?format=default&output=html"
+    name: Outer Continental Shelf (OCS) Drilling Platforms Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b7ca0052df4147f3b60bfd1894354b34/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Outer Continental Shelf (OCS) Lease Blocks
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b7ca0052df4147f3b60bfd1894354b34/info/metadata/metadata.xml?format=default&output=html"
+    name: Outer Continental Shelf (OCS) Lease Blocks Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e5b4eef8d8d1427aa1fae26170cd0175/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Outer Continental Shelf (OCS) Oil and Natural Gas Wells
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e5b4eef8d8d1427aa1fae26170cd0175/info/metadata/metadata.xml?format=default&output=html"
+    name: Outer Continental Shelf (OCS) Oil and Natural Gas Wells Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7a04ae267def460aad430869f95bcac4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "Outer Continental Shelf (OCS) Protraction Diagrams & Leasing Maps"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7a04ae267def460aad430869f95bcac4/info/metadata/metadata.xml?format=default&output=html"
+    name: "Outer Continental Shelf (OCS) Protraction Diagrams & Leasing Maps Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4a5328635cea415f98ee8cf094dceb91/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Overhead Cables (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4a5328635cea415f98ee8cf094dceb91/info/metadata/metadata.xml?format=default&output=html"
+    name: Overhead Cables (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5888d283de0840e7b2bc5c5e6c9647c6/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Overhead Pipeline Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5888d283de0840e7b2bc5c5e6c9647c6/info/metadata/metadata.xml?format=default&output=html"
+    name: Overhead Pipeline Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c36a63aa25c2470eab7d899b49f41596/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "PAD-US Manager Name"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c36a63aa25c2470eab7d899b49f41596/info/metadata/metadata.xml?format=default&output=html"
+    name: "PAD-US Manager Name Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e80a13374cb74cf2bba8903867b29997/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "PAD-US Protection Mechanism Category"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e80a13374cb74cf2bba8903867b29997/info/metadata/metadata.xml?format=default&output=html"
+    name: "PAD-US Protection Mechanism Category Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2a092cc7a617423394be52ee69418a1f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Paging Transmission Towers
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2a092cc7a617423394be52ee69418a1f/info/metadata/metadata.xml?format=default&output=html"
+    name: Paging Transmission Towers Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/05beb7d30a6d4e44a44feb976ab5fb0c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Peak Shaving Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/05beb7d30a6d4e44a44feb976ab5fb0c/info/metadata/metadata.xml?format=default&output=html"
+    name: Peak Shaving Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3651cc0c8ee449e5afacc298d78cda59/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Petroleum Product Terminals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3651cc0c8ee449e5afacc298d78cda59/info/metadata/metadata.xml?format=default&output=html"
+    name: Petroleum Product Terminals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/07a03b6c27c54f24a89e3e364c6b4a92/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Petroleum Refineries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/07a03b6c27c54f24a89e3e364c6b4a92/info/metadata/metadata.xml?format=default&output=html"
+    name: Petroleum Refineries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7bba52256ec84e1a83c758e992b1b762/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Pile Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7bba52256ec84e1a83c758e992b1b762/info/metadata/metadata.xml?format=default&output=html"
+    name: Pile Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3f0cd158c2b941499b33d08a6f3523f1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Pipeline Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3f0cd158c2b941499b33d08a6f3523f1/info/metadata/metadata.xml?format=default&output=html"
+    name: Pipeline Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/57274f0fb4a541c5b294718424a0fa2e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Plate Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/57274f0fb4a541c5b294718424a0fa2e/info/metadata/metadata.xml?format=default&output=html"
+    name: Plate Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/49daa72be7b84767bbb5e5c6f51ab1e8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: POL Terminals
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/49daa72be7b84767bbb5e5c6f51ab1e8/info/metadata/metadata.xml?format=default&output=html"
+    name: POL Terminals Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d2f40591b7e34d8ba7f1e22109067262/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Pontoon Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d2f40591b7e34d8ba7f1e22109067262/info/metadata/metadata.xml?format=default&output=html"
+    name: Pontoon Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3933681a814141a682facf68e85d7e27/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Power Plants
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3933681a814141a682facf68e85d7e27/info/metadata/metadata.xml?format=default&output=html"
+    name: Power Plants Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c8201b9c76db43c89af8d5ead4d35e14/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Primary Roads
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c8201b9c76db43c89af8d5ead4d35e14/info/metadata/metadata.xml?format=default&output=html"
+    name: Primary Roads Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a2055b36408b440fb9fbc4704906f05f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Principal Ports
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a2055b36408b440fb9fbc4704906f05f/info/metadata/metadata.xml?format=default&output=html"
+    name: Principal Ports Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/985a1fa88cac4eef94ad242a7d181a05/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Prison Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/985a1fa88cac4eef94ad242a7d181a05/info/metadata/metadata.xml?format=default&output=html"
+    name: Prison Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0dfe37d2a68545a699b999804354dacf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Private Schools
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0dfe37d2a68545a699b999804354dacf/info/metadata/metadata.xml?format=default&output=html"
+    name: Private Schools Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/22c3961adfdb4a8daffdc2d6277b9633/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Public Refrigerated Warehouses
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/22c3961adfdb4a8daffdc2d6277b9633/info/metadata/metadata.xml?format=default&output=html"
+    name: Public Refrigerated Warehouses Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/87376bdb0cb3490cbda39935626f6604/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Public Schools
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/87376bdb0cb3490cbda39935626f6604/info/metadata/metadata.xml?format=default&output=html"
+    name: Public Schools Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2a17c07c66394241b40c5cd8bcc6f6f8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Puerto Rico Subbarrios
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2a17c07c66394241b40c5cd8bcc6f6f8/info/metadata/metadata.xml?format=default&output=html"
+    name: Puerto Rico Subbarrios Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/302bade663024f86b21a68bcb04f8e4f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Pylon Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/302bade663024f86b21a68bcb04f8e4f/info/metadata/metadata.xml?format=default&output=html"
+    name: Pylon Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1fcea04d304a4404b80cfdec3160b370/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Pylon Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1fcea04d304a4404b80cfdec3160b370/info/metadata/metadata.xml?format=default&output=html"
+    name: Pylon Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9e54ca2e1f514687a6d06433ce6beb71/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Quaternary Fault Lines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9e54ca2e1f514687a6d06433ce6beb71/info/metadata/metadata.xml?format=default&output=html"
+    name: Quaternary Fault Lines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1eb2dab9f283413e9e175427d74f51e2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Railroad Bridges
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1eb2dab9f283413e9e175427d74f51e2/info/metadata/metadata.xml?format=default&output=html"
+    name: Railroad Bridges Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e4c7b11a53b240abb0538466e04d9709/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Railroad Grade Crossings
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e4c7b11a53b240abb0538466e04d9709/info/metadata/metadata.xml?format=default&output=html"
+    name: Railroad Grade Crossings Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/97782f7bf09c43ca99bf4f2912ff12e3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Railroads
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/97782f7bf09c43ca99bf4f2912ff12e3/info/metadata/metadata.xml?format=default&output=html"
+    name: Railroads Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1460a04e835f48cc9d74fe449d088d68/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Railways (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1460a04e835f48cc9d74fe449d088d68/info/metadata/metadata.xml?format=default&output=html"
+    name: Railways (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/faf2814fae514b09813f960f669e91e2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Recommended Tracks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/faf2814fae514b09813f960f669e91e2/info/metadata/metadata.xml?format=default&output=html"
+    name: Recommended Tracks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/780a3a345ee0428a9486914afdac9232/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Refractory Abrasive and Other Industrial Mineral Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/780a3a345ee0428a9486914afdac9232/info/metadata/metadata.xml?format=default&output=html"
+    name: Refractory Abrasive and Other Industrial Mineral Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/bb72b5f6075741159fe02d91f80b98e4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Regulated Navigational Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/bb72b5f6075741159fe02d91f80b98e4/info/metadata/metadata.xml?format=default&output=html"
+    name: Regulated Navigational Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/72e9aa2e0ed040a6b43c04fde46773e9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Restricted Navigation Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/72e9aa2e0ed040a6b43c04fde46773e9/info/metadata/metadata.xml?format=default&output=html"
+    name: Restricted Navigation Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8e667fb5fc9f4f07bbaf4305aa79973a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: River Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8e667fb5fc9f4f07bbaf4305aa79973a/info/metadata/metadata.xml?format=default&output=html"
+    name: River Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1d8fafba2000416e9e53f23ed3e7f584/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: River Gauges (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1d8fafba2000416e9e53f23ed3e7f584/info/metadata/metadata.xml?format=default&output=html"
+    name: River Gauges (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/13bbaea400fa479f92afe1f17cca2df6/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: River Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/13bbaea400fa479f92afe1f17cca2df6/info/metadata/metadata.xml?format=default&output=html"
+    name: River Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/496c6859c35143c69b7458af6049658b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: River Mile Markers (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/496c6859c35143c69b7458af6049658b/info/metadata/metadata.xml?format=default&output=html"
+    name: River Mile Markers (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0b58d5ae14ef4053a5820cc0fe1acbd9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Roads (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0b58d5ae14ef4053a5820cc0fe1acbd9/info/metadata/metadata.xml?format=default&output=html"
+    name: Roads (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/98e35a36d3ce46aca1f759aa1664aa3b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Runways
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/98e35a36d3ce46aca1f759aa1664aa3b/info/metadata/metadata.xml?format=default&output=html"
+    name: Runways Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/5ca3e6aaf2a947afb04c2dcbd691f4f4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Safety Zones
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/5ca3e6aaf2a947afb04c2dcbd691f4f4/info/metadata/metadata.xml?format=default&output=html"
+    name: Safety Zones Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9d3ec7cf50ba4324a67b01cc62ee817e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Sand and Gravel Operations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9d3ec7cf50ba4324a67b01cc62ee817e/info/metadata/metadata.xml?format=default&output=html"
+    name: Sand and Gravel Operations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/08586d2731444f85864f1bf2ec0518b7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: School District Administrative Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/08586d2731444f85864f1bf2ec0518b7/info/metadata/metadata.xml?format=default&output=html"
+    name: School District Administrative Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/17ec74422b5c42a088b2678b59c88826/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Sea Area Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/17ec74422b5c42a088b2678b59c88826/info/metadata/metadata.xml?format=default&output=html"
+    name: Sea Area Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7d13605ca48844e2bcd992b3051c1ce0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Sea Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7d13605ca48844e2bcd992b3051c1ce0/info/metadata/metadata.xml?format=default&output=html"
+    name: Sea Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0cc7fa5e342a4455aeeed2b24d98ba69/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Secondary Roads Interstates and US Highways
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0cc7fa5e342a4455aeeed2b24d98ba69/info/metadata/metadata.xml?format=default&output=html"
+    name: Secondary Roads Interstates and US Highways Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a0d5e5e1d44e4dc4b17a2f9c882f4e50/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Secondary School Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a0d5e5e1d44e4dc4b17a2f9c882f4e50/info/metadata/metadata.xml?format=default&output=html"
+    name: Secondary School Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1eebcd9ad76345cf88383a2132279c1a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Security Zones
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1eebcd9ad76345cf88383a2132279c1a/info/metadata/metadata.xml?format=default&output=html"
+    name: Security Zones Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4b4d9355213a4293b73e487d4882185a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Seismic Hazard Model PGA with 2%, 5%, or 10% Probability in 50 years
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4b4d9355213a4293b73e487d4882185a/info/metadata/metadata.xml?format=default&output=html"
+    name: Seismic Hazard Model PGA with 2%, 5%, or 10% Probability in 50 years Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d2be2f3a6cf04e8fb7a7de8c70ad0748/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Seismic Hazard Model SA with 2%, 5%, or 10% Probability in 50 years
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d2be2f3a6cf04e8fb7a7de8c70ad0748/info/metadata/metadata.xml?format=default&output=html"
+    name: Seismic Hazard Model SA with 2%, 5%, or 10% Probability in 50 years Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2766358a58424d08b2aca74e87dad5c8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Shipping Fairways
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2766358a58424d08b2aca74e87dad5c8/info/metadata/metadata.xml?format=default&output=html"
+    name: Shipping Fairways Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a1581f07394f4a31a8b5bae5ad4b1b90/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Shoreline Construction Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a1581f07394f4a31a8b5bae5ad4b1b90/info/metadata/metadata.xml?format=default&output=html"
+    name: Shoreline Construction Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/45615e206b064cc9a7a27ed96545ea14/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Shoreline Construction Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/45615e206b064cc9a7a27ed96545ea14/info/metadata/metadata.xml?format=default&output=html"
+    name: Shoreline Construction Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/7814622bb262459aad05a35e2ced280e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Shoreline Construction Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/7814622bb262459aad05a35e2ced280e/info/metadata/metadata.xml?format=default&output=html"
+    name: Shoreline Construction Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/867dc31a3f9d4be5a45efbd26287f115/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Sloped Ground Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/867dc31a3f9d4be5a45efbd26287f115/info/metadata/metadata.xml?format=default&output=html"
+    name: Sloped Ground Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ad674b5ea5604be994424ca264f66b93/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Sloped Ground Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ad674b5ea5604be994424ca264f66b93/info/metadata/metadata.xml?format=default&output=html"
+    name: Sloped Ground Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/32c43dc674d446db9db2c5e9f0d7f4f0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Small Craft Facility Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/32c43dc674d446db9db2c5e9f0d7f4f0/info/metadata/metadata.xml?format=default&output=html"
+    name: Small Craft Facility Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a1337902649e40d59fca398a305abb1c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Small Craft Facility Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a1337902649e40d59fca398a305abb1c/info/metadata/metadata.xml?format=default&output=html"
+    name: Small Craft Facility Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/c4af3316317646b68992eab65ac630cc/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Special Purpose Buoys (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/c4af3316317646b68992eab65ac630cc/info/metadata/metadata.xml?format=default&output=html"
+    name: Special Purpose Buoys (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/17474f9edaf745f5b8bb5a3261cac7e8/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: State Capitols
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/17474f9edaf745f5b8bb5a3261cac7e8/info/metadata/metadata.xml?format=default&output=html"
+    name: State Capitols Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1a7559aff4844505a1c78efc46368112/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: State Emergency Operations Centers (EOC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1a7559aff4844505a1c78efc46368112/info/metadata/metadata.xml?format=default&output=html"
+    name: State Emergency Operations Centers (EOC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/79034ed6d66f4988981e2e46f33f4f1f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "State Legislative Districts - Lower"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/79034ed6d66f4988981e2e46f33f4f1f/info/metadata/metadata.xml?format=default&output=html"
+    name: "State Legislative Districts - Lower Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6465057ce9a14bbca2d7569a999961f3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: "State Legislative Districts - Upper"
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6465057ce9a14bbca2d7569a999961f3/info/metadata/metadata.xml?format=default&output=html"
+    name: "State Legislative Districts - Upper Metadata"
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3898237f95fb4076b341cbb4d594bcf9/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Storage Tank or Silo Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3898237f95fb4076b341cbb4d594bcf9/info/metadata/metadata.xml?format=default&output=html"
+    name: Storage Tank or Silo Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8ee886562d3f4efbba854f0155f06134/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Storage Tank or Silo Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8ee886562d3f4efbba854f0155f06134/info/metadata/metadata.xml?format=default&output=html"
+    name: Storage Tank or Silo Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/6bb5f32811f64ca4aed9c50bf3d444e5/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Strategic Petroleum Reserves
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/6bb5f32811f64ca4aed9c50bf3d444e5/info/metadata/metadata.xml?format=default&output=html"
+    name: Strategic Petroleum Reserves Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/24546626381d48a9a9af256ff6d1eb5a/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Submarine Cable Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/24546626381d48a9a9af256ff6d1eb5a/info/metadata/metadata.xml?format=default&output=html"
+    name: Submarine Cable Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/01545f7ca02f4b40b27f248fb38761e4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Submarine Pipeline Lines (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/01545f7ca02f4b40b27f248fb38761e4/info/metadata/metadata.xml?format=default&output=html"
+    name: Submarine Pipeline Lines (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/4c14840a6d0d43c3bce1513be393f530/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Submarine Pipeline Locations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/4c14840a6d0d43c3bce1513be393f530/info/metadata/metadata.xml?format=default&output=html"
+    name: Submarine Pipeline Locations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1d939d74b3104da890d7a8517d4b885f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Submerged Land Act (SLA) Boundary
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1d939d74b3104da890d7a8517d4b885f/info/metadata/metadata.xml?format=default&output=html"
+    name: Submerged Land Act (SLA) Boundary Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/284d5c00b0d046e18eddff4017927dd1/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Supplemental Colleges
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/284d5c00b0d046e18eddff4017927dd1/info/metadata/metadata.xml?format=default&output=html"
+    name: Supplemental Colleges Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f3a69a0f07e845168633d838bef34419/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Terminal Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f3a69a0f07e845168633d838bef34419/info/metadata/metadata.xml?format=default&output=html"
+    name: Terminal Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/d57f790bc353436b817b73241a3f573d/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Terminal Points (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/d57f790bc353436b817b73241a3f573d/info/metadata/metadata.xml?format=default&output=html"
+    name: Terminal Points (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0b1082aa9fe446c293f7d4eb833eb3b2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Trails
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0b1082aa9fe446c293f7d4eb833eb3b2/info/metadata/metadata.xml?format=default&output=html"
+    name: Trails Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/3486fb60feb2454c99232248fdf624ec/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Transmission Lines
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/3486fb60feb2454c99232248fdf624ec/info/metadata/metadata.xml?format=default&output=html"
+    name: Transmission Lines Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f4e62fe944cb489ab5131c25105348fe/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Travel Monitoring Analysis System (TMAS) Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f4e62fe944cb489ab5131c25105348fe/info/metadata/metadata.xml?format=default&output=html"
+    name: Travel Monitoring Analysis System (TMAS) Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8264664d1f53439f9d722fac2713b77b/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Truck Driving Schools
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8264664d1f53439f9d722fac2713b77b/info/metadata/metadata.xml?format=default&output=html"
+    name: Truck Driving Schools Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f3c2496b0f9b47bd8ebf4726b4d097ab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Tsunami Capable Tide Stations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f3c2496b0f9b47bd8ebf4726b4d097ab/info/metadata/metadata.xml?format=default&output=html"
+    name: Tsunami Capable Tide Stations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/59e93be25ed445de823b7581d0bc8cd0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Underwater Rock Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/59e93be25ed445de823b7581d0bc8cd0/info/metadata/metadata.xml?format=default&output=html"
+    name: Underwater Rock Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f2b854675db04e8981277d09dd7eb0b7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Unified School Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f2b854675db04e8981277d09dd7eb0b7/info/metadata/metadata.xml?format=default&output=html"
+    name: Unified School Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/2c9b52ce91be4384931b64dd551cb6ea/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Uranium and Vanadium Deposits
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/2c9b52ce91be4384931b64dd551cb6ea/info/metadata/metadata.xml?format=default&output=html"
+    name: Uranium and Vanadium Deposits Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/1bbf23fcc54545d785300240c1a48d7e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Urban Areas
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/1bbf23fcc54545d785300240c1a48d7e/info/metadata/metadata.xml?format=default&output=html"
+    name: Urban Areas Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dca6e857eee34784836d37b13d8ae3b0/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Civil Works Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dca6e857eee34784836d37b13d8ae3b0/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Civil Works Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/dd6fc44e27c34b8c8f66cab0c2432e4e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Civil Works Divisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/dd6fc44e27c34b8c8f66cab0c2432e4e/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Civil Works Divisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/8ac4675d064c411a8cb03d10df66cbcf/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Military Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/8ac4675d064c411a8cb03d10df66cbcf/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Military Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/13ee43d3b1594f30a697a577db5b1a85/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Military Divisions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/13ee43d3b1594f30a697a577db5b1a85/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Military Divisions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ebc905e4dee74c8d9f57e1996ad58a22/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Offices
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ebc905e4dee74c8d9f57e1996ad58a22/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Offices Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/e8abf1e31e2644458a9cd62145f9048c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Army Corps of Engineers (USACE) Owned and Operated Reservoirs
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/e8abf1e31e2644458a9cd62145f9048c/info/metadata/metadata.xml?format=default&output=html"
+    name: US Army Corps of Engineers (USACE) Owned and Operated Reservoirs Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/13ad01f317f74e5989c3ee199496fa32/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Coal Fields
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/13ad01f317f74e5989c3ee199496fa32/info/metadata/metadata.xml?format=default&output=html"
+    name: US Coal Fields Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/729d008770244f96b12fa5f6f339e62e/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Coast Guard (USCG) Captain of the Port Zones
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/729d008770244f96b12fa5f6f339e62e/info/metadata/metadata.xml?format=default&output=html"
+    name: US Coast Guard (USCG) Captain of the Port Zones Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/9d8d139093a04877a65dd474d442c2e7/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Coast Guard (USCG) Maritime Differential GPS (DGPS) Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/9d8d139093a04877a65dd474d442c2e7/info/metadata/metadata.xml?format=default&output=html"
+    name: US Coast Guard (USCG) Maritime Differential GPS (DGPS) Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/fc8ccbf1454841188b66bcef322096f3/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US County Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/fc8ccbf1454841188b66bcef322096f3/info/metadata/metadata.xml?format=default&output=html"
+    name: US County Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/edfc2120384f4dbaad9387bdfd1a704c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Courts of Appeals Circuits
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/edfc2120384f4dbaad9387bdfd1a704c/info/metadata/metadata.xml?format=default&output=html"
+    name: US Courts of Appeals Circuits Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/ed086b05d8dc46eab574e0fecdcf0f1f/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US District Court Jurisdictions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/ed086b05d8dc46eab574e0fecdcf0f1f/info/metadata/metadata.xml?format=default&output=html"
+    name: US District Court Jurisdictions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/00673c617dfd4079a4b4ceb58c725c34/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Fish and Wildlife Service Corporate Master Table (CMT)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/00673c617dfd4079a4b4ceb58c725c34/info/metadata/metadata.xml?format=default&output=html"
+    name: US Fish and Wildlife Service Corporate Master Table (CMT) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/12a56832b66c43699902c2af367ba2e6/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US International Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/12a56832b66c43699902c2af367ba2e6/info/metadata/metadata.xml?format=default&output=html"
+    name: US International Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/47628f6b1e384369af45f13a6b8cb372/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Landslide Regions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/47628f6b1e384369af45f13a6b8cb372/info/metadata/metadata.xml?format=default&output=html"
+    name: US Landslide Regions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0c251fb684b446f6a6c31e0ac0ca538c/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Maritime Limits Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0c251fb684b446f6a6c31e0ac0ca538c/info/metadata/metadata.xml?format=default&output=html"
+    name: US Maritime Limits Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/b0ac564255834a6abeddb48c870c2555/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US State Boundaries
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/b0ac564255834a6abeddb48c870c2555/info/metadata/metadata.xml?format=default&output=html"
+    name: US State Boundaries Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/aa05c1ed010e4472b946f1dcdf5a34a4/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: US Virgin Islands Estates
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/aa05c1ed010e4472b946f1dcdf5a34a4/info/metadata/metadata.xml?format=default&output=html"
+    name: US Virgin Islands Estates Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/657c4f2d32214ae29e1f709d2917e099/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: USCG Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/657c4f2d32214ae29e1f709d2917e099/info/metadata/metadata.xml?format=default&output=html"
+    name: USCG Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0b10e10d139f40bf9014a0627f4fbc81/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: USCG Sectors
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0b10e10d139f40bf9014a0627f4fbc81/info/metadata/metadata.xml?format=default&output=html"
+    name: USCG Sectors Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0f5edb8b83464f9393c2b42205925318/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: USGS Hydro Network Linked Data Index (NLDI) Streamgage Monitoring Locations
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0f5edb8b83464f9393c2b42205925318/info/metadata/metadata.xml?format=default&output=html"
+    name: USGS Hydro Network Linked Data Index (NLDI) Streamgage Monitoring Locations Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/f11d7d153bfb408f85bd029b2dac9298/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Veterans Health Administration Medical Facilities
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/f11d7d153bfb408f85bd029b2dac9298/info/metadata/metadata.xml?format=default&output=html"
+    name: Veterans Health Administration Medical Facilities Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/a06e5112860d40fc8376e0112af48bf2/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Voting Districts
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/a06e5112860d40fc8376e0112af48bf2/info/metadata/metadata.xml?format=default&output=html"
+    name: Voting Districts Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/0cb9442ed16d4f55a4b280094efa59cb/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Warning Signal Stations (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/0cb9442ed16d4f55a4b280094efa59cb/info/metadata/metadata.xml?format=default&output=html"
+    name: Warning Signal Stations (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/409515c7627c444fb08b66cf89634028/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Watershed Boundary Dataset (WBD)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/409515c7627c444fb08b66cf89634028/info/metadata/metadata.xml?format=default&output=html"
+    name: Watershed Boundary Dataset (WBD) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/70ff5accb0ce45c68554d8fdd90aac10/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: WFIGS Interagency Fire Perimeters
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/70ff5accb0ce45c68554d8fdd90aac10/info/metadata/metadata.xml?format=default&output=html"
+    name: WFIGS Interagency Fire Perimeters Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/bd8500c4833e429e88cda5d9c11f9129/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Wreck Areas (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/bd8500c4833e429e88cda5d9c11f9129/info/metadata/metadata.xml?format=default&output=html"
+    name: Wreck Areas (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/17ac84aac1b04968b2bffbedc355e2ab/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Wrecks (USACE IENC)
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/17ac84aac1b04968b2bffbedc355e2ab/info/metadata/metadata.xml?format=default&output=html"
+    name: Wrecks (USACE IENC) Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False
+  - url: "https://hifld-geoplatform.hub.arcgis.com/datasets/95ca9257913d4e41a6a98e3c3f187e46/explore?location=32.943663%2C-100.273352%2C2.93"
+    name: Wrecks and Obstructions
+    resource_type: Data File (Other)
+    key_resource: True
+  - url: "https://www.arcgis.com/sharing/rest/content/items/95ca9257913d4e41a6a98e3c3f187e46/info/metadata/metadata.xml?format=default&output=html"
+    name: Wrecks and Obstructions Metadata
+    resource_type: Supporting Documentation Page
+    key_resource: False

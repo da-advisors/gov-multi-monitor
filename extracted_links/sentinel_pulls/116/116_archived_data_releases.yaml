@@ -1,0 +1,1374 @@
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2
+
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=
+linked_urls:
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=#main-content"
+    name: Skip to main content
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: Home
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data"
+    name: Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/gdp"
+    name: by Topic
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/by-place-us"
+    name: by Place
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/economic-accounts"
+    name: by Economic Account
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/tools"
+    name: Tools
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/itable"
+    name: Interactive Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/API/signup/"
+    name: Application Programming Interface (API)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/international/factsheet/"
+    name: Country Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/bearfacts/"
+    name: BEARFACTS
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/industry/factsheet/"
+    name: Industry Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/iTable/?reqid=158&step=1"
+    name: Trade in Value Added (TiVA) Table Builder
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/itable/?ReqID=99&step=1"
+    name: "GDP & Personal Income Mapping"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/rims/rimsii/"
+    name: RIMS II
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/efile"
+    name: eFile
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news"
+    name: News
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/glance"
+    name: Economy at a Glance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/current-releases"
+    name: News Releases
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/schedule"
+    name: Release Schedule
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/blog"
+    name: "The BEA Wire | BEA's Official Blog"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=All&created_1=All&title="
+    name: Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/for-journalists"
+    name: For Journalists
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research"
+    name: Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/offices-of-research"
+    name: Offices of Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/meet-the-researchers"
+    name: Meet the Researchers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/papers"
+    name: Papers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program"
+    name: Special Sworn Researcher Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program/papers"
+    name: "Research Using Company-Level Data"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/fellowship-program"
+    name: Fellowship Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources"
+    name: Resources
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center"
+    name: Learning Center
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/methodologies"
+    name: Methodologies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/multimedia"
+    name: Multimedia
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/subjects.htm"
+    name: Article Collections
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/congressional-users"
+    name: For Congressional Users
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/for-developers"
+    name: For Developers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center/bea-in-the-classroom"
+    name: For Students
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about"
+    name: About
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/who-we-are"
+    name: Who We Are
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/leadership"
+    name: BEA Leadership
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/advisory-committees"
+    name: Advisory Committees
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/budget-and-performance"
+    name: Budget and Performance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Policies and Information
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Our Policies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/working-at-bea"
+    name: Working at BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help"
+    name: Help
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/form/ask-an-expert"
+    name: Ask an Expert
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/information-for-survey-respondents"
+    name: For Survey Respondents
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions (FAQ)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/glossary"
+    name: Glossary
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/guidelines-for-citing-bea"
+    name: Guidelines for Citing BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-1st-quarter-2025-third-estimate-gdp-industry-and-corporate-profits"
+    name: Gross Domestic Product, 1st Quarter 2025 (Third Estimate), GDP by Industry, and Corporate Profits (Revised)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-1st-quarter"
+    name: Gross Domestic Product (Second Estimate), Corporate Profits (Preliminary Estimate),    1st Quarter 2025
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-1st-quarter-2025-advance-estimate"
+    name: Gross Domestic Product, 1st Quarter 2025 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-third-estimate-gdp-industry-and"
+    name: Gross Domestic Product, 4th Quarter and Year 2024 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-second-estimate"
+    name: Gross Domestic Product, 4th Quarter and Year 2024 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-advance-estimate"
+    name: Gross Domestic Product, 4th Quarter and Year 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-1"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-quarter-2024-second-estimate-and-corporate-profits"
+    name: Gross Domestic Product, Third Quarter 2024 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-quarter-2024-advance-estimate"
+    name: Gross Domestic Product, Third Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-0"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry,  Second Quarter 2024 and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-second"
+    name: Gross Domestic Product (Second Estimate), Corporate Profits (Preliminary Estimate), Second Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-second-quarter-2024-advance-estimate"
+    name: Gross Domestic Product, Second Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-industry"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, First Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-second-estimate-and-corporate-profits"
+    name: Gross Domestic Product, First Quarter 2024 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-advance-estimate"
+    name: Gross Domestic Product, First Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-third-estimate-gdp-industry-and"
+    name: Gross Domestic Product, Fourth Quarter and Year 2023 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-second-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2023 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-advance-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-third"
+    name: Gross Domestic Product (Second Estimate) Corporate Profits (Preliminary Estimate) Third Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Current page of1
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1"
+    name: Go to page 2 of 0 of2
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1"
+    name: Next page of››
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2"
+    name: Go to page 3 of 0 of3
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=3"
+    name: Go to page 4 of 0 of4
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=4"
+    name: Go to page 5 of 0 of5
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=5"
+    name: Go to page 6 of 0 of6
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=6"
+    name: Go to page 7 of 0 of7
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=7"
+    name: Go to page 8 of 0 of8
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=8"
+    name: Go to page 9 of 0 of9
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=17"
+    name: Last page ofLast »
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.bea.gov/scb"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/information-previous-updates-nipa-regional-accounts"
+    name: Information on Previous Updates of the National and Regional Economic Accounts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/federal-recovery-programs-and-bea-statistics"
+    name: Federal Recovery Programs and BEA Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/histdatacore/index.html"
+    name: Data Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/discontinued-or-delayed-statistics"
+    name: Previously Published/Impacted Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/industry-tables-no-longer-published"
+    name: Industry Tables No Longer Published
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://get.adobe.com/reader/"
+    name: Download Acrobat Reader
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/privacy"
+    name: Privacy
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/statement-commitment-scientific-integrity-principal-statistical-agencies"
+    name: Commitment to Scientific Integrity
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information/data-dissemination"
+    name: Data Dissemination Practices
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/open-data"
+    name: Open Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.usa.gov/"
+    name: USA.gov
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://business.usa.gov"
+    name: Business USA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.osec.doc.gov/ocr/nofear/nofear.htm"
+    name: No FEAR Act
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/opog"
+    name: FOIA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/"
+    name: U.S. Department of Commerce
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/status/"
+    name: Emergency Status
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/rss/rss.xml"
+    name: News Release Feed (RSS)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/_subscribe/"
+    name: Sign up for Email Notifications
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://x.com/bea_news"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.linkedin.com/company/bureau-of-economic-analysis"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.instagram.com/usbeagov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.facebook.com/usbeagov"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+
+
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1
+linked_urls:
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1#main-content"
+    name: Skip to main content
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: Home
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data"
+    name: Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/gdp"
+    name: by Topic
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/by-place-us"
+    name: by Place
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/economic-accounts"
+    name: by Economic Account
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/tools"
+    name: Tools
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/itable"
+    name: Interactive Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/API/signup/"
+    name: Application Programming Interface (API)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/international/factsheet/"
+    name: Country Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/bearfacts/"
+    name: BEARFACTS
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/industry/factsheet/"
+    name: Industry Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/iTable/?reqid=158&step=1"
+    name: Trade in Value Added (TiVA) Table Builder
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/itable/?ReqID=99&step=1"
+    name: "GDP & Personal Income Mapping"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/rims/rimsii/"
+    name: RIMS II
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/efile"
+    name: eFile
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news"
+    name: News
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/glance"
+    name: Economy at a Glance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/current-releases"
+    name: News Releases
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/schedule"
+    name: Release Schedule
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/blog"
+    name: "The BEA Wire | BEA's Official Blog"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=All&created_1=All&title="
+    name: Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/for-journalists"
+    name: For Journalists
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research"
+    name: Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/offices-of-research"
+    name: Offices of Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/meet-the-researchers"
+    name: Meet the Researchers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/papers"
+    name: Papers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program"
+    name: Special Sworn Researcher Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program/papers"
+    name: "Research Using Company-Level Data"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/fellowship-program"
+    name: Fellowship Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources"
+    name: Resources
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center"
+    name: Learning Center
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/methodologies"
+    name: Methodologies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/multimedia"
+    name: Multimedia
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/subjects.htm"
+    name: Article Collections
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/congressional-users"
+    name: For Congressional Users
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/for-developers"
+    name: For Developers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center/bea-in-the-classroom"
+    name: For Students
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about"
+    name: About
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/who-we-are"
+    name: Who We Are
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/leadership"
+    name: BEA Leadership
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/advisory-committees"
+    name: Advisory Committees
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/budget-and-performance"
+    name: Budget and Performance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Policies and Information
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Our Policies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/working-at-bea"
+    name: Working at BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help"
+    name: Help
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/form/ask-an-expert"
+    name: Ask an Expert
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/information-for-survey-respondents"
+    name: For Survey Respondents
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions (FAQ)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/glossary"
+    name: Glossary
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/guidelines-for-citing-bea"
+    name: Guidelines for Citing BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate"
+    name: Gross Domestic Product, Third Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-second-quarter"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), Second Quarter 2023 and Comprehensive Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-second-quarter-2023-second-estimate-and-corporate-profits"
+    name: Gross Domestic Product, Second Quarter 2023 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-second-quarter-2023-advance-estimate"
+    name: Gross Domestic Product, Second Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-industry"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate),  and GDP by Industry, First Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-first"
+    name: Gross Domestic Product (Second Estimate), Corporate Profits (Preliminary Estimate), First Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-first-quarter-2023-advance-estimate"
+    name: Gross Domestic Product, First Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-third-estimate-gdp-industry-and"
+    name: Gross Domestic Product, Fourth Quarter and Year 2022 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-second-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2022 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-advance-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-third"
+    name: Gross Domestic Product (Third Estimate), GDP by Industry, and Corporate Profits (Revised), Third Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-third-quarter"
+    name: Gross Domestic Product (Second Estimate) and Corporate Profits (Preliminary), Third Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-quarter-2022-advance-estimate"
+    name: Gross Domestic Product, Third Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-2nd"
+    name: Gross Domestic Product (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 2nd Quarter 2022 and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-second-quarter"
+    name: Gross Domestic Product (Second Estimate) and Corporate Profits (Preliminary), Second Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-quarter-2022-advance-estimate"
+    name: Gross Domestic Product, Second Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-first"
+    name: Gross Domestic Product (Third Estimate), GDP by Industry, and Corporate Profits (Revised), First Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-first-quarter"
+    name: Gross Domestic Product (Second Estimate) and Corporate Profits (Preliminary), First Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-first-quarter-2022-advance-estimate"
+    name: Gross Domestic Product, First Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-corporate-profits-and-gdp-industry-fourth-quarter"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits, and GDP by Industry, Fourth Quarter and Year 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Back to start of« First
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Previous page of‹‹
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Go to page 1 of 0 of1
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1"
+    name: Current page of2
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2"
+    name: Go to page 3 of 0 of3
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2"
+    name: Next page of››
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=3"
+    name: Go to page 4 of 0 of4
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=4"
+    name: Go to page 5 of 0 of5
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=5"
+    name: Go to page 6 of 0 of6
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=6"
+    name: Go to page 7 of 0 of7
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=7"
+    name: Go to page 8 of 0 of8
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=8"
+    name: Go to page 9 of 0 of9
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=17"
+    name: Last page ofLast »
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.bea.gov/scb"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/information-previous-updates-nipa-regional-accounts"
+    name: Information on Previous Updates of the National and Regional Economic Accounts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/federal-recovery-programs-and-bea-statistics"
+    name: Federal Recovery Programs and BEA Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/histdatacore/index.html"
+    name: Data Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/discontinued-or-delayed-statistics"
+    name: Previously Published/Impacted Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/industry-tables-no-longer-published"
+    name: Industry Tables No Longer Published
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://get.adobe.com/reader/"
+    name: Download Acrobat Reader
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/privacy"
+    name: Privacy
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/statement-commitment-scientific-integrity-principal-statistical-agencies"
+    name: Commitment to Scientific Integrity
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information/data-dissemination"
+    name: Data Dissemination Practices
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/open-data"
+    name: Open Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.usa.gov/"
+    name: USA.gov
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://business.usa.gov"
+    name: Business USA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.osec.doc.gov/ocr/nofear/nofear.htm"
+    name: No FEAR Act
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/opog"
+    name: FOIA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/"
+    name: U.S. Department of Commerce
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/status/"
+    name: Emergency Status
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/rss/rss.xml"
+    name: News Release Feed (RSS)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/_subscribe/"
+    name: Sign up for Email Notifications
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://x.com/bea_news"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.linkedin.com/company/bureau-of-economic-analysis"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.instagram.com/usbeagov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.facebook.com/usbeagov"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+
+
+https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2
+linked_urls:
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2#main-content"
+    name: Skip to main content
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/"
+    name: Home
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data"
+    name: Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/gdp"
+    name: by Topic
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/by-place-us"
+    name: by Place
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/economic-accounts"
+    name: by Economic Account
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/tools"
+    name: Tools
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/itable"
+    name: Interactive Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/API/signup/"
+    name: Application Programming Interface (API)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/international/factsheet/"
+    name: Country Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/bearfacts/"
+    name: BEARFACTS
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/industry/factsheet/"
+    name: Industry Facts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/iTable/?reqid=158&step=1"
+    name: Trade in Value Added (TiVA) Table Builder
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/itable/?ReqID=99&step=1"
+    name: "GDP & Personal Income Mapping"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/regional/rims/rimsii/"
+    name: RIMS II
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/efile"
+    name: eFile
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news"
+    name: News
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/glance"
+    name: Economy at a Glance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/current-releases"
+    name: News Releases
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/schedule"
+    name: Release Schedule
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/blog"
+    name: "The BEA Wire | BEA's Official Blog"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=All&created_1=All&title="
+    name: Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/for-journalists"
+    name: For Journalists
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research"
+    name: Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/offices-of-research"
+    name: Offices of Research
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/meet-the-researchers"
+    name: Meet the Researchers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/papers"
+    name: Papers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program"
+    name: Special Sworn Researcher Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/special-sworn-researcher-program/papers"
+    name: "Research Using Company-Level Data"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/research/fellowship-program"
+    name: Fellowship Program
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources"
+    name: Resources
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center"
+    name: Learning Center
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/methodologies"
+    name: Methodologies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/multimedia"
+    name: Multimedia
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/scb/subjects.htm"
+    name: Article Collections
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/congressional-users"
+    name: For Congressional Users
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/for-developers"
+    name: For Developers
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/resources/learning-center/bea-in-the-classroom"
+    name: For Students
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about"
+    name: About
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/who-we-are"
+    name: Who We Are
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/leadership"
+    name: BEA Leadership
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/advisory-committees"
+    name: Advisory Committees
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/budget-and-performance"
+    name: Budget and Performance
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Policies and Information
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information"
+    name: Our Policies
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/working-at-bea"
+    name: Working at BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help"
+    name: Help
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/form/ask-an-expert"
+    name: Ask an Expert
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/information-for-survey-respondents"
+    name: For Survey Respondents
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions (FAQ)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/faq"
+    name: Frequently Asked Questions
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/glossary"
+    name: Glossary
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/help/guidelines-for-citing-bea"
+    name: Guidelines for Citing BEA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-second-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2021 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-advance-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-3rd"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-3rd-quarter-2021-second-estimate-corporate-profits-3rd-quarter"
+    name: Gross Domestic Product, Third Quarter 2021 (Second Estimate); Corporate Profits, Third Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-3rd-quarter-2021-advance-estimate"
+    name: Gross Domestic Product, Third Quarter 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-2nd"
+    name: Gross Domestic Product, (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 2nd Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-2nd-quarter-2021-second-estimate-corporate-profits-2nd-quarter"
+    name: Gross Domestic Product, 2nd Quarter 2021 (Second Estimate); Corporate Profits, 2nd Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-second-quarter-2021-advance-estimate-and-annual-update"
+    name: Gross Domestic Product, Second Quarter 2021 (Advance Estimate) and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-1st"
+    name: Gross Domestic Product (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 1st Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-1st-quarter-2021-second-estimate-corporate-profits-1st-quarter"
+    name: Gross Domestic Product, 1st Quarter 2021 (Second Estimate); Corporate Profits, 1st Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-first-quarter-2021-advance-estimate"
+    name: Gross Domestic Product, First Quarter 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-4th-quarter-and"
+    name: Gross Domestic Product, (Third Estimate), GDP by Industry, and Corporate Profits, Fourth Quarter and Year 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-fourth-quarter-and-year-2020-second-estimate"
+    name: Gross Domestic Product, Fourth Quarter and Year 2020 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-4th-quarter-and-year-2020-advance-estimate"
+    name: Gross Domestic Product, 4th Quarter and Year 2020 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-estimate-corporate-profits-revised-and-gdp-industry-third"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised), and GDP by Industry, Third Quarter 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-3rd-quarter-2020-second-estimate-corporate-profits-3rd-quarter"
+    name: Gross Domestic Product, Third Quarter 2020 (Second Estimate); Corporate Profits, Third Quarter 2020 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-quarter-2020-advance-estimate"
+    name: Gross Domestic Product, Third Quarter 2020  (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-estimate-corporate-profits-revised-and-gdp-industry-annual"
+    name: Gross Domestic Product (Third Estimate), Corporate Profits (Revised), and GDP by Industry, Second Quarter 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-second-estimate-corporate-profits-2nd-quarter"
+    name: Gross Domestic Product, 2nd Quarter 2020 (Second Estimate); Corporate Profits, 2nd Quarter 2020 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-advance-estimate-and-annual-update"
+    name: Gross Domestic Product, 2nd Quarter 2020 (Advance Estimate) and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Back to start of« First
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=0"
+    name: Go to page 1 of 0 of1
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1"
+    name: Previous page of‹‹
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=1"
+    name: Go to page 2 of 0 of2
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=2"
+    name: Current page of3
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=3"
+    name: Go to page 4 of 0 of4
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=3"
+    name: Next page of››
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=4"
+    name: Go to page 5 of 0 of5
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=5"
+    name: Go to page 6 of 0 of6
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=6"
+    name: Go to page 7 of 0 of7
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=7"
+    name: Go to page 8 of 0 of8
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=8"
+    name: Go to page 9 of 0 of9
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/archive?field_related_product_target_id=451&created_1=All&title=&page=17"
+    name: Last page ofLast »
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.bea.gov/scb"
+    name: Survey of Current Business
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/information-previous-updates-nipa-regional-accounts"
+    name: Information on Previous Updates of the National and Regional Economic Accounts
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/federal-recovery-programs-and-bea-statistics"
+    name: Federal Recovery Programs and BEA Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/histdatacore/index.html"
+    name: Data Archive
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/discontinued-or-delayed-statistics"
+    name: Previously Published/Impacted Statistics
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/data/industry-tables-no-longer-published"
+    name: Industry Tables No Longer Published
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://get.adobe.com/reader/"
+    name: Download Acrobat Reader
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/contact-us"
+    name: Contact Us
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/privacy"
+    name: Privacy
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/statement-commitment-scientific-integrity-principal-statistical-agencies"
+    name: Commitment to Scientific Integrity
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/about/policies-and-information/data-dissemination"
+    name: Data Dissemination Practices
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/open-data"
+    name: Open Data
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.usa.gov/"
+    name: USA.gov
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://business.usa.gov"
+    name: Business USA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "http://www.osec.doc.gov/ocr/nofear/nofear.htm"
+    name: No FEAR Act
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/opog"
+    name: FOIA
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.commerce.gov/"
+    name: U.S. Department of Commerce
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/status/"
+    name: Emergency Status
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://apps.bea.gov/rss/rss.xml"
+    name: News Release Feed (RSS)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/_subscribe/"
+    name: Sign up for Email Notifications
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://x.com/bea_news"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.linkedin.com/company/bureau-of-economic-analysis"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.youtube.com/channel/UCCP9QD1x_z__duUivA6Yb5w"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.instagram.com/usbeagov/"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.facebook.com/usbeagov"
+    name: "[No text]"
+    resource_type: Data Repository or Listings page
+    key_resource: False

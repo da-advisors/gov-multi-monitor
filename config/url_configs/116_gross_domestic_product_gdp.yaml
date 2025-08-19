@@ -1,0 +1,391 @@
+url: https://www.bea.gov/data/gdp/gross-domestic-product
+name: Gross Domestic Product (GDP)
+linked_urls:
+  - url: https://www.bea.gov/news/2025/gross-domestic-product-2nd-quarter-2025-advance-estimate
+    name: GDP 2nd Quarter 2025 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-07/gdp2q25-adv.pdf
+    name: GDP 2nd Quarter 2025 (Advance Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-07/gdp2q25-adv.xlsx
+    name: GDP 2nd Quarter 2025 (Advance Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-07/hist2q25-adv.pdf
+    name: GDP 2nd Quarter 2025 (Advance Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-07/gdpkeysource-2q25-adv.xlsx
+    name: GDP 2nd Quarter 2025 (Advance Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-1st-quarter-2025-third-estimate-gdp-industry-and-corporate-profits"
+    name: GDP 1st Quarter 2025 (Third Estimate), GDP by Industry, and Corporate Profits (Revised)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-06/gdp1q25-3rd.pdf
+    name: GDP 1st Quarter 2025 (Third Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-06/gdp1q25-3rd.xlsx
+    name: GDP 1st Quarter 2025 (Third Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-06/hist1q25-3rd.pdf
+    name: GDP 1st Quarter 2025 (Third Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-06/gdpkeysource-1q25-3rd.xlsx
+    name: GDP 1st Quarter 2025 (Third Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-1st-quarter"
+    name: GDP 1st Quarter 2025 (Second Estimate), Corporate Profits (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-05/gdp1q25-2nd.pdf
+    name: GDP 1st Quarter 2025 (Second Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-05/gdp1q25-2nd.xlsx
+    name: GDP 1st Quarter 2025 (Second Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-05/hist1q25-2nd.pdf
+    name: GDP 1st Quarter 2025 (Second Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-05/gdpkeysource-1q25-2nd.xlsx
+    name: GDP 1st Quarter 2025 (Second Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-1st-quarter-2025-advance-estimate"
+    name: GDP 1st Quarter 2025 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-04/gdp1q25-adv.pdf
+    name: GDP 1st Quarter 2025 (Advance Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-04/gdp1q25-adv.xlsx
+    name: GDP 1st Quarter 2025 (Advance Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-04/hist1q25-adv.pdf
+    name: GDP 1st Quarter 2025 (Advance Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-04/gdpkeysource-1q25-adv.xlsx
+    name: GDP 1st Quarter 2025 (Advance Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-third-estimate-gdp-industry-and"
+    name: GDP 4th Quarter 2024 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-03/gdp4q24-3rd.pdf
+    name: GDP 4th Quarter 2024 (Third Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-03/gdp4q24-3rd.xlsx
+    name: GDP 4th Quarter 2024 (Third Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-03/hist4q24-3rd.pdf
+    name: GDP 4th Quarter 2024 (Third Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-03/gdpkeysource-4q24-3rd.xlsx
+    name: GDP 4th Quarter 2024 (Third Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-second-estimate"
+    name: GDP 4th Quarter 2024 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-02/gdp4q24-2nd.pdf
+    name: GDP 4th Quarter 2024 (Second Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-02/gdp4q24-2nd.xlsx
+    name: GDP 4th Quarter 2024 (Second Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-02/hist4q24-2nd.pdf
+    name: GDP 4th Quarter 2024 (Second Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-02/gdpkeysource-4q24-2nd.xlsx
+    name: GDP 4th Quarter 2024 (Second Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2025/gross-domestic-product-4th-quarter-and-year-2024-advance-estimate"
+    name: GDP 4th Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-01/gdp4q24-adv.pdf
+    name: GDP 4th Quarter 2024 (Advance Estimate) Full Release & Tables
+    resource_type: Report Document
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-01/gdp4q24-adv.xlsx
+    name: GDP 4th Quarter 2024 (Advance Estimate) Tables Only
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-01/hist4q24-adv.pdf
+    name: GDP 4th Quarter 2024 (Advance Estimate) Historical Comparisons
+    resource_type: Data File (PDF)
+    key_resource: True
+  - url: https://www.bea.gov/sites/default/files/2025-01/gdpkeysource-4q24-adv.xlsx
+    name: GDP 4th Quarter 2024 (Advance Estimate) Key Source Data and Assumptions
+    resource_type: Data File (Excel)
+    key_resource: True
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-1"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-quarter-2024-second-estimate-and-corporate-profits"
+    name: GDP Third Quarter 2024 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-quarter-2024-advance-estimate"
+    name: GDP Third Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-0"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry,  Second Quarter 2024 and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-second"
+    name: GDP (Second Estimate), Corporate Profits (Preliminary Estimate), Second Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-second-quarter-2024-advance-estimate"
+    name: GDP Second Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-industry"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, First Quarter 2024
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-second-estimate-and-corporate-profits"
+    name: GDP First Quarter 2024 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-first-quarter-2024-advance-estimate"
+    name: GDP First Quarter 2024 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-third-estimate-gdp-industry-and"
+    name: GDP Fourth Quarter and Year 2023 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-second-estimate"
+    name: GDP Fourth Quarter and Year 2023 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2024/gross-domestic-product-fourth-quarter-and-year-2023-advance-estimate"
+    name: GDP Fourth Quarter and Year 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-third"
+    name: GDP (Second Estimate) Corporate Profits (Preliminary Estimate) Third Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-quarter-2023-advance-estimate"
+    name: GDP Third Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-second-quarter"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), Second Quarter 2023 and Comprehensive Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-second-quarter-2023-second-estimate-and-corporate-profits"
+    name: GDP Second Quarter 2023 (Second Estimate) and Corporate Profits (Preliminary)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-second-quarter-2023-advance-estimate"
+    name: GDP Second Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2023/gross-domestic-product-third-estimate-corporate-profits-revised-estimate-and-gdp-industry"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate),  and GDP by Industry, First Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-second-estimate-corporate-profits-preliminary-estimate-first"
+    name: GDP (Second Estimate), Corporate Profits (Preliminary Estimate), First Quarter 2023
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-first-quarter-2023-advance-estimate"
+    name: GDP First Quarter 2023 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-third-estimate-gdp-industry-and"
+    name: GDP Fourth Quarter and Year 2022 (Third Estimate), GDP by Industry, and Corporate Profits
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-second-estimate"
+    name: GDP Fourth Quarter and Year 2022 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2023/gross-domestic-product-fourth-quarter-and-year-2022-advance-estimate"
+    name: GDP Fourth Quarter and Year 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-third"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits (Revised), Third Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-third-quarter"
+    name: GDP (Second Estimate) and Corporate Profits (Preliminary), Third Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-quarter-2022-advance-estimate"
+    name: GDP Third Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-2nd"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 2nd Quarter 2022 and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-second-quarter"
+    name: GDP (Second Estimate) and Corporate Profits (Preliminary), Second Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-quarter-2022-advance-estimate"
+    name: GDP Second Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-first"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits (Revised), First Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-second-estimate-and-corporate-profits-preliminary-first-quarter"
+    name: GDP (Second Estimate) and Corporate Profits (Preliminary), First Quarter 2022
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-first-quarter-2022-advance-estimate"
+    name: GDP First Quarter 2022 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-third-estimate-corporate-profits-and-gdp-industry-fourth-quarter"
+    name: GDP (Third Estimate), Corporate Profits, and GDP by Industry, Fourth Quarter and Year 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-second-estimate"
+    name: GDP Fourth Quarter and Year 2021 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2022/gross-domestic-product-fourth-quarter-and-year-2021-advance-estimate"
+    name: GDP Fourth Quarter and Year 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-3rd"
+    name: GDP (Third Estimate), Corporate Profits (Revised Estimate), and GDP by Industry, Third Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-3rd-quarter-2021-second-estimate-corporate-profits-3rd-quarter"
+    name: GDP Third Quarter 2021 (Second Estimate); Corporate Profits, Third Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-3rd-quarter-2021-advance-estimate"
+    name: GDP Third Quarter 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-2nd"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 2nd Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/index.php/news/2021/gross-domestic-product-2nd-quarter-2021-second-estimate-corporate-profits-2nd-quarter"
+    name: GDP 2nd Quarter 2021 (Second Estimate); Corporate Profits, 2nd Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-second-quarter-2021-advance-estimate-and-annual-update"
+    name: GDP Second Quarter 2021 (Advance Estimate) and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-revised-1st"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits (Revised), 1st Quarter 2021
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-1st-quarter-2021-second-estimate-corporate-profits-1st-quarter"
+    name: GDP 1st Quarter 2021 (Second Estimate); Corporate Profits, 1st Quarter 2021 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-first-quarter-2021-advance-estimate"
+    name: GDP First Quarter 2021 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-third-estimate-gdp-industry-and-corporate-profits-4th-quarter-and"
+    name: GDP (Third Estimate), GDP by Industry, and Corporate Profits, Fourth Quarter and Year 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-fourth-quarter-and-year-2020-second-estimate"
+    name: GDP Fourth Quarter and Year 2020 (Second Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2021/gross-domestic-product-4th-quarter-and-year-2020-advance-estimate"
+    name: GDP 4th Quarter and Year 2020 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-estimate-corporate-profits-revised-and-gdp-industry-third"
+    name: GDP (Third Estimate), Corporate Profits (Revised), and GDP by Industry, Third Quarter 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-3rd-quarter-2020-second-estimate-corporate-profits-3rd-quarter"
+    name: GDP Third Quarter 2020 (Second Estimate); Corporate Profits, Third Quarter 2020 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-quarter-2020-advance-estimate"
+    name: GDP Third Quarter 2020  (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-third-estimate-corporate-profits-revised-and-gdp-industry-annual"
+    name: GDP (Third Estimate), Corporate Profits (Revised), and GDP by Industry, Second Quarter 2020
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-second-estimate-corporate-profits-2nd-quarter"
+    name: GDP 2nd Quarter 2020 (Second Estimate); Corporate Profits, 2nd Quarter 2020 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-2nd-quarter-2020-advance-estimate-and-annual-update"
+    name: GDP 2nd Quarter 2020 (Advance Estimate) and Annual Update
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-third-estimate-corporate-profits-1st-quarter-2020"
+    name: GDP 1st Quarter 2020 (Third Estimate); Corporate Profits, 1st Quarter 2020 (Revised Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-second-estimate-corporate-profits-1st-quarter"
+    name: GDP 1st Quarter 2020 (Second Estimate); Corporate Profits, 1st Quarter 2020 (Preliminary Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: "https://www.bea.gov/news/2020/gross-domestic-product-1st-quarter-2020-advance-estimate"
+    name: GDP 1st Quarter 2020 (Advance Estimate)
+    resource_type: Data Repository or Listings page
+    key_resource: False
+  - url: https://www.bea.gov/sites/default/files/2020-08/quick-guide-gdp.pdf
+    name: GDP Releases Quick Guide
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bea.gov/gdp-revision-information
+    name: GDP Revision Information
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bea.gov/news/gdp-release-additional-information
+    name: GDP Release Information
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://www.bea.gov/resources/methodologies/nipa-handbook
+    name: "NIPA Handbook: Concepts and Methods of the U.S. National Income and Product Accounts"
+    resource_type: Supporting Documentation Page
+    key_resource: True
+  - url: https://apps.bea.gov/iTable/?reqid=19&step=2&isuri=1&categories=survey&_gl=1*1g0tcqc*_ga*NTg0MjgzMDI5LjE3NTQzMjEwNDc.*_ga_J4698JNNFT*czE3NTUwMDkwNTkkbzckZzEkdDE3NTUwMTI3NzIkajYkbDAkaDA.
+    name: "Interactive Data Tables: GDP and the National Income and Product Account (NIPA) Historical Tables"
+    resource_type: Interactive Dashboard/Data Explorer
+    key_resource: True
