@@ -134,11 +134,11 @@ linked_urls:
     resource_type: Data Table
     key_resource: True
   - url: "https://www.bls.gov/cps/cpsatabs.htm"
-    name: "Access to historical data for the "A" tables of the Employment Situation News Release"
+    name: "Access to historical data for the A tables of the Employment Situation News Release"
     resource_type: Data Repository or Listings page
     key_resource: True
   - url: "https://www.bls.gov/ces/data/employment-situation-table-download.htm"
-    name: "Access to historical data for the "B" tables of the Employment Situation News Release"
+    name: "Access to historical data for the B tables of the Employment Situation News Release"
     resource_type: Data Repository or Listings page
     key_resource: True
   - url: "https://www.bls.gov/news.release/empsit.htm"
