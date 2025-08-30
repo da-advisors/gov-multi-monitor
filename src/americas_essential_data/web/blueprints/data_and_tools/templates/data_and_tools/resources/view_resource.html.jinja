@@ -5,15 +5,21 @@
 {% endblock title %}
 
 {% block head %}
+  {# Use absolute URLs for static assets #}
   <link rel="stylesheet"
-        href="{{ url_for('data-and-tools.static', filename='styles/resources.css') }}" />
+        href="/static/styles/normalize.css" />
+  <link rel="stylesheet"
+        href="/static/styles/base.css" />
+  <link rel="stylesheet"
+        href="/static/styles/resource.css" />
 {% endblock head %}
 
 {% block main %}
-  <div class="resource-detail__wrapper flex-grid">
+  <div class="resource-detail__wrapper page-wrapper">
     <header class="resource-detail__heading">
       <h1 class="resource-detail__title">{{ resource.name }}</h1>
-      <a href={{ url_for("data-and-tools.resources_index") }}>Back to all resources</a>
+      {# Use relative URLs for navigation #}
+      <a href="{{ url_for('data-and-tools.resources_index', _external=False) }}">Back to all resources</a>
     </header>
     <section class="resource-detail">
       <table class="resource-detail__metadata">
