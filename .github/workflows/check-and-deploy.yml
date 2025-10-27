@@ -37,7 +37,7 @@ jobs:
           # CHANGED: Now downloads .gz file and decompresses it
           if curl -L -f -o data/monitor.db.gz https://github.com/${{ github.repository }}/releases/latest/download/monitor.db.gz; then
             echo "Successfully downloaded existing database"
-            gunzip data/monitor.db.gz
+            gunzip -f data/monitor.db.gz
           else
             echo "No existing database found, creating new one"
             # Copy from the repo as our initial database
