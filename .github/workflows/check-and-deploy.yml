@@ -1,5 +1,4 @@
 name: Check URLs and Deploy Status Page
-
 on:
   schedule:
     - cron: "0 */6 * * *" # Run every 6 hours
@@ -10,47 +9,41 @@ on:
       - "config/urls.yaml"
       - "src/**"
       - ".github/workflows/**"
-
 permissions:
   contents: write # Need write to push DB updates
   pages: write
   id-token: write
-
 jobs:
   check-and-deploy:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
       - uses: actions/checkout@v4
-
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
-
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install duckdb  # Install duckdb explicitly
           pip install -e .
-
       - name: Download previous database
         run: |
           mkdir -p data
-          # Try to download previous DB, if it fails create a new one
-          if curl -L -f -o data/monitor.db https://github.com/${{ github.repository }}/releases/latest/download/monitor.db; then
+          # CHANGED: Now downloads .gz file and decompresses it
+          if curl -L -f -o data/monitor.db.gz https://github.com/${{ github.repository }}/releases/latest/download/monitor.db.gz; then
             echo "Successfully downloaded existing database"
+            gunzip data/monitor.db.gz
           else
             echo "No existing database found, creating new one"
             # Copy from the repo as our initial database
             cp data/monitor.db data/monitor.db.new
             mv data/monitor.db.new data/monitor.db
           fi
-
       - name: (disabled) Run URL checks
         env:
           PYTHONPATH: /home/runner/work/gov-multi-monitor/gov-multi-monitor/src
@@ -60,7 +53,6 @@ jobs:
           # Set up debug logging
           python -c "import logging; logging.basicConfig(level=logging.DEBUG)"
           # don't do this: python -m americas_essential_data.cli check --verbose
-
       - name: Run URL checks and Generate status page
         run: |
           # Create docs directory if it doesn't exist
@@ -69,26 +61,26 @@ jobs:
           python -m americas_essential_data.cli generate-multi-page --output-dir docs/status --verbose
           # Create a redirect from index.html to status/index.html
           echo '<meta http-equiv="refresh" content="0; url=status/index.html">' > docs/index.html
-
+      # NEW STEP: Compress the database before uploading
+      - name: Compress database
+        run: gzip -c data/monitor.db > data/monitor.db.gz
       - name: Upload database as release asset
         uses: softprops/action-gh-release@v1
         with:
-          files: data/monitor.db
+          files: data/monitor.db.gz  # CHANGED: Upload .gz file instead
           tag_name: latest
           name: Latest Database
           body: |
             Latest monitoring database from ${{ github.sha }}
-
             This release is automatically updated with each successful check.
-
+            
+            Note: Database is gzip compressed. Download and decompress with: gunzip monitor.db.gz
       - name: Setup Pages
         uses: actions/configure-pages@v4
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: "docs"
-
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
