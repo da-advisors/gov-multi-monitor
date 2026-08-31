@@ -1,11 +1,11 @@
 <header class="site-header">
   <div class="site-header__wrapper">
     <!-- Logo that links to data-and-tools -->
-    <a href="{{ url_for('data-and-tools.index') }}"
+    <a href="{{ url_for('data-and-tools.index', _external=False) }}"
        class="site-header__logo">
       <img alt="Logo"
            class="site-header__logo-mark"
-           src="{{ url_for('static', filename='images/aed-mark.svg') }}"
+           src="{{ url_for('static', filename='images/aed-mark.svg', _external=False) }}"
            height="24"
            width="21" />
       <span class="site-header__logo-text">{{ SITE_NAME }}</span>
