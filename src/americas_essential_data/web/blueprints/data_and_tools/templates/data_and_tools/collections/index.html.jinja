@@ -1,0 +1,51 @@
+{% extends "_shared/page.html.jinja" %}
+
+{% block title %}
+  Data Sources
+{% endblock title %}
+
+{% block head %}
+  <link rel="stylesheet"
+        href="{{ url_for('data-and-tools.static', filename='styles/collections.css') }}" />
+{% endblock head %}
+
+{% block main %}
+  <header class="collection-list__header flex-grid">
+    <h1 class="collection-list__title">Data collections</h1>
+    <span class="collection-list__stats">Showing {{ collections|length }} of {{ total_collections }} collections</span>
+  </header>
+
+  <section class="collection-list__items flex-grid">
+    {% for collection in collections %}
+      {% include "data_and_tools/collections/_partials/collection_preview.html.jinja" %}
+    {% endfor %}
+  </section>
+
+  {% if total_pages > 1 %}
+    <footer class="collection-list__footer">
+      <nav class="pagination">
+        {% if current_page > 1 %}
+          <a href="{{ url_for('data-and-tools.collections_index', page=current_page-1) }}"
+             class="pagination__prev">Previous</a>
+        {% endif %}
+
+        <ol class="pagination__pages">
+          {% for p in range(1, total_pages + 1) %}
+            {% if p == current_page %}
+              <li class="pagination__page pagination__page--current">{{ p }}</li>
+            {% else %}
+              <li class="pagination__page">
+                <a href="{{ url_for('data-and-tools.collections_index', page=p) }}">{{ p }}</a>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        {% if current_page < total_pages %}
+          <a href="{{ url_for('data-and-tools.collections_index', page=current_page+1) }}"
+             class="pagination__next">Next</a>
+        {% endif %}
+      </nav>
+    </footer>
+  {% endif %}
+{% endblock main %}

@@ -6,6 +6,7 @@ class ResourceStatusRepository:
         self.db = db
 
     def find_latest_changes(self):
+        # TODO: Swap this out with read of the new materialized view?
         return [
             dict(
                 dataset="Workplace Fatality Investigations Data",
