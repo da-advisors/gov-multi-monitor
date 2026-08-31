@@ -20,3 +20,10 @@ class ResourceRepository:
             """,
             [id],
         )
+
+    def all_previews(self):
+        return self.db.query(
+            """
+            SELECT * FROM v_resource_previews
+            """
+        )
